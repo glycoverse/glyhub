@@ -6,7 +6,9 @@
 \title{Galactosylation of bovine fetuin N-glycans in an enzyme reactor}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 9 features and 18 observations. The abundance
-assay is in percentage within the source glycan family.
+assay is in percentage within the source glycan family. rowData includes a
+typed glycan_structure column; features without a supported structure are
+NA.
 }
 \source{
 GlycoPOST GPST000738. Supplementary Table 1, sheets 1 and 2; composition

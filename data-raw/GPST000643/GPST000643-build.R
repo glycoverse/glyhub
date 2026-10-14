@@ -288,7 +288,9 @@ for (s in specs) {
   cs <- vapply(rd$source_composition, comp_string, character(1))
   rd$glycan_composition <- glyrepr::as_glycan_composition(cs)
   st <- vapply(rd$source_putative_structure, structure_string, character(1))
-  rd$glycan_structure <- glyrepr::as_glycan_structure(st)
+  if (any(!is.na(st))) {
+    rd$glycan_structure <- glyrepr::as_glycan_structure(st)
+  }
   rd$structure_status <- ifelse(
     is.na(st),
     "original text retained; unassigned, ambiguous or not safely converted",

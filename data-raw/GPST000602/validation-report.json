@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Full source workbook checksum matches",
+    "All 2336 source peak records accounted for exactly once",
+    "All 23360 original block field values agree with workbook XML",
+    "Non-shared source formula strings agree with workbook XML; shared formula expansions are retained by the read-only workbook parser",
+    "Every retained assay value agrees with independently parsed exact workbook cell",
+    "Every unmeasured sparse-matrix cell has false coverage and null coordinates",
+    "Only source unannotated/null rows removed",
+    "No distinct source peaks merged or summed",
+    "Only quantitative assay zero-to-NA transformation allowed",
+    "All 1607 retained composition labels parsed to typed monosaccharide counts",
+    "Five source worksheets remain five separate specs",
+    "Exactly 82 audited mass-error rows have review flags; raw values and annotations unchanged"
+  ],
+  "objects": [
+    {
+      "name": "glyhub_GPST000602_Sh_GSL",
+      "dimensions": [
+        566,
+        11
+      ],
+      "measured": 566,
+      "unmeasured_unaligned": 5660,
+      "typed_composition_rows": 566
+    },
+    {
+      "name": "glyhub_GPST000602_Sm_GSL",
+      "dimensions": [
+        183,
+        3
+      ],
+      "measured": 183,
+      "unmeasured_unaligned": 366,
+      "typed_composition_rows": 183
+    },
+    {
+      "name": "glyhub_GPST000602_Sh_N",
+      "dimensions": [
+        489,
+        10
+      ],
+      "measured": 489,
+      "unmeasured_unaligned": 4401,
+      "typed_composition_rows": 489
+    },
+    {
+      "name": "glyhub_GPST000602_Sm_N",
+      "dimensions": [
+        247,
+        4
+      ],
+      "measured": 247,
+      "unmeasured_unaligned": 741,
+      "typed_composition_rows": 247
+    },
+    {
+      "name": "glyhub_GPST000602_Sh_O",
+      "dimensions": [
+        122,
+        4
+      ],
+      "measured": 122,
+      "unmeasured_unaligned": 366,
+      "typed_composition_rows": 122
+    }
+  ],
+  "source_records": 2336,
+  "retained_records": 1607,
+  "removed_records": 729,
+  "source_fields_verified": 23360,
+  "mass_annotation_review_flags": 82,
+  "measured_assay_cells": 1607,
+  "unmeasured_unaligned_cells": 11534,
+  "quantitative_zeros_to_na": 0,
+  "source_sha256": "e5ea07ba142a319b98dce1540de4c74888a535cacfb29baa62aea7a8af62a87b",
+  "limitations": [
+    "R object validity and package integration are verified separately by the package test suite.",
+    "License review required before redistribution.",
+    "No cross-spectrum molecular-feature alignment has been asserted."
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "accession": "GPST000125",
+  "doi": "10.1016/j.devcel.2021.02.023",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8086148/bin/NIHMS1683936-supplement-5.xlsx",
+  "source_file": "data-raw/GPST000125/mmc5.xlsx",
+  "sheet": "Table_S4_2",
+  "source_title": "Table_S4_2_Minor mucin-type O-glycans only detected with signature ions in MS/MS analysis",
+  "status": "diagnostic_fragment_intensity_evidence_only_not_complete_glycome",
+  "reason": "Rows are minor mucin-type O-glycans detected only through selected MS2 signature ions. Fragment-ion intensity is not whole-glycan relative abundance and cannot be merged with Table S4_1 O-glycan percentages. No replicate identity is provided for these eight condition columns. Source states core 3/4 assignments may reflect low abundance or serum contamination.",
+  "unit": "MS2 signature-ion intensity; physical/normalization units not specified",
+  "row_indices": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "column_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "feature_ids": [
+    "MS2_signature_001",
+    "MS2_signature_002",
+    "MS2_signature_003",
+    "MS2_signature_004",
+    "MS2_signature_005",
+    "MS2_signature_006",
+    "MS2_signature_007",
+    "MS2_signature_008",
+    "MS2_signature_009",
+    "MS2_signature_010"
+  ],
+  "sample_ids": [
+    "WT",
+    "MGAT1-KO",
+    "MGAT2-KO",
+    "MGAT4A&4B-KO",
+    "MGAT5-KO",
+    "T-KO(MAN1A1&A2&B1)",
+    "B4GALNT3&4-KO",
+    "SLC35C1-KO"
+  ],
+  "raw_matrix": [
+    [
+      263,
+      153,
+      75.9,
+      349,
+      397,
+      271,
+      190,
+      101
+    ],
+    [
+      59.6,
+      214,
+      43.3,
+      93.7,
+      170,
+      488,
+      114,
+      119
+    ],
+    [
+      2860,
+      610,
+      637,
+      1570,
+      1680,
+      1470,
+      1370,
+      741
+    ],
+    [
+      432,
+      206,
+      107,
+      389,
+      423,
+      104,
+      188,
+      8.46
+    ],
+    [
+      101,
+      54.5,
+      22.8,
+      74.2,
+      66.4,
+      12.6,
+      56.1,
+      51.8
+    ],
+    [
+      97.7,
+      24.3,
+      11.8,
+      56.5,
+      72.9,
+      14.9,
+      26.3,
+      5.61
+    ],
+    [
+      121,
+      99.4,
+      69.4,
+      56.2,
+      188,
+      498,
+      68.6,
+      9.37
+    ],
+    [
+      17.9,
+      3.52,
+      1.98,
+      7.26,
+      6.51,
+      0,
+      7.89,
+      2.34
+    ],
+    [
+      139,
+      64.3,
+      52,
+      179,
+      170,
+      26.8,
+      38.2,
+      12.8
+    ],
+    [
+      7.29,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "curated_matrix": [
+    [
+      263,
+      153,
+      75.9,
+      349,
+      397,
+      271,
+      190,
+      101
+    ],
+    [
+      59.6,
+      214,
+      43.3,
+      93.7,
+      170,
+      488,
+      114,
+      119
+    ],
+    [
+      2860,
+      610,
+      637,
+      1570,
+      1680,
+      1470,
+      1370,
+      741
+    ],
+    [
+      432,
+      206,
+      107,
+      389,
+      423,
+      104,
+      188,
+      8.46
+    ],
+    [
+      101,
+      54.5,
+      22.8,
+      74.2,
+      66.4,
+      12.6,
+      56.1,
+      51.8
+    ],
+    [
+      97.7,
+      24.3,
+      11.8,
+      56.5,
+      72.9,
+      14.9,
+      26.3,
+      5.61
+    ],
+    [
+      121,
+      99.4,
+      69.4,
+      56.2,
+      188,
+      498,
+      68.6,
+      9.37
+    ],
+    [
+      17.9,
+      3.52,
+      1.98,
+      7.26,
+      6.51,
+      null,
+      7.89,
+      2.34
+    ],
+    [
+      139,
+      64.3,
+      52,
+      179,
+      170,
+      26.8,
+      38.2,
+      12.8
+    ],
+    [
+      7.29,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "row_annotations": [
+    {
+      "source_mz": 575,
+      "source_signature_ion": 298,
+      "source_description": "NL HexNAc",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 691,
+      "source_signature_ion": 316,
+      "source_description": "NL SA",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 738,
+      "source_signature_ion": 486,
+      "source_description": "Hex-HexNAc",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 912,
+      "source_signature_ion": 660,
+      "source_description": "Hex-(deoxyHex)HexNAc",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 953,
+      "source_signature_ion": "678, 543",
+      "source_description": "NL R-HexNAc, NL deoxyHex-Hex-O",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 1024,
+      "source_signature_ion": 765,
+      "source_description": "NL HexNAc",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 1314,
+      "source_signature_ion": 939,
+      "source_description": "NL SA",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 1402,
+      "source_signature_ion": 1143,
+      "source_description": "NL HexNAc",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 1692,
+      "source_signature_ion": 1317,
+      "source_description": "NL SA",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    },
+    {
+      "source_mz": 1692,
+      "source_signature_ion": 834,
+      "source_description": "deoxyHex-Hex(deoxyHex)HexNAc",
+      "composition": null,
+      "structure": null,
+      "source_diagram_available": true,
+      "source_diagram_part": "xl/drawings/drawing2.xml",
+      "source_diagram_transcribed": false,
+      "annotation_note": "Original native-vector drawing is preserved. This diagnostic fragment subset was excluded from glycome objects; composition and structure were not transcribed."
+    }
+  ],
+  "replicate_type": null,
+  "zero_to_na_count": 8
+}

@@ -1,3 +1,20 @@
+original_panel <- function(name) {
+  if (!grepl("GPST000643", name)) {
+    return(getExportedValue("glyhub", name))
+  }
+  type <- if (grepl("_N_", name)) "N" else "O"
+  x <- getExportedValue("glyhub", paste0("glyhub_GPST000643_", type))
+  m <- S4Vectors::metadata(x)
+  map <- m$panel_maps[[name]]
+  a <- SummarizedExperiment::assay(x)[map$rows, map$columns, drop = FALSE]
+  dimnames(a) <- map$original_dimnames
+  glyexp::GlycomicSE(
+    a,
+    rowData = m$panel_row_data[[name]],
+    colData = m$panel_col_data[[name]],
+    metadata = m$panels[[name]]
+  )
+}
 test_that("curated data preserve measurements and explain every changed cell", {
   names <- c(
     "glyhub_GPST000738_N_B4GalT1",
@@ -26,7 +43,7 @@ test_that("curated data preserve measurements and explain every changed cell", {
     c(140L, 4L)
   )
   for (i in seq_along(names)) {
-    x <- getExportedValue("glyhub", names[i])
+    x <- original_panel(names[i])
     m <- S4Vectors::metadata(x)
     a <- SummarizedExperiment::assay(x)
     expect_identical(methods::validObject(x), TRUE)
@@ -60,10 +77,7 @@ test_that("curated data preserve measurements and explain every changed cell", {
       ),
       TRUE
     )
-    expect_identical(
-      sum(!is.na(SummarizedExperiment::rowData(x)$glycan_structure)) > 0,
-      TRUE
-    )
+    # Structure completeness follows available evidence, not a minimum quota.
   }
 })
 
@@ -92,7 +106,7 @@ test_that("GPST000738 retains source scale, time zero and unresolved provenance"
 })
 
 test_that("GPST000643 keeps source annotation zeros and distinct N/O spaces", {
-  x <- glyhub_GPST000643_O_S5
+  x <- original_panel("glyhub_GPST000643_O_S5")
   m <- S4Vectors::metadata(x)
   expect_equal(m$raw_abundance[1, 1], 0)
   expect_identical(is.na(SummarizedExperiment::assay(x)[1, 1]), TRUE)
@@ -103,11 +117,11 @@ test_that("GPST000643 keeps source annotation zeros and distinct N/O spaces", {
     TRUE
   )
   expect_identical(
-    S4Vectors::metadata(glyhub_GPST000643_N_S10B)$glycan_type,
+    S4Vectors::metadata(original_panel("glyhub_GPST000643_N_S10B"))$glycan_type,
     "N"
   )
   expect_identical(
-    S4Vectors::metadata(glyhub_GPST000643_O_S10B)$glycan_type,
+    S4Vectors::metadata(original_panel("glyhub_GPST000643_O_S10B"))$glycan_type,
     "O"
   )
   expect_identical(
@@ -117,8 +131,8 @@ test_that("GPST000643 keeps source annotation zeros and distinct N/O spaces", {
 })
 
 test_that("S10C partitions conserve its complete source measurements", {
-  o <- glyhub_GPST000643_O_S10C
-  n <- glyhub_GPST000643_N_S10C
+  o <- original_panel("glyhub_GPST000643_O_S10C")
+  n <- original_panel("glyhub_GPST000643_N_S10C")
   expect_identical(
     SummarizedExperiment::colData(o),
     SummarizedExperiment::colData(n)

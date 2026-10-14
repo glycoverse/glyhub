@@ -1,0 +1,92 @@
+{
+  "glyhub_GPST000643_O": {
+    "panels": 7,
+    "source_cells": 4447,
+    "covered_cells": 4447,
+    "features": 365,
+    "observations": 71,
+    "not_measured": 21468,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000643_N": {
+    "panels": 2,
+    "source_cells": 54,
+    "covered_cells": 54,
+    "features": 3,
+    "observations": 23,
+    "not_measured": 15,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000213_N": {
+    "panels": 7,
+    "source_cells": 9766,
+    "covered_cells": 9766,
+    "features": 679,
+    "observations": 86,
+    "not_measured": 48628,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000213_O": {
+    "panels": 5,
+    "source_cells": 1158,
+    "covered_cells": 1158,
+    "features": 148,
+    "observations": 39,
+    "not_measured": 4614,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000035_O": {
+    "panels": 30,
+    "source_cells": 1054,
+    "covered_cells": 1054,
+    "features": 231,
+    "observations": 66,
+    "not_measured": 14192,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000431_N": {
+    "panels": 3,
+    "source_cells": 3450,
+    "covered_cells": 3450,
+    "features": 70,
+    "observations": 62,
+    "not_measured": 890,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000374_O": {
+    "panels": 3,
+    "source_cells": 105,
+    "covered_cells": 105,
+    "features": 15,
+    "observations": 7,
+    "not_measured": 0,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000676_GAG": {
+    "panels": 2,
+    "source_cells": 120,
+    "covered_cells": 120,
+    "features": 8,
+    "observations": 15,
+    "not_measured": 0,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000578_N_total_peak_area": {
+    "panels": 4,
+    "source_cells": 1332,
+    "covered_cells": 1332,
+    "features": 75,
+    "observations": 27,
+    "not_measured": 693,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  },
+  "glyhub_GPST000578_N_source_repeatability_intensity": {
+    "panels": 4,
+    "source_cells": 156,
+    "covered_cells": 156,
+    "features": 41,
+    "observations": 12,
+    "not_measured": 336,
+    "conservation": "all panel assay and raw values exactly recovered via panel_maps"
+  }
+}

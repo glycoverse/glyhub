@@ -1,5 +1,5 @@
 #' Curated Glycomics and Glycoproteomics Data Resources
 #'
-#' @importClassesFrom glyexp GlycomicSE
+#' @importClassesFrom glyexp GlycomicSE GlycoproteomicSE
 #' @keywords internal
 "_PACKAGE"

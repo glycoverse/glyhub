@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "main_quantitative_cell_matches": 1072,
+  "source_cell_record_count": 2672,
+  "original_workbook_hash_verified": true,
+  "original_workbook_bytes": 253603,
+  "datasets": [
+    {
+      "dataset": "glyhub_GPST000125_N_HEK293",
+      "exact_cell_matches": 656,
+      "source_zeros_retained": 242,
+      "average_columns_checked": 328,
+      "average_max_absolute_difference": 1.7763568394002505e-15,
+      "error_columns_checked": 328,
+      "error_max_absolute_difference": 3.552713678800501e-15,
+      "all_columns_sum_to_100": true,
+      "private_identifiers_absent": true,
+      "annotation_conflicts_keep_rows": true,
+      "image_supported_conflicts_resolved": 4
+    },
+    {
+      "dataset": "glyhub_GPST000125_O_HEK293",
+      "exact_cell_matches": 224,
+      "source_zeros_retained": 30,
+      "average_columns_checked": 112,
+      "average_max_absolute_difference": 0.0,
+      "error_columns_checked": 112,
+      "error_max_absolute_difference": 3.552713678800501e-15,
+      "all_columns_sum_to_100": true,
+      "private_identifiers_absent": true,
+      "annotation_conflicts_keep_rows": true,
+      "image_supported_conflicts_resolved": 0
+    },
+    {
+      "dataset": "glyhub_GPST000125_GSL_HEK293",
+      "exact_cell_matches": 192,
+      "source_zeros_retained": 32,
+      "average_columns_checked": 96,
+      "average_max_absolute_difference": 0.0,
+      "error_columns_checked": 96,
+      "error_max_absolute_difference": 7.105427357601002e-15,
+      "all_columns_sum_to_100": true,
+      "private_identifiers_absent": true,
+      "annotation_conflicts_keep_rows": true,
+      "image_supported_conflicts_resolved": 1
+    }
+  ],
+  "existing_R_builder_result": "Three GlycomicSE objects built successfully; validObject TRUE; NA counts equal exactly 242 N, 30 O, 32 GSL; no quantitative zeros remain."
+}

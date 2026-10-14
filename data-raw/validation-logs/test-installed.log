@@ -1,0 +1,58 @@
+/workspace/shared/glyhub-coldata-review/install-lib/glyhub 0.0.0.9000
+✔ | F W  S  OK | Context
+
+⠏ |          0 | all-dataset-contracts
+⠼ |          5 | all-dataset-contracts
+⠇ |          9 | all-dataset-contracts
+⠹ |         43 | all-dataset-contracts
+⠏ |         80 | all-dataset-contracts
+⠧ |         98 | all-dataset-contracts
+⠇ |        119 | all-dataset-contracts
+⠸ |        144 | all-dataset-contracts
+⠴ |        176 | all-dataset-contracts
+⠙ |        212 | all-dataset-contracts
+⠋ |        231 | all-dataset-contracts
+⠧ |        258 | all-dataset-contracts
+⠴ |        286 | all-dataset-contracts
+⠼ |        315 | all-dataset-contracts
+⠇ |        339 | all-dataset-contracts
+⠹ |        363 | all-dataset-contracts
+✔ |        375 | all-dataset-contracts [2.3s]
+
+⠏ |          0 | candidate-withdrawal
+✔ |          2 | candidate-withdrawal
+
+⠏ |          0 | curated-data
+⠴ |          6 | curated-data
+⠦ |         37 | curated-data
+⠏ |         70 | curated-data
+⠴ |         96 | curated-data
+⠇ |        119 | curated-data
+⠸ |        144 | curated-data
+⠇ |        159 | curated-data
+✔ |        160 | curated-data [1.3s]
+
+⠏ |          0 | followup-decisions
+⠋ |         41 | followup-decisions
+✔ |         68 | followup-decisions
+
+⠏ |          0 | merged-panels
+⠋ |         41 | merged-panels
+⠼ |         85 | merged-panels
+⠇ |        129 | merged-panels
+⠋ |        171 | merged-panels
+⠴ |        216 | merged-panels
+⠙ |        252 | merged-panels
+⠋ |        301 | merged-panels
+⠙ |        332 | merged-panels
+⠹ |        383 | merged-panels
+⠸ |        434 | merged-panels
+⠇ |        489 | merged-panels
+✔ |        509 | merged-panels [1.2s]
+
+══ Results ═════════════════════════════════════════════════════════════════════
+Duration: 5.0 s
+
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 1114 ]
+
+🥳

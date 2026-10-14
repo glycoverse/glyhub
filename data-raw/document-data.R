@@ -14,6 +14,12 @@ output <- c(
   ""
 )
 for (x in records) {
+  object_env <- new.env()
+  load(file.path("data", paste0(x$name, ".rda")), object_env)
+  has_structure <- "glycan_structure" %in%
+    names(
+      SummarizedExperiment::rowData(object_env[[x$name]])
+    )
   source <- paste0(
     "GlycoPOST ",
     x$accession,
@@ -25,7 +31,22 @@ for (x in records) {
     "}. ",
     "Repository: \\url{https://glycopost.glycosmos.org/entry/",
     x$accession,
-    "}."
+    "}.",
+    if (!is.null(x$source_url)) {
+      paste0(" Quantitative source: \\url{", x$source_url, "}.")
+    } else {
+      ""
+    },
+    if (!is.null(x$annotation_source_url)) {
+      paste0(" Annotation evidence: \\url{", x$annotation_source_url, "}.")
+    } else {
+      ""
+    },
+    if (!is.null(x$related_doi)) {
+      paste0(" Related study: \\url{https://doi.org/", x$related_doi, "}.")
+    } else {
+      ""
+    }
   )
   output <- c(
     output,
@@ -40,13 +61,20 @@ for (x in records) {
     "#'",
     "#' @format",
     paragraphs(paste0(
-      "A [glyexp::GlycomicSE] with ",
+      "A [glyexp::",
+      if (is.null(x$object_class)) "GlycomicSE" else x$object_class,
+      "] with ",
       x$features,
       " features and ",
       x$observations,
       " observations. The abundance assay is in ",
       x$unit,
-      "."
+      ". ",
+      if (has_structure) {
+        "rowData includes a typed glycan_structure column; features without a supported structure are NA."
+      } else {
+        "rowData has no glycan_structure column because no feature has a supported structural annotation."
+      }
     )),
     "#' @source",
     paragraphs(source),

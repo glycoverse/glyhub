@@ -1,0 +1,1 @@
+PASS: checksum mismatch stops and leaves existing file unchanged.

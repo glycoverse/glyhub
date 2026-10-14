@@ -6,7 +6,9 @@
 \title{Sialylation of bovine fetuin N-glycans in an enzyme reactor}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 10 features and 28 observations. The abundance
-assay is in fraction within the source precursor glycan family.
+assay is in fraction within the source precursor glycan family. rowData
+includes a typed glycan_structure column; features without a supported
+structure are NA.
 }
 \source{
 GlycoPOST GPST000738. Supplementary Table 1, sheets 3 and 4; composition

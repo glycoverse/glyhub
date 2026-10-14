@@ -1,0 +1,55 @@
+ℹ Loading glyhub
+✔ | F W  S  OK | Context
+
+⠏ |          0 | all-dataset-contracts
+⠸ |          4 | all-dataset-contracts
+⠦ |         37 | all-dataset-contracts
+⠧ |         68 | all-dataset-contracts
+⠼ |         95 | all-dataset-contracts
+⠏ |        100 | all-dataset-contracts
+⠸ |        134 | all-dataset-contracts
+⠋ |        171 | all-dataset-contracts
+⠦ |        197 | all-dataset-contracts
+⠙ |        222 | all-dataset-contracts
+⠧ |        248 | all-dataset-contracts
+⠋ |        271 | all-dataset-contracts
+⠸ |        294 | all-dataset-contracts
+⠋ |        321 | all-dataset-contracts
+✔ |        342 | all-dataset-contracts [2.1s]
+
+⠏ |          0 | candidate-withdrawal
+✔ |          2 | candidate-withdrawal
+
+⠏ |          0 | curated-data
+⠼ |         25 | curated-data
+⠇ |         49 | curated-data
+⠼ |         75 | curated-data
+⠇ |         99 | curated-data
+⠴ |        126 | curated-data
+⠇ |        149 | curated-data
+✔ |        160 | curated-data
+
+⠏ |          0 | followup-decisions
+⠙ |         22 | followup-decisions
+⠼ |         55 | followup-decisions
+✔ |         68 | followup-decisions
+
+⠏ |          0 | merged-panels
+⠴ |         36 | merged-panels
+⠧ |         88 | merged-panels
+⠙ |        142 | merged-panels
+⠸ |        194 | merged-panels
+⠦ |        237 | merged-panels
+⠇ |        279 | merged-panels
+⠇ |        309 | merged-panels
+⠙ |        332 | merged-panels
+⠏ |        360 | merged-panels
+⠏ |        410 | merged-panels
+⠼ |        445 | merged-panels
+⠹ |        483 | merged-panels
+✔ |        509 | merged-panels [1.3s]
+
+══ Results ═════════════════════════════════════════════════════════════════════
+Duration: 4.5 s
+
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 1081 ]

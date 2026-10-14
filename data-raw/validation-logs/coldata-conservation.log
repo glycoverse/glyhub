@@ -1,0 +1,46 @@
+Loading required namespace: glyexp
+                                              dataset
+1                                 glyhub_GPST000035_O
+2                                 glyhub_GPST000183_n
+3                                 glyhub_GPST000183_o
+4                                 glyhub_GPST000213_N
+5                                 glyhub_GPST000374_O
+6                                 glyhub_GPST000431_N
+7                                 glyhub_GPST000431_N
+8                                 glyhub_GPST000431_N
+9                                 glyhub_GPST000431_N
+10 glyhub_GPST000578_N_source_repeatability_intensity
+11                glyhub_GPST000578_N_total_peak_area
+12                                glyhub_GPST000643_N
+13                                glyhub_GPST000643_N
+14                                glyhub_GPST000643_N
+15                                glyhub_GPST000643_O
+16                                glyhub_GPST000643_O
+17                                glyhub_GPST000643_O
+18                              glyhub_GPST000676_GAG
+19                              glyhub_GPST000676_GAG
+20                              glyhub_GPST000676_GAG
+                                              field       old     new
+1                   author_cell_metadata_source_row character  double
+2  paper_low_yield_excluded_from_final_preparations character logical
+3  paper_low_yield_excluded_from_final_preparations character logical
+4                  source_duplicate_vector_conflict character logical
+5                                     source_column character  double
+6                                               day character  double
+7                                   inhibitor_ug_ml character  double
+8                                     source_column character  double
+9                                  protein_input_ug character  double
+10                                    source_column character  double
+11                                    source_column character  double
+12                         source_percentage_column character  double
+13                                source_auc_column character  double
+14                                 source_rt_column character  double
+15                         source_percentage_column character  double
+16                                source_auc_column character  double
+17                                 source_rt_column character  double
+18                               embryos_per_sample character  double
+19                                              hpf character  double
+20                                    source_column character  double
+PASS: 20 fields corrected across 11 datasets; every value, missingness, assay, row annotation and other metadata preserved. One retained source-panel boolean column corrected as well.
+PASS: actual merger handles integer/double promotion, typed missing/conflicting values, missing columns, logical filtering and genuine mixed source text.
+PASS: 624 nonmissing typed metadata values match their preserved source-panel values exactly.

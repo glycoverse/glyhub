@@ -1,0 +1,15 @@
+{
+  "source_file": "578_41467_2026_73091_MOESM4_ESM.xls",
+  "source_sha256": "60e12061e5a4bdb1712649c2455f75e5a4b43c89c7559d99c67cdd2db361e6f1",
+  "verified_cells": 1516,
+  "all_values_exact_match": true,
+  "worksheet_csv": "figure4b-worksheet.csv",
+  "worksheet_csv_sha256": "c246d3d8612be7d732588976849e9985fddf2969287c78401b4a8da574a084b1",
+  "csv_dimensions": [
+    19,
+    36
+  ],
+  "csv_coordinate_system": "Same row and column indices as original Figure 4b worksheet, including blank cells and header rows",
+  "reader_issue": "readxl 1.5.0.1 substitutes embedded chart-substream cached numbers into ten cells C3:C12. Numeric worksheet records (depth 1, type 0x0010) agree exactly with xlrd; conflicting readxl values occur in chart substreams (depth 2, type 0x0020).",
+  "method": "Independent decoding of BIFF NUMBER, RK, MULRK and numeric FORMULA records at worksheet depth only, ignoring all chart substreams."
+}

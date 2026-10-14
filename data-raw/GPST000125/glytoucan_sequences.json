@@ -1,0 +1,3016 @@
+{
+  "results": {
+    "bindings": [
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G00451UT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,18,17/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-1-4-5-3-1-4-5-1-4-5-6/a4-b1_b4-c1_c3-d1_c6-k1_d2-e1_d4-h1_e4-f1_h4-i1_k2-l1_k6-o1_l4-m1_o4-p1_r1-e3|h3|l3|o3}_f?-g2_i?-j2_m?-n2_p?-q2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G04216GB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g3-h1_h2-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G10691MJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-1-3-1-4-5/a4-b1_a6-k1_b4-c1_c3-d1_c6-h1_d2-e1_d4-g1_e4-f1_h2-i1_i4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G10409DZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,13,12/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5-6-7-2-4-2-5-6/a4-b1_b4-c1_c3-d1_c4-i1_c6-j1_d2-e1_e3-f1_e4-g1_j2-k1_k3-l1_k4-m1_h2-g3|g6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G00049MO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-2/a4-b1_b3-c1_c3-d1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G05187DJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5]/1-2-3/a3-b1_b2-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G09859LE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-3-3/a3-b1_a6-e2_b3-c2_c8-d2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G03067VG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,7,6/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-3-2-4/a4-b1_b3-c1_c4-d1_d3-e1_e4-f1_f3-g2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G06341YK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-2-4/a3-b1_a6-c1_c4-d1_d2-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G07483YN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,7,6/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5]/1-1-2-3-1-3-4/a4-b1_a6-g1_b4-c1_c3-d1_c6-f1_d2-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G00050MO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-2-4/a4-b1_b3-c1_c3-d1_d2-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G14047PA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f6-g2_h2-i1_i4-j1_j3-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G03277YI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-4/a4-b1_b4-c1_c3-d1_d3-e2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G08046LM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,6,5/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-2-5/a3-b1_a6-d1_b3-c2_d4-e1_e2-f1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G08140FC"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-4-2/a3-b1_a6-d1_b3-c2_d4-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G06209KS"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f6-g2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G06239NA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3/a4-b1_b3-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G01935FK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-3-1-5-4/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h3-i1_h4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G00059MO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1a_1-5]/1-2-3/a4-b1_b4-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G13636IT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-2-4/a4-b1_b3-c1_c4-d1_d2-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G00061MO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1a_1-5][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4/a4-b1_b4-c1_c3-d1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G05368PM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1_f2-g1_g3-h1_g4-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G13156PQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-3-1-6-4-6/a4-b1_a6-l1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f3-g2_h2-i1_i3-j1_i4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G03717EM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3/a4-b1_b4-c1_c?-d1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G05897GU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3/a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G14669DU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,5,4/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2/a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G07133YY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/1,2,1/[axxxxh-1x_1-5]/1-1/a?|b?}-{a?|b?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G11870QZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,9,8/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G06356OH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,10,9/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-3-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G06110VR"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,7,6/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G10773YW"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,11,10/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3-4-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G03962UN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-1-3/a4-b1_b4-c1_c3-d1_c4-h1_c6-i1_d2-e1_e3-f1_e4-g1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G06795XH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-1-3-1-4-5-4/a4-b1_a6-k1_b4-c1_c3-d1_c6-g1_d2-e1_d4-f1_g2-h1_h3-i1_h4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G05724UK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,9,8/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G10256JP"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-2-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G03382KH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,10,9/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-2-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G02030ZB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,12,11/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G11629QQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,14,13/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-3-3-3-3-3-4-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G14851AV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3/a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G05917SW"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-4/a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G27776PG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5_2*NCC/3=O]/1-1-2-3-1-4-5-3-4/a4-b1_a6-i1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G22768VO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3/a4-b1_b4-c1_c3-d1_c6-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G21359NQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-1-3-1-4/a4-b1_a6-k1_b4-c1_c3-d1_c6-i1_d2-e1_d4-h1_e3-f1_e4-g1_i2-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G27919IH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-3-1-4-5/a4-b1_a6-i1_b4-c1_c3-d1_c6-f1_d2-e1_f2-g1_g4-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G14996IQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f3-g2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G24523DO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,13,12/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-2-5-6-4-2-5-7-2-5/a4-b1_a6-k1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_h2-i1_i4-j1_l4-m1_g2-f3|f6_l1-d4|d6|h4|h6}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G26952EK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,15,14/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-1-4-5-6-1-5-6-1-5-6/a4-b1_b4-c1_c3-d1_c6-e1_f3-g1_f4-h1_h6-i2_j4-k1_k6-l2_m4-n1_n6-o2_f1-a?|b?|c?|d?|e?}_j1-a?|b?|c?|d?|e?}_m1-a?|b?|c?|d?|e?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G27071PO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,6,5/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5/a3-b1_a6-c1_c3-d1_c4-e1_e3-f2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G19616IY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,15,14/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5-6-7-2-4-2-6-2-6-7/a4-b1_b4-c1_c3-d1_c6-j1_d2-e1_d4-i1_e3-f1_e4-g1_j2-k1_j6-m1_k4-l1_m4-n1_h2-g3|g6_o2-n3|n6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G35242IF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-3-1-4-5-6/a4-b1_a6-l1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_h2-i1_i4-j1_g2-f3|f6_k2-j3|j6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G31601FB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3/a3-b1_a6-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G19958IL"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2122h-1a_1-5]/1-1-2-3-3-3-4-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e2-f1_f3-g1_h3-i1_h6-k1_i2-j1_k2-l1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G34499SX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-e1_e3-f1_e6-h1_f2-g1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G35452GG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,13,12/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5-6-7-4-2-2-5-6/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_e3-f1_e4-g1_i2-j1_k3-l1_k4-m1_h2-g3|g6_k1-d4|d6|i4|i6}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G26182BM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5]/1-1-2-3-1-1-3-4/a4-b1_a6-h1_b4-c1_c3-d1_c6-g1_d2-e1_d4-f1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G18132YR"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-2/a3-b1_a6-c1_c4-d1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G36108GD"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-1-4-3-1-5/a4-b1_a6-k1_b4-c1_c3-d1_c6-i1_d2-e1_d4-g1_e4-f1_g4-h1_i2-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G31432OQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4/a4-b1_b4-c1_c6-d2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G35679QA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-4/a3-b1_a6-d1_b3-c2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G25363AJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,14,13/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-1-4-5-6-1-5-6-1-5/a4-b1_b4-c1_c3-d1_c6-e1_f3-g1_f4-h1_h3-i2_j4-k1_k6-l2_m4-n1_f1-a?|b?|c?|d?|e?}_j1-a?|b?|c?|d?|e?}_m1-a?|b?|c?|d?|e?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G19483RZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,10,9/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-5-6-4-2-7/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G36191CD"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-3-1-4/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h4-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G37135JQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-e1_e3-f1_e6-h1_f2-g1_h2-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G18784ZP"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-1-4-5-3-1-5/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_d4-f1_f3-g1_f4-h1_i2-j1_j4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G31555TF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-5-6/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1_j6-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G16451PE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-1-3-1-5/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_d4-h1_e3-f1_e4-g1_i2-j1_j4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G33262YZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-5-1-3-1-4/a4-b1_b4-c1_c3-d1_c4-h1_c6-i1_d2-e1_e4-f1_f2-g1_i2-j1_j4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G23901NY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-1-3-1-4-5/a4-b1_b4-c1_c3-d1_c4-g1_c6-h1_d2-e1_e4-f1_h2-i1_i4-j1_j2-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G32550BI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,3,2/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2/a?|b?|c?}-{a?|b?|c?_a?|b?|c?}-{a?|b?|c?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G17756LB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,3,2/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5]/1-2-2/a?|b?|c?}-{a?|b?|c?_a?|b?|c?}-{a?|b?|c?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G29931IJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,2,1/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2/a?|b?}-{a?|b?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G31685JQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3-3/a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G37834XB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,6,5/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-3-3-3/a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G32654XG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,15,14/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-4-1-5-6-1-5-6-1-5-6/a4-b1_a6-f1_b4-c1_c3-d1_c6-e1_g4-h1_h6-i2_j4-k1_k6-l2_m4-n1_n6-o2_j1-a2|b2|c2|d2|e2|f2}_m1-a2|b2|c2|d2|e2|f2}_g1-a4|a6|b4|b6|c4|c6|d4|d6|e4|e6|f4|f6}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G34730YF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,10,9/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G23863VK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,10,9/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-3-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G17307XM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a2112h-1x_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-3-1-5-1-6/a4-b1_a6-k1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_h1-g2|g6_j1-g2|g6_h?-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G22310AV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,12,11/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-3-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G15169WU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,15,14/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-1-2-3-3-3-3-3-4-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G26626TD"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,6,5/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-3-3/a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G43339ZY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,14,13/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-1-4-5-6-1-5-6-1-5/a4-b1_b4-c1_c3-d1_c6-e1_f3-g1_f4-h1_h6-i2_j4-k1_k6-l2_m4-n1_f1-a?|b?|c?|d?|e?}_j1-a?|b?|c?|d?|e?}_m1-a?|b?|c?|d?|e?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G40578SN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_g2-f3|f6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G50346FN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5]/1-1-2-3-4/a4-b1_a6-e1_b4-c1_d1-c3|c6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G51793MY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f3-g2_h2-i1_i4-j1_j6-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G40491DT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,7,6/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-3-2-4/a4-b1_b3-c1_c4-d1_d3-e1_e4-f1_f6-g2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G55220VL"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,7,6/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-e1_e3-f1_e6-g1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G43664YB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-1-4-3/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_d4-g1_e4-f1_g4-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G38812YS"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-4-2/a3-b1_a6-d1_b2-c1_d4-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G58645HA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,2,1/[h2112h_2*NCC/3=O][a2112h-1b_1-5]/1-2/a3-b1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G48558GR"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4-2/a4-b1_b3-c2_b4-d1_d3-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G40269CS"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a3-b1_b3-c2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G39868EL"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,15,14/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-2-5-6-2-4-2-5-2-5-6-7/a4-b1_a6-o1_b4-c1_c3-d1_c6-i1_d2-e1_d4-h1_e4-f1_i2-j1_i6-l1_j4-k1_l4-m1_g2-f3|f6_n2-m3|m6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G52120NK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,6,5/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-3/a3-b1_a6-d1_b3-c2_d4-e1_e3-f2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G46836GH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,7,6/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G54721WC"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-4/a4-b1_b4-c1_c3-d1_c6-e2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G55051BJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-2/a3-b1_a6-c1_c3-d1_c4-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G56014GC"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,6,5/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G45714BQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,6,5/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-4-4/a4-b1_b4-c1_c3-d1_c6-f2_d3-e2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G40702WU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g3-h1_g6-i1_i2-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G45187EI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-3-1-4-1-4-5/a4-b1_a6-k1_b4-c1_c3-d1_c6-f1_d2-e1_f2-g1_f6-i1_g4-h1_i4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G46677TE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,6,5/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-3/a4-b1_b3-c2_b4-d1_d3-e1_e3-f2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G52428MJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-1-4-3-5/a4-b1_a6-j1_b4-c1_c3-d1_c6-i1_d2-e1_d4-g1_e4-f1_g4-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G56327CO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,17,16/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-1-4-3-1-4-1-4-5-5-5-6/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_d4-g1_e4-f1_g4-h1_i2-j1_i6-l1_j4-k1_l4-m1_n2-f?|h?|k?|m?}_o2-f?|h?|k?|m?}_p2-f?|h?|k?|m?}_q1-f?|h?|k?|m?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G45365RV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-1-3-1/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_d4-h1_e3-f1_e4-g1_i2-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G38776RF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/1,1,0/[axxxxh-1x_1-5]/1/"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G54505OS"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-5-6/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1_j3-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G49644CL"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3/a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G40943ZI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3/a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G50045TK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,9,8/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-1-1-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G46831QF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,3,2/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2/a?|b?|c?}-{a?|b?|c?_a?|b?|c?}-{a?|b?|c?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G46687AB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G48414YA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,11,10/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-3-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G39595FH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,17,16/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-1-2-3-3-3-3-3-3-4-4-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G49874UX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G51287LK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?_a?|b?|c?|d?|e?|f?|g?|h?|i?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G39188ZX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,8,7/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G37881RL"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,14,13/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2-2-3-3-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G42032ZI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-3-1-1-4-5/a4-b1_a6-i1_b4-c1_c3-d1_c6-f1_d2-e1_f2-g1_f6-h1_j1-e4|g4|h4}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G40066BA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,12,11/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G46056UB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,6,5/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-4-4/a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G65594XM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,18,17/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-2-5-6-2-5-6-4-2-5-6-2-5-6-7/a4-b1_a6-r1_b4-c1_c3-d1_c6-k1_d2-e1_d6-h1_e4-f1_h4-i1_k2-l1_k4-o1_l4-m1_o4-p1_f?-g2_i?-j2_m?-n2_p?-q2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G62217NB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,5,4/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-4/a3-b1_a6-c1_c4-d1_d3-e2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G65597BI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-3-1-5/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G71156OO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,11,10/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-5-6-4-2-5-7/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i3-j1_i4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G65889KE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/1,1,0/[a2112h-1b_1-5]/1/"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G68668TB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g3-h1_g6-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G61751GZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,6,5/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-1-3/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G63337SS"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1_f3-g1_f6-i1_g2-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G61207RZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5]/1-1-2-3-1-1-3-1-4/a4-b1_a6-i1_b4-c1_c3-d1_c6-g1_d2-e1_d4-f1_g2-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G58667NI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-3-1-5/a4-b1_a6-i1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G75709RV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,6,5/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-5-2/a3-b1_a6-d1_b3-c2_d3-e1_d4-f1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G60138JZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4/a3-b1_a6-d2_b2-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G60605ZN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[a1221m-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5]/1-2-3/a3-b1_b4-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G72547ER"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,12,11/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5-6-7-4-2-5-6/a4-b1_b4-c1_c3-d1_c6-i1_d2-e1_e3-f1_e4-g1_i2-j1_j3-k1_j4-l1_h2-g3|g6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G71142DF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/1,1,0/[a2122h-1b_1-5]/1/"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G61846BY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-e1_e3-f1_e6-g1_g2-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G71917KP"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-3-3/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_h3-i1_h6-j1_g2-f3|f6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G59126YU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[a1122h-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4/a2-b1_b4-c1_c3-d2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G65285QO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a3-b1_a6-c2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G67883AD"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,6,5/[h2112h_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5/a3-b1_a6-d1_b2-c1_d4-e1_e3-f2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G70593HA"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[a1221m-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4/a3-b1_b4-c1_c6-d2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G58896AZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-2/a4-b1_b3-c1_c4-d1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G69452KV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5]/1-1-2-3-1-3-1-4-5-6/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1_f2-g1_h1-a3|b3|c3|d3|e3|f3|g3}_i1-a?|b?|c?|d?|e?|f?|g?}_j1-a?|b?|c?|d?|e?|f?|g?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G60230HH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g3-h1_g6-j1_h2-i1_j2-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G66190PM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-1-4-3-1-5-4/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_d4-f1_f4-g1_h2-i1_i3-j1_i4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G73432VT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,6,5/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-3/a4-b1_b3-c2_b4-d1_d3-e1_d6-f2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G69982RY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-3-1-6-4/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f3-g2_h2-i1_i3-j1_i4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G61465OY"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2112h-1b_1-5]/1-1-2-3-1-1-3-1-4-5-6-6/a4-b1_a6-i1_b4-c1_d2-f1_g2-h1_j2-a6|b6|c6|d6|e6|f6|g6|h6|i6}_k1-a4|b4|c4|d4|e4|f4|g4|h4|i4}_l1-a4|b4|c4|d4|e4|f4|g4|h4|i4}_c?-d1_c?-g1_d?-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G60145BJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,6,5/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-1-2-2-2/a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G74724QE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,6,5/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3-3-3/a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G74722FL"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3/a?|b?|c?}-{a?|b?|c?_a?|b?|c?}-{a?|b?|c?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G63628AV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,4,3/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2/a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G66538GV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,6,5/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2/a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?_a?|b?|c?|d?|e?|f?}-{a?|b?|c?|d?|e?|f?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G70101JE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,11,10/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G72291OX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?_a?|b?|c?|d?|e?|f?|g?|h?}-{a?|b?|c?|d?|e?|f?|g?|h?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G72978AW"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,11,10/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-3-3-3-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G64527OM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,10,9/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-2-2-2-2-2-2-2/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G69834CE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,18,17/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-1-1-2-3-3-3-3-3-3-4-4-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?|n?|o?|p?|q?|r?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G72368JX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h4-i1_j2-a3|b3|c3|d3|e3|f3|g3|h3|i3}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G65019XG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,13,12/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3-3-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G87318MX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,13,12/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-2-3-4-2-5-6-4-2-7-2-5-6/a4-b1_a6-j1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_h2-i1_k4-l1_g2-f3|f6_m2-l3|l6_k1-d4|d6|h4|h6}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G77285LE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[a2122h-1b_1-5][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-2-3-2-3-2/a4-b1_b3-c1_c4-d1_d3-e1_e4-f1_f3-g1_g4-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84108IZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,13,12/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-1-3-1-4-5-6/a4-b1_a6-m1_b4-c1_c3-d1_c6-i1_d2-e1_d4-h1_e4-f1_f6-g2_i2-j1_j4-k1_k6-l2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G89864BN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1_f3-g1_f6-i1_g2-h1_i2-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G83161QT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1_f3-g1_f6-h1_h2-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G79369FE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,11,10/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-5-6-4-2-7-5/a4-b1_a6-k1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G82348BZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,6,5/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5]/1-1-2-3-3-4/a4-b1_a6-f1_b4-c1_c3-d1_c6-e1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G80858MF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5]/1-1-2-3-1-3-1-4/a4-b1_a6-h1_b4-c1_c3-d1_c6-f1_d2-e1_f2-g1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G88421PE"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-e1_e2-f1_f4-g1_g6-h2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84224TW"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,2,1/[a2122h-1b_1-5][a2112h-1b_1-5]/1-2/a4-b1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84552CD"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,6,5/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3/a4-b1_b4-c1_c3-d1_c6-e1_f1-e3|e6"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81980VO"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g6-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G78059CC"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-3-1-4-5/a4-b1_a6-j1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h4-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G88417ED"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-3-1-5-6/a4-b1_a6-j1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h4-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G79389NT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,4,3/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2112h-1b_1-5_2*NCC/3=O]/1-2-3-4/a4-b1_b3-c2_b4-d1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84532YF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,13,12/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5-6-7-4-2-5-2-6/a4-b1_a6-k1_b4-c1_c3-d1_c6-i1_d2-e1_e3-f1_e4-g1_i2-j1_l4-m1_h2-g3|g6_l1-d4|d6|i4|i6}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G77252PU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f3-g2_h2-i1_i4-j1_j3-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84467IZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f6-g2_h2-i1_i4-j1_j6-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G83582BK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g3-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G80966KZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-f1_d2-e1_f3-g1_f6-h1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84906ML"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[h2112h_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-3/a3-b1_a6-d2_b3-c2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G79556AB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-5-6-4/a4-b1_a6-l1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1_j3-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G86763VI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,14,13/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-1-4-5-6-1-5-6-1-5/a4-b1_b4-c1_c3-d1_c6-e1_f3-g1_f4-h1_h6-i2_j4-k1_k3-l2_m4-n1_f1-a?|b?|c?|d?|e?}_j1-a?|b?|c?|d?|e?}_m1-a?|b?|c?|d?|e?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G90562PB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O]/1-2-3/a4-b1_b4-c1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G90348RI"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-3-1-6-4-6/a4-b1_a6-l1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f6-g2_h2-i1_i3-j1_i4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G87433AX"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h4-i1_j2-a6|b6|c6|d6|e6|f6|g6|h6|i6}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G76873LU"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-1-3-1-5-4/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_d4-g1_e4-f1_h2-i1_i3-j1_i4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84523VQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-4-1-5-4-3-1/a4-b1_b4-c1_c3-d1_c6-j1_d2-e1_d4-g1_e4-f1_g3-h1_g4-i1_j2-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G89181JW"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a1221m-1a_1-5]/1-1-2-3-1-1-4-3-1-4-5/a4-b1_a6-k1_b4-c1_c3-d1_c6-h1_d2-e1_d4-f1_f4-g1_h2-i1_i4-j1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G75903TQ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,12,11/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-1-5-6-4/a4-b1_a6-l1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1_i4-j1_j6-k2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G90717TP"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-1-3-1-4-5/a4-b1_a6-i1_b4-c1_c3-d1_c6-g1_d2-e1_d4-f1_g2-h1_j1-a4|b4|c4|d4|e4|f4|g4|h4|i4}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G76163CP"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3/a?|b?|c?}-{a?|b?|c?_a?|b?|c?}-{a?|b?|c?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G82930TB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/2,4,3/[axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2/a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81006GJ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,4,3/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-3/a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?_a?|b?|c?|d?}-{a?|b?|c?|d?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G84452RH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,11,10/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81263BG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,13,12/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-3-3-3-3-3-4-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G75983OB"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,12,11/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G82273ZM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-1-4-5-3-3/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_i1-h3|h6_f?-g2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G88238RR"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3-3/a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G85006RH"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,5,4/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-1-2-3/a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?_a?|b?|c?|d?|e?}-{a?|b?|c?|d?|e?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G91237TK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G91704UR"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5]/1-1-2-3-3-3-3-3-3-3/a4-b1_b4-c1_c3-d1_c6-g1_d2-e1_e2-f1_g3-h1_g6-j1_h2-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G96503EZ"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,14,13/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-5-3-1-4-1-4-5-6/a4-b1_a6-n1_b4-c1_c3-d1_c6-h1_d2-e1_e4-f1_f3-g2_h2-i1_i4-j1_j3-k1_k4-l1_l3-m2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G91337ZP"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,10,9/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][a2112h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-1-4-3-1-5-6/a4-b1_a6-j1_b4-c1_c3-d1_c6-g1_d2-e1_e4-f1_g2-h1_h4-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G97720QM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,8,7/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-1-2-3-3-1-4-5/a4-b1_b4-c1_c3-d1_c6-e1_e2-f1_f4-g1_g3-h2"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G90966FR"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/6,13,12/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-3-1-4-5-1-6-4-1-4/a4-b1_b4-c1_c3-d1_c6-e1_f4-g1_i3-j1_i4-k1_l4-m1_g?-h2_f1-a?|b?|c?|d?|e?}_i1-a?|b?|c?|d?|e?}_l1-a?|b?|c?|d?|e?}"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G95081VM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,9,8/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-3-1/a4-b1_b4-c1_c3-d1_c6-h1_d2-e1_e3-f1_e4-g1_h2-i1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G97958KV"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/5,11,10/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5]/1-1-2-3-1-4-5-1-5-3-1/a4-b1_b4-c1_c3-d1_c6-j1_d2-e1_d4-h1_e3-f1_e4-g1_h4-i1_j2-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G99375FM"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/1,3,2/[axxxxh-1x_1-5]/1-1-1/a?|b?|c?}-{a?|b?|c?_a?|b?|c?}-{a?|b?|c?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G91331SN"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,7,6/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-3-3-3-3/a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G94854LT"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,7,6/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-3-3-3/a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?_a?|b?|c?|d?|e?|f?|g?}-{a?|b?|c?|d?|e?|f?|g?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G91636VS"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/3,11,10/[axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-2-2-2-2-2-3-3-3-3-3/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G92534LG"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,15,14/[a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a2122h-1x_1-5_2*NCC/3=O][a2112h-1x_1-5][Aad21122h-2x_2-6_5*NCC/3=O][a1221m-1a_1-5]/1-1-2-3-4-5-6-4-5-6-3-4-5-4-7/a4-b1_a6-o1_b4-c1_d1-c3|c6_k1-c3|c6_d?-e1_d?-h1_e?-f1_f?-g2_h?-i1_i?-j2_k?-l1_k?-n1_l?-m1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G91473PK"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/4,13,12/[Aad21122h-2x_2-6_5*NCC/3=O][axxxxm-1x_1-5][axxxxh-1x_1-5_2*NCC/3=O][axxxxh-1x_1-5]/1-1-2-3-3-3-3-3-4-4-4-4-4/a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?_a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?}-{a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      },
+      {
+        "id": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G92442AF"
+        },
+        "seq": {
+          "type": "literal",
+          "value": "WURCS=2.0/7,13,12/[a2122h-1x_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a1122h-1b_1-5][a1122h-1a_1-5][a1221m-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5-6-7-4-2-6-2-5/a4-b1_a6-m1_b4-c1_c3-d1_c6-i1_d2-e1_e3-f1_e4-g1_g3-h2_i2-j1_i6-l1_j4-k1"
+        },
+        "format": {
+          "type": "uri",
+          "value": "http://purl.jp/bio/12/glyco/glycan#carbohydrate_format_wurcs"
+        }
+      }
+    ]
+  }
+}

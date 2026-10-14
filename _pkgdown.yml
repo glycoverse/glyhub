@@ -2,19 +2,74 @@ url: https://glycoverse.github.io/glyhub/
 template:
   bootstrap: 5
 reference:
-- title: Curated glycomics data
+- title: GPST000035
+  contents:
+  - glyhub_GPST000035_O
+- title: GPST000120
+  contents:
+  - glyhub_GPST000120_O_Spike_ACE2
+- title: GPST000125
+  contents:
+  - glyhub_GPST000125_N_HEK293
+  - glyhub_GPST000125_O_HEK293
+  - glyhub_GPST000125_GSL_HEK293
+- title: GPST000128
+  contents:
+  - glyhub_GPST000128_n_precursor
+  - glyhub_GPST000128_o_precursor
+- title: GPST000183
+  contents:
+  - glyhub_GPST000183_n
+  - glyhub_GPST000183_o
+- title: GPST000213
+  contents:
+  - glyhub_GPST000213_N
+  - glyhub_GPST000213_O
+- title: GPST000271
+  contents:
+  - glyhub_GPST000271_N_CAL51
+  - glyhub_GPST000271_O_CAL51
+- title: GPST000374
+  contents:
+  - glyhub_GPST000374_sssmug_gsl
+  - glyhub_GPST000374_sssmug_n
+  - glyhub_GPST000374_O
+- title: GPST000381
+  contents:
+  - glyhub_GPST000381_N_Prosaposin
+- title: GPST000431
+  contents:
+  - glyhub_GPST000431_N
+- title: GPST000533
+  contents:
+  - glyhub_GPST000533_N_Released
+  - glyhub_GPST000533_N_Glycopeptides
+- title: GPST000578
+  contents:
+  - glyhub_GPST000578_N_total_peak_area
+  - glyhub_GPST000578_N_source_repeatability_intensity
+  - glyhub_GPST000578_N_Fetuin_TwoSites
+- title: GPST000599
+  contents:
+  - glyhub_GPST000599_serum_n
+- title: GPST000602
+  contents:
+  - glyhub_GPST000602_Sh_GSL
+  - glyhub_GPST000602_Sm_GSL
+  - glyhub_GPST000602_Sh_N
+  - glyhub_GPST000602_Sm_N
+  - glyhub_GPST000602_Sh_O
+- title: GPST000643
+  contents:
+  - glyhub_GPST000643_O
+  - glyhub_GPST000643_N
+- title: GPST000676
+  contents:
+  - glyhub_GPST000676_GAG
+- title: GPST000738
   contents:
   - glyhub_GPST000738_N_B4GalT1
   - glyhub_GPST000738_N_ST6GAL1
-  - glyhub_GPST000643_O_S5
-  - glyhub_GPST000643_O_S7
-  - glyhub_GPST000643_O_S9B
-  - glyhub_GPST000643_O_S10B
-  - glyhub_GPST000643_N_S10B
-  - glyhub_GPST000643_O_S10C
-  - glyhub_GPST000643_N_S10C
-  - glyhub_GPST000643_O_S11B
-  - glyhub_GPST000643_O_S12
 - title: Data conventions
   contents:
   - glyhub_data_conventions

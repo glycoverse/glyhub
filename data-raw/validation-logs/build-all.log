@@ -1,0 +1,91 @@
+glyhub_GPST000035_s2_fetuin_standard: 3 x 3
+glyhub_GPST000035_s3_c10: 31 x 2
+glyhub_GPST000035_s4_colo205: 7 x 2
+glyhub_GPST000035_s5_ht29: 17 x 3
+glyhub_GPST000035_s6_ht29_vumc: 12 x 2
+glyhub_GPST000035_s7_widr: 16 x 2
+glyhub_GPST000035_s8_km12: 17 x 2
+glyhub_GPST000035_s9_t84: 51 x 2
+glyhub_GPST000035_s10_ls174t: 37 x 2
+glyhub_GPST000035_s11_ls180: 35 x 2
+glyhub_GPST000035_s12_sw1116: 26 x 2
+glyhub_GPST000035_s13_sw1463: 6 x 2
+glyhub_GPST000035_s14_sw948: 25 x 2
+glyhub_GPST000035_s15_sw1398: 9 x 2
+glyhub_GPST000035_s16_sw48: 8 x 2
+glyhub_GPST000035_s17_sw480: 6 x 3
+glyhub_GPST000035_s18_sw480_vumc: 3 x 2
+glyhub_GPST000035_s19_sw620: 10 x 3
+glyhub_GPST000035_s20_sw837: 17 x 2
+glyhub_GPST000035_s21_caco_2: 16 x 2
+glyhub_GPST000035_s22_co115: 12 x 2
+glyhub_GPST000035_s23_colo320: 2 x 2
+glyhub_GPST000035_s24_dld_1: 18 x 2
+glyhub_GPST000035_s25_hct116: 19 x 3
+glyhub_GPST000035_s26_hct116_vumc: 8 x 2
+glyhub_GPST000035_s27_hct_15: 13 x 2
+glyhub_GPST000035_s28_hct_8: 13 x 3
+glyhub_GPST000035_s29_lovo: 10 x 2
+glyhub_GPST000035_s30_ls411n: 41 x 2
+glyhub_GPST000035_s31_rko: 5 x 2
+glyhub_GPST000120_O_Spike_ACE2: 16 x 2
+glyhub_GPST000128_n_precursor: 128 x 6
+glyhub_GPST000128_o_precursor: 35 x 6
+glyhub_GPST000183_n: 101 x 7
+glyhub_GPST000183_o: 21 x 20
+glyhub_GPST000213_N_CTX_M: 130 x 14
+glyhub_GPST000213_N_HIP_M: 130 x 14
+glyhub_GPST000213_N_STR_M: 130 x 14
+glyhub_GPST000213_N_CBLM_M: 130 x 14
+glyhub_GPST000213_N_CTX_F: 130 x 8
+glyhub_GPST000213_N_CBLM_F: 130 x 8
+glyhub_GPST000213_N_Plasma_M_F: 29 x 14
+glyhub_GPST000213_O_CTX_M: 30 x 8
+glyhub_GPST000213_O_HIP_M: 30 x 6
+glyhub_GPST000213_O_STR_M: 30 x 10
+glyhub_GPST000213_O_CBLM_M: 30 x 9
+glyhub_GPST000213_O_CTX_Female: 28 x 6
+glyhub_GPST000271_N_CAL51: 69 x 15
+glyhub_GPST000271_O_CAL51: 7 x 15
+glyhub_GPST000374_sssmug_gsl: 13 x 10
+glyhub_GPST000374_sssmug_n: 218 x 10
+glyhub_GPST000374_sssmug_oxyl: 5 x 7
+glyhub_GPST000374_sssmug_oman: 3 x 7
+glyhub_GPST000374_sssmug_ogalnac: 7 x 7
+glyhub_GPST000431_suga_drug_treatments: 55 x 42
+glyhub_GPST000431_suga_starting_amount: 57 x 15
+glyhub_GPST000431_suga_ms_precision: 57 x 5
+glyhub_GPST000533_N_Released: 13 x 9
+glyhub_GPST000533_N_Glycopeptides: 54 x 9
+glyhub_GPST000599_serum_n: 45 x 134
+glyhub_GPST000643_O_S5: 108 x 22; structures 47
+glyhub_GPST000643_O_S7: 77 x 6; structures 67
+glyhub_GPST000643_O_S9B: 56 x 7; structures 40
+glyhub_GPST000643_O_S10B: 9 x 8; structures 9
+glyhub_GPST000643_N_S10B: 3 x 8; structures 3
+glyhub_GPST000643_O_S10C: 3 x 15; structures 3
+glyhub_GPST000643_N_S10C: 2 x 15; structures 2
+glyhub_GPST000643_O_S11B: 60 x 9; structures 27
+glyhub_GPST000643_O_S12: 140 x 4; structures 95
+glyhub_GPST000676_zebrafish_sumf1_hs: 8 x 8
+glyhub_GPST000676_zebrafish_sumf2_hs: 8 x 7
+glyhub_GPST000738_N_B4GalT1: 9 x 18; 30 NA cells
+glyhub_GPST000738_N_ST6GAL1: 10 x 28; 23 NA cells
+glyhub_GPST000381_N_Prosaposin: 36 x 2
+glyhub_GPST000602_Sh_GSL: 566 x 11
+glyhub_GPST000602_Sm_GSL: 183 x 3
+glyhub_GPST000602_Sh_N: 489 x 10
+glyhub_GPST000602_Sm_N: 247 x 4
+glyhub_GPST000602_Sh_O: 122 x 4
+glyhub_GPST000578_N_Immunoglobulins: 35 x 9
+glyhub_GPST000578_N_CHO_Perturbation: 61 x 9
+glyhub_GPST000578_N_Spike_SF9_CHO: 61 x 6
+glyhub_GPST000578_N_Spike_HEK293: 34 x 3
+glyhub_GPST000578_N_Ovalbumin_Repeatability: 12 x 3
+glyhub_GPST000578_N_Xolair_Repeatability: 7 x 3
+glyhub_GPST000578_N_Fetuin_Repeatability: 17 x 3
+glyhub_GPST000578_N_IgG_Repeatability: 16 x 3
+glyhub_GPST000578_N_Fetuin_TwoSites: 14 x 2
+glyhub_GPST000125_N_HEK293: 41 x 16
+glyhub_GPST000125_O_HEK293: 14 x 16
+glyhub_GPST000125_GSL_HEK293: 12 x 16

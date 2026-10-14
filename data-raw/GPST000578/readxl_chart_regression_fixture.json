@@ -1,0 +1,269 @@
+{
+  "source_file": "578_41467_2026_73091_MOESM4_ESM.xls",
+  "source_sha256": "60e12061e5a4bdb1712649c2455f75e5a4b43c89c7559d99c67cdd2db361e6f1",
+  "sheet": "Figure 4b",
+  "source_reader_affected": "readxl 1.5.0.1",
+  "interpretation": "Embedded chart-cache values were misread as worksheet cells. This is a reader issue, not conflicting author worksheet measurements.",
+  "cells": [
+    {
+      "address": "C3",
+      "row": 3,
+      "column": 3,
+      "glytoucan_id": "G79198BK",
+      "worksheet_value": 3003315.25,
+      "readxl_chart_cache_value": 40052.560134710715,
+      "worksheet_record": {
+        "row": 3,
+        "column": 3,
+        "value": 3003315.25,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0xbd",
+        "workbook_stream_offset": 315593
+      },
+      "chart_record": {
+        "row": 3,
+        "column": 3,
+        "value": 40052.560134710715,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334642
+      }
+    },
+    {
+      "address": "C4",
+      "row": 4,
+      "column": 3,
+      "glytoucan_id": "G55220VL",
+      "worksheet_value": 973123.75,
+      "readxl_chart_cache_value": 25965.066007618818,
+      "worksheet_record": {
+        "row": 4,
+        "column": 3,
+        "value": 973123.75,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x27e",
+        "workbook_stream_offset": 316125
+      },
+      "chart_record": {
+        "row": 4,
+        "column": 3,
+        "value": 25965.066007618818,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334678
+      }
+    },
+    {
+      "address": "C5",
+      "row": 5,
+      "column": 3,
+      "glytoucan_id": "G20966TZ",
+      "worksheet_value": 830038.625,
+      "readxl_chart_cache_value": 31129.744577561938,
+      "worksheet_record": {
+        "row": 5,
+        "column": 3,
+        "value": 830038.625,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 316648
+      },
+      "chart_record": {
+        "row": 5,
+        "column": 3,
+        "value": 31129.744577561938,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334714
+      }
+    },
+    {
+      "address": "C6",
+      "row": 6,
+      "column": 3,
+      "glytoucan_id": "G10219AA",
+      "worksheet_value": 303121.59375,
+      "readxl_chart_cache_value": 12272.51238331508,
+      "worksheet_record": {
+        "row": 6,
+        "column": 3,
+        "value": 303121.59375,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 317175
+      },
+      "chart_record": {
+        "row": 6,
+        "column": 3,
+        "value": 12272.51238331508,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334750
+      }
+    },
+    {
+      "address": "C7",
+      "row": 7,
+      "column": 3,
+      "glytoucan_id": "G80966KZ",
+      "worksheet_value": 313947.625,
+      "readxl_chart_cache_value": 13343.988756507955,
+      "worksheet_record": {
+        "row": 7,
+        "column": 3,
+        "value": 313947.625,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 317702
+      },
+      "chart_record": {
+        "row": 7,
+        "column": 3,
+        "value": 13343.988756507955,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334786
+      }
+    },
+    {
+      "address": "C8",
+      "row": 8,
+      "column": 3,
+      "glytoucan_id": "G56748EO",
+      "worksheet_value": 143620.734375,
+      "readxl_chart_cache_value": 6578.088630330475,
+      "worksheet_record": {
+        "row": 8,
+        "column": 3,
+        "value": 143620.734375,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 318229
+      },
+      "chart_record": {
+        "row": 8,
+        "column": 3,
+        "value": 6578.088630330475,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334822
+      }
+    },
+    {
+      "address": "C9",
+      "row": 9,
+      "column": 3,
+      "glytoucan_id": "G20030CU",
+      "worksheet_value": 142857.09375,
+      "readxl_chart_cache_value": 7985.286306367062,
+      "worksheet_record": {
+        "row": 9,
+        "column": 3,
+        "value": 142857.09375,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 318786
+      },
+      "chart_record": {
+        "row": 9,
+        "column": 3,
+        "value": 7985.286306367062,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334858
+      }
+    },
+    {
+      "address": "C10",
+      "row": 10,
+      "column": 3,
+      "glytoucan_id": "G61751GZ",
+      "worksheet_value": 70499.765625,
+      "readxl_chart_cache_value": 7311.742879867123,
+      "worksheet_record": {
+        "row": 10,
+        "column": 3,
+        "value": 70499.765625,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 319335
+      },
+      "chart_record": {
+        "row": 10,
+        "column": 3,
+        "value": 7311.742879867123,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334894
+      }
+    },
+    {
+      "address": "C11",
+      "row": 11,
+      "column": 3,
+      "glytoucan_id": "G79809MM",
+      "worksheet_value": 73248.6953125,
+      "readxl_chart_cache_value": 5676.841504266238,
+      "worksheet_record": {
+        "row": 11,
+        "column": 3,
+        "value": 73248.6953125,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 319756
+      },
+      "chart_record": {
+        "row": 11,
+        "column": 3,
+        "value": 5676.841504266238,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334930
+      }
+    },
+    {
+      "address": "C12",
+      "row": 12,
+      "column": 3,
+      "glytoucan_id": "G98140IX",
+      "worksheet_value": 34506.57421875,
+      "readxl_chart_cache_value": 268.36242327917574,
+      "worksheet_record": {
+        "row": 12,
+        "column": 3,
+        "value": 34506.57421875,
+        "substream_type": "0x10",
+        "depth": 1,
+        "record_type": "0x203",
+        "workbook_stream_offset": 320177
+      },
+      "chart_record": {
+        "row": 12,
+        "column": 3,
+        "value": 268.36242327917574,
+        "substream_type": "0x20",
+        "depth": 2,
+        "record_type": "0x203",
+        "workbook_stream_offset": 334966
+      }
+    }
+  ]
+}

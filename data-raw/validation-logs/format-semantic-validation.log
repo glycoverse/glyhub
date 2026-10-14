@@ -1,0 +1,1 @@
+PASS: 12 formatted R files retain identical parsed syntax after removing redundant single-expression braces.

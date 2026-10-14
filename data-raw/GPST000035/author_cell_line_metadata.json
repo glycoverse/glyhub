@@ -1,0 +1,512 @@
+[
+  {
+    "source_row": 4,
+    "values": {
+      "Cell line": "C10",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "descending colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade II",
+      "Differentiation": "mod-well",
+      "CMS1": 4,
+      "Gene expression2": null,
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 5,
+    "values": {
+      "Cell line": "CaCo-2",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Carinoma ",
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade II",
+      "Differentiation": "well",
+      "CMS1": 4,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 6,
+    "values": {
+      "Cell line": "CO115",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon ascendens",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": "grade IV",
+      "Differentiation": "poorly",
+      "CMS1": 1,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 7,
+    "values": {
+      "Cell line": "COLO 205",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma (anaplastic)",
+      "Staging": 4,
+      "Tumour_site": "ascitic fluid (metastatic site) ",
+      "Grade": "grade II",
+      "Differentiation": "moderately",
+      "CMS1": null,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent and suspension",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 8,
+    "values": {
+      "Cell line": "COLO 320",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon sigmoid",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": null,
+      "Differentiation": "undifferentiated",
+      "CMS1": null,
+      "Gene expression2": null,
+      "Culture_properties": "loosely adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 9,
+    "values": {
+      "Cell line": "DLD-1",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon sigmoid",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": "grade III",
+      "Differentiation": "mod-poorly",
+      "CMS1": null,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 10,
+    "values": {
+      "Cell line": "HCT 116_avg*",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon proximal",
+      "Tumour_type": "Carcinoma",
+      "Staging": 4,
+      "Tumour_site": "Primary",
+      "Grade": "grade IV",
+      "Differentiation": "poorly",
+      "CMS1": 4,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 11,
+    "values": {
+      "Cell line": "HCT 15",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon sigmoid",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": null,
+      "Gene expression2": "undiff",
+      "Culture_properties": null,
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 12,
+    "values": {
+      "Cell line": "HCT81",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon ilocecal",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": null,
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": 4,
+      "Gene expression2": null,
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 13,
+    "values": {
+      "Cell line": "HT29_avg*",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": "grade I",
+      "Differentiation": "well",
+      "CMS1": 3,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 14,
+    "values": {
+      "Cell line": "KM12",
+      "Cell_type": null,
+      "Tissue_location": "Colon",
+      "Tumour_type": null,
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade III",
+      "Differentiation": null,
+      "CMS1": null,
+      "Gene expression2": "colon-like",
+      "Culture_properties": null,
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 15,
+    "values": {
+      "Cell line": "LOVO",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Lymph node metastasis",
+      "Grade": "grade IV",
+      "Differentiation": null,
+      "CMS1": 1,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 16,
+    "values": {
+      "Cell line": "LS174T",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade I",
+      "Differentiation": "well",
+      "CMS1": 3,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 17,
+    "values": {
+      "Cell line": "LS180",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade II",
+      "Differentiation": "mod-well",
+      "CMS1": 3,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 18,
+    "values": {
+      "Cell line": "LS411N",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon cecum",
+      "Tumour_type": "Cecal carcinoma",
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade IV",
+      "Differentiation": "poorly",
+      "CMS1": null,
+      "Gene expression2": null,
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 19,
+    "values": {
+      "Cell line": "RKO",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Carcinoma",
+      "Staging": null,
+      "Tumour_site": null,
+      "Grade": "grade IV",
+      "Differentiation": "poorly",
+      "CMS1": null,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 20,
+    "values": {
+      "Cell line": "SW1116",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 1,
+      "Tumour_site": "Primary",
+      "Grade": null,
+      "Differentiation": "well",
+      "CMS1": 2,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 21,
+    "values": {
+      "Cell line": "SW1398",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": "NA",
+      "Tumour_site": "NA",
+      "Grade": "NA",
+      "Differentiation": "NA",
+      "CMS1": "NA",
+      "Gene expression2": "NA",
+      "Culture_properties": "NA",
+      "MSI/MSS$": "NA"
+    }
+  },
+  {
+    "source_row": 22,
+    "values": {
+      "Cell line": "SW1463",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Rectum",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": "grade II-III",
+      "Differentiation": null,
+      "CMS1": 2,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 23,
+    "values": {
+      "Cell line": "SW48",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Transversum",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": "grade IV",
+      "Differentiation": "poorly",
+      "CMS1": null,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSI"
+    }
+  },
+  {
+    "source_row": 24,
+    "values": {
+      "Cell line": "SW480_avg*",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 2,
+      "Tumour_site": "Primary",
+      "Grade": "grade III-IV",
+      "Differentiation": "moderately",
+      "CMS1": 4,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 25,
+    "values": {
+      "Cell line": "SW620",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Lymph node metastasis",
+      "Grade": "grade IV",
+      "Differentiation": "poorly",
+      "CMS1": 4,
+      "Gene expression2": "undiff",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 26,
+    "values": {
+      "Cell line": "SW837",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": null,
+      "Tumour_site": null,
+      "Grade": "grade IV",
+      "Differentiation": null,
+      "CMS1": 4,
+      "Gene expression2": "undiff",
+      "Culture_properties": null,
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 27,
+    "values": {
+      "Cell line": "SW948",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": 3,
+      "Tumour_site": "Primary",
+      "Grade": "grade III",
+      "Differentiation": "moderately",
+      "CMS1": 3,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 28,
+    "values": {
+      "Cell line": "T84",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon",
+      "Tumour_type": "Carcinoma",
+      "Staging": null,
+      "Tumour_site": "Lung metastasis",
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": 2,
+      "Gene expression2": null,
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 29,
+    "values": {
+      "Cell line": "WiDr",
+      "Cell_type": "Colon epithelial",
+      "Tissue_location": "Colon  rectosigmoid",
+      "Tumour_type": "Adenocarcinoma",
+      "Staging": "",
+      "Tumour_site": "Primary",
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": 3,
+      "Gene expression2": "colon-like",
+      "Culture_properties": "adherent",
+      "MSI/MSS$": "MSS"
+    }
+  },
+  {
+    "source_row": 32,
+    "values": {
+      "Cell line": "* Biological replicates cultured at LUMC and VuMC were averaged per cell type",
+      "Cell_type": null,
+      "Tissue_location": null,
+      "Tumour_type": null,
+      "Staging": null,
+      "Tumour_site": null,
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": null,
+      "Gene expression2": null,
+      "Culture_properties": null,
+      "MSI/MSS$": null
+    }
+  },
+  {
+    "source_row": 34,
+    "values": {
+      "Cell line": "1 Sveen A, Bruun J, Eide PW, Eilertsen IA, Ramirez L, Murumagi A, et al. Colorectal cancer consensus molecular subtypes translated to preclinical models uncover potentially targetable cancer cell dependencies. Clin Cancer Res. 2018;24:794\u2013806.",
+      "Cell_type": null,
+      "Tissue_location": null,
+      "Tumour_type": null,
+      "Staging": null,
+      "Tumour_site": null,
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": null,
+      "Gene expression2": null,
+      "Culture_properties": null,
+      "MSI/MSS$": null
+    }
+  },
+  {
+    "source_row": 35,
+    "values": {
+      "Cell line": "2 Berg KCG, Eide PW, Eilertsen IA, Johannessen B, Bruun J, Danielsen SA, et al. Multi-omics of 34 colorectal cancer cell lines - a resource for biomedical studies. Mol Cancer. BioMed Central; 2017;16:116. ",
+      "Cell_type": null,
+      "Tissue_location": null,
+      "Tumour_type": null,
+      "Staging": null,
+      "Tumour_site": null,
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": null,
+      "Gene expression2": null,
+      "Culture_properties": null,
+      "MSI/MSS$": null
+    }
+  },
+  {
+    "source_row": 36,
+    "values": {
+      "Cell line": "$ Microsatellite instable/ Microstatellite stable",
+      "Cell_type": null,
+      "Tissue_location": null,
+      "Tumour_type": null,
+      "Staging": null,
+      "Tumour_site": null,
+      "Grade": null,
+      "Differentiation": null,
+      "CMS1": null,
+      "Gene expression2": null,
+      "Culture_properties": null,
+      "MSI/MSS$": null
+    }
+  }
+]
