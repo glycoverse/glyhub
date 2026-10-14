@@ -68,7 +68,7 @@ test_that("curated data preserve measurements and explain every changed cell", {
 })
 
 test_that("GPST000738 retains source scale, time zero and unresolved provenance", {
-  x <- glyhub::glyhub_GPST000738_N_B4GalT1
+  x <- glyhub_GPST000738_N_B4GalT1
   m <- S4Vectors::metadata(x)
   expect_equal(m$raw_abundance["A2", 1], 70.66)
   expect_equal(SummarizedExperiment::assay(x)["A2", 1], 70.66)
@@ -83,7 +83,7 @@ test_that("GPST000738 retains source scale, time zero and unresolved provenance"
     4
   )
   expect_identical(m$unit, "percent within glycan family")
-  y <- glyhub::glyhub_GPST000738_N_ST6GAL1
+  y <- glyhub_GPST000738_N_ST6GAL1
   n <- S4Vectors::metadata(y)
   expect_identical(n$unit, "fraction within glycan family")
   expect_equal(n$processing_counts[["source_nd"]], 13)
@@ -92,7 +92,7 @@ test_that("GPST000738 retains source scale, time zero and unresolved provenance"
 })
 
 test_that("GPST000643 keeps source annotation zeros and distinct N/O spaces", {
-  x <- glyhub::glyhub_GPST000643_O_S5
+  x <- glyhub_GPST000643_O_S5
   m <- S4Vectors::metadata(x)
   expect_equal(m$raw_abundance[1, 1], 0)
   expect_identical(is.na(SummarizedExperiment::assay(x)[1, 1]), TRUE)
@@ -103,11 +103,11 @@ test_that("GPST000643 keeps source annotation zeros and distinct N/O spaces", {
     TRUE
   )
   expect_identical(
-    S4Vectors::metadata(glyhub::glyhub_GPST000643_N_S10B)$glycan_type,
+    S4Vectors::metadata(glyhub_GPST000643_N_S10B)$glycan_type,
     "N"
   )
   expect_identical(
-    S4Vectors::metadata(glyhub::glyhub_GPST000643_O_S10B)$glycan_type,
+    S4Vectors::metadata(glyhub_GPST000643_O_S10B)$glycan_type,
     "O"
   )
   expect_identical(
@@ -117,8 +117,8 @@ test_that("GPST000643 keeps source annotation zeros and distinct N/O spaces", {
 })
 
 test_that("S10C partitions conserve its complete source measurements", {
-  o <- glyhub::glyhub_GPST000643_O_S10C
-  n <- glyhub::glyhub_GPST000643_N_S10C
+  o <- glyhub_GPST000643_O_S10C
+  n <- glyhub_GPST000643_N_S10C
   expect_identical(
     SummarizedExperiment::colData(o),
     SummarizedExperiment::colData(n)
