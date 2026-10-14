@@ -1,0 +1,44 @@
+# glyhub
+
+glyhub aims to provide a curated collection of glycomics and
+glycoproteomics datasets from the literature and public databases. The
+planned collection will store datasets as `GlycomicSE` and
+`GlycoproteomicSE` objects from
+[glyexp](https://github.com/glycoverse/glyexp), bringing measurements,
+molecular annotations, and sample metadata together in a consistent
+format.
+
+## Development status
+
+**glyhub is currently a package skeleton.** It does not yet include
+curated datasets or data-access functions. Dataset examples will be
+added when the first resources are available.
+
+The initial design is to bundle curated datasets with the package and
+make them available through R’s `LazyData` mechanism. This is a planned
+architecture; datasets, the dependency on glyexp, and lazy loading have
+not yet been implemented.
+
+## Installation
+
+You can install the development skeleton from
+[GitHub](https://github.com/glycoverse/glyhub):
+
+``` r
+
+# install.packages("pak")
+pak::pkg_install("glycoverse/glyhub")
+```
+
+Installing the current skeleton does not provide any datasets.
+
+## Role in `glycoverse`
+
+The intended role of glyhub is to collect and curate reusable
+experimental data for the Glycoverse ecosystem. glyexp provides the
+`GlycomicSE` and `GlycoproteomicSE` containers; glyhub is planned to
+supply curated datasets stored in those containers for examples, method
+development, and reproducible analyses.
+
+# 
+

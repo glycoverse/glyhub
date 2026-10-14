@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="424" height="489" viewBox="0 0 424 489" role="img" aria-labelledby="title desc">
+  <title id="title">glyhub</title>
+  <desc id="desc">Glycoverse hexagon with three collected data-matrix cards. Review concept for curated glycomics and glycoproteomics resources.</desc>
+  <!-- Editable vector artwork. Exterior has no background rectangle. -->
+  <g id="badge">
+    <path fill="#365C70" d="M212 0 424 122.25V366.75L212 489 0 366.75V122.25Z"/>
+    <path fill="#659CB5" d="M212 13.85 412 129.18V359.82L212 475.15 12 359.82V129.18Z"/>
+  </g>
+  <g id="data-collection" stroke="#365C70" stroke-width="6" stroke-linejoin="round">
+    <rect x="144" y="99" width="170" height="164" rx="7" fill="#C5DBE5"/>
+    <rect x="127" y="118" width="170" height="164" rx="7" fill="#E0EBF0"/>
+    <rect x="110" y="137" width="170" height="164" rx="7" fill="#FFFFFF"/>
+  </g>
+  <g id="matrix" fill="#659CB5">
+    <path d="M132 160h32v32h-32z M179 160h32v32h-32z M226 160h32v32h-32z M132 205h32v32h-32z M226 205h32v32h-32z M132 250h32v32h-32z M179 250h32v32h-32z M226 250h32v32h-32z"/>
+    <path fill="#E3B65B" d="M179 205h32v32h-32z"/>
+  </g>
+  <text id="wordmark" x="212" y="366" text-anchor="middle" fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700"><tspan>gly</tspan><tspan font-style="italic">hub</tspan></text>
+</svg>
