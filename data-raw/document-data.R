@@ -26,9 +26,21 @@ for (x in records) {
     "Repository: \\url{https://glycopost.glycosmos.org/entry/",
     x$accession,
     "}.",
-    if (!is.null(x$source_url)) paste0(" Quantitative source: \\url{", x$source_url, "}.") else "",
-    if (!is.null(x$annotation_source_url)) paste0(" Annotation evidence: \\url{", x$annotation_source_url, "}.") else "",
-    if (!is.null(x$related_doi)) paste0(" Related study: \\url{https://doi.org/", x$related_doi, "}.") else ""
+    if (!is.null(x$source_url)) {
+      paste0(" Quantitative source: \\url{", x$source_url, "}.")
+    } else {
+      ""
+    },
+    if (!is.null(x$annotation_source_url)) {
+      paste0(" Annotation evidence: \\url{", x$annotation_source_url, "}.")
+    } else {
+      ""
+    },
+    if (!is.null(x$related_doi)) {
+      paste0(" Related study: \\url{https://doi.org/", x$related_doi, "}.")
+    } else {
+      ""
+    }
   )
   output <- c(
     output,

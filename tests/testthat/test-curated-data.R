@@ -1,11 +1,19 @@
 original_panel <- function(name) {
-  if (!grepl("GPST000643", name)) return(getExportedValue("glyhub", name))
+  if (!grepl("GPST000643", name)) {
+    return(getExportedValue("glyhub", name))
+  }
   type <- if (grepl("_N_", name)) "N" else "O"
   x <- getExportedValue("glyhub", paste0("glyhub_GPST000643_", type))
-  m <- S4Vectors::metadata(x); map <- m$panel_maps[[name]]
+  m <- S4Vectors::metadata(x)
+  map <- m$panel_maps[[name]]
   a <- SummarizedExperiment::assay(x)[map$rows, map$columns, drop = FALSE]
   dimnames(a) <- map$original_dimnames
-  glyexp::GlycomicSE(a, rowData=m$panel_row_data[[name]], colData=m$panel_col_data[[name]], metadata=m$panels[[name]])
+  glyexp::GlycomicSE(
+    a,
+    rowData = m$panel_row_data[[name]],
+    colData = m$panel_col_data[[name]],
+    metadata = m$panels[[name]]
+  )
 }
 test_that("curated data preserve measurements and explain every changed cell", {
   names <- c(

@@ -1,8 +1,13 @@
 source("data-raw/GPST000599/ensure-source.R", local = new.env())
 # Verify retained original sources, annotations and reviewed mappings.
-source_manifest <- utils::read.csv("data-raw/source-checksums.csv", stringsAsFactors=FALSE)
-stopifnot(all(file.exists(source_manifest$path)),
-          identical(unname(tools::md5sum(source_manifest$path)), source_manifest$md5))
+source_manifest <- utils::read.csv(
+  "data-raw/source-checksums.csv",
+  stringsAsFactors = FALSE
+)
+stopifnot(
+  all(file.exists(source_manifest$path)),
+  identical(unname(tools::md5sum(source_manifest$path)), source_manifest$md5)
+)
 # Run from the package root to rebuild all curated accessions.
 source("data-raw/GPST000035/GPST000035-build.R", local = new.env())
 source("data-raw/GPST000120/GPST000120-build.R", local = new.env())
