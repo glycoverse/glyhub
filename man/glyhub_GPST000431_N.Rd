@@ -6,7 +6,8 @@
 \title{Swift Universal Glycan Acquisition (SUGA) Enables Quantitative Glycan Profiling across Diverse Sample Types. and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 70 features and 62 observations. The abundance
-assay is in MS1 integrated area.
+assay is in MS1 integrated area. rowData has no glycan_structure column
+because no feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000431. SUGA_DrugTreatments_GlycanQuant. Study:

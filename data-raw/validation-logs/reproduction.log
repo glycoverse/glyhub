@@ -91,7 +91,3 @@ glyhub_GPST000125_N_HEK293: 41 x 16
 glyhub_GPST000125_O_HEK293: 14 x 16
 glyhub_GPST000125_GSL_HEK293: 12 x 16
 Reproduced all 34 objects: assays, annotations, conditions and provenance identical.
-
-real	1m9.088s
-user	1m6.724s
-sys	0m2.329s

@@ -28,7 +28,10 @@ and retention times are available for GPST000643. These provenance matrices
 are not additional abundance assays and may use different units.
 
 \code{rowData(x)} retains source feature labels, typed glyrepr compositions and
-structures where supported. Putative assignments remain putative; ambiguous
+structures where supported. A \code{glycan_structure} column is present only when
+at least one feature has a valid structural annotation; unannotated features
+in that column remain \code{NA}. If none has a structural annotation, the column
+is absent. Putative assignments remain putative; ambiguous
 linkages are not completed. Unconverted notation and annotation disagreements
 are retained explicitly. Source mass/isomer labels are not universal IDs.
 Consult individual feature annotations when an experiment includes more than

@@ -6,7 +6,8 @@
 \title{Ovalbumin N-glycan repeatability profiles and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 41 features and 12 observations. The abundance
-assay is in glycan intensity (source values).
+assay is in glycan intensity (source values). rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000578. Figure 4b. Study:

@@ -6,7 +6,8 @@
 \title{Fucosidase treatment of porcine colonic mucin O-glycans and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 365 features and 71 observations. The abundance
-assay is in percentage of source total glycan AUC.
+assay is in percentage of source total glycan AUC. rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000643. Supplementary Table S5 (media-6.xlsx). Study:

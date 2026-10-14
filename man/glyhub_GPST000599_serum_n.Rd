@@ -6,7 +6,8 @@
 \title{Septic shock longitudinal serum N-glycome}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 45 features and 134 observations. The abundance
-assay is in peak_area.
+assay is in peak_area. rowData has no glycan_structure column because no
+feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000599. Table S2. Study:

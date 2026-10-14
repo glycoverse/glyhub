@@ -1,0 +1,3 @@
+PASS: all 34 datasets preserve every assay, nonempty molecular annotation, sample metadata and provenance after removal of all-NA structure columns.
+18 datasets omit the column; 16 retain typed structural annotations and per-feature NA.
+All 34 objects remain valid; full reconstruction reproduces scientific contents exactly.

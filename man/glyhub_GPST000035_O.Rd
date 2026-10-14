@@ -6,7 +6,8 @@
 \title{O-glycan profile of Fetuin_standard and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 231 features and 66 observations. The abundance
-assay is in peak_area.
+assay is in peak_area. rowData has no glycan_structure column because no
+feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000035. S2 Fetuin_standard. Study:

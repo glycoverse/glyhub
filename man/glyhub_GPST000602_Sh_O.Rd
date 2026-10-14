@@ -7,7 +7,8 @@
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 122 features and 4 observations. The abundance
 assay is in MALDI-TOF-MS peak intensity (source instrument units; arbitrary
-units).
+units). rowData has no glycan_structure column because no feature has a
+supported structural annotation.
 }
 \source{
 GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS

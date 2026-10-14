@@ -3,49 +3,54 @@
 
 ⠏ |          0 | all-dataset-contracts
 ⠸ |          4 | all-dataset-contracts
-⠇ |         39 | all-dataset-contracts
-⠸ |         74 | all-dataset-contracts
-⠏ |        100 | all-dataset-contracts
-⠸ |        134 | all-dataset-contracts
-⠧ |        168 | all-dataset-contracts
-⠧ |        198 | all-dataset-contracts
+⠸ |         34 | all-dataset-contracts
+⠙ |         62 | all-dataset-contracts
+⠋ |         91 | all-dataset-contracts
+⠼ |        115 | all-dataset-contracts
+⠦ |        147 | all-dataset-contracts
+⠹ |        183 | all-dataset-contracts
+⠸ |        194 | all-dataset-contracts
 ⠇ |        229 | all-dataset-contracts
-⠙ |        262 | all-dataset-contracts
-⠇ |        289 | all-dataset-contracts
-⠦ |        317 | all-dataset-contracts
-✔ |        342 | all-dataset-contracts [1.9s]
+⠋ |        261 | all-dataset-contracts
+⠹ |        293 | all-dataset-contracts
+⠼ |        325 | all-dataset-contracts
+⠋ |        341 | all-dataset-contracts
+⠸ |        364 | all-dataset-contracts
+✔ |        375 | all-dataset-contracts [2.1s]
 
 ⠏ |          0 | candidate-withdrawal
 ✔ |          2 | candidate-withdrawal
 
 ⠏ |          0 | curated-data
-⠼ |         25 | curated-data
-⠹ |         53 | curated-data
-⠦ |         77 | curated-data
-⠋ |        101 | curated-data
-⠼ |        125 | curated-data
-⠏ |        150 | curated-data
+⠧ |         18 | curated-data
+⠴ |         36 | curated-data
+⠋ |         61 | curated-data
+⠏ |         90 | curated-data
+⠋ |        111 | curated-data
+⠴ |        136 | curated-data
+⠙ |        152 | curated-data
 ✔ |        160 | curated-data
 
 ⠏ |          0 | followup-decisions
-⠙ |         22 | followup-decisions
-⠸ |         54 | followup-decisions
+⠋ |         31 | followup-decisions
+⠋ |         61 | followup-decisions
 ✔ |         68 | followup-decisions
 
 ⠏ |          0 | merged-panels
-⠇ |         39 | merged-panels
-⠹ |         93 | merged-panels
-⠸ |        144 | merged-panels
-⠦ |        187 | merged-panels
-⠸ |        234 | merged-panels
-⠧ |        288 | merged-panels
-⠦ |        317 | merged-panels
-⠋ |        361 | merged-panels
-⠼ |        415 | merged-panels
-⠼ |        465 | merged-panels
-✔ |        509 | merged-panels [1.1s]
+⠙ |         52 | merged-panels
+⠋ |        101 | merged-panels
+⠇ |        149 | merged-panels
+⠧ |        198 | merged-panels
+⠙ |        232 | merged-panels
+⠧ |        268 | merged-panels
+⠼ |        315 | merged-panels
+⠸ |        354 | merged-panels
+⠋ |        381 | merged-panels
+⠏ |        430 | merged-panels
+⠏ |        480 | merged-panels
+✔ |        509 | merged-panels [1.2s]
 
 ══ Results ═════════════════════════════════════════════════════════════════════
-Duration: 4.0 s
+Duration: 4.4 s
 
-[ FAIL 0 | WARN 0 | SKIP 0 | PASS 1081 ]
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 1114 ]

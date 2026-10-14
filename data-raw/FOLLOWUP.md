@@ -30,3 +30,7 @@ The 20,679,775-byte original supplementary `mmc4.xlsx` is kept outside Git. The 
 ## Reproduction and checks
 
 The build consumes checksum-pinned originals and mappings under accession directories. GPST000125 has original-workbook, annotation and exact-cell validators; GPST000381 has an independent expression-block validator; GPST000578 has a standard-library-only BIFF verifier; GPST000602 has an XML-level conservation validator and portable extraction script. Package tests cover masks, quantities, annotations, identifiers, object/documentation coverage, and the ten-cell reader regression. Full build, clean-install and package-check outcomes are recorded in VALIDATION.md and the corresponding logs.
+
+## Optional structural annotation column
+
+The `glycan_structure` row-data column is omitted when a dataset has no valid structural annotations. It is absent from 18 of the 34 datasets. The remaining 16 retain a typed column, with NA for unsupported individual features. Complete rebuilding and comparison preserve all measurements, compositions, supported structures, sample metadata and source provenance. Each help page describes the actual row-data schema.

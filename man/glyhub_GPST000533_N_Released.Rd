@@ -6,7 +6,8 @@
 \title{Desialylated haptoglobin released N-glycans in sepsis serum}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 13 features and 9 observations. The abundance
-assay is in LC-MS extracted-ion peak intensity.
+assay is in LC-MS extracted-ion peak intensity. rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000533. results of 231208_Hpt_glycans. Study:

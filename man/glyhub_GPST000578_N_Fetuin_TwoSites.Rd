@@ -6,7 +6,8 @@
 \title{Fetuin N-glycan peak areas across two instrument sites}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 14 features and 2 observations. The abundance
-assay is in peak area.
+assay is in peak area. rowData includes a typed glycan_structure column;
+features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000578. Figure 4e. Study:

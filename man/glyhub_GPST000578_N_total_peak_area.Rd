@@ -6,7 +6,8 @@
 \title{Immunoglobulins N-glycan total peak areas and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 75 features and 27 observations. The abundance
-assay is in total peak area.
+assay is in total peak area. rowData includes a typed glycan_structure
+column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000578. Figure 5bc. Study:

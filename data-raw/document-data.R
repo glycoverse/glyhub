@@ -14,6 +14,12 @@ output <- c(
   ""
 )
 for (x in records) {
+  object_env <- new.env()
+  load(file.path("data", paste0(x$name, ".rda")), object_env)
+  has_structure <- "glycan_structure" %in%
+    names(
+      SummarizedExperiment::rowData(object_env[[x$name]])
+    )
   source <- paste0(
     "GlycoPOST ",
     x$accession,
@@ -63,7 +69,12 @@ for (x in records) {
       x$observations,
       " observations. The abundance assay is in ",
       x$unit,
-      "."
+      ". ",
+      if (has_structure) {
+        "rowData includes a typed glycan_structure column; features without a supported structure are NA."
+      } else {
+        "rowData has no glycan_structure column because no feature has a supported structural annotation."
+      }
     )),
     "#' @source",
     paragraphs(source),

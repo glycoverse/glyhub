@@ -85,7 +85,9 @@ build_matrix_specs <- function(path) {
     } else {
       vec(s$structure_iupac)
     }
-    rd$glycan_structure <- glyrepr::as_glycan_structure(structures)
+    if (any(!is.na(structures))) {
+      rd$glycan_structure <- glyrepr::as_glycan_structure(structures)
+    }
     cd <- S4Vectors::DataFrame(row.names = colnames(raw))
     for (key in names(s$col_data)) {
       vals <- s$col_data[[key]]

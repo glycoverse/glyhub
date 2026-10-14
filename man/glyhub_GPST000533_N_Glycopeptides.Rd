@@ -6,7 +6,9 @@
 \title{Desialylated haptoglobin glycopeptides in sepsis serum}
 \format{
 A \link[glyexp:GlycoproteomicSE]{glyexp::GlycoproteomicSE} with 54 features and 9 observations. The
-abundance assay is in LC-MS extracted-ion peak intensity.
+abundance assay is in LC-MS extracted-ion peak intensity. rowData includes
+a typed glycan_structure column; features without a supported structure are
+NA.
 }
 \source{
 GlycoPOST GPST000533. results of 231111_Hpt. Study:

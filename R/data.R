@@ -33,7 +33,9 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 9 features and 18 observations. The abundance
-#' assay is in percentage within the source glycan family.
+#' assay is in percentage within the source glycan family. rowData includes a
+#' typed glycan_structure column; features without a supported structure are
+#' NA.
 #' @source
 #' GlycoPOST GPST000738. Supplementary Table 1, sheets 1 and 2; composition
 #' comparisons in sheets 5 and 6; Figure S3. Study:
@@ -75,7 +77,9 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 10 features and 28 observations. The abundance
-#' assay is in fraction within the source precursor glycan family.
+#' assay is in fraction within the source precursor glycan family. rowData
+#' includes a typed glycan_structure column; features without a supported
+#' structure are NA.
 #' @source
 #' GlycoPOST GPST000738. Supplementary Table 1, sheets 3 and 4; composition
 #' comparisons in sheets 7 and 8; Figure S3. Study:
@@ -203,7 +207,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 365 features and 71 observations. The abundance
-#' assay is in percentage of source total glycan AUC.
+#' assay is in percentage of source total glycan AUC. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000643. Supplementary Table S5 (media-6.xlsx). Study:
 #' \url{https://doi.org/10.64898/2026.03.26.714468}. Repository:
@@ -266,7 +271,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 3 features and 23 observations. The abundance
-#' assay is in percentage of source total glycan AUC.
+#' assay is in percentage of source total glycan AUC. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000643. Supplementary Table S10B, N-glycan rows 25-27
 #' (media-11.xlsx). Study: \url{https://doi.org/10.64898/2026.03.26.714468}.
@@ -400,7 +406,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 679 features and 86 observations. The abundance
-#' assay is in source peak intensity.
+#' assay is in source peak intensity. rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000213. CTX (M). Study:
 #' \url{https://doi.org/10.1038/s41467-021-27781-9}. Repository:
@@ -504,7 +511,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 148 features and 39 observations. The abundance
-#' assay is in source peak intensity.
+#' assay is in source peak intensity. rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000213. CTX (M). Study:
 #' \url{https://doi.org/10.1038/s41467-021-27781-9}. Repository:
@@ -536,7 +544,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 69 features and 15 observations. The abundance
-#' assay is in percent relative abundance.
+#' assay is in percent relative abundance. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000271. Summary - N_glycans. Study:
 #' \url{https://doi.org/10.1038/s41556-023-01297-4}. Repository:
@@ -567,7 +576,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 7 features and 15 observations. The abundance
-#' assay is in percent relative abundance.
+#' assay is in percent relative abundance. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000271. Summary - O_glycans. Study:
 #' \url{https://doi.org/10.1038/s41556-023-01297-4}. Repository:
@@ -600,7 +610,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 13 features and 9 observations. The abundance
-#' assay is in LC-MS extracted-ion peak intensity.
+#' assay is in LC-MS extracted-ion peak intensity. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000533. results of 231208_Hpt_glycans. Study:
 #' \url{https://doi.org/10.1038/s41467-025-56524-3}. Repository:
@@ -642,7 +653,9 @@
 #'
 #' @format
 #' A [glyexp::GlycoproteomicSE] with 54 features and 9 observations. The
-#' abundance assay is in LC-MS extracted-ion peak intensity.
+#' abundance assay is in LC-MS extracted-ion peak intensity. rowData includes
+#' a typed glycan_structure column; features without a supported structure are
+#' NA.
 #' @source
 #' GlycoPOST GPST000533. results of 231111_Hpt. Study:
 #' \url{https://doi.org/10.1038/s41467-025-56524-3}. Repository:
@@ -679,7 +692,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 16 features and 2 observations. The abundance
-#' assay is in percent of total O-glycan profile.
+#' assay is in percent of total O-glycan profile. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000120. Sheet1. Study:
 #' \url{https://doi.org/10.1016/j.chom.2020.08.004}. Repository:
@@ -1014,7 +1028,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 231 features and 66 observations. The abundance
-#' assay is in peak_area.
+#' assay is in peak_area. rowData has no glycan_structure column because no
+#' feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000035. S2 Fetuin_standard. Study:
 #' \url{https://doi.org/10.1007/s00018-020-03504-z}. Repository:
@@ -1044,7 +1059,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 128 features and 6 observations. The abundance
-#' assay is in peak_area.
+#' assay is in peak_area. rowData has no glycan_structure column because no
+#' feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000128. Panorama PrecursorChromInfo. Study:
 #' \url{https://doi.org/10.1182/bloodadvances.2020003376}. Repository:
@@ -1074,7 +1090,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 35 features and 6 observations. The abundance
-#' assay is in peak_area.
+#' assay is in peak_area. rowData has no glycan_structure column because no
+#' feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000128. Panorama PrecursorChromInfo. Study:
 #' \url{https://doi.org/10.1182/bloodadvances.2020003376}. Repository:
@@ -1105,7 +1122,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 101 features and 7 observations. The abundance
-#' assay is in relative_abundance_percent.
+#' assay is in relative_abundance_percent. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000183. N-glycans. Study:
 #' \url{https://doi.org/10.7150/thno.65398}. Repository:
@@ -1136,7 +1154,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 21 features and 20 observations. The abundance
-#' assay is in relative_abundance_percent.
+#' assay is in relative_abundance_percent. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000183. Glycomics Reporting. Study:
 #' \url{https://doi.org/10.7150/thno.65398}. Repository:
@@ -1167,7 +1186,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 45 features and 134 observations. The abundance
-#' assay is in peak_area.
+#' assay is in peak_area. rowData has no glycan_structure column because no
+#' feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000599. Table S2. Study:
 #' \url{https://doi.org/10.1016/j.mcpro.2025.101470}. Repository:
@@ -1215,7 +1235,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 70 features and 62 observations. The abundance
-#' assay is in MS1 integrated area.
+#' assay is in MS1 integrated area. rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000431. SUGA_DrugTreatments_GlycanQuant. Study:
 #' \url{https://doi.org/10.1021/acs.jproteome.4c00657}. Repository:
@@ -1246,7 +1267,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 13 features and 10 observations. The abundance
-#' assay is in LC-MS peak area.
+#' assay is in LC-MS peak area. rowData includes a typed glycan_structure
+#' column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000374. Table S1 - GSL glycans. Study:
 #' \url{https://doi.org/10.1021/acs.analchem.3c04928}. Repository:
@@ -1277,7 +1299,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 218 features and 10 observations. The abundance
-#' assay is in LC-MS peak area.
+#' assay is in LC-MS peak area. rowData includes a typed glycan_structure
+#' column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000374. Table S2 - N-glycans. Study:
 #' \url{https://doi.org/10.1021/acs.analchem.3c04928}. Repository:
@@ -1330,7 +1353,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 15 features and 7 observations. The abundance
-#' assay is in LC-MS peak area.
+#' assay is in LC-MS peak area. rowData includes a typed glycan_structure
+#' column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000374. Table S3 - O-glycans. Study:
 #' \url{https://doi.org/10.1021/acs.analchem.3c04928}. Repository:
@@ -1380,7 +1404,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 8 features and 15 observations. The abundance
-#' assay is in percent total HS disaccharides.
+#' assay is in percent total HS disaccharides. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
 #' @source
 #' GlycoPOST GPST000676. Figure 5 e,f. Study:
 #' \url{https://doi.org/10.1038/s41467-026-70804-6}. Repository:
@@ -1417,7 +1442,9 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 36 features and 2 observations. The abundance
-#' assay is in fraction of the source profile total intensity.
+#' assay is in fraction of the source profile total intensity. rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
 #' @source
 #' GlycoPOST GPST000381. Sheet1. Study:
 #' \url{https://doi.org/10.1126/science.adg1955}. Repository:
@@ -1461,7 +1488,8 @@
 #' @format
 #' A [glyexp::GlycomicSE] with 566 features and 11 observations. The abundance
 #' assay is in MALDI-TOF-MS peak intensity (source instrument units; arbitrary
-#' units).
+#' units). rowData has no glycan_structure column because no feature has a
+#' supported structural annotation.
 #' @source
 #' GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
 #' data. Study: \url{https://doi.org/10.1038/s41467-026-70850-0}. Repository:
@@ -1505,7 +1533,8 @@
 #' @format
 #' A [glyexp::GlycomicSE] with 183 features and 3 observations. The abundance
 #' assay is in MALDI-TOF-MS peak intensity (source instrument units; arbitrary
-#' units).
+#' units). rowData has no glycan_structure column because no feature has a
+#' supported structural annotation.
 #' @source
 #' GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
 #' data. Study: \url{https://doi.org/10.1038/s41467-026-70850-0}. Repository:
@@ -1549,7 +1578,8 @@
 #' @format
 #' A [glyexp::GlycomicSE] with 489 features and 10 observations. The abundance
 #' assay is in MALDI-TOF-MS peak intensity (source instrument units; arbitrary
-#' units).
+#' units). rowData has no glycan_structure column because no feature has a
+#' supported structural annotation.
 #' @source
 #' GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
 #' data. Study: \url{https://doi.org/10.1038/s41467-026-70850-0}. Repository:
@@ -1593,7 +1623,8 @@
 #' @format
 #' A [glyexp::GlycomicSE] with 247 features and 4 observations. The abundance
 #' assay is in MALDI-TOF-MS peak intensity (source instrument units; arbitrary
-#' units).
+#' units). rowData has no glycan_structure column because no feature has a
+#' supported structural annotation.
 #' @source
 #' GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
 #' data. Study: \url{https://doi.org/10.1038/s41467-026-70850-0}. Repository:
@@ -1637,7 +1668,8 @@
 #' @format
 #' A [glyexp::GlycomicSE] with 122 features and 4 observations. The abundance
 #' assay is in MALDI-TOF-MS peak intensity (source instrument units; arbitrary
-#' units).
+#' units). rowData has no glycan_structure column because no feature has a
+#' supported structural annotation.
 #' @source
 #' GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
 #' data. Study: \url{https://doi.org/10.1038/s41467-026-70850-0}. Repository:
@@ -1706,7 +1738,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 75 features and 27 observations. The abundance
-#' assay is in total peak area.
+#' assay is in total peak area. rowData includes a typed glycan_structure
+#' column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000578. Figure 5bc. Study:
 #' \url{https://doi.org/10.1038/s41467-026-73091-3}. Repository:
@@ -1792,7 +1825,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 41 features and 12 observations. The abundance
-#' assay is in glycan intensity (source values).
+#' assay is in glycan intensity (source values). rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000578. Figure 4b. Study:
 #' \url{https://doi.org/10.1038/s41467-026-73091-3}. Repository:
@@ -1830,7 +1864,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 14 features and 2 observations. The abundance
-#' assay is in peak area.
+#' assay is in peak area. rowData includes a typed glycan_structure column;
+#' features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000578. Figure 4e. Study:
 #' \url{https://doi.org/10.1038/s41467-026-73091-3}. Repository:
@@ -1872,7 +1907,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 41 features and 16 observations. The abundance
-#' assay is in percent relative abundance.
+#' assay is in percent relative abundance. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000125. Table S4_1, N block. Study:
 #' \url{https://doi.org/10.1016/j.devcel.2021.02.023}. Repository:
@@ -1914,7 +1950,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 14 features and 16 observations. The abundance
-#' assay is in percent relative abundance.
+#' assay is in percent relative abundance. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000125. Table S4_1, O block. Study:
 #' \url{https://doi.org/10.1016/j.devcel.2021.02.023}. Repository:
@@ -1956,7 +1993,8 @@
 #'
 #' @format
 #' A [glyexp::GlycomicSE] with 12 features and 16 observations. The abundance
-#' assay is in percent relative abundance.
+#' assay is in percent relative abundance. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
 #' @source
 #' GlycoPOST GPST000125. Table S4_1, GSL block. Study:
 #' \url{https://doi.org/10.1016/j.devcel.2021.02.023}. Repository:

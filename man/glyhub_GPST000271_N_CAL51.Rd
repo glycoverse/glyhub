@@ -6,7 +6,8 @@
 \title{N-glycan profiles in CAL51 Golgi knockout cells}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 69 features and 15 observations. The abundance
-assay is in percent relative abundance.
+assay is in percent relative abundance. rowData has no glycan_structure
+column because no feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000271. Summary - N_glycans. Study:

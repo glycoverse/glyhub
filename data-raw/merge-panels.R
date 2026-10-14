@@ -211,9 +211,13 @@ merge_study_panels <- function() {
       v <- vapply(
         con,
         function(z) {
-          unname(as.character(SummarizedExperiment::rowData(objects[[
-            z$panel
-          ]])[[field]][z$index]))
+          annotation <- SummarizedExperiment::rowData(objects[[z$panel]])[[
+            field
+          ]]
+          if (is.null(annotation)) {
+            return(NA_character_)
+          }
+          unname(as.character(annotation[z$index]))
         },
         ''
       )
@@ -236,12 +240,15 @@ merge_study_panels <- function() {
         glyrepr::glycan_composition(NA)
       })
     )
-    rd$glycan_structure <- glyrepr::as_glycan_structure(vapply(
+    structures <- vapply(
       rcon,
       choose_annotation,
       '',
       field = 'glycan_structure'
-    ))
+    )
+    if (any(!is.na(structures))) {
+      rd$glycan_structure <- glyrepr::as_glycan_structure(structures)
+    }
     rd$source_features <- I(rcon)
     rd$source_glycan_subtypes <- vapply(
       rcon,

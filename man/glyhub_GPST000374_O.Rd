@@ -6,7 +6,8 @@
 \title{SSSMuG: Same Sample Sequential Multi-Glycomics. and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 15 features and 7 observations. The abundance
-assay is in LC-MS peak area.
+assay is in LC-MS peak area. rowData includes a typed glycan_structure
+column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000374. Table S3 - O-glycans. Study:

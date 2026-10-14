@@ -6,7 +6,8 @@
 \title{MLL-rearranged B-cell precursor ALL O-glycome}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 21 features and 20 observations. The abundance
-assay is in relative_abundance_percent.
+assay is in relative_abundance_percent. rowData has no glycan_structure
+column because no feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000183. Glycomics Reporting. Study:

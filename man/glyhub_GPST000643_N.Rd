@@ -6,7 +6,8 @@
 \title{GH20 activity on N-glycans from pretreated PSGL-1 and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 3 features and 23 observations. The abundance
-assay is in percentage of source total glycan AUC.
+assay is in percentage of source total glycan AUC. rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000643. Supplementary Table S10B, N-glycan rows 25-27

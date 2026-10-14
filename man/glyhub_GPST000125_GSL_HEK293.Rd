@@ -6,7 +6,8 @@
 \title{Glycosphingolipid glycan profiles in HEK293 glycosylation-knockout cells}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 12 features and 16 observations. The abundance
-assay is in percent relative abundance.
+assay is in percent relative abundance. rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000125. Table S4_1, GSL block. Study:

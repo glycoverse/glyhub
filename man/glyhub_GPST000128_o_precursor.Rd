@@ -6,7 +6,8 @@
 \title{Red-blood-cell O-glycan precursor quantification}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 35 features and 6 observations. The abundance
-assay is in peak_area.
+assay is in peak_area. rowData has no glycan_structure column because no
+feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000128. Panorama PrecursorChromInfo. Study:

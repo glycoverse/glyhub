@@ -51,3 +51,23 @@ test_that("all documented datasets satisfy measurement and annotation contracts"
     }
   }
 })
+
+test_that("structure columns exist only for datasets with structural annotations", {
+  entries <- utils::data(package = "glyhub")$results[, "Item"]
+  absent <- 0L
+  for (name in entries) {
+    x <- getExportedValue("glyhub", name)
+    rd <- SummarizedExperiment::rowData(x)
+    if ("glycan_structure" %in% names(rd)) {
+      expect_true(any(!is.na(rd$glycan_structure)), info = name)
+      expect_true(
+        glyrepr::is_glycan_structure(rd$glycan_structure),
+        info = name
+      )
+    } else {
+      absent <- absent + 1L
+      expect_true(methods::validObject(x), info = name)
+    }
+  }
+  expect_identical(absent, 18L)
+})

@@ -6,7 +6,8 @@
 \title{Mouse CTX (M) N-glycan source peak profiles and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 679 features and 86 observations. The abundance
-assay is in source peak intensity.
+assay is in source peak intensity. rowData has no glycan_structure column
+because no feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000213. CTX (M). Study:

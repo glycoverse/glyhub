@@ -6,7 +6,8 @@
 \title{Sulfatase modifying factors control the timing of zebrafish convergence and extension morphogenesis. and related study experiments}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 8 features and 15 observations. The abundance
-assay is in percent total HS disaccharides.
+assay is in percent total HS disaccharides. rowData has no glycan_structure
+column because no feature has a supported structural annotation.
 }
 \source{
 GlycoPOST GPST000676. Figure 5 e,f. Study:

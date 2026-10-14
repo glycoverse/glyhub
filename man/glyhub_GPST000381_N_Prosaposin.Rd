@@ -6,7 +6,9 @@
 \title{Released N-glycans of pSAP65 and pSAP75 prosaposin forms}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 36 features and 2 observations. The abundance
-assay is in fraction of the source profile total intensity.
+assay is in fraction of the source profile total intensity. rowData has no
+glycan_structure column because no feature has a supported structural
+annotation.
 }
 \source{
 GlycoPOST GPST000381. Sheet1. Study:

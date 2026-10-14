@@ -6,7 +6,8 @@
 \title{Released O-glycans of recombinant SARS-CoV-2 Spike and ACE2}
 \format{
 A \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} with 16 features and 2 observations. The abundance
-assay is in percent of total O-glycan profile.
+assay is in percent of total O-glycan profile. rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 }
 \source{
 GlycoPOST GPST000120. Sheet1. Study:
