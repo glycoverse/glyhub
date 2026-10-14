@@ -1,0 +1,57 @@
+# Major human schistosome species express different glycans with immunological and diagnostic implications
+
+Annotated Schistosoma haematobium N-glycan MALDI-TOF-MS peak-intensity
+records from Supplementary Data 1, sheet (C) Sh N-glycans; 489
+source-specific peak records across 10 spectra.
+
+## Usage
+
+``` r
+glyhub_GPST000602_Sh_N
+```
+
+## Format
+
+A
+[glyexp::GlycomicSE](https://glycoverse.github.io/glyexp/reference/GlycomicSE.html)
+with 489 features and 10 observations. The abundance assay is in
+MALDI-TOF-MS peak intensity (source instrument units; arbitrary units).
+rowData has no glycan_structure column because no feature has a
+supported structural annotation.
+
+## Source
+
+GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
+data. Study: <https://doi.org/10.1038/s41467-026-70850-0>. Repository:
+<https://glycopost.glycosmos.org/entry/GPST000602>. Quantitative source:
+<https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-70850-0/MediaObjects/41467_2026_70850_MOESM3_ESM.xlsx>.
+
+## Details
+
+Each retained source peak is a separate feature identified by sheet,
+spectrum block and row. The sparse matrix organizes spectrum-specific
+measurements without asserting cross-spectrum molecular identity.
+Off-spectrum entries have source_coverage=FALSE and are not measured
+missing values or biological absence. The object scope is one object per
+source worksheet across the five source worksheets. This object is not a
+ready-to-use cross-sample aligned feature matrix; cross-spectrum
+comparisons require an independently justified feature alignment. Only
+rows with a non-null author composition annotation are retained. Raw
+workbook bytes and complete retained/dropped cell-level ledgers preserve
+source evidence. No averaging, summation, normalization, imputation,
+mass filtering, peak selection by intensity, or raw-MS processing is
+performed. All retained numeric assay zeros become NA; nonzero values
+are unchanged. Putative compositions do not establish exact structures
+or distinguish isomers. AA and redEnd labels are stored separately from
+monosaccharide counts.
+
+All retained features have source putative composition annotations
+parsed to typed monosaccharide counts; exact glycan structures remain
+NA. Original labels, m/z values, all source block values and source
+formulas are preserved.
+
+## See also
+
+[glyhub_data_conventions](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+for missing-value handling, annotations and access to original
+measurements and source coordinates.

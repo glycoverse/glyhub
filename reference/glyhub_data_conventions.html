@@ -59,12 +59,19 @@ cell coordinates and the explanation for each processed value. Original AUCs
 and retention times are available for GPST000643. These provenance matrices
 are not additional abundance assays and may use different units.</p>
 <p><code>rowData(x)</code> retains source feature labels, typed glyrepr compositions and
-structures where supported. Putative assignments remain putative; ambiguous
+structures where supported. A <code>glycan_structure</code> column is present only when
+at least one feature has a valid structural annotation; unannotated features
+in that column remain <code>NA</code>. If none has a structural annotation, the column
+is absent. Putative assignments remain putative; ambiguous
 linkages are not completed. Unconverted notation and annotation disagreements
 are retained explicitly. Source mass/isomer labels are not universal IDs.
 Consult individual feature annotations when an experiment includes more than
 one glycan class.</p>
-<p><code>colData(x)</code> contains source conditions and observation labels. A source label
+<p><code>colData(x)</code> contains source conditions and observation labels. Common numeric
+and logical source types are preserved when combining panels, with typed
+missing values for absent or conflicting observations. Genuinely mixed source
+types retain their original text rather than being guessed or coerced to numbers.
+A source label
 such as Sample 1 or Replicate 1 does not by itself establish biological
 replication, independence or pairing across tables. Each object's <code>source</code>,
 <code>doi</code> and <code>license</code> metadata identify its references and source-data license.

@@ -11,8 +11,8 @@
 <script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Curated Glycomics and Glycoproteomics Data Resources">
-<meta name="description" content="Public glycomics data represented as glyexp GlycomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
-<meta property="og:description" content="Public glycomics data represented as glyexp GlycomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
+<meta name="description" content="Public glycomics and glycoproteomics data represented as glyexp GlycomicSE and GlycoproteomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
+<meta property="og:description" content="Public glycomics and glycoproteomics data represented as glyexp GlycomicSE and GlycoproteomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
 <meta property="og:image" content="https://glycoverse.github.io/glyhub/logo.svg">
 </head>
 <body>
@@ -56,7 +56,7 @@
 <div class="section level2">
 <h2 id="available-data">Available data<a class="anchor" aria-label="anchor" href="#available-data"></a>
 </h2>
-<p>Eleven glycomics objects are bundled from two public studies. No glycoproteomics datasets are included yet.</p>
+<p>34 datasets from 17 public GlycoPOST projects are bundled, including released glycans, glycosaminoglycan disaccharides and site/charge-resolved glycopeptides. Objects combine source-defined quantitative tables from the same study and glycan class where measurement definitions are compatible. GPST000602 is explicitly an annotated-peak subset with spectrum-specific, unaligned feature identities. Inclusion does not imply recovery of every experiment in its paper.</p>
 <table class="table">
 <thead><tr>
 <th>Dataset</th>
@@ -72,46 +72,138 @@
 <td>10 × 28</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S5</code></td>
-<td>108 × 22</td>
+<td><code>glyhub_GPST000643_O</code></td>
+<td>365 × 71</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S7</code></td>
-<td>77 × 6</td>
+<td><code>glyhub_GPST000643_N</code></td>
+<td>3 × 23</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S9B</code></td>
-<td>56 × 7</td>
+<td><code>glyhub_GPST000213_N</code></td>
+<td>679 × 86</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S10B</code></td>
-<td>9 × 8</td>
+<td><code>glyhub_GPST000213_O</code></td>
+<td>148 × 39</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_N_S10B</code></td>
-<td>3 × 8</td>
+<td><code>glyhub_GPST000271_N_CAL51</code></td>
+<td>69 × 15</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S10C</code></td>
-<td>3 × 15</td>
+<td><code>glyhub_GPST000271_O_CAL51</code></td>
+<td>7 × 15</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_N_S10C</code></td>
-<td>2 × 15</td>
+<td><code>glyhub_GPST000533_N_Released</code></td>
+<td>13 × 9</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S11B</code></td>
-<td>60 × 9</td>
+<td><code>glyhub_GPST000533_N_Glycopeptides</code></td>
+<td>54 × 9</td>
 </tr>
 <tr>
-<td><code>glyhub_GPST000643_O_S12</code></td>
-<td>140 × 4</td>
+<td><code>glyhub_GPST000120_O_Spike_ACE2</code></td>
+<td>16 × 2</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000035_O</code></td>
+<td>231 × 66</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000128_n_precursor</code></td>
+<td>128 × 6</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000128_o_precursor</code></td>
+<td>35 × 6</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000183_n</code></td>
+<td>101 × 7</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000183_o</code></td>
+<td>21 × 20</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000599_serum_n</code></td>
+<td>45 × 134</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000431_N</code></td>
+<td>70 × 62</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000374_sssmug_gsl</code></td>
+<td>13 × 10</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000374_sssmug_n</code></td>
+<td>218 × 10</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000374_O</code></td>
+<td>15 × 7</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000676_GAG</code></td>
+<td>8 × 15</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000381_N_Prosaposin</code></td>
+<td>36 × 2</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000602_Sh_GSL</code></td>
+<td>566 × 11</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000602_Sm_GSL</code></td>
+<td>183 × 3</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000602_Sh_N</code></td>
+<td>489 × 10</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000602_Sm_N</code></td>
+<td>247 × 4</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000602_Sh_O</code></td>
+<td>122 × 4</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000578_N_total_peak_area</code></td>
+<td>75 × 27</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000578_N_source_repeatability_intensity</code></td>
+<td>41 × 12</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000578_N_Fetuin_TwoSites</code></td>
+<td>14 × 2</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000125_N_HEK293</code></td>
+<td>41 × 16</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000125_O_HEK293</code></td>
+<td>14 × 16</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000125_GSL_HEK293</code></td>
+<td>12 × 16</td>
 </tr>
 </tbody>
 </table>
-<p>GPST000738 retains both enzyme experiments and all raw-table feature rows. Conflicting cells are NA; this is not a complete reconstruction of the authors’ final analytical matrix. Flow and time are conditions, and a repeated control table is represented once per enzyme. Unmatched processed-table observations remain in metadata without invented sample pairing.</p>
-<p>GPST000643 uses complete supplementary quantitative tables for separate experiments. Tables S10B and S10C have distinct N/O feature spaces and are split accordingly. Each pair retains the same source observation columns and original denominators. Source labels do not establish biological replication or cross-table pairing.</p>
-<p><strong>Zero-valued abundances are stored as NA in the distributed assays.</strong> Original values, source n.d./NA, conflict masks and zero-to-NA records are retained separately in metadata. Metadata zeros (such as 0 hours) are unchanged. Measurements are not imputed or renormalized. Read the <a href="data-raw/AUDIT.html">curation audit</a> for source selection, units, annotation precision, licenses and limitations.</p>
+<p>Each dataset has its own help page describing the biological system, experimental design, units, source table and limitations. Use <code>data(package = "glyhub")</code> for the installed catalog. N/O classes remain separate; source experiments, sample conditions and replicate labels remain in <code>colData</code>. Feature unions use documented author keys or supported structures, with an explicit source-coverage mask for unmeasured combinations. The two GPST000738 enzyme assays remain separate because their normalization reference sets differ. GPST000578 retains three measurement groups because total peak area, source repeatability intensity and inter-instrument peak area cannot be assumed to have identical measurement definitions. Former names are listed in the <a href="data-raw/panel-name-mapping.csv">migration map</a>.</p>
+<p><strong>Zero-valued abundances are stored as NA in the distributed assays.</strong> Original values, source-missing values and conflict masks remain in metadata. No imputation or renormalization is applied. Unknown molecular annotations remain NA without removing quantitative rows, except for the documented annotated-only peak subset in GPST000602; its excluded source rows remain in the provenance ledger. Structures are encoded only from explicit source structural evidence; unresolved bonds and attachment positions remain uncertain.</p>
+<p>Notable limits include source-column conflicts in GPST000213, source annotation conflicts in GPST000035, and uncertain positional assignments in several datasets. Charge-state features in GPST000533 are not independent biological replicates. Original source licenses and repository terms are recorded separately from the package’s code license. See the <a href="data-raw/AUDIT.html">curation audit</a>, <a href="data-raw/CALIBRATION.html">20-project review</a>, and <a href="data-raw/object-inventory.csv">object inventory</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>

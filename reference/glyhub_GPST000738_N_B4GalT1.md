@@ -17,7 +17,8 @@ glyhub_GPST000738_N_B4GalT1
 A
 [glyexp::GlycomicSE](https://glycoverse.github.io/glyexp/reference/GlycomicSE.html)
 with 9 features and 18 observations. The abundance assay is in
-percentage within the source glycan family.
+percentage within the source glycan family. rowData includes a typed
+glycan_structure column; features without a supported structure are NA.
 
 ## Source
 

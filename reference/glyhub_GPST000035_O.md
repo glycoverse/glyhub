@@ -1,0 +1,348 @@
+# O-glycan profile of Fetuin_standard and related study experiments
+
+Complete O-glycan peak-area profile from source panel S2
+Fetuin_standard, in the study of cell-line-specific O-glycosylation. All
+3 source quantitative features and 3 replicate observations are
+retained. Combined O-glycan quantitative profiles from GPST000035. 231
+union features and 66 source observations are represented.
+
+## Usage
+
+``` r
+glyhub_GPST000035_O
+```
+
+## Format
+
+A
+[glyexp::GlycomicSE](https://glycoverse.github.io/glyexp/reference/GlycomicSE.html)
+with 231 features and 66 observations. The abundance assay is in
+peak_area. rowData has no glycan_structure column because no feature has
+a supported structural annotation.
+
+## Source
+
+GlycoPOST GPST000035. S2 Fetuin_standard. Study:
+<https://doi.org/10.1007/s00018-020-03504-z>. Repository:
+<https://glycopost.glycosmos.org/entry/GPST000035>. Quantitative source:
+<https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs00018-020-03504-z/MediaObjects/18_2020_3504_MOESM4_ESM.xlsx>.
+
+## Details
+
+Source experiments are identified in colData and original panel-specific
+metadata, annotations and measurements are retained in metadata. Feature
+identities are aligned only when supported by author identifiers or
+explicit molecular structures; other features retain source-specific
+identities. The source_coverage matrix distinguishes unmeasured
+combinations from measured missing values. Units: peak_area.
+
+O-glycan profile of Fetuin_standard: The 3 observations are
+source-labelled technical replicates in this panel. Source biological
+and technical replicate designations are retained in colData where
+stated. Source retention-time isomers retain distinct feature identities
+unless the author global identifier, composition, retention time and
+relative area establish a match. Fetuin is a quality-control standard
+rather than a cell line. Source monosaccharide-count conflicts produce
+unknown typed composition, while the original label, counts and
+quantitative matrix are preserved. Sulfation is encoded as a substituent
+where supported.
+
+O-glycan profile of C10: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of COLO205 : The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of HT29: The 3 observations are source-labelled
+biological replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of HT29_Vumc : The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of WiDr: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of KM12: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of T84 : The 2 observations are source-labelled
+unspecified replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of LS174T: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of LS180: The 2 observations are source-labelled
+unspecified replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW1116: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW1463: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW948: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW1398: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW48: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW480: The 3 observations are source-labelled
+biological replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW480_Vumc : The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW620: The 3 observations are source-labelled
+biological replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of SW837: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of CaCo-2: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of Co115 : The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of Colo320: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of DLD-1: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of HCT116: The 3 observations are source-labelled
+biological replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of HCT116 Vumc: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of HCT 15: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of HCT 8 : The 3 observations are source-labelled
+biological replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of LOVO: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of LS411N: The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+O-glycan profile of RKO : The 2 observations are source-labelled
+technical replicates in this panel. Source biological and technical
+replicate designations are retained in colData where stated. Source
+retention-time isomers retain distinct feature identities unless the
+author global identifier, composition, retention time and relative area
+establish a match. Fetuin is a quality-control standard rather than a
+cell line. Source monosaccharide-count conflicts produce unknown typed
+composition, while the original label, counts and quantitative matrix
+are preserved. Sulfation is encoded as a substituent where supported.
+
+Molecular annotations retain source precision. Unresolved compositions
+or structures are NA; original annotations are retained in rowData. All
+quantitative source features are preserved.
+
+## See also
+
+[glyhub_data_conventions](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+for missing-value handling, annotations and access to original
+measurements and source coordinates.
