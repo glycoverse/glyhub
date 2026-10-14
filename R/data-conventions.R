@@ -33,7 +33,11 @@
 #' Consult individual feature annotations when an experiment includes more than
 #' one glycan class.
 #'
-#' `colData(x)` contains source conditions and observation labels. A source label
+#' `colData(x)` contains source conditions and observation labels. Common numeric
+#' and logical source types are preserved when combining panels, with typed
+#' missing values for absent or conflicting observations. Genuinely mixed source
+#' types retain their original text rather than being guessed or coerced to numbers.
+#' A source label
 #' such as Sample 1 or Replicate 1 does not by itself establish biological
 #' replication, independence or pairing across tables. Each object's `source`,
 #' `doi` and `license` metadata identify its references and source-data license.

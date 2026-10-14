@@ -94,6 +94,14 @@ build_matrix_specs <- function(path) {
       stopifnot(length(vals) == ncol(raw))
       nonmissing <- Filter(Negate(is.null), vals)
       if (
+        length(nonmissing) && all(vapply(nonmissing, is.logical, logical(1)))
+      ) {
+        cd[[key]] <- vapply(
+          vals,
+          function(z) as.logical(scalar(z, NA)),
+          logical(1)
+        )
+      } else if (
         length(nonmissing) && all(vapply(nonmissing, is.numeric, logical(1)))
       ) {
         cd[[key]] <- vapply(

@@ -279,18 +279,64 @@ merge_study_panels <- function() {
       names(SummarizedExperiment::colData(x))
     })))
     for (field in fields) {
+      source_columns <- lapply(xs, function(x) {
+        SummarizedExperiment::colData(x)[[field]]
+      })
+      present <- Filter(Negate(is.null), source_columns)
+      informative <- Filter(function(v) any(!is.na(v)), present)
+      if (!length(informative)) {
+        informative <- present
+      }
+      types <- unique(vapply(
+        informative,
+        function(v) {
+          if (is.object(v)) "character" else typeof(v)
+        },
+        ""
+      ))
+      common_type <- if (
+        length(types) && all(types %in% c("integer", "double"))
+      ) {
+        if ("double" %in% types) "double" else "integer"
+      } else if (identical(types, "logical")) {
+        "logical"
+      } else {
+        # Preserve genuine mixed metadata as source text, including literal NA labels.
+        "character"
+      }
+      missing_value <- switch(
+        common_type,
+        double = NA_real_,
+        integer = NA_integer_,
+        logical = NA,
+        character = NA_character_
+      )
+      convert <- switch(
+        common_type,
+        double = as.numeric,
+        integer = as.integer,
+        logical = as.logical,
+        character = as.character
+      )
       cd[[field]] <- vapply(
         ccon,
         function(con) {
-          v <- unlist(lapply(con, function(z) {
-            as.character(SummarizedExperiment::colData(objects[[z$panel]])[[
-              field
-            ]][z$index])
-          }))
-          v <- unique(v[!is.na(v)])
-          if (length(v) == 1L) v else NA_character_
+          values <- unlist(
+            lapply(con, function(z) {
+              column <- SummarizedExperiment::colData(objects[[z$panel]])[[
+                field
+              ]]
+              if (is.null(column)) {
+                return(NULL)
+              }
+              convert(column[z$index])
+            }),
+            use.names = FALSE
+          )
+          values <- unique(values[!is.na(values)])
+          if (length(values) == 1L) values else missing_value
         },
-        ''
+        missing_value
       )
     }
     cd$assay_unit <- rep(units, length(cols))

@@ -1,6 +1,6 @@
 # Follow-up curation, 14 October 2026
 
-The package now contains 34 objects from 17 projects, including 30 objects from fifteen newly accepted pilot projects. The initial 22 objects retain identical assays, molecular annotations and observation metadata; new source coverage masks extend their provenance without changing their measurements.
+The package now contains 34 objects from 17 projects, including 30 objects from fifteen newly accepted pilot projects. The initial 22 objects retain identical assays, molecular annotations and observation metadata values; new source coverage masks extend their provenance without changing their measurements.
 
 ## Newly included profiles
 
@@ -34,3 +34,7 @@ The build consumes checksum-pinned originals and mappings under accession direct
 ## Optional structural annotation column
 
 The `glycan_structure` row-data column is omitted when a dataset has no valid structural annotations. It is absent from 18 of the 34 datasets. The remaining 16 retain a typed column, with NA for unsupported individual features. Complete rebuilding and comparison preserve all measurements, compositions, supported structures, sample metadata and source provenance. Each help page describes the actual row-data schema.
+
+## Source sample-metadata types
+
+Numeric and logical `colData` types are preserved when panels share a source type. Seventeen numeric fields and three boolean fields across eleven datasets retain their source types rather than character representations. Conflicting or absent values use the corresponding typed NA. GPST000035 staging and CMS fields contain genuine numeric/text mixtures and retain their source text, including literal missing-value labels. Quantitative assays, row annotations and metadata values are unchanged.

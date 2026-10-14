@@ -37,7 +37,11 @@ are retained explicitly. Source mass/isomer labels are not universal IDs.
 Consult individual feature annotations when an experiment includes more than
 one glycan class.
 
-\code{colData(x)} contains source conditions and observation labels. A source label
+\code{colData(x)} contains source conditions and observation labels. Common numeric
+and logical source types are preserved when combining panels, with typed
+missing values for absent or conflicting observations. Genuinely mixed source
+types retain their original text rather than being guessed or coerced to numbers.
+A source label
 such as Sample 1 or Replicate 1 does not by itself establish biological
 replication, independence or pairing across tables. Each object's \code{source},
 \code{doi} and \code{license} metadata identify its references and source-data license.

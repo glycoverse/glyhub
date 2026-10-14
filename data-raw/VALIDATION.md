@@ -1,15 +1,16 @@
 # Validation of the current 34-dataset catalog
 
-The current catalog contains 34 datasets from 17 accessions. All 34 datasets retain identical assays, supported molecular annotations, sample metadata and provenance after omitting all-NA structure columns from 18 datasets. The other 16 retain their typed structure columns and per-feature missing values. GPST000168 is deferred and outside this catalog.
+The current catalog contains 34 datasets from 17 accessions. All 34 datasets retain identical assays, supported molecular annotations, sample metadata values and provenance after omitting all-NA structure columns from 18 datasets. The other 16 retain their typed structure columns and per-feature missing values. GPST000168 is deferred and outside this catalog.
 
 - The optional-structure-column review is recorded in `validation-logs/structure-column-*`; per-dataset and shared help pages state the actual schema.
+- Sample-metadata type review: 20 columns across 11 datasets retain numeric/logical source types. Independent conservation checks verify all values and missingness, all assays and row annotations, mixed-source text and nonaffected metadata.
 - R 4.5.0 on the isolated Linux cloud runtime; glyhub 0.0.0.9000, glyexp 0.17.0, glyrepr 1.1.0.
 - Development-loaded tests: 1,114 passed, zero failures, warnings or skips.
 - Clean installed-package tests: 1,114 passed, zero failures, warnings or skips. The actual isolated installation is explicitly printed in the validation log.
 - Complete 34-object reconstruction: all assays, canonical composition/structure annotations, sample conditions and provenance are identical. Graph runtime identifiers are excluded from canonical comparisons. The earlier full-catalog timing was 69.088 seconds for reconstruction and 52.825 seconds for a separate build; the optional-column reconstruction also passed and was not separately timed. Neither figure measures literature curation labor or download time.
 - GPST000599: anonymous full-archive recovery succeeded; the extracted XLSX matches its fixed SHA-256. The 134 clinical mappings and source-cell snapshot validate; a negative checksum fixture stops without altering the existing file.
 - All 88 retained source/annotation/mapping checksums verified.
-- Original 22-object regression: assays, supported molecular annotations and observation metadata unchanged; the documented optional-column schema applies.
+- Original 22-object regression: assays, supported molecular annotations and observation metadata values unchanged; the documented optional-column and source-type schemas apply.
 - GPST000125: all 1,072 quantitative cells match the original XLSX; 304 zero values become assay NA. Sixty-six compositions and 25 structures validate, with one unresolved source diagram/name conflict retained as typed NA. All 215 registry records were independently reparsed; portable helper reconstruction matches the reviewed specifications.
 - GPST000381: complete 36 × 2 expression block, 48 populated source cells, source label choice and direct composition counts independently verified.
 - GPST000578: all 1,516 selected worksheet cells independently verified using standard-library OLE/BIFF parsing. Ten affected cells have fixed worksheet values and a checksum-pinned override, with regression tests guarding against chart-cache substitutions. All 85 distinct GlyTouCan identifiers resolve and validate.
