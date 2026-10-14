@@ -6,11 +6,12 @@
 
 ## Citation
 
-Last F (2026). *glyhub: What the Package Does (One Line, Title Case)*. R
-package version 0.0.0.9000, <https://glycoverse.github.io/glyhub/>.
+Last F (2026). *glyhub: Curated Glycomics and Glycoproteomics Data
+Resources*. R package version 0.0.0.9000,
+<https://glycoverse.github.io/glyhub/>.
 
     @Manual{,
-      title = {glyhub: What the Package Does (One Line, Title Case)},
+      title = {glyhub: Curated Glycomics and Glycoproteomics Data Resources},
       author = {First Last},
       year = {2026},
       note = {R package version 0.0.0.9000},

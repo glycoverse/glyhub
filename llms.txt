@@ -1,27 +1,56 @@
 # glyhub
 
-glyhub aims to provide a curated collection of glycomics and
-glycoproteomics datasets from the literature and public databases. The
-planned collection will store datasets as `GlycomicSE` and
-`GlycoproteomicSE` objects from
-[glyexp](https://github.com/glycoverse/glyexp), bringing measurements,
-molecular annotations, and sample metadata together in a consistent
-format.
+glyhub collects glycomics and glycoproteomics data for the Glycoverse
+ecosystem, using the
+[`GlycomicSE`](https://glycoverse.github.io/glyexp/reference/GlycomicSE.html)
+and
+[`GlycoproteomicSE`](https://glycoverse.github.io/glyexp/reference/GlycoproteomicSE.html)
+containers from [glyexp](https://github.com/glycoverse/glyexp). The
+package is experimental.
 
-## Development status
+## Available data
 
-**glyhub is currently a package skeleton.** It does not yet include
-curated datasets or data-access functions. Dataset examples will be
-added when the first resources are available.
+Eleven glycomics objects are bundled from two public studies. No
+glycoproteomics datasets are included yet.
 
-The initial design is to bundle curated datasets with the package and
-make them available through R’s `LazyData` mechanism. This is a planned
-architecture; datasets, the dependency on glyexp, and lazy loading have
-not yet been implemented.
+| Dataset                       | Features × observations |
+|-------------------------------|-------------------------|
+| `glyhub_GPST000738_N_B4GalT1` | 9 × 18                  |
+| `glyhub_GPST000738_N_ST6GAL1` | 10 × 28                 |
+| `glyhub_GPST000643_O_S5`      | 108 × 22                |
+| `glyhub_GPST000643_O_S7`      | 77 × 6                  |
+| `glyhub_GPST000643_O_S9B`     | 56 × 7                  |
+| `glyhub_GPST000643_O_S10B`    | 9 × 8                   |
+| `glyhub_GPST000643_N_S10B`    | 3 × 8                   |
+| `glyhub_GPST000643_O_S10C`    | 3 × 15                  |
+| `glyhub_GPST000643_N_S10C`    | 2 × 15                  |
+| `glyhub_GPST000643_O_S11B`    | 60 × 9                  |
+| `glyhub_GPST000643_O_S12`     | 140 × 4                 |
+
+GPST000738 retains both enzyme experiments and all raw-table feature
+rows. Conflicting cells are NA; this is not a complete reconstruction of
+the authors’ final analytical matrix. Flow and time are conditions, and
+a repeated control table is represented once per enzyme. Unmatched
+processed-table observations remain in metadata without invented sample
+pairing.
+
+GPST000643 uses complete supplementary quantitative tables for separate
+experiments. Tables S10B and S10C have distinct N/O feature spaces and
+are split accordingly. Each pair retains the same source observation
+columns and original denominators. Source labels do not establish
+biological replication or cross-table pairing.
+
+**Zero-valued abundances are stored as NA in the distributed assays.**
+Original values, source n.d./NA, conflict masks and zero-to-NA records
+are retained separately in metadata. Metadata zeros (such as 0 hours)
+are unchanged. Measurements are not imputed or renormalized. Read the
+[curation audit](https://glycoverse.github.io/glyhub/data-raw/AUDIT.md)
+for source selection, units, annotation precision, licenses and
+limitations.
 
 ## Installation
 
-You can install the development skeleton from
+Install the development version from
 [GitHub](https://github.com/glycoverse/glyhub):
 
 ``` r
@@ -30,15 +59,72 @@ You can install the development skeleton from
 pak::pkg_install("glycoverse/glyhub")
 ```
 
-Installing the current skeleton does not provide any datasets.
+## Example
 
-## Role in `glycoverse`
+``` r
 
-The intended role of glyhub is to collect and curate reusable
-experimental data for the Glycoverse ecosystem. glyexp provides the
-`GlycomicSE` and `GlycoproteomicSE` containers; glyhub is planned to
-supply curated datasets stored in those containers for examples, method
-development, and reproducible analyses.
+x <- glyhub::glyhub_GPST000738_N_B4GalT1
+dim(x)
+#> [1]  9 18
+data.frame(as.list(S4Vectors::metadata(x)$processing_counts))
+#>   source_missing source_nd conflict zero_to_na
+#> 1              0         0       24          6
+```
 
-# 
+Data use R’s LazyData mechanism. `SummarizedExperiment::assay(x)`
+contains the curated abundance matrix;
+`S4Vectors::metadata(x)$raw_abundance` preserves the unconverted values.
+`rowData(x)` retains typed glyrepr annotations and source evidence, and
+`colData(x)` retains source conditions and observation locations.
+
+## Reproduction
+
+Original inputs and scripts are grouped by accession under
+`data-raw/GPST000643/` and `data-raw/GPST000738/`. From the package
+root:
+
+``` r
+
+source("data-raw/build.R")
+# Check that rebuilding preserves scientific contents:
+source("data-raw/validate-reproduction.R")
+```
+
+See [validation
+results](https://glycoverse.github.io/glyhub/data-raw/VALIDATION.md).
+See
+[`?glyhub_data_conventions`](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+for shared measurement and annotation conventions.
+
+# Package index
+
+## Curated glycomics data
+
+- [`glyhub_GPST000738_N_B4GalT1`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000738_N_B4GalT1.md)
+  : Galactosylation of bovine fetuin N-glycans in an enzyme reactor
+- [`glyhub_GPST000738_N_ST6GAL1`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000738_N_ST6GAL1.md)
+  : Sialylation of bovine fetuin N-glycans in an enzyme reactor
+- [`glyhub_GPST000643_O_S5`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S5.md)
+  : Fucosidase treatment of porcine colonic mucin O-glycans
+- [`glyhub_GPST000643_O_S7`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S7.md)
+  : GH89 treatment of porcine gastric mucin O-glycans
+- [`glyhub_GPST000643_O_S9B`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S9B.md)
+  : GH2 treatment of bovine submaxillary mucin O-glycans
+- [`glyhub_GPST000643_O_S10B`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S10B.md)
+  : GH20 activity on O-glycans from pretreated PSGL-1
+- [`glyhub_GPST000643_N_S10B`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_N_S10B.md)
+  : GH20 activity on N-glycans from pretreated PSGL-1
+- [`glyhub_GPST000643_O_S10C`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S10C.md)
+  : Replicated GH20 measurements of PSGL-1 O-glycan core features
+- [`glyhub_GPST000643_N_S10C`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_N_S10C.md)
+  : Replicated GH20 measurements of PSGL-1 N-glycan features
+- [`glyhub_GPST000643_O_S11B`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S11B.md)
+  : Colonic mucin O-glycan degradation by enzyme mixtures
+- [`glyhub_GPST000643_O_S12`](https://glycoverse.github.io/glyhub/reference/glyhub_GPST000643_O_S12.md)
+  : Gastric mucin oligosaccharides remaining after bacterial growth
+
+## Data conventions
+
+- [`glyhub_data_conventions`](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+  : Measurement and annotation conventions for glyhub datasets
 

@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>What the Package Does (One Line, Title Case) • glyhub</title>
+<title>Curated Glycomics and Glycoproteomics Data Resources • glyhub</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="What the Package Does (One Line, Title Case)">
-<meta name="description" content="What the package does (one paragraph).">
-<meta property="og:description" content="What the package does (one paragraph).">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Curated Glycomics and Glycoproteomics Data Resources">
+<meta name="description" content="Public glycomics data represented as glyexp GlycomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
+<meta property="og:description" content="Public glycomics data represented as glyexp GlycomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
 <meta property="og:image" content="https://glycoverse.github.io/glyhub/logo.svg">
 </head>
 <body>
@@ -52,27 +52,96 @@
 </div>
 <!-- badges: start -->
 
-<p>glyhub aims to provide a curated collection of glycomics and glycoproteomics datasets from the literature and public databases. The planned collection will store datasets as <code>GlycomicSE</code> and <code>GlycoproteomicSE</code> objects from <a href="https://github.com/glycoverse/glyexp" class="external-link">glyexp</a>, bringing measurements, molecular annotations, and sample metadata together in a consistent format.</p>
+<p>glyhub collects glycomics and glycoproteomics data for the Glycoverse ecosystem, using the <a href="https://glycoverse.github.io/glyexp/reference/GlycomicSE.html" class="external-link"><code>GlycomicSE</code></a> and <a href="https://glycoverse.github.io/glyexp/reference/GlycoproteomicSE.html" class="external-link"><code>GlycoproteomicSE</code></a> containers from <a href="https://github.com/glycoverse/glyexp" class="external-link">glyexp</a>. The package is experimental.</p>
 <div class="section level2">
-<h2 id="development-status">Development status<a class="anchor" aria-label="anchor" href="#development-status"></a>
+<h2 id="available-data">Available data<a class="anchor" aria-label="anchor" href="#available-data"></a>
 </h2>
-<p><strong>glyhub is currently a package skeleton.</strong> It does not yet include curated datasets or data-access functions. Dataset examples will be added when the first resources are available.</p>
-<p>The initial design is to bundle curated datasets with the package and make them available through R’s <code>LazyData</code> mechanism. This is a planned architecture; datasets, the dependency on glyexp, and lazy loading have not yet been implemented.</p>
+<p>Eleven glycomics objects are bundled from two public studies. No glycoproteomics datasets are included yet.</p>
+<table class="table">
+<thead><tr>
+<th>Dataset</th>
+<th>Features × observations</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>glyhub_GPST000738_N_B4GalT1</code></td>
+<td>9 × 18</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000738_N_ST6GAL1</code></td>
+<td>10 × 28</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S5</code></td>
+<td>108 × 22</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S7</code></td>
+<td>77 × 6</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S9B</code></td>
+<td>56 × 7</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S10B</code></td>
+<td>9 × 8</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_N_S10B</code></td>
+<td>3 × 8</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S10C</code></td>
+<td>3 × 15</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_N_S10C</code></td>
+<td>2 × 15</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S11B</code></td>
+<td>60 × 9</td>
+</tr>
+<tr>
+<td><code>glyhub_GPST000643_O_S12</code></td>
+<td>140 × 4</td>
+</tr>
+</tbody>
+</table>
+<p>GPST000738 retains both enzyme experiments and all raw-table feature rows. Conflicting cells are NA; this is not a complete reconstruction of the authors’ final analytical matrix. Flow and time are conditions, and a repeated control table is represented once per enzyme. Unmatched processed-table observations remain in metadata without invented sample pairing.</p>
+<p>GPST000643 uses complete supplementary quantitative tables for separate experiments. Tables S10B and S10C have distinct N/O feature spaces and are split accordingly. Each pair retains the same source observation columns and original denominators. Source labels do not establish biological replication or cross-table pairing.</p>
+<p><strong>Zero-valued abundances are stored as NA in the distributed assays.</strong> Original values, source n.d./NA, conflict masks and zero-to-NA records are retained separately in metadata. Metadata zeros (such as 0 hours) are unchanged. Measurements are not imputed or renormalized. Read the <a href="data-raw/AUDIT.html">curation audit</a> for source selection, units, annotation precision, licenses and limitations.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development skeleton from <a href="https://github.com/glycoverse/glyhub" class="external-link">GitHub</a>:</p>
+<p>Install the development version from <a href="https://github.com/glycoverse/glyhub" class="external-link">GitHub</a>:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html" class="external-link">pkg_install</a></span><span class="op">(</span><span class="st">"glycoverse/glyhub"</span><span class="op">)</span></span></code></pre></div>
-<p>Installing the current skeleton does not provide any datasets.</p>
 </div>
 <div class="section level2">
-<h2 id="role-in-glycoverse">Role in <code>glycoverse</code>
-<a class="anchor" aria-label="anchor" href="#role-in-glycoverse"></a>
+<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
-<p>The intended role of glyhub is to collect and curate reusable experimental data for the Glycoverse ecosystem. glyexp provides the <code>GlycomicSE</code> and <code>GlycoproteomicSE</code> containers; glyhub is planned to supply curated datasets stored in those containers for examples, method development, and reproducible analyses.</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="va"><a href="reference/glyhub_GPST000738_N_B4GalT1.html">glyhub_GPST000738_N_B4GalT1</a></span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1]  9 18</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">as.list</a></span><span class="op">(</span><span class="fu">S4Vectors</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/S4Vectors/man/Annotated-class.html" class="external-link">metadata</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span><span class="op">$</span><span class="va">processing_counts</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co">#&gt;   source_missing source_nd conflict zero_to_na</span></span>
+<span><span class="co">#&gt; 1              0         0       24          6</span></span></code></pre></div>
+<p>Data use R’s LazyData mechanism. <code>SummarizedExperiment::assay(x)</code> contains the curated abundance matrix; <code>S4Vectors::metadata(x)$raw_abundance</code> preserves the unconverted values. <code>rowData(x)</code> retains typed glyrepr annotations and source evidence, and <code>colData(x)</code> retains source conditions and observation locations.</p>
+</div>
+<div class="section level2">
+<h2 id="reproduction">Reproduction<a class="anchor" aria-label="anchor" href="#reproduction"></a>
+</h2>
+<p>Original inputs and scripts are grouped by accession under <code>data-raw/GPST000643/</code> and <code>data-raw/GPST000738/</code>. From the package root:</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/source.html" class="external-link">source</a></span><span class="op">(</span><span class="st">"data-raw/build.R"</span><span class="op">)</span></span>
+<span><span class="co"># Check that rebuilding preserves scientific contents:</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/source.html" class="external-link">source</a></span><span class="op">(</span><span class="st">"data-raw/validate-reproduction.R"</span><span class="op">)</span></span></code></pre></div>
+<p>See <a href="data-raw/VALIDATION.html">validation results</a>. See <code><a href="reference/glyhub_data_conventions.html">?glyhub_data_conventions</a></code> for shared measurement and annotation conventions.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">
