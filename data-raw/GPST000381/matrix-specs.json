@@ -1,0 +1,784 @@
+[
+  {
+    "name": "glyhub_GPST000381_N_Prosaposin",
+    "accession": "GPST000381",
+    "glycan_type": "N",
+    "title": "Released N-glycans of pSAP65 and pSAP75 prosaposin forms",
+    "description": "Relative N-glycan profiles of two prosaposin forms in a study of hyperglycosylation and tumor dendritic-cell immune escape. The author-aligned expression table contains 36 features and two profile observations.",
+    "details": "The quantitative assay is the complete Relative expression block (I:J), using its pSAP65 and pSAP75 column labels. The separate intensity blocks B and E carry contradictory pSAP labels: their relative values match expression columns J and I, respectively. The expression-block labels are adopted for this dataset; this is a curation choice, not an author-issued correction. The complete workbook and original labels remain available. Source expression values are fractions that sum to one per observed profile; they are not multiplied by 100. Blank cells remain missing. The source does not identify biological or technical replication for these two profiles, so replicate type is unknown.",
+    "annotation": "Composition counts are directly transcribed from the author Sugar Composition block; NeuAc and NeuGc are distinguished. No glycan structure is inferred from composition or mass.",
+    "doi": "10.1126/science.adg1955",
+    "source_file": "data-raw/GPST000381/Analyzed data.xlsx",
+    "source_url": "https://glycopost.glycosmos.org/data/GPST000381.0/Analyzed%20data.xlsx",
+    "sheet": "Sheet1",
+    "row_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "column_indices": [
+      9,
+      10
+    ],
+    "feature_ids": [
+      "expression_row_3",
+      "expression_row_4",
+      "expression_row_5",
+      "expression_row_6",
+      "expression_row_7",
+      "expression_row_8",
+      "expression_row_9",
+      "expression_row_10",
+      "expression_row_11",
+      "expression_row_12",
+      "expression_row_13",
+      "expression_row_14",
+      "expression_row_15",
+      "expression_row_16",
+      "expression_row_17",
+      "expression_row_18",
+      "expression_row_19",
+      "expression_row_20",
+      "expression_row_21",
+      "expression_row_22",
+      "expression_row_23",
+      "expression_row_24",
+      "expression_row_25",
+      "expression_row_26",
+      "expression_row_27",
+      "expression_row_28",
+      "expression_row_29",
+      "expression_row_30",
+      "expression_row_31",
+      "expression_row_32",
+      "expression_row_33",
+      "expression_row_34",
+      "expression_row_35",
+      "expression_row_36",
+      "expression_row_37",
+      "expression_row_38"
+    ],
+    "sample_ids": [
+      "pSAP65",
+      "pSAP75"
+    ],
+    "raw_matrix": [
+      [
+        null,
+        0.03708633980863995
+      ],
+      [
+        null,
+        0.9013654891347234
+      ],
+      [
+        0.1903192675239856,
+        0.021935355768170225
+      ],
+      [
+        null,
+        0.019473181864062456
+      ],
+      [
+        0.1456896555527963,
+        0.004885723597759205
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        0.03442806629429961,
+        null
+      ],
+      [
+        0.09137767857813697,
+        null
+      ],
+      [
+        0.01470914064057071,
+        0.0016595986207730367
+      ],
+      [
+        0.031463776215415934,
+        0.001979101685195454
+      ],
+      [
+        0.17682127854302415,
+        0.0010715728209199527
+      ],
+      [
+        0.02848608002042367,
+        0.00213243362241719
+      ],
+      [
+        0.08977075676302049,
+        0.0006198353411354448
+      ],
+      [
+        0.022187360994600586,
+        0.0013848781376567568
+      ],
+      [
+        0.04370345006589425,
+        0.000605689816201354
+      ],
+      [
+        0.001092308849278335,
+        null
+      ],
+      [
+        0.010209296993658532,
+        0.0015945262372747443
+      ],
+      [
+        0.009382131333962315,
+        0.0007401251300936795
+      ],
+      [
+        null,
+        0.0003110530850323164
+      ],
+      [
+        0.021191659341605655,
+        0.0004535618363632603
+      ],
+      [
+        0.004481091489181023,
+        null
+      ],
+      [
+        0.06481390301501941,
+        null
+      ],
+      [
+        0.0021921974573198694,
+        null
+      ],
+      [
+        0.0027240665748461575,
+        0.0015582571159848675
+      ],
+      [
+        0.004831553794075674,
+        null
+      ],
+      [
+        null,
+        0.0004740841363712917
+      ],
+      [
+        0.0039833504544763915,
+        null
+      ],
+      [
+        0.0027365891030226553,
+        null
+      ],
+      [
+        null,
+        0.00022263431877525273
+      ],
+      [
+        null,
+        4.358009351198743e-05
+      ],
+      [
+        0.00109064344624573,
+        null
+      ],
+      [
+        0.0023146969551400467,
+        null
+      ],
+      [
+        null,
+        0.00015551159099087727
+      ],
+      [
+        null,
+        0.0001208728815427422
+      ],
+      [
+        null,
+        8.47853086466341e-05
+      ],
+      [
+        null,
+        4.1808047758145864e-05
+      ]
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_row": 3,
+        "expression_mz": 1171.69927416,
+        "composition_table_mz": 1171.69927416,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 4,
+        "expression_mz": 1345.68793392,
+        "composition_table_mz": 1345.68793392,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2,
+          "Fuc": 1,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 5,
+        "expression_mz": 1579.87752,
+        "composition_table_mz": 1579.84760231,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 6,
+        "expression_mz": 1590.88705372,
+        "composition_table_mz": 1590.88705372,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 7,
+        "expression_mz": 1784.013343,
+        "composition_table_mz": 1784.07492344,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 8,
+        "expression_mz": 1825.071386,
+        "composition_table_mz": 1825.071386,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 9,
+        "expression_mz": 1836.05998,
+        "composition_table_mz": 1836.05998,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 10,
+        "expression_mz": 1988.127704,
+        "composition_table_mz": 1988.127704,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 11,
+        "expression_mz": 2040.173838,
+        "composition_table_mz": 2040.16951645,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 12,
+        "expression_mz": 2070.177445,
+        "composition_table_mz": 2070.17065509,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 13,
+        "expression_mz": 2192.231167,
+        "composition_table_mz": 2192.2306892,
+        "composition_counts": {
+          "Hex": 8,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 14,
+        "expression_mz": 2244.264005,
+        "composition_table_mz": 2244.24664836,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 15,
+        "expression_mz": 2396.342517,
+        "composition_table_mz": 2396.37810939,
+        "composition_counts": {
+          "Hex": 9,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 16,
+        "expression_mz": 2431.355708,
+        "composition_table_mz": 2431.34749871,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 1,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 17,
+        "expression_mz": 2461.380481,
+        "composition_table_mz": 2461.40278485,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 1
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 18,
+        "expression_mz": 2600.481954,
+        "composition_table_mz": 2600.481954,
+        "composition_counts": {
+          "Hex": 10,
+          "HexNAc": 2,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 19,
+        "expression_mz": 2605.458249,
+        "composition_table_mz": 2605.44855553,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 20,
+        "expression_mz": 2635.462607,
+        "composition_table_mz": 2635.47951572,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 1,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 21,
+        "expression_mz": 2779.58201423,
+        "composition_table_mz": 2779.58201423,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 2,
+          "NeuAc": 1,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 22,
+        "expression_mz": 2792.559506,
+        "composition_table_mz": 2792.58843202,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 2,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 23,
+        "expression_mz": 2822.583615,
+        "composition_table_mz": 2822.583615,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 1,
+          "NeuGc": 1
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 24,
+        "expression_mz": 2852.575744,
+        "composition_table_mz": 2852.575744,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 2
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 25,
+        "expression_mz": 2910.69141,
+        "composition_table_mz": 2910.69141,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 1
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 26,
+        "expression_mz": 2966.683255,
+        "composition_table_mz": 2966.66147889,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 2,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 27,
+        "expression_mz": 3026.638521,
+        "composition_table_mz": 3026.638521,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 0,
+          "NeuGc": 2
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 28,
+        "expression_mz": 3140.78483444,
+        "composition_table_mz": 3140.78483444,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 2,
+          "NeuAc": 2,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 29,
+        "expression_mz": 3243.79212478,
+        "composition_table_mz": 3243.79212478,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 3
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 30,
+        "expression_mz": 3301.864391,
+        "composition_table_mz": 3301.864391,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 2
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 31,
+        "expression_mz": 3314.89050884,
+        "composition_table_mz": 3314.89050884,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 3,
+          "NeuAc": 2,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 32,
+        "expression_mz": 3503.45927175,
+        "composition_table_mz": 3503.45927175,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1,
+          "NeuAc": 1,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 33,
+        "expression_mz": 3602.91193195,
+        "composition_table_mz": 3603.072431,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0,
+          "NeuAc": 3,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 34,
+        "expression_mz": 3693.061302,
+        "composition_table_mz": 3693.061302,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0,
+          "NeuAc": 0,
+          "NeuGc": 3
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 35,
+        "expression_mz": 3777.23178058,
+        "composition_table_mz": 3777.23178058,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 3,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 36,
+        "expression_mz": 3951.33898752,
+        "composition_table_mz": 3951.33898752,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2,
+          "NeuAc": 3,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 37,
+        "expression_mz": 4125.47362053,
+        "composition_table_mz": 4125.47362053,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 3,
+          "NeuAc": 3,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      },
+      {
+        "source_row": 38,
+        "expression_mz": 4299.73073846,
+        "composition_table_mz": 4299.73073846,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 4,
+          "NeuAc": 3,
+          "NeuGc": 0
+        },
+        "assignment_basis": "Author composition table L:Q and expression table H:J share the same ordered source row; no mass-based composition inference."
+      }
+    ],
+    "col_data": {
+      "prosaposin_form": [
+        "pSAP65",
+        "pSAP75"
+      ],
+      "replicate_type": [
+        null,
+        null
+      ],
+      "label_basis": [
+        "Relative expression I2",
+        "Relative expression J2"
+      ],
+      "conflicting_intensity_block_label": [
+        "PSAP 75 glycans",
+        "pSAP 65 glycans"
+      ]
+    },
+    "unit": "fraction of the source profile total intensity",
+    "license": {
+      "name": "GlycoPOST deposited-data terms",
+      "url": "https://glycopost.glycosmos.org/terms"
+    },
+    "corrected_pmid": "38207022",
+    "repository_pmid": "37398287",
+    "source_md5": "e7ec95963da56093afd29ded33be0a59",
+    "source_glycan_type": "N",
+    "features": 36,
+    "observations": 2,
+    "table": "Sheet1",
+    "object_class": "GlycomicSE"
+  }
+]

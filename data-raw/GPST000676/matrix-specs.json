@@ -1,0 +1,1016 @@
+[
+  {
+    "name": "glyhub_GPST000676_zebrafish_sumf1_hs",
+    "accession": "GPST000676",
+    "doi": "10.1038/s41467-026-70804-6",
+    "title": "Sulfatase modifying factors control the timing of zebrafish convergence and extension morphogenesis.",
+    "description": "Complete eight-component targeted heparan-sulfate disaccharide assay at 80% epiboly. Each sample is independent clutch of 100 embryos. Source Data genotype replicate counts exceed GlycoPOST metadata, so source column IDs are retained and no raw-file correspondence is asserted.",
+    "details": "Complete eight-component targeted heparan-sulfate disaccharide assay at 80% epiboly. Each sample is independent clutch of 100 embryos. Source Data genotype replicate counts exceed GlycoPOST metadata, so source column IDs are retained and no raw-file correspondence is asserted.",
+    "unit": "percent total HS disaccharides",
+    "glycan_type": "GAG",
+    "source_file": "data-raw/GPST000676/41467_2026_70804_MOESM10_ESM.xlsx",
+    "source_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41467-026-70804-6/MediaObjects/41467_2026_70804_MOESM10_ESM.xlsx",
+    "sheet": "Figure 5 e,f",
+    "row_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "column_indices": [
+      8,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "raw_matrix": [
+      [
+        56.72,
+        55.86,
+        60.15,
+        46.92,
+        47.94,
+        51.32,
+        48.57,
+        50.27
+      ],
+      [
+        1.06,
+        1.35,
+        2.86,
+        1.59,
+        1.75,
+        1.34,
+        0.97,
+        1.22
+      ],
+      [
+        2.94,
+        3.13,
+        3.41,
+        3.47,
+        3.42,
+        3.19,
+        3.14,
+        2.93
+      ],
+      [
+        4.32,
+        4.04,
+        5.19,
+        4.21,
+        3.87,
+        4.26,
+        2.92,
+        3.53
+      ],
+      [
+        11.86,
+        11.51,
+        10.12,
+        11.59,
+        11.73,
+        11.7,
+        12.13,
+        11.97
+      ],
+      [
+        7.13,
+        7.03,
+        4.24,
+        6.07,
+        6.75,
+        5.75,
+        7.15,
+        7.17
+      ],
+      [
+        5.69,
+        5.94,
+        5,
+        11.41,
+        10.68,
+        9.92,
+        9.72,
+        9.54
+      ],
+      [
+        10.27,
+        11.14,
+        9.04,
+        14.73,
+        13.85,
+        12.52,
+        15.39,
+        13.37
+      ]
+    ],
+    "raw_source_matrix": [
+      [
+        56.72,
+        55.86,
+        60.15,
+        46.92,
+        47.94,
+        51.32,
+        48.57,
+        50.27
+      ],
+      [
+        1.06,
+        1.35,
+        2.86,
+        1.59,
+        1.75,
+        1.34,
+        0.97,
+        1.22
+      ],
+      [
+        2.94,
+        3.13,
+        3.41,
+        3.47,
+        3.42,
+        3.19,
+        3.14,
+        2.93
+      ],
+      [
+        4.32,
+        4.04,
+        5.19,
+        4.21,
+        3.87,
+        4.26,
+        2.92,
+        3.53
+      ],
+      [
+        11.86,
+        11.51,
+        10.12,
+        11.59,
+        11.73,
+        11.7,
+        12.13,
+        11.97
+      ],
+      [
+        7.13,
+        7.03,
+        4.24,
+        6.07,
+        6.75,
+        5.75,
+        7.15,
+        7.17
+      ],
+      [
+        5.69,
+        5.94,
+        5,
+        11.41,
+        10.68,
+        9.92,
+        9.72,
+        9.54
+      ],
+      [
+        10.27,
+        11.14,
+        9.04,
+        14.73,
+        13.85,
+        12.52,
+        15.39,
+        13.37
+      ]
+    ],
+    "matrix": [
+      [
+        56.72,
+        55.86,
+        60.15,
+        46.92,
+        47.94,
+        51.32,
+        48.57,
+        50.27
+      ],
+      [
+        1.06,
+        1.35,
+        2.86,
+        1.59,
+        1.75,
+        1.34,
+        0.97,
+        1.22
+      ],
+      [
+        2.94,
+        3.13,
+        3.41,
+        3.47,
+        3.42,
+        3.19,
+        3.14,
+        2.93
+      ],
+      [
+        4.32,
+        4.04,
+        5.19,
+        4.21,
+        3.87,
+        4.26,
+        2.92,
+        3.53
+      ],
+      [
+        11.86,
+        11.51,
+        10.12,
+        11.59,
+        11.73,
+        11.7,
+        12.13,
+        11.97
+      ],
+      [
+        7.13,
+        7.03,
+        4.24,
+        6.07,
+        6.75,
+        5.75,
+        7.15,
+        7.17
+      ],
+      [
+        5.69,
+        5.94,
+        5,
+        11.41,
+        10.68,
+        9.92,
+        9.72,
+        9.54
+      ],
+      [
+        10.27,
+        11.14,
+        9.04,
+        14.73,
+        13.85,
+        12.52,
+        15.39,
+        13.37
+      ]
+    ],
+    "feature_ids": [
+      "zebrafish_sumf1_hs_r2",
+      "zebrafish_sumf1_hs_r3",
+      "zebrafish_sumf1_hs_r4",
+      "zebrafish_sumf1_hs_r5",
+      "zebrafish_sumf1_hs_r6",
+      "zebrafish_sumf1_hs_r7",
+      "zebrafish_sumf1_hs_r8",
+      "zebrafish_sumf1_hs_r9"
+    ],
+    "sample_ids": [
+      "Figure5ef_column_8",
+      "Figure5ef_column_9",
+      "Figure5ef_column_10",
+      "Figure5ef_column_13",
+      "Figure5ef_column_14",
+      "Figure5ef_column_15",
+      "Figure5ef_column_16",
+      "Figure5ef_column_17"
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_feature_label": "D0A0",
+        "source_row": 2,
+        "glycan_structure": "D0A0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2A0",
+        "source_row": 3,
+        "glycan_structure": "D2A0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D0A6",
+        "source_row": 4,
+        "glycan_structure": "D0A6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2A6",
+        "source_row": 5,
+        "glycan_structure": "D2A6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D0S0",
+        "source_row": 6,
+        "glycan_structure": "D0S0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2S0",
+        "source_row": 7,
+        "glycan_structure": "D2S0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D0S6",
+        "source_row": 8,
+        "glycan_structure": "D0S6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2S6",
+        "source_row": 9,
+        "glycan_structure": "D2S6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      }
+    ],
+    "col_data": {
+      "condition": [
+        "TU WT",
+        "TU WT",
+        "TU WT",
+        "MZsumf1-/-",
+        "MZsumf1-/-",
+        "MZsumf1-/-",
+        "MZsumf1-/-",
+        "MZsumf1-/-"
+      ],
+      "developmental_stage": [
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly"
+      ],
+      "embryos_per_sample": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "genetic_background": [
+        "TU",
+        "TU",
+        "TU",
+        "TU",
+        "TU",
+        "TU",
+        "TU",
+        "TU"
+      ],
+      "hpf": [
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5
+      ],
+      "organism": [
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio"
+      ],
+      "raw_file_mapping": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "replicate_type": [
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos"
+      ],
+      "sample_id": [
+        "Figure5ef_column_8",
+        "Figure5ef_column_9",
+        "Figure5ef_column_10",
+        "Figure5ef_column_13",
+        "Figure5ef_column_14",
+        "Figure5ef_column_15",
+        "Figure5ef_column_16",
+        "Figure5ef_column_17"
+      ],
+      "source_column": [
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "tissue": [
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos"
+      ],
+      "glycan_subtype": [
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS"
+      ]
+    },
+    "zero_to_na": [],
+    "missing_policy": "All quantitative numeric zero values converted to null in matrix; raw_matrix preserves source zero. Source #N/A and blank cells also map to null; no imputation, averaging, or feature selection.",
+    "source_sha256": "a149fd7f597487cfb99909567450eec98ef5ddb7038e97b8a5357cf5c758468c",
+    "reviewed_at": "2026-10-14T07:00:15.668995+00:00",
+    "feature_type": "glycan_structure",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "structure_iupac": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "structure_conversion_failure": [
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC."
+    ],
+    "source_glycan_type": "GAG",
+    "source_md5": "d22c62d84c72a9fd53439e6dbac0faf4",
+    "source_files": [],
+    "features": 8,
+    "observations": 8,
+    "table": "Figure 5 e,f",
+    "annotation": "Molecular annotations retain source precision. Unresolved compositions or structures are NA; original annotations are retained in rowData. All quantitative source features are preserved."
+  },
+  {
+    "name": "glyhub_GPST000676_zebrafish_sumf2_hs",
+    "accession": "GPST000676",
+    "doi": "10.1038/s41467-026-70804-6",
+    "title": "Sulfatase modifying factors control the timing of zebrafish convergence and extension morphogenesis.",
+    "description": "Complete eight-component targeted heparan-sulfate disaccharide assay at 80% epiboly. Each sample is independent clutch of 100 embryos. Source Data genotype replicate counts exceed GlycoPOST metadata, so source column IDs are retained and no raw-file correspondence is asserted.",
+    "details": "Complete eight-component targeted heparan-sulfate disaccharide assay at 80% epiboly. Each sample is independent clutch of 100 embryos. Source Data genotype replicate counts exceed GlycoPOST metadata, so source column IDs are retained and no raw-file correspondence is asserted.",
+    "unit": "percent total HS disaccharides",
+    "glycan_type": "GAG",
+    "source_file": "data-raw/GPST000676/41467_2026_70804_MOESM10_ESM.xlsx",
+    "source_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41467-026-70804-6/MediaObjects/41467_2026_70804_MOESM10_ESM.xlsx",
+    "sheet": "Figure 5 e,f",
+    "row_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "column_indices": [
+      3,
+      4,
+      5,
+      18,
+      19,
+      20,
+      21
+    ],
+    "raw_matrix": [
+      [
+        56.48,
+        49.15,
+        43.68,
+        48.3,
+        49.63,
+        41.61,
+        52.69
+      ],
+      [
+        1.26,
+        2.12,
+        2.14,
+        3.52,
+        2.15,
+        0.8,
+        1.56
+      ],
+      [
+        3.07,
+        3.55,
+        3.16,
+        4.98,
+        4.41,
+        2.68,
+        4.1
+      ],
+      [
+        2.47,
+        4.68,
+        6.66,
+        4.34,
+        3.34,
+        2.26,
+        3.64
+      ],
+      [
+        14.78,
+        12.23,
+        12.66,
+        11.08,
+        13.88,
+        26.6,
+        11.71
+      ],
+      [
+        4.33,
+        5.84,
+        7.32,
+        4.83,
+        3.37,
+        4.13,
+        5.03
+      ],
+      [
+        8.27,
+        9.14,
+        8.43,
+        13.6,
+        15.69,
+        14.88,
+        13.08
+      ],
+      [
+        9.33,
+        13.29,
+        15.95,
+        9.35,
+        7.53,
+        7.05,
+        8.18
+      ]
+    ],
+    "raw_source_matrix": [
+      [
+        56.48,
+        49.15,
+        43.68,
+        48.3,
+        49.63,
+        41.61,
+        52.69
+      ],
+      [
+        1.26,
+        2.12,
+        2.14,
+        3.52,
+        2.15,
+        0.8,
+        1.56
+      ],
+      [
+        3.07,
+        3.55,
+        3.16,
+        4.98,
+        4.41,
+        2.68,
+        4.1
+      ],
+      [
+        2.47,
+        4.68,
+        6.66,
+        4.34,
+        3.34,
+        2.26,
+        3.64
+      ],
+      [
+        14.78,
+        12.23,
+        12.66,
+        11.08,
+        13.88,
+        26.6,
+        11.71
+      ],
+      [
+        4.33,
+        5.84,
+        7.32,
+        4.83,
+        3.37,
+        4.13,
+        5.03
+      ],
+      [
+        8.27,
+        9.14,
+        8.43,
+        13.6,
+        15.69,
+        14.88,
+        13.08
+      ],
+      [
+        9.33,
+        13.29,
+        15.95,
+        9.35,
+        7.53,
+        7.05,
+        8.18
+      ]
+    ],
+    "matrix": [
+      [
+        56.48,
+        49.15,
+        43.68,
+        48.3,
+        49.63,
+        41.61,
+        52.69
+      ],
+      [
+        1.26,
+        2.12,
+        2.14,
+        3.52,
+        2.15,
+        0.8,
+        1.56
+      ],
+      [
+        3.07,
+        3.55,
+        3.16,
+        4.98,
+        4.41,
+        2.68,
+        4.1
+      ],
+      [
+        2.47,
+        4.68,
+        6.66,
+        4.34,
+        3.34,
+        2.26,
+        3.64
+      ],
+      [
+        14.78,
+        12.23,
+        12.66,
+        11.08,
+        13.88,
+        26.6,
+        11.71
+      ],
+      [
+        4.33,
+        5.84,
+        7.32,
+        4.83,
+        3.37,
+        4.13,
+        5.03
+      ],
+      [
+        8.27,
+        9.14,
+        8.43,
+        13.6,
+        15.69,
+        14.88,
+        13.08
+      ],
+      [
+        9.33,
+        13.29,
+        15.95,
+        9.35,
+        7.53,
+        7.05,
+        8.18
+      ]
+    ],
+    "feature_ids": [
+      "zebrafish_sumf2_hs_r2",
+      "zebrafish_sumf2_hs_r3",
+      "zebrafish_sumf2_hs_r4",
+      "zebrafish_sumf2_hs_r5",
+      "zebrafish_sumf2_hs_r6",
+      "zebrafish_sumf2_hs_r7",
+      "zebrafish_sumf2_hs_r8",
+      "zebrafish_sumf2_hs_r9"
+    ],
+    "sample_ids": [
+      "Figure5ef_column_3",
+      "Figure5ef_column_4",
+      "Figure5ef_column_5",
+      "Figure5ef_column_18",
+      "Figure5ef_column_19",
+      "Figure5ef_column_20",
+      "Figure5ef_column_21"
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_feature_label": "D0A0",
+        "source_row": 2,
+        "glycan_structure": "D0A0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2A0",
+        "source_row": 3,
+        "glycan_structure": "D2A0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D0A6",
+        "source_row": 4,
+        "glycan_structure": "D0A6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2A6",
+        "source_row": 5,
+        "glycan_structure": "D2A6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D0S0",
+        "source_row": 6,
+        "glycan_structure": "D0S0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2S0",
+        "source_row": 7,
+        "glycan_structure": "D2S0",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D0S6",
+        "source_row": 8,
+        "glycan_structure": "D0S6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      },
+      {
+        "source_feature_label": "D2S6",
+        "source_row": 9,
+        "glycan_structure": "D2S6",
+        "structure_format": "author HS disaccharide code",
+        "structure_evidence": "Enzymatic HS digestion with HILIC-Q-TOF-MS; paper Methods disaccharide analysis. Author code retained rather than inferred full stereochemical string."
+      }
+    ],
+    "col_data": {
+      "condition": [
+        "AB WT",
+        "AB WT",
+        "AB WT",
+        "MZsumf2-/-",
+        "MZsumf2-/-",
+        "MZsumf2-/-",
+        "MZsumf2-/-"
+      ],
+      "developmental_stage": [
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly",
+        "80% epiboly"
+      ],
+      "embryos_per_sample": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "genetic_background": [
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB"
+      ],
+      "hpf": [
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5
+      ],
+      "organism": [
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio",
+        "Danio rerio"
+      ],
+      "raw_file_mapping": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "replicate_type": [
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos",
+        "independent clutch of 100 embryos"
+      ],
+      "sample_id": [
+        "Figure5ef_column_3",
+        "Figure5ef_column_4",
+        "Figure5ef_column_5",
+        "Figure5ef_column_18",
+        "Figure5ef_column_19",
+        "Figure5ef_column_20",
+        "Figure5ef_column_21"
+      ],
+      "source_column": [
+        3,
+        4,
+        5,
+        18,
+        19,
+        20,
+        21
+      ],
+      "tissue": [
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos",
+        "whole embryos"
+      ],
+      "glycan_subtype": [
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS",
+        "HS"
+      ]
+    },
+    "zero_to_na": [],
+    "missing_policy": "All quantitative numeric zero values converted to null in matrix; raw_matrix preserves source zero. Source #N/A and blank cells also map to null; no imputation, averaging, or feature selection.",
+    "source_sha256": "a149fd7f597487cfb99909567450eec98ef5ddb7038e97b8a5357cf5c758468c",
+    "reviewed_at": "2026-10-14T07:00:15.668995+00:00",
+    "feature_type": "glycan_structure",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "structure_iupac": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "structure_conversion_failure": [
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC.",
+      "Author disaccharide code retained; no automatically generated IUPAC."
+    ],
+    "source_glycan_type": "GAG",
+    "source_md5": "d22c62d84c72a9fd53439e6dbac0faf4",
+    "source_files": [],
+    "features": 8,
+    "observations": 7,
+    "table": "Figure 5 e,f",
+    "annotation": "Molecular annotations retain source precision. Unresolved compositions or structures are NA; original annotations are retained in rowData. All quantitative source features are preserved."
+  }
+]

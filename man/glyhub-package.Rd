@@ -6,9 +6,9 @@
 \alias{glyhub-package}
 \title{Curated Glycomics and Glycoproteomics Data Resources}
 \description{
-\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+\if{html}{\figure{logo.svg}{options: style='float: right' alt='logo' width='120'}}
 
-Public glycomics data represented as 'glyexp' 'GlycomicSE' objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.
+Public glycomics and glycoproteomics data represented as 'glyexp' 'GlycomicSE' and 'GlycoproteomicSE' objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.
 }
 \seealso{
 Useful links:
@@ -19,6 +19,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: First Last \email{first.last@example.com}
+
+Authors:
+\itemize{
+  \item First Last \email{first.last@example.com}
+}
 
 }
 \keyword{internal}

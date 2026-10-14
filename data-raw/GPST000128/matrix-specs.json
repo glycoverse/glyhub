@@ -1,0 +1,6063 @@
+[
+  {
+    "name": "glyhub_GPST000128_n_precursor",
+    "accession": "GPST000128",
+    "doi": "10.1182/bloodadvances.2020003376",
+    "title": "Red-blood-cell N-glycan precursor quantification",
+    "description": "Complete public Panorama precursor-by-sample TotalArea export; all source precursors including explicitly marked glucose QC/normalization standards retained.",
+    "details": "Six source sample identifiers 07,08,13,39,55,56 retained. Clinical group mapping not verified, group=NA. Multiple precursors per glycan remain separate by source precursor ID; no arbitrary charge merging. This is an already integrated processed quantity export, no raw-MS reprocessing.",
+    "unit": "peak_area",
+    "glycan_type": "N",
+    "source_file": "data-raw/GPST000128/PrecursorChromInfo.json",
+    "source_url": "https://panoramaweb.org/Panorama%20Public/2020/U%20of%20Nebraska%20Medical%20Center%20Gundry%20Lab%20-%20Sickle%20Cell%20Manuscript/query-selectRows.api?schemaName=targetedms&query.queryName=PrecursorChromInfo&query.maxRows=2000",
+    "source_files": [
+      "data-raw/GPST000128/PeptideChromInfo.json",
+      "data-raw/GPST000128/Replicate.json",
+      "data-raw/GPST000128/Molecule.json",
+      "data-raw/GPST000128/SampleFile.json",
+      "data-raw/GPST000128/MoleculePrecursor.json",
+      "data-raw/GPST000128/PrecursorChromInfo.json"
+    ],
+    "sheet": "Panorama PrecursorChromInfo",
+    "row_indices": null,
+    "column_indices": null,
+    "raw_matrix": [
+      [
+        110071.5,
+        118871.08,
+        91223.76,
+        110176.445,
+        114758.48,
+        96839.47
+      ],
+      [
+        212909.83,
+        223682.64,
+        210269.94,
+        226474.23,
+        248580.44,
+        227995.47
+      ],
+      [
+        188061.61,
+        244547.36,
+        177253.67,
+        214254.14,
+        205676.78,
+        257565.34
+      ],
+      [
+        138280.36,
+        162854.6,
+        119145.59,
+        161978.61,
+        127235.016,
+        150115.69
+      ],
+      [
+        9164.436,
+        8082.0923,
+        10253.381,
+        11437.709,
+        7202.2554,
+        4650.052
+      ],
+      [
+        44225.54,
+        61443.73,
+        48381.49,
+        59440.777,
+        39205.242,
+        42155.6
+      ],
+      [
+        11303.225,
+        17788.188,
+        7227.536,
+        16681.057,
+        10963.074,
+        12607.17
+      ],
+      [
+        11793.657,
+        17499.242,
+        8098.593,
+        17103.69,
+        11112.374,
+        13977.093
+      ],
+      [
+        17325.018,
+        16508.195,
+        18018.145,
+        16800.852,
+        7672.9033,
+        24667.064
+      ],
+      [
+        700.78156,
+        365.21735,
+        465.52637,
+        150.54086,
+        0.0,
+        0.0
+      ],
+      [
+        946.23206,
+        354.5938,
+        6713.113,
+        0.0,
+        1247.1152,
+        0.0
+      ],
+      [
+        4753.5356,
+        1818.9795,
+        31502.012,
+        5812.6357,
+        12228.083,
+        1666.5098
+      ],
+      [
+        201.42036,
+        0.0,
+        5711.4326,
+        1098.6868,
+        2401.1106,
+        0.0
+      ],
+      [
+        575.1123,
+        133.78249,
+        15777.666,
+        37104.793,
+        21096.889,
+        24554.057
+      ],
+      [
+        6706.6875,
+        3666.6204,
+        18840.625,
+        10081.62,
+        9659.461,
+        4421.604
+      ],
+      [
+        14457.017,
+        11414.919,
+        93213.086,
+        17418.918,
+        20847.59,
+        14089.413
+      ],
+      [
+        2071.5415,
+        685.59515,
+        7055.438,
+        2908.6614,
+        6904.487,
+        930.33923
+      ],
+      [
+        30276.502,
+        25584.72,
+        106658.984,
+        37136.598,
+        51969.574,
+        37407.18
+      ],
+      [
+        39080.7,
+        27995.451,
+        145818.44,
+        44667.492,
+        56178.348,
+        44080.33
+      ],
+      [
+        4826.6196,
+        4146.78,
+        14524.434,
+        3380.8794,
+        7305.75,
+        4122.4004
+      ],
+      [
+        264473.34,
+        198313.66,
+        381928.44,
+        140444.28,
+        280952.3,
+        183393.9
+      ],
+      [
+        10049.49,
+        8842.098,
+        23645.877,
+        6443.4204,
+        13628.753,
+        9947.185
+      ],
+      [
+        112791.82,
+        80161.484,
+        141681.66,
+        65032.14,
+        149270.9,
+        65364.715
+      ],
+      [
+        13239.42,
+        8950.335,
+        22762.031,
+        705.64844,
+        11412.925,
+        5237.2847
+      ],
+      [
+        44329.934,
+        37219.273,
+        50812.008,
+        4712.439,
+        41030.32,
+        11741.958
+      ],
+      [
+        7329.9756,
+        4590.442,
+        15681.505,
+        2292.269,
+        6566.143,
+        2589.1287
+      ],
+      [
+        18104.379,
+        9362.486,
+        23376.127,
+        802.0818,
+        8024.5874,
+        4295.848
+      ],
+      [
+        196232.08,
+        132339.0,
+        176131.56,
+        80458.72,
+        184629.4,
+        91148.02
+      ],
+      [
+        22260.18,
+        16894.998,
+        41951.29,
+        1967.8828,
+        15754.453,
+        6885.858
+      ],
+      [
+        11631.84,
+        4097.347,
+        15335.587,
+        0.0,
+        4729.5264,
+        2153.669
+      ],
+      [
+        12579.944,
+        10247.115,
+        14826.942,
+        839.01166,
+        9551.386,
+        5168.7656
+      ],
+      [
+        50884.285,
+        48060.89,
+        66424.22,
+        8769.463,
+        50305.47,
+        30442.973
+      ],
+      [
+        67636.164,
+        55229.01,
+        78120.33,
+        12526.403,
+        48332.492,
+        27481.703
+      ],
+      [
+        38979.164,
+        36054.94,
+        45823.805,
+        1768.323,
+        25616.287,
+        17410.984
+      ],
+      [
+        24417.416,
+        16786.232,
+        21862.488,
+        6371.7983,
+        35783.555,
+        24369.174
+      ],
+      [
+        45751.906,
+        27528.96,
+        47691.434,
+        5175.8794,
+        35907.996,
+        23175.246
+      ],
+      [
+        2297.3687,
+        284.85553,
+        7261.773,
+        1376.0176,
+        3470.417,
+        1096.7546
+      ],
+      [
+        42021.16,
+        19974.002,
+        88008.03,
+        30541.586,
+        43305.316,
+        20492.11
+      ],
+      [
+        4553.62,
+        1894.122,
+        19700.322,
+        157.76811,
+        1255.9558,
+        525.40826
+      ],
+      [
+        107703.56,
+        60809.492,
+        84294.02,
+        67596.484,
+        115176.84,
+        48604.168
+      ],
+      [
+        13433.255,
+        10015.127,
+        19960.523,
+        650.10376,
+        11088.538,
+        4209.032
+      ],
+      [
+        32322.06,
+        14681.902,
+        41088.895,
+        10643.509,
+        22235.09,
+        13333.189
+      ],
+      [
+        3779.1455,
+        1809.9209,
+        12777.316,
+        0.0,
+        1835.9528,
+        629.0685
+      ],
+      [
+        4957.4805,
+        597.0173,
+        7802.9575,
+        128.67084,
+        1444.963,
+        233.84274
+      ],
+      [
+        1578.9695,
+        1070.8142,
+        5347.1514,
+        8339.705,
+        5331.0625,
+        5722.8584
+      ],
+      [
+        7297.321,
+        4833.2617,
+        7455.914,
+        704.50977,
+        7966.754,
+        2141.4216
+      ],
+      [
+        42416.375,
+        42372.35,
+        47029.81,
+        20232.98,
+        58684.293,
+        26470.318
+      ],
+      [
+        223893.86,
+        171713.3,
+        700950.3,
+        179586.05,
+        216146.98,
+        149501.25
+      ],
+      [
+        37650.695,
+        39269.273,
+        46546.95,
+        7152.1123,
+        46016.152,
+        30504.42
+      ],
+      [
+        30783.006,
+        17775.648,
+        28709.197,
+        15204.841,
+        23402.125,
+        10530.646
+      ],
+      [
+        223893.86,
+        171713.3,
+        699042.8,
+        179747.77,
+        216146.98,
+        149501.25
+      ],
+      [
+        23597.4,
+        18016.8,
+        63576.13,
+        3096.0564,
+        20750.57,
+        10990.527
+      ],
+      [
+        3832.896,
+        1249.7092,
+        3518.4846,
+        276.41107,
+        3295.7275,
+        1422.7535
+      ],
+      [
+        28294.607,
+        18477.525,
+        29123.205,
+        8816.275,
+        43830.754,
+        23436.713
+      ],
+      [
+        30985.85,
+        21947.227,
+        33605.484,
+        2605.064,
+        17015.438,
+        8293.877
+      ],
+      [
+        23607.424,
+        29266.838,
+        35995.273,
+        0.0,
+        15948.307,
+        10368.533
+      ],
+      [
+        16261.509,
+        17236.57,
+        85192.76,
+        20414.352,
+        11017.694,
+        7667.604
+      ],
+      [
+        3212.56,
+        2405.9426,
+        7943.7725,
+        432.50974,
+        5293.39,
+        2966.8374
+      ],
+      [
+        184304.73,
+        158565.03,
+        627145.7,
+        214937.38,
+        248123.08,
+        103187.14
+      ],
+      [
+        158170.56,
+        87093.35,
+        929558.8,
+        237972.45,
+        229494.0,
+        131890.56
+      ],
+      [
+        552871.8,
+        551068.5,
+        1113405.4,
+        173509.84,
+        470224.4,
+        264007.34
+      ],
+      [
+        9302.882,
+        3299.9155,
+        48650.17,
+        0.0,
+        5569.9834,
+        5526.6562
+      ],
+      [
+        4392.341,
+        3181.729,
+        16812.406,
+        0.0,
+        4093.143,
+        2101.2407
+      ],
+      [
+        61963.15,
+        38735.945,
+        3845435.2,
+        175686.81,
+        161877.39,
+        51371.17
+      ],
+      [
+        212219.75,
+        156183.1,
+        606147.94,
+        91553.31,
+        228723.83,
+        78285.164
+      ],
+      [
+        54467.26,
+        47762.21,
+        93551.32,
+        8745.127,
+        44829.19,
+        17085.658
+      ],
+      [
+        4107.2695,
+        1979.7999,
+        5023.2153,
+        71.3737,
+        1384.918,
+        490.903
+      ],
+      [
+        38208.996,
+        34471.43,
+        55696.37,
+        10183.454,
+        44848.87,
+        21260.29
+      ],
+      [
+        29349.566,
+        27683.146,
+        33452.754,
+        2680.2112,
+        28499.55,
+        16201.484
+      ],
+      [
+        87251.04,
+        45762.8,
+        90177.84,
+        48387.664,
+        112863.79,
+        74907.055
+      ],
+      [
+        1107537.6,
+        938581.5,
+        1477512.6,
+        245307.95,
+        1110856.4,
+        839248.06
+      ],
+      [
+        52787.293,
+        50278.832,
+        181864.66,
+        7661.4385,
+        45970.496,
+        39135.508
+      ],
+      [
+        811067.44,
+        674541.7,
+        1203960.1,
+        91975.15,
+        508633.0,
+        445740.16
+      ],
+      [
+        300330.97,
+        250633.88,
+        366067.7,
+        330445.75,
+        775990.7,
+        392221.1
+      ],
+      [
+        170405.39,
+        194288.98,
+        321415.3,
+        60264.746,
+        253572.11,
+        171852.69
+      ],
+      [
+        2626.558,
+        975.19745,
+        36411.31,
+        73844.64,
+        7039.033,
+        4865.311
+      ],
+      [
+        4271.523,
+        2141.2168,
+        4470.5024,
+        5555.3545,
+        8255.185,
+        5836.2
+      ],
+      [
+        1649.5731,
+        125.46943,
+        27175.49,
+        15931.291,
+        14591.119,
+        4710.915
+      ],
+      [
+        10331.222,
+        6855.5186,
+        15994.882,
+        10421.368,
+        19201.19,
+        7734.744
+      ],
+      [
+        10149.181,
+        9299.992,
+        38688.574,
+        157683.4,
+        244066.22,
+        93446.805
+      ],
+      [
+        19144.838,
+        12905.341,
+        27329.135,
+        5894.308,
+        24293.762,
+        10871.861
+      ],
+      [
+        116587.06,
+        65998.83,
+        135094.45,
+        60777.76,
+        133286.77,
+        68475.18
+      ],
+      [
+        15930.962,
+        13157.0625,
+        23536.262,
+        4429.0215,
+        16449.578,
+        5363.6104
+      ],
+      [
+        4657.4004,
+        1991.8728,
+        8425.133,
+        37076.516,
+        65624.65,
+        21429.766
+      ],
+      [
+        816.9149,
+        607.562,
+        3044.153,
+        94.90921,
+        4380.739,
+        530.9809
+      ],
+      [
+        189108.52,
+        166522.89,
+        203316.45,
+        48600.68,
+        226508.25,
+        210809.39
+      ],
+      [
+        2551718.5,
+        2039582.0,
+        2595726.2,
+        706177.9,
+        2628687.8,
+        2286955.0
+      ],
+      [
+        105581.875,
+        157394.56,
+        180925.9,
+        10614.988,
+        74756.86,
+        98781.23
+      ],
+      [
+        16734.584,
+        14429.466,
+        37504.5,
+        1703.3151,
+        14782.71,
+        6922.041
+      ],
+      [
+        427546.16,
+        515391.7,
+        611765.06,
+        71040.93,
+        381833.8,
+        318703.9
+      ],
+      [
+        15004.481,
+        15963.941,
+        19274.986,
+        1491.4135,
+        8545.087,
+        3729.5718
+      ],
+      [
+        642632.5,
+        552848.56,
+        686917.2,
+        204629.08,
+        928397.44,
+        598762.2
+      ],
+      [
+        41331.215,
+        49917.758,
+        61416.273,
+        6667.129,
+        38439.35,
+        23485.951
+      ],
+      [
+        64371.895,
+        72621.93,
+        159209.23,
+        3794.759,
+        53121.215,
+        53040.0
+      ],
+      [
+        253839.62,
+        340726.2,
+        315672.62,
+        61047.785,
+        254143.03,
+        174687.38
+      ],
+      [
+        32270.576,
+        18988.04,
+        48884.035,
+        12585.115,
+        18537.55,
+        20938.812
+      ],
+      [
+        22946.24,
+        29571.762,
+        32910.625,
+        3170.3704,
+        23630.143,
+        11192.564
+      ],
+      [
+        334109.06,
+        258527.14,
+        415400.53,
+        87159.39,
+        317798.22,
+        261338.14
+      ],
+      [
+        18091.1,
+        20236.438,
+        33936.95,
+        544.8377,
+        14043.732,
+        9033.16
+      ],
+      [
+        27691.355,
+        22029.16,
+        74212.5,
+        10082.4795,
+        21703.459,
+        8597.454
+      ],
+      [
+        206835.42,
+        130454.695,
+        239156.62,
+        151503.39,
+        316198.66,
+        192646.4
+      ],
+      [
+        197209.7,
+        135891.08,
+        353681.8,
+        43776.293,
+        200022.06,
+        143037.81
+      ],
+      [
+        582.1493,
+        0.0,
+        273644.38,
+        5917.181,
+        3238.0056,
+        0.0
+      ],
+      [
+        3000.0645,
+        278.63742,
+        152807.97,
+        4633.323,
+        4607.3394,
+        1652.8837
+      ],
+      [
+        59172.81,
+        65114.273,
+        88185.95,
+        4293.939,
+        48010.16,
+        37948.66
+      ],
+      [
+        12645.818,
+        8944.275,
+        15904.092,
+        1317.4308,
+        10649.914,
+        2905.0151
+      ],
+      [
+        53291.79,
+        54684.402,
+        74154.18,
+        21612.896,
+        97145.04,
+        65385.125
+      ],
+      [
+        21245.426,
+        11244.067,
+        22149.582,
+        21257.732,
+        20627.299,
+        5927.18
+      ],
+      [
+        21669.352,
+        14764.882,
+        42271.367,
+        888.23444,
+        16928.445,
+        1736.4219
+      ],
+      [
+        26637.57,
+        26140.215,
+        27009.615,
+        44511.99,
+        83815.016,
+        44349.223
+      ],
+      [
+        24729.363,
+        26140.215,
+        205032.8,
+        7750.3843,
+        36276.035,
+        23984.916
+      ],
+      [
+        3844.1484,
+        5563.1953,
+        166406.27,
+        6294.818,
+        15900.787,
+        6916.394
+      ],
+      [
+        45978.203,
+        1249.4077,
+        102011.44,
+        458.99847,
+        7296.4854,
+        2141.6616
+      ],
+      [
+        5891.7207,
+        3584.3433,
+        21653.967,
+        30790.434,
+        13045.212,
+        8410.589
+      ],
+      [
+        430.60294,
+        146.30748,
+        2687.6672,
+        2774.0027,
+        1487.2764,
+        410.94904
+      ],
+      [
+        133285.22,
+        61665.867,
+        165071.2,
+        43834.207,
+        134456.88,
+        130264.555
+      ],
+      [
+        134897.92,
+        98431.38,
+        207869.97,
+        44349.76,
+        137826.47,
+        79327.01
+      ],
+      [
+        26787.24,
+        16681.178,
+        30433.96,
+        14576.296,
+        32868.527,
+        24352.668
+      ],
+      [
+        122357.99,
+        91233.375,
+        149626.38,
+        10767.508,
+        79538.84,
+        54181.023
+      ],
+      [
+        29153.324,
+        18757.936,
+        41525.332,
+        619.2391,
+        16421.8,
+        9820.328
+      ],
+      [
+        4818.821,
+        7302.276,
+        9381.833,
+        2691.3755,
+        7756.702,
+        9240.372
+      ],
+      [
+        70986.445,
+        45058.0,
+        76010.55,
+        24790.766,
+        115403.59,
+        55983.637
+      ],
+      [
+        31311.684,
+        14767.319,
+        94920.67,
+        1800.1931,
+        33975.023,
+        9540.079
+      ],
+      [
+        63829.49,
+        50488.168,
+        87900.164,
+        9357.421,
+        56722.586,
+        26107.0
+      ],
+      [
+        19281.65,
+        18963.092,
+        24547.178,
+        300.9087,
+        10350.245,
+        2588.5593
+      ],
+      [
+        35530.027,
+        14222.444,
+        36924.332,
+        4075.18,
+        40119.152,
+        23492.08
+      ],
+      [
+        13743.211,
+        4116.067,
+        19276.854,
+        7311.6797,
+        14151.459,
+        6283.1772
+      ],
+      [
+        30526.059,
+        33542.938,
+        43768.69,
+        0.0,
+        20814.002,
+        12160.68
+      ]
+    ],
+    "feature_ids": [
+      "21915074",
+      "21915075",
+      "21915076",
+      "21915077",
+      "21915078",
+      "21915079",
+      "21915080",
+      "21915081",
+      "21915082",
+      "21915083",
+      "21915084",
+      "21915085",
+      "21915086",
+      "21915087",
+      "21915088",
+      "21915089",
+      "21915090",
+      "21915091",
+      "21915092",
+      "21915093",
+      "21915094",
+      "21915095",
+      "21915096",
+      "21915097",
+      "21915098",
+      "21915099",
+      "21915100",
+      "21915101",
+      "21915102",
+      "21915103",
+      "21915104",
+      "21915105",
+      "21915106",
+      "21915107",
+      "21915108",
+      "21915109",
+      "21915110",
+      "21915111",
+      "21915112",
+      "21915113",
+      "21915114",
+      "21915115",
+      "21915116",
+      "21915117",
+      "21915118",
+      "21915119",
+      "21915120",
+      "21915121",
+      "21915122",
+      "21915123",
+      "21915124",
+      "21915125",
+      "21915126",
+      "21915127",
+      "21915128",
+      "21915129",
+      "21915130",
+      "21915131",
+      "21915132",
+      "21915133",
+      "21915134",
+      "21915135",
+      "21915136",
+      "21915137",
+      "21915138",
+      "21915139",
+      "21915140",
+      "21915141",
+      "21915142",
+      "21915143",
+      "21915144",
+      "21915145",
+      "21915146",
+      "21915147",
+      "21915148",
+      "21915149",
+      "21915150",
+      "21915151",
+      "21915152",
+      "21915153",
+      "21915154",
+      "21915155",
+      "21915156",
+      "21915157",
+      "21915158",
+      "21915159",
+      "21915160",
+      "21915161",
+      "21915162",
+      "21915163",
+      "21915164",
+      "21915165",
+      "21915166",
+      "21915167",
+      "21915168",
+      "21915169",
+      "21915170",
+      "21915171",
+      "21915172",
+      "21915173",
+      "21915174",
+      "21915175",
+      "21915176",
+      "21915177",
+      "21915178",
+      "21915179",
+      "21915180",
+      "21915181",
+      "21915182",
+      "21915183",
+      "21915184",
+      "21915185",
+      "21915186",
+      "21915187",
+      "21915188",
+      "21915189",
+      "21915190",
+      "21915191",
+      "21915192",
+      "21915193",
+      "21915194",
+      "21915195",
+      "21915196",
+      "21915197",
+      "21915198",
+      "21915199",
+      "21915200",
+      "21915201"
+    ],
+    "sample_ids": [
+      "07",
+      "08",
+      "13",
+      "39",
+      "55",
+      "56"
+    ],
+    "composition": [
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H8",
+      "H9",
+      "H9",
+      "H10",
+      "H10",
+      "H1N2F1",
+      "H2N2F1",
+      "H2N2",
+      "H3N2F1",
+      "H5N2",
+      "H6N2",
+      "H4N2",
+      "H7N2",
+      "H8N2",
+      "H9N2",
+      "H9N2",
+      "H10N2",
+      "H5N3S1",
+      "H5N3S1",
+      "H5N6F1",
+      "H6N3F1S1",
+      "H6N3F1",
+      "H6N3S1",
+      "H6N3S1",
+      "H6N4F2",
+      "H6N4",
+      "H6N4",
+      "H6N3",
+      "H6N4F1",
+      "H7N4S1",
+      "H7N4",
+      "H4N3F1S1",
+      "H4N3F1S1",
+      "H4N3F1S1",
+      "H4N3S1",
+      "H4N3S1",
+      "H5N3F1S1",
+      "H5N3F1S1",
+      "H5N3F1",
+      "H4N4F1",
+      "H4N4",
+      "H4N5",
+      "H5N4F1S1",
+      "H5N4F1S1",
+      "H5N4F1S1",
+      "H5N4F1S1",
+      "H5N4F1S1",
+      null,
+      null,
+      "H5N4F1",
+      "H5N4F1",
+      "H5N4F1",
+      "H5N4S1",
+      "H5N4S1",
+      "H5N4F1S2",
+      "H5N4F1S2",
+      "H5N4F2S2",
+      "H5N4F2",
+      "H5N4S2",
+      "H5N4S2",
+      "H5N4S2",
+      "H5N4",
+      "H5N4",
+      "H5N4",
+      "H5N5F1S2",
+      "H5N5F1S2",
+      "H5N5F1S2",
+      "H5N5F2",
+      "H5N5S2",
+      "H5N5S2",
+      "H3N4F1",
+      "H4N4F1S1",
+      "H4N4F1S1",
+      "H4N5F1S1",
+      "H4N5F1S1",
+      "H4N5F1S1",
+      "H4N5F1",
+      "H4N5F2",
+      "H4N5S1",
+      "H4N5S1",
+      "H5N5F1S1",
+      "H5N5F1S1",
+      "H5N5F1S1",
+      "H5N5F1S1",
+      "H5N5F1",
+      "H5N5F1",
+      "H5N5S1",
+      "H5N5S1",
+      "H5N5S1",
+      "H5N5",
+      "H6N5F2",
+      "H6N5",
+      "H6N5F1S1",
+      "H6N5F1S1",
+      "H6N5F1S2",
+      "H6N5F1S2",
+      "H6N5F1S2",
+      "H6N5F1S3",
+      "H6N5F1S3",
+      "H6N5F1",
+      "H6N5S1",
+      "H6N5S1",
+      "H6N5S1",
+      "H6N5S2",
+      "H6N5S2",
+      "H6N5S2",
+      "H6N5S2",
+      "H6N5S3",
+      "H3N5F1",
+      "H3N5",
+      "H6N6F1S2",
+      "H6N6F1S2",
+      "H6N6F1S3",
+      "H6N6F1",
+      "H6N6F1",
+      "H6N6S1",
+      "H6N6S1",
+      "H6N6S1",
+      "H6N6",
+      "H6N7F1",
+      "H7N6F1S1",
+      "H7N6F1S1",
+      "H7N7F1"
+    ],
+    "row_annotations": [
+      {
+        "molecule_id": 19935592,
+        "precursor_id": 21915074,
+        "source_molecule_name": "Glc(04)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 667.230233,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 4
+        },
+        "chemical_formula": "C24H44O21",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:ZXPLRDFHBYIQOX-BTBVOZEKSA-N"
+      },
+      {
+        "molecule_id": 19935593,
+        "precursor_id": 21915075,
+        "source_molecule_name": "Glc(05)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 829.283056,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 5
+        },
+        "chemical_formula": "C30H54O26",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:NBVGBCYERZIRIP-JAMOUWTMSA-N"
+      },
+      {
+        "molecule_id": 19935594,
+        "precursor_id": 21915076,
+        "source_molecule_name": "Glc(06)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 991.33588,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 6
+        },
+        "chemical_formula": "C36H64O31",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:PNHJKLJIDNHXFR-ZGJYWSOBSA-N"
+      },
+      {
+        "molecule_id": 19935595,
+        "precursor_id": 21915077,
+        "source_molecule_name": "Glc(07)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1153.388703,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 7
+        },
+        "chemical_formula": "C42H74O36",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:NVKJDLBVRSXYRE-BMFDHOHESA-N"
+      },
+      {
+        "molecule_id": 19935596,
+        "precursor_id": 21915078,
+        "source_molecule_name": "Glc(08)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 657.217125,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 8
+        },
+        "chemical_formula": "C48H84O41",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:YMRGEPQWJZHXFF-MGQBKJSVSA-N"
+      },
+      {
+        "molecule_id": 19935596,
+        "precursor_id": 21915079,
+        "source_molecule_name": "Glc(08)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1315.441527,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 8
+        },
+        "chemical_formula": "C48H84O41",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:YMRGEPQWJZHXFF-MGQBKJSVSA-N"
+      },
+      {
+        "molecule_id": 19935597,
+        "precursor_id": 21915080,
+        "source_molecule_name": "Glc(09)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 738.243537,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 9
+        },
+        "chemical_formula": "C54H94O46",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:AHAYYNHHUAWETM-NJIXDFMDSA-N"
+      },
+      {
+        "molecule_id": 19935597,
+        "precursor_id": 21915081,
+        "source_molecule_name": "Glc(09)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1477.49435,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 9
+        },
+        "chemical_formula": "C54H94O46",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:AHAYYNHHUAWETM-NJIXDFMDSA-N"
+      },
+      {
+        "molecule_id": 19935598,
+        "precursor_id": 21915082,
+        "source_molecule_name": "Glc(10)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 819.269949,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 10
+        },
+        "chemical_formula": "C60H104O51",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:TWHBRNKLIFMJNC-YRAONRNWSA-N"
+      },
+      {
+        "molecule_id": 19935598,
+        "precursor_id": 21915083,
+        "source_molecule_name": "Glc(10)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1639.547174,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 10
+        },
+        "chemical_formula": "C60H104O51",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:TWHBRNKLIFMJNC-YRAONRNWSA-N"
+      },
+      {
+        "molecule_id": 19935599,
+        "precursor_id": 21915084,
+        "source_molecule_name": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 (GU:5.73)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 733.288416,
+        "source_group": "Paucimannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "chemical_formula": "C28H50O20N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935600,
+        "precursor_id": 21915085,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (GU:6.71)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 895.34124,
+        "source_group": "Paucimannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "chemical_formula": "C34H60O25N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935601,
+        "precursor_id": 21915086,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (GU:4.82)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 749.283331,
+        "source_group": "Paucimannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C28H50O21N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935602,
+        "precursor_id": 21915087,
+        "source_molecule_name": "(Hex)3 (HexNAc)2 (Deoxyhexose)1 (GU:8.47)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1057.394063,
+        "source_group": "Paucimannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "chemical_formula": "C40H70O30N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935603,
+        "precursor_id": 21915088,
+        "source_molecule_name": "(Hex)2 + (Man)3(GlcNAc)2 (GU:6.92)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 617.217263,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C46H80O36N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935604,
+        "precursor_id": 21915089,
+        "source_molecule_name": "(Hex)3 + (Man)3(GlcNAc)2 (GU:5.99)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 698.243674,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C52H90O41N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935605,
+        "precursor_id": 21915090,
+        "source_molecule_name": "(Hex)4 (HexNAc)2 (GU:5.94)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1073.388978,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C40H70O31N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935606,
+        "precursor_id": 21915091,
+        "source_molecule_name": "(Hex)4 + (Man)3(GlcNAc)2 (GU:6.11)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 779.270086,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C58H100O46N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935607,
+        "precursor_id": 21915092,
+        "source_molecule_name": "(Hex)5 + (Man)3(GlcNAc)2 (GU:6.17)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 860.296498,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 8,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C64H110O51N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935608,
+        "precursor_id": 21915093,
+        "source_molecule_name": "(Hex)6 + (Man)3(GlcNAc)2 (GU:5.61)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 941.32291,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 9,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C70H120O56N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935609,
+        "precursor_id": 21915094,
+        "source_molecule_name": "(Hex)6 + (Man)3(GlcNAc)2 (GU:6.11)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 941.32291,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 9,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C70H120O56N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935610,
+        "precursor_id": 21915095,
+        "source_molecule_name": "(Hex)7 + (Man)3(GlcNAc)2 (GU:6.51)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1022.349321,
+        "source_group": "High mannose",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 10,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C76H130O61N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935611,
+        "precursor_id": 21915096,
+        "source_molecule_name": "(Hex)2 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.8)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 864.304657,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C65H110O49N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935612,
+        "precursor_id": 21915097,
+        "source_molecule_name": "(Hex)2 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.16)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 864.304657,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C65H110O49N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935613,
+        "precursor_id": 21915098,
+        "source_molecule_name": "(Hex)2 (HexNAc)4 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:9.6)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1096.404962,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "chemical_formula": "C84H142O60N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935614,
+        "precursor_id": 21915099,
+        "source_molecule_name": "(Hex)3 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.48)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1018.360024,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C77H130O58N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935615,
+        "precursor_id": 21915100,
+        "source_molecule_name": "(Hex)3 (HexNAc)1 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:8.23)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 872.812315,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 3,
+          "Fuc": 1
+        },
+        "chemical_formula": "C66H113O50N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935616,
+        "precursor_id": 21915101,
+        "source_molecule_name": "(Hex)3 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.31)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 945.331069,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C71H120O54N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935617,
+        "precursor_id": 21915102,
+        "source_molecule_name": "(Hex)3 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.72)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 945.331069,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C71H120O54N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935618,
+        "precursor_id": 21915103,
+        "source_molecule_name": "(Hex)3 (HexNAc)2 (Deoxyhexose)2 + (Man)3(GlcNAc)2 (GU:8.55)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1047.380956,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 4,
+          "Fuc": 2
+        },
+        "chemical_formula": "C80H136O59N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935619,
+        "precursor_id": 21915104,
+        "source_molecule_name": "(Hex)3 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:5.47)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 901.323047,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C68H116O51N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935620,
+        "precursor_id": 21915105,
+        "source_molecule_name": "(Hex)3 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:6.27)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 901.323047,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C68H116O51N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935621,
+        "precursor_id": 21915106,
+        "source_molecule_name": "(Hex)3 (HexNAc)1 + (Man)3(GlcNAc)2 (GU:7.23)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 799.783361,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 3
+        },
+        "chemical_formula": "C60H103O46N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935622,
+        "precursor_id": 21915107,
+        "source_molecule_name": "(Hex)3 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:7.52)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 974.352002,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "chemical_formula": "C74H126O55N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935623,
+        "precursor_id": 21915108,
+        "source_molecule_name": "(Hex)4 (HexNAc)2 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.13)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1127.897167,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 4,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C85H143O64N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935624,
+        "precursor_id": 21915109,
+        "source_molecule_name": "(Hex)4 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:6.77)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 982.349459,
+        "source_group": "Hybrid",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C74H126O56N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935625,
+        "precursor_id": 21915110,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.59)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 856.3072,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C65H110O48N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935626,
+        "precursor_id": 21915111,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.15)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 856.3072,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C65H110O48N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935627,
+        "precursor_id": 21915112,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:8.76)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 856.3072,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C65H110O48N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935628,
+        "precursor_id": 21915113,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.97)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 783.278246,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C59H100O44N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935629,
+        "precursor_id": 21915114,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.26)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 783.278246,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C59H100O44N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935630,
+        "precursor_id": 21915115,
+        "source_molecule_name": "(Hex)2 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.87)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 937.333612,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C71H120O53N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935631,
+        "precursor_id": 21915116,
+        "source_molecule_name": "(Hex)2 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:8.51)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 937.333612,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C71H120O53N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935632,
+        "precursor_id": 21915117,
+        "source_molecule_name": "(Hex)2 (HexNAc)1 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:7.45)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 791.785903,
+        "source_group": "Complex Mono",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3,
+          "Fuc": 1
+        },
+        "chemical_formula": "C60H103O45N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935633,
+        "precursor_id": 21915118,
+        "source_molecule_name": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:8.64)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 812.299178,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "chemical_formula": "C62H106O45N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935634,
+        "precursor_id": 21915119,
+        "source_molecule_name": "(Hex)1 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:5.8)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 739.270224,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C56H96O41N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935635,
+        "precursor_id": 21915120,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 + (Man)3(GlcNAc)2 (GU:5.37)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 840.80991,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5
+        },
+        "chemical_formula": "C64H109O46N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935636,
+        "precursor_id": 21915121,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:13.85)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1038.873298,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C79H133O58N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935637,
+        "precursor_id": 21915122,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.73)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1038.873298,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C79H133O58N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935638,
+        "precursor_id": 21915123,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.41)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1038.873298,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C79H133O58N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935639,
+        "precursor_id": 21915124,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:8.28)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1038.873298,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C79H133O58N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935640,
+        "precursor_id": 21915125,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:9.99)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1038.873298,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C79H133O58N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935641,
+        "precursor_id": 21915126,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuGc)1 + (Man)3(GlcNAc)2 (GU:5.01)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1046.870755,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuGc": 1
+        },
+        "chemical_formula": "C79H133O59N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935642,
+        "precursor_id": 21915127,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuGc)1 + (Man)3(GlcNAc)2 (GU:5.74)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1046.870755,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuGc": 1
+        },
+        "chemical_formula": "C79H133O59N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935643,
+        "precursor_id": 21915128,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:7.1)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 893.32559,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "chemical_formula": "C68H116O50N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935644,
+        "precursor_id": 21915129,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:7.89)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 893.32559,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "chemical_formula": "C68H116O50N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935645,
+        "precursor_id": 21915130,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:9.85)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 893.32559,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "chemical_formula": "C68H116O50N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935646,
+        "precursor_id": 21915131,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:4.21)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 965.844344,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C73H123O54N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935647,
+        "precursor_id": 21915132,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 965.844344,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C73H123O54N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935648,
+        "precursor_id": 21915133,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:7.35)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1184.421006,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C90H150O66N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935649,
+        "precursor_id": 21915134,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:9.03)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1184.421006,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C90H150O66N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935650,
+        "precursor_id": 21915135,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)2 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:9.71)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1257.449961,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 2,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C96H160O70N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935651,
+        "precursor_id": 21915136,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)2 + (Man)3(GlcNAc)2 (GU:10.94)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 966.354544,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 2
+        },
+        "chemical_formula": "C74H126O54N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935652,
+        "precursor_id": 21915137,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:6.38)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1111.392052,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C84H140O62N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935653,
+        "precursor_id": 21915138,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:7.85)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1111.392052,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C84H140O62N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935654,
+        "precursor_id": 21915139,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:9.36)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1111.392052,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C84H140O62N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935655,
+        "precursor_id": 21915140,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:5.26)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 820.296635,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C62H106O46N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935656,
+        "precursor_id": 21915141,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:5.85)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 820.296635,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C62H106O46N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935657,
+        "precursor_id": 21915142,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 + (Man)3(GlcNAc)2 (GU:6.53)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 820.296635,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4
+        },
+        "chemical_formula": "C62H106O46N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935658,
+        "precursor_id": 21915143,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:5.98)",
+        "feature_level": "precursor",
+        "charge": -3,
+        "mz": 856.97137,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O71N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935659,
+        "precursor_id": 21915144,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:7.01)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1285.960693,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O71N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935660,
+        "precursor_id": 21915145,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:8.43)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1285.960693,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O71N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935661,
+        "precursor_id": 21915146,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)2 + (Man)3(GlcNAc)2 (GU:8.12)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1067.894231,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "chemical_formula": "C82H139O59N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935662,
+        "precursor_id": 21915147,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:5.36)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1212.931738,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C92H153O67N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935663,
+        "precursor_id": 21915148,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:6.21)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1212.931738,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C92H153O67N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935664,
+        "precursor_id": 21915149,
+        "source_molecule_name": "(HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:7.81)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 731.272766,
+        "source_group": "Complex Bi",
+        "source_standard_type": null,
+        "composition_counts": {
+          "HexNAc": 4,
+          "Fuc": 1,
+          "Hex": 3
+        },
+        "chemical_formula": "C56H96O40N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935665,
+        "precursor_id": 21915150,
+        "source_molecule_name": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.64)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 957.846886,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C73H123O53N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935666,
+        "precursor_id": 21915151,
+        "source_molecule_name": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.64)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 957.846886,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C73H123O53N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935667,
+        "precursor_id": 21915152,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.78)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1059.386573,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C81H136O58N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935668,
+        "precursor_id": 21915153,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.88)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1059.386573,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C81H136O58N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935669,
+        "precursor_id": 21915154,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.71)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1059.386573,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C81H136O58N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935670,
+        "precursor_id": 21915155,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:6.64)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 913.838864,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "chemical_formula": "C70H119O50N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935671,
+        "precursor_id": 21915156,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (Deoxyhexose)2 + (Man)3(GlcNAc)2 (GU:7.82)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 986.867819,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "chemical_formula": "C76H129O54N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935672,
+        "precursor_id": 21915157,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.02)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 986.357618,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C75H126O54N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935673,
+        "precursor_id": 21915158,
+        "source_molecule_name": "(Hex)1 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.78)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 986.357618,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C75H126O54N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935674,
+        "precursor_id": 21915159,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.11)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1140.412984,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O63N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935675,
+        "precursor_id": 21915160,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.39)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1140.412984,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O63N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935676,
+        "precursor_id": 21915161,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.51)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1140.412984,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O63N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935677,
+        "precursor_id": 21915162,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:9.38)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1140.412984,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O63N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935678,
+        "precursor_id": 21915163,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:7.18)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 994.865276,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "chemical_formula": "C76H129O55N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935679,
+        "precursor_id": 21915164,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:8.59)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 994.865276,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "chemical_formula": "C76H129O55N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935680,
+        "precursor_id": 21915165,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:5.57)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1067.38403,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C81H136O59N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935681,
+        "precursor_id": 21915166,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.52)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1067.38403,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C81H136O59N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935682,
+        "precursor_id": 21915167,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:8.94)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1067.38403,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C81H136O59N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935683,
+        "precursor_id": 21915168,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 + (Man)3(GlcNAc)2 (GU:5.99)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 921.836322,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 5
+        },
+        "chemical_formula": "C70H119O51N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935684,
+        "precursor_id": 21915169,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)2 + (Man)3(GlcNAc)2 (GU:10.34)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1148.920642,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "chemical_formula": "C88H149O64N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935685,
+        "precursor_id": 21915170,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 + (Man)3(GlcNAc)2 (GU:7.82)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1002.862733,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5
+        },
+        "chemical_formula": "C76H129O56N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935686,
+        "precursor_id": 21915171,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:8.06)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1221.439396,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C93H156O68N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935687,
+        "precursor_id": 21915172,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:9.38)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1221.439396,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C93H156O68N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935688,
+        "precursor_id": 21915173,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:10.4)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1366.987104,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C104H173O76N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935689,
+        "precursor_id": 21915174,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:7.24)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1366.987104,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C104H173O76N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935690,
+        "precursor_id": 21915175,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:8.57)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1366.987104,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C104H173O76N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935691,
+        "precursor_id": 21915176,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)3 + (Man)3(GlcNAc)2 (GU:6.95)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1512.534813,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 3
+        },
+        "chemical_formula": "C115H190O84N8",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935692,
+        "precursor_id": 21915177,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)3 + (Man)3(GlcNAc)2 (GU:8.7)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1512.534813,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1,
+          "NeuAc": 3
+        },
+        "chemical_formula": "C115H190O84N8",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935693,
+        "precursor_id": 21915178,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:9.29)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1075.891688,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "chemical_formula": "C82H139O60N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935694,
+        "precursor_id": 21915179,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:12.29)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1148.410442,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O64N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935695,
+        "precursor_id": 21915180,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.96)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1148.410442,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O64N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935696,
+        "precursor_id": 21915181,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:9.91)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1148.410442,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C87H146O64N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935697,
+        "precursor_id": 21915182,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:12.46)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1293.95815,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O72N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935698,
+        "precursor_id": 21915183,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:6.46)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1293.95815,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O72N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935699,
+        "precursor_id": 21915184,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:7.5)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1293.95815,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O72N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935700,
+        "precursor_id": 21915185,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:8.54)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1293.95815,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C98H163O72N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935701,
+        "precursor_id": 21915186,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)3 + (Man)3(GlcNAc)2 (GU:9.35)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1439.505858,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "NeuAc": 3
+        },
+        "chemical_formula": "C109H180O80N8",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935702,
+        "precursor_id": 21915187,
+        "source_molecule_name": "(HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:6.07)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 832.812453,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "HexNAc": 5,
+          "Fuc": 1,
+          "Hex": 3
+        },
+        "chemical_formula": "C64H109O45N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935703,
+        "precursor_id": 21915188,
+        "source_molecule_name": "(HexNAc)3 + (Man)3(GlcNAc)2 (GU:4.84)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 759.783498,
+        "source_group": "Complex Tri",
+        "source_standard_type": null,
+        "composition_counts": {
+          "HexNAc": 5,
+          "Hex": 3
+        },
+        "chemical_formula": "C58H99O41N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935704,
+        "precursor_id": 21915189,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:6.54)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1468.526791,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C112H186O81N8",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935705,
+        "precursor_id": 21915190,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2 (GU:8.95)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1468.526791,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "Fuc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C112H186O81N8",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935706,
+        "precursor_id": 21915191,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (Deoxyhexose)1 (NeuAc)3 + (Man)3(GlcNAc)2 (GU:6.2)",
+        "feature_level": "precursor",
+        "charge": -3,
+        "mz": 1075.713907,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "Fuc": 1,
+          "NeuAc": 3
+        },
+        "chemical_formula": "C123H203O89N9",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935707,
+        "precursor_id": 21915192,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:10.15)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1177.431374,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "chemical_formula": "C90H152O65N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935708,
+        "precursor_id": 21915193,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:9.86)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1177.431374,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "chemical_formula": "C90H152O65N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935709,
+        "precursor_id": 21915194,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:6.33)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1249.950128,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C95H159O69N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935710,
+        "precursor_id": 21915195,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:7.6)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1249.950128,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C95H159O69N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935711,
+        "precursor_id": 21915196,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:9.2)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1249.950128,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C95H159O69N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935712,
+        "precursor_id": 21915197,
+        "source_molecule_name": "(Hex)3 (HexNAc)4 + (Man)3(GlcNAc)2 (GU:8.71)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1104.40242,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 6
+        },
+        "chemical_formula": "C84H142O61N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935713,
+        "precursor_id": 21915198,
+        "source_molecule_name": "(Hex)3 (HexNAc)5 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:11.72)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1278.97106,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 7,
+          "Fuc": 1
+        },
+        "chemical_formula": "C98H165O70N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935714,
+        "precursor_id": 21915199,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:10.36)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1404.005494,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C107H179O78N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935715,
+        "precursor_id": 21915200,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2 (GU:13.46)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1404.005494,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C107H179O78N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935716,
+        "precursor_id": 21915201,
+        "source_molecule_name": "(Hex)4 (HexNAc)5 (Deoxyhexose)1 + (Man)3(GlcNAc)2 (GU:12.19)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1359.997472,
+        "source_group": "Complex Tetra",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 7,
+          "Fuc": 1
+        },
+        "chemical_formula": "C104H175O75N7",
+        "source_note": null,
+        "molecule_identifier": null
+      }
+    ],
+    "col_data": {
+      "source_sample_id": [
+        "07",
+        "08",
+        "13",
+        "39",
+        "55",
+        "56"
+      ],
+      "sample_file_id": [
+        5225274,
+        5225275,
+        5225276,
+        5225277,
+        5225278,
+        5225279
+      ],
+      "source_sample_file": [
+        "0000_180913_07RBC_NG_GU.mzML",
+        "0000_180913_08RBC_NG_GU.mzML",
+        "0000_180913_13RBC_NG_GU.mzML",
+        "0000_180913_39RBC_NG_GU.mzML",
+        "0000_180913_55RBC_NG_GU.mzML",
+        "0000_180913_56RBC_NG_GU.mzML"
+      ],
+      "organism": [
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens"
+      ],
+      "group": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "tissue": [
+        "red blood cell",
+        "red blood cell",
+        "red blood cell",
+        "red blood cell",
+        "red blood cell",
+        "red blood cell"
+      ]
+    },
+    "license": {
+      "name": "CC BY 4.0",
+      "url": null
+    },
+    "license_evidence": "https://panoramaweb.org/RBCSickleGlycomics.url; explicit Data License in saved panorama.html",
+    "review_warning": "Clinical group mapping unresolved; choose whether precursor-level object is admissible before inclusion. Standards are marked not silently dropped.",
+    "reviewed_at_utc": "2026-10-14T07:02:52.049924+00:00",
+    "matrix": [
+      [
+        110071.5,
+        118871.08,
+        91223.76,
+        110176.445,
+        114758.48,
+        96839.47
+      ],
+      [
+        212909.83,
+        223682.64,
+        210269.94,
+        226474.23,
+        248580.44,
+        227995.47
+      ],
+      [
+        188061.61,
+        244547.36,
+        177253.67,
+        214254.14,
+        205676.78,
+        257565.34
+      ],
+      [
+        138280.36,
+        162854.6,
+        119145.59,
+        161978.61,
+        127235.016,
+        150115.69
+      ],
+      [
+        9164.436,
+        8082.0923,
+        10253.381,
+        11437.709,
+        7202.2554,
+        4650.052
+      ],
+      [
+        44225.54,
+        61443.73,
+        48381.49,
+        59440.777,
+        39205.242,
+        42155.6
+      ],
+      [
+        11303.225,
+        17788.188,
+        7227.536,
+        16681.057,
+        10963.074,
+        12607.17
+      ],
+      [
+        11793.657,
+        17499.242,
+        8098.593,
+        17103.69,
+        11112.374,
+        13977.093
+      ],
+      [
+        17325.018,
+        16508.195,
+        18018.145,
+        16800.852,
+        7672.9033,
+        24667.064
+      ],
+      [
+        700.78156,
+        365.21735,
+        465.52637,
+        150.54086,
+        null,
+        null
+      ],
+      [
+        946.23206,
+        354.5938,
+        6713.113,
+        null,
+        1247.1152,
+        null
+      ],
+      [
+        4753.5356,
+        1818.9795,
+        31502.012,
+        5812.6357,
+        12228.083,
+        1666.5098
+      ],
+      [
+        201.42036,
+        null,
+        5711.4326,
+        1098.6868,
+        2401.1106,
+        null
+      ],
+      [
+        575.1123,
+        133.78249,
+        15777.666,
+        37104.793,
+        21096.889,
+        24554.057
+      ],
+      [
+        6706.6875,
+        3666.6204,
+        18840.625,
+        10081.62,
+        9659.461,
+        4421.604
+      ],
+      [
+        14457.017,
+        11414.919,
+        93213.086,
+        17418.918,
+        20847.59,
+        14089.413
+      ],
+      [
+        2071.5415,
+        685.59515,
+        7055.438,
+        2908.6614,
+        6904.487,
+        930.33923
+      ],
+      [
+        30276.502,
+        25584.72,
+        106658.984,
+        37136.598,
+        51969.574,
+        37407.18
+      ],
+      [
+        39080.7,
+        27995.451,
+        145818.44,
+        44667.492,
+        56178.348,
+        44080.33
+      ],
+      [
+        4826.6196,
+        4146.78,
+        14524.434,
+        3380.8794,
+        7305.75,
+        4122.4004
+      ],
+      [
+        264473.34,
+        198313.66,
+        381928.44,
+        140444.28,
+        280952.3,
+        183393.9
+      ],
+      [
+        10049.49,
+        8842.098,
+        23645.877,
+        6443.4204,
+        13628.753,
+        9947.185
+      ],
+      [
+        112791.82,
+        80161.484,
+        141681.66,
+        65032.14,
+        149270.9,
+        65364.715
+      ],
+      [
+        13239.42,
+        8950.335,
+        22762.031,
+        705.64844,
+        11412.925,
+        5237.2847
+      ],
+      [
+        44329.934,
+        37219.273,
+        50812.008,
+        4712.439,
+        41030.32,
+        11741.958
+      ],
+      [
+        7329.9756,
+        4590.442,
+        15681.505,
+        2292.269,
+        6566.143,
+        2589.1287
+      ],
+      [
+        18104.379,
+        9362.486,
+        23376.127,
+        802.0818,
+        8024.5874,
+        4295.848
+      ],
+      [
+        196232.08,
+        132339.0,
+        176131.56,
+        80458.72,
+        184629.4,
+        91148.02
+      ],
+      [
+        22260.18,
+        16894.998,
+        41951.29,
+        1967.8828,
+        15754.453,
+        6885.858
+      ],
+      [
+        11631.84,
+        4097.347,
+        15335.587,
+        null,
+        4729.5264,
+        2153.669
+      ],
+      [
+        12579.944,
+        10247.115,
+        14826.942,
+        839.01166,
+        9551.386,
+        5168.7656
+      ],
+      [
+        50884.285,
+        48060.89,
+        66424.22,
+        8769.463,
+        50305.47,
+        30442.973
+      ],
+      [
+        67636.164,
+        55229.01,
+        78120.33,
+        12526.403,
+        48332.492,
+        27481.703
+      ],
+      [
+        38979.164,
+        36054.94,
+        45823.805,
+        1768.323,
+        25616.287,
+        17410.984
+      ],
+      [
+        24417.416,
+        16786.232,
+        21862.488,
+        6371.7983,
+        35783.555,
+        24369.174
+      ],
+      [
+        45751.906,
+        27528.96,
+        47691.434,
+        5175.8794,
+        35907.996,
+        23175.246
+      ],
+      [
+        2297.3687,
+        284.85553,
+        7261.773,
+        1376.0176,
+        3470.417,
+        1096.7546
+      ],
+      [
+        42021.16,
+        19974.002,
+        88008.03,
+        30541.586,
+        43305.316,
+        20492.11
+      ],
+      [
+        4553.62,
+        1894.122,
+        19700.322,
+        157.76811,
+        1255.9558,
+        525.40826
+      ],
+      [
+        107703.56,
+        60809.492,
+        84294.02,
+        67596.484,
+        115176.84,
+        48604.168
+      ],
+      [
+        13433.255,
+        10015.127,
+        19960.523,
+        650.10376,
+        11088.538,
+        4209.032
+      ],
+      [
+        32322.06,
+        14681.902,
+        41088.895,
+        10643.509,
+        22235.09,
+        13333.189
+      ],
+      [
+        3779.1455,
+        1809.9209,
+        12777.316,
+        null,
+        1835.9528,
+        629.0685
+      ],
+      [
+        4957.4805,
+        597.0173,
+        7802.9575,
+        128.67084,
+        1444.963,
+        233.84274
+      ],
+      [
+        1578.9695,
+        1070.8142,
+        5347.1514,
+        8339.705,
+        5331.0625,
+        5722.8584
+      ],
+      [
+        7297.321,
+        4833.2617,
+        7455.914,
+        704.50977,
+        7966.754,
+        2141.4216
+      ],
+      [
+        42416.375,
+        42372.35,
+        47029.81,
+        20232.98,
+        58684.293,
+        26470.318
+      ],
+      [
+        223893.86,
+        171713.3,
+        700950.3,
+        179586.05,
+        216146.98,
+        149501.25
+      ],
+      [
+        37650.695,
+        39269.273,
+        46546.95,
+        7152.1123,
+        46016.152,
+        30504.42
+      ],
+      [
+        30783.006,
+        17775.648,
+        28709.197,
+        15204.841,
+        23402.125,
+        10530.646
+      ],
+      [
+        223893.86,
+        171713.3,
+        699042.8,
+        179747.77,
+        216146.98,
+        149501.25
+      ],
+      [
+        23597.4,
+        18016.8,
+        63576.13,
+        3096.0564,
+        20750.57,
+        10990.527
+      ],
+      [
+        3832.896,
+        1249.7092,
+        3518.4846,
+        276.41107,
+        3295.7275,
+        1422.7535
+      ],
+      [
+        28294.607,
+        18477.525,
+        29123.205,
+        8816.275,
+        43830.754,
+        23436.713
+      ],
+      [
+        30985.85,
+        21947.227,
+        33605.484,
+        2605.064,
+        17015.438,
+        8293.877
+      ],
+      [
+        23607.424,
+        29266.838,
+        35995.273,
+        null,
+        15948.307,
+        10368.533
+      ],
+      [
+        16261.509,
+        17236.57,
+        85192.76,
+        20414.352,
+        11017.694,
+        7667.604
+      ],
+      [
+        3212.56,
+        2405.9426,
+        7943.7725,
+        432.50974,
+        5293.39,
+        2966.8374
+      ],
+      [
+        184304.73,
+        158565.03,
+        627145.7,
+        214937.38,
+        248123.08,
+        103187.14
+      ],
+      [
+        158170.56,
+        87093.35,
+        929558.8,
+        237972.45,
+        229494.0,
+        131890.56
+      ],
+      [
+        552871.8,
+        551068.5,
+        1113405.4,
+        173509.84,
+        470224.4,
+        264007.34
+      ],
+      [
+        9302.882,
+        3299.9155,
+        48650.17,
+        null,
+        5569.9834,
+        5526.6562
+      ],
+      [
+        4392.341,
+        3181.729,
+        16812.406,
+        null,
+        4093.143,
+        2101.2407
+      ],
+      [
+        61963.15,
+        38735.945,
+        3845435.2,
+        175686.81,
+        161877.39,
+        51371.17
+      ],
+      [
+        212219.75,
+        156183.1,
+        606147.94,
+        91553.31,
+        228723.83,
+        78285.164
+      ],
+      [
+        54467.26,
+        47762.21,
+        93551.32,
+        8745.127,
+        44829.19,
+        17085.658
+      ],
+      [
+        4107.2695,
+        1979.7999,
+        5023.2153,
+        71.3737,
+        1384.918,
+        490.903
+      ],
+      [
+        38208.996,
+        34471.43,
+        55696.37,
+        10183.454,
+        44848.87,
+        21260.29
+      ],
+      [
+        29349.566,
+        27683.146,
+        33452.754,
+        2680.2112,
+        28499.55,
+        16201.484
+      ],
+      [
+        87251.04,
+        45762.8,
+        90177.84,
+        48387.664,
+        112863.79,
+        74907.055
+      ],
+      [
+        1107537.6,
+        938581.5,
+        1477512.6,
+        245307.95,
+        1110856.4,
+        839248.06
+      ],
+      [
+        52787.293,
+        50278.832,
+        181864.66,
+        7661.4385,
+        45970.496,
+        39135.508
+      ],
+      [
+        811067.44,
+        674541.7,
+        1203960.1,
+        91975.15,
+        508633.0,
+        445740.16
+      ],
+      [
+        300330.97,
+        250633.88,
+        366067.7,
+        330445.75,
+        775990.7,
+        392221.1
+      ],
+      [
+        170405.39,
+        194288.98,
+        321415.3,
+        60264.746,
+        253572.11,
+        171852.69
+      ],
+      [
+        2626.558,
+        975.19745,
+        36411.31,
+        73844.64,
+        7039.033,
+        4865.311
+      ],
+      [
+        4271.523,
+        2141.2168,
+        4470.5024,
+        5555.3545,
+        8255.185,
+        5836.2
+      ],
+      [
+        1649.5731,
+        125.46943,
+        27175.49,
+        15931.291,
+        14591.119,
+        4710.915
+      ],
+      [
+        10331.222,
+        6855.5186,
+        15994.882,
+        10421.368,
+        19201.19,
+        7734.744
+      ],
+      [
+        10149.181,
+        9299.992,
+        38688.574,
+        157683.4,
+        244066.22,
+        93446.805
+      ],
+      [
+        19144.838,
+        12905.341,
+        27329.135,
+        5894.308,
+        24293.762,
+        10871.861
+      ],
+      [
+        116587.06,
+        65998.83,
+        135094.45,
+        60777.76,
+        133286.77,
+        68475.18
+      ],
+      [
+        15930.962,
+        13157.0625,
+        23536.262,
+        4429.0215,
+        16449.578,
+        5363.6104
+      ],
+      [
+        4657.4004,
+        1991.8728,
+        8425.133,
+        37076.516,
+        65624.65,
+        21429.766
+      ],
+      [
+        816.9149,
+        607.562,
+        3044.153,
+        94.90921,
+        4380.739,
+        530.9809
+      ],
+      [
+        189108.52,
+        166522.89,
+        203316.45,
+        48600.68,
+        226508.25,
+        210809.39
+      ],
+      [
+        2551718.5,
+        2039582.0,
+        2595726.2,
+        706177.9,
+        2628687.8,
+        2286955.0
+      ],
+      [
+        105581.875,
+        157394.56,
+        180925.9,
+        10614.988,
+        74756.86,
+        98781.23
+      ],
+      [
+        16734.584,
+        14429.466,
+        37504.5,
+        1703.3151,
+        14782.71,
+        6922.041
+      ],
+      [
+        427546.16,
+        515391.7,
+        611765.06,
+        71040.93,
+        381833.8,
+        318703.9
+      ],
+      [
+        15004.481,
+        15963.941,
+        19274.986,
+        1491.4135,
+        8545.087,
+        3729.5718
+      ],
+      [
+        642632.5,
+        552848.56,
+        686917.2,
+        204629.08,
+        928397.44,
+        598762.2
+      ],
+      [
+        41331.215,
+        49917.758,
+        61416.273,
+        6667.129,
+        38439.35,
+        23485.951
+      ],
+      [
+        64371.895,
+        72621.93,
+        159209.23,
+        3794.759,
+        53121.215,
+        53040.0
+      ],
+      [
+        253839.62,
+        340726.2,
+        315672.62,
+        61047.785,
+        254143.03,
+        174687.38
+      ],
+      [
+        32270.576,
+        18988.04,
+        48884.035,
+        12585.115,
+        18537.55,
+        20938.812
+      ],
+      [
+        22946.24,
+        29571.762,
+        32910.625,
+        3170.3704,
+        23630.143,
+        11192.564
+      ],
+      [
+        334109.06,
+        258527.14,
+        415400.53,
+        87159.39,
+        317798.22,
+        261338.14
+      ],
+      [
+        18091.1,
+        20236.438,
+        33936.95,
+        544.8377,
+        14043.732,
+        9033.16
+      ],
+      [
+        27691.355,
+        22029.16,
+        74212.5,
+        10082.4795,
+        21703.459,
+        8597.454
+      ],
+      [
+        206835.42,
+        130454.695,
+        239156.62,
+        151503.39,
+        316198.66,
+        192646.4
+      ],
+      [
+        197209.7,
+        135891.08,
+        353681.8,
+        43776.293,
+        200022.06,
+        143037.81
+      ],
+      [
+        582.1493,
+        null,
+        273644.38,
+        5917.181,
+        3238.0056,
+        null
+      ],
+      [
+        3000.0645,
+        278.63742,
+        152807.97,
+        4633.323,
+        4607.3394,
+        1652.8837
+      ],
+      [
+        59172.81,
+        65114.273,
+        88185.95,
+        4293.939,
+        48010.16,
+        37948.66
+      ],
+      [
+        12645.818,
+        8944.275,
+        15904.092,
+        1317.4308,
+        10649.914,
+        2905.0151
+      ],
+      [
+        53291.79,
+        54684.402,
+        74154.18,
+        21612.896,
+        97145.04,
+        65385.125
+      ],
+      [
+        21245.426,
+        11244.067,
+        22149.582,
+        21257.732,
+        20627.299,
+        5927.18
+      ],
+      [
+        21669.352,
+        14764.882,
+        42271.367,
+        888.23444,
+        16928.445,
+        1736.4219
+      ],
+      [
+        26637.57,
+        26140.215,
+        27009.615,
+        44511.99,
+        83815.016,
+        44349.223
+      ],
+      [
+        24729.363,
+        26140.215,
+        205032.8,
+        7750.3843,
+        36276.035,
+        23984.916
+      ],
+      [
+        3844.1484,
+        5563.1953,
+        166406.27,
+        6294.818,
+        15900.787,
+        6916.394
+      ],
+      [
+        45978.203,
+        1249.4077,
+        102011.44,
+        458.99847,
+        7296.4854,
+        2141.6616
+      ],
+      [
+        5891.7207,
+        3584.3433,
+        21653.967,
+        30790.434,
+        13045.212,
+        8410.589
+      ],
+      [
+        430.60294,
+        146.30748,
+        2687.6672,
+        2774.0027,
+        1487.2764,
+        410.94904
+      ],
+      [
+        133285.22,
+        61665.867,
+        165071.2,
+        43834.207,
+        134456.88,
+        130264.555
+      ],
+      [
+        134897.92,
+        98431.38,
+        207869.97,
+        44349.76,
+        137826.47,
+        79327.01
+      ],
+      [
+        26787.24,
+        16681.178,
+        30433.96,
+        14576.296,
+        32868.527,
+        24352.668
+      ],
+      [
+        122357.99,
+        91233.375,
+        149626.38,
+        10767.508,
+        79538.84,
+        54181.023
+      ],
+      [
+        29153.324,
+        18757.936,
+        41525.332,
+        619.2391,
+        16421.8,
+        9820.328
+      ],
+      [
+        4818.821,
+        7302.276,
+        9381.833,
+        2691.3755,
+        7756.702,
+        9240.372
+      ],
+      [
+        70986.445,
+        45058.0,
+        76010.55,
+        24790.766,
+        115403.59,
+        55983.637
+      ],
+      [
+        31311.684,
+        14767.319,
+        94920.67,
+        1800.1931,
+        33975.023,
+        9540.079
+      ],
+      [
+        63829.49,
+        50488.168,
+        87900.164,
+        9357.421,
+        56722.586,
+        26107.0
+      ],
+      [
+        19281.65,
+        18963.092,
+        24547.178,
+        300.9087,
+        10350.245,
+        2588.5593
+      ],
+      [
+        35530.027,
+        14222.444,
+        36924.332,
+        4075.18,
+        40119.152,
+        23492.08
+      ],
+      [
+        13743.211,
+        4116.067,
+        19276.854,
+        7311.6797,
+        14151.459,
+        6283.1772
+      ],
+      [
+        30526.059,
+        33542.938,
+        43768.69,
+        null,
+        20814.002,
+        12160.68
+      ]
+    ],
+    "zero_to_na_count": 14,
+    "source_sha256": "9e4fe19e0b09593a13d53eef36ae60228b0c79a17e499bc83cacd2137b84c4e6",
+    "source_glycan_type": "N",
+    "source_md5": "5d60df3704e06c19bf7d7476c9591275",
+    "features": 128,
+    "observations": 6,
+    "table": "Panorama PrecursorChromInfo",
+    "annotation": "Molecular annotations retain source precision. Unresolved compositions or structures are NA; original annotations are retained in rowData. All quantitative source features are preserved."
+  },
+  {
+    "name": "glyhub_GPST000128_o_precursor",
+    "accession": "GPST000128",
+    "doi": "10.1182/bloodadvances.2020003376",
+    "title": "Red-blood-cell O-glycan precursor quantification",
+    "description": "Complete public Panorama precursor-by-sample TotalArea export; all source precursors including explicitly marked glucose QC/normalization standards retained.",
+    "details": "Six source sample identifiers 07,08,13,39,55,56 retained. Clinical group mapping not verified, group=NA. Multiple precursors per glycan remain separate by source precursor ID; no arbitrary charge merging. This is an already integrated processed quantity export, no raw-MS reprocessing.",
+    "unit": "peak_area",
+    "glycan_type": "O",
+    "source_file": "data-raw/GPST000128/PrecursorChromInfo.json",
+    "source_url": "https://panoramaweb.org/Panorama%20Public/2020/U%20of%20Nebraska%20Medical%20Center%20Gundry%20Lab%20-%20Sickle%20Cell%20Manuscript/query-selectRows.api?schemaName=targetedms&query.queryName=PrecursorChromInfo&query.maxRows=2000",
+    "source_files": [
+      "data-raw/GPST000128/PeptideChromInfo.json",
+      "data-raw/GPST000128/Replicate.json",
+      "data-raw/GPST000128/Molecule.json",
+      "data-raw/GPST000128/SampleFile.json",
+      "data-raw/GPST000128/MoleculePrecursor.json",
+      "data-raw/GPST000128/PrecursorChromInfo.json"
+    ],
+    "sheet": "Panorama PrecursorChromInfo",
+    "row_indices": null,
+    "column_indices": null,
+    "raw_matrix": [
+      [
+        44068.848,
+        108692.57,
+        101972.94,
+        92629.945,
+        95170.984,
+        95745.79
+      ],
+      [
+        150866.52,
+        162904.72,
+        204814.06,
+        182450.23,
+        168538.42,
+        198137.52
+      ],
+      [
+        175133.25,
+        196839.78,
+        191324.23,
+        203838.62,
+        178184.2,
+        193719.78
+      ],
+      [
+        101459.336,
+        158829.4,
+        150944.86,
+        166232.9,
+        134380.44,
+        156972.16
+      ],
+      [
+        6487.524,
+        10643.157,
+        6973.65,
+        9648.591,
+        7451.6367,
+        9395.942
+      ],
+      [
+        34553.293,
+        57426.844,
+        52386.96,
+        59380.41,
+        54385.08,
+        53928.54
+      ],
+      [
+        8168.202,
+        12547.742,
+        5406.0254,
+        10716.646,
+        11614.383,
+        9392.593
+      ],
+      [
+        7468.4556,
+        12639.71,
+        6948.4336,
+        11924.83,
+        12475.54,
+        11610.145
+      ],
+      [
+        10363.969,
+        14398.689,
+        13361.449,
+        15341.844,
+        16422.727,
+        9813.113
+      ],
+      [
+        126.371,
+        691.1323,
+        343.45734,
+        166.05362,
+        278.75082,
+        0.0
+      ],
+      [
+        121358.05,
+        159515.83,
+        258754.94,
+        46241.477,
+        221611.94,
+        122868.89
+      ],
+      [
+        9450.266,
+        35531.824,
+        63651.938,
+        3889.0486,
+        46432.16,
+        20876.115
+      ],
+      [
+        3799392.5,
+        7953418.0,
+        9801466.0,
+        2721690.0,
+        10156811.0,
+        4243381.0
+      ],
+      [
+        1081129.8,
+        2075311.1,
+        2899035.0,
+        739843.25,
+        2997021.2,
+        1302833.6
+      ],
+      [
+        0.0,
+        46.6529,
+        1735.0569,
+        29209.568,
+        328053.25,
+        3019.6777
+      ],
+      [
+        234.39276,
+        2205.543,
+        28482.023,
+        19975.602,
+        61003.184,
+        3823.279
+      ],
+      [
+        2683.7778,
+        1789.017,
+        19618.242,
+        19572.045,
+        39914.73,
+        4144.796
+      ],
+      [
+        113442.28,
+        138811.67,
+        404552.5,
+        121084.48,
+        862567.9,
+        142672.55
+      ],
+      [
+        62455.652,
+        137432.31,
+        326089.53,
+        123235.984,
+        1437876.5,
+        155567.61
+      ],
+      [
+        37052.043,
+        68149.04,
+        367055.16,
+        111564.61,
+        571131.3,
+        73393.305
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3091.0127,
+        50048.625,
+        246.16539
+      ],
+      [
+        38857.914,
+        75800.17,
+        147431.4,
+        50237.96,
+        450555.88,
+        64916.35
+      ],
+      [
+        413.5633,
+        3154.5967,
+        9030.9,
+        1967.353,
+        51510.926,
+        1561.5233
+      ],
+      [
+        10189.794,
+        20580.908,
+        77521.68,
+        50801.94,
+        503550.1,
+        22872.37
+      ],
+      [
+        8463.671,
+        26862.926,
+        97383.37,
+        41770.6,
+        334098.06,
+        19389.617
+      ],
+      [
+        25238.246,
+        48483.65,
+        99326.43,
+        24464.752,
+        449589.62,
+        53321.35
+      ],
+      [
+        31016.059,
+        73907.67,
+        128137.055,
+        41379.01,
+        402412.97,
+        27872.936
+      ],
+      [
+        21922.75,
+        52681.93,
+        139859.23,
+        18333.361,
+        285572.25,
+        29708.477
+      ],
+      [
+        5020.9575,
+        24234.174,
+        40636.37,
+        12629.699,
+        386958.88,
+        23252.88
+      ],
+      [
+        1749.8903,
+        9813.495,
+        42498.45,
+        11727.904,
+        255032.48,
+        8619.156
+      ],
+      [
+        23359.326,
+        80727.97,
+        150259.36,
+        52180.367,
+        939489.2,
+        58836.906
+      ],
+      [
+        65847.83,
+        155878.84,
+        218008.02,
+        216509.25,
+        3338188.8,
+        168212.06
+      ],
+      [
+        0.0,
+        0.0,
+        481.77054,
+        1432.4269,
+        24991.117,
+        0.0
+      ],
+      [
+        24443.275,
+        38243.39,
+        54712.28,
+        10008.609,
+        59763.46,
+        27915.35
+      ],
+      [
+        22877.914,
+        26943.975,
+        45081.85,
+        7278.2812,
+        58066.6,
+        23405.803
+      ]
+    ],
+    "feature_ids": [
+      "21915039",
+      "21915040",
+      "21915041",
+      "21915042",
+      "21915043",
+      "21915044",
+      "21915045",
+      "21915046",
+      "21915047",
+      "21915048",
+      "21915049",
+      "21915050",
+      "21915051",
+      "21915052",
+      "21915053",
+      "21915054",
+      "21915055",
+      "21915056",
+      "21915057",
+      "21915058",
+      "21915059",
+      "21915060",
+      "21915061",
+      "21915062",
+      "21915063",
+      "21915064",
+      "21915065",
+      "21915066",
+      "21915067",
+      "21915068",
+      "21915069",
+      "21915070",
+      "21915071",
+      "21915072",
+      "21915073"
+    ],
+    "sample_ids": [
+      "07",
+      "08",
+      "13",
+      "39",
+      "55",
+      "56"
+    ],
+    "composition": [
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H8",
+      "H9",
+      "H9",
+      "H10",
+      "H10",
+      "H1N1F1",
+      "H1N1F1S1",
+      "H1N1S2",
+      "H1N1S1",
+      "H1N2S1",
+      "H2N2",
+      "H2N2F1",
+      "H2N2F1S1",
+      "H2N2S1",
+      "H2N2S2",
+      "H2N3S1",
+      "H3N3F1S1",
+      "H3N3S1",
+      "H3N3S2",
+      "H3N3S2",
+      "H4N4F1S1",
+      "H4N4F1S1",
+      "H4N4F2S1",
+      "H4N4S1",
+      "H4N4S1",
+      "H4N4S2",
+      "H4N4S2",
+      "H4N4S1",
+      "N7F2",
+      "N7F2"
+    ],
+    "row_annotations": [
+      {
+        "molecule_id": 19935560,
+        "precursor_id": 21915039,
+        "source_molecule_name": "Glc(04)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 667.230233,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 4
+        },
+        "chemical_formula": "C24H44O21",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:ZXPLRDFHBYIQOX-BTBVOZEKSA-N"
+      },
+      {
+        "molecule_id": 19935561,
+        "precursor_id": 21915040,
+        "source_molecule_name": "Glc(05)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 829.283056,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 5
+        },
+        "chemical_formula": "C30H54O26",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:NBVGBCYERZIRIP-JAMOUWTMSA-N"
+      },
+      {
+        "molecule_id": 19935562,
+        "precursor_id": 21915041,
+        "source_molecule_name": "Glc(06)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 991.33588,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 6
+        },
+        "chemical_formula": "C36H64O31",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:PNHJKLJIDNHXFR-ZGJYWSOBSA-N"
+      },
+      {
+        "molecule_id": 19935563,
+        "precursor_id": 21915042,
+        "source_molecule_name": "Glc(07)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1153.388703,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 7
+        },
+        "chemical_formula": "C42H74O36",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:NVKJDLBVRSXYRE-BMFDHOHESA-N"
+      },
+      {
+        "molecule_id": 19935564,
+        "precursor_id": 21915043,
+        "source_molecule_name": "Glc(08)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 657.217125,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 8
+        },
+        "chemical_formula": "C48H84O41",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:YMRGEPQWJZHXFF-MGQBKJSVSA-N"
+      },
+      {
+        "molecule_id": 19935564,
+        "precursor_id": 21915044,
+        "source_molecule_name": "Glc(08)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1315.441527,
+        "source_group": "Library Molecules",
+        "source_standard_type": "Normalization",
+        "composition_counts": {
+          "Hex": 8
+        },
+        "chemical_formula": "C48H84O41",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:YMRGEPQWJZHXFF-MGQBKJSVSA-N"
+      },
+      {
+        "molecule_id": 19935565,
+        "precursor_id": 21915045,
+        "source_molecule_name": "Glc(09)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 738.243537,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 9
+        },
+        "chemical_formula": "C54H94O46",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:AHAYYNHHUAWETM-NJIXDFMDSA-N"
+      },
+      {
+        "molecule_id": 19935565,
+        "precursor_id": 21915046,
+        "source_molecule_name": "Glc(09)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1477.49435,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 9
+        },
+        "chemical_formula": "C54H94O46",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:AHAYYNHHUAWETM-NJIXDFMDSA-N"
+      },
+      {
+        "molecule_id": 19935566,
+        "precursor_id": 21915047,
+        "source_molecule_name": "Glc(10)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 819.269949,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 10
+        },
+        "chemical_formula": "C60H104O51",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:TWHBRNKLIFMJNC-YRAONRNWSA-N"
+      },
+      {
+        "molecule_id": 19935566,
+        "precursor_id": 21915048,
+        "source_molecule_name": "Glc(10)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1639.547174,
+        "source_group": "Library Molecules",
+        "source_standard_type": "QC",
+        "composition_counts": {
+          "Hex": 10
+        },
+        "chemical_formula": "C60H104O51",
+        "source_note": null,
+        "molecule_identifier": "#$#InChiKey:TWHBRNKLIFMJNC-YRAONRNWSA-N"
+      },
+      {
+        "molecule_id": 19935567,
+        "precursor_id": 21915049,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (GU:5.16)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 530.209044,
+        "source_group": "Core 1",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "Fuc": 1
+        },
+        "chemical_formula": "C20H37O15N1",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935568,
+        "precursor_id": 21915050,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 (GU:4.02)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 821.30446,
+        "source_group": "Core 1",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C31H54O23N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935569,
+        "precursor_id": 21915051,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (NeuAc)2 (GU:3.93)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 966.341968,
+        "source_group": "Core 1",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C36H61O27N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935570,
+        "precursor_id": 21915052,
+        "source_molecule_name": "(Hex)1 (HexNAc)1 (NeuAc)1 (GU:2.6)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 675.246552,
+        "source_group": "Core 1",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C25H44O19N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935571,
+        "precursor_id": 21915053,
+        "source_molecule_name": "(Hex)1 (HexNAc)2 (NeuAc)1 (GU:3.93)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 878.325924,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 2,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C33H57O24N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935572,
+        "precursor_id": 21915054,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (GU:4.11)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 749.283331,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2
+        },
+        "chemical_formula": "C28H50O21N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935573,
+        "precursor_id": 21915055,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (GU:5.39)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 895.34124,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "chemical_formula": "C34H60O25N2",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935574,
+        "precursor_id": 21915056,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 (GU:5.39)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1186.436656,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C45H77O33N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935575,
+        "precursor_id": 21915057,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)1 (GU:4.73)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1040.378748,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C39H67O29N3",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935576,
+        "precursor_id": 21915058,
+        "source_molecule_name": "(Hex)2 (HexNAc)2 (NeuAc)2 (GU:5.58)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1331.474164,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C50H84O37N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935577,
+        "precursor_id": 21915059,
+        "source_molecule_name": "(Hex)2 (HexNAc)3 (NeuAc)1 (GU:6.33)",
+        "feature_level": "precursor",
+        "charge": -1,
+        "mz": 1243.45812,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C47H80O34N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935578,
+        "precursor_id": 21915060,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 (GU:8.67)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 775.280788,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C59H100O43N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935579,
+        "precursor_id": 21915061,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)1 (GU:7.99)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 702.251834,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C53H90O39N4",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935580,
+        "precursor_id": 21915062,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)2 (GU:7.15)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 847.799542,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C64H107O47N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935581,
+        "precursor_id": 21915063,
+        "source_molecule_name": "(Hex)3 (HexNAc)3 (NeuAc)2 (GU:9.06)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 847.799542,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C64H107O47N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935582,
+        "precursor_id": 21915064,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (Deoxyhexose)1 (NeuAc)1 (GU:10.89)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 957.846886,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C73H123O53N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935583,
+        "precursor_id": 21915065,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (Deoxyhexose)1 (NeuAc)1 (GU:13.45)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 957.846886,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 1,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C73H123O53N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935584,
+        "precursor_id": 21915066,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (Deoxyhexose)2 (NeuAc)1 (GU:13.22)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1030.875841,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "Fuc": 2,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C79H133O57N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935585,
+        "precursor_id": 21915067,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (NeuAc)1 (GU:10.46)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 884.817932,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C67H113O49N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935586,
+        "precursor_id": 21915068,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (NeuAc)1 (GU:12.83)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 884.817932,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C67H113O49N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935587,
+        "precursor_id": 21915069,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (NeuAc)2 (GU:11.4)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1030.36564,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C78H130O57N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935588,
+        "precursor_id": 21915070,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (NeuAc)2 (GU:9.13)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 1030.36564,
+        "source_group": "Core 2",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "NeuAc": 2
+        },
+        "chemical_formula": "C78H130O57N6",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935589,
+        "precursor_id": 21915071,
+        "source_molecule_name": "(Hex)4 (HexNAc)4 (NeuAc)1 (GU:11.93)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 884.817932,
+        "source_group": "Core 4",
+        "source_standard_type": null,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 4,
+          "NeuAc": 1
+        },
+        "chemical_formula": "C67H113O49N5",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935590,
+        "precursor_id": 21915072,
+        "source_molecule_name": "(HexNAc)7 (Deoxyhexose)2 (GU:5.9)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 865.841544,
+        "source_group": "Core 4",
+        "source_standard_type": null,
+        "composition_counts": {
+          "HexNAc": 7,
+          "Fuc": 2
+        },
+        "chemical_formula": "C68H115O44N7",
+        "source_note": null,
+        "molecule_identifier": null
+      },
+      {
+        "molecule_id": 19935591,
+        "precursor_id": 21915073,
+        "source_molecule_name": "(HexNAc)7 (Deoxyhexose)2 (GU:6.17)",
+        "feature_level": "precursor",
+        "charge": -2,
+        "mz": 865.841544,
+        "source_group": "Core 4",
+        "source_standard_type": null,
+        "composition_counts": {
+          "HexNAc": 7,
+          "Fuc": 2
+        },
+        "chemical_formula": "C68H115O44N7",
+        "source_note": null,
+        "molecule_identifier": null
+      }
+    ],
+    "col_data": {
+      "source_sample_id": [
+        "07",
+        "08",
+        "13",
+        "39",
+        "55",
+        "56"
+      ],
+      "sample_file_id": [
+        5225268,
+        5225269,
+        5225270,
+        5225271,
+        5225272,
+        5225273
+      ],
+      "source_sample_file": [
+        "0000_180913_07RBC_OG_GU.mzML",
+        "0000_180913_08RBC_OG_GU.mzML",
+        "0000_180913_13RBC_OG_GU.mzML",
+        "0000_180913_39RBC_OG_GU.mzML",
+        "0000_180913_55RBC_OG_GU.mzML",
+        "0000_180913_56RBC_OG_GU.mzML"
+      ],
+      "organism": [
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens"
+      ],
+      "group": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "tissue": [
+        "red blood cell",
+        "red blood cell",
+        "red blood cell",
+        "red blood cell",
+        "red blood cell",
+        "red blood cell"
+      ]
+    },
+    "license": {
+      "name": "CC BY 4.0",
+      "url": null
+    },
+    "license_evidence": "https://panoramaweb.org/RBCSickleGlycomics.url; explicit Data License in saved panorama.html",
+    "review_warning": "Clinical group mapping unresolved; choose whether precursor-level object is admissible before inclusion. Standards are marked not silently dropped.",
+    "reviewed_at_utc": "2026-10-14T07:02:52.049924+00:00",
+    "matrix": [
+      [
+        44068.848,
+        108692.57,
+        101972.94,
+        92629.945,
+        95170.984,
+        95745.79
+      ],
+      [
+        150866.52,
+        162904.72,
+        204814.06,
+        182450.23,
+        168538.42,
+        198137.52
+      ],
+      [
+        175133.25,
+        196839.78,
+        191324.23,
+        203838.62,
+        178184.2,
+        193719.78
+      ],
+      [
+        101459.336,
+        158829.4,
+        150944.86,
+        166232.9,
+        134380.44,
+        156972.16
+      ],
+      [
+        6487.524,
+        10643.157,
+        6973.65,
+        9648.591,
+        7451.6367,
+        9395.942
+      ],
+      [
+        34553.293,
+        57426.844,
+        52386.96,
+        59380.41,
+        54385.08,
+        53928.54
+      ],
+      [
+        8168.202,
+        12547.742,
+        5406.0254,
+        10716.646,
+        11614.383,
+        9392.593
+      ],
+      [
+        7468.4556,
+        12639.71,
+        6948.4336,
+        11924.83,
+        12475.54,
+        11610.145
+      ],
+      [
+        10363.969,
+        14398.689,
+        13361.449,
+        15341.844,
+        16422.727,
+        9813.113
+      ],
+      [
+        126.371,
+        691.1323,
+        343.45734,
+        166.05362,
+        278.75082,
+        null
+      ],
+      [
+        121358.05,
+        159515.83,
+        258754.94,
+        46241.477,
+        221611.94,
+        122868.89
+      ],
+      [
+        9450.266,
+        35531.824,
+        63651.938,
+        3889.0486,
+        46432.16,
+        20876.115
+      ],
+      [
+        3799392.5,
+        7953418.0,
+        9801466.0,
+        2721690.0,
+        10156811.0,
+        4243381.0
+      ],
+      [
+        1081129.8,
+        2075311.1,
+        2899035.0,
+        739843.25,
+        2997021.2,
+        1302833.6
+      ],
+      [
+        null,
+        46.6529,
+        1735.0569,
+        29209.568,
+        328053.25,
+        3019.6777
+      ],
+      [
+        234.39276,
+        2205.543,
+        28482.023,
+        19975.602,
+        61003.184,
+        3823.279
+      ],
+      [
+        2683.7778,
+        1789.017,
+        19618.242,
+        19572.045,
+        39914.73,
+        4144.796
+      ],
+      [
+        113442.28,
+        138811.67,
+        404552.5,
+        121084.48,
+        862567.9,
+        142672.55
+      ],
+      [
+        62455.652,
+        137432.31,
+        326089.53,
+        123235.984,
+        1437876.5,
+        155567.61
+      ],
+      [
+        37052.043,
+        68149.04,
+        367055.16,
+        111564.61,
+        571131.3,
+        73393.305
+      ],
+      [
+        null,
+        null,
+        null,
+        3091.0127,
+        50048.625,
+        246.16539
+      ],
+      [
+        38857.914,
+        75800.17,
+        147431.4,
+        50237.96,
+        450555.88,
+        64916.35
+      ],
+      [
+        413.5633,
+        3154.5967,
+        9030.9,
+        1967.353,
+        51510.926,
+        1561.5233
+      ],
+      [
+        10189.794,
+        20580.908,
+        77521.68,
+        50801.94,
+        503550.1,
+        22872.37
+      ],
+      [
+        8463.671,
+        26862.926,
+        97383.37,
+        41770.6,
+        334098.06,
+        19389.617
+      ],
+      [
+        25238.246,
+        48483.65,
+        99326.43,
+        24464.752,
+        449589.62,
+        53321.35
+      ],
+      [
+        31016.059,
+        73907.67,
+        128137.055,
+        41379.01,
+        402412.97,
+        27872.936
+      ],
+      [
+        21922.75,
+        52681.93,
+        139859.23,
+        18333.361,
+        285572.25,
+        29708.477
+      ],
+      [
+        5020.9575,
+        24234.174,
+        40636.37,
+        12629.699,
+        386958.88,
+        23252.88
+      ],
+      [
+        1749.8903,
+        9813.495,
+        42498.45,
+        11727.904,
+        255032.48,
+        8619.156
+      ],
+      [
+        23359.326,
+        80727.97,
+        150259.36,
+        52180.367,
+        939489.2,
+        58836.906
+      ],
+      [
+        65847.83,
+        155878.84,
+        218008.02,
+        216509.25,
+        3338188.8,
+        168212.06
+      ],
+      [
+        null,
+        null,
+        481.77054,
+        1432.4269,
+        24991.117,
+        null
+      ],
+      [
+        24443.275,
+        38243.39,
+        54712.28,
+        10008.609,
+        59763.46,
+        27915.35
+      ],
+      [
+        22877.914,
+        26943.975,
+        45081.85,
+        7278.2812,
+        58066.6,
+        23405.803
+      ]
+    ],
+    "zero_to_na_count": 8,
+    "source_sha256": "9e4fe19e0b09593a13d53eef36ae60228b0c79a17e499bc83cacd2137b84c4e6",
+    "source_glycan_type": "O",
+    "source_md5": "5d60df3704e06c19bf7d7476c9591275",
+    "features": 35,
+    "observations": 6,
+    "table": "Panorama PrecursorChromInfo",
+    "annotation": "Molecular annotations retain source precision. Unresolved compositions or structures are NA; original annotations are retained in rowData. All quantitative source features are preserved."
+  }
+]

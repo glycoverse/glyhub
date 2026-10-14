@@ -1,0 +1,27 @@
+{
+  "glyhub_GPST000602_Sh_GSL": {
+    "status": "PASS",
+    "typed_compositions": 566,
+    "glyrepr_version": "1.1.0"
+  },
+  "glyhub_GPST000602_Sm_GSL": {
+    "status": "PASS",
+    "typed_compositions": 183,
+    "glyrepr_version": "1.1.0"
+  },
+  "glyhub_GPST000602_Sh_N": {
+    "status": "PASS",
+    "typed_compositions": 489,
+    "glyrepr_version": "1.1.0"
+  },
+  "glyhub_GPST000602_Sm_N": {
+    "status": "PASS",
+    "typed_compositions": 247,
+    "glyrepr_version": "1.1.0"
+  },
+  "glyhub_GPST000602_Sh_O": {
+    "status": "PASS",
+    "typed_compositions": 122,
+    "glyrepr_version": "1.1.0"
+  }
+}

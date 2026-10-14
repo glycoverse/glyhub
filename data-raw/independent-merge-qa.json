@@ -1,0 +1,104 @@
+{
+  "glyhub_GPST000035_O.rda": {
+    "dim": [231, 66],
+    "source_cells": 1054,
+    "covered": 1054,
+    "panel_observations": 66,
+    "union_observations": 66,
+    "unknown_structure_keys": 0,
+    "reasons": {
+      "not_measured_in_source_panel": 14192,
+      "source_missing_or_nonnumeric": 21,
+      "unchanged": 1033
+    }
+  },
+  "glyhub_GPST000213_N.rda": {
+    "dim": [679, 86],
+    "source_cells": 9766,
+    "covered": 9766,
+    "panel_observations": 86,
+    "union_observations": 86,
+    "unknown_structure_keys": 0,
+    "reasons": {
+      "not_measured_in_source_panel": 48628,
+      "source_conflict": 520,
+      "unchanged": 9245,
+      "zero_abundance": 1
+    }
+  },
+  "glyhub_GPST000213_O.rda": {
+    "dim": [148, 39],
+    "source_cells": 1158,
+    "covered": 1158,
+    "panel_observations": 39,
+    "union_observations": 39,
+    "unknown_structure_keys": 0,
+    "reasons": {
+      "not_measured_in_source_panel": 4614,
+      "unchanged": 1158
+    }
+  },
+  "glyhub_GPST000374_O.rda": {
+    "dim": [15, 7],
+    "source_cells": 105,
+    "covered": 105,
+    "panel_observations": 21,
+    "union_observations": 7,
+    "unknown_structure_keys": 0,
+    "reasons": {
+      "unchanged": 85,
+      "zero_abundance": 20
+    }
+  },
+  "glyhub_GPST000431_N.rda": {
+    "dim": [70, 62],
+    "source_cells": 3450,
+    "covered": 3450,
+    "panel_observations": 62,
+    "union_observations": 62,
+    "unknown_structure_keys": 0,
+    "reasons": {
+      "not_measured_in_source_panel": 890,
+      "source_missing_or_nonnumeric": 171,
+      "unchanged": 3166,
+      "zero_abundance": 113
+    }
+  },
+  "glyhub_GPST000643_N.rda": {
+    "dim": [3, 23],
+    "source_cells": 54,
+    "covered": 54,
+    "panel_observations": 23,
+    "union_observations": 23,
+    "unknown_structure_keys": 3,
+    "reasons": {
+      "not_measured_in_source_panel": 15,
+      "unchanged": 53,
+      "zero_abundance": 1
+    }
+  },
+  "glyhub_GPST000643_O.rda": {
+    "dim": [365, 71],
+    "source_cells": 4447,
+    "covered": 4447,
+    "panel_observations": 71,
+    "union_observations": 71,
+    "unknown_structure_keys": 198,
+    "reasons": {
+      "not_measured_in_source_panel": 21468,
+      "unchanged": 2901,
+      "zero_abundance": 1546
+    }
+  },
+  "glyhub_GPST000676_GAG.rda": {
+    "dim": [8, 15],
+    "source_cells": 120,
+    "covered": 120,
+    "panel_observations": 15,
+    "union_observations": 15,
+    "unknown_structure_keys": 0,
+    "reasons": {
+      "unchanged": 120
+    }
+  }
+}

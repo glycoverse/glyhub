@@ -1,0 +1,21 @@
+{
+  "article_url": "https://www.nature.com/articles/s41467-026-70850-0",
+  "source_workbook_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-70850-0/MediaObjects/41467_2026_70850_MOESM3_ESM.xlsx",
+  "source_workbook_sha256": "e5ea07ba142a319b98dce1540de4c74888a535cacfb29baa62aea7a8af62a87b",
+  "article_title": "Major human schistosome species express different glycans with immunological and diagnostic implications",
+  "doi": "10.1038/s41467-026-70850-0",
+  "source_definition_cells": {
+    "sample_and_sheet_key": "Key!A3:C8",
+    "measurement_definitions": "Key!A11:B23",
+    "null_definition": "Key!B20"
+  },
+  "method_summary": "MALDI-TOF-MS source peak lists. AA-labeled GSL and N glycans were measured in negative mode; reduced permethylated O-glycans in positive mode. The Methods describe 300 ppm initial composition assignment, manual curation, and follow-up structural characterization of selected ions. No sample-level retention-time/structure crosswalk accompanies the 32 peak lists.",
+  "source_license": {
+    "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (article/Supplementary Information notice)",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "evidence_url": "https://www.nature.com/articles/s41467-026-70850-0#rightslink",
+    "source_scope": "Springer Nature Supplementary Data 1 / Table S1, MOESM3 workbook accompanying the article. Source bytes are from Springer, not a GlycoPOST quantitative-table deposit.",
+    "redistribution_review_required": true,
+    "redistribution_note": "The article notice restricts commercial use and sharing adapted material. Whether the factual extracted data are independently reusable is not established here. Do not substitute GlycoPOST raw-data repository terms for the actual source license; review before public packaging/distribution."
+  }
+}

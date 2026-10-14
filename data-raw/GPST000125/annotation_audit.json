@@ -1,0 +1,909 @@
+[
+  {
+    "type": "N",
+    "row": 4,
+    "source_name": "M2N2",
+    "component_id": "G63628AV",
+    "component_composition": "H2N2",
+    "source_name_composition": "H2N2",
+    "candidate_compositions": {
+      "G03717EM": "H2N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 5,
+    "source_name": "M3N2",
+    "component_id": "G14669DU",
+    "component_composition": "H3N2",
+    "source_name_composition": "H3N2",
+    "candidate_compositions": {
+      "G22768VO": "H3N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 6,
+    "source_name": "M4N2",
+    "component_id": "G66538GV",
+    "component_composition": "H4N2",
+    "source_name_composition": "H4N2",
+    "candidate_compositions": {
+      "G56014GC": "H4N2",
+      "G84552CD": "H4N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 7,
+    "source_name": "M5N2",
+    "component_id": "G06110VR",
+    "component_composition": "H5N2",
+    "source_name_composition": "H5N2",
+    "candidate_compositions": {
+      "G46836GH": "H5N2",
+      "G55220VL": "H5N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 8,
+    "source_name": "M6N2",
+    "component_id": "G39188ZX",
+    "component_composition": "H6N2",
+    "source_name_composition": "H6N2",
+    "candidate_compositions": {
+      "G83582BK": "H6N2",
+      "G81980VO": "H6N2",
+      "G80966KZ": "H6N2",
+      "G34499SX": "H6N2",
+      "G61846BY": "H6N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 9,
+    "source_name": "M7N2",
+    "component_id": "G05724UK",
+    "component_composition": "H7N2",
+    "source_name_composition": "H7N2",
+    "candidate_compositions": {
+      "G37135JQ": "H7N2",
+      "G04216GB": "H7N2",
+      "G68668TB": "H7N2",
+      "G63337SS": "H7N2",
+      "G83161QT": "H7N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 10,
+    "source_name": "M8N2",
+    "component_id": "G64527OM",
+    "component_composition": "H8N2",
+    "source_name_composition": "H8N2",
+    "candidate_compositions": {
+      "G91704UR": "H8N2",
+      "G89864BN": "H8N2",
+      "G40702WU": "H8N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 11,
+    "source_name": "M9N2",
+    "component_id": "G70101JE",
+    "component_composition": "H9N2",
+    "source_name_composition": "H9N2",
+    "candidate_compositions": {
+      "G60230HH": "H9N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 12,
+    "source_name": "Glc1M9N2",
+    "component_id": "G40066BA",
+    "component_composition": "H10N2",
+    "source_name_composition": "H10N2",
+    "candidate_compositions": {
+      "G19958IL": "H10N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 13,
+    "source_name": "M2N2F1",
+    "component_id": "G31685JQ",
+    "component_composition": "H2N2F1",
+    "source_name_composition": "H2N2F1",
+    "candidate_compositions": {
+      "G50346FN": "H2N2F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 14,
+    "source_name": "M3N2F1",
+    "component_id": "G74724QE",
+    "component_composition": "H3N2F1",
+    "source_name_composition": "H3N2F1",
+    "candidate_compositions": {
+      "G82348BZ": "H3N2F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 15,
+    "source_name": "N1M3N2",
+    "component_id": "G60145BJ",
+    "component_composition": "H3N3",
+    "source_name_composition": "H3N3",
+    "candidate_compositions": {
+      "G61751GZ": "H3N3"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 16,
+    "source_name": "N1M3N2F1",
+    "component_id": "G94854LT",
+    "component_composition": "H3N3F1",
+    "source_name_composition": "H3N3F1",
+    "candidate_compositions": {
+      "G07483YN": "H3N3F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 17,
+    "source_name": "LacdiNAc1M3N2F2",
+    "component_id": "G51287LK",
+    "component_composition": "H3N4F2",
+    "source_name_composition": "H3N4F2",
+    "candidate_compositions": {
+      "G27776PG": "H3N4F2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 18,
+    "source_name": "SA1Gal1N1M3N2F1",
+    "component_id": "G11870QZ",
+    "component_composition": "H4N3F1S1",
+    "source_name_composition": "H4N3F1S1",
+    "candidate_compositions": {
+      "G40578SN": "H4N3S1"
+    },
+    "conflicts": [
+      "source_structure_component_id_mismatch",
+      "source_structure_name_mismatch"
+    ]
+  },
+  {
+    "type": "N",
+    "row": 19,
+    "source_name": "SA1Gal1N1M4N2F1",
+    "component_id": "G34730YF",
+    "component_composition": "H5N3F1S1",
+    "source_name_composition": "H5N3F1S1",
+    "candidate_compositions": {
+      "G82273ZM": "H5N3S1"
+    },
+    "conflicts": [
+      "source_structure_component_id_mismatch",
+      "source_structure_name_mismatch"
+    ]
+  },
+  {
+    "type": "N",
+    "row": 20,
+    "source_name": "SA1Gal1N1M5N2F1",
+    "component_id": "G10773YW",
+    "component_composition": "H6N3F1S1",
+    "source_name_composition": "H6N3F1S1",
+    "candidate_compositions": {
+      "G71917KP": "H6N3S1"
+    },
+    "conflicts": [
+      "source_structure_component_id_mismatch",
+      "source_structure_name_mismatch"
+    ]
+  },
+  {
+    "type": "N",
+    "row": 21,
+    "source_name": "N2M3N2F1",
+    "component_id": "G49874UX",
+    "component_composition": "H3N4F1",
+    "source_name_composition": "H3N4F1",
+    "candidate_compositions": {
+      "G80858MF": "H3N4F1",
+      "G26182BM": "H3N4F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 22,
+    "source_name": "N3M3N2F1",
+    "component_id": "G10256JP",
+    "component_composition": "H3N5F1",
+    "source_name_composition": "H3N5F1",
+    "candidate_compositions": {
+      "G61207RZ": "H3N5F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 23,
+    "source_name": "Gal2N2M3N2",
+    "component_id": "G50045TK",
+    "component_composition": "H5N4",
+    "source_name_composition": "H5N4",
+    "candidate_compositions": {
+      "G36191CD": "H5N4",
+      "G43664YB": "H5N4"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 24,
+    "source_name": "Gal1N2M3N2F1",
+    "component_id": "G46687AB",
+    "component_composition": "H4N4F1",
+    "source_name_composition": "H4N4F1",
+    "candidate_compositions": {
+      "G58667NI": "H4N4F1",
+      "G27919IH": "H4N4F1",
+      "G95081VM": "H4N4F1",
+      "G05368PM": "H4N4F1",
+      "G03962UN": "H4N4F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 25,
+    "source_name": "Gal1N3M3N2F1",
+    "component_id": "G03382KH",
+    "component_composition": "H4N5F1",
+    "source_name_composition": "H4N5F1",
+    "candidate_compositions": {
+      "G90717TP": "H4N5F1",
+      "G42032ZI": "H4N5F1",
+      "G88417ED": "H4N5F1",
+      "G91337ZP": "H4N5F1",
+      "G19483RZ": "H4N5F1",
+      "G69452KV": "H4N5F1",
+      "G45365RV": "H4N5F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 26,
+    "source_name": "Gal2N2M3N2F1",
+    "component_id": "G23863VK",
+    "component_composition": "H5N4F1",
+    "source_name_composition": "H5N4F1",
+    "candidate_compositions": {
+      "G78059CC": "H5N4F1",
+      "G65597BI": "H5N4F1",
+      "G01935FK": "H5N4F1",
+      "G52428MJ": "H5N4F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 27,
+    "source_name": "Gal2N3M3N2F1",
+    "component_id": "G91636VS",
+    "component_composition": "H5N5F1",
+    "source_name_composition": "H5N5F1",
+    "candidate_compositions": {
+      "G10691MJ": "H5N5F1",
+      "G89181JW": "H5N5F1",
+      "G36108GD": "H5N5F1",
+      "G17307XM": "H5N5F1",
+      "G45187EI": "H5N5F1",
+      "G23901NY": "H5N5F1",
+      "G33262YZ": "H5N5F1",
+      "G16451PE": "H5N5F1",
+      "G84523VQ": "H5N5F1",
+      "G76873LU": "H5N5F1",
+      "G66190PM": "H5N5F1",
+      "G97958KV": "H5N5F1",
+      "G18784ZP": "H5N5F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 28,
+    "source_name": "LacdiNAc1Gal1N1M3N2F2",
+    "component_id": "G03382KH",
+    "component_composition": "H4N5F1",
+    "source_name_composition": "H4N5F2",
+    "candidate_compositions": {
+      "G06795XH": "H4N5F2",
+      "G21359NQ": "H4N5F2",
+      "G71156OO": "H4N5F2",
+      "G79369FE": "H4N5F2"
+    },
+    "conflicts": [
+      "source_name_component_id_mismatch",
+      "source_structure_component_id_mismatch"
+    ]
+  },
+  {
+    "type": "N",
+    "row": 29,
+    "source_name": "SA1Gal1N1M6N2",
+    "component_id": "G72978AW",
+    "component_composition": "H7N3S1",
+    "source_name_composition": "H7N3S1",
+    "candidate_compositions": {},
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 30,
+    "source_name": "SA1Gal1N1M3N2",
+    "component_id": "G72291OX",
+    "component_composition": "H4N3S1",
+    "source_name_composition": "H4N3S1",
+    "candidate_compositions": {
+      "G88421PE": "H4N3S1",
+      "G06209KS": "H4N3S1",
+      "G14996IQ": "H4N3S1",
+      "G97720QM": "H4N3S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 31,
+    "source_name": "SA1Gal2N2M3N2",
+    "component_id": "G06356OH",
+    "component_composition": "H5N4S1",
+    "source_name_composition": "H5N4S1",
+    "candidate_compositions": {
+      "G72368JX": "H5N4S1",
+      "G87433AX": "H5N4S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 32,
+    "source_name": "SA1Gal2N2M3N2F1",
+    "component_id": "G84452RH",
+    "component_composition": "H5N4F1S1",
+    "source_name_composition": "H5N4F1S1",
+    "candidate_compositions": {
+      "G31555TF": "H5N4F1S1",
+      "G54505OS": "H5N4F1S1",
+      "G69982RY": "H5N4F1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 33,
+    "source_name": "SA1Gal2N3M3N2F1",
+    "component_id": "G02030ZB",
+    "component_composition": "H5N5F1S1",
+    "source_name_composition": "H5N5F1S1",
+    "candidate_compositions": {
+      "G61465OY": "H5N5F1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 34,
+    "source_name": "SA1Gal2N3M3N2F2",
+    "component_id": "G65019XG",
+    "component_composition": "H5N5F2S1",
+    "source_name_composition": "H5N5F2S1",
+    "candidate_compositions": {
+      "G10409DZ": "H5N5F2S1",
+      "G35452GG": "H5N5F2S1",
+      "G84532YF": "H5N5F2S1",
+      "G92442AF": "H5N5F2S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 35,
+    "source_name": "SA1Gal3N3M3N2F1",
+    "component_id": "G81263BG",
+    "component_composition": "H6N5F1S1",
+    "source_name_composition": "H6N5F1S1",
+    "candidate_compositions": {
+      "G90966FR": "H6N5F1S1",
+      "G24523DO": "H6N5F1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 36,
+    "source_name": "SA1Gal2N2M3N2F2",
+    "component_id": "G75983OB",
+    "component_composition": "H5N4F2S1",
+    "source_name_composition": "H5N4F2S1",
+    "candidate_compositions": {
+      "G13156PQ": "H5N4F2S1",
+      "G90348RI": "H5N4F2S1",
+      "G75903TQ": "H5N4F2S1",
+      "G79556AB": "H5N4F2S1",
+      "G72547ER": "H5N4F2S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 37,
+    "source_name": "SA2Gal2N2M3N2",
+    "component_id": "G48414YA",
+    "component_composition": "H5N4S2",
+    "source_name_composition": "H5N4S2",
+    "candidate_compositions": {
+      "G14047PA": "H5N4S2",
+      "G77252PU": "H5N4S2",
+      "G51793MY": "H5N4S2",
+      "G84467IZ": "H5N4S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 38,
+    "source_name": "SA2Gal2N3M3N2F1",
+    "component_id": "G91473PK",
+    "component_composition": "H5N5F1S2",
+    "source_name_composition": "H5N5F1S2",
+    "candidate_compositions": {
+      "G87318MX": "H5N5F1S2",
+      "G84108IZ": "H5N5F1S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 39,
+    "source_name": "SA2Gal2N2M3N2F1",
+    "component_id": "G22310AV",
+    "component_composition": "H5N4F1S2",
+    "source_name_composition": "H5N4F1S2",
+    "candidate_compositions": {
+      "G35242IF": "H5N4F1S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 40,
+    "source_name": "SA2Gal3N3M3N2F1",
+    "component_id": "G11629QQ",
+    "component_composition": "H6N5F1S2",
+    "source_name_composition": "H6N5F1S2",
+    "candidate_compositions": {
+      "G96503EZ": "H6N5F1S2",
+      "G86763VI": "H6N5F1S2",
+      "G25363AJ": "H6N5F1S2",
+      "G43339ZY": "H6N5F1S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 41,
+    "source_name": "SA2Gal3N4M3N2F1",
+    "component_id": "G37881RL",
+    "component_composition": "H6N6S2",
+    "source_name_composition": "H6N6F1S2",
+    "candidate_compositions": {
+      "G92534LG": "H6N6F1S2",
+      "G39868EL": "H6N6F1S2",
+      "G19616IY": "H6N6F1S2"
+    },
+    "conflicts": [
+      "source_name_component_id_mismatch",
+      "source_structure_component_id_mismatch"
+    ]
+  },
+  {
+    "type": "N",
+    "row": 42,
+    "source_name": "SA3Gal3N3M3N2F1",
+    "component_id": "G15169WU",
+    "component_composition": "H6N5F1S3",
+    "source_name_composition": "H6N5F1S3",
+    "candidate_compositions": {
+      "G26952EK": "H6N5F1S3",
+      "G32654XG": "H6N5F1S3"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 43,
+    "source_name": "SA3Gal4N4M3N2F1",
+    "component_id": "G39595FH",
+    "component_composition": "H7N6F1S3",
+    "source_name_composition": "H7N6F1S3",
+    "candidate_compositions": {
+      "G56327CO": "H7N6F1S3"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "N",
+    "row": 44,
+    "source_name": "SA4Gal4N4M3N2F1",
+    "component_id": "G69834CE",
+    "component_composition": "H7N6F1S4",
+    "source_name_composition": "H7N6F1S4",
+    "candidate_compositions": {
+      "G65594XM": "H7N6F1S4",
+      "G00451UT": "H7N6F1S4"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 48,
+    "source_name": "Core1",
+    "component_id": "G29931IJ",
+    "component_composition": "H1N1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G58645HA": "H1N1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 49,
+    "source_name": "Core2",
+    "component_id": "G32550BI",
+    "component_composition": "H1N2",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G31601FB": "H1N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 50,
+    "source_name": "Core1+F1",
+    "component_id": "G76163CP",
+    "component_composition": "H1N1F1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G60605ZN": "H1N1F1",
+      "G05187DJ": "H1N1F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 51,
+    "source_name": "Core1+SA1",
+    "component_id": "G74722FL",
+    "component_composition": "H1N1S1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G40269CS": "H1N1S1",
+      "G65285QO": "H1N1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 52,
+    "source_name": "Core2+Hex1",
+    "component_id": "G63628AV",
+    "component_composition": "H2N2",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G18132YR": "H2N2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 53,
+    "source_name": "Core2+SA1",
+    "component_id": "G14851AV",
+    "component_composition": "H1N2S1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G35679QA": "H1N2S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 54,
+    "source_name": "Core2+Hex1+F1",
+    "component_id": "G31685JQ",
+    "component_composition": "H2N2F1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G38812YS": "H2N2F1",
+      "G06341YK": "H2N2F1",
+      "G55051BJ": "H2N2F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 55,
+    "source_name": "Core1+SA2",
+    "component_id": "G81006GJ",
+    "component_composition": "H1N1S2",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G84906ML": "H1N1S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 56,
+    "source_name": "Core2+Hex1+SA1",
+    "component_id": "G88238RR",
+    "component_composition": "H2N2S1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G62217NB": "H2N2S1",
+      "G08140FC": "H2N2S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 57,
+    "source_name": "Core2+Hex1+SA1+F1",
+    "component_id": "G46056UB",
+    "component_composition": "H2N2F1S1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G67883AD": "H2N2F1S1",
+      "G75709RV": "H2N2F1S1",
+      "G08046LM": "H2N2F1S1",
+      "G27071PO": "H2N2F1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 58,
+    "source_name": "Core1+SA3",
+    "component_id": "G85006RH",
+    "component_composition": "H1N1S3",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G09859LE": "H1N1S3"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 59,
+    "source_name": "Core2+Hex+SA2",
+    "component_id": "G26626TD",
+    "component_composition": "H2N2S2",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G52120NK": "H2N2S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 60,
+    "source_name": "O-Fuc\u00a0or\u00a0Core1+SA1+F1",
+    "component_id": "G05917SW",
+    "component_composition": "H1N1F1S1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G70593HA": "H1N1F1S1",
+      "G60138JZ": "H1N1F1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "O",
+    "row": 61,
+    "source_name": "O-Man",
+    "component_id": "G49644CL",
+    "component_composition": "H2N1S1",
+    "source_name_composition": null,
+    "candidate_compositions": {
+      "G59126YU": "H2N1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 65,
+    "source_name": "Hex1Cer",
+    "component_id": "G38776RF",
+    "component_composition": "H1",
+    "source_name_composition": "H1",
+    "candidate_compositions": {
+      "G71142DF": "H1",
+      "G65889KE": "H1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 66,
+    "source_name": "Hex2Cer",
+    "component_id": "G07133YY",
+    "component_composition": "H2",
+    "source_name_composition": "H2",
+    "candidate_compositions": {
+      "G84224TW": "H2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 67,
+    "source_name": "Hex1+Hex2Cer",
+    "component_id": "G99375FM",
+    "component_composition": "H3",
+    "source_name_composition": "H3",
+    "candidate_compositions": {
+      "G00059MO": "H3"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 68,
+    "source_name": "HexNAc1+Hex2Cer",
+    "component_id": "G46831QF",
+    "component_composition": "H2N1",
+    "source_name_composition": "H2N1",
+    "candidate_compositions": {
+      "G90562PB": "H2N1",
+      "G06239NA": "H2N1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 69,
+    "source_name": "HexNAc1Hex1+Hex2Cer",
+    "component_id": "G82930TB",
+    "component_composition": "H3N1",
+    "source_name_composition": "H3N1",
+    "candidate_compositions": {
+      "G00049MO": "H3N1",
+      "G00061MO": "H3N1",
+      "G58896AZ": "H3N1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 70,
+    "source_name": "HexNAc1Hex1+Hex2Cer+F1",
+    "component_id": "G05897GU",
+    "component_composition": "H3N1F1",
+    "source_name_composition": "H3N1F1",
+    "candidate_compositions": {
+      "G00050MO": "H3N1F1",
+      "G13636IT": "H3N1F1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 71,
+    "source_name": "SA1+Hex2Cer",
+    "component_id": "G17756LB",
+    "component_composition": "H2S1",
+    "source_name_composition": "H2S1",
+    "candidate_compositions": {
+      "G91237TK": "H2S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 72,
+    "source_name": "SA1HexNAc1+Hex2Cer",
+    "component_id": "G49644CL",
+    "component_composition": "H2N1S1",
+    "source_name_composition": "H2N1S1",
+    "candidate_compositions": {
+      "G31432OQ": "H2N1S1",
+      "G79389NT": "H2N1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 73,
+    "source_name": "SA1HexNAc1Hex1+Hex2Cer",
+    "component_id": "G40943ZI",
+    "component_composition": "H3N1S1",
+    "source_name_composition": "H3N1S1",
+    "candidate_compositions": {
+      "G48558GR": "H3N1S1",
+      "G03277YI": "H3N1S1",
+      "G54721WC": "H3N1S1"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 74,
+    "source_name": "SA2HexNAc1Hex1+Hex2Cer",
+    "component_id": "G37834XB",
+    "component_composition": "H3N1S2",
+    "source_name_composition": "H3N1S2",
+    "candidate_compositions": {
+      "G45714BQ": "H3N1S2",
+      "G73432VT": "H3N1S2",
+      "G46677TE": "H3N1S2"
+    },
+    "conflicts": []
+  },
+  {
+    "type": "GSL",
+    "row": 75,
+    "source_name": "HexNAc3Hex3+Hex2Cer",
+    "component_id": "G66538GV",
+    "component_composition": "H4N2",
+    "source_name_composition": "H5N3",
+    "candidate_compositions": {
+      "G77285LE": "H5N3"
+    },
+    "conflicts": [
+      "source_name_component_id_mismatch",
+      "source_structure_component_id_mismatch"
+    ]
+  },
+  {
+    "type": "GSL",
+    "row": 76,
+    "source_name": "SA1HexNAc2Hex2+Hex2Cer",
+    "component_id": "G91331SN",
+    "component_composition": "H4N2S1",
+    "source_name_composition": "H4N2S1",
+    "candidate_compositions": {
+      "G03067VG": "H4N2S1",
+      "G40491DT": "H4N2S1"
+    },
+    "conflicts": []
+  }
+]

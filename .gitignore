@@ -5,3 +5,6 @@
 .DS_Store
 .quarto
 docs
+
+/glyhub_*.tar.gz
+/data-raw/GPST000599/mmc4.xlsx

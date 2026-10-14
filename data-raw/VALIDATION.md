@@ -1,84 +1,24 @@
-# Validation — 14 October 2026
+# Validation of the current 34-dataset catalog
 
-- Both accession build scripts run from the package root with pinned source
-  checksums, using data-raw/build.R as the shared entry point.
-- validate-reproduction.R compares all eleven rebuilt objects: assay values,
-  canonical structure/composition annotations, colData and complete provenance.
-  Scientific contents are identical. Byte hashes are not a reproducibility
-  criterion because serialized igraph structures contain runtime identifiers.
-- devtools::test(): 173 passed, zero failures, warnings or skips.
-- devtools::document() and pkgdown::check_pkgdown(): passed.
-- Installed into /tmp/glyhub-current-lib: eleven datasets listed; all eleven are
-  accessible with package::object and satisfy methods::validObject().
-- R CMD check --no-manual, R 4.6.1/macOS arm64: 0 errors, 0 warnings, 0 notes.
-  Full log: 00check.log. This verifies packaging, not author-level source validity.
-- README.Rmd was rendered to README.md against that installed package using
-  rmarkdown::render. devtools::build_readme was attempted but pak could not resolve
-  glyexp from its package index, despite the working local installation. This
-  dependency-index limitation remains; it did not prevent rendering or R CMD check.
-- README relative links resolve and the approved PNG checksum is unchanged.
-- data-raw groups inputs/scripts under GPST000643/ and GPST000738/, with shared
-  entry points and audit documents at its root; no date-based directories.
-  Rejected-study raw
-  inputs and obsolete staging copies were moved to recoverable macOS Trash;
-  cleanup-receipt.tsv records the destinations. No Trash was permanently emptied.
-- No commit, push, PR, CI rerun, release or deployment was performed.
+The current catalog contains 34 datasets from 17 accessions. The initial 22 datasets retain identical assays, molecular annotations and observation metadata. GPST000168 is deferred and outside this catalog.
 
-## Scientific limits
+- R 4.5.0 on the isolated Linux cloud runtime; glyhub 0.0.0.9000, glyexp 0.17.0, glyrepr 1.1.0.
+- Development-loaded tests: 1,081 passed, zero failures, warnings or skips.
+- Clean installed-package tests: 1,081 passed, zero failures, warnings or skips. The actual isolated installation is explicitly printed in the validation log.
+- Complete 34-object reconstruction: all assays, canonical composition/structure annotations, sample conditions and provenance are identical. Graph runtime identifiers are excluded from canonical comparisons. Measured reconstruction time was 69.088 seconds; the separate complete build took 52.825 seconds. Neither figure measures literature curation labor or download time.
+- GPST000599: anonymous full-archive recovery succeeded; the extracted XLSX matches its fixed SHA-256. The 134 clinical mappings and source-cell snapshot validate; a negative checksum fixture stops without altering the existing file.
+- All 88 retained source/annotation/mapping checksums verified.
+- Original 22-object regression: assays, molecular annotations and observation metadata unchanged.
+- GPST000125: all 1,072 quantitative cells match the original XLSX; 304 zero values become assay NA. Sixty-six compositions and 25 structures validate, with one unresolved source diagram/name conflict retained as typed NA. All 215 registry records were independently reparsed; portable helper reconstruction matches the reviewed specifications.
+- GPST000381: complete 36 × 2 expression block, 48 populated source cells, source label choice and direct composition counts independently verified.
+- GPST000578: all 1,516 selected worksheet cells independently verified using standard-library OLE/BIFF parsing. Ten affected cells have fixed worksheet values and a checksum-pinned override, with regression tests guarding against chart-cache substitutions. All 85 distinct GlyTouCan identifiers resolve and validate.
+- GPST000602: all 2,336 source peaks and 23,360 original field values accounted for; 1,607 annotated records retained, 729 excluded with provenance. Exact retained source coordinates, coverage masks, 82 review indicators and all typed compositions verified. The five source-peak matrices remain explicitly unaligned between spectra.
+- Initial independent merger checks remain preserved: all 20,154 cells from the eight earlier consolidated objects were recoverable exactly. Current tests additionally verify the new merged groups and new source-coverage semantics.
+- Independent GPST000128 reconstruction from source query tables: all 978 records, IDs, composition counts and 22 zero-to-NA conversions agree.
+- Documentation and object-inventory coverage checked for every distributed object. Former panel names are mapped in panel-name-mapping.csv without duplicate distributed datasets.
 
-GPST000738 has explicitly masked source-table conflicts and unmatched processed
-observations; it is not a complete recovery of the final author analysis matrix.
-GPST000643 includes seven complete SI tables (S10B and S10C split N/O), not every study
-experiment. Two source annotation count conflicts and two unparsed composition
-labels are marked. Putative structures remain putative, and sample identity or
-biological replicate status has not been invented. See AUDIT.md.
+The remote baseline remains abd0b336b180df922f3c6c0e9884b8bb2856b7cf. Its CI configuration and prior fixes are preserved. These local checks cover the available Linux R runtime; they do not establish older-R or other-platform compatibility. GitHub CI results belong to the review pull request. The package website was not deployed.
 
-## Accession-directory reorganization verification
+The package check log is retained as 00check.log. Software checks establish packaging integrity, not author-level biological correctness or a legal determination about source-data licensing. Source terms and limitations are documented separately.
 
-After moving inputs and scripts into GPST000643/ and GPST000738/:
-
-- The shared build.R entry point rebuilt all ten objects successfully.
-- validate-reproduction.R confirmed assays, canonical annotations, conditions
-  and complete provenance identical to the objects before the move.
-- All 151 tests passed again (zero failures/warnings/skips).
-- README.md was regenerated from README.Rmd; relative links and git diff --check
-  passed. No excluded sources were restored and cleanup history was preserved.
-- The R CMD check result above is from the preceding data-content validation;
-  this directory-only change was verified with rebuild/content checks and tests.
-
-## Dataset documentation validation
-
-- Ten distinct dataset descriptions and experiment-specific Details were
-  generated from dataset-descriptions.json by document-data.R.
-- All ten reference pages rendered with Details, Source and a working link to
-  the shared measurement/annotation conventions. README and local site were
-  regenerated. No vignette directory is present.
-- Measurement matrices, canonical molecular annotations, colData, source tables,
-  original values, masks and counts match the preceding objects. Changes to
-  objects are restricted to explanatory zero-handling text, one processing-reason
-  label and the source-license scope wording.
-- Instruction-origin phrases were absent from README, R/Rd documentation,
-  rendered pages, build scripts, ledgers and the revised explanatory metadata.
-- Tests: 151 passed. Final R CMD check --no-manual: 0 errors, 0 warnings, 0 notes
-  (00check.log). Documentation index and cross-references passed.
-- This preceding documentation-only check was superseded by the S10C split below.
-
-## S10C partition validation
-
-- Exact source matches assign S10C rows 8–10 to O and 11–12 to N; see AUDIT.md.
-- Eleven objects are now distributed. S10C O is 3 × 15 and N is 2 × 15.
-- Compared with the saved five-row object, all 75 measurement positions,
-  canonical molecular annotations, observation columns, original values,
-  source tables, ledger records, masks and counts are conserved. The other
-  nine objects retain their scientific contents and provenance.
-- Source annotation list containers are canonicalized as plain lists for
-  comparison: S4Vectors may select different list subclasses depending on
-  loaded namespaces. This does not change annotation values.
-- All 173 tests pass without failures, warnings or skips.
-- The shared rebuild reproduced all eleven objects with identical scientific
-  contents and complete provenance; conservation checks passed again afterward.
-- Installed dataset access and validity checks passed for all eleven objects.
-- Final R CMD check --no-manual: 0 errors, 0 warnings, 0 notes (00check.log).
-- README and eleven dataset reference pages regenerated; relative links,
-  package documentation index and git diff --check passed. Approved logo hash
-  is unchanged. No commit, push or deployment was performed.
+Final local source-package check: `R CMD check --no-manual` completed with **0 errors, 0 warnings and 0 notes** (Status: OK). Full log: 00check.log. The package check reran the complete test suite against its own installation.

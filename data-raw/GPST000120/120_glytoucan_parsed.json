@@ -1,0 +1,194 @@
+[
+  {
+    "glytoucan_id": "G94435QH",
+    "wurcs": "WURCS=2.0/3,3,2/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5]/1-2-3/a3-b1_b2-c1",
+    "parsed": {
+      "structure": "Fuc(a1-2)Gal(b1-3)GalNAc(a1-",
+      "composition": "Gal(1)GalNAc(1)Fuc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G91875JA",
+    "wurcs": "WURCS=2.0/4,4,3/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5]/1-2-3-4/a3-b1_a6-c1_c4-d1",
+    "parsed": {
+      "structure": "Fuc(a1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc(a1-",
+      "composition": "Gal(1)GlcNAc(1)GalNAc(1)Fuc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G85608AG",
+    "wurcs": "WURCS=2.0/4,4,3/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-4/a3-b1_a6-d1_b3-c2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-3)[GlcNAc(b1-6)]GalNAc(a1-",
+      "composition": "Gal(1)GlcNAc(1)GalNAc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G60890ZT",
+    "wurcs": "WURCS=2.0/4,6,5/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-4-2-3/a3-b1_a6-d1_b3-c2_d4-e1_e3-f2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Neu5Ac(a2-3)Gal(b1-3)]GalNAc(a1-",
+      "composition": "Gal(2)GlcNAc(1)GalNAc(1)Neu5Ac(2)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G28052FT",
+    "wurcs": "WURCS=2.0/3,3,2/[a1122h-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5]/1-2-3/a2-b1_b4-c1",
+    "parsed": {
+      "structure": "Gal(b1-4)GlcNAc(b1-2)Man(a1-",
+      "composition": "Man(1)Gal(1)GlcNAc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G01614ZM",
+    "wurcs": "WURCS=2.0/3,4,3/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-3/a3-b1_a6-d2_b3-c2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc(a1-",
+      "composition": "Gal(1)GalNAc(1)Neu5Ac(2)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G36123IU",
+    "wurcs": "WURCS=2.0/2,2,1/[a2112h-1a_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2/a6-b2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-6)GalNAc(a1-",
+      "composition": "GalNAc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G21507RO",
+    "wurcs": "WURCS=2.0/3,3,2/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a3-b1_b6-c2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-6)Gal(b1-3)GalNAc(a1-",
+      "composition": "Gal(1)GalNAc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G59155GF",
+    "wurcs": "WURCS=2.0/5,6,5/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][a1221m-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4-2-5/a3-b1_a6-d1_b2-c1_d4-e1_e3-f2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc(a1-",
+      "composition": "Gal(2)GlcNAc(1)GalNAc(1)Fuc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G11457RF",
+    "wurcs": "WURCS=2.0/4,5,4/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-2-4/a3-b1_a6-c1_c4-d1_d3-e2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc(a1-",
+      "composition": "Gal(2)GlcNAc(1)GalNAc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G60605ZN",
+    "wurcs": "WURCS=2.0/3,3,2/[a1221m-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5]/1-2-3/a3-b1_b4-c1",
+    "parsed": {
+      "structure": "Gal(b1-4)GlcNAc(b1-3)Fuc(a1-",
+      "composition": "Gal(1)GlcNAc(1)Fuc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G64973KT",
+    "wurcs": "WURCS=2.0/3,4,3/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3-2/a3-b1_a6-c1_c4-d1",
+    "parsed": {
+      "structure": "Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc(a1-",
+      "composition": "Gal(2)GlcNAc(1)GalNAc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G01457KB",
+    "wurcs": "WURCS=2.0/4,5,4/[a2112h-1a_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-2-3-4/a3-b1_a6-c1_c4-d1_d3-e2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc(a1-",
+      "composition": "Gal(1)GlcNAc(2)GalNAc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G00031MO",
+    "wurcs": "WURCS=2.0/2,2,1/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5]/1-2/a3-b1",
+    "parsed": {
+      "structure": "Gal(b1-3)GalNAc(a1-",
+      "composition": "Gal(1)GalNAc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G00033MO",
+    "wurcs": "WURCS=2.0/3,3,2/[a2112h-1a_1-5_2*NCC/3=O][a2112h-1b_1-5][a2122h-1b_1-5_2*NCC/3=O]/1-2-3/a3-b1_a6-c1",
+    "parsed": {
+      "structure": "Gal(b1-3)[GlcNAc(b1-6)]GalNAc(a1-",
+      "composition": "Gal(1)GlcNAc(1)GalNAc(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  },
+  {
+    "glytoucan_id": "G59126YU",
+    "wurcs": "WURCS=2.0/4,4,3/[a1122h-1a_1-5][a2122h-1b_1-5_2*NCC/3=O][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3-4/a2-b1_b4-c1_c3-d2",
+    "parsed": {
+      "structure": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-",
+      "composition": "Man(1)Gal(1)GlcNAc(1)Neu5Ac(1)"
+    },
+    "error": null,
+    "warnings": [],
+    "parser_version": "0.8.1",
+    "glyrepr_version": "1.1.0"
+  }
+]

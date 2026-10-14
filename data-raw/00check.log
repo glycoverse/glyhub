@@ -1,12 +1,11 @@
-* using log directory ‘/private/tmp/glyhub-s10c-check/glyhub.Rcheck’
-* using R version 4.6.1 (2026-06-24)
-* using platform: aarch64-apple-darwin23
+* using log directory ‘/workspace/shared/glyhub-followup/check/glyhub.Rcheck’
+* using R version 4.5.0 (2025-04-11)
+* using platform: x86_64-pc-linux-gnu
 * R was compiled by
-    Apple clang version 17.0.0 (clang-1700.3.19.1)
-    GNU Fortran (GCC) 14.2.0
-* running under: macOS Tahoe 26.5.2
+    gcc (Debian 14.2.0-19) 14.2.0
+    GNU Fortran (Debian 14.2.0-19) 14.2.0
+* running under: Debian GNU/Linux 13 (trixie)
 * using session charset: UTF-8
-* current time: 2026-10-14 06:04:55 UTC
 * using option ‘--no-manual’
 * checking for file ‘glyhub/DESCRIPTION’ ... OK
 * this is package ‘glyhub’ version ‘0.0.0.9000’

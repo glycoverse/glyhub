@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "test": "Copied only three scripts and two required extraction input files into a new directory; ran from an unrelated working directory; source and glyrepr validation passed; regenerated matrix-specs.json is byte-identical.",
+  "extraction_inputs": [
+    "41467_2026_70850_MOESM3_ESM.xlsx",
+    "source-peaklist-mapping.json"
+  ],
+  "source_validator_inputs": [
+    "41467_2026_70850_MOESM3_ESM.xlsx",
+    "matrix-specs.json",
+    "retained-peak-ledger.json",
+    "removed-row-ledger.json",
+    "source-mass-annotation-anomalies.json"
+  ],
+  "typed_validator_inputs": [
+    "matrix-specs.json"
+  ],
+  "dependencies": [
+    "Python with openpyxl",
+    "R with jsonlite and glyrepr"
+  ]
+}

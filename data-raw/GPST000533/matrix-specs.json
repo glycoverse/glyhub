@@ -1,0 +1,3688 @@
+[
+  {
+    "name": "glyhub_GPST000533_N_Released",
+    "accession": "GPST000533",
+    "doi": "10.1038/s41467-025-56524-3",
+    "title": "Desialylated haptoglobin released N-glycans in sepsis serum",
+    "description": "Haptoglobin purified from healthy-control and sepsis serum was analyzed by LC-ESI MS after desialylation. The complete source feature matrix contains three HC0, three SG1 and three SG2 observations.",
+    "details": "PNGase F-released glycans were labeled with aminoxy tandem mass tag (aTMT6); distinct core- and Lewis-fucosylated chromatographic labels remain separate. Source intensity is the assay; author percentages are preserved separately. No normalization, replicate pooling or composition-from-mass reconstruction is applied. Antennarity and fucosylation labels are mapped to the explicit source SNFG residue counts.",
+    "unit": "LC-MS extracted-ion peak intensity",
+    "glycan_type": "N",
+    "object_class": "GlycomicSE",
+    "source_file": "data-raw/GPST000533/Result file of 231208_Hpt_aTMT6glycans for Fig and GlycoPOST.xlsx",
+    "source_url": "https://glycopost.glycosmos.org/data/GPST000533.0/Result%20file%20of%20231208_Hpt_aTMT6glycans%20for%20Fig%20and%20GlycoPOST.xlsx",
+    "sheet": "results of 231208_Hpt_glycans",
+    "row_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "column_indices": [
+      4,
+      7,
+      10,
+      13,
+      16,
+      19,
+      22,
+      25,
+      28
+    ],
+    "raw_matrix": [
+      [
+        333000,
+        856000,
+        205000,
+        540000,
+        1260000,
+        77500,
+        341000,
+        737000,
+        122000
+      ],
+      [
+        2060,
+        6680,
+        1060,
+        8190,
+        40500,
+        1440,
+        9753,
+        18000,
+        3870
+      ],
+      [
+        19500,
+        77400,
+        18300,
+        51800,
+        190000,
+        5650,
+        67300,
+        47600,
+        7960
+      ],
+      [
+        51400,
+        128000,
+        31300,
+        86300,
+        193000,
+        9950,
+        30000,
+        70200,
+        13300
+      ],
+      [
+        14700,
+        63100,
+        8260,
+        65700,
+        299000,
+        10200,
+        41700,
+        75900,
+        28100
+      ],
+      [
+        9550,
+        40300,
+        6610,
+        21300,
+        127000,
+        1830,
+        10800,
+        17500,
+        5420
+      ],
+      [
+        473,
+        1680,
+        0,
+        2370,
+        16900,
+        889,
+        3260,
+        3250,
+        1720
+      ],
+      [
+        600,
+        5990,
+        1240,
+        6040,
+        48700,
+        845,
+        4980,
+        4710,
+        2300
+      ],
+      [
+        14400,
+        5930,
+        6130,
+        16700,
+        83200,
+        3160,
+        6480,
+        23100,
+        5280
+      ],
+      [
+        2030,
+        4810,
+        1240,
+        9460,
+        69800,
+        1860,
+        4750,
+        18800,
+        4770
+      ],
+      [
+        1320,
+        0,
+        1070,
+        2140,
+        16800,
+        607,
+        1300,
+        1990,
+        1540
+      ],
+      [
+        0,
+        0,
+        0,
+        1360,
+        19700,
+        0,
+        1630,
+        4510,
+        1420
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5610,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "feature_ids": [
+      "Released_r13",
+      "Released_r14",
+      "Released_r15",
+      "Released_r16",
+      "Released_r17",
+      "Released_r18",
+      "Released_r19",
+      "Released_r20",
+      "Released_r21",
+      "Released_r22",
+      "Released_r23",
+      "Released_r24",
+      "Released_r25"
+    ],
+    "sample_ids": [
+      "HC0_1",
+      "HC0_2",
+      "HC0_3",
+      "SG1_1",
+      "SG1_2",
+      "SG1_3",
+      "SG2_1",
+      "SG2_2",
+      "SG2_3"
+    ],
+    "composition": [
+      "H5N4",
+      "H5N4F1",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F1",
+      "H6N5F2",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F2"
+    ],
+    "row_annotations": [
+      {
+        "source_glycan_label": "2-0",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          49.77,
+          49.75,
+          49.83,
+          49.73,
+          49.74,
+          49.81,
+          49.7,
+          49.78,
+          49.76
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "2-F (L)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          48.75,
+          48.57,
+          48.77,
+          48.68,
+          48.62,
+          48.78,
+          48.58,
+          48.74,
+          48.65
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "2-F (C)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          51.49,
+          51.53,
+          51.61,
+          51.51,
+          51.55,
+          51.51,
+          51.5,
+          51.49,
+          51.59
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "3-0",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          50.48,
+          50.42,
+          50.62,
+          50.49,
+          50.53,
+          50.5,
+          50.47,
+          50.49,
+          50.51
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "3-F (L)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          49.3,
+          49.23,
+          49.38,
+          49.21,
+          49.23,
+          49.29,
+          49.22,
+          49.22,
+          49.25
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "3-F (C)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          52.12,
+          52.15,
+          52.22,
+          52.11,
+          52.15,
+          52.04,
+          52.07,
+          52.08,
+          52.17
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "3-FF (LL)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          48.12,
+          48.07,
+          "-",
+          48.06,
+          48.1,
+          48.13,
+          48.07,
+          48.06,
+          48.15
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "3-FF (CL or LL)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          51.08,
+          51.03,
+          51.25,
+          51.07,
+          51.1,
+          50.99,
+          51.05,
+          51.05,
+          51.1
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "4-0",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          49.39,
+          49.32,
+          49.47,
+          49.34,
+          49.36,
+          49.36,
+          49.28,
+          49.35,
+          49.25
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "4-F (L)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          48.13,
+          48.07,
+          48.21,
+          48.11,
+          48.1,
+          48.13,
+          48.13,
+          48.19,
+          48.13
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "4-F (C)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          50.89,
+          50.98,
+          50.95,
+          50.91,
+          51,
+          50.95,
+          50.84,
+          50.94,
+          50.89
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "4-FF (LL)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          "-",
+          "-",
+          "-",
+          46.83,
+          46.69,
+          "-",
+          46.72,
+          46.86,
+          46.85
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "4-FF (CL or LL)",
+        "protein": null,
+        "protein_site": null,
+        "source_site": null,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          "-",
+          "-",
+          "-",
+          "-",
+          49.92,
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      }
+    ],
+    "col_data": {
+      "source_group": [
+        "HC0",
+        "HC0",
+        "HC0",
+        "SG1",
+        "SG1",
+        "SG1",
+        "SG2",
+        "SG2",
+        "SG2"
+      ],
+      "source_sample_number": [
+        "1",
+        "2",
+        "3",
+        "1",
+        "2",
+        "3",
+        "1",
+        "2",
+        "3"
+      ],
+      "condition": [
+        "healthy control",
+        "healthy control",
+        "healthy control",
+        "sepsis",
+        "sepsis",
+        "sepsis",
+        "sepsis",
+        "sepsis",
+        "sepsis"
+      ],
+      "replicate_type": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "published_relative_matrix": [
+      [
+        74.15936022519503,
+        71.93942297187135,
+        73.15941615217159,
+        66.55492013409584,
+        53.15984659587125,
+        68.02362833644925,
+        65.20662468711336,
+        72.07401032702238,
+        61.71590449210845
+      ],
+      [
+        0.4587636098015068,
+        0.5613964316029213,
+        0.3782877127868384,
+        1.0094162887004536,
+        1.7087093548672903,
+        1.263922900703057,
+        1.864985954760753,
+        1.7602879048662181,
+        1.9577094293808175
+      ],
+      [
+        4.342665238412321,
+        6.504802964979955,
+        6.530816173584098,
+        6.384342338789193,
+        8.016167343821856,
+        4.9591419367863,
+        12.869225341474284,
+        4.6549835706462215,
+        4.026709834075273
+      ],
+      [
+        11.446820166891966,
+        10.757296892990107,
+        11.170193783234003,
+        10.636462236245317,
+        8.142738407145359,
+        8.733356154163484,
+        5.736653198279769,
+        6.865122828978251,
+        6.7280453257790365
+      ],
+      [
+        3.2737014874185193,
+        5.303011202716217,
+        2.9477891581314015,
+        8.09751528298166,
+        12.61491597790913,
+        8.952787213313322,
+        7.973947945608879,
+        7.422547332185886,
+        14.214892755969244
+      ],
+      [
+        2.1267924629147523,
+        3.3868676936523547,
+        2.358945076906606,
+        2.6252218497337805,
+        5.358175014028292,
+        1.6062353529768019,
+        2.065195151380717,
+        1.7113910186199344,
+        2.7418049372723594
+      ],
+      [
+        0.10533746962918093,
+        0.14118952172049518,
+        0,
+        0.29210214947742064,
+        0.7130169900557335,
+        0.780296846336818,
+        0.6233829808797349,
+        0.31782976060084495,
+        0.8700930797248078
+      ],
+      [
+        0.13362046887422527,
+        0.5034078780391466,
+        0.44252524892045253,
+        0.744429106685072,
+        2.054670261284865,
+        0.7416769799264468,
+        0.9522844309144416,
+        0.46060866843999376,
+        1.1634965600971265
+      ],
+      [
+        3.2068912529814066,
+        0.4983653951205574,
+        2.1876449805503015,
+        2.058272530072964,
+        3.510237489505149,
+        2.773608587653931,
+        1.23911709082843,
+        2.2590361445783134,
+        2.670983407527317
+      ],
+      [
+        0.4520825863577956,
+        0.4042390473068939,
+        0.44252524892045253,
+        1.165943600867679,
+        2.944886739993503,
+        1.6325670800747822,
+        0.9083034230609635,
+        1.8385229228602724,
+        2.412990692027519
+      ],
+      [
+        0.2939650315232956,
+        0,
+        0.38185646479426144,
+        0.2637546834943798,
+        0.7087979546116167,
+        0.5327786116158025,
+        0.24858830525878997,
+        0.19460960726020968,
+        0.7790368271954674
+      ],
+      [
+        0,
+        0,
+        0,
+        0.16761979885624137,
+        0.8311499824910029,
+        0,
+        0.31169149043986744,
+        0.4410499139414802,
+        0.7183326588425739
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0.23668788841495056,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "relative_unit": "percent within source glycan/site panel",
+    "license": {
+      "name": "GlycoPOST submitted-data terms",
+      "url": "https://glycopost.glycosmos.org/terms",
+      "article_license": "CC BY-NC-ND 4.0; not assigned automatically to repository table",
+      "repository_terms_url": "https://glycopost.glycosmos.org/terms",
+      "repository_scope": "GlycoPOST states no use or redistribution restrictions for deposited data; website CC0 notice excludes user-submitted data."
+    },
+    "features": 13,
+    "observations": 9,
+    "table": "results of 231208_Hpt_glycans",
+    "annotation": "Compositions are transcribed from the source SNFG residue counts in Supplementary Figures 1d/e and 2a, linked by author glycan labels. Unfucosylated and explicitly core-fucosylated topology is encoded with unspecified glycosidic linkages left unknown; ambiguous terminal-fucose attachment retains diagram evidence without an invented topology.",
+    "structure_iupac": [
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(a1-6)]GlcNAc(?1-",
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(a1-6)]GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(a1-6)]GlcNAc(?1-",
+      null,
+      null
+    ],
+    "annotation_source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-56524-3/MediaObjects/41467_2025_56524_MOESM1_ESM.pdf",
+    "source_files": [
+      "data-raw/GPST000533/supplement.pdf"
+    ],
+    "source_glycan_type": "N",
+    "source_md5": "99582fb502e6037cac966718a435e55d"
+  },
+  {
+    "name": "glyhub_GPST000533_N_Glycopeptides",
+    "accession": "GPST000533",
+    "doi": "10.1038/s41467-025-56524-3",
+    "title": "Desialylated haptoglobin glycopeptides in sepsis serum",
+    "description": "Haptoglobin purified from healthy-control and sepsis serum was analyzed by LC-ESI MS after desialylation. The complete six-panel source table contains three HC0, three SG1 and three SG2 observations.",
+    "details": "The source protein is UniProt P00738. All six quantitative panels in the selected author sheet are retained: Site 3 (3+), Site 4 (4+ and 3+), Site 2 (3+ and 2+), and oxidized Site 1 (3+). Charge states are distinct features, not independent samples, and are not summed. All panels have matching sample and raw-data identifiers. Source Site 1 binding position 84 conflicts with the listed peptide interval 179-194, so typed protein_site is NA for that panel. Other site positions are retained directly. Source intensity is the assay; author percentages are preserved separately. No normalization, replicate pooling or composition-from-mass reconstruction is applied. Antennarity and fucosylation labels are source annotations. Compositions are transcribed from explicit SNFG residue counts in Supplementary Figures 1d/e and 2a, linked through author glycan labels. Unknown linkages and ambiguous fucose attachment are not inferred.",
+    "unit": "LC-MS extracted-ion peak intensity",
+    "glycan_type": "N",
+    "object_class": "GlycoproteomicSE",
+    "source_file": "data-raw/GPST000533/Result file of 231111_Hpt_glycopeptides for Fig and GlycoPOST.xlsx",
+    "source_url": "https://glycopost.glycosmos.org/data/GPST000533.0/Result%20file%20of%20231111_Hpt_glycopeptides%20for%20Fig%20and%20GlycoPOST.xlsx",
+    "sheet": "results of 231111_Hpt",
+    "row_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "column_indices": [
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "raw_matrix": [
+      [
+        857000,
+        1050000,
+        965000,
+        1210000,
+        437000,
+        799000,
+        774000,
+        1200000,
+        536000
+      ],
+      [
+        51100,
+        118000,
+        91800,
+        153000,
+        110000,
+        73400,
+        120000,
+        106000,
+        92600
+      ],
+      [
+        1290000,
+        1550000,
+        1670000,
+        1880000,
+        663000,
+        954000,
+        590000,
+        937000,
+        683000
+      ],
+      [
+        260000,
+        412000,
+        271000,
+        1010000,
+        633000,
+        654000,
+        487000,
+        631000,
+        807000
+      ],
+      [
+        10500,
+        39500,
+        22800,
+        95800,
+        122000,
+        70900,
+        54300,
+        56500,
+        96900
+      ],
+      [
+        375000,
+        390000,
+        359000,
+        482000,
+        374000,
+        311000,
+        169000,
+        355000,
+        275000
+      ],
+      [
+        40600,
+        53700,
+        34300,
+        161000,
+        232000,
+        142000,
+        102000,
+        218000,
+        199000
+      ],
+      [
+        0,
+        0,
+        0,
+        16000,
+        53800,
+        23200,
+        33000,
+        47900,
+        69000
+      ],
+      [
+        0,
+        0,
+        0,
+        1753,
+        18000,
+        6070,
+        9370,
+        16800,
+        14500
+      ],
+      [
+        795000,
+        738000,
+        698000,
+        1160000,
+        569000,
+        803000,
+        498000,
+        920000,
+        623000
+      ],
+      [
+        14700,
+        14000,
+        5650,
+        20100,
+        15800,
+        36600,
+        20700,
+        31900,
+        24300
+      ],
+      [
+        390000,
+        267000,
+        293000,
+        431000,
+        277000,
+        395000,
+        128000,
+        376000,
+        263000
+      ],
+      [
+        10000,
+        25400,
+        17000,
+        84400,
+        94500,
+        73900,
+        58900,
+        89200,
+        110000
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        9770,
+        9180,
+        5140,
+        11600,
+        10700
+      ],
+      [
+        47500,
+        51600,
+        34100,
+        92200,
+        75300,
+        67100,
+        15600,
+        50800,
+        54500
+      ],
+      [
+        4000,
+        7620,
+        3720,
+        23900,
+        57800,
+        29100,
+        16000,
+        38200,
+        55600
+      ],
+      [
+        0,
+        0,
+        0,
+        6310,
+        15800,
+        10800,
+        6820,
+        13100,
+        16100
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3110,
+        3030,
+        2240,
+        0,
+        4290
+      ],
+      [
+        5080000,
+        5370000,
+        5340000,
+        7510000,
+        3980000,
+        5350000,
+        3940000,
+        6810000,
+        4560000
+      ],
+      [
+        53600,
+        71500,
+        40800,
+        257000,
+        167000,
+        225000,
+        161000,
+        325000,
+        259000
+      ],
+      [
+        1580000,
+        1480000,
+        1430000,
+        2090000,
+        1320000,
+        1780000,
+        703000,
+        2180000,
+        1290000
+      ],
+      [
+        99700,
+        156000,
+        87700,
+        467000,
+        699000,
+        529000,
+        397000,
+        702000,
+        887000
+      ],
+      [
+        0,
+        0,
+        0,
+        21200,
+        50000,
+        30000,
+        37300,
+        62000,
+        72100
+      ],
+      [
+        296000,
+        264000,
+        237000,
+        488000,
+        388000,
+        402000,
+        82900,
+        322000,
+        323000
+      ],
+      [
+        18100,
+        35600,
+        17400,
+        130000,
+        332000,
+        145000,
+        101000,
+        220000,
+        286000
+      ],
+      [
+        2510,
+        3890,
+        3590,
+        15500,
+        89500,
+        25300,
+        38900,
+        50800,
+        87000
+      ],
+      [
+        0,
+        0,
+        0,
+        2630,
+        17000,
+        9640,
+        6580,
+        9640,
+        14600
+      ],
+      [
+        1270000,
+        1440000,
+        1390000,
+        1960000,
+        1000000,
+        1100000,
+        1130000,
+        2190000,
+        1160000
+      ],
+      [
+        34200,
+        52600,
+        31400,
+        174000,
+        117000,
+        107000,
+        187000,
+        244000,
+        208000
+      ],
+      [
+        916000,
+        1110000,
+        1300000,
+        1460000,
+        695000,
+        726000,
+        401000,
+        873000,
+        602000
+      ],
+      [
+        117000,
+        198000,
+        117000,
+        531000,
+        611000,
+        438000,
+        468000,
+        469000,
+        686000
+      ],
+      [
+        0,
+        0,
+        0,
+        40400,
+        68800,
+        44800,
+        42500,
+        31800,
+        111000
+      ],
+      [
+        83400,
+        92800,
+        96200,
+        198000,
+        148000,
+        90500,
+        38900,
+        103000,
+        148000
+      ],
+      [
+        9900,
+        14700,
+        12200,
+        74800,
+        136000,
+        61300,
+        57800,
+        93700,
+        143000
+      ],
+      [
+        0,
+        0,
+        0,
+        11300,
+        31600,
+        11900,
+        11400,
+        25500,
+        36200
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4830,
+        0,
+        2920,
+        0,
+        6350
+      ],
+      [
+        2670000,
+        3410000,
+        3210000,
+        3730000,
+        2340000,
+        2850000,
+        2520000,
+        3960000,
+        2770000
+      ],
+      [
+        51000,
+        90600,
+        50400,
+        261000,
+        200000,
+        186000,
+        345000,
+        364000,
+        365000
+      ],
+      [
+        607000,
+        638000,
+        705000,
+        704000,
+        472000,
+        516000,
+        271000,
+        489000,
+        430000
+      ],
+      [
+        60700,
+        113000,
+        67900,
+        326000,
+        306000,
+        254000,
+        218000,
+        233000,
+        399000
+      ],
+      [
+        0,
+        0,
+        0,
+        20500,
+        39700,
+        24900,
+        30400,
+        28200,
+        52900
+      ],
+      [
+        32400,
+        38300,
+        31300,
+        47800,
+        46800,
+        40100,
+        14000,
+        28100,
+        33500
+      ],
+      [
+        2560,
+        5570,
+        2890,
+        29100,
+        41800,
+        23100,
+        14700,
+        21400,
+        41600
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10800,
+        4100,
+        5430,
+        8540,
+        11400
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4190000,
+        3960000,
+        3640000,
+        4540000,
+        3370000,
+        3930000,
+        3430000,
+        5420000,
+        3940000
+      ],
+      [
+        106000,
+        157000,
+        133000,
+        328000,
+        376000,
+        174000,
+        260000,
+        312000,
+        396000
+      ],
+      [
+        788000,
+        745000,
+        826000,
+        1170000,
+        697000,
+        639000,
+        338000,
+        694000,
+        632000
+      ],
+      [
+        74500,
+        95000,
+        65000,
+        380000,
+        606000,
+        227000,
+        247000,
+        410000,
+        563000
+      ],
+      [
+        2260,
+        4490,
+        4160,
+        10000,
+        46700,
+        12100,
+        11200,
+        14100,
+        37400
+      ],
+      [
+        22300,
+        18900,
+        16800,
+        30400,
+        39900,
+        23600,
+        5980,
+        32400,
+        18200
+      ],
+      [
+        0,
+        0,
+        0,
+        7350,
+        27900,
+        6820,
+        6610,
+        15100,
+        25100
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "feature_ids": [
+      "Glycopeptides_r34",
+      "Glycopeptides_r35",
+      "Glycopeptides_r36",
+      "Glycopeptides_r37",
+      "Glycopeptides_r38",
+      "Glycopeptides_r39",
+      "Glycopeptides_r40",
+      "Glycopeptides_r41",
+      "Glycopeptides_r42",
+      "Glycopeptides_r53",
+      "Glycopeptides_r54",
+      "Glycopeptides_r55",
+      "Glycopeptides_r56",
+      "Glycopeptides_r57",
+      "Glycopeptides_r58",
+      "Glycopeptides_r59",
+      "Glycopeptides_r60",
+      "Glycopeptides_r61",
+      "Glycopeptides_r72",
+      "Glycopeptides_r73",
+      "Glycopeptides_r74",
+      "Glycopeptides_r75",
+      "Glycopeptides_r76",
+      "Glycopeptides_r77",
+      "Glycopeptides_r78",
+      "Glycopeptides_r79",
+      "Glycopeptides_r80",
+      "Glycopeptides_r91",
+      "Glycopeptides_r92",
+      "Glycopeptides_r93",
+      "Glycopeptides_r94",
+      "Glycopeptides_r95",
+      "Glycopeptides_r96",
+      "Glycopeptides_r97",
+      "Glycopeptides_r98",
+      "Glycopeptides_r99",
+      "Glycopeptides_r110",
+      "Glycopeptides_r111",
+      "Glycopeptides_r112",
+      "Glycopeptides_r113",
+      "Glycopeptides_r114",
+      "Glycopeptides_r115",
+      "Glycopeptides_r116",
+      "Glycopeptides_r117",
+      "Glycopeptides_r118",
+      "Glycopeptides_r129",
+      "Glycopeptides_r130",
+      "Glycopeptides_r131",
+      "Glycopeptides_r132",
+      "Glycopeptides_r133",
+      "Glycopeptides_r134",
+      "Glycopeptides_r135",
+      "Glycopeptides_r136",
+      "Glycopeptides_r137"
+    ],
+    "sample_ids": [
+      "HC0_1",
+      "HC0_2",
+      "HC0_3",
+      "SG1_1",
+      "SG1_2",
+      "SG1_3",
+      "SG2_1",
+      "SG2_2",
+      "SG2_3"
+    ],
+    "composition": [
+      "H5N4",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F3",
+      "H5N4",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F3",
+      "H5N4",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F3",
+      "H5N4",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F3",
+      "H5N4",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F3",
+      "H5N4",
+      "H5N4F1",
+      "H6N5",
+      "H6N5F1",
+      "H6N5F2",
+      "H7N6",
+      "H7N6F1",
+      "H7N6F2",
+      "H7N6F3"
+    ],
+    "row_annotations": [
+      {
+        "source_glycan_label": "+2-0",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.78,
+          2.81,
+          2.8,
+          2.8,
+          2.8,
+          2.82,
+          2.77,
+          2.81,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-F",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.81,
+          2.84,
+          2.8,
+          2.8,
+          2.8,
+          2.82,
+          2.77,
+          2.84,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-0",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.84,
+          2.84,
+          2.83,
+          2.83,
+          2.83,
+          2.85,
+          2.83,
+          2.84,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-F",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.84,
+          2.87,
+          2.89,
+          2.83,
+          2.83,
+          2.85,
+          2.83,
+          2.81,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-FF",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.84,
+          2.87,
+          2.92,
+          2.89,
+          2.86,
+          2.85,
+          2.86,
+          2.84,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-0",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.78,
+          2.78,
+          2.78,
+          2.8,
+          2.8,
+          2.79,
+          2.8,
+          2.75,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-F",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          2.78,
+          2.81,
+          2.8,
+          2.8,
+          2.77,
+          2.76,
+          2.83,
+          2.75,
+          2.86
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FF",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          2.77,
+          2.83,
+          2.79,
+          2.77,
+          2.75,
+          2.83
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FFF",
+        "protein": "P00738",
+        "protein_site": 211,
+        "source_site": "Site 3",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          2.68,
+          2.74,
+          2.85,
+          2.71,
+          2.72,
+          2.77
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 3
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-0",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.76,
+          38.52,
+          38.66,
+          38.47,
+          38.62,
+          38.49,
+          38.72,
+          38.71,
+          39.12
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-F",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.67,
+          38.44,
+          38.57,
+          38.32,
+          38.47,
+          38.35,
+          38.66,
+          38.53,
+          39.03
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-0",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.53,
+          38.38,
+          38.48,
+          38.29,
+          38.35,
+          38.29,
+          38.57,
+          38.44,
+          38.91
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-F",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.44,
+          38.29,
+          38.37,
+          38.2,
+          38.24,
+          38.23,
+          38.45,
+          38.42,
+          38.83
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-FF",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          38.24,
+          38.2,
+          38.33,
+          38.44,
+          38.88
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-0",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.35,
+          38.23,
+          38.34,
+          38.11,
+          38.18,
+          38.09,
+          38.39,
+          38.33,
+          38.7
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-F",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.26,
+          38.05,
+          38.28,
+          38.06,
+          38.06,
+          37.99,
+          38.33,
+          38.21,
+          38.73
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FF",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          38.23,
+          38.03,
+          37.94,
+          38.3,
+          38.18,
+          38.55
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FFF",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+4H]4+",
+        "charge": 4,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          38.03,
+          37.99,
+          38.24,
+          null,
+          38.61
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 3
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-0",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.76,
+          38.58,
+          38.69,
+          38.47,
+          38.59,
+          38.52,
+          38.75,
+          38.71,
+          39.15
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-F",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.61,
+          38.41,
+          38.51,
+          38.53,
+          38.44,
+          38.35,
+          38.63,
+          38.53,
+          39.03
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-0",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.53,
+          38.35,
+          38.48,
+          38.29,
+          38.38,
+          38.29,
+          38.54,
+          38.44,
+          38.91
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-F",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.44,
+          38.29,
+          38.37,
+          38.17,
+          38.27,
+          38.2,
+          38.45,
+          38.39,
+          38.83
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-FF",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          38.08,
+          38.21,
+          38.2,
+          38.48,
+          38.33,
+          38.83
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-0",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.38,
+          38.17,
+          38.31,
+          38.08,
+          38.15,
+          38.11,
+          38.36,
+          38.3,
+          38.73
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-F",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.35,
+          38.11,
+          38.15,
+          38.06,
+          38.09,
+          37.99,
+          38.27,
+          38.21,
+          38.64
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FF",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          38.26,
+          38.08,
+          38.37,
+          37.94,
+          38,
+          37.94,
+          38.21,
+          38.15,
+          38.59
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FFF",
+        "protein": "P00738",
+        "protein_site": 241,
+        "source_site": "Site 4",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          38,
+          38,
+          37.87,
+          38.14,
+          38.15,
+          38.61
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 3
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-0",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          40.54,
+          40.23,
+          40.47,
+          40.06,
+          40.27,
+          40.16,
+          40.38,
+          40.22,
+          40.71
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-F",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.98,
+          40.08,
+          40,
+          39.86,
+          40.09,
+          40.01,
+          40.23,
+          40.06,
+          40.44
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-0",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          40.12,
+          39.82,
+          40.03,
+          39.66,
+          39.85,
+          39.83,
+          40.02,
+          39.9,
+          40.23
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-F",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.89,
+          39.61,
+          39.85,
+          39.46,
+          39.59,
+          39.54,
+          39.72,
+          39.68,
+          39.97
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-FF",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          39.34,
+          39.41,
+          39.3,
+          39.57,
+          39.56,
+          39.82
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-0",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.72,
+          39.47,
+          39.68,
+          39.31,
+          39.41,
+          39.36,
+          39.6,
+          39.53,
+          39.88
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-F",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.5,
+          39.29,
+          39.46,
+          39.13,
+          39.26,
+          39.21,
+          39.36,
+          39.41,
+          39.66
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FF",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          39.13,
+          39.14,
+          39.06,
+          39.33,
+          39.23,
+          39.54
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FFF",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+3H]3+",
+        "charge": 3,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          39.08,
+          null,
+          39.14,
+          null,
+          39.39
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 3
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-0",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          40.51,
+          40.23,
+          40.47,
+          40.09,
+          40.34,
+          40.19,
+          40.38,
+          40.22,
+          40.68
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-F",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          40.3,
+          39.99,
+          40.26,
+          39.86,
+          40.09,
+          40.01,
+          40.17,
+          40.06,
+          40.44
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-0",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          40.06,
+          39.87,
+          40.05,
+          39.6,
+          39.85,
+          39.8,
+          40.02,
+          39.87,
+          40.29
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-F",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.89,
+          39.58,
+          39.79,
+          39.4,
+          39.62,
+          39.51,
+          39.75,
+          39.68,
+          40
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-FF",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          39.25,
+          39.41,
+          39.33,
+          39.57,
+          39.53,
+          39.79
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-0",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.77,
+          39.56,
+          39.68,
+          39.31,
+          39.44,
+          39.39,
+          39.6,
+          39.62,
+          39.88
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-F",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          39.44,
+          39.32,
+          39.49,
+          39.1,
+          39.2,
+          39.18,
+          39.42,
+          39.32,
+          39.69
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FF",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          39.11,
+          39,
+          39.24,
+          39.26,
+          39.57
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FFF",
+        "protein": "P00738",
+        "protein_site": 207,
+        "source_site": "Site 2",
+        "source_charge_state": "[M+2H]2+",
+        "charge": 2,
+        "site_annotation_conflict": false,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 3
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-0",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          40.01,
+          39.7,
+          39.94,
+          39.72,
+          39.73,
+          39.62,
+          39.84,
+          39.68,
+          40.17
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+2-F",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          39.8,
+          39.53,
+          39.73,
+          39.4,
+          39.56,
+          39.45,
+          39.67,
+          39.47,
+          40
+        ],
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-0",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          39.72,
+          39.47,
+          39.68,
+          39.34,
+          39.47,
+          39.39,
+          39.57,
+          39.41,
+          39.91
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-F",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          39.69,
+          39.38,
+          39.58,
+          39.22,
+          39.32,
+          39.24,
+          39.51,
+          39.35,
+          39.82
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+3-FF",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          39.53,
+          39.38,
+          39.73,
+          39.1,
+          39.29,
+          39.21,
+          39.39,
+          39.32,
+          39.73
+        ],
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 5,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-0",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          39.5,
+          39.26,
+          39.43,
+          39.22,
+          39.17,
+          39.18,
+          39.48,
+          39.32,
+          39.76
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 0
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-F",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          39.1,
+          39.17,
+          39.09,
+          39.3,
+          39.26,
+          39.63
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FF",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 2
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      },
+      {
+        "source_glycan_label": "+4-FFF",
+        "protein": "P00738",
+        "protein_site": null,
+        "source_site": "Site 1",
+        "source_charge_state": "[M+3H]3+,  Oxidation (M)",
+        "charge": 3,
+        "site_annotation_conflict": true,
+        "source_retention_time": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 6,
+          "Fuc": 3
+        },
+        "composition_evidence": "Supplementary Figure 1d/e (released glycans) and Figure 2a (glycopeptides): explicit SNFG residue counts linked to 2/3/4-0/F labels."
+      }
+    ],
+    "col_data": {
+      "source_group": [
+        "HC0",
+        "HC0",
+        "HC0",
+        "SG1",
+        "SG1",
+        "SG1",
+        "SG2",
+        "SG2",
+        "SG2"
+      ],
+      "source_sample_number": [
+        "1",
+        "2",
+        "3",
+        "1",
+        "2",
+        "3",
+        "1",
+        "2",
+        "3"
+      ],
+      "condition": [
+        "healthy control",
+        "healthy control",
+        "healthy control",
+        "sepsis",
+        "sepsis",
+        "sepsis",
+        "sepsis",
+        "sepsis",
+        "sepsis"
+      ],
+      "replicate_type": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "published_relative_matrix": [
+      [
+        29.713612093474794,
+        29.060112919295918,
+        28.26679164591816,
+        24.15385165103553,
+        16.53549265930074,
+        26.338604350649565,
+        33.0957339000372,
+        33.63040188330251,
+        19.329246303642265
+      ],
+      [
+        1.7717217946050898,
+        3.265803166168493,
+        2.689006707870764,
+        3.054164712899534,
+        4.16225215680339,
+        2.419591438470185,
+        5.1311215348894885,
+        2.9706854996917214,
+        3.3393436711143165
+      ],
+      [
+        44.72644060744747,
+        42.898261928484445,
+        48.91766015407598,
+        37.52829843301389,
+        25.08702890873316,
+        31.448095807909493,
+        25.228014213206652,
+        26.259738803878708,
+        24.630364226469528
+      ],
+      [
+        9.01463144026073,
+        11.402634783571349,
+        7.938135270511731,
+        20.16147947731065,
+        23.951869229604963,
+        21.55875750353544,
+        20.823801562426507,
+        17.683986323636567,
+        29.1020555355211
+      ],
+      [
+        0.36405242354899103,
+        1.0932137717258938,
+        0.6678578751574447,
+        1.9123462712142183,
+        4.616316028454669,
+        2.337180285933735,
+        2.3218324945374937,
+        1.583431422005493,
+        3.4944103858636852
+      ],
+      [
+        13.001872269606823,
+        10.793756227167055,
+        10.51583233252292,
+        9.621616938676963,
+        14.151657333131526,
+        10.251947375534435,
+        7.226329494969363,
+        9.948993890476991,
+        9.91705733862243
+      ],
+      [
+        1.4076693710560988,
+        1.4862172035868482,
+        1.0047160139429978,
+        3.2138595998485293,
+        8.77856818525806,
+        4.680953464070385,
+        4.361453304656066,
+        6.109523008799956,
+        7.17634331049405
+      ],
+      [
+        0,
+        0,
+        0,
+        0.3193897738979905,
+        2.0357196912365674,
+        0.7647754955382602,
+        1.4110584220946094,
+        1.342413541841825,
+        2.4882798413270826
+      ],
+      [
+        0,
+        0,
+        0,
+        0.034993142102698584,
+        0.6810958074769184,
+        0.20009427835850171,
+        0.40065507318262095,
+        0.4708256263662351,
+        0.5228993869455464
+      ],
+      [
+        63.03520456707897,
+        66.87084322502311,
+        66.38325392070149,
+        63.80953952615916,
+        50.89081282198053,
+        56.24391508079371,
+        66.27628426936386,
+        60.09929448654299,
+        53.63799946620289
+      ],
+      [
+        1.165556612749762,
+        1.2685525815045033,
+        0.5373429579541024,
+        1.1056652969618959,
+        1.4131368059530625,
+        2.5635458181283313,
+        2.7548575991482567,
+        2.083877711000784,
+        2.092140268103901
+      ],
+      [
+        30.922930542340627,
+        24.193109947264457,
+        27.865749854964957,
+        23.708544427391896,
+        24.774613623354323,
+        27.666683009854943,
+        17.03486824594091,
+        24.562320355369742,
+        22.643328827626583
+      ],
+      [
+        0.7928956549318109,
+        2.3015168264438848,
+        1.61678412127783,
+        4.642694082765374,
+        8.451989124212936,
+        5.176121201084253,
+        7.838701091296247,
+        5.827018552390906,
+        9.47059380623165
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0.8738194046937607,
+        0.6429877215961224,
+        0.6840564280010647,
+        0.7577737130911941,
+        0.9212304884243514
+      ],
+      [
+        3.7662543609261023,
+        4.675522371830884,
+        3.2430787373867065,
+        5.071758227855065,
+        6.734759587864911,
+        4.699833999901941,
+        2.0761245674740483,
+        3.318526260778678,
+        4.692248749451136
+      ],
+      [
+        0.3171582619727244,
+        0.6904550479331654,
+        0.3537904077149134,
+        1.3146965471337966,
+        5.169576416714367,
+        2.038229052118427,
+        2.1293585307426137,
+        2.4954272275934155,
+        4.786954687513453
+      ],
+      [
+        0,
+        0,
+        0,
+        0.3471018917328141,
+        1.4131368059530625,
+        0.7564561430542617,
+        0.9076390737290392,
+        0.8557616932322968,
+        1.386150548002996
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0.2781554092730395,
+        0.2122279734680012,
+        0.2981101943039659,
+        0,
+        0.3693531584430344
+      ],
+      [
+        71.24914620240648,
+        72.75446789658298,
+        74.6175848775028,
+        68.38880172073874,
+        56.51402200922968,
+        62.97125450509302,
+        72.05981330289995,
+        63.75544870354559,
+        58.62162057927417
+      ],
+      [
+        0.7517626449702731,
+        0.968704740150034,
+        0.5701118844573247,
+        2.3403358245312726,
+        2.3713170039048634,
+        2.64832378759737,
+        2.9445761273520032,
+        3.042660914633233,
+        3.329605203954388
+      ],
+      [
+        22.16016751964611,
+        20.0515107052035,
+        19.981862617009178,
+        19.032303008834084,
+        18.743343982960596,
+        20.951183741881415,
+        12.857372779679865,
+        20.40923321200138,
+        16.58374792703151
+      ],
+      [
+        1.3983346213346313,
+        2.1135376148728016,
+        1.2254610849732201,
+        4.252672490490679,
+        9.925452609158679,
+        6.226503482840038,
+        7.260849208439411,
+        6.572147575607783,
+        11.402933652152674
+      ],
+      [
+        0,
+        0,
+        0,
+        0.19305493961113998,
+        0.7099751508697196,
+        0.353109838346316,
+        0.6821906183244081,
+        0.580446082176186,
+        0.9268900973170324
+      ],
+      [
+        4.151525054313448,
+        3.5767559636308945,
+        3.311679328832989,
+        4.443906157086619,
+        5.509407170749023,
+        4.731671833840634,
+        1.5161823661955345,
+        3.0145748138827724,
+        4.15236479103192
+      ],
+      [
+        0.25386014690227504,
+        0.4823201223684086,
+        0.24313595072444733,
+        1.1838274598796321,
+        4.714235001774938,
+        1.7066975520071943,
+        1.847218564363679,
+        2.059647388367112,
+        3.6767069047527223
+      ],
+      [
+        0.035203810426779586,
+        0.052702957191379476,
+        0.05016425650004402,
+        0.14114865867795615,
+        1.2708555200567981,
+        0.29778929700539314,
+        0.7114534866707635,
+        0.47559130604113303,
+        1.1184388136835204
+      ],
+      [
+        0,
+        0,
+        0,
+        0.023949740149872556,
+        0.24139155129570466,
+        0.1134659613886162,
+        0.12034354607438622,
+        0.09025000374481343,
+        0.18769203080206204
+      ],
+      [
+        52.25262291709525,
+        49.5168666827138,
+        47.16981132075472,
+        44.049893246432184,
+        35.55896921660035,
+        42.643923240938165,
+        48.30050608671864,
+        54.3424317617866,
+        37.412717098579286
+      ],
+      [
+        1.4071178769800452,
+        1.808741102438018,
+        1.0655626442242434,
+        3.9105517473873466,
+        4.160399398342241,
+        4.148090715254894,
+        7.993092600191493,
+        6.054590570719602,
+        6.708487203883181
+      ],
+      [
+        37.68771857642461,
+        38.16925140125855,
+        44.11565087552599,
+        32.812675581526015,
+        24.71348360553724,
+        28.14498933901919,
+        17.140268089180687,
+        21.662531017369727,
+        19.415910080469594
+      ],
+      [
+        4.813824315984365,
+        6.808569168873148,
+        3.9704085787973393,
+        11.933925160130352,
+        21.726530191342814,
+        16.98003489048265,
+        20.004103405826836,
+        11.63771712158809,
+        22.125106835883955
+      ],
+      [
+        0,
+        0,
+        0,
+        0.9079671873244185,
+        2.446457082102104,
+        1.7367706919945727,
+        1.8166119545889754,
+        0.7890818858560794,
+        3.5800099982261213
+      ],
+      [
+        3.43139271754783,
+        3.1910869639971113,
+        3.2645581647889235,
+        4.449938195302843,
+        5.262727444056852,
+        3.5084318666408216,
+        1.6627342360826154,
+        2.555831265508685,
+        4.773346664301495
+      ],
+      [
+        0.4073235959679078,
+        0.50548468071937,
+        0.4140084159087824,
+        1.6810877626699627,
+        4.836019813457647,
+        2.376429540608645,
+        2.4705922582410067,
+        2.325062034739454,
+        4.612084952669688
+      ],
+      [
+        0,
+        0,
+        0,
+        0.2539611192268794,
+        1.1236634272445711,
+        0.46132971506105835,
+        0.48727944193680756,
+        0.6327543424317618,
+        1.1675347922142845
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0.1717498213161797,
+        0,
+        0.12481192723293667,
+        0,
+        0.2048023737723952
+      ],
+      [
+        77.98671597062793,
+        79.38595776480804,
+        78.91844847805403,
+        72.8743357299156,
+        67.68678950565503,
+        73.11066646144374,
+        73.71589542873691,
+        77.15929106978629,
+        67.50499585709412
+      ],
+      [
+        1.4896339005625558,
+        2.109198760554724,
+        1.2390933966647735,
+        5.099249765551734,
+        5.7851956842440195,
+        4.771432969062644,
+        10.092057112267554,
+        7.092419684192477,
+        8.895062630988935
+      ],
+      [
+        17.72956426747983,
+        14.852856614060858,
+        17.332556441441774,
+        13.754298218193187,
+        13.653061814815887,
+        13.236878559335077,
+        7.9273839925348035,
+        9.528003366950884,
+        10.479114880343129
+      ],
+      [
+        1.7729564267479834,
+        2.6306783658132873,
+        1.669334159395598,
+        6.369177868083777,
+        8.851349396893351,
+        6.515827817967266,
+        6.37701000137486,
+        4.539927984661668,
+        9.723643807574208
+      ],
+      [
+        0,
+        0,
+        0,
+        0.40051578618318223,
+        1.1483613433224378,
+        0.6387563490841927,
+        0.8892711194577786,
+        0.5494676788302963,
+        1.2891748306282595
+      ],
+      [
+        0.9463556544750356,
+        0.891637003634061,
+        0.7695163356271313,
+        0.9338855892466396,
+        1.3537357901131006,
+        1.028679903545226,
+        0.40953275238187176,
+        0.5475192118840896,
+        0.8163961592825462
+      ],
+      [
+        0.07477378010666946,
+        0.12967149112902665,
+        0.07105118881669038,
+        0.568537042825883,
+        1.2091058980070002,
+        0.5925811913190703,
+        0.43000939000096533,
+        0.4169719264882391,
+        1.0137934395866843
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0.31240056694917706,
+        0.10517674824277873,
+        0.15884020324525455,
+        0.1663990772060543,
+        0.2778183945021202
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        80.84027582161889,
+        79.51184545788583,
+        77.69543389911546,
+        70.21613888566678,
+        65.26580807591749,
+        78.40367719231045,
+        79.78989436562381,
+        78.5780561354674,
+        70.21045316036138
+      ],
+      [
+        2.045123922933557,
+        3.152363569921231,
+        2.838871623236911,
+        5.072884042841124,
+        7.2818824440786285,
+        3.4713078451557298,
+        6.0482135670735255,
+        4.523312456506611,
+        7.056685139975409
+      ],
+      [
+        15.203374068600404,
+        14.958667895486096,
+        17.630886923260817,
+        18.095348567451573,
+        13.498595913624477,
+        12.74807881065811,
+        7.862677637195582,
+        10.061470656460218,
+        11.262184364809238
+      ],
+      [
+        1.4373748326278297,
+        1.90748114103514,
+        1.3874184624842048,
+        5.877121756950083,
+        11.736225428488428,
+        4.528660234772131,
+        5.745802888719849,
+        5.9440964973324055,
+        10.032610438904433
+      ],
+      [
+        0.04360358552669658,
+        0.09015358234997661,
+        0.0887947815989891,
+        0.15466109886710747,
+        0.904425292921468,
+        0.24139554555393294,
+        0.2605384305816288,
+        0.2044189283228949,
+        0.6664647076643442
+      ],
+      [
+        0.4302477686926256,
+        0.3794883533217278,
+        0.3585943103036099,
+        0.4701697405560067,
+        0.7727316742519609,
+        0.47082106405560475,
+        0.1391089120426911,
+        0.46972860125260957,
+        0.32432239784735467
+      ],
+      [
+        0,
+        0,
+        0,
+        0.11367590766732398,
+        0.5403311707175366,
+        0.13605930749403494,
+        0.1537641987629077,
+        0.21891672465785197,
+        0.4472797904378352
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "relative_unit": "percent within source glycan/site panel",
+    "license": {
+      "name": "GlycoPOST submitted-data terms",
+      "url": "https://glycopost.glycosmos.org/terms",
+      "article_license": "CC BY-NC-ND 4.0; not assigned automatically to repository table",
+      "repository_terms_url": "https://glycopost.glycosmos.org/terms",
+      "repository_scope": "GlycoPOST states no use or redistribution restrictions for deposited data; website CC0 notice excludes user-submitted data."
+    },
+    "features": 54,
+    "observations": 9,
+    "table": "results of 231111_Hpt",
+    "annotation": "Compositions are transcribed from the source SNFG residue counts in Supplementary Figures 1d/e and 2a, linked by author glycan labels. Unfucosylated and explicitly core-fucosylated topology is encoded with unspecified glycosidic linkages left unknown; ambiguous terminal-fucose attachment retains diagram evidence without an invented topology.",
+    "structure_iupac": [
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      "Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+      null,
+      null,
+      null
+    ],
+    "annotation_source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-56524-3/MediaObjects/41467_2025_56524_MOESM1_ESM.pdf",
+    "source_files": [
+      "data-raw/GPST000533/supplement.pdf"
+    ],
+    "source_glycan_type": "N",
+    "source_md5": "7cdadde8fc64297dd0c469c1c7ba4e01"
+  }
+]

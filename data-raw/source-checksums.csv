@@ -1,0 +1,89 @@
+path,md5,bytes
+data-raw/GPST000035/GPST000035_media_MOESM4.xlsx,6c1c77ce59c928a152e00df6f2f88683,381744
+data-raw/GPST000035/GPST000035_media_MOESM5.xlsx,e1da7e3bef152d739bba72156bf8b907,3390778
+data-raw/GPST000035/author_cell_line_metadata.json,b82a69dfd127b4ea22386c58ee6f0d61,13200
+data-raw/GPST000035/feature_alignment.csv,a3b0f524e2ffda60267880c4e63f2f5c,56455
+data-raw/GPST000035/feature_alignment_audit.json,b25d19b480832c1d90759aa1d4d7b7a8,238569
+data-raw/GPST000035/matrix-specs.json,9569dfcc587ee37447cefa17b4488c5d,452331
+data-raw/GPST000120/120_glytoucan_parsed.json,3a5b11e87338d3fcddc109e8223884d2,6548
+data-raw/GPST000120/120_glytoucan_sequences.json,70e22d4001e4e0dab74cb59064cc1422,5656
+data-raw/GPST000120/GPST000120_olinked3.xlsx,c562ffe93beef53948a747e35a3e3c15,35062
+data-raw/GPST000120/matrix-specs.json,13888af96cda54bbc6e56982a5d14cb5,18501
+data-raw/GPST000125/annotation_audit.json,4ded984573f63762d0a8f6852c986bc5,21252
+data-raw/GPST000125/diagnostic-ms2-evidence.json,94e36f184414950e3b3175f057de1966,8704
+data-raw/GPST000125/glytoucan_parsed.json,f71b9ec67064b8ac9ec6a6b39d51fd0d,157597
+data-raw/GPST000125/glytoucan_queries.json,9e5c4ab21489be9074e2a56e83bba0f0,10513
+data-raw/GPST000125/glytoucan_sequences.json,c83abda73bb0f6fe31ae94e369f60865,133505
+data-raw/GPST000125/matrix-specs.json,8d588b3c08269781f85273ab7b91e53a,306442
+data-raw/GPST000125/mmc5.xlsx,c5db8da0765cad0dba88a37e6dc71bcc,253603
+data-raw/GPST000125/original-workbook-review.json,a315ba612c2e9391c5ef08c0b1e8c5a9,16639
+data-raw/GPST000125/source-cell-records.json,85e7218f677edc6ca769873db2a28d42,155290
+data-raw/GPST000125/validation.json,65fee564e23aadc459f7229fb34e9568,1839
+data-raw/GPST000128/Molecule.json,5e623a3b971464cbdc1e3c75f6749cdf,294922
+data-raw/GPST000128/MoleculePrecursor.json,830797d539073f3c427fb2648fb1020e,225322
+data-raw/GPST000128/PeptideChromInfo.json,5963f9f0126078dcb77309386e032eb1,315143
+data-raw/GPST000128/PrecursorChromInfo.json,5d60df3704e06c19bf7d7476c9591275,1103962
+data-raw/GPST000128/Replicate.json,382330bd2bb8ed0512acd300b1379f04,22669
+data-raw/GPST000128/SampleFile.json,0d3b229d8fab20e07728b632780238eb,24919
+data-raw/GPST000128/matrix-specs.json,fb788e085c588c16bce0b2253798d02f,143728
+data-raw/GPST000183/Sup Table 4 - O-glycomics Results.xlsx,3544d36756684aa21d701f97ed405cfb,606210
+data-raw/GPST000183/Sup Table 5 - N-glycomics Results.xlsx,ff8f3a1a805e0459df469e20e1075436,596964
+data-raw/GPST000183/matrix-specs.json,0f203edfa823f9fe202f9a1d8051e980,145496
+data-raw/GPST000213/41467_2021_27781_MOESM5_ESM.xlsx,f141b8527194869cba368bf6248e1d8f,58524
+data-raw/GPST000213/Source Data N-Glycans.xlsx,7d3c111e04fbbaf9f896dcc1f62646ae,346115
+data-raw/GPST000213/Source Data O-Glycans.xlsx,7653bff39c9b5d341af02087ff20a6a9,65072
+data-raw/GPST000213/feature_alignment.csv,caf3b3e744a0682e60ce6001cfb32894,196004
+data-raw/GPST000213/matrix-specs.json,7134efa9f6f613b00a052a1e70ffd050,411912
+data-raw/GPST000271/Glycan_supplementary_table_N_O_glycan.xlsx,ec8382ad0f7283d1813edb9ed71e9efb,39083
+data-raw/GPST000271/matrix-specs.json,49266ec4df3af3c9fd6cdd2c28c44797,75138
+data-raw/GPST000374/Glycopost result file.xlsx,e1555af83c0138d2e222faeecc4726aa,492112
+data-raw/GPST000374/matrix-specs.json,d340584669ab0c35d19a063a2db2961c,841248
+data-raw/GPST000381/Analyzed data.xlsx,e7ec95963da56093afd29ded33be0a59,18854
+data-raw/GPST000381/matrix-specs.json,dacb47eaa6d3cd53c0ab5291839ca5af,22275
+data-raw/GPST000431/Figure3_Identifications_DynamicRange.xlsx,9a7d621ec7b8e49675a998d3101e0bcd,121991
+data-raw/GPST000431/SUGA_DrugTreatments_GlycanQuant_treatmentkey.xlsx,83d72db0c87935b37bbdb9920c5a2bf1,26145
+data-raw/GPST000431/matrix-specs.json,a44a9771fb955fb2a7d4c940959f334d,313920
+data-raw/GPST000533/Result file of 231111_Hpt_glycopeptides for Fig and GlycoPOST.xlsx,7cdadde8fc64297dd0c469c1c7ba4e01,415052
+data-raw/GPST000533/Result file of 231208_Hpt_aTMT6glycans for Fig and GlycoPOST.xlsx,99582fb502e6037cac966718a435e55d,94708
+data-raw/GPST000533/matrix-specs.json,db5ba8c022f9a2be8a4820bd77c8d5fb,88911
+data-raw/GPST000533/supplement.pdf,d37f75b6f640caa78c67ef962c032fe7,1303352
+data-raw/GPST000578/578_41467_2026_73091_MOESM4_ESM.xls,2c37c080e75ca95e5a1e90ff3d92300f,790016
+data-raw/GPST000578/578_glytoucan_parsed.json,ad2473ac74107b2d5796a661f930fc5c,45636
+data-raw/GPST000578/578_glytoucan_sequences.json,2dcd01e45ffa6d268508bb4312742b83,34707
+data-raw/GPST000578/biff_verification.json,2a9e61e4c9efe9b54bd2d203f951cce6,922
+data-raw/GPST000578/feature_alignment.csv,46d9ff8e42ddcef2b281868f27f64746,18917
+data-raw/GPST000578/figure4b-validated-worksheet.json,fbaa0da90a696d8c9688ff4ca6e6c3bb,12242
+data-raw/GPST000578/license_review.json,87c485b7b40c1da54926b222089f67ab,1941
+data-raw/GPST000578/matrix-specs.json,d00a8c311921eb996082756f20d6ef50,573144
+data-raw/GPST000578/readxl_chart_regression_fixture.json,d8a0dd1af2157545e3383355efab3ff7,7048
+data-raw/GPST000578/source_scope.json,70b160248a684ccbdc0d018a9a7bb2dd,16405
+data-raw/GPST000599/Supplementary Table.xlsx,fc55b38c067ac01413559718e68329a5,208279
+data-raw/GPST000599/clinical-source-mapping.json,f883e944ac35f7f6b2fc405c0cb23b0a,115898
+data-raw/GPST000599/clinical-source-snapshot.json,0d8cea3fab4484681d39a2a7be5d892f,52780
+data-raw/GPST000599/matrix-specs.json,ead620013a6b16edd8d05132529647ff,456539
+data-raw/GPST000599/mmc4.xlsx,e2d231f73f60853791e1d812b32a7ca3,20679775
+data-raw/GPST000602/41467_2026_70850_MOESM3_ESM.xlsx,c11fcc7a0db3c97a49cafb0bda9d8572,267982
+data-raw/GPST000602/alignment-audit.json,16b8bc41f2c49c49ec9b027432a47b7b,17023
+data-raw/GPST000602/candidate-composition-groups.json,8412e57c4f4f1164fd4277fed0c11a59,468454
+data-raw/GPST000602/matrix-specs.json,98fb739451157cecc1d48ec734efc1e8,4694744
+data-raw/GPST000602/portability-validation.json,82148c916ec995e759568509672ae383,712
+data-raw/GPST000602/removed-row-ledger.json,b3ca03a961527ca2ee2007e6c2eb0ee5,1004890
+data-raw/GPST000602/retained-peak-ledger.json,eb8820be2f3132b7b3cac283d2afca7b,2939418
+data-raw/GPST000602/source-evidence.json,6b52038c3fb070af6ca343dde83d4abe,1913
+data-raw/GPST000602/source-mass-annotation-anomalies.json,be82d575dececc3fce1efa63ed059c14,59714
+data-raw/GPST000602/source-peaklist-mapping.json,a5665f43a0c99d20931382c64c1e88a7,37899
+data-raw/GPST000602/typed-composition-validation.json,713e8487a59f186cff4161ef5b0c6018,602
+data-raw/GPST000602/validation-report.json,167d61678122eaa108ed588c2b8092c7,2551
+data-raw/GPST000643/GPST000643-media-10.xlsx,d04faf05939c3d938758f128418fa1aa,127601
+data-raw/GPST000643/GPST000643-media-11.xlsx,a8efed67eb86a3b3f176a68c3e1e8343,54263
+data-raw/GPST000643/GPST000643-media-12.xlsx,678b700f08a27218df41980576eac032,98033
+data-raw/GPST000643/GPST000643-media-13.xlsx,95277b52613664fddbf6c17a030205f8,49207
+data-raw/GPST000643/GPST000643-media-6.xlsx,ffaf91a5fc37f92a5bf76e7a7d3e58e7,123583
+data-raw/GPST000643/GPST000643-media-8.xlsx,2e9c1e719e652c915add5853ec2b9560,49621
+data-raw/GPST000676/41467_2026_70804_MOESM10_ESM.xlsx,d22c62d84c72a9fd53439e6dbac0faf4,163654
+data-raw/GPST000676/matrix-specs.json,deddd770526d24ef230bcd2a9fcec236,24042
+data-raw/GPST000738/Frontiers_1932584-supplemental-data.json,a4e8e8d1b6b1e7b2b4458a5cc4ce8a74,298
+data-raw/GPST000738/GPST000738-f_0000069167.json,b5f226f698261ecddd1899c905817810,35948
+data-raw/GPST000738/GPST000738-files.json,bb77b414845b3b4b0a37d2521b308bd3,32223
+data-raw/GPST000738/GPST000738.json,9c79b826e355b3135345528cfcafa65e,1778
+data-raw/GPST000738/GPST000738__Supplementary_Table_IMER_20260707.xlsx,f83b7c3e4e5d33a367ce2a23999a7757,37888

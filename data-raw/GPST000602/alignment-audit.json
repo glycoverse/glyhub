@@ -1,0 +1,449 @@
+{
+  "accession": "GPST000602",
+  "source_peaks": 2336,
+  "retained_annotated_peaks": 1607,
+  "removed_unannotated_peaks": 729,
+  "source_spectrum_blocks": 32,
+  "output_objects": 5,
+  "chosen_representation": "source-specific peak records in one sparse union per worksheet",
+  "cross_spectrum_alignment_performed": false,
+  "row_number_alignment_performed": false,
+  "composition_summing_performed": false,
+  "assessed_methods": [
+    {
+      "method": "Align by workbook row number",
+      "decision": "Rejected",
+      "evidence": "The sheets contain independent m/z-sorted lists in column blocks, not shared rows. For example (A) Sh GSL A4=789.090 whereas K4=989.314."
+    },
+    {
+      "method": "Align solely by composition or composition + theoretical mass",
+      "decision": "Rejected as molecular-feature identity",
+      "evidence": "Two within-spectrum duplicate groups share exact composition and theoretical mass but distinct measured peaks: (A) Sh GSL BA42:BJ43 and BA59:BJ60. Selecting one, summing, or assigning by nearest order would lose/assume information."
+    },
+    {
+      "method": "Global measured-mass tolerance matching",
+      "decision": "Not used",
+      "evidence": "The article allows 300 ppm for initial putative composition assignment, not as a validated inter-spectrum feature matcher. This broad tolerance does not distinguish the same-composition duplicate peaks. Source theoretical-mass inconsistencies and varied sample fractions create further ambiguities."
+    },
+    {
+      "method": "Author-curated MOESM4/5/6 structure tables",
+      "decision": "Useful contextual annotation, insufficient crosswalk",
+      "evidence": "These characterize selected ions, often with multiple isomeric structures for one composition/theoretical mass, and do not map every MOESM3 sample-specific peak row to a unique structure/feature ID. MOESM4 Sh eggs, P7 and P9 explicitly refer to two isomeric structures."
+    }
+  ],
+  "duplicate_composition_groups": [
+    {
+      "sheet": "(A) Sh GSL glycans",
+      "source_composition": "Hex3HexNAc6dHex3-AA",
+      "composition_counts": {
+        "Hex": 3,
+        "HexNAc": 6,
+        "dHex": 3
+      },
+      "peak_count": 8,
+      "spectrum_count": 7,
+      "has_within_spectrum_multiplicity": true,
+      "source_peak_ids": [
+        "GPST000602::Sh_GSL::spectrum_01::r086",
+        "GPST000602::Sh_GSL::spectrum_05::r082",
+        "GPST000602::Sh_GSL::spectrum_06::r059",
+        "GPST000602::Sh_GSL::spectrum_06::r060",
+        "GPST000602::Sh_GSL::spectrum_08::r060",
+        "GPST000602::Sh_GSL::spectrum_09::r057",
+        "GPST000602::Sh_GSL::spectrum_10::r049",
+        "GPST000602::Sh_GSL::spectrum_11::r052"
+      ],
+      "source_theoretical_mz_values": [
+        2280.864484005,
+        2280.86453
+      ],
+      "measured_mz_range": [
+        2279.747,
+        2280.995
+      ],
+      "used_for_alignment": false,
+      "reason": "Composition and theoretical mass are candidate grouping evidence only; no author peak-level identity crosswalk. Distinct source peaks are never summed or assigned by row position."
+    },
+    {
+      "sheet": "(A) Sh GSL glycans",
+      "source_composition": "Hex3HexA1HexNAc5-AA",
+      "composition_counts": {
+        "Hex": 3,
+        "HexA": 1,
+        "HexNAc": 5
+      },
+      "peak_count": 9,
+      "spectrum_count": 8,
+      "has_within_spectrum_multiplicity": true,
+      "source_peak_ids": [
+        "GPST000602::Sh_GSL::spectrum_03::r052",
+        "GPST000602::Sh_GSL::spectrum_04::r037",
+        "GPST000602::Sh_GSL::spectrum_05::r055",
+        "GPST000602::Sh_GSL::spectrum_06::r042",
+        "GPST000602::Sh_GSL::spectrum_06::r043",
+        "GPST000602::Sh_GSL::spectrum_07::r027",
+        "GPST000602::Sh_GSL::spectrum_09::r037",
+        "GPST000602::Sh_GSL::spectrum_10::r029",
+        "GPST000602::Sh_GSL::spectrum_11::r032"
+      ],
+      "source_theoretical_mz_values": [
+        1815.643473038,
+        1815.64353
+      ],
+      "measured_mz_range": [
+        1815.399,
+        1815.879
+      ],
+      "used_for_alignment": false,
+      "reason": "Composition and theoretical mass are candidate grouping evidence only; no author peak-level identity crosswalk. Distinct source peaks are never summed or assigned by row position."
+    }
+  ],
+  "candidate_groups_file": "candidate-composition-groups.json",
+  "mass_annotation_anomalies_file": "source-mass-annotation-anomalies.json",
+  "anomalous_mass_record_count": 82,
+  "limitations": [
+    "There are 1607 retained peak records, not 1607 established unique molecular glycans.",
+    "Every feature has exactly one measured source spectrum. Off-spectrum NA is an unaligned/unmeasured combination, not absence.",
+    "Within-matrix between-sample differential abundance is not directly valid until feature correspondence is independently resolved.",
+    "Three measurements (Intens., %Intens., Area) are available. The assay uses direct source peak intensity; source relative intensity and area are retained verbatim as annotations and are not rescaled.",
+    "Article/SI license needs review before derived data redistribution."
+  ],
+  "objects": [
+    {
+      "object": "glyhub_GPST000602_Sh_GSL",
+      "sheet": "(A) Sh GSL glycans",
+      "features": 566,
+      "observations": 11,
+      "source_peaks": 827,
+      "removed_unannotated": 261,
+      "retained_annotated": 566,
+      "measured_cells": 566,
+      "unmeasured_unaligned_cells": 5660,
+      "quantitative_zeros_to_na": 0,
+      "typed_compositions": 566,
+      "typed_structures": 0,
+      "samples": [
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_01",
+          "source_sample_label": "Cercariae - biological replicate #1 - Fig. 1 and S1-A.1",
+          "source_block_index": 1,
+          "source_peaks": 108,
+          "retained_annotated_peaks": 60,
+          "removed_unannotated_peaks": 48
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_02",
+          "source_sample_label": "Cercariae - biological replicate #2 - Fig. S1-A.1",
+          "source_block_index": 2,
+          "source_peaks": 73,
+          "retained_annotated_peaks": 44,
+          "removed_unannotated_peaks": 29
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_03",
+          "source_sample_label": "Adult worms - biological replicate #1 - Fig. 1 and S1-A.2",
+          "source_block_index": 3,
+          "source_peaks": 70,
+          "retained_annotated_peaks": 43,
+          "removed_unannotated_peaks": 27
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_04",
+          "source_sample_label": "Adult worms - biological replicate #2 - Fig. S1-A.2",
+          "source_block_index": 4,
+          "source_peaks": 44,
+          "retained_annotated_peaks": 26,
+          "removed_unannotated_peaks": 18
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_05",
+          "source_sample_label": "Eggs - biological replicate #1  - Fig. 1 and S1-A.3",
+          "source_block_index": 5,
+          "source_peaks": 108,
+          "retained_annotated_peaks": 77,
+          "removed_unannotated_peaks": 31
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_06",
+          "source_sample_label": "Eggs - biological replicate #2 - Fig. S1-A.3",
+          "source_block_index": 6,
+          "source_peaks": 75,
+          "retained_annotated_peaks": 57,
+          "removed_unannotated_peaks": 18
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_07",
+          "source_sample_label": "Eggs - Acidic fraction  - Fig. 4",
+          "source_block_index": 7,
+          "source_peaks": 51,
+          "retained_annotated_peaks": 36,
+          "removed_unannotated_peaks": 15
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_08",
+          "source_sample_label": "Eggs - Neutral fraction - Fig. 4",
+          "source_block_index": 8,
+          "source_peaks": 89,
+          "retained_annotated_peaks": 74,
+          "removed_unannotated_peaks": 15
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_09",
+          "source_sample_label": "Eggs - Total - Fig. 4",
+          "source_block_index": 9,
+          "source_peaks": 75,
+          "retained_annotated_peaks": 55,
+          "removed_unannotated_peaks": 20
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_10",
+          "source_sample_label": "Immature eggs - Fig. S2-D",
+          "source_block_index": 10,
+          "source_peaks": 65,
+          "retained_annotated_peaks": 45,
+          "removed_unannotated_peaks": 20
+        },
+        {
+          "sample_id": "GPST000602_Sh_GSL_spectrum_11",
+          "source_sample_label": "Mature eggs - Fig. S2-D",
+          "source_block_index": 11,
+          "source_peaks": 69,
+          "retained_annotated_peaks": 49,
+          "removed_unannotated_peaks": 20
+        }
+      ]
+    },
+    {
+      "object": "glyhub_GPST000602_Sm_GSL",
+      "sheet": "(B) Sm GSL glycans",
+      "features": 183,
+      "observations": 3,
+      "source_peaks": 199,
+      "removed_unannotated": 16,
+      "retained_annotated": 183,
+      "measured_cells": 183,
+      "unmeasured_unaligned_cells": 366,
+      "quantitative_zeros_to_na": 0,
+      "typed_compositions": 183,
+      "typed_structures": 0,
+      "samples": [
+        {
+          "sample_id": "GPST000602_Sm_GSL_spectrum_01",
+          "source_sample_label": "Eggs - Acidic fraction - Fig. 4",
+          "source_block_index": 1,
+          "source_peaks": 69,
+          "retained_annotated_peaks": 61,
+          "removed_unannotated_peaks": 8
+        },
+        {
+          "sample_id": "GPST000602_Sm_GSL_spectrum_02",
+          "source_sample_label": "Eggs - Neutral fraction  - Fig. 4",
+          "source_block_index": 2,
+          "source_peaks": 49,
+          "retained_annotated_peaks": 47,
+          "removed_unannotated_peaks": 2
+        },
+        {
+          "sample_id": "GPST000602_Sm_GSL_spectrum_03",
+          "source_sample_label": "Eggs - Total  - Fig. 4",
+          "source_block_index": 3,
+          "source_peaks": 81,
+          "retained_annotated_peaks": 75,
+          "removed_unannotated_peaks": 6
+        }
+      ]
+    },
+    {
+      "object": "glyhub_GPST000602_Sh_N",
+      "sheet": "(C) Sh N-glycans",
+      "features": 489,
+      "observations": 10,
+      "source_peaks": 754,
+      "removed_unannotated": 265,
+      "retained_annotated": 489,
+      "measured_cells": 489,
+      "unmeasured_unaligned_cells": 4401,
+      "quantitative_zeros_to_na": 0,
+      "typed_compositions": 489,
+      "typed_structures": 0,
+      "samples": [
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_01",
+          "source_sample_label": "Cercariae - biological replicate #1 (PNG-F) - Fig. 5, S1-B.1, S6-A and S7-A",
+          "source_block_index": 1,
+          "source_peaks": 97,
+          "retained_annotated_peaks": 46,
+          "removed_unannotated_peaks": 51
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_02",
+          "source_sample_label": "Cercariae - biological replicate #2 (PNG-F) - Fig. S1-B.1",
+          "source_block_index": 2,
+          "source_peaks": 74,
+          "retained_annotated_peaks": 33,
+          "removed_unannotated_peaks": 41
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_03",
+          "source_sample_label": "Adult worms - biological replicate #2 (PNG-F) - Fig. 5, S1-B.2, S6-B and S7-B",
+          "source_block_index": 3,
+          "source_peaks": 36,
+          "retained_annotated_peaks": 30,
+          "removed_unannotated_peaks": 6
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_04",
+          "source_sample_label": "Adult worms - biological replicate #1 (PNG-F)- Fig. S1-B.2",
+          "source_block_index": 4,
+          "source_peaks": 96,
+          "retained_annotated_peaks": 49,
+          "removed_unannotated_peaks": 47
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_05",
+          "source_sample_label": "Eggs - biological replicate #1 (PNG-F) - Fig. 5, S1-B.3 and S7-C ",
+          "source_block_index": 5,
+          "source_peaks": 100,
+          "retained_annotated_peaks": 83,
+          "removed_unannotated_peaks": 17
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_06",
+          "source_sample_label": "Eggs - biological replicate #2 (PNG-F) - Fig. S1-B.3 and S6-C",
+          "source_block_index": 6,
+          "source_peaks": 42,
+          "retained_annotated_peaks": 31,
+          "removed_unannotated_peaks": 11
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_07",
+          "source_sample_label": "Eggs  (PNG-A) - Fig. S6-D and Fig. S7-D",
+          "source_block_index": 7,
+          "source_peaks": 80,
+          "retained_annotated_peaks": 55,
+          "removed_unannotated_peaks": 25
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_08",
+          "source_sample_label": "Immature eggs (PNG-F) - Fig. S6-F and G",
+          "source_block_index": 8,
+          "source_peaks": 71,
+          "retained_annotated_peaks": 43,
+          "removed_unannotated_peaks": 28
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_09",
+          "source_sample_label": "Mature eggs (PNG-F) - Fig. S6-F and G",
+          "source_block_index": 9,
+          "source_peaks": 95,
+          "retained_annotated_peaks": 70,
+          "removed_unannotated_peaks": 25
+        },
+        {
+          "sample_id": "GPST000602_Sh_N_spectrum_10",
+          "source_sample_label": "Mature eggs (PNG-A) - Fig. 5-D and Fig. S6-F and G",
+          "source_block_index": 10,
+          "source_peaks": 63,
+          "retained_annotated_peaks": 49,
+          "removed_unannotated_peaks": 14
+        }
+      ]
+    },
+    {
+      "object": "glyhub_GPST000602_Sm_N",
+      "sheet": "(D) Sm N-glycans",
+      "features": 247,
+      "observations": 4,
+      "source_peaks": 307,
+      "removed_unannotated": 60,
+      "retained_annotated": 247,
+      "measured_cells": 247,
+      "unmeasured_unaligned_cells": 741,
+      "quantitative_zeros_to_na": 0,
+      "typed_compositions": 247,
+      "typed_structures": 0,
+      "samples": [
+        {
+          "sample_id": "GPST000602_Sm_N_spectrum_01",
+          "source_sample_label": "Cercariae - Fig. S7-A",
+          "source_block_index": 1,
+          "source_peaks": 86,
+          "retained_annotated_peaks": 67,
+          "removed_unannotated_peaks": 19
+        },
+        {
+          "sample_id": "GPST000602_Sm_N_spectrum_02",
+          "source_sample_label": "Adult worms - Fig. S7-B",
+          "source_block_index": 2,
+          "source_peaks": 61,
+          "retained_annotated_peaks": 42,
+          "removed_unannotated_peaks": 19
+        },
+        {
+          "sample_id": "GPST000602_Sm_N_spectrum_03",
+          "source_sample_label": "Eggs - Fig. S7-C",
+          "source_block_index": 3,
+          "source_peaks": 83,
+          "retained_annotated_peaks": 71,
+          "removed_unannotated_peaks": 12
+        },
+        {
+          "sample_id": "GPST000602_Sm_N_spectrum_04",
+          "source_sample_label": "Eggs  (PNG-A) - Fig. S7-D",
+          "source_block_index": 4,
+          "source_peaks": 77,
+          "retained_annotated_peaks": 67,
+          "removed_unannotated_peaks": 10
+        }
+      ]
+    },
+    {
+      "object": "glyhub_GPST000602_Sh_O",
+      "sheet": "(E) Sh O-glycans",
+      "features": 122,
+      "observations": 4,
+      "source_peaks": 249,
+      "removed_unannotated": 127,
+      "retained_annotated": 122,
+      "measured_cells": 122,
+      "unmeasured_unaligned_cells": 366,
+      "quantitative_zeros_to_na": 0,
+      "typed_compositions": 122,
+      "typed_structures": 0,
+      "samples": [
+        {
+          "sample_id": "GPST000602_Sh_O_spectrum_01",
+          "source_sample_label": "Cercariae - technical replicate #2 - Fig S1-C.1",
+          "source_block_index": 1,
+          "source_peaks": 27,
+          "retained_annotated_peaks": 16,
+          "removed_unannotated_peaks": 11
+        },
+        {
+          "sample_id": "GPST000602_Sh_O_spectrum_02",
+          "source_sample_label": "Cercariae - technical replicate #1 - Fig 6, S1-C.1",
+          "source_block_index": 2,
+          "source_peaks": 74,
+          "retained_annotated_peaks": 23,
+          "removed_unannotated_peaks": 51
+        },
+        {
+          "sample_id": "GPST000602_Sh_O_spectrum_03",
+          "source_sample_label": "Eggs - technical replicate #1  - Fig 6, S1-C.2",
+          "source_block_index": 3,
+          "source_peaks": 90,
+          "retained_annotated_peaks": 50,
+          "removed_unannotated_peaks": 40
+        },
+        {
+          "sample_id": "GPST000602_Sh_O_spectrum_04",
+          "source_sample_label": "Eggs - technical replicate #2  - Fig S1-C.2",
+          "source_block_index": 4,
+          "source_peaks": 58,
+          "retained_annotated_peaks": 33,
+          "removed_unannotated_peaks": 25
+        }
+      ]
+    }
+  ]
+}

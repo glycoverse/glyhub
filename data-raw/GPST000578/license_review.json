@@ -1,0 +1,22 @@
+{
+  "name": "Source Data specific licence unresolved; article CC BY-NC-ND 4.0 recorded separately",
+  "article_license": "CC BY-NC-ND 4.0",
+  "article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "article_url": "https://www.nature.com/articles/s41467-026-73091-3",
+  "data_specific_license": null,
+  "data_specific_license_status": "No separate licence found in the Source Data workbook or article data-availability statement; general publisher data-sharing policies do not specify a blanket Source Data licence. This is an unresolved scope finding, not a prohibition.",
+  "repository_data_license": "CC BY 4.0",
+  "repository_data_license_url": "https://doi.org/10.6069/rnan-xf90",
+  "repository_scope": "The article-linked Panorama experiment explicitly states Data License: CC BY 4.0. Inspected registered Skyline runs are the standard/isomer library and three-glycan ovalbumin discovery document. No matching export of the Source Data panels was verified, so this licence is not assigned to the XLS matrices.",
+  "glycopost_terms_url": "https://glycopost.glycosmos.org/terms",
+  "glycopost_scope": "GlycoPOST states no use or redistribution restrictions on deposited data; its website CC0 notice excludes user-submitted data. This does not establish the terms of the Springer-hosted XLS workbook.",
+  "reviewed_at_utc": "2026-10-14T10:11:00Z",
+  "research_report": "license_report.md",
+  "publisher_policy_sources": [
+    "https://www.springernature.com/gp/authors/research-data-policy",
+    "https://www.springernature.com/gp/authors/research-data-policy/data-policy-faqs",
+    "https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards",
+    "https://www.nature.com/ncomms/submit/how-to-submit#data-and-code"
+  ],
+  "GPST000602_general_policy_finding": "The same policies do not establish blanket data-specific terms for DOI 10.1038/s41467-026-70850-0 supplementary quantitative tables."
+}
