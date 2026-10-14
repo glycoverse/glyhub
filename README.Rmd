@@ -13,25 +13,43 @@ knitr::opts_chunk$set(
 )
 ```
 
-# glyhub
+# glyhub <img src="man/figures/logo.png" align="right" height="138" alt="glyhub logo" />
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/glycoverse/glyhub/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/glycoverse/glyhub/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/glycoverse/glyhub/graph/badge.svg)](https://app.codecov.io/gh/glycoverse/glyhub)
 <!-- badges: end -->
 
-The goal of glyhub is to provide curated glycomics and glycoproteomics datasets in literature and databases.
+glyhub aims to provide a curated collection of glycomics and glycoproteomics
+datasets from the literature and public databases. The planned collection will
+store datasets as `GlycomicSE` and `GlycoproteomicSE` objects from
+[glyexp](https://github.com/glycoverse/glyexp), bringing measurements, molecular
+annotations, and sample metadata together in a consistent format.
+
+## Development status
+
+**glyhub is currently a package skeleton.** It does not yet include curated
+datasets or data-access functions. Dataset examples will be added when the first
+resources are available.
+
+The initial design is to bundle curated datasets with the package and make them
+available through R's `LazyData` mechanism. This is a planned architecture;
+datasets, the dependency on glyexp, and lazy loading have not yet been implemented.
 
 ## Installation
 
-You can install the development version of glyhub from [GitHub](https://github.com/) with:
+You can install the development skeleton from
+[GitHub](https://github.com/glycoverse/glyhub):
 
-``` r
+```r
 # install.packages("pak")
-pak::pak("glycoverse/glyhub")
+pak::pkg_install("glycoverse/glyhub")
 ```
 
-## Example
+Installing the current skeleton does not provide any datasets.
 
-Coming soon...
+## Role in `glycoverse`
+
+The intended role of glyhub is to collect and curate reusable experimental data
+for the Glycoverse ecosystem. glyexp provides the `GlycomicSE` and
+`GlycoproteomicSE` containers; glyhub is planned to supply curated datasets stored
+in those containers for examples, method development, and reproducible analyses.
