@@ -1,4 +1,20 @@
 url: https://glycoverse.github.io/glyhub/
 template:
   bootstrap: 5
-
+reference:
+- title: Curated glycomics data
+  contents:
+  - glyhub_GPST000738_N_B4GalT1
+  - glyhub_GPST000738_N_ST6GAL1
+  - glyhub_GPST000643_O_S5
+  - glyhub_GPST000643_O_S7
+  - glyhub_GPST000643_O_S9B
+  - glyhub_GPST000643_O_S10B
+  - glyhub_GPST000643_N_S10B
+  - glyhub_GPST000643_O_S10C
+  - glyhub_GPST000643_N_S10C
+  - glyhub_GPST000643_O_S11B
+  - glyhub_GPST000643_O_S12
+- title: Data conventions
+  contents:
+  - glyhub_data_conventions
