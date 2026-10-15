@@ -1,6 +1,10 @@
-# Validation of the current 34-dataset catalog
+# Validation
 
-The current catalog contains 34 datasets from 17 accessions. All 34 datasets retain identical assays, supported molecular annotations, sample metadata values and provenance after omitting all-NA structure columns from 18 datasets. The other 16 retain their typed structure columns and per-feature missing values. GPST000168 is deferred and outside this catalog.
+Current expansion results: [73-project validation](HIGH-IMPACT-73-VALIDATION.md).
+
+## Previous 34-dataset baseline
+
+The previous baseline catalog contains 34 datasets from 17 accessions. All 34 datasets retain identical assays, supported molecular annotations, sample metadata values and provenance after omitting all-NA structure columns from 18 datasets. The other 16 retain their typed structure columns and per-feature missing values. GPST000168 is deferred and outside this catalog.
 
 - The optional-structure-column review is recorded in `validation-logs/structure-column-*`; per-dataset and shared help pages state the actual schema.
 - Sample-metadata type review: 20 columns across 11 datasets retain numeric/logical source types. Independent conservation checks verify all values and missingness, all assays and row annotations, mixed-source text and nonaffected metadata.

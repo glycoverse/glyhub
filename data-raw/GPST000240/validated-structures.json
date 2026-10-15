@@ -1,0 +1,660 @@
+[
+  {
+    "feature_id": "N-GP1",
+    "source_row": 3,
+    "structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(2)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP2",
+    "source_row": 4,
+    "structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(2)GlcNAc(2)Fuc(1)"
+  },
+  {
+    "feature_id": "N-GP3",
+    "source_row": 5,
+    "structure": "Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP4",
+    "source_row": 6,
+    "structure": "Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(2)Fuc(1)"
+  },
+  {
+    "feature_id": "N-GP5",
+    "source_row": 7,
+    "structure": "Man(a1-6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(4)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP6",
+    "source_row": 8,
+    "structure": "Man(a1-6)[Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man?PC(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(2)PC(1)"
+  },
+  {
+    "feature_id": "N-GP7",
+    "source_row": 9,
+    "structure": "{GlcNAc(b1-2)|2,3}Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "{GlcNAc(b1-2)|2,3}Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)"
+  },
+  {
+    "feature_id": "N-GP8",
+    "source_row": 10,
+    "structure": "Man(a1-6)[Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "Man?PC(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(2)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "N-GP9",
+    "source_row": 11,
+    "structure": "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(5)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP10",
+    "source_row": 12,
+    "structure": "{GlcNAc(b1-2)|2,3}Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{GlcNAc(b1-2)|2,3}Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(1)"
+  },
+  {
+    "feature_id": "N-GP11",
+    "source_row": 13,
+    "structure": "Fuc(a1-3)GlcNAc?PC(b1-2)Man(a1-3)Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc?PC(b1-2)Man(a1-3)Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(2)GlcNAc(3)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "N-GP12",
+    "source_row": 14,
+    "structure": "{?PC}Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "{?PC}GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)PC(1)"
+  },
+  {
+    "feature_id": "N-GP13",
+    "source_row": 15,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)"
+  },
+  {
+    "feature_id": "N-GP14",
+    "source_row": 16,
+    "structure": "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(6)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP15",
+    "source_row": 17,
+    "structure": "{Fuc(a1-3)GlcNAc(b1-2)|3,4}Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)GlcNAc(b1-2)|3,4}Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(2)"
+  },
+  {
+    "feature_id": "N-GP16",
+    "source_row": 18,
+    "structure": "{GlcNAc(b1-2)|2,3}Man(a1-6)[Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{GlcNAc(b1-2)|2,3}Man?PC(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "N-GP17",
+    "source_row": 19,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(1)"
+  },
+  {
+    "feature_id": "N-GP18",
+    "source_row": 20,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(b1-2)Man?PC(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)PC(1)"
+  },
+  {
+    "feature_id": "N-GP19",
+    "source_row": 21,
+    "structure": "{GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-2)|4,5}Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "{GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-2)|4,5}Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)GalNAc(1)GlcA(1)"
+  },
+  {
+    "feature_id": "N-GP20",
+    "source_row": 22,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)"
+  },
+  {
+    "feature_id": "N-GP21",
+    "source_row": 23,
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(7)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP22",
+    "source_row": 24,
+    "structure": "{Fuc(a1-3)GlcNAc(b1-2)|3,4}Man(a1-6)[Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)GlcNAc(b1-2)|3,4}Man?PC(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(2)PC(1)"
+  },
+  {
+    "feature_id": "N-GP23",
+    "source_row": 25,
+    "structure": "{Fuc(a1-3)|2,3,4,5}Man(a1-6)[GlcNAc(b1-4)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)|2,3,4,5}GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(2)"
+  },
+  {
+    "feature_id": "N-GP24",
+    "source_row": 26,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(b1-2)Man?PC(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "N-GP25",
+    "source_row": 27,
+    "structure": "{GlcA(b1-?)GalNAc(b1-4)GlcNAc?PC(b1-2)|4,5}Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "{GlcA(b1-?)GalNAc(b1-4)GlcNAc?PC(b1-2)|4,5}Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(3)GalNAc(1)GlcA(1)PC(1)"
+  },
+  {
+    "feature_id": "N-GP26",
+    "source_row": 28,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(1)"
+  },
+  {
+    "feature_id": "N-GP27",
+    "source_row": 29,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(?1-?)[GlcNAc(b1-2)]Man?PC(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)PC(1)"
+  },
+  {
+    "feature_id": "N-GP28",
+    "source_row": 30,
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(8)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP29",
+    "source_row": 31,
+    "structure": "{GlcNAc(b1-?)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "{GlcNAc(b1-?)|2,3,4,5,6}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(6)"
+  },
+  {
+    "feature_id": "N-GP30",
+    "source_row": 32,
+    "structure": "GlcNAc?PC(b1-2)Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)[GlcNAc?PC(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(2)PC(1)"
+  },
+  {
+    "feature_id": "N-GP31",
+    "source_row": 33,
+    "structure": "GlcNAc?PC(b1-2)Man(a1-6)[GlcNAc?PC(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "GlcNAc?PC(b1-2)Man(a1-3)[GlcNAc?PC(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(1)PC(2)"
+  },
+  {
+    "feature_id": "N-GP32",
+    "source_row": 34,
+    "structure": "{Fuc(a1-3)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-4)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)|2,3,4,5,6}GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(2)"
+  },
+  {
+    "feature_id": "N-GP33",
+    "source_row": 35,
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "GlcNAc(?1-?)[GlcNAc(b1-2)]Man?PC(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "N-GP34",
+    "source_row": 36,
+    "structure": "{GlcNAc(b1-?)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{GlcNAc(b1-?)|2,3,4,5,6}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(6)Fuc(1)"
+  },
+  {
+    "feature_id": "N-GP35",
+    "source_row": 37,
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(9)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP36",
+    "source_row": 38,
+    "structure": "{?PC}{?PC}{Fuc(a1-3)|2,3,4,5}GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{?PC}{?PC}{Fuc(a1-3)|2,3,4,5}GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(2)PC(2)"
+  },
+  {
+    "feature_id": "N-GP37",
+    "source_row": 39,
+    "structure": "{Fuc(a1-3)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man?PC(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)|2,3,4,5,6}GlcNAc(?1-?)[GlcNAc(b1-2)]Man?PC(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(2)PC(1)"
+  },
+  {
+    "feature_id": "N-GP38",
+    "source_row": 40,
+    "structure": "{?PC}{?PC}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{?PC}{?PC}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(1)PC(2)"
+  },
+  {
+    "feature_id": "N-GP39",
+    "source_row": 41,
+    "structure": "{Fuc(a1-3)GlcNAc(b1-?)|3,4,5,6,7}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)GlcNAc(b1-?)|3,4,5,6,7}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(6)Fuc(2)"
+  },
+  {
+    "feature_id": "N-GP40",
+    "source_row": 42,
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Glc(1)Man(9)GlcNAc(2)"
+  },
+  {
+    "feature_id": "N-GP41",
+    "source_row": 43,
+    "structure": "{?PC}{?PC}{Fuc(a1-3)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{?PC}{?PC}{Fuc(a1-3)|2,3,4,5,6}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(2)PC(2)"
+  },
+  {
+    "feature_id": "N-GP42",
+    "source_row": 44,
+    "structure": "{?PC}{?PC}{?PC}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{?PC}{?PC}{?PC}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(1)PC(3)"
+  },
+  {
+    "feature_id": "N-GP43",
+    "source_row": 45,
+    "structure": "{GlcNAc?PC(b1-4)|3,4,5,6,7}{Fuc(a1-3)|3,4,5,6,7}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)|3,4,5,6,7}{GlcNAc?PC(b1-4)|3,4,5,6,7}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(6)Fuc(2)PC(1)"
+  },
+  {
+    "feature_id": "N-GP44",
+    "source_row": 46,
+    "structure": "{?PC}{GlcNAc?PC(b1-4)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{?PC}{GlcNAc?PC(b1-4)|2,3,4,5,6}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(6)Fuc(1)PC(2)"
+  },
+  {
+    "feature_id": "N-GP45",
+    "source_row": 47,
+    "structure": "{GlcNAc(b1-?)|4,5,6,7,8}{GlcNAc(b1-?)|4,5,6,7,8}{Fuc(a1-3)|4,5,6,7,8}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{Fuc(a1-3)|4,5,6,7,8}{GlcNAc(b1-?)|4,5,6,7,8}{GlcNAc(b1-?)|4,5,6,7,8}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(7)Fuc(2)"
+  },
+  {
+    "feature_id": "N-GP46",
+    "source_row": 48,
+    "structure": "{GlcNAc(b1-?)|5,6,7,8,9}{GlcNAc(b1-?)|5,6,7,8,9}{GlcNAc(b1-?)|5,6,7,8,9}{GlcNAc(b1-?)|5,6,7,8,9}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "canonical_structure": "{GlcNAc(b1-?)|5,6,7,8,9}{GlcNAc(b1-?)|5,6,7,8,9}{GlcNAc(b1-?)|5,6,7,8,9}{GlcNAc(b1-?)|5,6,7,8,9}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(9)"
+  },
+  {
+    "feature_id": "N-GP47",
+    "source_row": 49,
+    "structure": "{?PC}{?PC}{GlcNAc?PC(b1-?)|2,3,4,5,6}GlcNAc(b1-2)Man(a1-6)[GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "canonical_structure": "{?PC}{?PC}{GlcNAc?PC(b1-?)|2,3,4,5,6}GlcNAc(?1-?)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(b1-",
+    "composition": "Man(3)GlcNAc(6)Fuc(1)PC(3)"
+  },
+  {
+    "feature_id": "GSL-GP1",
+    "source_row": 3,
+    "structure": "GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP2",
+    "source_row": 4,
+    "structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(1)GalNAc(1)"
+  },
+  {
+    "feature_id": "GSL-GP3",
+    "source_row": 5,
+    "structure": "GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(1)GalNAc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP4",
+    "source_row": 6,
+    "structure": "Fuc(a1-3)Gal(a1-4)GalNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)Gal(a1-4)GalNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(1)GalNAc(1)Fuc(1)"
+  },
+  {
+    "feature_id": "GSL-GP5",
+    "source_row": 7,
+    "structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(1)GalNAc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP6",
+    "source_row": 8,
+    "structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(1)GalNAc(1)GlcA(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP7",
+    "source_row": 9,
+    "structure": "GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP8",
+    "source_row": 10,
+    "structure": "Fuc(a1-3)Gal(a1-4)[Fuc(a1-3)]GalNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)Gal(a1-4)[Fuc(a1-3)]GalNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(1)GalNAc(1)Fuc(2)"
+  },
+  {
+    "feature_id": "GSL-GP9",
+    "source_row": 11,
+    "structure": "Fuc(a1-3)Gal(a1-4)GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)Gal(a1-4)GalNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(1)GalNAc(1)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP10",
+    "source_row": 12,
+    "structure": "GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP11",
+    "source_row": 13,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)Fuc(1)"
+  },
+  {
+    "feature_id": "GSL-GP12",
+    "source_row": 14,
+    "structure": "GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP13",
+    "source_row": 15,
+    "structure": "GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)"
+  },
+  {
+    "feature_id": "GSL-GP14",
+    "source_row": 16,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)Fuc(2)"
+  },
+  {
+    "feature_id": "GSL-GP15",
+    "source_row": 17,
+    "structure": "{?PC}Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP16",
+    "source_row": 18,
+    "structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(3)GalNAc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP17",
+    "source_row": 19,
+    "structure": "GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP18",
+    "source_row": 20,
+    "structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)GlcA(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP19",
+    "source_row": 21,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)Fuc(1)"
+  },
+  {
+    "feature_id": "GSL-GP20",
+    "source_row": 22,
+    "structure": "GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP21",
+    "source_row": 23,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)Fuc(2)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP22",
+    "source_row": 24,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)Fuc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP23",
+    "source_row": 25,
+    "structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Gal(a1-4)GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)Gal(1)GlcNAc(3)GalNAc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP24",
+    "source_row": 26,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)Fuc(2)"
+  },
+  {
+    "feature_id": "GSL-GP25",
+    "source_row": 27,
+    "structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)GlcA(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP26",
+    "source_row": 28,
+    "structure": "Fuc(a1-3)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP27",
+    "source_row": 29,
+    "structure": "GalNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GalNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP28",
+    "source_row": 30,
+    "structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)GlcA(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP29",
+    "source_row": 31,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)Fuc(1)"
+  },
+  {
+    "feature_id": "GSL-GP30",
+    "source_row": 32,
+    "structure": "{?PC}{?PC}{?PC}GlcA(b1-?)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{?PC}{?PC}GlcA(b1-?)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GlcA(1)PC(3)"
+  },
+  {
+    "feature_id": "GSL-GP31",
+    "source_row": 33,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)Fuc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP32",
+    "source_row": 34,
+    "structure": "{Fuc(a1-3)|3,4,5,6,7,8,10}{Fuc(a1-3)|3,4,5,6,7,8,10}GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{Fuc(a1-3)|3,4,5,6,7,8,10}{Fuc(a1-3)|3,4,5,6,7,8,10}GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)Fuc(2)"
+  },
+  {
+    "feature_id": "GSL-GP33",
+    "source_row": 35,
+    "structure": "GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP34",
+    "source_row": 36,
+    "structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(3)GalNAc(1)GlcA(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP35",
+    "source_row": 37,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)Fuc(2)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP36",
+    "source_row": 38,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)Fuc(3)"
+  },
+  {
+    "feature_id": "GSL-GP37",
+    "source_row": 39,
+    "structure": "{?PC}{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(4)GalNAc(1)GlcA(1)PC(3)"
+  },
+  {
+    "feature_id": "GSL-GP38",
+    "source_row": 40,
+    "structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(7)Fuc(2)"
+  },
+  {
+    "feature_id": "GSL-GP39",
+    "source_row": 41,
+    "structure": "{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)GlcA(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP40",
+    "source_row": 42,
+    "structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GalNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-4)GlcNAc(b1-4)GlcNAc?PC(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)Fuc(2)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP41",
+    "source_row": 43,
+    "structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(7)Fuc(3)"
+  },
+  {
+    "feature_id": "GSL-GP42",
+    "source_row": 44,
+    "structure": "{?PC}{?PC}{Fuc(?1-?)|2,3,4,5,6,7,8,9,10}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{?PC}{Fuc(?1-?)|2,3,4,5,6,7,8,9,10}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)GlcA(1)Fuc(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP43",
+    "source_row": 45,
+    "structure": "{?PC}{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(5)GalNAc(1)GlcA(1)PC(3)"
+  },
+  {
+    "feature_id": "GSL-GP44",
+    "source_row": 46,
+    "structure": "{?PC}{Fuc(?1-?)|2,3,4,5,6,7,8,9,10,11}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{Fuc(?1-?)|2,3,4,5,6,7,8,9,10,11}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(6)GalNAc(1)GlcA(1)Fuc(1)PC(1)"
+  },
+  {
+    "feature_id": "GSL-GP45",
+    "source_row": 47,
+    "structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(8)Fuc(2)"
+  },
+  {
+    "feature_id": "GSL-GP46",
+    "source_row": 48,
+    "structure": "{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "{?PC}{?PC}GlcA(b1-?)GalNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(6)GalNAc(1)GlcA(1)PC(2)"
+  },
+  {
+    "feature_id": "GSL-GP47",
+    "source_row": 49,
+    "structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-4)GlcNAc(b1-3)Man(b1-4)Glc(b1-",
+    "composition": "Glc(1)Man(1)GlcNAc(7)Fuc(4)"
+  }
+]

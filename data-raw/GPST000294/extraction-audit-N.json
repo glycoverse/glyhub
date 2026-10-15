@@ -1,0 +1,79 @@
+{
+  "rows": 202,
+  "table_percent_tokens": 297,
+  "numeric": 147,
+  "censored": 150,
+  "pages": [
+    {
+      "page": 4,
+      "table_percent_count": 24,
+      "pdf_percent_word_count": 24
+    },
+    {
+      "page": 5,
+      "table_percent_count": 31,
+      "pdf_percent_word_count": 31
+    },
+    {
+      "page": 6,
+      "table_percent_count": 28,
+      "pdf_percent_word_count": 28
+    },
+    {
+      "page": 7,
+      "table_percent_count": 21,
+      "pdf_percent_word_count": 21
+    },
+    {
+      "page": 8,
+      "table_percent_count": 28,
+      "pdf_percent_word_count": 28
+    },
+    {
+      "page": 9,
+      "table_percent_count": 21,
+      "pdf_percent_word_count": 21
+    },
+    {
+      "page": 10,
+      "table_percent_count": 19,
+      "pdf_percent_word_count": 19
+    },
+    {
+      "page": 11,
+      "table_percent_count": 21,
+      "pdf_percent_word_count": 21
+    },
+    {
+      "page": 12,
+      "table_percent_count": 16,
+      "pdf_percent_word_count": 16
+    },
+    {
+      "page": 13,
+      "table_percent_count": 20,
+      "pdf_percent_word_count": 20
+    },
+    {
+      "page": 14,
+      "table_percent_count": 19,
+      "pdf_percent_word_count": 19
+    },
+    {
+      "page": 15,
+      "table_percent_count": 21,
+      "pdf_percent_word_count": 21
+    },
+    {
+      "page": 16,
+      "table_percent_count": 20,
+      "pdf_percent_word_count": 20
+    },
+    {
+      "page": 17,
+      "table_percent_count": 8,
+      "pdf_percent_word_count": 8
+    }
+  ],
+  "note": "Page 4 caption has no percentage-symbol token; all table percent tokens accounted for."
+}

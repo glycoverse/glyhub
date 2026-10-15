@@ -1,0 +1,12 @@
+[
+  {
+    "accession": "GPST000403",
+    "path": "data-raw/GPST000403/Identification.xlsx",
+    "sha256": "015d63bc21996be67889dd94670d8a3249a92b4d64b0536c1056e630670c3063",
+    "bytes": 90878,
+    "url": "https://glycopost.glycosmos.org/data/GPST000403.0/Identification.xlsx",
+    "archive_members": [],
+    "source_kind": "GlycoPOST deposited source",
+    "verified": "Downloaded source checksum matches pinned payload"
+  }
+]

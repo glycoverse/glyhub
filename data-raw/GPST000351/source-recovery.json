@@ -1,0 +1,16 @@
+[
+  {
+    "path": "data-raw/GPST000351/TPNG curated data MALDI.xlsx",
+    "url": "https://glycopost.glycosmos.org/data/GPST000351.0/TPNG%20curated%20data%20MALDI.xlsx",
+    "sha256": "97e362c90bab504ba56fd8c4647e8ecfaf8a1f45a724a99dce6e6dc0647f1d40",
+    "bytes": 61658,
+    "source_kind": "Original public quantitative source"
+  },
+  {
+    "path": "data-raw/GPST000351/Metadata MALDI.xlsx",
+    "url": "https://glycopost.glycosmos.org/data/GPST000351.0/Metadata%20MALDI.xlsx",
+    "sha256": "307f7bb4f8da97af6d66151ada1b16da629ab7c53a3525b6243956d0d8a9ea84",
+    "bytes": 10865,
+    "source_kind": "Original public quantitative source"
+  }
+]

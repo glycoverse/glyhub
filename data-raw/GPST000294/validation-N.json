@@ -1,0 +1,10 @@
+{
+  "features": 202,
+  "samples": 4,
+  "numeric_values": 147,
+  "censored": 150,
+  "structures": 202,
+  "composition": 202,
+  "column_sums": [79.9, 79.5, 8.4, 9.1],
+  "valid": true
+}

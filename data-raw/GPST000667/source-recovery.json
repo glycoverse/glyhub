@@ -1,0 +1,9 @@
+[
+  {
+    "path": "data-raw/GPST000667/N-glycan-identifications.csv",
+    "url": "https://glycopost.glycosmos.org/data/GPST000667.0/N-glycan-identifications.csv",
+    "sha256": "e231c32a10354df8f5669f9489636d1f83926a8876da6e4cb9b2bf9cbba881c3",
+    "bytes": 10405,
+    "source_kind": "Original public quantitative source"
+  }
+]

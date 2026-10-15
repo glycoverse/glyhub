@@ -1,0 +1,515 @@
+[
+  {
+    "name": "glyhub_GPST000534_N",
+    "glycan_type": "N",
+    "sheet": "Table: N-Glycans derived from R. varieornatus and H. exemplaris",
+    "feature_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7_849.3",
+      "7_1011.3",
+      "7_1173.4",
+      "7_1214.4",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13_995.3",
+      "13_1157.4",
+      "13_1360.5",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "Others"
+    ],
+    "sample_ids": [
+      "R_varieornatus",
+      "H_exemplaris"
+    ],
+    "raw_matrix": [
+      [
+        4.2,
+        5.5
+      ],
+      [
+        14.8,
+        10.5
+      ],
+      [
+        null,
+        1.2
+      ],
+      [
+        3.8,
+        6.7
+      ],
+      [
+        1.8,
+        3.2
+      ],
+      [
+        7.1,
+        3.9
+      ],
+      [
+        1.5,
+        null
+      ],
+      [
+        3.7,
+        2.8
+      ],
+      [
+        4.9,
+        1.1
+      ],
+      [
+        1.2,
+        2.0
+      ],
+      [
+        2.4,
+        null
+      ],
+      [
+        0.7,
+        null
+      ],
+      [
+        1.2,
+        null
+      ],
+      [
+        3.9,
+        null
+      ],
+      [
+        1.3,
+        null
+      ],
+      [
+        3.8,
+        4.1
+      ],
+      [
+        16.4,
+        9.0
+      ],
+      [
+        3.8,
+        5.6
+      ],
+      [
+        9.7,
+        6.5
+      ],
+      [
+        7.1,
+        5.7
+      ],
+      [
+        2.4,
+        3.1
+      ],
+      [
+        null,
+        5.0
+      ],
+      [
+        null,
+        3.2
+      ],
+      [
+        1.7,
+        11.6
+      ],
+      [
+        2.6,
+        9.3
+      ]
+    ],
+    "col_data": {
+      "organism": [
+        "Ramazzottius varieornatus",
+        "Hypsibius exemplaris"
+      ],
+      "observation_level": [
+        "published species profile",
+        "published species profile"
+      ]
+    },
+    "unit": "relative quantity mol %",
+    "annotation_notes": "Source table visually checked on all four pages; aggregate Others is retained without a typed glycan. Dashes denote source missing quantities.",
+    "accession": "GPST000534",
+    "source_file": "data-raw/GPST000534/Table.docx",
+    "source_sha256": "432c48e6536244186d5c3d12fcff6703da164bc71e5ed800b54ce1afa44b543e",
+    "source_md5": "f7d7c9530a7568e35c6ba3caf4b0239d",
+    "zero_to_na": true,
+    "doi": "10.1016/j.mcpro.2025.100979",
+    "title": "N-glycan profiles of two tardigrade species",
+    "description": "Published relative molar abundances of N-glycans isolated from Ramazzottius varieornatus and Hypsibius exemplaris.",
+    "details": "The author table reports 24 identified glycan structures and an unresolved Others fraction for two species-level profiles. PA-labeled glycans were separated chromatographically; analytes sharing an LC peak remain separate by observed mass, using the author-reported MALDI intensity-based proportions. The source does not provide individual biological replicate columns, so these profiles cannot estimate within-species variation. Linkages explicitly drawn in the source are preserved; the unresolved aggregate has no typed glycan annotation.",
+    "features": 25,
+    "observations": 2,
+    "table": "Deposited Table.docx, N-Glycans derived from R. varieornatus and H. exemplaris",
+    "annotation": "Twenty-four source linkage diagrams independently checked against the rendered deposited table; Others retains missing composition and structure.",
+    "source_url": "https://glycopost.glycosmos.org/data/GPST000534.2/Table.docx",
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "structure_iupac": [
+      "Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-3)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)][Fuc(a1-3)]GlcNAc",
+      "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)][Fuc(a1-3)]GlcNAc",
+      "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+      "Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-4)[Fuc(a1-3)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      "Fuc(a1-3)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_peak_id": "1",
+        "source_feature_id": "1",
+        "composition_counts": {
+          "Man": 8,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1821.6,
+        "source_gu": 5
+      },
+      {
+        "source_peak_id": "2",
+        "source_feature_id": "2",
+        "composition_counts": {
+          "Man": 9,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1983.7,
+        "source_gu": 5.2
+      },
+      {
+        "source_peak_id": "3",
+        "source_feature_id": "3",
+        "composition_counts": {
+          "Man": 7,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1659.7,
+        "source_gu": 5.8
+      },
+      {
+        "source_peak_id": "4",
+        "source_feature_id": "4",
+        "composition_counts": {
+          "Man": 6,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1497.5,
+        "source_gu": 6.1
+      },
+      {
+        "source_peak_id": "5",
+        "source_feature_id": "5",
+        "composition_counts": {
+          "Glc": 1,
+          "Man": 9,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 2145.6,
+        "source_gu": 6.3
+      },
+      {
+        "source_peak_id": "6",
+        "source_feature_id": "6",
+        "composition_counts": {
+          "Man": 5,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1335.4,
+        "source_gu": 7.1
+      },
+      {
+        "source_peak_id": "7",
+        "source_feature_id": "7_849.3",
+        "composition_counts": {
+          "Man": 2,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 849.3,
+        "source_gu": 7.4
+      },
+      {
+        "source_peak_id": "7",
+        "source_feature_id": "7_1011.3",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1011.3,
+        "source_gu": 7.4
+      },
+      {
+        "source_peak_id": "7",
+        "source_feature_id": "7_1173.4",
+        "composition_counts": {
+          "Man": 4,
+          "GlcNAc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1173.4,
+        "source_gu": 7.4
+      },
+      {
+        "source_peak_id": "7",
+        "source_feature_id": "7_1214.4",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 3
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1214.4,
+        "source_gu": 7.4
+      },
+      {
+        "source_peak_id": "8",
+        "source_feature_id": "8",
+        "composition_counts": {
+          "Man": 1,
+          "GlcNAc": 2,
+          "Fuc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 979.4,
+        "source_gu": 8.4
+      },
+      {
+        "source_peak_id": "9",
+        "source_feature_id": "9",
+        "composition_counts": {
+          "Man": 2,
+          "GlcNAc": 2,
+          "Fuc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1141.4,
+        "source_gu": 8.8
+      },
+      {
+        "source_peak_id": "10",
+        "source_feature_id": "10",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 4
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1417.5,
+        "source_gu": 9.1
+      },
+      {
+        "source_peak_id": "11",
+        "source_feature_id": "11",
+        "composition_counts": {
+          "Man": 2,
+          "GlcNAc": 2,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 995.4,
+        "source_gu": 9.3
+      },
+      {
+        "source_peak_id": "12",
+        "source_feature_id": "12",
+        "composition_counts": {
+          "Man": 1,
+          "GlcNAc": 2,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 833.3,
+        "source_gu": 9.4
+      },
+      {
+        "source_peak_id": "13",
+        "source_feature_id": "13_995.3",
+        "composition_counts": {
+          "Man": 2,
+          "GlcNAc": 2,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 995.3,
+        "source_gu": 10.2
+      },
+      {
+        "source_peak_id": "13",
+        "source_feature_id": "13_1157.4",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 2,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1157.4,
+        "source_gu": 10.2
+      },
+      {
+        "source_peak_id": "13",
+        "source_feature_id": "13_1360.5",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 3,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1360.5,
+        "source_gu": 10.2
+      },
+      {
+        "source_peak_id": "14",
+        "source_feature_id": "14",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 4,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1563.5,
+        "source_gu": 12.6
+      },
+      {
+        "source_peak_id": "15",
+        "source_feature_id": "15",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 3,
+          "Fuc": 1
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1360.5,
+        "source_gu": 12.9
+      },
+      {
+        "source_peak_id": "16",
+        "source_feature_id": "16",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 4,
+          "Fuc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1709.9,
+        "source_gu": 15.9
+      },
+      {
+        "source_peak_id": "17",
+        "source_feature_id": "17",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 3,
+          "Fuc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1506.6,
+        "source_gu": 16.2
+      },
+      {
+        "source_peak_id": "18",
+        "source_feature_id": "18",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 5,
+          "Fuc": 2
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1912.8,
+        "source_gu": 17.3
+      },
+      {
+        "source_peak_id": "19",
+        "source_feature_id": "19",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 4,
+          "Fuc": 3
+        },
+        "annotation_evidence": "source explicit linkage diagram",
+        "source_observed_mass": 1855.6,
+        "source_gu": 19.3
+      },
+      {
+        "source_peak_id": "Others",
+        "source_feature_id": "Others",
+        "composition_counts": null,
+        "annotation_evidence": "unresolved aggregate",
+        "source_observed_mass": null,
+        "source_gu": null
+      }
+    ],
+    "license": {
+      "article_license_text": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+      "article_url": "https://doi.org/10.1016/j.mcpro.2025.100979",
+      "source_scope": "Independently deposited GlycoPOST Table.docx; article license recorded separately",
+      "reuse_scope_status": "Repository source attribution retained; article license does not automatically override deposited factual data",
+      "article_license_url": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  }
+]

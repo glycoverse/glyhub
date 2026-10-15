@@ -1,0 +1,22 @@
+{
+  "glyhub_GPST000297_O": {
+    "features": 13,
+    "samples": 3,
+    "source_rows": 14,
+    "reported": 14,
+    "missing": 25,
+    "structures": 13,
+    "column_sums": [100, 25.16, 99],
+    "valid": true
+  },
+  "glyhub_GPST000297_N": {
+    "features": 24,
+    "samples": 3,
+    "source_rows": 25,
+    "reported": 25,
+    "missing": 47,
+    "structures": 22,
+    "column_sums": [100, 100, 100],
+    "valid": true
+  }
+}

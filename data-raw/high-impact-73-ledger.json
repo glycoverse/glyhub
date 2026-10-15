@@ -1,0 +1,1173 @@
+[
+  {
+    "accession": "GPST000625",
+    "doi": "10.1002/advs.202506669",
+    "journal": "Advanced Science",
+    "jif_2025": "14.1",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000625_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000625",
+    "paper_url": "https://doi.org/10.1002/advs.202506669",
+    "reason": "Complete 32-peak quantitative matrix accepted with unresolved molecular annotation; 48 pooled structural peaks cannot be mapped one-to-one.",
+    "matrix_dimensions": [
+      "32 x 24"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "UPLC peak-level quantitative features; 32 individual-sample peaks cannot be uniquely matched to 48 pooled structural fractions. Composition and structure are intentionally missing; source peak identities are retained."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000671",
+    "doi": "10.1038/s42003-026-10759-y",
+    "journal": "Communications biology",
+    "jif_2025": "5.8",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000671_N_Glycoproteomics",
+      "glyhub_GPST000671_O_Glycoproteomics",
+      "glyhub_GPST000671_N",
+      "glyhub_GPST000671_O"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000671",
+    "reason": "Complete N-glycan (131 × 24), O-glycan (49 × 22), N-glycoproteomic (3609 × 90) and O-glycoproteomic (253 × 90) matrices validated against original source cells and molecular annotations.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000671",
+      "https://doi.org/10.1038/s42003-026-10759-y"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000712",
+    "doi": "10.3390/ijms27146309",
+    "journal": "International journal of molecular sciences",
+    "jif_2025": "5.6",
+    "status": "pending_inverse_parameters",
+    "datasets": [],
+    "reason": "The supplied log10-labelled matrix additionally has feature-wise median zero and squared sum 64 across 65 samples. Required original centering/scaling parameters and transform order are unavailable, preventing a defensible return to linear abundance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000712",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000712"
+  },
+  {
+    "accession": "GPST000680",
+    "doi": "10.1038/s42003-026-10622-0",
+    "journal": "Communications biology",
+    "jif_2025": "5.8",
+    "status": "excluded_incomplete_quantification",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000680",
+    "paper_url": "https://doi.org/10.1038/s42003-026-10622-0",
+    "reason": "Five condition-exclusive glycopeptides are selected for Figure3, two single condition intensities. Authors confirm in official peer-review file MOESM1 pp3–4 that other detected glycopeptides were deliberately omitted. No complete abundance table recovered from Byonic identification exports.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000596",
+    "doi": "10.1161/atvbaha.126.324757",
+    "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+    "jif_2025": "8.8",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000596_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000596",
+    "reason": "Complete 50 × 6 platelet N-glycan AUC matrix; the derived normalized block is not duplicated.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000596",
+      "https://doi.org/10.1161/atvbaha.126.324757"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000705",
+    "doi": "10.3390/biom16060760",
+    "journal": "Biomolecules",
+    "jif_2025": "5.6",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "reason": "Repository contains raw spectra and preparation metadata. Published supplement contains four fluorescence chromatograms, not a numerical glycan × sample abundance matrix.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000705",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000705"
+  },
+  {
+    "accession": "GPST000647",
+    "doi": "10.3390/ijms27041643",
+    "journal": "International journal of molecular sciences",
+    "jif_2025": "5.6",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000647_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000647",
+    "paper_url": "https://doi.org/10.3390/ijms27041643",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "179 x 9"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived composition annotations; linkage information is retained as source annotation without inferring a full topology. No complete unambiguous structures are asserted."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000650",
+    "doi": "10.3390/ijms27041643",
+    "journal": "International journal of molecular sciences",
+    "jif_2025": "5.6",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000650_O"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000650",
+    "paper_url": "https://doi.org/10.3390/ijms27041643",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "25 x 9"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived composition annotations; linkage information is retained as source annotation without inferring a full topology. No complete unambiguous structures are asserted."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000601",
+    "doi": "10.3390/ijms26157266",
+    "journal": "International journal of molecular sciences",
+    "jif_2025": "5.6",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000601_N_glycopeptides",
+      "glyhub_GPST000601_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000601",
+    "paper_url": "https://doi.org/10.3390/ijms26157266",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "1256 x 20",
+      "14 x 139"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived compositions and original annotation fields are preserved; unknown linkages are not inferred.",
+      "Source-derived compositions and original labels are retained. 6 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000629",
+    "doi": "10.1021/acs.analchem.5c07563",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000629",
+    "reason": "Deposit provides raw MS and annotated MS2 workspace. Official ACS SI was successfully recovered and contains three figures: ion-intensity plots, search grouping and chromatograms. No complete numerical quantitative matrix.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000629",
+      "https://doi.org/10.1021/acs.analchem.5c07563",
+      "https://ndownloader.figshare.com/files/63977920?download=1"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000534",
+    "doi": "10.1016/j.mcpro.2025.100979",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000534_N"
+    ],
+    "reason": "Complete source-backed quantitative matrix with reviewed typed annotations and source-cell provenance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000534",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000534"
+  },
+  {
+    "accession": "GPST000578",
+    "doi": "10.1038/s41467-026-73091-3",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000578_N_total_peak_area",
+      "glyhub_GPST000578_N_source_repeatability_intensity",
+      "glyhub_GPST000578_N_Fetuin_TwoSites"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000578"
+  },
+  {
+    "accession": "GPST000602",
+    "doi": "10.1038/s41467-026-70850-0",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000602_Sh_GSL",
+      "glyhub_GPST000602_Sm_GSL",
+      "glyhub_GPST000602_Sh_N",
+      "glyhub_GPST000602_Sm_N",
+      "glyhub_GPST000602_Sh_O"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000602"
+  },
+  {
+    "accession": "GPST000562",
+    "doi": "10.1016/j.mcpro.2026.101524",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted_with_supplement_pending",
+    "datasets": [
+      "glyhub_GPST000562_CS_DS"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000562",
+    "reason": "CS/DS 4x11 complete fmol matrix. Unsaturated uronic acid unsupported in glyrepr; exact author codes and sulfate positions retained. Supplement S6 long-form glycopeptide data need separate aggregation/coordinate review; not silently accepted.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000562",
+      "https://doi.org/10.1016/j.mcpro.2026.101524",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S1535947626000198-mmc2.xlsx"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000667",
+    "doi": "10.1016/j.mcpro.2026.101524",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000667_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000667",
+    "reason": "Complete 271x4 N-glycan abundance profiles; ambiguous alternative compositions retained. Same paper as562, different glycan type.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000667",
+      "https://doi.org/10.1016/j.mcpro.2026.101524"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000676",
+    "doi": "10.1038/s41467-026-70804-6",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000676_GAG"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000676"
+  },
+  {
+    "accession": "GPST000666",
+    "doi": "10.1038/s41467-026-68786-6",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "excluded_binding_signal",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000666",
+    "paper_url": "https://doi.org/10.1038/s41467-026-68786-6",
+    "reason": "Source Data supplies lectin-array binding RFU and flow-cytometry MFI for anti-alpha1,3-fucose antibody/LCA lectin (Figure4b), plus molecular-dynamics trajectories. Figure4b caption confirms two independent experiments and averages, not glycan peak areas. No complete molecular abundance matrix recovered.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000657",
+    "doi": "10.1038/s41467-025-68220-3",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000657",
+    "reason": "DepositedpeptideCSV identificationreport plusrawMS; officialSI3 proteomicexpressionlist andSI7 figure-source phenotypes/blotquantities, not complete quantitative glycopeptide/glycanmatrix.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000657",
+      "https://doi.org/10.1038/s41467-025-68220-3",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12891724/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000599",
+    "doi": "10.1016/j.mcpro.2025.101470",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000599_serum_n"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000599"
+  },
+  {
+    "accession": "GPST000460",
+    "doi": "10.1021/acs.analchem.3c03649",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000460_N"
+    ],
+    "reason": "Complete source-backed quantitative matrix with reviewed typed annotations and source-cell provenance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000460",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000460"
+  },
+  {
+    "accession": "GPST000604",
+    "doi": "10.1021/acs.analchem.5c02338",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000604_HS",
+      "glyhub_GPST000604_CS_DS"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000604",
+    "paper_url": "https://doi.org/10.1021/acs.analchem.5c02338",
+    "reason": "Complete lyase-disaccharide areas accepted with exact ΔUA/sulfation source chemistry; typed annotation missing because current vocabulary cannot represent ΔUA.",
+    "matrix_dimensions": [
+      "8 x 21",
+      "7 x 18"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Exact source structures and modification counts retained; typed composition missing because DeltaUA is unsupported. No saturated-residue substitution.",
+      "Exact source structures and modification counts retained; typed composition missing because DeltaUA is unsupported. No saturated-residue substitution."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000384",
+    "doi": "10.1016/j.carbpol.2024.122084",
+    "journal": "Carbohydrate polymers",
+    "jif_2025": "13.2",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000384",
+    "reason": "Deposited Result_file.pdf and official supplementary DOCX Table S1 contain138 N-glycan identities/compositions/structures without abundances; Table S2 reports adjusted statistical P values and remaining figures contain spectra/plots, not a numerical sample abundance matrix.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000384",
+      "https://doi.org/10.1016/j.carbpol.2024.122084",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S0144861724003102-mmc1.docx"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000405",
+    "doi": "10.1038/s42004-025-01490-6",
+    "journal": "Communications chemistry",
+    "jif_2025": "6.9",
+    "status": "pending_schema_decision",
+    "datasets": [],
+    "reason": "Complete six-sample muropeptide intensity table exists. Peptidoglycan oligomers with peptide crosslinks are outside current N/O/GAG/GSL and protein-site glycopeptide representation; do not force a misleading class.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000405",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000405"
+  },
+  {
+    "accession": "GPST000585",
+    "doi": "10.3390/ijms26104891",
+    "journal": "International journal of molecular sciences",
+    "jif_2025": "5.6",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000585_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000585",
+    "paper_url": "https://doi.org/10.3390/ijms26104891",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "23 x 28"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived composition annotations; linkage information is retained as source annotation without inferring a full topology. No complete unambiguous structures are asserted."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000547",
+    "doi": "10.1016/j.carpta.2025.100826",
+    "journal": "Carbohydrate Polymer Technologies and Applications",
+    "jif_2025": "7.6",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000547",
+    "reason": "Deposited Cohort_Data containsclinicalmetadata only. Official supplementarydocx contains statisticalcomparison summaries, chromatograms and histology, not sample-by-disaccharide abundance matrix.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000547",
+      "https://doi.org/10.1016/j.carpta.2025.100826",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S2666893925001641-mmc1.docx"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000584",
+    "doi": "10.1038/s41467-026-68579-x",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000584_N"
+    ],
+    "reason": "Complete HCC abundance matrix with exact-ID clinical metadata joins. Publisher supplementary files remain externally hosted; original source terms are retained separately from the package code license.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000584",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000584"
+  },
+  {
+    "accession": "GPST000369",
+    "doi": "10.1016/j.mcpro.2025.100981",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "excluded_unaligned_psm_quantification",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000369",
+    "paper_url": "https://doi.org/10.1016/j.mcpro.2025.100981",
+    "reason": "Supplementary mmc2.xlsx supplies Sf9/Hi5 identification/PSM tables with per-spectrum Precursor Intensity and glycan mass, plus deglycosylated peptide and haemagglutinin search results. No complete aligned molecular glycoform abundance table; generating one would require PSM grouping/quantitative reanalysis. Intensities do exist and are not claimed absent.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000580",
+    "doi": "10.1038/s41586-025-09162-0",
+    "journal": "Nature",
+    "jif_2025": "56.1",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000580",
+    "reason": "All15 officialsourceworkbooks independently re-inspected from priorcache; GAGclass totals and sulfate-per-disaccharide summaries, phenotypes/lipids, not complete molecularmatrix; currentrepository unchanged.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000580",
+      "https://doi.org/10.1038/s41586-025-09162-0"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000473",
+    "doi": "10.1038/s41467-025-60563-1",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000473_N"
+    ],
+    "reason": "Complete source-backed quantitative matrix with reviewed typed annotations and source-cell provenance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000473",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000473"
+  },
+  {
+    "accession": "GPST000495",
+    "doi": "10.3390/biom14121482",
+    "journal": "Biomolecules",
+    "jif_2025": "5.6",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000495",
+    "paper_url": "https://doi.org/10.3390/biom14121482",
+    "reason": "Deposited TIF and official SI PDF provide annotated spectra, fragmentation evidence and glycan profiles for normal/thyroid carcinoma material, without a complete numerical feature-by-sample abundance table.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000533",
+    "doi": "10.1038/s41467-025-56524-3",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000533_N_Released",
+      "glyhub_GPST000533_N_Glycopeptides"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000533"
+  },
+  {
+    "accession": "GPST000301",
+    "doi": "10.1038/s41589-024-01763-6",
+    "journal": "Nature chemical biology",
+    "jif_2025": "15.8",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000301",
+    "reason": "Official SI tables are monosaccharide/linkage analysis and associated phenotypes, not complete intactglycan/glycopeptide matrices. Priorpilot exclusion confirmed.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000301",
+      "https://doi.org/10.1038/s41589-024-01763-6",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11949833/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000474",
+    "doi": "10.3390/molecules28020552",
+    "journal": "Molecules (Basel, Switzerland)",
+    "jif_2025": "5.1",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "reason": "Enzymology study: deposited mass lists and raw data; supplementary figures show expression, HPLC transfer assay and NMR. No complete sample-level glycan abundance matrix.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000474",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000474"
+  },
+  {
+    "accession": "GPST000403",
+    "doi": "10.3390/biom14091077",
+    "journal": "Biomolecules",
+    "jif_2025": "5.6",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000403_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000403",
+    "paper_url": "https://doi.org/10.3390/biom14091077",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "113 x 24"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived composition annotations; linkage information is retained as source annotation without inferring a full topology. No complete unambiguous structures are asserted."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000321",
+    "doi": "10.3389/fimmu.2023.1147960",
+    "journal": "Frontiers in immunology",
+    "jif_2025": "7.0",
+    "status": "excluded_scope",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000321",
+    "paper_url": "https://doi.org/10.3389/fimmu.2023.1147960",
+    "reason": "Supplementary Table1 contains site-level aggregated glycan classes (Man5–9, GnGn, others) and occupancy percentages, not a complete distinguishable-molecular-feature abundance matrix. Theoretical mass lists do not resolve this. Class-level quantitative data genuinely exist.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000374",
+    "doi": "10.1021/acs.analchem.3c04928",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000374_sssmug_gsl",
+      "glyhub_GPST000374_sssmug_n",
+      "glyhub_GPST000374_O"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000374"
+  },
+  {
+    "accession": "GPST000360",
+    "doi": "10.1016/j.mcpro.2024.100711",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "excluded_no_quantification",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000360",
+    "reason": "Official supplementary methods explicitly state no quantification was performed. DepositedPDF containsidentifications.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000360",
+      "https://doi.org/10.1016/j.mcpro.2024.100711",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10850124/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000381",
+    "doi": "10.1126/science.adg1955",
+    "journal": "Science",
+    "jif_2025": "47.3",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000381_N_Prosaposin"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000381"
+  },
+  {
+    "accession": "GPST000271",
+    "doi": "10.1038/s41556-023-01297-4",
+    "journal": "Nature cell biology",
+    "jif_2025": "22.7",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000271_N_CAL51",
+      "glyhub_GPST000271_O_CAL51"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000271"
+  },
+  {
+    "accession": "GPST000298",
+    "doi": "10.1073/pnas.2311422120",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "jif_2025": "9.5",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000298",
+    "reason": "Deposited and officialSI quantify constituent monosaccharides/glycosidic linkages, not intact glycans/glycopeptides. Samepaper284; no duplicate dataset.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000298",
+      "https://doi.org/10.1073/pnas.2311422120",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10523453/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000284",
+    "doi": "10.1073/pnas.2311422120",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "jif_2025": "9.5",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000284",
+    "reason": "SamePNASpaper298; IDs and rawMS in deposit, SI monosaccharide/linkage assays outside intactglycan scope.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000284",
+      "https://doi.org/10.1073/pnas.2311422120"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000296",
+    "doi": "10.1016/j.mcpro.2023.100586",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000296_N",
+      "glyhub_GPST000296_N_Glycoproteomics"
+    ],
+    "reason": "Complete N-glycome with source-supported partial structures; glycoproteomics coverage is described in the dataset inventory. Original publisher files remain externally hosted.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000296",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000296"
+  },
+  {
+    "accession": "GPST000297",
+    "doi": "10.1038/s41467-023-41094-z",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000297_O",
+      "glyhub_GPST000297_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000297",
+    "paper_url": "https://doi.org/10.1038/s41467-023-41094-z",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "13 x 3",
+      "24 x 3"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "All 13 proposed O-glycan structures are encoded with unknown linkages and source floating-group ambiguity. Native methyl substituents remain explicit.",
+      "22 proposed source structures retain unspecified linkages and floating-group uncertainty. Native methyl groups remain explicit. Source composition and structure are missing for conflicting N-glycan assignments rather than selected by assumption."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000323",
+    "doi": "10.3389/fimmu.2023.1147960",
+    "journal": "Frontiers in immunology",
+    "jif_2025": "7.0",
+    "status": "excluded_scope",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000323",
+    "paper_url": "https://doi.org/10.3389/fimmu.2023.1147960",
+    "reason": "Same paper and identical theoretical mass-list payload as GPST000321. SI contains class-level glycan percentages/occupancy rather than a complete molecularly distinguishable-feature matrix.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000351",
+    "doi": "10.1016/j.mcpro.2023.100615",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000351_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000351",
+    "reason": "Complete 72 × 46 author-renormalized N-glycan matrix with exact-file-matched mouse metadata.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000351",
+      "https://doi.org/10.1016/j.mcpro.2023.100615",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10462831/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000337",
+    "doi": "10.3390/ijms24087050",
+    "journal": "International journal of molecular sciences",
+    "jif_2025": "5.6",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "reason": "Deposited Cohort Data.xlsx contains patient metadata only; supplementary Tables S1–S2 give aggregate comparisons and Tables S3–S4 identify disaccharides. No complete per-sample quantitative matrix found.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000337",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000337"
+  },
+  {
+    "accession": "GPST000299",
+    "doi": "10.3389/fimmu.2023.1102344",
+    "journal": "Frontiers in immunology",
+    "jif_2025": "7.0",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000299_N",
+      "glyhub_GPST000299_GSL"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000299",
+    "paper_url": "https://doi.org/10.3389/fimmu.2023.1102344",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "48 x 1",
+      "41 x 1"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived compositions and original labels are retained. 19 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance.",
+      "Source-derived compositions and original labels are retained. 18 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000294",
+    "doi": "10.1016/j.mcpro.2023.100505",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000294_O_Celegans_Development",
+      "glyhub_GPST000294_N_Celegans_L4"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000294",
+    "reason": "Complete O-glycan profiles (20 × 6), plus all 202 N-glycan source rows across four L4 culture/release profiles. Exact percentage values and censored inequalities are distinguished; retention times are not abundance.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000294",
+      "https://doi.org/10.1016/j.mcpro.2023.100505",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7614267/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000211",
+    "doi": "10.1016/j.mcpro.2024.100717",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000211_O"
+    ],
+    "reason": "Complete source-backed quantitative matrix with reviewed typed annotations and source-cell provenance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000211",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000211"
+  },
+  {
+    "accession": "GPST000239",
+    "doi": "10.1016/j.mcpro.2022.100239",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000239_GSL"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000239",
+    "paper_url": "https://doi.org/10.1016/j.mcpro.2022.100239",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "94 x 22"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived compositions and original labels are retained. 94 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000216",
+    "doi": "10.1038/s42003-022-03697-y",
+    "journal": "Communications biology",
+    "jif_2025": "5.8",
+    "status": "blocked_source_review",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000216",
+    "reason": "Additional structure-to-quantification review could not be completed because access to the relevant content was restricted. No dataset or source payload is included in this expansion.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000216",
+      "https://doi.org/10.1038/s42003-022-03697-y",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9343384/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": true,
+    "source_payload_retained": false
+  },
+  {
+    "accession": "GPST000190",
+    "doi": "10.1021/acs.analchem.1c02610",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000190_N"
+    ],
+    "reason": "Complete source-backed quantitative matrix with reviewed typed annotations and source-cell provenance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000190",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000190"
+  },
+  {
+    "accession": "GPST000183",
+    "doi": "10.7150/thno.65398",
+    "journal": "Theranostics",
+    "jif_2025": "14.9",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000183_n",
+      "glyhub_GPST000183_o"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000183"
+  },
+  {
+    "accession": "GPST000240",
+    "doi": "10.1016/j.mcpro.2022.100201",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000240_N",
+      "glyhub_GPST000240_GSL"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000240",
+    "paper_url": "https://doi.org/10.1016/j.mcpro.2022.100201",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "47 x 9",
+      "47 x 8"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "47 proposed source structures are encoded with unspecified linkages and floating groups kept uncertain. Source compositions preserve Hex, HexNAc, Fuc, GlcA and phosphorylcholine; analytical anthranilic-acid labeling is recorded separately.",
+      "46 proposed source structures are encoded with unspecified linkages and floating groups kept uncertain. Source compositions preserve Hex, HexNAc, Fuc, GlcA and phosphorylcholine; analytical anthranilic-acid labeling is recorded separately."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000214",
+    "doi": "10.3390/cells10113058",
+    "journal": "Cells",
+    "jif_2025": "6.0",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000214_N_AML_CellLines",
+      "glyhub_GPST000214_O_AML_CellLines"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000214",
+    "reason": "Complete 68 × 21 N-glycan and 23 × 21 O-glycan AML cell-line profiles. Author-imputed 0.01 values are retained; overlapping RSD subsets remain auxiliary quality-control data.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000214",
+      "https://doi.org/10.3390/cells10113058",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8616353/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": true
+  },
+  {
+    "accession": "GPST000213",
+    "doi": "10.1038/s41467-021-27781-9",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000213_N",
+      "glyhub_GPST000213_O"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000213"
+  },
+  {
+    "accession": "GPST000125",
+    "doi": "10.1016/j.devcel.2021.02.023",
+    "journal": "Developmental cell",
+    "jif_2025": "9.2",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000125_N_HEK293",
+      "glyhub_GPST000125_O_HEK293",
+      "glyhub_GPST000125_GSL_HEK293"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000125"
+  },
+  {
+    "accession": "GPST000120",
+    "doi": "10.1016/j.chom.2020.08.004",
+    "journal": "Cell host & microbe",
+    "jif_2025": "23.2",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000120_O_Spike_ACE2"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000120"
+  },
+  {
+    "accession": "GPST000198",
+    "doi": "10.1016/j.mcpro.2021.100150",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "reason": "Same ovarian O-glycan sulfation paper: supplemental tables provide tentative identities, qualitative presence/absence and scan/IHC summaries; repository contains raw spectra and identification records, not a complete glycan abundance matrix.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000198",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000198"
+  },
+  {
+    "accession": "GPST000199",
+    "doi": "10.1016/j.mcpro.2021.100150",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "reason": "Same ovarian O-glycan sulfation paper: supplemental tables provide tentative identities, qualitative presence/absence and scan/IHC summaries; repository contains raw spectra and identification records, not a complete glycan abundance matrix.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000199",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000199"
+  },
+  {
+    "accession": "GPST000192",
+    "doi": "10.1016/j.mcpro.2021.100150",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "excluded_no_complete_quantitative_table",
+    "datasets": [],
+    "reason": "Same ovarian O-glycan sulfation paper: supplemental tables provide tentative identities, qualitative presence/absence and scan/IHC summaries; repository contains raw spectra and identification records, not a complete glycan abundance matrix.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000192",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000192"
+  },
+  {
+    "accession": "GPST000170",
+    "doi": "10.1021/acs.analchem.1c00023",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000170_N",
+      "glyhub_GPST000170_O"
+    ],
+    "reason": "Complete source-backed quantitative matrix with reviewed typed annotations and source-cell provenance.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000170",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000170"
+  },
+  {
+    "accession": "GPST000128",
+    "doi": "10.1182/bloodadvances.2020003376",
+    "journal": "Blood advances",
+    "jif_2025": "7.7",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000128_n_precursor",
+      "glyhub_GPST000128_o_precursor"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000128"
+  },
+  {
+    "accession": "GPST000041",
+    "doi": "10.1074/mcp.m114.038315",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "blocked_supplement_access",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000041",
+    "paper_url": "https://doi.org/10.1074/mcp.m114.038315",
+    "reason": "All six deposited XLSX files are identification/scan/Mascot metadata without quantitative abundance tables. Official full text/supplements remain inaccessible: EuropePMC HTTP500, PMC challenge, publisher403. Supplementary quantitative-data availability therefore remains unknown.",
+    "matrix_dimensions": [],
+    "source_payload_retained": false,
+    "limitations": [],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000035",
+    "doi": "10.1007/s00018-020-03504-z",
+    "journal": "Cellular and molecular life sciences : CMLS",
+    "jif_2025": "6.5",
+    "status": "already_curated",
+    "datasets": [
+      "glyhub_GPST000035_O"
+    ],
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000035"
+  },
+  {
+    "accession": "GPST000124",
+    "doi": "10.1038/s41564-020-00798-4",
+    "journal": "Nature microbiology",
+    "jif_2025": "18.7",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000124",
+    "reason": "Currentdeposit rawMS+sampleIDs; officialpublisher supplementarylist includesreporting/peerreview and westernblot sourcePDFs. Extendedfigures showMS/XICtraces, no complete numericalmatrix.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000124",
+      "https://doi.org/10.1038/s41564-020-00798-4",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7755725/supplementaryFiles"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000109",
+    "doi": "10.1074/mcp.ra120.002225",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "pending_supplement_access",
+    "datasets": [],
+    "reason": "Full PMC article is readable. Linked quantitative supplementary XLS/XLSX downloads return browser-check HTML; Europe PMC supplementary archive reports retrieval errors. Candidate quantitative data cannot yet be evaluated.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000109",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000109"
+  },
+  {
+    "accession": "GPST000079",
+    "doi": "10.1074/mcp.ra120.002166",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000079_N"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000079",
+    "paper_url": "https://doi.org/10.1074/mcp.ra120.002166",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "104 x 12"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived compositions and original annotation fields are preserved; unknown linkages are not inferred."
+    ],
+    "checked_date": "2026-10-15"
+  },
+  {
+    "accession": "GPST000026",
+    "doi": "10.1021/acs.analchem.6b03081",
+    "journal": "Analytical chemistry",
+    "jif_2025": "7.3",
+    "status": "excluded_no_eligible_matrix",
+    "datasets": [],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000026",
+    "reason": "Currentdeposit has4rawfiles. OfficialACS supportingPDF containsmethods, spectra/chromatograms and compositionabundance plots, not full numericalquantitative table.",
+    "checked_date": "2026-10-15",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000026",
+      "https://doi.org/10.1021/acs.analchem.6b03081"
+    ],
+    "retained_source_payloads_in_package": false
+  },
+  {
+    "accession": "GPST000038",
+    "doi": "10.1038/s41467-019-11131-x",
+    "journal": "Nature communications",
+    "jif_2025": "18.1",
+    "status": "excluded_identification_resource",
+    "datasets": [],
+    "reason": "UniCarb-DR spectral/identification resource; prior pilot evaluation identified no complete quantitative abundance matrix.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000038",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000038"
+  },
+  {
+    "accession": "GPST000027",
+    "doi": "10.1074/mcp.ra119.001534",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "pending_supplement_access",
+    "datasets": [],
+    "reason": "Full PMC article is readable. Linked quantitative supplementary XLS/XLSX downloads return browser-check HTML; Europe PMC supplementary archive reports retrieval errors. Candidate quantitative data cannot yet be evaluated.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000027",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000027"
+  },
+  {
+    "accession": "GPST000031",
+    "doi": "10.1074/mcp.ra119.001534",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "pending_supplement_access",
+    "datasets": [],
+    "reason": "Full PMC article is readable. Linked quantitative supplementary XLS/XLSX downloads return browser-check HTML; Europe PMC supplementary archive reports retrieval errors. Candidate quantitative data cannot yet be evaluated.",
+    "source_url": "https://glycopost.glycosmos.org/entry/GPST000031",
+    "checked_date": "2026-10-15",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000031"
+  },
+  {
+    "accession": "GPST000009",
+    "doi": "10.1074/mcp.ra119.001319",
+    "journal": "Molecular & cellular proteomics : MCP",
+    "jif_2025": "6.3",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000009_O"
+    ],
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000009",
+    "paper_url": "https://doi.org/10.1074/mcp.ra119.001319",
+    "reason": "Complete quantitative matrix or profile validated against original source cells.",
+    "matrix_dimensions": [
+      "169 x 57"
+    ],
+    "source_payload_retained": true,
+    "limitations": [
+      "Source-derived compositions and original labels are retained. 152 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance."
+    ],
+    "checked_date": "2026-10-15"
+  }
+]

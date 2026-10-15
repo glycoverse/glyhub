@@ -1,0 +1,14 @@
+[
+  {
+    "accession": "GPST000079",
+    "path": "data-raw/GPST000079/mmc6.xlsx",
+    "sha256": "b02f059c2d5aabccbb52ce12123915210c1eb2a1b1723129819e02c597ba7788",
+    "bytes": 72026,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8724610/supplementaryFiles",
+    "archive_members": [
+      "mmc6.xlsx"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  }
+]

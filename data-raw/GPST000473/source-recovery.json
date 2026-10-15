@@ -1,0 +1,13 @@
+[
+  {
+    "path": "data-raw/GPST000473/41467_2025_60563_MOESM5_ESM.xlsx",
+    "bytes": 447484,
+    "sha256": "2f6b0bebe25d6966de7a30047ff01935f77535a268b5c8b1e7f281e58081b6ac",
+    "md5": "f92d11e3a0f68f694e07527e590b8cfd",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12144310/supplementaryFiles",
+    "archive_member": "41467_2025_60563_MOESM5_ESM.xlsx",
+    "archive_sha256": "e35308f56e51d53d9235d066e0c8f23eebfade3045cadb968c394b8a49f3f327",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  }
+]

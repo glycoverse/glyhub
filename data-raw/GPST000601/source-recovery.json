@@ -1,0 +1,35 @@
+[
+  {
+    "accession": "GPST000601",
+    "path": "data-raw/GPST000601/Tables S1, S2, S3, S4.xlsx",
+    "sha256": "b2a8ece15b18e18e267a9bab28c8e8fff33a2b5362146aad216fbb7550577b4e",
+    "bytes": 1631914,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12347175/supplementaryFiles",
+    "archive_members": [
+      "ijms-26-07266-s001.zip",
+      "Tables S1, S2, S3, S4.xlsx"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  },
+  {
+    "accession": "GPST000601",
+    "path": "data-raw/GPST000601/F1D_ME-20250608-105636-result.xlsx",
+    "sha256": "c66279fa790f91354c626c7ab8bdb98605fc7a4d4ae3009a686b0876a09ea71b",
+    "bytes": 88858,
+    "url": "https://glycopost.glycosmos.org/data/GPST000601.0/F1D_ME-20250608-105636-result.xlsx",
+    "archive_members": [],
+    "source_kind": "GlycoPOST deposited source",
+    "verified": "Downloaded source checksum matches pinned payload"
+  },
+  {
+    "accession": "GPST000601",
+    "path": "data-raw/GPST000601/Assignment.pdf",
+    "sha256": "581522259b0d06535984c7322e1b0d4044830c7b953b734021e4e99c249f997d",
+    "bytes": 159113,
+    "url": "https://glycopost.glycosmos.org/data/GPST000601.0/Assignment.pdf",
+    "archive_members": [],
+    "source_kind": "GlycoPOST deposited source",
+    "verified": "Downloaded source checksum matches pinned payload"
+  }
+]

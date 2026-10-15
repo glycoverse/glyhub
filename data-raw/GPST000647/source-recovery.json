@@ -1,0 +1,12 @@
+[
+  {
+    "accession": "GPST000647",
+    "path": "data-raw/GPST000647/N-Glycan.xlsx",
+    "sha256": "59f336af83944454c7ce6f83d021cc8d6ef1072703877117ede81f4cf8b5b403",
+    "bytes": 43158,
+    "url": "https://glycopost.glycosmos.org/data/GPST000647.0/N-Glycan.xlsx",
+    "archive_members": [],
+    "source_kind": "GlycoPOST deposited source",
+    "verified": "Downloaded source checksum matches pinned payload"
+  }
+]

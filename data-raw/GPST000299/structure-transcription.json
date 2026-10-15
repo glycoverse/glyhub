@@ -1,0 +1,298 @@
+[
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 3,
+    "source_label": "H2N2-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 6,
+    "source_label": "H2N2F1-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 7,
+    "source_label": "H3N2-AA",
+    "iupac_condensed": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 9,
+    "source_label": "H3N2F1-AA",
+    "iupac_condensed": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 10,
+    "source_label": "H4N2-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 14,
+    "source_label": "H4N2F1-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 15,
+    "source_label": "H5N2-AA",
+    "iupac_condensed": "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 19,
+    "source_label": "H3N4-AA",
+    "iupac_condensed": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 21,
+    "source_label": "H5N2F1-AA",
+    "iupac_condensed": "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 22,
+    "source_label": "H6N2-AA",
+    "iupac_condensed": "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 24,
+    "source_label": "H5N3-AA",
+    "iupac_condensed": "Man(?1-?)[Man(?1-?)]Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 25,
+    "source_label": "H3N4F1-AA",
+    "iupac_condensed": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 27,
+    "source_label": "H3N5-AA",
+    "iupac_condensed": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 28,
+    "source_label": "H7N2-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 30,
+    "source_label": "H3N5F1-AA",
+    "iupac_condensed": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 32,
+    "source_label": "H8N2-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 33,
+    "source_label": "H3N4PC2F1-AA",
+    "iupac_condensed": "GlcNAc?PC(?1-?)Man(?1-?)[GlcNAc?PC(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 37,
+    "source_label": "H9N2-AA",
+    "iupac_condensed": "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_N",
+    "source_sheet": "N-glycans",
+    "source_row": 43,
+    "source_label": "H10N2-AA",
+    "iupac_condensed": "Glc(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 5,
+    "source_label": "H2N2PC1-AA",
+    "iupac_condensed": "GalNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 12,
+    "source_label": "H3N2PC1-AA",
+    "iupac_condensed": "Gal(?1-?)GalNAc?PC(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 13,
+    "source_label": "H2A1N2PC1-AA",
+    "iupac_condensed": "GlcA(?1-?)GalNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 16,
+    "source_label": "H3N2PC1F1-AA",
+    "iupac_condensed": "Fuc(?1-?)Gal(?1-?)GalNAc?PC(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 18,
+    "source_label": "H3A1N2F1-AA",
+    "iupac_condensed": "Fuc(?1-?)Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 19,
+    "source_label": "H3A1N2PC1-AA",
+    "iupac_condensed": "Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 20,
+    "source_label": "H3N3PC1-AA",
+    "iupac_condensed": "Gal(?1-?)GalNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 26,
+    "source_label": "H3N3PC2-AA",
+    "iupac_condensed": "Gal(?1-?)GalNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 27,
+    "source_label": "H3A1N3PC1-AA",
+    "iupac_condensed": "Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 28,
+    "source_label": "H2N4PC2-AA",
+    "iupac_condensed": "GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 30,
+    "source_label": "H3A1N3PC2-AA",
+    "iupac_condensed": "Gal(?1-?)[GlcA(?1-?)]GalNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 31,
+    "source_label": "H3A1N4F1-AA",
+    "iupac_condensed": "Fuc(?1-?)Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc(?1-?)GlcNAc(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 33,
+    "source_label": "H2N5PC2-AA",
+    "iupac_condensed": "GlcNAc(?1-?)GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 35,
+    "source_label": "H2N5PC3-AA",
+    "iupac_condensed": "GalNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 36,
+    "source_label": "H2N6PC2-AA",
+    "iupac_condensed": "GalNAc(?1-?)GlcNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 38,
+    "source_label": "H2N6PC3-AA",
+    "iupac_condensed": "GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 39,
+    "source_label": "H2N6PC3F1-AA",
+    "iupac_condensed": "Fuc(?1-?)GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000299_GSL",
+    "source_sheet": "GSL glycans",
+    "source_row": 41,
+    "source_label": "H2N7PC3-AA",
+    "iupac_condensed": "GalNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  }
+]

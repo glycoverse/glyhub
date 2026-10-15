@@ -1,0 +1,20 @@
+{
+  "glyhub_GPST000240_N": {
+    "features": 47,
+    "samples": 9,
+    "observed": 328,
+    "zero_to_na": 0,
+    "missing": 95,
+    "structures": 47,
+    "valid": true
+  },
+  "glyhub_GPST000240_GSL": {
+    "features": 47,
+    "samples": 8,
+    "observed": 244,
+    "zero_to_na": 0,
+    "missing": 132,
+    "structures": 46,
+    "valid": true
+  }
+}

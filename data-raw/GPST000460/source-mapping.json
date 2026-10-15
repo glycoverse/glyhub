@@ -1,0 +1,1101 @@
+[
+  {
+    "source_row": 3,
+    "glycan_number": 1,
+    "source_composition": "GlcNAc2Man1",
+    "glytoucan_id": "G65996GC",
+    "rrt": 3.9
+  },
+  {
+    "source_row": 4,
+    "glycan_number": 2,
+    "source_composition": "GlcNAc2Man1 + Fuc1",
+    "glytoucan_id": "G92744LV",
+    "rrt": 6.1
+  },
+  {
+    "source_row": 5,
+    "glycan_number": 3,
+    "source_composition": "GlcNAc2Man2 (A)",
+    "glytoucan_id": "G27243WR",
+    "rrt": 4.8
+  },
+  {
+    "source_row": 6,
+    "glycan_number": 4,
+    "source_composition": "GlcNAc2Man2 (B)",
+    "glytoucan_id": "G53394BX",
+    "rrt": 5.5
+  },
+  {
+    "source_row": 7,
+    "glycan_number": 5,
+    "source_composition": "GlcNAc2Man2 + Fuc1 (A)",
+    "glytoucan_id": "G19483CU",
+    "rrt": 7.2
+  },
+  {
+    "source_row": 8,
+    "glycan_number": 6,
+    "source_composition": "GlcNAc2Man2 + Fuc1 (B)",
+    "glytoucan_id": "G19483CU",
+    "rrt": 8.1
+  },
+  {
+    "source_row": 9,
+    "glycan_number": 7,
+    "source_composition": "GlcNAc2Man3 (A)",
+    "glytoucan_id": "G17271TR",
+    "rrt": 4
+  },
+  {
+    "source_row": 10,
+    "glycan_number": 8,
+    "source_composition": "GlcNAc2Man3 (B)",
+    "glytoucan_id": "G17271TR",
+    "rrt": 4.6
+  },
+  {
+    "source_row": 11,
+    "glycan_number": 9,
+    "source_composition": "GlcNAc2Man3 (C)",
+    "glytoucan_id": "G17271TR",
+    "rrt": 5.7
+  },
+  {
+    "source_row": 12,
+    "glycan_number": 10,
+    "source_composition": "GlcNAc2Man3 (D)",
+    "glytoucan_id": "G43547MI",
+    "rrt": 6.7
+  },
+  {
+    "source_row": 13,
+    "glycan_number": 11,
+    "source_composition": "GlcNAc2Man3 + Fuc1 (B)",
+    "glytoucan_id": "G94017LW",
+    "rrt": 6.9
+  },
+  {
+    "source_row": 14,
+    "glycan_number": 12,
+    "source_composition": "GlcNAc2Man3 + Fuc1 (C)",
+    "glytoucan_id": "G94017LW",
+    "rrt": 8
+  },
+  {
+    "source_row": 15,
+    "glycan_number": 13,
+    "source_composition": "GlcNAc2Man3 + Fuc1 (D)",
+    "glytoucan_id": "G27815BZ",
+    "rrt": 9
+  },
+  {
+    "source_row": 16,
+    "glycan_number": 14,
+    "source_composition": "GlcNAc2Man3 + Man1 (A)",
+    "glytoucan_id": "G46554NZ",
+    "rrt": 5.8
+  },
+  {
+    "source_row": 17,
+    "glycan_number": 15,
+    "source_composition": "GlcNAc2Man3 + Man1 (B)",
+    "glytoucan_id": "G58858DY",
+    "rrt": 6.3
+  },
+  {
+    "source_row": 18,
+    "glycan_number": 16,
+    "source_composition": "GlcNAc2Man3 + Man1 (C)",
+    "glytoucan_id": "G85291WT",
+    "rrt": 7.5
+  },
+  {
+    "source_row": 19,
+    "glycan_number": 17,
+    "source_composition": "GlcNAc2Man3 + Man1,Fuc1 (A)",
+    "glytoucan_id": "G71827NV",
+    "rrt": 7.9
+  },
+  {
+    "source_row": 20,
+    "glycan_number": 18,
+    "source_composition": "GlcNAc2Man3 + Man1,Fuc1 (B)",
+    "glytoucan_id": "G00396DP",
+    "rrt": 8.5
+  },
+  {
+    "source_row": 21,
+    "glycan_number": 19,
+    "source_composition": "GlcNAc2Man3 + Man1,Fuc1 (C)",
+    "glytoucan_id": "G00396DP",
+    "rrt": 9.7
+  },
+  {
+    "source_row": 22,
+    "glycan_number": 20,
+    "source_composition": "GlcNAc2Man3 + Man2 (A)",
+    "glytoucan_id": "G53809TW",
+    "rrt": 5
+  },
+  {
+    "source_row": 23,
+    "glycan_number": 21,
+    "source_composition": "GlcNAc2Man3 + Man2 (B)",
+    "glytoucan_id": "G53809TW",
+    "rrt": 5.5
+  },
+  {
+    "source_row": 24,
+    "glycan_number": 22,
+    "source_composition": "GlcNAc2Man3 + Man2 (C)",
+    "glytoucan_id": "G74852DN",
+    "rrt": 6
+  },
+  {
+    "source_row": 25,
+    "glycan_number": 23,
+    "source_composition": "GlcNAc2Man3 + Man2 (D)",
+    "glytoucan_id": "G73636FD",
+    "rrt": 7.6
+  },
+  {
+    "source_row": 26,
+    "glycan_number": 24,
+    "source_composition": "GlcNAc2Man3 + Man2,Fuc1",
+    "glytoucan_id": "G42171JS",
+    "rrt": 9.7
+  },
+  {
+    "source_row": 27,
+    "glycan_number": 25,
+    "source_composition": "GlcNAc2Man3 + Man3 (A)",
+    "glytoucan_id": "G64780OA",
+    "rrt": 6.2
+  },
+  {
+    "source_row": 28,
+    "glycan_number": 26,
+    "source_composition": "GlcNAc2Man3 + Man3 (B)",
+    "glytoucan_id": "G93458GZ",
+    "rrt": 6.8
+  },
+  {
+    "source_row": 29,
+    "glycan_number": 27,
+    "source_composition": "GlcNAc2Man3 + Man3,Fuc1",
+    "glytoucan_id": "G25700AJ",
+    "rrt": 8.7
+  },
+  {
+    "source_row": 30,
+    "glycan_number": 28,
+    "source_composition": "GlcNAc2Man3 + Man4 (A)",
+    "glytoucan_id": "G68588ED",
+    "rrt": 6.2
+  },
+  {
+    "source_row": 31,
+    "glycan_number": 29,
+    "source_composition": "GlcNAc2Man3 + Man4 (B)",
+    "glytoucan_id": "G53733WF",
+    "rrt": 6.3
+  },
+  {
+    "source_row": 32,
+    "glycan_number": 30,
+    "source_composition": "GlcNAc2Man3 + Man5 (A)",
+    "glytoucan_id": "G09771GJ",
+    "rrt": 6.1
+  },
+  {
+    "source_row": 33,
+    "glycan_number": 31,
+    "source_composition": "GlcNAc2Man3 + Man5 (B)",
+    "glytoucan_id": "G67272DI",
+    "rrt": 6.3
+  },
+  {
+    "source_row": 34,
+    "glycan_number": 32,
+    "source_composition": "GlcNAc2Man3 + Man5 (C)",
+    "glytoucan_id": "G67272DI",
+    "rrt": 6.5
+  },
+  {
+    "source_row": 35,
+    "glycan_number": 33,
+    "source_composition": "GlcNAc2Man3 + Man4,Glc1 (D)",
+    "glytoucan_id": "G29250KT",
+    "rrt": 7
+  },
+  {
+    "source_row": 36,
+    "glycan_number": 34,
+    "source_composition": "GlcNAc2Man3 + Man6 (A)",
+    "glytoucan_id": "G39578OU",
+    "rrt": 6.4
+  },
+  {
+    "source_row": 37,
+    "glycan_number": 35,
+    "source_composition": "GlcNAc2Man3 + Man5,Glc1 (B)",
+    "glytoucan_id": "G96797KG",
+    "rrt": 6.8
+  },
+  {
+    "source_row": 38,
+    "glycan_number": 36,
+    "source_composition": "GlcNAc2Man3 + Man6,Glc1",
+    "glytoucan_id": "G24620AI",
+    "rrt": 6.9
+  },
+  {
+    "source_row": 39,
+    "glycan_number": 37,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1 ",
+    "glytoucan_id": "G59325ZF",
+    "rrt": 7.7
+  },
+  {
+    "source_row": 40,
+    "glycan_number": 38,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Fuc1 (A)",
+    "glytoucan_id": "G40932HD",
+    "rrt": 9.9
+  },
+  {
+    "source_row": 41,
+    "glycan_number": 39,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1",
+    "glytoucan_id": "G44298KL",
+    "rrt": 8.5
+  },
+  {
+    "source_row": 42,
+    "glycan_number": 40,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,NeuAc1 (A)",
+    "glytoucan_id": "G29427JP",
+    "rrt": 8.7
+  },
+  {
+    "source_row": 43,
+    "glycan_number": 41,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,NeuAc1 (B)",
+    "glytoucan_id": "G29427JP",
+    "rrt": 10.1
+  },
+  {
+    "source_row": 44,
+    "glycan_number": 42,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,NeuAc1 (A1)",
+    "glytoucan_id": "G29427JP",
+    "rrt": 10.8
+  },
+  {
+    "source_row": 45,
+    "glycan_number": 43,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,NeuAc1 (B1)",
+    "glytoucan_id": "G29427JP",
+    "rrt": 12.1
+  },
+  {
+    "source_row": 46,
+    "glycan_number": 44,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,Fuc1 (A)",
+    "glytoucan_id": "G23394UB",
+    "rrt": 8.5
+  },
+  {
+    "source_row": 47,
+    "glycan_number": 45,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,Fuc1 (B)",
+    "glytoucan_id": "G23394UB",
+    "rrt": 10.5
+  },
+  {
+    "source_row": 48,
+    "glycan_number": 46,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,GalNAc1,NeuAc1",
+    "glytoucan_id": "G29465YD",
+    "rrt": 8
+  },
+  {
+    "source_row": 49,
+    "glycan_number": 47,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G02340QD",
+    "rrt": 10.4
+  },
+  {
+    "source_row": 50,
+    "glycan_number": 48,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G02340QD",
+    "rrt": 11.5
+  },
+  {
+    "source_row": 51,
+    "glycan_number": 49,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,Fuc1,NeuAc1 (A1)",
+    "glytoucan_id": "G02340QD",
+    "rrt": 11.8
+  },
+  {
+    "source_row": 52,
+    "glycan_number": 50,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Gal1,Fuc1,NeuAc1 (B1)",
+    "glytoucan_id": "G02340QD",
+    "rrt": 12.9
+  },
+  {
+    "source_row": 53,
+    "glycan_number": 51,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1",
+    "glytoucan_id": "G37692XE",
+    "rrt": 6.9
+  },
+  {
+    "source_row": 54,
+    "glycan_number": 52,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1 (A)",
+    "glytoucan_id": "G43463XA",
+    "rrt": 6.5
+  },
+  {
+    "source_row": 55,
+    "glycan_number": 53,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,Gal1 (B)",
+    "glytoucan_id": "G48760ZH",
+    "rrt": 6.7
+  },
+  {
+    "source_row": 56,
+    "glycan_number": 54,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Fuc1 ",
+    "glytoucan_id": "G82119TF",
+    "rrt": 7.8
+  },
+  {
+    "source_row": 57,
+    "glycan_number": 55,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1",
+    "glytoucan_id": "G95951LZ",
+    "rrt": 7.4
+  },
+  {
+    "source_row": 58,
+    "glycan_number": 56,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,GalNAc1",
+    "glytoucan_id": "G69030BZ",
+    "rrt": 7.2
+  },
+  {
+    "source_row": 59,
+    "glycan_number": 57,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,Gal1,NeuAc1 (A)",
+    "glytoucan_id": "G45319NP",
+    "rrt": 8.3
+  },
+  {
+    "source_row": 60,
+    "glycan_number": 58,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,Gal1,NeuAc1 (B)",
+    "glytoucan_id": "G45319NP",
+    "rrt": 10.7
+  },
+  {
+    "source_row": 61,
+    "glycan_number": 59,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1,Fuc1 (A)",
+    "glytoucan_id": "G04779SN",
+    "rrt": 8.6
+  },
+  {
+    "source_row": 62,
+    "glycan_number": 60,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1,Fuc1 (B)",
+    "glytoucan_id": "G28492PA",
+    "rrt": 9.2
+  },
+  {
+    "source_row": 63,
+    "glycan_number": 61,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,GalNAc1,NeuAc1",
+    "glytoucan_id": "G89163OE",
+    "rrt": 7.8
+  },
+  {
+    "source_row": 64,
+    "glycan_number": 62,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G67302OM",
+    "rrt": 9.9
+  },
+  {
+    "source_row": 65,
+    "glycan_number": 63,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G67302OM",
+    "rrt": 11.6
+  },
+  {
+    "source_row": 66,
+    "glycan_number": 64,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1,NeuAc1 (A)",
+    "glytoucan_id": "G55036HU",
+    "rrt": 9.1
+  },
+  {
+    "source_row": 67,
+    "glycan_number": 65,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1,NeuAc1 (B)",
+    "glytoucan_id": "G55036HU",
+    "rrt": 11.1
+  },
+  {
+    "source_row": 68,
+    "glycan_number": 66,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1,GalNAc1,Fuc1, NeuAc1",
+    "glytoucan_id": "G14994KB",
+    "rrt": 9.4
+  },
+  {
+    "source_row": 69,
+    "glycan_number": 67,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,GalNAc1,NeuAc1",
+    "glytoucan_id": "G06301MG",
+    "rrt": 8.5
+  },
+  {
+    "source_row": 70,
+    "glycan_number": 68,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G72404VA",
+    "rrt": 10.6
+  },
+  {
+    "source_row": 71,
+    "glycan_number": 69,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G10063BT",
+    "rrt": 11.9
+  },
+  {
+    "source_row": 72,
+    "glycan_number": 70,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc2,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G10063BT",
+    "rrt": 11.3
+  },
+  {
+    "source_row": 73,
+    "glycan_number": 71,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc2,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G10063BT",
+    "rrt": 12.4
+  },
+  {
+    "source_row": 74,
+    "glycan_number": 72,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1 (B)",
+    "glytoucan_id": "G35619UY",
+    "rrt": 5.5
+  },
+  {
+    "source_row": 75,
+    "glycan_number": 73,
+    "source_composition": "GlcNAc2Man3 + GlcNAc1,Fuc1 (B)",
+    "glytoucan_id": "G95901MC",
+    "rrt": 7.5
+  },
+  {
+    "source_row": 76,
+    "glycan_number": 74,
+    "source_composition": "GlcNAc2Man3 + Man1,GlcNAc1",
+    "glytoucan_id": "G78054JK",
+    "rrt": 5.4
+  },
+  {
+    "source_row": 77,
+    "glycan_number": 75,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3",
+    "glytoucan_id": "G12150CK",
+    "rrt": 4.2
+  },
+  {
+    "source_row": 78,
+    "glycan_number": 76,
+    "source_composition": "GlcNAc2Man3 + Man2,GlcNAc1,Fuc1 (B)",
+    "glytoucan_id": "G99310II",
+    "rrt": 8.4
+  },
+  {
+    "source_row": 79,
+    "glycan_number": 77,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Fuc1 ",
+    "glytoucan_id": "G86821NY",
+    "rrt": 5.9
+  },
+  {
+    "source_row": 80,
+    "glycan_number": 78,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1 (A)",
+    "glytoucan_id": "G26518BW",
+    "rrt": 4.8
+  },
+  {
+    "source_row": 81,
+    "glycan_number": 79,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1 (B)",
+    "glytoucan_id": "G26518BW",
+    "rrt": 5
+  },
+  {
+    "source_row": 82,
+    "glycan_number": 80,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1 (A)",
+    "glytoucan_id": "G47133WV",
+    "rrt": 6.4
+  },
+  {
+    "source_row": 83,
+    "glycan_number": 81,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1 (B)",
+    "glytoucan_id": "G47133WV",
+    "rrt": 6.6
+  },
+  {
+    "source_row": 84,
+    "glycan_number": 82,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2",
+    "glytoucan_id": "G07654FU",
+    "rrt": 5.7
+  },
+  {
+    "source_row": 85,
+    "glycan_number": 83,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1",
+    "glytoucan_id": "G27860IO",
+    "rrt": 7.2
+  },
+  {
+    "source_row": 86,
+    "glycan_number": 84,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,NeuAc1",
+    "glytoucan_id": "G55640OH",
+    "rrt": 7.3
+  },
+  {
+    "source_row": 87,
+    "glycan_number": 85,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G14392SI",
+    "rrt": 7.9
+  },
+  {
+    "source_row": 88,
+    "glycan_number": 86,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G14392SI",
+    "rrt": 9.4
+  },
+  {
+    "source_row": 89,
+    "glycan_number": 87,
+    "source_composition": "GlcNAc2Man3 + GlcNAc4,Gal2,Fuc1 (A)",
+    "glytoucan_id": "G67634VG",
+    "rrt": 7.9
+  },
+  {
+    "source_row": 90,
+    "glycan_number": 88,
+    "source_composition": "GlcNAc2Man3 + GlcNAc4,Gal2,Fuc1 (B)",
+    "glytoucan_id": "G64424PR",
+    "rrt": 8.6
+  },
+  {
+    "source_row": 91,
+    "glycan_number": 89,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G14392SI",
+    "rrt": 8.4
+  },
+  {
+    "source_row": 92,
+    "glycan_number": 90,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G14392SI",
+    "rrt": 8.6
+  },
+  {
+    "source_row": 93,
+    "glycan_number": 91,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1,NeuAc1 (A1)",
+    "glytoucan_id": "G14392SI",
+    "rrt": 10.1
+  },
+  {
+    "source_row": 94,
+    "glycan_number": 92,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1,NeuAc1 (B1)",
+    "glytoucan_id": "G14392SI",
+    "rrt": 10.3
+  },
+  {
+    "source_row": 95,
+    "glycan_number": 93,
+    "source_composition": "GlcNAc2Man3 + GlcNAc4,Gal3,Fuc1",
+    "glytoucan_id": "G78130XL",
+    "rrt": 8.9
+  },
+  {
+    "source_row": 96,
+    "glycan_number": 94,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2",
+    "glytoucan_id": "G39213VZ",
+    "rrt": 6.2
+  },
+  {
+    "source_row": 97,
+    "glycan_number": 95,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Fuc1",
+    "glytoucan_id": "G80858MF",
+    "rrt": 8.2
+  },
+  {
+    "source_row": 98,
+    "glycan_number": 96,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1 (A)",
+    "glytoucan_id": "G89993FE",
+    "rrt": 7.1
+  },
+  {
+    "source_row": 99,
+    "glycan_number": 97,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1 (B)",
+    "glytoucan_id": "G89993FE",
+    "rrt": 7.5
+  },
+  {
+    "source_row": 100,
+    "glycan_number": 98,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,Fuc1 (A)",
+    "glytoucan_id": "G27919IH",
+    "rrt": 8.9
+  },
+  {
+    "source_row": 101,
+    "glycan_number": 99,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,Fuc1 (B)",
+    "glytoucan_id": "G27919IH",
+    "rrt": 9.2
+  },
+  {
+    "source_row": 102,
+    "glycan_number": 100,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2",
+    "glytoucan_id": "G36191CD",
+    "rrt": 8.2
+  },
+  {
+    "source_row": 103,
+    "glycan_number": 101,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc1,Fuc1",
+    "glytoucan_id": "G63253XC",
+    "rrt": 8.1
+  },
+  {
+    "source_row": 104,
+    "glycan_number": 102,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc1,Gal1",
+    "glytoucan_id": "G53113PI",
+    "rrt": 7.8
+  },
+  {
+    "source_row": 105,
+    "glycan_number": 103,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,NeuAc1 (A)",
+    "glytoucan_id": "G91542NW",
+    "rrt": 8.6
+  },
+  {
+    "source_row": 106,
+    "glycan_number": 104,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,NeuAc1 (B)",
+    "glytoucan_id": "G91542NW",
+    "rrt": 9.1
+  },
+  {
+    "source_row": 107,
+    "glycan_number": 105,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,NeuAc1 (C)",
+    "glytoucan_id": "G91542NW",
+    "rrt": 11.1
+  },
+  {
+    "source_row": 108,
+    "glycan_number": 106,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,Fuc1",
+    "glytoucan_id": "G27658AJ",
+    "rrt": 9.9
+  },
+  {
+    "source_row": 109,
+    "glycan_number": 107,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc1,Gal1,Fuc1",
+    "glytoucan_id": "G53113PI",
+    "rrt": 9.5
+  },
+  {
+    "source_row": 110,
+    "glycan_number": 108,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc2,Fuc1",
+    "glytoucan_id": "G09276VG",
+    "rrt": 9.6
+  },
+  {
+    "source_row": 111,
+    "glycan_number": 109,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G21530HL",
+    "rrt": 10.6
+  },
+  {
+    "source_row": 112,
+    "glycan_number": 110,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G21530HL",
+    "rrt": 11.9
+  },
+  {
+    "source_row": 113,
+    "glycan_number": 111,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc1 (A)",
+    "glytoucan_id": "G37427AX",
+    "rrt": 9.5
+  },
+  {
+    "source_row": 114,
+    "glycan_number": 112,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc1 (A)",
+    "glytoucan_id": "G37427AX",
+    "rrt": 9.7
+  },
+  {
+    "source_row": 115,
+    "glycan_number": 113,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc1 (A1)",
+    "glytoucan_id": "G37427AX",
+    "rrt": 11.4
+  },
+  {
+    "source_row": 116,
+    "glycan_number": 114,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc1 (B1)",
+    "glytoucan_id": "G37427AX",
+    "rrt": 11.5
+  },
+  {
+    "source_row": 117,
+    "glycan_number": 115,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc1,Fuc1,NeuAc1",
+    "glytoucan_id": "G83257QY",
+    "rrt": 10.2
+  },
+  {
+    "source_row": 118,
+    "glycan_number": 116,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc1,Gal1,NeuAc1",
+    "glytoucan_id": "G16650VJ",
+    "rrt": 9.1
+  },
+  {
+    "source_row": 119,
+    "glycan_number": 117,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G32340DX",
+    "rrt": 11
+  },
+  {
+    "source_row": 120,
+    "glycan_number": 118,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G32340DX",
+    "rrt": 12.1
+  },
+  {
+    "source_row": 121,
+    "glycan_number": 119,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc1,Gal1,Fuc1, NeuAc1 ",
+    "glytoucan_id": "G61572IO",
+    "rrt": 10.7
+  },
+  {
+    "source_row": 122,
+    "glycan_number": 120,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,GalNAc2,Fuc1,NeuAc1",
+    "glytoucan_id": "G76497KR",
+    "rrt": 10.8
+  },
+  {
+    "source_row": 123,
+    "glycan_number": 121,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc2 (A)",
+    "glytoucan_id": "G77252PU",
+    "rrt": 11.1
+  },
+  {
+    "source_row": 124,
+    "glycan_number": 122,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc2 (B)",
+    "glytoucan_id": "G14047PA",
+    "rrt": 12.6
+  },
+  {
+    "source_row": 125,
+    "glycan_number": 123,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc2 (C)",
+    "glytoucan_id": "G84467IZ",
+    "rrt": 13.6
+  },
+  {
+    "source_row": 126,
+    "glycan_number": 124,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,NeuAc1,Fuc2",
+    "glytoucan_id": "G20127MC",
+    "rrt": 11.4
+  },
+  {
+    "source_row": 127,
+    "glycan_number": 125,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,Fuc1,NeuAc2 (A)",
+    "glytoucan_id": "G17689DH",
+    "rrt": 11.9
+  },
+  {
+    "source_row": 128,
+    "glycan_number": 126,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,Fuc1,NeuAc2 (B)",
+    "glytoucan_id": "G59655SA",
+    "rrt": 13.3
+  },
+  {
+    "source_row": 129,
+    "glycan_number": 127,
+    "source_composition": "GlcNAc2Man3 + GlcNAc2,Gal2,Fuc1,NeuAc2 (C)",
+    "glytoucan_id": "G56749GV",
+    "rrt": 13.9
+  },
+  {
+    "source_row": 130,
+    "glycan_number": 128,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1",
+    "glytoucan_id": "G74619XO",
+    "rrt": 9.9
+  },
+  {
+    "source_row": 131,
+    "glycan_number": 129,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1 (A)",
+    "glytoucan_id": "G33340AE",
+    "rrt": 10
+  },
+  {
+    "source_row": 132,
+    "glycan_number": 130,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1 (B)",
+    "glytoucan_id": "G33340AE",
+    "rrt": 10.3
+  },
+  {
+    "source_row": 133,
+    "glycan_number": 131,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3 (B)",
+    "glytoucan_id": "G91496ML",
+    "rrt": 9.3
+  },
+  {
+    "source_row": 134,
+    "glycan_number": 132,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3 (B)",
+    "glytoucan_id": "G91496ML",
+    "rrt": 10.2
+  },
+  {
+    "source_row": 135,
+    "glycan_number": 133,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G02635WB",
+    "rrt": 11.1
+  },
+  {
+    "source_row": 136,
+    "glycan_number": 134,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G02635WB",
+    "rrt": 12.1
+  },
+  {
+    "source_row": 137,
+    "glycan_number": 135,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal1,Fuc1,NeuAc1 (C)",
+    "glytoucan_id": "G02635WB",
+    "rrt": 12.3
+  },
+  {
+    "source_row": 138,
+    "glycan_number": 136,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1 (A)",
+    "glytoucan_id": "G10328BW",
+    "rrt": 10.7
+  },
+  {
+    "source_row": 139,
+    "glycan_number": 137,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1 (B)",
+    "glytoucan_id": "G10328BW",
+    "rrt": 11.2
+  },
+  {
+    "source_row": 140,
+    "glycan_number": 138,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G66601QV",
+    "rrt": 10.8
+  },
+  {
+    "source_row": 141,
+    "glycan_number": 139,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G66601QV",
+    "rrt": 11.8
+  },
+  {
+    "source_row": 142,
+    "glycan_number": 140,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,NeuAc1 (A)",
+    "glytoucan_id": "G09811CA",
+    "rrt": 10.5
+  },
+  {
+    "source_row": 143,
+    "glycan_number": 141,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,NeuAc1 (B)",
+    "glytoucan_id": "G09811CA",
+    "rrt": 11.6
+  },
+  {
+    "source_row": 144,
+    "glycan_number": 142,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal2,Fuc2,NeuAc1",
+    "glytoucan_id": "G03576JS",
+    "rrt": 12.3
+  },
+  {
+    "source_row": 145,
+    "glycan_number": 143,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 11.3
+  },
+  {
+    "source_row": 146,
+    "glycan_number": 144,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 11.8
+  },
+  {
+    "source_row": 147,
+    "glycan_number": 145,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (C)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 12.2
+  },
+  {
+    "source_row": 148,
+    "glycan_number": 146,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (D)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 12.3
+  },
+  {
+    "source_row": 149,
+    "glycan_number": 147,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (E)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 12.5
+  },
+  {
+    "source_row": 150,
+    "glycan_number": 148,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (F)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 12.8
+  },
+  {
+    "source_row": 151,
+    "glycan_number": 149,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc1 (G)",
+    "glytoucan_id": "G66420HM",
+    "rrt": 13.8
+  },
+  {
+    "source_row": 152,
+    "glycan_number": 150,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc2,NeuAc1",
+    "glytoucan_id": "G66420HM",
+    "rrt": 12.1
+  },
+  {
+    "source_row": 153,
+    "glycan_number": 151,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc2 (A)",
+    "glytoucan_id": "G29419HY",
+    "rrt": 13.4
+  },
+  {
+    "source_row": 154,
+    "glycan_number": 152,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc2 (B)",
+    "glytoucan_id": "G29419HY",
+    "rrt": 13.8
+  },
+  {
+    "source_row": 155,
+    "glycan_number": 153,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc2 (A1)",
+    "glytoucan_id": "G29419HY",
+    "rrt": 13.9
+  },
+  {
+    "source_row": 156,
+    "glycan_number": 154,
+    "source_composition": "GlcNAc2Man3 + GlcNAc3,Gal3,Fuc1,NeuAc2 (B1)",
+    "glytoucan_id": "G29419HY",
+    "rrt": 14.1
+  },
+  {
+    "source_row": 157,
+    "glycan_number": 155,
+    "source_composition": "GlcNAc2Man3 + GlcNAc4,Gal4,Fuc1",
+    "glytoucan_id": "G80536KU",
+    "rrt": 11.5
+  },
+  {
+    "source_row": 158,
+    "glycan_number": 156,
+    "source_composition": "GlcNAc2Man3 + GlcNAc4,Gal4,Fuc1,NeuAc1 (A)",
+    "glytoucan_id": "G12566UU",
+    "rrt": 12
+  },
+  {
+    "source_row": 159,
+    "glycan_number": 157,
+    "source_composition": "GlcNAc2Man3 + GlcNAc4,Gal4,Fuc1,NeuAc1 (B)",
+    "glytoucan_id": "G12566UU",
+    "rrt": 12.6
+  }
+]

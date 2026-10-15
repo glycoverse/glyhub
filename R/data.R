@@ -2006,3 +2006,1439 @@
 #' @keywords datasets
 "glyhub_GPST000125_GSL_HEK293"
 
+#' Ion-source dopant effects on N-glycan signal
+#'
+#' Targeted peak areas for 15 selected N-glycan features measured in technical
+#' injection replicates under six ion-source gas/dopant conditions.
+#'
+#' @details
+#' The panel compares AIR, nitrogen and solvent-enriched nitrogen conditions
+#' using three injections per condition. This is the complete author-defined
+#' 15-feature targeted panel, not an unbiased whole-glycome survey. Isomer
+#' suffixes remain separate; Sg denotes Neu5Gc. Relative area summaries and
+#' signal-to-noise statistics are not mistaken for extra samples. The N-glycan
+#' sample is a 1:1 mixture released from human IgG and bovine fetuin; the
+#' O-glycan sample derives from bovine submaxillary mucin. Each run injected 1
+#' microlitre.
+#'
+#' Source molecular compositions retained without inferring glycosidic
+#' linkages.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 15 features and 18 observations. The abundance
+#' assay is in peak area. rowData has no glycan_structure column because no
+#' feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000170. S1. Study:
+#' \url{https://doi.org/10.1021/acs.analchem.1c00023}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000170}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000170_N"
+
+#' Ion-source dopant effects on O-glycan signal
+#'
+#' Targeted peak areas for 15 selected O-glycan features measured in technical
+#' injection replicates under six ion-source gas/dopant conditions.
+#'
+#' @details
+#' The panel compares AIR, nitrogen and solvent-enriched nitrogen conditions
+#' using three injections per condition. This is the complete author-defined
+#' 15-feature targeted panel, not an unbiased whole-glycome survey. Isomer
+#' suffixes remain separate; Sg denotes Neu5Gc. Relative area summaries and
+#' signal-to-noise statistics are not mistaken for extra samples. The N-glycan
+#' sample is a 1:1 mixture released from human IgG and bovine fetuin; the
+#' O-glycan sample derives from bovine submaxillary mucin. Each run injected 1
+#' microlitre.
+#'
+#' Source molecular compositions retained without inferring glycosidic
+#' linkages.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 15 features and 18 observations. The abundance
+#' assay is in peak area. rowData has no glycan_structure column because no
+#' feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000170. S1. Study:
+#' \url{https://doi.org/10.1021/acs.analchem.1c00023}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000170}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000170_O"
+
+#' Linkage-specific sialic-acid derivatization of plasma N-glycans
+#'
+#' Background-subtracted extracted-ion intensities of procainamide-labelled
+#' plasma N-glycans after linkage-specific sialic-acid derivatization.
+#'
+#' @details
+#' The deposited complete extraction table contains 39 composition/retention
+#' features in two charge states across 54 LC-MS runs, including explicitly
+#' labelled blanks. Charge states remain separate measurement features rather
+#' than being summed without an author-defined rule. Am and E denote the
+#' source derivatization products used to distinguish alpha2,3- and
+#' alpha2,6-linked sialic acids; their counts are retained alongside the
+#' underlying Neu5Ac composition. Unmeasured charge states and reported zeros
+#' are missing in the curated assay. Run identifiers retain the original
+#' experimental batches; they are not interpreted as independent biological
+#' donors.
+#'
+#' Composition-level glycans with source charge, retention time, procainamide
+#' label, and linkage-specific sialic-acid derivative counts; no full topology
+#' inferred.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 78 features and 54 observations. The abundance
+#' assay is in background-subtracted extracted-ion intensity. rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000190. Table S-3. Study:
+#' \url{https://doi.org/10.1021/acs.analchem.1c02610}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000190}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000190_N"
+
+#' O-glycans released by thrombin-activated human platelets
+#'
+#' Released O-glycan peak areas from platelet releasates of five human donors
+#' following thrombin stimulation.
+#'
+#' @details
+#' The published total-AUC columns combine the author-measured charge states
+#' for each of eleven glycan features. Isomer-resolved features remain
+#' distinct. Glycans below 300 Da were outside the reported detection range.
+#' Proposed source structures and their known linkages are retained where
+#' explicitly represented; the trisialylated feature has unresolved
+#' sialic-acid attachment topology and retains composition-level annotation.
+#'
+#' Source composition counts and proposed structures cross-checked against the
+#' source table images and deposited GlycoWorkbench workspace; unresolved
+#' topology remains missing.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 11 features and 5 observations. The abundance
+#' assay is in peak area. rowData includes a typed glycan_structure column;
+#' features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000211. Table S3. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2024.100717}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000211}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000211_O"
+
+#' Oral tumor N-glycans associated with lymph node metastasis
+#'
+#' Relative abundances of 83 isomer-resolved N-glycan features from 31 oral
+#' squamous cell carcinoma tumors with or without lymph node metastasis.
+#'
+#' @details
+#' The complete source matrix contains 12 N0 and 19 N+ tumor samples. Glycan
+#' isomers remain distinct and source MS/MS confirmation, retention time, core
+#' fucosylation, bisecting GlcNAc and sialic-acid diagnostics are retained.
+#' Eighty-two partial structures combine the source spectral atlas with
+#' explicit sialic-acid linkage information from Table S3; unnumbered linkages
+#' and unresolved arms remain unknown. Feature 9b has no MS/MS-confirmed
+#' topology and retains composition only. Analytes were reduced glycans; this
+#' preparation is recorded separately from monosaccharide identity.
+#'
+#' Source spectral-atlas topologies with TS3-supported sialic linkages;
+#' unnumbered linkages and uncertain arms retained as unknown.
+#' Composition-only annotation for 9b.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 83 features and 31 observations. The abundance
+#' assay is in relative abundance fraction. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000296. Deposited Glycan_results.xlsx, TS3; published
+#' supplementary spectral atlas. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2023.100586}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000296}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000296_N"
+
+#' Cardiac N-glycomes in fatal COVID-19
+#'
+#' N-glycan MS1 peak areas from cardiac tissue and isolated cardiomyocytes of
+#' COVID-positive and COVID-negative donors.
+#'
+#' @details
+#' Four source tables are combined by exact composition-plus-retention labels,
+#' normalizing only GU/RRT notation and spacing. The sample metadata
+#' distinguishes FFPE tissue from isolated cardiomyocytes and COVID status.
+#' Features absent from a source table remain missing rather than zero.
+#' Maltodextrin calibration ladders and class summaries are excluded.
+#' Published GlyTouCan structures are linked only when composition and
+#' retention position identify a unique annotation; inconsistent registry
+#' assignments remain unresolved. Clinical metadata uses exact published
+#' patient identifiers; abbreviated ambiguous cardiomyocyte IDs are not
+#' guessed.
+#'
+#' Author glycan labels, additive monosaccharide counts, and uniquely matched
+#' registry structures. Source/registry annotation conflicts are preserved for
+#' review.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 162 features and 43 observations. The abundance
+#' assay is in peak area. rowData includes a typed glycan_structure column;
+#' features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000460. Tables S5-S8. Study:
+#' \url{https://doi.org/10.1021/acs.analchem.3c03649}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000460}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000460_N"
+
+#' N-glycan remodeling after TANGO2 loss
+#'
+#' Relative abundances of 82 released N-glycan features in TANGO2 knockout and
+#' control cells, with three quantitative columns per genotype.
+#'
+#' @details
+#' PGC-LC-MS profiling of PNGase F-released, reduced N-glycans examines
+#' cellular glycosylation changes associated with TANGO2 loss and altered
+#' cytoskeletal organization. The six individual source columns are retained;
+#' the figure caption reports five biological replicates for a broader panel
+#' but this table contains three per genotype. Likely source topologies are
+#' retained with unmarked linkages and bracketed attachments unresolved. The
+#' FA3 feature has conflicting shorthand and diagram annotations and therefore
+#' lacks typed glycan annotations.
+#'
+#' Likely SNFG topologies transcribed from the source diagrams; uncertain
+#' linkages and bracketed terminal parents remain ambiguous. Source row 38 has
+#' a label/diagram conflict.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 82 features and 6 observations. The abundance
+#' assay is in relative abundance fraction. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000473. Supplementary Data 3, glycomics. Study:
+#' \url{https://doi.org/10.1038/s41467-025-60563-1}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000473}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000473_N"
+
+#' N-glycan profiles of two tardigrade species
+#'
+#' Published relative molar abundances of N-glycans isolated from Ramazzottius
+#' varieornatus and Hypsibius exemplaris.
+#'
+#' @details
+#' The author table reports 24 identified glycan structures and an unresolved
+#' Others fraction for two species-level profiles. PA-labeled glycans were
+#' separated chromatographically; analytes sharing an LC peak remain separate
+#' by observed mass, using the author-reported MALDI intensity-based
+#' proportions. The source does not provide individual biological replicate
+#' columns, so these profiles cannot estimate within-species variation.
+#' Linkages explicitly drawn in the source are preserved; the unresolved
+#' aggregate has no typed glycan annotation.
+#'
+#' Twenty-four source linkage diagrams independently checked against the
+#' rendered deposited table; Others retains missing composition and structure.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 25 features and 2 observations. The abundance
+#' assay is in relative quantity mol %. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000534. Deposited Table.docx, N-Glycans derived from R.
+#' varieornatus and H. exemplaris. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2025.100979}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000534}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000534_N"
+
+#' Serum N-glycan profiles across hepatocellular carcinoma progression
+#'
+#' MALDI-TOF serum N-glycomics from the hepatocellular carcinoma study,
+#' retaining the complete published pre-processing abundance table.
+#'
+#' @details
+#' The raw sheet of Supplementary Data 2 contains 201 composition features and
+#' 743 source observations. The separate processed sheet is a filtered,
+#' normalized subset and is not appended as independent samples. Published
+#' clinical fields from Supplementary Data 8 are joined by exact sample ID;
+#' unmatched samples retain missing clinical metadata. The assay contains
+#' original peak-area measurements, with source zeros represented as missing
+#' and no new imputation or normalization. Composition-level measurements do
+#' not establish glycan topology or linkage isomers. Disease groups are joined
+#' from explicit sample/group columns in the source-data workbook, without
+#' inferring groups from sample numbering.
+#'
+#' Source molecular compositions retained without inferring glycosidic
+#' linkages.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 201 features and 743 observations. The
+#' abundance assay is in peak area. rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000584. raw. Study:
+#' \url{https://doi.org/10.1038/s41467-026-68579-x}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000584}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000584_N"
+
+#' Whole-brain N-glycans in Slc35a3-deficient mice
+#'
+#' N-glycan amounts in whole-brain tissue from wild-type, heterozygous and Slc
+#' 35 a 3-knockout mice, with three source observations per genotype.
+#'
+#' @details
+#' The 179 rows include paucimannose, high-mannose, hybrid, neutral-complex
+#' and acidic-complex features. Paucimannose counts are literal; other source
+#' counts describe residues beyond the Hex 3 HexNAc 2 N-glycan core. Full
+#' compositions include this core, consistent with the reported mass series
+#' and the paper core-plus-HexNAc convention. Source alpha 2,3/alpha 2,6
+#' sialic-acid counts are retained as partial linkage annotations; predicted
+#' SNFG cartoons are not promoted to experimentally resolved isomer
+#' structures.
+#'
+#' Source-derived composition annotations; linkage information is retained as
+#' source annotation without inferring a full topology. No complete
+#' unambiguous structures are asserted.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 179 features and 9 observations. The abundance
+#' assay is in pmol per 100 micrograms protein. rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000647. Supplementary Table 1. Study:
+#' \url{https://doi.org/10.3390/ijms27041643}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000647}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000647_N"
+
+#' Whole-brain O-glycans in Slc35a3-deficient mice
+#'
+#' O-glycan amounts in whole-brain tissue from wild-type, heterozygous and Slc
+#' 35 a 3-knockout mice, with three source observations per genotype.
+#'
+#' @details
+#' The source study profiles nucleotide-sugar transporter deficiency using
+#' MALDI-TOF MS. Twenty-five annotated features are retained, including
+#' source-undetected rows. Sialic-acid linkage labels remain in row
+#' annotations; the paper describes composition-based assignments and does not
+#' resolve all isomeric structures. Quantitative zeros are represented as
+#' missing values, with original measurements and masks retained.
+#'
+#' Source-derived composition annotations; linkage information is retained as
+#' source annotation without inferring a full topology. No complete
+#' unambiguous structures are asserted.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 25 features and 9 observations. The abundance
+#' assay is in pmol per 100 micrograms protein. rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000650. Supplementary Table 2. Study:
+#' \url{https://doi.org/10.3390/ijms27041643}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000650}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000650_O"
+
+#' Human intervertebral-disc N-glycan chromatographic profiles
+#'
+#' Thirty-two shared HILIC-UPLC N-glycan peaks quantified in six biological
+#' replicates each of healthy and degenerated annulus fibrosus and nucleus
+#' pulposus tissue.
+#'
+#' @details
+#' Dataset S2 contains the full individual-replicate percentage-area matrix.
+#' Glycan peaks may contain coeluting species, so peak identities are retained
+#' without assigning a single composition or structure. The separate 48-peak
+#' pooled-sample structural-deconvolution analysis is retained in the source
+#' workbook and is not equated to the 32-peak individual-replicate feature
+#' space. No glycan identities are inferred from peak numbers.
+#'
+#' UPLC peak-level quantitative features; 32 individual-sample peaks cannot be
+#' uniquely matched to 48 pooled structural fractions. Composition and
+#' structure are intentionally missing; source peak identities are retained.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 32 features and 24 observations. The abundance
+#' assay is in relative peak area (%). rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000625. UPLC_covariance_bio replicates. Study:
+#' \url{https://doi.org/10.1002/advs.202506669}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000625}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000625_N"
+
+#' Rat serum N-glycopeptides across repeated sampling
+#'
+#' Glycopeptide-level grouped abundances from albumin/IgG-depleted rat serum,
+#' sampled on five days in three female rats and one male rat.
+#'
+#' @details
+#' Supplementary Table S2 provides 1256 quantified peptide-glycan feature
+#' rows. Grouped abundance columns are preserved on the published scale.
+#' Individual acquisition columns have mixed normalization labels and are
+#' retained only in the source workbook. Glycan acetyl counts are represented
+#' explicitly. A single protein site is assigned only when one protein
+#' position and one localized N-glycosylation site are unambiguous; all
+#' original peptide and protein mappings are retained.
+#'
+#' Source-derived compositions and original annotation fields are preserved;
+#' unknown linkages are not inferred.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 1256 features and 20 observations. The
+#' abundance assay is in source grouped abundance (relative scale). rowData
+#' has no glycan_structure column because no feature has a supported
+#' structural annotation.
+#' @source
+#' GlycoPOST GPST000601. Table S2. Study:
+#' \url{https://doi.org/10.3390/ijms26157266}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000601}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000601_N_glycopeptides"
+
+#' Longitudinal rat-serum released N-glycans
+#'
+#' Released serum N-glycan amounts from four female and four male rats sampled
+#' over five days, measured in 139 explicitly named technical MALDI
+#' acquisitions.
+#'
+#' @details
+#' The complete quantitative-only (combine) export contains 14 features and
+#' 139 acquisition columns; repeated acquisitions are technical observations
+#' and must not be treated as independent animals. Source spot and run
+#' identifiers are retained, including the anomalous F1D4 E21 spot label.
+#' Assignment.pdf corroborates that complex-glycan codes omit the Man 3GlcNAc
+#' 2 core, whereas H5N2/H6N2 are full compositions. The final three source
+#' codes contain F1 but the diagram lacks fucose; their typed molecular
+#' annotation is missing while source labels and amounts remain intact.
+#' Unlocalized O-acetylation is represented at composition level only.
+#' Quantitative values are preserved in the reported pmol scale.
+#'
+#' Source-derived compositions and original labels are retained. 6
+#' source-supported structures are typed; unspecified bonds remain unknown.
+#' Unresolved or conflicting structures remain missing with source provenance.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 14 features and 139 observations. The abundance
+#' assay is in pmol (source export). rowData includes a typed glycan_structure
+#' column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000601. quantitative-only (combine). Study:
+#' \url{https://doi.org/10.3390/ijms26157266}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000601}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000601_N"
+
+#' Bladder-tissue N-glycans across cancer stages
+#'
+#' N-glycan profiles from healthy bladder, cystitis and Ta, T1 and
+#' muscle-invasive bladder tumours. The table contains five observations in
+#' each of the first four groups and eight in the muscle-invasive group.
+#'
+#' @details
+#' PNGase F-released, reduced and permethylated N-glycans were quantified by
+#' mass spectrometry. Source Table S1 relative-abundance values are preserved
+#' without rescaling; paired peak areas are retained in row annotations rather
+#' than duplicating the dataset. n.d. cells are missing. Composition
+#' identities and source glycan classes are preserved without converting class
+#' labels into asserted structures.
+#'
+#' Source-derived composition annotations; linkage information is retained as
+#' source annotation without inferring a full topology. No complete
+#' unambiguous structures are asserted.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 23 features and 28 observations. The abundance
+#' assay is in source-labelled relative abundance (%). rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000585. Table S1. Study:
+#' \url{https://doi.org/10.3390/ijms26104891}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000585}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000585_N"
+
+#' Rat serum N-glycans after chronic herbicide exposure
+#'
+#' Serum N-glycan profiles from control and glyphosate-based-herbicide-exposed
+#' rats, comprising six control males, six control females, five exposed males
+#' and seven exposed females.
+#'
+#' @details
+#' The 113-feature matrix is the final percentage matrix on Sheet 1,
+#' corroborated by published Supplementary Tables S1 and S2. Sheet 2 contains
+#' a differently normalised intermediate for the same samples and is not
+#' duplicated as independent observations. Five-digit glycan codes follow the
+#' paper order HexNAc, Hex, Fuc, NeuAc and NeuGc. Compositions are retained;
+#' structural isomers are unresolved.
+#'
+#' Source-derived composition annotations; linkage information is retained as
+#' source annotation without inferring a full topology. No complete
+#' unambiguous structures are asserted.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 113 features and 24 observations. The abundance
+#' assay is in relative abundance (%). rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000403. Sheet1. Study:
+#' \url{https://doi.org/10.3390/biom14091077}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000403}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000403_N"
+
+#' Onchocerca volvulus adult-female N glycan profile
+#'
+#' A complete published MALDI peak-area profile from adult female Onchocerca
+#' volvulus, used to investigate shared antigenic glycans across filarial
+#' nematodes.
+#'
+#' @details
+#' Table S4 supplies one profile per glycan class without biological-replicate
+#' columns. All measured peaks with numerical areas are retained, including
+#' unassigned peaks with missing molecular annotation. Areas are preserved
+#' without normalization and cannot support replicate-based statistical
+#' inference. Same-row SNFG topology is transcribed where unambiguous;
+#' unspecified glycosidic bonds and phosphocholine positions remain unknown.
+#' Ambiguous antenna attachment, alternative isomers or missing modification
+#' placement are retained in the source workbook rather than resolved by
+#' assumption. Analytical 2-AA is excluded from the native glycan annotation
+#' and recorded separately.
+#'
+#' Source-derived compositions and original labels are retained. 19
+#' source-supported structures are typed; unspecified bonds remain unknown.
+#' Unresolved or conflicting structures remain missing with source provenance.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 48 features and 1 observations. The abundance
+#' assay is in unnormalized MALDI peak area. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000299. N-glycans. Study:
+#' \url{https://doi.org/10.3389/fimmu.2023.1102344}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000299}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000299_N"
+
+#' Onchocerca volvulus adult-female GSL glycan profile
+#'
+#' A complete published MALDI peak-area profile from adult female Onchocerca
+#' volvulus, used to investigate shared antigenic glycans across filarial
+#' nematodes.
+#'
+#' @details
+#' Table S4 supplies one profile per glycan class without biological-replicate
+#' columns. All measured peaks with numerical areas are retained, including
+#' unassigned peaks with missing molecular annotation. Areas are preserved
+#' without normalization and cannot support replicate-based statistical
+#' inference. Same-row SNFG topology is transcribed where unambiguous;
+#' unspecified glycosidic bonds and phosphocholine positions remain unknown.
+#' Ambiguous antenna attachment, alternative isomers or missing modification
+#' placement are retained in the source workbook rather than resolved by
+#' assumption. Analytical 2-AA is excluded from the native glycan annotation
+#' and recorded separately.
+#'
+#' Source-derived compositions and original labels are retained. 18
+#' source-supported structures are typed; unspecified bonds remain unknown.
+#' Unresolved or conflicting structures remain missing with source provenance.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 41 features and 1 observations. The abundance
+#' assay is in unnormalized MALDI peak area. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000299. GSL glycans. Study:
+#' \url{https://doi.org/10.3389/fimmu.2023.1102344}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000299}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000299_GSL"
+
+#' Colorectal-cancer cell-line glycosphingolipid glycans
+#'
+#' Relative glycosphingolipid-glycan abundances across 22 human
+#' colorectal-cancer cell lines spanning unassigned, undifferentiated and
+#' colon-like transcriptional subtypes.
+#'
+#' @details
+#' Supplementary Table S5 supplies 94 chromatographically distinguished glycan
+#' features and cell-line aggregate abundance values. Cell-line origin, tumour
+#' stage, differentiation and microsatellite status are joined from Table S1
+#' when the source identifier matches exactly. Original antigen, glycan-family
+#' and linkage annotations are retained. Typed structures are transcribed from
+#' the same-row SNFG diagrams with all unspecified linkages left unknown;
+#' repeated compositions remain separate isomer features. Values are cell-line
+#' summaries, not individual biological-replicate measurements.
+#'
+#' Source-derived compositions and original labels are retained. 94
+#' source-supported structures are typed; unspecified bonds remain unknown.
+#' Unresolved or conflicting structures remain missing with source provenance.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 94 features and 22 observations. The abundance
+#' assay is in relative abundance (%). rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000239. S-5. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2022.100239}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000239}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000239_GSL"
+
+#' Postnatal mouse skeletal-muscle N-glycome
+#'
+#' Released N-glycans from skeletal muscle at postnatal days 1, 7, 14 and 21,
+#' with three source observations at each age.
+#'
+#' @details
+#' Supplementary Table S5 individual abundance columns are used; derived fold
+#' changes, SEMs and group averages are not treated as additional samples. The
+#' source isomer identifiers and partial linkage annotations are retained.
+#' This matrix supports the study of the digalactose-to-sialic-acid switch
+#' during muscle development.
+#'
+#' Source-derived compositions and original annotation fields are preserved;
+#' unknown linkages are not inferred.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 104 features and 12 observations. The abundance
+#' assay is in relative abundance (fraction). rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000079. BP_muscles_rawdata_251017_Perse. Study:
+#' \url{https://doi.org/10.1074/mcp.ra120.002166}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000079}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000079_N"
+
+#' Atlantic salmon epithelial mucin O-glycans
+#'
+#' O-glycan relative abundances from Atlantic salmon skin, pyloric caeca and
+#' distal-intestinal mucins across six geographic and husbandry cohorts from
+#' Tasmania, Sweden and Norway.
+#'
+#' @details
+#' All compatible tissue and cohort measurements are retained in one matrix.
+#' Original retention times, peak areas, suggested structures and per-sample
+#' MS1-only asterisks remain available in source annotations. Relative
+#' abundance is preserved as reported; ionisation differences limit
+#' interpretation across different glycan species. Typed structures describe
+#' native residue topology with analytical reducing-end reduction documented
+#' separately. Unresolved linkages remain unknown; malformed or sulfated
+#' structure strings remain as source annotations pending unambiguous
+#' representation.
+#'
+#' Source-derived compositions and original labels are retained. 152
+#' source-supported structures are typed; unspecified bonds remain unknown.
+#' Unresolved or conflicting structures remain missing with source provenance.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 169 features and 57 observations. The abundance
+#' assay is in relative abundance (%). rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000009. Sheet1. Study:
+#' \url{https://doi.org/10.1074/mcp.ra119.001319}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000009}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000009_O"
+
+#' Heparan sulfate disaccharide profiles measured by HILIC-Q-TOF-MS
+#'
+#' Lyase-derived disaccharides from commercial glycosaminoglycans, cultured
+#' human cells, murine tissues, and human urine measured after reductive
+#' isotopic aniline labeling.
+#'
+#' @details
+#' Sample 12C XIC peak areas are summed across observed sodium adducts.
+#' Matched 13C internal-standard areas and source-cell provenance are retained
+#' in metadata. These are unnormalized instrumental areas, not published
+#' absolute amounts. Source zero totals are represented as missing assay
+#' values. Source chemistry preserves the 4,5-unsaturated uronic acid and
+#' positional sulfation assignments from Supplemental Table S1. Typed
+#' composition and structure are missing because the current glyrepr
+#' vocabulary does not represent the unsaturated residue; exact source
+#' chemistry remains available in rowData.
+#'
+#' Exact source structures and modification counts retained; typed composition
+#' missing because DeltaUA is unsupported. No saturated-residue substitution.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 8 features and 21 observations. The abundance
+#' assay is in summed sample 12C XIC peak area, arbitrary units. rowData has
+#' no glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000604. ac5c02338_si_002.xlsx. Study:
+#' \url{https://doi.org/10.1021/acs.analchem.5c02338}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000604}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000604_HS"
+
+#' Chondroitin/dermatan sulfate disaccharide profiles measured by HILIC-Q-TOF-MS
+#'
+#' Lyase-derived disaccharides from commercial glycosaminoglycans, cultured
+#' human cells, murine tissues, and human urine measured after reductive
+#' isotopic aniline labeling.
+#'
+#' @details
+#' Sample 12C XIC peak areas are summed across observed sodium adducts.
+#' Matched 13C internal-standard areas and source-cell provenance are retained
+#' in metadata. These are unnormalized instrumental areas, not published
+#' absolute amounts. Source zero totals are represented as missing assay
+#' values. Source chemistry preserves the 4,5-unsaturated uronic acid and
+#' positional sulfation assignments from Supplemental Table S1. Typed
+#' composition and structure are missing because the current glyrepr
+#' vocabulary does not represent the unsaturated residue; exact source
+#' chemistry remains available in rowData.
+#'
+#' Exact source structures and modification counts retained; typed composition
+#' missing because DeltaUA is unsupported. No saturated-residue substitution.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 7 features and 18 observations. The abundance
+#' assay is in summed sample 12C XIC peak area, arbitrary units. rowData has
+#' no glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000604. ac5c02338_si_002.xlsx. Study:
+#' \url{https://doi.org/10.1021/acs.analchem.5c02338}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000604}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000604_CS_DS"
+
+#' Brugia malayi N-glycans across life stages
+#'
+#' MALDI-TOF MS peak-area profiles of released glycans from mixed-sex adult
+#' worms, microfilariae, adult females and adult males, and L3 larvae.
+#'
+#' @details
+#' Forty-seven source-assigned molecular features are retained, including
+#' features without a quantified assignment in a particular spectrum.
+#' Mixed-sex adult and microfilarial material each have an original spectrum
+#' and two explicitly labelled biological replicates. Sex-separated adults and
+#' L3 larvae have one profile each. Areas are preserved on the source
+#' instrumental scale. Unassigned or undetected features remain missing; no
+#' zero filling or normalization is applied. Source phosphorylcholine and
+#' glucuronic-acid composition components are represented explicitly. Proposed
+#' structural diagrams are transcribed and composition-checked against the
+#' same source feature rows. Unlabelled bonds are unknown; source ambiguity
+#' braces are represented as floating groups without selecting a particular
+#' attachment.
+#'
+#' 47 proposed source structures are encoded with unspecified linkages and
+#' floating groups kept uncertain. Source compositions preserve Hex, HexNAc,
+#' Fuc, GlcA and phosphorylcholine; analytical anthranilic-acid labeling is
+#' recorded separately.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 47 features and 9 observations. The abundance
+#' assay is in MALDI-TOF MS integrated peak area (arbitrary units). rowData
+#' includes a typed glycan_structure column; features without a supported
+#' structure are NA.
+#' @source
+#' GlycoPOST GPST000240. Supplementary Table S3, B - MALDI Raw Data. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2022.100201}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000240}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000240_N"
+
+#' Brugia malayi glycosphingolipid glycans across life stages
+#'
+#' MALDI-TOF MS peak-area profiles of released glycans from mixed-sex adult
+#' worms, microfilariae, adult females and adult males.
+#'
+#' @details
+#' Forty-seven source-assigned molecular features are retained, including
+#' features without a quantified assignment in a particular spectrum.
+#' Mixed-sex adult and microfilarial material each have an original spectrum
+#' and two explicitly labelled biological replicates. Sex-separated adults
+#' have one profile each. Areas are preserved on the source instrumental
+#' scale. Unassigned or undetected features remain missing; no zero filling or
+#' normalization is applied. Source phosphorylcholine and glucuronic-acid
+#' composition components are represented explicitly. Proposed structural
+#' diagrams are transcribed and composition-checked against the same source
+#' feature rows. Unlabelled bonds are unknown; source ambiguity braces are
+#' represented as floating groups without selecting a particular attachment.
+#' GSL-GP34 has H2N6PC1A1 in the source composition but H2N4PC1A1 in its
+#' proposed diagram; both typed composition and structure are missing for this
+#' feature, while the conflicting evidence and peak areas remain available.
+#'
+#' 46 proposed source structures are encoded with unspecified linkages and
+#' floating groups kept uncertain. Source compositions preserve Hex, HexNAc,
+#' Fuc, GlcA and phosphorylcholine; analytical anthranilic-acid labeling is
+#' recorded separately.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 47 features and 8 observations. The abundance
+#' assay is in MALDI-TOF MS integrated peak area (arbitrary units). rowData
+#' includes a typed glycan_structure column; features without a supported
+#' structure are NA.
+#' @source
+#' GlycoPOST GPST000240. Supplementary Table S4, B - MALDI Raw Data. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2022.100201}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000240}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000240_GSL"
+
+#' Cornu aspersum mucus O-glycan profiles
+#'
+#' Released glycans from adhesive, lubricating and protective snail mucus,
+#' measured by glycomic mass spectrometry after per-deuter-O-methylation.
+#'
+#' @details
+#' All 14 reported rows of Supplementary Table 9 are retained across three
+#' source mucus profiles. Values are the published glycan-peak area
+#' percentages. Identical source mass/composition/topology assignments are
+#' aligned across samples; conflicting masses or proposed isomers remain
+#' distinct. Unreported combinations are missing and no renormalization is
+#' applied. O-glycan lubricating and protective reported totals are 25.16% and
+#' 99%, respectively, retained as published. Native methyl substituents are
+#' preserved separately from analytical derivatization.
+#'
+#' All 13 proposed O-glycan structures are encoded with unknown linkages and
+#' source floating-group ambiguity. Native methyl substituents remain
+#' explicit.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 13 features and 3 observations. The abundance
+#' assay is in relative glycan peak-area percentage. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000297. Supplementary Table 9 (PDF S46). Study:
+#' \url{https://doi.org/10.1038/s41467-023-41094-z}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000297}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000297_O"
+
+#' Cornu aspersum mucus N-glycan profiles
+#'
+#' Released glycans from adhesive, lubricating and protective snail mucus,
+#' measured by glycomic mass spectrometry after per-deuter-O-methylation.
+#'
+#' @details
+#' All 25 reported rows of Supplementary Table 10 are retained across three
+#' source mucus profiles. Values are the published glycan-peak area
+#' percentages. Identical source mass/composition/topology assignments are
+#' aligned across samples; conflicting masses or proposed isomers remain
+#' distinct. Unreported combinations are missing and no renormalization is
+#' applied. Each of the three reported N-glycan profiles totals 100%. Native
+#' methyl substituents are preserved separately from analytical
+#' derivatization. In Table 10 row 10, the diagram adds an outlined diamond
+#' absent from the stated composition; row 11 draws two fucoses while its
+#' composition states one. Typed composition and structure remain missing for
+#' these two features without removing their quantitative observations.
+#'
+#' 22 proposed source structures retain unspecified linkages and
+#' floating-group uncertainty. Native methyl groups remain explicit. Source
+#' composition and structure are missing for conflicting N-glycan assignments
+#' rather than selected by assumption.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 24 features and 3 observations. The abundance
+#' assay is in relative glycan peak-area percentage. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000297. Supplementary Table 10 (PDF S47). Study:
+#' \url{https://doi.org/10.1038/s41467-023-41094-z}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000297}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000297_N"
+
+#' CS/DS disaccharide amounts in A549 and BEAS-2B small extracellular vesicles
+#'
+#' Four chondroitin/dermatan sulfate disaccharides quantified as fmol in five
+#' A549 and six BEAS-2B small-extracellular-vesicle preparations.
+#'
+#' @details
+#' Amounts derive from enzymatic CS/DS depolymerization and LC-MS/MS
+#' integration. D0a4 and D0a6 were distinguished by diagnostic fragments; the
+#' original 11 quantitative observations are preserved. The publication
+#' reports six preparations per cell line but excludes one A549 CS/DS
+#' preparation after a presumed preparation failure; the absent A5 observation
+#' is not manufactured. The N-glycan profiles from the same paper are stored
+#' under GPST000667.
+#'
+#' Author CS/DS disaccharide codes and sulfate positions are retained. The
+#' measured lyase products contain an unsaturated uronic acid that the
+#' installed glyrepr vocabulary cannot represent faithfully; typed
+#' compositions therefore remain missing rather than substituting saturated
+#' HexA. D0a0, D0a4, D0a6 and D0a10 denote zero, 4-O, 6-O and
+#' 4,6-di-O-sulfation, respectively.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 4 features and 11 observations. The abundance
+#' assay is in fmol. rowData has no glycan_structure column because no feature
+#' has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000562. . Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2026.101524}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000562}. Quantitative
+#' source:
+#' \url{https://glycopost.glycosmos.org/data/GPST000562.0/identification_quantification_table.xlsx}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000562_CS_DS"
+
+#' N-glycan profiles of A549 and BEAS-2B small extracellular vesicles and culture media
+#'
+#' GlycoGenius-derived N-glycan abundance profiles from tumorigenic A549 and
+#' non-tumorigenic BEAS-2B small extracellular vesicles, with BEGM and F12
+#' culture-medium profiles from the same study.
+#'
+#' @details
+#' All four source profile columns are retained. These are single profiles
+#' rather than six-replicate glycoproteomic measurements reported elsewhere in
+#' the paper. Migration-time-filtered assignments can contain alternative
+#' compositions separated by slashes; those alternatives remain explicit and
+#' are not arbitrarily resolved. Missing medium signals remain NA. This
+#' accession shares its publication with GPST000562, whose CS/DS disaccharides
+#' are represented separately because the glycan type and quantification
+#' differ.
+#'
+#' H, N and F encode Hex, HexNAc and Fuc. Am and E encode derivatized alpha2,3
+#' and alpha2,6 Neu5Ac; native NeuAc totals are represented as composition,
+#' and derivative/linkage counts are retained. Phosphorylation is retained
+#' where explicitly reported. Features with incompatible alternative
+#' compositions have missing typed composition and retain every author
+#' candidate.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 271 features and 4 observations. The abundance
+#' assay is in GlycoGenius abundance. rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000667. . Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2026.101524}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000667}. Quantitative
+#' source:
+#' \url{https://glycopost.glycosmos.org/data/GPST000667.0/N-glycan-identifications.csv}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000667_N"
+
+#' Site-resolved N-glycoform proportions during influenza infection of A549 cells
+#'
+#' Complete source N-site glycoforms from Supplementary File 5: union of ten
+#' organelle/secreted fraction panels at 0,6,12,18,24 hours after mock,
+#' PR8(H1N1), or x31(H3N2) exposure. 3609 protein/site/glycan identities
+#' across 90 biological sample observations.
+#'
+#' @details
+#' Assay values are author site-normalized proportions F:N, not raw signal or
+#' whole-sample glycan abundance. All source rows assigned to this glycan
+#' class are retained. Features are aligned only by the exact
+#' Protein/site/Glycans triplet; source Concat was checked to match this
+#' triplet in every row. No within-panel duplicate triplets occur. Union cells
+#' for a feature absent from a source panel remain NA with
+#' source_coverage=false; source blanks and actual zeros remain separately
+#' recoverable. Only quantitative zeros become NA. No curation-stage
+#' imputation, renormalization or replicate averaging occurs. O:W raw
+#' intensities are preserved in columns O:W of the pinned source extraction
+#' and original workbook. The three biological replicates per condition follow
+#' the paper; replicate numbers 1:3 encode within-condition source-column
+#' order, not demonstrated longitudinal pairing across time or compartment.
+#' TMT channels are preserved because assignments change with time. Human,
+#' bovine and influenza-virus protein assignments are all retained exactly;
+#' the culture host is human A549, but row-level protein organism must be used
+#' for protein provenance. Released glycomics is a separate assay/object
+#' class.
+#'
+#' Counts are parsed only from explicit author Glycans tokens. HexNAc, Hex,
+#' Fuc and NeuAc are preserved; explicit Phospho and Sulfo are retained as P
+#' and S substituents. Protein accession and site positions are author
+#' assignments, not independently revalidated peptide localization. All
+#' observed source sites are single N/S/T positions; ambiguous or multiple
+#' source sites would remain untyped. Full glycan structures are not inferred
+#' from composition or site.
+#'
+#' @format
+#' A [glyexp::GlycoproteomicSE] with 3609 features and 90 observations. The
+#' abundance assay is in site-normalized glycoform proportion (fraction).
+#' rowData has no glycan_structure column because no feature has a supported
+#' structural annotation.
+#' @source
+#' GlycoPOST GPST000671. . Study:
+#' \url{https://doi.org/10.1038/s42003-026-10759-y}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000671}. Quantitative
+#' source: \url{https://www.nature.com/articles/s42003-026-10759-y}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000671_N_Glycoproteomics"
+
+#' Site-resolved O-glycoform proportions during influenza infection of A549 cells
+#'
+#' Complete source O-site glycoforms from Supplementary File 5: union of ten
+#' organelle/secreted fraction panels at 0,6,12,18,24 hours after mock,
+#' PR8(H1N1), or x31(H3N2) exposure. 253 protein/site/glycan identities across
+#' 90 biological sample observations.
+#'
+#' @details
+#' Assay values are author site-normalized proportions F:N, not raw signal or
+#' whole-sample glycan abundance. All source rows assigned to this glycan
+#' class are retained. Features are aligned only by the exact
+#' Protein/site/Glycans triplet; source Concat was checked to match this
+#' triplet in every row. No within-panel duplicate triplets occur. Union cells
+#' for a feature absent from a source panel remain NA with
+#' source_coverage=false; source blanks and actual zeros remain separately
+#' recoverable. Only quantitative zeros become NA. No curation-stage
+#' imputation, renormalization or replicate averaging occurs. O:W raw
+#' intensities are preserved in columns O:W of the pinned source extraction
+#' and original workbook. The three biological replicates per condition follow
+#' the paper; replicate numbers 1:3 encode within-condition source-column
+#' order, not demonstrated longitudinal pairing across time or compartment.
+#' TMT channels are preserved because assignments change with time. Human,
+#' bovine and influenza-virus protein assignments are all retained exactly;
+#' the culture host is human A549, but row-level protein organism must be used
+#' for protein provenance. Released glycomics is a separate assay/object
+#' class.
+#'
+#' Counts are parsed only from explicit author Glycans tokens. HexNAc, Hex,
+#' Fuc and NeuAc are preserved; explicit Phospho and Sulfo are retained as P
+#' and S substituents. Protein accession and site positions are author
+#' assignments, not independently revalidated peptide localization. All
+#' observed source sites are single N/S/T positions; ambiguous or multiple
+#' source sites would remain untyped. Full glycan structures are not inferred
+#' from composition or site.
+#'
+#' @format
+#' A [glyexp::GlycoproteomicSE] with 253 features and 90 observations. The
+#' abundance assay is in site-normalized glycoform proportion (fraction).
+#' rowData has no glycan_structure column because no feature has a supported
+#' structural annotation.
+#' @source
+#' GlycoPOST GPST000671. . Study:
+#' \url{https://doi.org/10.1038/s42003-026-10759-y}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000671}. Quantitative
+#' source: \url{https://www.nature.com/articles/s42003-026-10759-y}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000671_O_Glycoproteomics"
+
+#' N-glycomes of influenza-infected A549 organelle and secreted fractions
+#'
+#' 131 released N-glycan chromatographic features in organelle and secreted
+#' protein fractions of A549 cells 24 hours after PR8 (H1N1), x31 (H3N2) or
+#' mock infection.
+#'
+#' @details
+#' PGC-LC-MS/MS glycan abundances are author-normalized proportions of all
+#' glycans in each sample. Compatible organelle and secreted fractions are
+#' combined with explicit compartment and infection metadata. Four biological
+#' replicates per condition were planned. The O-glycan secreted x31 block
+#' contains only two observations in the deposited quantitative table; missing
+#' observations are not invented. Source isomer identifiers and diagnostic
+#' evidence are retained. The deposited N-glycan table contains 131
+#' quantitative features, whereas the publication describes 142 identified
+#' N-glycan structures; this object reproduces the available quantitative
+#' matrix rather than claiming to include undocumented features. The
+#' corresponding molecular feature blocks in official Supplementary Data 4
+#' were checked cell-by-cell and match the deposited workbook.
+#'
+#' Source monosaccharide counts and author GlyTouCan accessions are retained.
+#' Where an accession resolves to a parseable WURCS structure with composition
+#' consistent with the source row, its structure is included. Unresolvable
+#' accessions, incompatible compositions and rows without sequence-level
+#' structure remain unfilled. Sulfate/phosphate identity is resolved only when
+#' the row explicitly names it; ambiguous substitution remains source
+#' annotation without a falsely complete composition. Glycans were chemically
+#' reduced for measurement; structures represent the source-referenced glycan
+#' identity.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 131 features and 24 observations. The abundance
+#' assay is in relative abundance fraction. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000671. . Study:
+#' \url{https://doi.org/10.1038/s42003-026-10759-y}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000671}. Quantitative
+#' source:
+#' \url{https://glycopost.glycosmos.org/data/GPST000671.0/Supplementary%20File_4_Glycomics.xlsx}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000671_N"
+
+#' O-glycomes of influenza-infected A549 organelle and secreted fractions
+#'
+#' 49 released O-glycan chromatographic features in organelle and secreted
+#' protein fractions of A549 cells 24 hours after PR8 (H1N1), x31 (H3N2) or
+#' mock infection.
+#'
+#' @details
+#' PGC-LC-MS/MS glycan abundances are author-normalized proportions of all
+#' glycans in each sample. Compatible organelle and secreted fractions are
+#' combined with explicit compartment and infection metadata. Four biological
+#' replicates per condition were planned. The O-glycan secreted x31 block
+#' contains only two observations in the deposited quantitative table; missing
+#' observations are not invented. Source isomer identifiers and diagnostic
+#' evidence are retained. The deposited N-glycan table contains 131
+#' quantitative features, whereas the publication describes 142 identified
+#' N-glycan structures; this object reproduces the available quantitative
+#' matrix rather than claiming to include undocumented features. The
+#' corresponding molecular feature blocks in official Supplementary Data 4
+#' were checked cell-by-cell and match the deposited workbook.
+#'
+#' Source monosaccharide counts and author GlyTouCan accessions are retained.
+#' Where an accession resolves to a parseable WURCS structure with composition
+#' consistent with the source row, its structure is included. Unresolvable
+#' accessions, incompatible compositions and rows without sequence-level
+#' structure remain unfilled. Sulfate/phosphate identity is resolved only when
+#' the row explicitly names it; ambiguous substitution remains source
+#' annotation without a falsely complete composition. Glycans were chemically
+#' reduced for measurement; structures represent the source-referenced glycan
+#' identity.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 49 features and 22 observations. The abundance
+#' assay is in relative abundance fraction. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000671. . Study:
+#' \url{https://doi.org/10.1038/s42003-026-10759-y}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000671}. Quantitative
+#' source:
+#' \url{https://glycopost.glycosmos.org/data/GPST000671.0/Supplementary%20File_4_Glycomics.xlsx}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000671_O"
+
+#' Platelet N-glycan isomer profiles in control and FUT8-knockout mice
+#'
+#' Fifty N-glycan chromatographic features quantified in platelet lysates from
+#' three control and three FUT8-knockout mouse observations, supporting a
+#' study of platelet activation and thrombosis.
+#'
+#' @details
+#' The assay contains the six original area-under-curve columns C1–C3 and
+#' K1–K3. Isomer labels, retention times, precursor charge and mass, glycan
+#' class and author-assigned fucosyl linkage are retained. The separate
+#' normalized block in the source workbook contains fractions despite its
+#' percent heading; it is not duplicated as an independent dataset. Replicate
+#' biology beyond the author condition labels is not inferred.
+#'
+#' Explicit total Hex, HexNAc, Fuc, NeuGc and NeuAc counts are used. Distinct
+#' chromatographic isomers remain distinct features. Core/outer-arm linkage
+#' information is retained as an author annotation and is not expanded into an
+#' unsupported complete glycan topology.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 50 features and 6 observations. The abundance
+#' assay is in area under chromatographic curve. rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000596. . Study:
+#' \url{https://doi.org/10.1161/atvbaha.126.324757}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000596}. Quantitative
+#' source:
+#' \url{https://glycopost.glycosmos.org/data/GPST000596.0/FUT8-KO_Manuscript_SupplementaryTable_Final.xlsx}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000596_N"
+
+#' Plasma N-glycomes of ASGR1- and MRC1-deficient mice under dietary challenge
+#'
+#' Seventy-two sialic-linkage-resolved plasma N-glycan features across 46
+#' MALDI-TOF-MS observations from a study of hepatic and macrophage
+#' glycan-receptor deficiency. Observations include experimental animals and
+#' pooled controls.
+#'
+#' @details
+#' The complete author-renormalized matrix is retained as fractions, with its
+#' individual acquisition filenames as observation identifiers. Genotype,
+#' diet, sex, sample ID and source group are joined by exact acquisition
+#' filename. Pooled controls remain explicitly identified; the source metadata
+#' are not reinterpreted as independent animals. Neu5Ac/Neu5Gc
+#' linkage-specific derivatization and O-acetylated species are preserved. No
+#' additional normalization or imputation is performed.
+#'
+#' H and N encode Hex and HexNAc; F encodes Fuc. Ge/Gl encode
+#' alpha2,6/alpha2,3-linked Neu5Gc, E/L encode the corresponding Neu5Ac
+#' linkages, and Ac denotes an acetyl substituent. Linkage counts remain in
+#' source annotations; composition does not imply a full structure.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 72 features and 46 observations. The abundance
+#' assay is in relative abundance fraction. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000351. . Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2023.100615}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000351}. Quantitative
+#' source:
+#' \url{https://glycopost.glycosmos.org/data/GPST000351.0/TPNG%20curated%20data%20MALDI.xlsx}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000351_N"
+
+#' Caenorhabditis elegans developmental O-glycan profiles
+#'
+#' Complete Supplementary Table S2 of Increasing Complexity of the N-Glycome
+#' During Caenorhabditis Development: 20 O-glycan features quantified across
+#' six source culture profiles.
+#'
+#' @details
+#' O-glycans were released by reductive beta-elimination from peptic
+#' glycopeptides remaining after PNGase A/F digestion and analyzed without
+#' further derivatization by LC-ESI-MS. Source PDF page 18 has calculated m/z,
+#' RT, composition and paired observed-m/z/percentage columns for six samples.
+#' Only percentage occurrence is quantitative abundance; observed m/z, nd and
+#' fragmentation asterisks are annotations. All 20 rows are retained,
+#' including same-composition isomers. Quantitative zeros become NA without
+#' imputation or renormalization; raw zeros are preserved. Source columns are
+#' culture profiles, not six biological replicates of a common condition.
+#' Replication for individual S2 profiles is not explicit and remains unknown.
+#' The separately distributed N-glycan Table S1 object extracts the reported
+#' percentages from mixed retention-time/percentage cells, preserving censored
+#' inequalities and unreported values explicitly.
+#'
+#' Explicit author composition tokens provide Hex, HexNAc, dHex, HexA and
+#' PC/Me substituent counts. The source Hex3HexNAc1 Hex1Me has four Hex
+#' residues and one Me substituent. No Fuc identity is assigned to generic
+#' dHex. Linear/branched qualifiers and source isomers remain annotations; no
+#' full structure is inferred.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 20 features and 6 observations. The abundance
+#' assay is in percent occurrence. rowData has no glycan_structure column
+#' because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000294. . Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2023.100505}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000294}. Quantitative
+#' source:
+#' \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7614267/supplementaryFiles}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000294_O_Celegans_Development"
+
+#' N-glycan profiles of 21 acute myeloid leukemia cell lines
+#'
+#' Complete 68-feature released N-glycan fractional-abundance matrix in 21 AML
+#' cell lines from Integrated N- and O-Glycomics of Acute Myeloid Leukemia
+#' (AML) Cell Lines.
+#'
+#' @details
+#' Source assay is the complete individual-glycan block only; following
+#' glycan-feature/derived-trait rows are not molecular features.
+#' Author-imputed values of 0.01 replacing zeros are preserved exactly as
+#' published; this curation does not reverse or add imputation. Only actual
+#' quantitative zero values become NA. No renormalization is applied. One
+#' source profile column represents each cell line; biological/technical
+#' replicate status of the main table is not specified by its headers and is
+#' left unknown. The RSD_MOLM-14 sheet is retained as auxiliary variability
+#' data rather than appended: biological rep1 overlaps technical replicates,
+#' and N-glycan technical and biological panels have different feature
+#' denominators. Isomer suffixes are preserved without collapsing rows.
+#'
+#' Counts follow the author legend: H=Hex, N=HexNAc, F=Fuc, S=NeuAc,
+#' P=phosphate, Su=sulfate. In typed composition, sulfate uses S and sialic
+#' acid uses NeuAc. Structures are not inferred from composition, retention
+#' order or mass.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 68 features and 21 observations. The abundance
+#' assay is in percent fractional abundance. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000214. . Study: \url{https://doi.org/10.3390/cells10113058}.
+#' Repository: \url{https://glycopost.glycosmos.org/entry/GPST000214}.
+#' Quantitative source:
+#' \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8616353/supplementaryFiles}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000214_N_AML_CellLines"
+
+#' O-glycan profiles of 21 acute myeloid leukemia cell lines
+#'
+#' Complete 23-feature released O-glycan fractional-abundance matrix in 21 AML
+#' cell lines from Integrated N- and O-Glycomics of Acute Myeloid Leukemia
+#' (AML) Cell Lines.
+#'
+#' @details
+#' Source assay is the complete individual-glycan block only; following
+#' glycan-feature/derived-trait rows are not molecular features.
+#' Author-imputed values of 0.01 replacing zeros are preserved exactly as
+#' published; this curation does not reverse or add imputation. Only actual
+#' quantitative zero values become NA. No renormalization is applied. One
+#' source profile column represents each cell line; biological/technical
+#' replicate status of the main table is not specified by its headers and is
+#' left unknown. The RSD_MOLM-14 sheet is retained as auxiliary variability
+#' data rather than appended: biological rep1 overlaps technical replicates,
+#' and N-glycan technical and biological panels have different feature
+#' denominators. Isomer suffixes are preserved without collapsing rows.
+#'
+#' Counts follow the author legend: H=Hex, N=HexNAc, F=Fuc, S=NeuAc,
+#' P=phosphate, Su=sulfate. In typed composition, sulfate uses S and sialic
+#' acid uses NeuAc. Structures are not inferred from composition, retention
+#' order or mass.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 23 features and 21 observations. The abundance
+#' assay is in percent fractional abundance. rowData has no glycan_structure
+#' column because no feature has a supported structural annotation.
+#' @source
+#' GlycoPOST GPST000214. . Study: \url{https://doi.org/10.3390/cells10113058}.
+#' Repository: \url{https://glycopost.glycosmos.org/entry/GPST000214}.
+#' Quantitative source:
+#' \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8616353/supplementaryFiles}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000214_O_AML_CellLines"
+
+#' Caenorhabditis elegans L4 N-glycans across culture and release fractions
+#'
+#' All 202 molecular-feature rows of Supplementary Table S1, with relative
+#' percentages reported for four L4 culture and glycan-release fraction
+#' profiles.
+#'
+#' @details
+#' L4 larvae were grown in liquid or on plates. PNGase F and the subsequent Ar
+#' release fractions are separate analytical fractions of these preparations,
+#' not four independent biological replicates. The table reports percentages
+#' for the second L4 preparations together with retention times from eleven
+#' preparations. Only the percentage tokens are used in the abundance assay;
+#' embryo and first-preparation retention times are preserved as source
+#' annotations. All 202 source rows remain, including 14 with no percentage in
+#' any profile. There are 147 exact percentage measurements and 150 source
+#' values explicitly reported as >0.1%; censored values have missing numeric
+#' abundance and retain their literal inequalities. Unreported percentages
+#' remain missing. No threshold substitution or renormalization is performed.
+#'
+#' Each source diagram is transcribed with its displayed topology and residue
+#' identity. Unlabelled glycosidic configurations and acceptor positions
+#' remain unknown. Explicit author GlyTouCan accessions refine bond
+#' information only after residue-labelled topology is verified. PC and methyl
+#' substituents retain their source placement uncertainty, including a PC
+#' restricted to two candidate GlcNAc residues. Source composition/mass,
+#' original table cells, diagram row and review evidence remain available. All
+#' 202 rows have parsed, source-backed structures; broad source
+#' H/N/F/substituent totals match where a printed composition exists (201
+#' rows). The one row without printed composition is assigned from its
+#' diagram. Twelve explicit GlyTouCan identifiers have residue-labelled
+#' topology verification. Row 196 uses the article Results identification of
+#' Figure 4I as a branched Man-HexNAc motif to constrain both fragments to the
+#' upper-arm Man; row 197 retains uncertain arm placement of long and short
+#' chains.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 202 features and 4 observations. The abundance
+#' assay is in reported relative percentage. rowData includes a typed
+#' glycan_structure column; features without a supported structure are NA.
+#' @source
+#' GlycoPOST GPST000294. Supplementary Table S1, PDF pages 4–17. Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2023.100505}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000294}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000294_N_Celegans_L4"
+
+#' Site-specific N-glycoproteome of oral squamous-cell carcinoma tissues
+#'
+#' Quantitative N-glycopeptide profiles of 30 oral squamous-cell carcinoma
+#' tumour tissues, comprising 12 node-negative and 18 node-positive samples.
+#'
+#' @details
+#' The 3,117 author-grouped UniProt, protein-site and glycan-composition
+#' features are retained. Reporter ion intensities were divided by the pooled
+#' reference channel within each TMT experiment and normalized to each channel
+#' total. Source NaN values remain missing; numerical zeros become NA. No
+#' reaggregation or imputation is applied. The companion released-glycan
+#' dataset has a different molecular observation unit and is retained
+#' separately.
+#'
+#' Compositions are transcribed directly from the Glycan field. Protein
+#' positions come from the author glycopeptide identifier and agree with every
+#' reported Glycosite entry. Peptide-relative positions and peptide starts are
+#' retained separately; all reported start plus relative-position coordinates
+#' agree with the protein absolute position. Representative peptide sequences
+#' cannot consistently validate every PSM-relative position, so original
+#' fields and a residue-consistency flag are retained without changing the
+#' author site. No site-specific glycan topology is inferred from companion
+#' released-glycan diagrams.
+#'
+#' @format
+#' A [glyexp::GlycomicSE] with 3117 features and 30 observations. The
+#' abundance assay is in pooled-reference-normalized and
+#' channel-total-normalized reporter-ion abundance (fraction). rowData has no
+#' glycan_structure column because no feature has a supported structural
+#' annotation.
+#' @source
+#' GlycoPOST GPST000296. . Study:
+#' \url{https://doi.org/10.1016/j.mcpro.2023.100586}. Repository:
+#' \url{https://glycopost.glycosmos.org/entry/GPST000296}. Quantitative
+#' source:
+#' \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10336694/supplementaryFiles}.
+#' @seealso [glyhub_data_conventions] for missing-value handling, annotations
+#'   and access to original measurements and source coordinates.
+#' @keywords datasets
+"glyhub_GPST000296_N_Glycoproteomics"
+
