@@ -46,12 +46,13 @@
     "doi": "10.3390/ijms27146309",
     "journal": "International journal of molecular sciences",
     "jif_2025": "5.6",
-    "status": "pending_inverse_parameters",
+    "status": "excluded_noninvertible_transformation",
     "datasets": [],
-    "reason": "The supplied log10-labelled matrix additionally has feature-wise median zero and squared sum 64 across 65 samples. Required original centering/scaling parameters and transform order are unavailable, preventing a defensible return to linear abundance.",
+    "reason": "Excluded because the supplied log10-labelled matrix additionally has feature-wise centering/scaling, while the original parameters and transform order are unavailable. Linear abundance cannot be reconstructed defensibly.",
     "source_url": "https://glycopost.glycosmos.org/entry/GPST000712",
     "checked_date": "2026-10-15",
-    "project_url": "https://glycopost.glycosmos.org/entry/GPST000712"
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000712",
+    "source_payload_retained": false
   },
   {
     "accession": "GPST000680",
@@ -378,12 +379,13 @@
     "doi": "10.1038/s42004-025-01490-6",
     "journal": "Communications chemistry",
     "jif_2025": "6.9",
-    "status": "pending_schema_decision",
+    "status": "excluded_incompatible_representation",
     "datasets": [],
-    "reason": "Complete six-sample muropeptide intensity table exists. Peptidoglycan oligomers with peptide crosslinks are outside current N/O/GAG/GSL and protein-site glycopeptide representation; do not force a misleading class.",
+    "reason": "Excluded because the peptide-crosslinked peptidoglycan/muropeptide oligomers cannot be represented faithfully by the current glycan object types. No dataset or source payload is included.",
     "source_url": "https://glycopost.glycosmos.org/entry/GPST000405",
     "checked_date": "2026-10-15",
-    "project_url": "https://glycopost.glycosmos.org/entry/GPST000405"
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000405",
+    "source_payload_retained": false
   },
   {
     "accession": "GPST000585",
@@ -843,7 +845,7 @@
       "https://doi.org/10.1038/s42003-022-03697-y",
       "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9343384/supplementaryFiles"
     ],
-    "retained_source_payloads_in_package": true,
+    "retained_source_payloads_in_package": false,
     "source_payload_retained": false
   },
   {

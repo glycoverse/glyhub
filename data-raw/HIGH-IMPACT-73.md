@@ -2,7 +2,7 @@
 
 Reviewed on 2026-10-15 against a frozen 73-project journal-tier selection. Journal metrics were used only to define the screening set; inclusion depends on recoverable quantitative data and interpretable source annotations.
 
-The [complete accession ledger](high-impact-73-ledger.csv) includes every reviewed project, article DOI, disposition, dataset mapping and reason. Fourteen projects were already represented in the package and were not duplicated. Twenty-eight further projects currently contribute 40 datasets. Twenty-four projects do not supply an eligible complete quantitative matrix; seven remain unresolved. The three pre-existing projects outside this selection are retained.
+The [complete accession ledger](high-impact-73-ledger.csv) includes every reviewed project, article DOI, disposition, dataset mapping and reason. Fourteen projects were already represented in the package and were not duplicated. Twenty-eight further projects currently contribute 40 datasets. Twenty-six projects are excluded; five remain unresolved. The three pre-existing projects outside this selection are retained.
 
 ## Quantitative and molecular annotation review
 
@@ -16,11 +16,13 @@ The [complete accession ledger](high-impact-73-ledger.csv) includes every review
 - GPST000625 reports chromatographic peaks and a separately deconvoluted pooled structural list. Peak-level quantities are retained without assigning an unsupported single molecular identity.
 - GPST000604 and GPST000562 retain exact author disaccharide codes where the current glyrepr vocabulary cannot faithfully encode unsaturated uronic-acid chemistry.
 
+GPST000712 is excluded because the transformed matrix cannot be returned to linear abundance without its missing centering/scaling parameters and transform order. No source payload is retained.
+
+GPST000405 is excluded because peptide-crosslinked peptidoglycan oligomers cannot be represented faithfully by the current glycan object types. No source payload is retained.
+
 ## Unresolved records
 
 - GPST000027, GPST000031, GPST000041 and GPST000109: complete supplementary quantitative tables could not be retrieved from the available official endpoints.
-- GPST000405: a complete muropeptide table exists, but its peptide-crosslinked peptidoglycan oligomers need an appropriate representation rather than an incorrect glycan class.
-- GPST000712: the supplied log10-labelled data additionally show feature-wise centering/scaling. Original parameters are unavailable, so a scientifically valid inverse transformation cannot be reconstructed.
 - GPST000216: additional structure-to-quantification review could not be completed because access to the relevant content was restricted.
 
 GPST000562 has an accepted CS/DS disaccharide matrix; an additional long-form glycopeptide supplement is not claimed to be curated by that object.
