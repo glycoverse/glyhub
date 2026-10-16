@@ -1,0 +1,15 @@
+{
+  "object": "glyhub_GPST000027_031_N",
+  "dimensions": [338, 6],
+  "repeated_rebuild_scientifically_identical": true,
+  "preexisting_rda_files_byte_identical": 74,
+  "measured_cells": 1250,
+  "unmeasured_cells": 778,
+  "source_zeros": 324,
+  "typed_compositions": 306,
+  "missing_compositions": 32,
+  "structure_column_absent": true,
+  "R": "4.5.0",
+  "glyexp": "0.17.0",
+  "glyrepr": "1.1.0"
+}

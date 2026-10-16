@@ -48,3 +48,7 @@ docs
 /data-raw/GPST000585/N-glycomics_results.xlsx
 
 /glyhub.Rcheck/
+
+# User-supplied Mgat3 supplements: keep outside Git pending file-specific terms.
+/data-raw/GPST000027/152506_2_supp_372524_pvkzw0.pdf
+/data-raw/GPST000031/152506_2_supp_372529_pvkzs0.xls

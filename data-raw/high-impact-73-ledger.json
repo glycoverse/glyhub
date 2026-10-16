@@ -835,18 +835,24 @@
     "doi": "10.1038/s42003-022-03697-y",
     "journal": "Communications biology",
     "jif_2025": "5.8",
-    "status": "blocked_source_review",
+    "status": "excluded_unresolved_identity",
     "datasets": [],
     "project_url": "https://glycopost.glycosmos.org/entry/GPST000216",
-    "reason": "Additional structure-to-quantification review could not be completed because access to the relevant content was restricted. No dataset or source payload is included in this expansion.",
-    "checked_date": "2026-10-15",
+    "reason": "The supplied Supplementary Data 2 contains a complete 43 x 3 jointly desialylated and degalactosylated N-glycan intensity panel, but 18 sparse literal labels and 25 blank continuation labels do not establish per-row molecular identities. The user chose not to include a feature-only object with all compositions unresolved. No dataset or source payload is included in this expansion.",
+    "checked_date": "2026-10-16",
     "evidence_urls": [
       "https://glycopost.glycosmos.org/entry/GPST000216",
       "https://doi.org/10.1038/s42003-022-03697-y",
-      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9343384/supplementaryFiles"
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9343384/supplementaryFiles",
+      "https://www.nature.com/articles/s42003-022-03697-y"
     ],
     "retained_source_payloads_in_package": false,
-    "source_payload_retained": false
+    "source_payload_retained": false,
+    "reviewed_candidate_dimensions": "43 x 3",
+    "limitations": [
+      "No molecular composition or topology is inferred from H/N labels, blank continuations or mass alone.",
+      "This is one joint enzymatic-treatment panel, not separate desialylated and degalactosylated datasets."
+    ]
   },
   {
     "accession": "GPST000190",
@@ -1027,15 +1033,64 @@
     "doi": "10.1074/mcp.m114.038315",
     "journal": "Molecular & cellular proteomics : MCP",
     "jif_2025": "6.3",
-    "status": "blocked_supplement_access",
+    "status": "excluded_no_quantification",
     "datasets": [],
     "project_url": "https://glycopost.glycosmos.org/entry/GPST000041",
     "paper_url": "https://doi.org/10.1074/mcp.m114.038315",
-    "reason": "All six deposited XLSX files are identification/scan/Mascot metadata without quantitative abundance tables. Official full text/supplements remain inaccessible: EuropePMC HTTP500, PMC challenge, publisher403. Supplementary quantitative-data availability therefore remains unknown.",
+    "reason": "The eight supplied supplemental PDFs contain HCD/ETD glycopeptide identifications and annotated spectra, not a sample-level quantitative matrix. Relative Abundance labels describe fragment-ion peak intensities rather than sample glycan abundance. Excluded from this import based on the reviewed PDFs; this does not establish that every unreviewed archive member or experiment lacks quantitative data.",
     "matrix_dimensions": [],
     "source_payload_retained": false,
-    "limitations": [],
-    "checked_date": "2026-10-15"
+    "limitations": [
+      "Review covers the eight supplied PDF files, not every member of the full supplemental archive."
+    ],
+    "checked_date": "2026-10-16",
+    "evidence_urls": [
+      "https://glycopost.glycosmos.org/entry/GPST000041",
+      "https://pubmed.ncbi.nlm.nih.gov/24917611/",
+      "https://doi.org/10.1074/mcp.M114.038315"
+    ],
+    "reviewed_files": [
+      {
+        "filename": "mcp.M114.038315-2.pdf",
+        "pages": 81,
+        "sha256": "05aee0c12812925e59d678ff57a360723dad461ac4672e97bd24df3db0138b9e"
+      },
+      {
+        "filename": "mcp.M114.038315-4.pdf",
+        "pages": 29,
+        "sha256": "f2401e88b447358860ba2f894e852da1e4365eb8df27c66084867a771721d4f5"
+      },
+      {
+        "filename": "mcp.M114.038315-5.pdf",
+        "pages": 46,
+        "sha256": "41fdc3d8b0d3d0317c498ebd8495b4ce127ae6f432bc38462e0fc86fad56c857"
+      },
+      {
+        "filename": "mcp.M114.038315-6.pdf",
+        "pages": 42,
+        "sha256": "c2472fdbaf8bf61687c7b8a5a1c11fbf5dd138b4d6f19ff08ffad47d772cc3f0"
+      },
+      {
+        "filename": "mcp.M114.038315-7.pdf",
+        "pages": 72,
+        "sha256": "49bc28812e0fabe293bbe48ef9a8f85574f865718162d150325edf3ea4add2fb"
+      },
+      {
+        "filename": "mcp.M114.038315-8.pdf",
+        "pages": 61,
+        "sha256": "8129ce88cc7787d4dfedba640eeb4cc04bd66d6949b2c36ee84268195db9fc43"
+      },
+      {
+        "filename": "mcp.M114.038315-9.pdf",
+        "pages": 12,
+        "sha256": "7c23e1d9e88b8fba43b9bb9b332008a29360b02c467d36f375958251b334199b"
+      },
+      {
+        "filename": "mcp.M114.038315-11.pdf",
+        "pages": 16,
+        "sha256": "63ce7c0c83bee5151b0d063015159b6d75df359d35c0cb47eee0af8f793ee452"
+      }
+    ]
   },
   {
     "accession": "GPST000035",
@@ -1071,12 +1126,18 @@
     "doi": "10.1074/mcp.ra120.002225",
     "journal": "Molecular & cellular proteomics : MCP",
     "jif_2025": "6.3",
-    "status": "pending_supplement_access",
+    "status": "excluded_by_user",
     "datasets": [],
-    "reason": "Full PMC article is readable. Linked quantitative supplementary XLS/XLSX downloads return browser-check HTML; Europe PMC supplementary archive reports retrieval errors. Candidate quantitative data cannot yet be evaluated.",
+    "reason": "The user chose not to include this accession. Candidate supplementary quantitative files were not obtained or evaluated; this decision is not a finding that the study lacks usable data or fails data-quality criteria. No dataset or source payload is retained.",
     "source_url": "https://glycopost.glycosmos.org/entry/GPST000109",
-    "checked_date": "2026-10-15",
-    "project_url": "https://glycopost.glycosmos.org/entry/GPST000109"
+    "checked_date": "2026-10-16",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000109",
+    "source_payload_retained": false,
+    "retained_source_payloads_in_package": false,
+    "matrix_dimensions": [],
+    "limitations": [
+      "The candidate supplementary quantitative data remain scientifically unevaluated."
+    ]
   },
   {
     "accession": "GPST000079",
@@ -1132,24 +1193,52 @@
     "doi": "10.1074/mcp.ra119.001534",
     "journal": "Molecular & cellular proteomics : MCP",
     "jif_2025": "6.3",
-    "status": "pending_supplement_access",
-    "datasets": [],
-    "reason": "Full PMC article is readable. Linked quantitative supplementary XLS/XLSX downloads return browser-check HTML; Europe PMC supplementary archive reports retrieval errors. Candidate quantitative data cannot yet be evaluated.",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000027_031_N"
+    ],
+    "reason": "Complete published S2C brain table independently transcribed and checked; included as a source-specific panel with kidney from the same study.",
     "source_url": "https://glycopost.glycosmos.org/entry/GPST000027",
-    "checked_date": "2026-10-15",
-    "project_url": "https://glycopost.glycosmos.org/entry/GPST000027"
+    "checked_date": "2026-10-16",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000027",
+    "source_payload_retained": false,
+    "matrix_dimensions": [
+      "338 x 6 study container"
+    ],
+    "source_panel_dimensions": "51 x 2",
+    "limitations": [
+      "Two published genotype columns do not identify individual biological replicates; raw-run associations remain filename-based candidates.",
+      "No cross-tissue peak alignment or calibrated numerical comparability is claimed. High-mannose-normalized percentages are separate provenance, not total-glycome percentages."
+    ],
+    "reviewed_quantitative_mapping_retained": true,
+    "original_source_files_in_git": false,
+    "source_reconstruction": "Original PDF/XLS must be placed manually and pass pinned SHA-256 checks; automatic recovery has not been verified."
   },
   {
     "accession": "GPST000031",
     "doi": "10.1074/mcp.ra119.001534",
     "journal": "Molecular & cellular proteomics : MCP",
     "jif_2025": "6.3",
-    "status": "pending_supplement_access",
-    "datasets": [],
-    "reason": "Full PMC article is readable. Linked quantitative supplementary XLS/XLSX downloads return browser-check HTML; Europe PMC supplementary archive reports retrieval errors. Candidate quantitative data cannot yet be evaluated.",
+    "status": "accepted",
+    "datasets": [
+      "glyhub_GPST000027_031_N"
+    ],
+    "reason": "Complete S2 kidney workbook validated against original cells and exact accession run IDs; included as a source-specific panel with brain from the same study.",
     "source_url": "https://glycopost.glycosmos.org/entry/GPST000031",
-    "checked_date": "2026-10-15",
-    "project_url": "https://glycopost.glycosmos.org/entry/GPST000031"
+    "checked_date": "2026-10-16",
+    "project_url": "https://glycopost.glycosmos.org/entry/GPST000031",
+    "source_payload_retained": false,
+    "matrix_dimensions": [
+      "338 x 6 study container"
+    ],
+    "source_panel_dimensions": "287 x 4",
+    "limitations": [
+      "32 multi-candidate compositions remain typed NA without dropping quantitative rows; repeat type is not established.",
+      "No cross-tissue peak alignment or calibrated numerical comparability is claimed. High-mannose-normalized percentages are separate provenance, not total-glycome percentages."
+    ],
+    "reviewed_quantitative_mapping_retained": true,
+    "original_source_files_in_git": false,
+    "source_reconstruction": "Original PDF/XLS must be placed manually and pass pinned SHA-256 checks; automatic recovery has not been verified."
   },
   {
     "accession": "GPST000009",

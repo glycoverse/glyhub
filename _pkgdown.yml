@@ -166,6 +166,9 @@ reference:
   contents:
   - glyhub_GPST000738_N_B4GalT1
   - glyhub_GPST000738_N_ST6GAL1
+- title: GPST000027 and GPST000031
+  contents:
+  - glyhub_GPST000027_031_N
 - title: Data conventions
   contents:
   - glyhub_data_conventions

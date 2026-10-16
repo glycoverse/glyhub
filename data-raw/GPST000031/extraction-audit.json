@@ -1,0 +1,86 @@
+{
+  "source_sha256": "854f238cc3507723d095d810bb6b8e40f6d21c98ebb8a1d51c2f08429e2e7ad2",
+  "source_sheet": "WT&Mgat3KO",
+  "feature_rows": [
+    5,
+    291
+  ],
+  "excluded_summary_rows": [
+    292,
+    293,
+    294
+  ],
+  "dimensions": [
+    287,
+    4
+  ],
+  "typed_compositions": 255,
+  "ambiguous_feature_ids": [
+    "79a",
+    "79d",
+    "84a",
+    "84b",
+    "86a",
+    "86b",
+    "86c",
+    "86d",
+    "86e",
+    "87b",
+    "87c",
+    "88a",
+    "88b",
+    "88c",
+    "88d",
+    "90a",
+    "90b",
+    "92a",
+    "93a",
+    "93b",
+    "96a",
+    "96b",
+    "96c",
+    "97a",
+    "97b",
+    "101a",
+    "101b",
+    "101c",
+    "104a",
+    "104b",
+    "104c",
+    "104d"
+  ],
+  "all_zero_feature_ids": [
+    "64",
+    "72",
+    "77",
+    "85",
+    "105"
+  ],
+  "zero_counts_by_sample": {
+    "WT1K_TMT": 28,
+    "KO3K_TMT": 123,
+    "WT2K_TMT": 29,
+    "KO4K_TMT": 129
+  },
+  "source_column_sums": {
+    "WT1K_TMT": 24329090.0,
+    "KO3K_TMT": 12195700.0,
+    "WT2K_TMT": 20617010.0,
+    "KO4K_TMT": 2123207.0
+  },
+  "high_mannose_denominators": {
+    "WT1K_TMT": 5061000.0,
+    "KO3K_TMT": 3184000.0,
+    "WT2K_TMT": 4116000.0,
+    "KO4K_TMT": 542800.0
+  },
+  "relative_percent_formula": "100 * EIC peak intensity / sample-specific source SUM of Hign Man",
+  "relative_percent_cells_checked": 1148,
+  "diagnostic_ms2_nonempty_by_sample": [
+    19,
+    0,
+    21,
+    0
+  ],
+  "typed_structures": 0
+}

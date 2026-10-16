@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-16",
+  "article_doi": "10.1074/mcp.RA119.001534",
+  "article_license": {
+    "name": "CC BY 4.0",
+    "evidence": "https://api.crossref.org/works/10.1074/mcp.RA119.001534",
+    "scope": "version of record; no supplement-specific declaration independently verified"
+  },
+  "automatic_recovery_verified": false,
+  "availability_check": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6773561/supplementaryFiles",
+    "response_type": "application/xml",
+    "response_message": "Article with id PMC6773561 is not open access one"
+  },
+  "source_files": [
+    {
+      "path": "data-raw/GPST000027/152506_2_supp_372524_pvkzw0.pdf",
+      "bytes": 7136409,
+      "sha256": "a9393edfc7c67eb19e6d5e59919813fd18e4369489744e84950cbca048b1df72",
+      "retrieval": "manually place a lawfully obtained original at the exact path",
+      "included_in_git": false
+    },
+    {
+      "path": "data-raw/GPST000031/152506_2_supp_372529_pvkzs0.xls",
+      "bytes": 120320,
+      "sha256": "854f238cc3507723d095d810bb6b8e40f6d21c98ebb8a1d51c2f08429e2e7ad2",
+      "retrieval": "manually place a lawfully obtained original at the exact path",
+      "included_in_git": false
+    }
+  ]
+}

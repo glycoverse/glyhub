@@ -1,0 +1,17 @@
+# GPST000031: Mgat3 mouse kidney N-glycan source panel
+
+Supplemental Table S2 of Nakano et al., DOI [10.1074/mcp.RA119.001534](https://doi.org/10.1074/mcp.RA119.001534), is the original XLS `152506_2_supp_372529_pvkzs0.xls`. The file SHA-256 is `854f238cc3507723d095d810bb6b8e40f6d21c98ebb8a1d51c2f08429e2e7ad2`.
+
+The `WT&Mgat3KO` sheet contains 287 chromatographic features in Excel rows 5–291, with peak intensities in J:M and high-mannose-normalized percentages in N:Q. Rows 292–294 are source sums, not additional features. The four source run IDs 19060303–19060306 and labels WT1K_TMT, KO3K_TMT, WT2K_TMT and KO4K_TMT exactly match the kidney raw filenames in the [official GPST000031 file list](https://glycopost.glycosmos.org/api/projects/GPST000031.0/files?limit=20&offset=0). This is not the related GPST000027 brain panel.
+
+All 287 source No.+suffix identifiers remain distinct. Only blank composition cells inherit the preceding source annotation, including explicit overrides for individual subpeaks. The author's Man3GlcNAc2 core is added to the stated generic residues without assuming that Hex means Gal or deoxyhexose means Fuc. The 32 multiple-candidate rows remain in the matrix with typed composition NA and all candidate strings/counts intact. Diagnostic MS/MS scan IDs are retained, not treated as complete topology. No glycan_structure column is created.
+
+There are 309 source zeros (28, 123, 29 and 129 by column), including five all-zero features. Only primary assay zeros become NA. The original matrix, source cells, candidates, masks and per-cell processing ledger remain available. The 1,148 source percentage cells equal intensity divided by the corresponding high-mannose sum (5,061,000; 3,184,000; 4,116,000; 542,800), multiplied by 100. They are not total-glycome percentages and are retained separately from the intensity assay.
+
+`prepare_specs.py` reads the checksum-pinned original XLS with xlrd and validates dimensions, exact numerical cells, source sums, source percentage formulas, zero counts and ambiguous annotations. `GPST000031-build.R` uses the shared typed builder and attaches the separate percentage provenance. The brain study builder combines this panel losslessly into `glyhub_GPST000027_031_N`; it does not ship a duplicate kidney-only data object.
+
+The four source observations are two WT and two KO labels, but independent biological replication, pairing, age and sex are not established. AminoxyTMT0, PNGase F and mouse kidney are documented by the official sample-preparation metadata. Shared metadata labelled GnT3 KO does not override the per-file and workbook WT labels.
+
+The [Crossref record](https://api.crossref.org/works/10.1074/mcp.RA119.001534) supplies CC BY 4.0 for the article version of record from 2020-09-19. No separate supplement-specific declaration was located; this evidence scope is retained rather than applying the package's MIT code license. `source-identity.json` contains the public API evidence and exact license record. Attribute the source authors and DOI; glyhub's changes are conservative typing and primary-assay zero-to-NA representation.
+
+The original XLS is deliberately excluded from Git; see `../GPST000027/README.md` for the exact source paths, SHA-256 values, license-evidence scope and manual source-placement requirement. The study-level `GPST000027/ensure-source.R` verifies both source files. No verified automatic attachment recovery is available.

@@ -26,7 +26,7 @@ and [`GlycoproteomicSE`](https://glycoverse.github.io/glyexp/reference/Glycoprot
 
 ## Available data
 
-74 datasets from 45 public GlycoPOST projects are bundled, including released
+75 datasets from 47 public GlycoPOST projects are bundled, including released
 glycans, glycosaminoglycan disaccharides and site/charge-resolved glycopeptides.
 Objects combine source-defined quantitative tables from the same study and glycan
 class where measurement definitions are compatible. GPST000602 is explicitly an
@@ -34,6 +34,7 @@ annotated-peak subset with spectrum-specific, unaligned feature identities. Incl
 
 | Dataset | Features × observations |
 |---|---|
+| `glyhub_GPST000027_031_N` | 338 × 6 (1,250 measured cells) |
 | `glyhub_GPST000738_N_B4GalT1` | 9 × 18 |
 | `glyhub_GPST000738_N_ST6GAL1` | 10 × 28 |
 | `glyhub_GPST000643_O` | 365 × 71 |
