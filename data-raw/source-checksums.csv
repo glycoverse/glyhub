@@ -87,7 +87,7 @@ data-raw/GPST000294/source-table-s1.json,37a43d3c79e97253532166b7bf920e4a,101022
 data-raw/GPST000294/structure-transcription-N.json,25ca59f115522141fd069ac8d963cd47,412571
 data-raw/GPST000294/validated-table-s2.json,cca4dd63116f018a021a7bc67022f8f2,10176
 data-raw/GPST000296/Glycan_results.xlsx,bcad2218504724dafc1e4f9193afccd7,89116
-data-raw/GPST000296/glycoproteomics-matrix-specs.json,5812c7e803c8705c150e0e3767041d98,3308521
+data-raw/GPST000296/glycoproteomics-matrix-specs.json,b2b3f72e6b1526095003770ceae286a0,2155685
 data-raw/GPST000296/matrix-specs.json,6aba63c1a3efca66073f79eb8c02cc3a,196287
 data-raw/GPST000296/mmc2.xlsx,04b1cd055f65be76a406e776cffdb6f0,5415770
 data-raw/GPST000296/mmc3.pdf,200832fd016a3e1370eacd19b8ab6dde,9910887
@@ -189,7 +189,7 @@ data-raw/GPST000667/N-glycan-identifications.csv,2d29c14f297f1fe40a4e39f6ea1f35a
 data-raw/GPST000667/matrix-specs.json,6769a33700f22b4e3dffd4e5d6cb2204,164599
 data-raw/GPST000671/42003_2026_10759_MOESM8_ESM.xlsx,63ed3fe91bed0184a6dbca2ac7be48f0,2796105
 data-raw/GPST000671/Supplementary File_4_Glycomics.xlsx,ee52af4e0cb09477fca2096532302ede,10338047
-data-raw/GPST000671/glycoproteomics-matrix-specs.json,74df2bd52094cfc8cebf404819b118d1,9579835
+data-raw/GPST000671/glycoproteomics-matrix-specs.json,ca72bfb049b18a79fc701ae20ff4c001,4323753
 data-raw/GPST000671/glycoproteomics-validated-source-table.json,7b117bd1b5dc95a25c05cac4e5a4b168,3707073
 data-raw/GPST000671/glytoucan_parsed.json,a91d0b1f4156c56a2edd240737458067,30893
 data-raw/GPST000671/glytoucan_sequences.json,5edeedcc5c10399ab68d84ff81154491,31023

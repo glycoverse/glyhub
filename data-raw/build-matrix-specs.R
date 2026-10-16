@@ -1,3 +1,51 @@
+# Expand the versioned storage representation before any scientific processing.
+read_matrix_specs <- function(path) {
+  document <- jsonlite::fromJSON(path, simplifyVector = FALSE)
+  if (is.null(document$format)) {
+    return(document)
+  }
+  stopifnot(identical(document$format, "glyhub-compact-specs-v1"))
+  matrix_fields <- c(
+    "raw_matrix",
+    "matrix",
+    "raw_source_matrix",
+    "source_cell_rows",
+    "source_cell_columns",
+    "source_coverage"
+  )
+  lapply(document$specs, function(s) {
+    for (key in intersect(names(s), matrix_fields)) {
+      value <- s[[key]]
+      if (!identical(value$encoding, "runs")) {
+        next
+      }
+      dims <- unlist(value$dim)
+      counts <- vapply(value$runs, function(r) r[[1]], numeric(1))
+      stopifnot(
+        length(dims) == 2L,
+        all(dims >= 0),
+        all(dims == floor(dims)),
+        all(counts > 0),
+        all(counts == floor(counts)),
+        sum(counts) == prod(dims)
+      )
+      flat <- rep(lapply(value$runs, function(r) r[[2]]), counts)
+      s[[key]] <- lapply(seq_len(dims[1]), function(i) {
+        flat[(i - 1L) * dims[2] + seq_len(dims[2])]
+      })
+    }
+    value <- s$row_annotations
+    if (identical(value$encoding, "records")) {
+      keys <- unlist(value$keys)
+      s$row_annotations <- lapply(value$rows, function(row) {
+        stopifnot(length(row) == length(keys), !anyDuplicated(keys))
+        stats::setNames(row, keys)
+      })
+    }
+    s
+  })
+}
+
 # Build typed objects from reviewed, checksum-pinned quantitative table mappings.
 # Original measurements and source annotations are retained in metadata.
 build_matrix_specs <- function(path) {
@@ -23,7 +71,7 @@ build_matrix_specs <- function(path) {
     storage.mode(m) <- "double"
     m
   }
-  specs <- jsonlite::fromJSON(path, simplifyVector = FALSE)
+  specs <- read_matrix_specs(path)
   for (s in specs) {
     build_started <- proc.time()[["elapsed"]]
     stopifnot(
