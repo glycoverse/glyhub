@@ -1,0 +1,2418 @@
+[
+  {
+    "name": "glyhub_GPST000299_N",
+    "accession": "GPST000299",
+    "doi": "10.3389/fimmu.2023.1102344",
+    "title": "Onchocerca volvulus adult-female N glycan profile",
+    "description": "A complete published MALDI peak-area profile from adult female Onchocerca volvulus, used to investigate shared antigenic glycans across filarial nematodes.",
+    "details": "Table S4 supplies one profile per glycan class without biological-replicate columns. All measured peaks with numerical areas are retained, including unassigned peaks with missing molecular annotation. Areas are preserved without normalization and cannot support replicate-based statistical inference. Same-row SNFG topology is transcribed where unambiguous; unspecified glycosidic bonds and phosphocholine positions remain unknown. Ambiguous antenna attachment, alternative isomers or missing modification placement are retained in the source workbook rather than resolved by assumption. Analytical 2-AA is excluded from the native glycan annotation and recorded separately.",
+    "unit": "unnormalized MALDI peak area",
+    "glycan_type": "N",
+    "source_glycan_type": "N",
+    "source_file": "data-raw/GPST000299/Table_4.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10026598/supplementaryFiles",
+    "source_md5": "7db0c2edc29e95d3dbac2d2c60afdd88",
+    "source_sha256": "ef4cbcfb8c8f1aeaa9a4fe2e49558740dabafce9d4cb65171f05551d33629381",
+    "sheet": "N-glycans",
+    "row_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "column_indices": [
+      3
+    ],
+    "feature_ids": [
+      "row_3",
+      "row_4",
+      "row_5",
+      "row_6",
+      "row_7",
+      "row_8",
+      "row_9",
+      "row_10",
+      "row_11",
+      "row_12",
+      "row_13",
+      "row_14",
+      "row_15",
+      "row_16",
+      "row_17",
+      "row_18",
+      "row_19",
+      "row_20",
+      "row_21",
+      "row_22",
+      "row_23",
+      "row_24",
+      "row_25",
+      "row_26",
+      "row_27",
+      "row_28",
+      "row_29",
+      "row_30",
+      "row_31",
+      "row_32",
+      "row_33",
+      "row_34",
+      "row_35",
+      "row_36",
+      "row_37",
+      "row_38",
+      "row_39",
+      "row_40",
+      "row_41",
+      "row_42",
+      "row_43",
+      "row_44",
+      "row_45",
+      "row_46",
+      "row_47",
+      "row_48",
+      "row_49",
+      "row_50"
+    ],
+    "sample_ids": [
+      "O_volvulus_adult_female_profile"
+    ],
+    "row_annotations": [
+      {
+        "source_label": "H2N2-AA",
+        "source_glycopeak_number": 1,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2
+        },
+        "source_mz": 868.398,
+        "source_intensity": 349,
+        "source_resolution": 4798,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": 868.3204,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 3",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "Hexose oligomer",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 948.392,
+        "source_intensity": 593,
+        "source_resolution": 4835,
+        "source_signal_noise": 12,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 984.108,
+        "source_intensity": 441,
+        "source_resolution": 4666,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N2F1-AA",
+        "source_glycopeak_number": 2,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1014.462,
+        "source_intensity": 877,
+        "source_resolution": 4538,
+        "source_signal_noise": 15,
+        "source_theoretical_mz": 1014.3783,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 6",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N2-AA",
+        "source_glycopeak_number": 3,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2
+        },
+        "source_mz": 1030.459,
+        "source_intensity": 3535,
+        "source_resolution": 5010,
+        "source_signal_noise": 69,
+        "source_theoretical_mz": 1030.3732,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 7",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "Hexose oligomer",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1110.446,
+        "source_intensity": 612,
+        "source_resolution": 5119,
+        "source_signal_noise": 11,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N2F1-AA",
+        "source_glycopeak_number": 4,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1176.521,
+        "source_intensity": 7682,
+        "source_resolution": 4920,
+        "source_signal_noise": 119,
+        "source_theoretical_mz": 1176.4311,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 9",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H4N2-AA",
+        "source_glycopeak_number": 5,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 2
+        },
+        "source_mz": 1192.516,
+        "source_intensity": 15271,
+        "source_resolution": 5197,
+        "source_signal_noise": 247,
+        "source_theoretical_mz": 1192.426,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 10",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3-AA",
+        "source_glycopeak_number": 6,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3
+        },
+        "source_mz": 1233.541,
+        "source_intensity": 3085,
+        "source_resolution": 5088,
+        "source_signal_noise": 45,
+        "source_theoretical_mz": 1233.4326,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 11",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "Hexose oligomer",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1272.508,
+        "source_intensity": 931,
+        "source_resolution": 5362,
+        "source_signal_noise": 14,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND*",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1336.547,
+        "source_intensity": 745,
+        "source_resolution": 4916,
+        "source_signal_noise": 9,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H4N2F1-AA",
+        "source_glycopeak_number": 7,
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1338.575,
+        "source_intensity": 2095,
+        "source_resolution": 5146,
+        "source_signal_noise": 27,
+        "source_theoretical_mz": 1338.4839,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 14",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H5N2-AA",
+        "source_glycopeak_number": 8,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 2
+        },
+        "source_mz": 1354.572,
+        "source_intensity": 121294,
+        "source_resolution": 5201,
+        "source_signal_noise": 1532,
+        "source_theoretical_mz": 1354.4788,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 15",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3F1-AA",
+        "source_glycopeak_number": 9,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "Fuc": 1
+        },
+        "source_mz": 1379.603,
+        "source_intensity": 5871,
+        "source_resolution": 5005,
+        "source_signal_noise": 68,
+        "source_theoretical_mz": 1379.5105,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 16",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3PC1-AA",
+        "source_glycopeak_number": 10,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "PC": 1
+        },
+        "source_mz": 1398.601,
+        "source_intensity": 1679,
+        "source_resolution": 5608,
+        "source_signal_noise": 22,
+        "source_theoretical_mz": 1398.5081,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 17",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "Hexose oligomer",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1434.556,
+        "source_intensity": 774,
+        "source_resolution": 5290,
+        "source_signal_noise": 9,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N4-AA",
+        "source_glycopeak_number": 11,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 4
+        },
+        "source_mz": 1436.627,
+        "source_intensity": 3341,
+        "source_resolution": 5383,
+        "source_signal_noise": 39,
+        "source_theoretical_mz": 1436.532,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 19",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND*",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1490.593,
+        "source_intensity": 855,
+        "source_resolution": 4231,
+        "source_signal_noise": 7,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H5N2F1-AA",
+        "source_glycopeak_number": 12,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1500.632,
+        "source_intensity": 2894,
+        "source_resolution": 5260,
+        "source_signal_noise": 30,
+        "source_theoretical_mz": 1500.5367,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 21",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H6N2-AA",
+        "source_glycopeak_number": 13,
+        "composition_counts": {
+          "Hex": 6,
+          "HexNAc": 2
+        },
+        "source_mz": 1516.631,
+        "source_intensity": 37276,
+        "source_resolution": 5604,
+        "source_signal_noise": 403,
+        "source_theoretical_mz": 1516.5316,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 22",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3PC1F1-AA",
+        "source_glycopeak_number": 14,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "PC": 1,
+          "Fuc": 1
+        },
+        "source_mz": 1544.659,
+        "source_intensity": 2784,
+        "source_resolution": 5053,
+        "source_signal_noise": 26,
+        "source_theoretical_mz": 1544.4788,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 23",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H5N3-AA",
+        "source_glycopeak_number": 15,
+        "composition_counts": {
+          "Hex": 5,
+          "HexNAc": 3
+        },
+        "source_mz": 1557.648,
+        "source_intensity": 708,
+        "source_resolution": 5047,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": 1557.5582,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 24",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N4F1-AA",
+        "source_glycopeak_number": 16,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "source_mz": 1582.692,
+        "source_intensity": 5443,
+        "source_resolution": 5344,
+        "source_signal_noise": 52,
+        "source_theoretical_mz": 1582.5899,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 25",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N4PC1-AA",
+        "source_glycopeak_number": 17,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 4,
+          "PC": 1
+        },
+        "source_mz": 1601.69,
+        "source_intensity": 2380,
+        "source_resolution": 5329,
+        "source_signal_noise": 22,
+        "source_theoretical_mz": 1601.5875,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 26",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N5-AA",
+        "source_glycopeak_number": 18,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 5
+        },
+        "source_mz": 1639.716,
+        "source_intensity": 3786,
+        "source_resolution": 5433,
+        "source_signal_noise": 34,
+        "source_theoretical_mz": 1639.6114,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 27",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H7N2-AA",
+        "source_glycopeak_number": 19,
+        "composition_counts": {
+          "Hex": 7,
+          "HexNAc": 2
+        },
+        "source_mz": 1678.696,
+        "source_intensity": 27158,
+        "source_resolution": 5717,
+        "source_signal_noise": 253,
+        "source_theoretical_mz": 1678.5844,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 28",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N4PC1F1-AA",
+        "source_glycopeak_number": 20,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 4,
+          "PC": 1,
+          "Fuc": 1
+        },
+        "source_mz": 1747.758,
+        "source_intensity": 4021,
+        "source_resolution": 4795,
+        "source_signal_noise": 29,
+        "source_theoretical_mz": 1747.6454,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 29",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N5F1-AA",
+        "source_glycopeak_number": 21,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 5,
+          "Fuc": 1
+        },
+        "source_mz": 1785.786,
+        "source_intensity": 5971,
+        "source_resolution": 5142,
+        "source_signal_noise": 45,
+        "source_theoretical_mz": 1785.6693,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 30",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N5PC1-AA",
+        "source_glycopeak_number": 22,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 5,
+          "PC": 1
+        },
+        "source_mz": 1804.778,
+        "source_intensity": 3032,
+        "source_resolution": 4856,
+        "source_signal_noise": 21,
+        "source_theoretical_mz": 1804.6669,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 31",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H8N2-AA",
+        "source_glycopeak_number": 23,
+        "composition_counts": {
+          "Hex": 8,
+          "HexNAc": 2
+        },
+        "source_mz": 1840.764,
+        "source_intensity": 18947,
+        "source_resolution": 5641,
+        "source_signal_noise": 155,
+        "source_theoretical_mz": 1840.6372,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 32",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N4PC2F1-AA",
+        "source_glycopeak_number": 24,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 4,
+          "PC": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1912.844,
+        "source_intensity": 279,
+        "source_resolution": 5846,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": 1912.7009,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 33",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N5PC1F1-AA",
+        "source_glycopeak_number": 25,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 5,
+          "PC": 1,
+          "Fuc": 1
+        },
+        "source_mz": 1950.851,
+        "source_intensity": 4293,
+        "source_resolution": 4773,
+        "source_signal_noise": 30,
+        "source_theoretical_mz": 1950.7248,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 34",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N5PC2-AA",
+        "source_glycopeak_number": 26,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 5,
+          "PC": 2
+        },
+        "source_mz": 1969.851,
+        "source_intensity": 779,
+        "source_resolution": 5485,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": 1969.7244,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 35",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N6F1-AA",
+        "source_glycopeak_number": 27,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 6,
+          "Fuc": 1
+        },
+        "source_mz": 1988.889,
+        "source_intensity": 1632,
+        "source_resolution": 4467,
+        "source_signal_noise": 11,
+        "source_theoretical_mz": 1988.7487,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 36",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H9N2-AA",
+        "source_glycopeak_number": 28,
+        "composition_counts": {
+          "Hex": 9,
+          "HexNAc": 2
+        },
+        "source_mz": 2002.833,
+        "source_intensity": 35490,
+        "source_resolution": 5625,
+        "source_signal_noise": 304,
+        "source_theoretical_mz": 2002.69,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 37",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N6PC1-AA",
+        "source_glycopeak_number": 29,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 6,
+          "PC": 1
+        },
+        "source_mz": 2007.861,
+        "source_intensity": 4374,
+        "source_resolution": 3217,
+        "source_signal_noise": 21,
+        "source_theoretical_mz": 2007.7463,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 38",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND*",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 2051.872,
+        "source_intensity": 1484,
+        "source_resolution": 5198,
+        "source_signal_noise": 12,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "Hexose oligomer",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 2104.702,
+        "source_intensity": 616,
+        "source_resolution": 4360,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N5PC2F1-AA",
+        "source_glycopeak_number": 30,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 5,
+          "PC": 2,
+          "Fuc": 1
+        },
+        "source_mz": 2115.924,
+        "source_intensity": 1308,
+        "source_resolution": 5033,
+        "source_signal_noise": 11,
+        "source_theoretical_mz": 2115.7803,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 41",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N6PC1F1-AA",
+        "source_glycopeak_number": 31,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 6,
+          "PC": 1,
+          "Fuc": 1
+        },
+        "source_mz": 2153.949,
+        "source_intensity": 4100,
+        "source_resolution": 5272,
+        "source_signal_noise": 36,
+        "source_theoretical_mz": 2153.8042,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 42",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H10N2-AA",
+        "source_glycopeak_number": 32,
+        "composition_counts": {
+          "Hex": 10,
+          "HexNAc": 2
+        },
+        "source_mz": 2164.898,
+        "source_intensity": 3595,
+        "source_resolution": 5893,
+        "source_signal_noise": 35,
+        "source_theoretical_mz": 2164.7428,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 43",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N6PC2-AA",
+        "source_glycopeak_number": 33,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 6,
+          "PC": 2
+        },
+        "source_mz": 2172.946,
+        "source_intensity": 950,
+        "source_resolution": 4403,
+        "source_signal_noise": 7,
+        "source_theoretical_mz": 2172.8018,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 44",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND*",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 2197.942,
+        "source_intensity": 1416,
+        "source_resolution": 5214,
+        "source_signal_noise": 12,
+        "source_theoretical_mz": 2197.942,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N6PC2F1-AA",
+        "source_glycopeak_number": 34,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 6,
+          "PC": 2,
+          "Fuc": 1
+        },
+        "source_mz": 2319.026,
+        "source_intensity": 2083,
+        "source_resolution": 5440,
+        "source_signal_noise": 21,
+        "source_theoretical_mz": 2318.8597,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 46",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND*",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 2343.014,
+        "source_intensity": 980,
+        "source_resolution": 5529,
+        "source_signal_noise": 10,
+        "source_theoretical_mz": 2343.014,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N7PC1F1-AA",
+        "source_glycopeak_number": 35,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 7,
+          "PC": 1,
+          "Fuc": 1
+        },
+        "source_mz": 2357.057,
+        "source_intensity": 812,
+        "source_resolution": 5471,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": 2356.8836,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 48",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N7PC2F1-AA",
+        "source_glycopeak_number": 36,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 7,
+          "PC": 2,
+          "Fuc": 1
+        },
+        "source_mz": 2522.149,
+        "source_intensity": 965,
+        "source_resolution": 5860,
+        "source_signal_noise": 12,
+        "source_theoretical_mz": 2521.9391,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 49",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N8PC3F1-AA",
+        "source_glycopeak_number": 37,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 8,
+          "PC": 3,
+          "Fuc": 1
+        },
+        "source_mz": 2890.341,
+        "source_intensity": 636,
+        "source_resolution": 5568,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": 2890.074,
+        "structure_source": "Table S4 N-glycans, embedded diagram anchored at source row 50",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      }
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "col_data": {
+      "organism": [
+        "Onchocerca volvulus"
+      ],
+      "sex": [
+        "female"
+      ],
+      "life_stage": [
+        "adult"
+      ],
+      "sample_level": [
+        "published MALDI profile; no biological replicate columns"
+      ],
+      "analytical_label": [
+        "2-AA"
+      ]
+    },
+    "raw_matrix": [
+      [
+        1069
+      ],
+      [
+        1491
+      ],
+      [
+        963
+      ],
+      [
+        1839
+      ],
+      [
+        8282
+      ],
+      [
+        1269
+      ],
+      [
+        13846
+      ],
+      [
+        28724
+      ],
+      [
+        5291
+      ],
+      [
+        1616
+      ],
+      [
+        1026
+      ],
+      [
+        3196
+      ],
+      [
+        179996
+      ],
+      [
+        8067
+      ],
+      [
+        2586
+      ],
+      [
+        1037
+      ],
+      [
+        4675
+      ],
+      [
+        840
+      ],
+      [
+        3605
+      ],
+      [
+        49217
+      ],
+      [
+        3130
+      ],
+      [
+        759
+      ],
+      [
+        6313
+      ],
+      [
+        2647
+      ],
+      [
+        4188
+      ],
+      [
+        30634
+      ],
+      [
+        3487
+      ],
+      [
+        5366
+      ],
+      [
+        2497
+      ],
+      [
+        18121
+      ],
+      [
+        783
+      ],
+      [
+        3254
+      ],
+      [
+        648
+      ],
+      [
+        1077
+      ],
+      [
+        30852
+      ],
+      [
+        2029
+      ],
+      [
+        1139
+      ],
+      [
+        783
+      ],
+      [
+        933
+      ],
+      [
+        2975
+      ],
+      [
+        2912
+      ],
+      [
+        536
+      ],
+      [
+        943
+      ],
+      [
+        1433
+      ],
+      [
+        639
+      ],
+      [
+        533
+      ],
+      [
+        619
+      ],
+      [
+        306
+      ]
+    ],
+    "raw_source_matrix": [
+      [
+        1069
+      ],
+      [
+        1491
+      ],
+      [
+        963
+      ],
+      [
+        1839
+      ],
+      [
+        8282
+      ],
+      [
+        1269
+      ],
+      [
+        13846
+      ],
+      [
+        28724
+      ],
+      [
+        5291
+      ],
+      [
+        1616
+      ],
+      [
+        1026
+      ],
+      [
+        3196
+      ],
+      [
+        179996
+      ],
+      [
+        8067
+      ],
+      [
+        2586
+      ],
+      [
+        1037
+      ],
+      [
+        4675
+      ],
+      [
+        840
+      ],
+      [
+        3605
+      ],
+      [
+        49217
+      ],
+      [
+        3130
+      ],
+      [
+        759
+      ],
+      [
+        6313
+      ],
+      [
+        2647
+      ],
+      [
+        4188
+      ],
+      [
+        30634
+      ],
+      [
+        3487
+      ],
+      [
+        5366
+      ],
+      [
+        2497
+      ],
+      [
+        18121
+      ],
+      [
+        783
+      ],
+      [
+        3254
+      ],
+      [
+        648
+      ],
+      [
+        1077
+      ],
+      [
+        30852
+      ],
+      [
+        2029
+      ],
+      [
+        1139
+      ],
+      [
+        783
+      ],
+      [
+        933
+      ],
+      [
+        2975
+      ],
+      [
+        2912
+      ],
+      [
+        536
+      ],
+      [
+        943
+      ],
+      [
+        1433
+      ],
+      [
+        639
+      ],
+      [
+        533
+      ],
+      [
+        619
+      ],
+      [
+        306
+      ]
+    ],
+    "conflict_columns": [],
+    "annotation": "Source-derived compositions and original labels are retained. 19 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance.",
+    "license": {
+      "name": "Published article supplementary material",
+      "url": "https://doi.org/10.3389/fimmu.2023.1102344"
+    },
+    "object_class": "GlycomicSE",
+    "structure_iupac": [
+      "Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      null,
+      "Man(?1-?)Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      null,
+      null,
+      "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      null,
+      null,
+      "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      "Man(?1-?)[Man(?1-?)]Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      null,
+      "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      null,
+      "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      "GlcNAc?PC(?1-?)Man(?1-?)[GlcNAc?PC(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+      null,
+      null,
+      null,
+      "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Glc(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "name": "glyhub_GPST000299_GSL",
+    "accession": "GPST000299",
+    "doi": "10.3389/fimmu.2023.1102344",
+    "title": "Onchocerca volvulus adult-female GSL glycan profile",
+    "description": "A complete published MALDI peak-area profile from adult female Onchocerca volvulus, used to investigate shared antigenic glycans across filarial nematodes.",
+    "details": "Table S4 supplies one profile per glycan class without biological-replicate columns. All measured peaks with numerical areas are retained, including unassigned peaks with missing molecular annotation. Areas are preserved without normalization and cannot support replicate-based statistical inference. Same-row SNFG topology is transcribed where unambiguous; unspecified glycosidic bonds and phosphocholine positions remain unknown. Ambiguous antenna attachment, alternative isomers or missing modification placement are retained in the source workbook rather than resolved by assumption. Analytical 2-AA is excluded from the native glycan annotation and recorded separately.",
+    "unit": "unnormalized MALDI peak area",
+    "glycan_type": "GSL",
+    "source_glycan_type": "GSL",
+    "source_file": "data-raw/GPST000299/Table_4.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10026598/supplementaryFiles",
+    "source_md5": "7db0c2edc29e95d3dbac2d2c60afdd88",
+    "source_sha256": "ef4cbcfb8c8f1aeaa9a4fe2e49558740dabafce9d4cb65171f05551d33629381",
+    "sheet": "GSL glycans",
+    "row_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "column_indices": [
+      3
+    ],
+    "feature_ids": [
+      "row_3",
+      "row_4",
+      "row_5",
+      "row_6",
+      "row_7",
+      "row_8",
+      "row_9",
+      "row_10",
+      "row_11",
+      "row_12",
+      "row_13",
+      "row_14",
+      "row_15",
+      "row_16",
+      "row_17",
+      "row_18",
+      "row_19",
+      "row_20",
+      "row_21",
+      "row_22",
+      "row_23",
+      "row_24",
+      "row_25",
+      "row_26",
+      "row_27",
+      "row_28",
+      "row_29",
+      "row_30",
+      "row_31",
+      "row_32",
+      "row_33",
+      "row_34",
+      "row_35",
+      "row_36",
+      "row_37",
+      "row_38",
+      "row_39",
+      "row_40",
+      "row_41",
+      "row_42",
+      "row_43"
+    ],
+    "sample_ids": [
+      "O_volvulus_adult_female_profile"
+    ],
+    "row_annotations": [
+      {
+        "source_label": "H2N1PC1-AA",
+        "source_glycopeak_number": 1,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 1,
+          "PC": 1
+        },
+        "source_mz": 830.448,
+        "source_intensity": 9275,
+        "source_resolution": 3313,
+        "source_signal_noise": 26,
+        "source_theoretical_mz": 830.2965,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 3",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 915.414,
+        "source_intensity": 2146,
+        "source_resolution": 3339,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": null,
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N2PC1-AA",
+        "source_glycopeak_number": 2,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "PC": 1
+        },
+        "source_mz": 1033.561,
+        "source_intensity": 44044,
+        "source_resolution": 3920,
+        "source_signal_noise": 142,
+        "source_theoretical_mz": 1033.3759,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 5",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1118.567,
+        "source_intensity": 4476,
+        "source_resolution": 3996,
+        "source_signal_noise": 16,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1136.652,
+        "source_intensity": 1814,
+        "source_resolution": 2877,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1146.583,
+        "source_intensity": 11223,
+        "source_resolution": 3587,
+        "source_signal_noise": 40,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1153.586,
+        "source_intensity": 2007,
+        "source_resolution": 4011,
+        "source_signal_noise": 7,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1160.561,
+        "source_intensity": 1553,
+        "source_resolution": 3236,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1187.575,
+        "source_intensity": 2600,
+        "source_resolution": 3334,
+        "source_signal_noise": 10,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N2PC1-AA",
+        "source_glycopeak_number": 3,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2,
+          "PC": 1
+        },
+        "source_mz": 1195.641,
+        "source_intensity": 243856,
+        "source_resolution": 4245,
+        "source_signal_noise": 901,
+        "source_theoretical_mz": 1195.4287,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 12",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2A1N2PC1-AA",
+        "source_glycopeak_number": 4,
+        "composition_counts": {
+          "Hex": 2,
+          "HexA": 1,
+          "HexNAc": 2,
+          "PC": 1
+        },
+        "source_mz": 1209.614,
+        "source_intensity": 26849,
+        "source_resolution": 4387,
+        "source_signal_noise": 99,
+        "source_theoretical_mz": 1209.408,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 13",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "-",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1222.961,
+        "source_intensity": 2103,
+        "source_resolution": 2207,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N3PC1-AA",
+        "source_glycopeak_number": 5,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 3,
+          "PC": 1
+        },
+        "source_mz": 1236.667,
+        "source_intensity": 58167,
+        "source_resolution": 4427,
+        "source_signal_noise": 226,
+        "source_theoretical_mz": 1236.4553,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 15",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N2PC1F1-AA",
+        "source_glycopeak_number": 6,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 2,
+          "PC": 1,
+          "Fuc": 1
+        },
+        "source_mz": 1341.699,
+        "source_intensity": 1791,
+        "source_resolution": 4999,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": 1341.4867,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 16",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1349.623,
+        "source_intensity": 2035,
+        "source_resolution": 4053,
+        "source_signal_noise": 9,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3A1N2F1-AA",
+        "source_glycopeak_number": 7,
+        "composition_counts": {
+          "Hex": 3,
+          "HexA": 1,
+          "HexNAc": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1352.6,
+        "source_intensity": 1830,
+        "source_resolution": 4272,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": 1352.4632,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 18",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3A1N2PC1-AA",
+        "source_glycopeak_number": 8,
+        "composition_counts": {
+          "Hex": 3,
+          "HexA": 1,
+          "HexNAc": 2,
+          "PC": 1
+        },
+        "source_mz": 1371.686,
+        "source_intensity": 3992,
+        "source_resolution": 4821,
+        "source_signal_noise": 18,
+        "source_theoretical_mz": 1371.4608,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 19",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3PC1-AA",
+        "source_glycopeak_number": 9,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "PC": 1
+        },
+        "source_mz": 1398.744,
+        "source_intensity": 29799,
+        "source_resolution": 4881,
+        "source_signal_noise": 138,
+        "source_theoretical_mz": null,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 20",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1483.773,
+        "source_intensity": 1131,
+        "source_resolution": 5520,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1511.732,
+        "source_intensity": 2388,
+        "source_resolution": 4745,
+        "source_signal_noise": 12,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1514.614,
+        "source_intensity": 2600,
+        "source_resolution": 4061,
+        "source_signal_noise": 14,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1539.741,
+        "source_intensity": 1153,
+        "source_resolution": 5297,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1555.627,
+        "source_intensity": 1106,
+        "source_resolution": 3492,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3PC2-AA",
+        "source_glycopeak_number": 10,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "PC": 2
+        },
+        "source_mz": 1563.83,
+        "source_intensity": 15298,
+        "source_resolution": 5221,
+        "source_signal_noise": 83,
+        "source_theoretical_mz": 1563.5635,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 26",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3A1N3PC1-AA",
+        "source_glycopeak_number": 11,
+        "composition_counts": {
+          "Hex": 3,
+          "HexA": 1,
+          "HexNAc": 3,
+          "PC": 1
+        },
+        "source_mz": 1574.798,
+        "source_intensity": 8604,
+        "source_resolution": 5439,
+        "source_signal_noise": 48,
+        "source_theoretical_mz": 1574.5402,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 27",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N4PC2-AA",
+        "source_glycopeak_number": 12,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 4,
+          "PC": 2
+        },
+        "source_mz": 1604.856,
+        "source_intensity": 6726,
+        "source_resolution": 5585,
+        "source_signal_noise": 39,
+        "source_theoretical_mz": 1604.5902,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 28",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3N3PC3-AA",
+        "source_glycopeak_number": 13,
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 3,
+          "PC": 3
+        },
+        "source_mz": 1728.899,
+        "source_intensity": 2626,
+        "source_resolution": 5527,
+        "source_signal_noise": 17,
+        "source_theoretical_mz": 1728.6191,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 29",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3A1N3PC2-AA",
+        "source_glycopeak_number": 14,
+        "composition_counts": {
+          "Hex": 3,
+          "HexA": 1,
+          "HexNAc": 3,
+          "PC": 2
+        },
+        "source_mz": 1739.87,
+        "source_intensity": 4008,
+        "source_resolution": 5435,
+        "source_signal_noise": 27,
+        "source_theoretical_mz": 1739.5957,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 30",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H3A1N4F1-AA",
+        "source_glycopeak_number": 15,
+        "composition_counts": {
+          "Hex": 3,
+          "HexA": 1,
+          "HexNAc": 4,
+          "Fuc": 1
+        },
+        "source_mz": 1758.651,
+        "source_intensity": 2684,
+        "source_resolution": 4765,
+        "source_signal_noise": 18,
+        "source_theoretical_mz": 1758.622,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 31",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N4PC3-AA",
+        "source_glycopeak_number": 16,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 4,
+          "PC": 3
+        },
+        "source_mz": 1769.934,
+        "source_intensity": 921,
+        "source_resolution": 6029,
+        "source_signal_noise": 6,
+        "source_theoretical_mz": 1769.6744,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 32",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N5PC2-AA",
+        "source_glycopeak_number": 19,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 5,
+          "PC": 2
+        },
+        "source_mz": 1807.962,
+        "source_intensity": 17370,
+        "source_resolution": 5642,
+        "source_signal_noise": 124,
+        "source_theoretical_mz": 1807.6696,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 33",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 1923.683,
+        "source_intensity": 1673,
+        "source_resolution": 4883,
+        "source_signal_noise": 13,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N5PC3-AA",
+        "source_glycopeak_number": 20,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 5,
+          "PC": 3
+        },
+        "source_mz": 1973.044,
+        "source_intensity": 7963,
+        "source_resolution": 6008,
+        "source_signal_noise": 65,
+        "source_theoretical_mz": 1972.7538,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 35",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N6PC2-AA",
+        "source_glycopeak_number": 21,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 6,
+          "PC": 2
+        },
+        "source_mz": 2011.055,
+        "source_intensity": 777,
+        "source_resolution": 5693,
+        "source_signal_noise": 7,
+        "source_theoretical_mz": 2010.749,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 36",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 2126.719,
+        "source_intensity": 790,
+        "source_resolution": 5575,
+        "source_signal_noise": 7,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N6PC3-AA",
+        "source_glycopeak_number": 22,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 6,
+          "PC": 3
+        },
+        "source_mz": 2176.153,
+        "source_intensity": 3890,
+        "source_resolution": 6643,
+        "source_signal_noise": 39,
+        "source_theoretical_mz": 2175.3882,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 38",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N6PC3F1-AA",
+        "source_glycopeak_number": 23,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 6,
+          "PC": 3,
+          "Fuc": 1
+        },
+        "source_mz": 2322.214,
+        "source_intensity": 809,
+        "source_resolution": 6465,
+        "source_signal_noise": 9,
+        "source_theoretical_mz": 2321.891,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 39",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N6PC4-AA",
+        "source_glycopeak_number": 24,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 6,
+          "PC": 4
+        },
+        "source_mz": 2341.208,
+        "source_intensity": 1008,
+        "source_resolution": 6696,
+        "source_signal_noise": 11,
+        "source_theoretical_mz": 2340.86,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 40",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N7PC3-AA",
+        "source_glycopeak_number": 25,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 7,
+          "PC": 3
+        },
+        "source_mz": 2379.254,
+        "source_intensity": 1719,
+        "source_resolution": 7222,
+        "source_signal_noise": 20,
+        "source_theoretical_mz": 2378.9125,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 41",
+        "structure_limitation": null,
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "ND",
+        "source_glycopeak_number": null,
+        "composition_counts": {},
+        "source_mz": 2392.24,
+        "source_intensity": 715,
+        "source_resolution": 6979,
+        "source_signal_noise": 8,
+        "source_theoretical_mz": "-",
+        "structure_source": null,
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      },
+      {
+        "source_label": "H2N7PC4-AA",
+        "source_glycopeak_number": 26,
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 7,
+          "PC": 4
+        },
+        "source_mz": 2544.319,
+        "source_intensity": 836,
+        "source_resolution": 6769,
+        "source_signal_noise": 11,
+        "source_theoretical_mz": 2543.9393,
+        "structure_source": "Table S4 GSL glycans, embedded diagram anchored at source row 43",
+        "structure_limitation": "Unassigned peak, ambiguity braces, multiple isomers, or incomplete modification placement; original diagram and source composition retained.",
+        "analytical_label": "2-aminobenzoic acid (2-AA)"
+      }
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "col_data": {
+      "organism": [
+        "Onchocerca volvulus"
+      ],
+      "sex": [
+        "female"
+      ],
+      "life_stage": [
+        "adult"
+      ],
+      "sample_level": [
+        "published MALDI profile; no biological replicate columns"
+      ],
+      "analytical_label": [
+        "2-AA"
+      ]
+    },
+    "raw_matrix": [
+      [
+        2717
+      ],
+      [
+        653
+      ],
+      [
+        13466
+      ],
+      [
+        1421
+      ],
+      [
+        800
+      ],
+      [
+        4133
+      ],
+      [
+        663
+      ],
+      [
+        569
+      ],
+      [
+        1042
+      ],
+      [
+        80588
+      ],
+      [
+        8637
+      ],
+      [
+        1443
+      ],
+      [
+        18579
+      ],
+      [
+        582
+      ],
+      [
+        789
+      ],
+      [
+        702
+      ],
+      [
+        1267
+      ],
+      [
+        9899
+      ],
+      [
+        347
+      ],
+      [
+        914
+      ],
+      [
+        1152
+      ],
+      [
+        417
+      ],
+      [
+        529
+      ],
+      [
+        5387
+      ],
+      [
+        2850
+      ],
+      [
+        2304
+      ],
+      [
+        933
+      ],
+      [
+        1464
+      ],
+      [
+        1220
+      ],
+      [
+        359
+      ],
+      [
+        6503
+      ],
+      [
+        830
+      ],
+      [
+        3125
+      ],
+      [
+        337
+      ],
+      [
+        417
+      ],
+      [
+        1568
+      ],
+      [
+        366
+      ],
+      [
+        425
+      ],
+      [
+        682
+      ],
+      [
+        317
+      ],
+      [
+        393
+      ]
+    ],
+    "raw_source_matrix": [
+      [
+        2717
+      ],
+      [
+        653
+      ],
+      [
+        13466
+      ],
+      [
+        1421
+      ],
+      [
+        800
+      ],
+      [
+        4133
+      ],
+      [
+        663
+      ],
+      [
+        569
+      ],
+      [
+        1042
+      ],
+      [
+        80588
+      ],
+      [
+        8637
+      ],
+      [
+        1443
+      ],
+      [
+        18579
+      ],
+      [
+        582
+      ],
+      [
+        789
+      ],
+      [
+        702
+      ],
+      [
+        1267
+      ],
+      [
+        9899
+      ],
+      [
+        347
+      ],
+      [
+        914
+      ],
+      [
+        1152
+      ],
+      [
+        417
+      ],
+      [
+        529
+      ],
+      [
+        5387
+      ],
+      [
+        2850
+      ],
+      [
+        2304
+      ],
+      [
+        933
+      ],
+      [
+        1464
+      ],
+      [
+        1220
+      ],
+      [
+        359
+      ],
+      [
+        6503
+      ],
+      [
+        830
+      ],
+      [
+        3125
+      ],
+      [
+        337
+      ],
+      [
+        417
+      ],
+      [
+        1568
+      ],
+      [
+        366
+      ],
+      [
+        425
+      ],
+      [
+        682
+      ],
+      [
+        317
+      ],
+      [
+        393
+      ]
+    ],
+    "conflict_columns": [],
+    "annotation": "Source-derived compositions and original labels are retained. 18 source-supported structures are typed; unspecified bonds remain unknown. Unresolved or conflicting structures remain missing with source provenance.",
+    "license": {
+      "name": "Published article supplementary material",
+      "url": "https://doi.org/10.3389/fimmu.2023.1102344"
+    },
+    "object_class": "GlycomicSE",
+    "structure_iupac": [
+      null,
+      null,
+      "GalNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Gal(?1-?)GalNAc?PC(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+      "GlcA(?1-?)GalNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      null,
+      "Fuc(?1-?)Gal(?1-?)GalNAc?PC(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+      null,
+      "Fuc(?1-?)Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+      "Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      "Gal(?1-?)GalNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Gal(?1-?)GalNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      "Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      "GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      "Gal(?1-?)[GlcA(?1-?)]GalNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      "Fuc(?1-?)Gal(?1-?)[GlcA(?1-?)]GalNAc(?1-?)GlcNAc(?1-?)GlcNAc(?1-?)GlcNAc(?1-?)Man(?1-?)Glc",
+      null,
+      "GlcNAc(?1-?)GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      "GalNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      "GalNAc(?1-?)GlcNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      "GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      "Fuc(?1-?)GalNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      "GalNAc(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)GlcNAc(?1-?)GlcNAc?PC(?1-?)Man(?1-?)Glc",
+      null,
+      null
+    ]
+  }
+]

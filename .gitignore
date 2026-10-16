@@ -8,3 +8,47 @@ docs
 
 /glyhub_*.tar.gz
 /data-raw/GPST000599/mmc4.xlsx
+
+/data-raw/GPST000299/Table_4.xlsx
+/data-raw/GPST000562/identification_quantification_table.xlsx
+/data-raw/GPST000562/mmc2.xlsx
+/data-raw/GPST000460/Supplemental_Tables_S3-S8.xlsx
+/data-raw/GPST000584/41467_2026_68579_MOESM12_ESM.xlsx
+/data-raw/GPST000584/41467_2026_68579_MOESM14_ESM.xlsx
+/data-raw/GPST000584/41467_2026_68579_MOESM6_ESM.xlsx
+/data-raw/GPST000650/O-glycan.xlsx
+/data-raw/GPST000009/142931_2_supp_306791_pp104v.xlsx
+/data-raw/GPST000211/ML_structures+linkages.gwp
+/data-raw/GPST000211/mmc6.xlsx
+/data-raw/GPST000403/Identification.xlsx
+/data-raw/GPST000625/advs72721-sup-0003-TableS2.xlsx
+/data-raw/GPST000351/TPNG curated data MALDI.xlsx
+/data-raw/GPST000351/Metadata MALDI.xlsx
+/data-raw/GPST000079/mmc6.xlsx
+/data-raw/GPST000297/41467_2023_41094_MOESM1_ESM.pdf
+/data-raw/GPST000240/mmc4.xlsx
+/data-raw/GPST000240/mmc3.xlsx
+/data-raw/GPST000601/Tables S1, S2, S3, S4.xlsx
+/data-raw/GPST000601/F1D_ME-20250608-105636-result.xlsx
+/data-raw/GPST000601/Assignment.pdf
+/data-raw/GPST000170/Glycopost_identification file.xlsx
+/data-raw/GPST000296/mmc2.xlsx
+/data-raw/GPST000296/Glycan_results.xlsx
+/data-raw/GPST000296/mmc3.pdf
+/data-raw/GPST000534/Table.docx
+/data-raw/GPST000596/FUT8-KO_Manuscript_SupplementaryTable_Final.xlsx
+/data-raw/GPST000190/MoranAB_Glycopost_Identification.xlsx
+/data-raw/GPST000239/mmc2.xlsx
+/data-raw/GPST000667/N-glycan-identifications.csv
+/data-raw/GPST000473/41467_2025_60563_MOESM5_ESM.xlsx
+/data-raw/GPST000671/Supplementary File_4_Glycomics.xlsx
+/data-raw/GPST000604/ac5c02338_si_001.pdf
+/data-raw/GPST000604/ac5c02338_si_002.xlsx
+/data-raw/GPST000647/N-Glycan.xlsx
+/data-raw/GPST000585/N-glycomics_results.xlsx
+
+/glyhub.Rcheck/
+
+# User-supplied Mgat3 supplements: keep outside Git pending file-specific terms.
+/data-raw/GPST000027/152506_2_supp_372524_pvkzw0.pdf
+/data-raw/GPST000031/152506_2_supp_372529_pvkzs0.xls

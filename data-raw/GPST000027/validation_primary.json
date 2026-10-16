@@ -1,0 +1,35 @@
+{
+  "WT_peak_intensity": {
+    "calculated_sums": [
+      979000,
+      908230,
+      1887230
+    ],
+    "source_sums": [
+      979000,
+      908230,
+      1887230
+    ],
+    "sums_match": true
+  },
+  "KO_peak_intensity": {
+    "calculated_sums": [
+      745500,
+      1017338,
+      1762838
+    ],
+    "source_sums": [
+      745500,
+      1017338,
+      1762838
+    ],
+    "sums_match": true
+  },
+  "dimensions": {
+    "features": 51,
+    "samples": 2,
+    "composition_groups": 30
+  },
+  "percent_mismatches": [],
+  "source_sha256": "a9393edfc7c67eb19e6d5e59919813fd18e4369489744e84950cbca048b1df72"
+}

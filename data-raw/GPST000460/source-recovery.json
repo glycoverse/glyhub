@@ -1,0 +1,11 @@
+[
+  {
+    "path": "data-raw/GPST000460/Supplemental_Tables_S3-S8.xlsx",
+    "bytes": 994893,
+    "sha256": "8dbeee837683f496cee17020d6cc2394128b301fa63d79720182feb6d3924366",
+    "md5": "4a1a8aabf3e1c0cfd6b28dbe856be77f",
+    "url": "https://glycopost.glycosmos.org/data/GPST000460.0/Supplemental_Tables_S3-S8.xlsx",
+    "source_kind": "GlycoPOST deposited source",
+    "verification": "Downloaded source MD5 matches official GlycoPOST file inventory"
+  }
+]

@@ -1,0 +1,2239 @@
+[
+  {
+    "feature_id": "1",
+    "structure": "GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 4,
+    "transcribed_counts": {
+      "GlcNAc": 2,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 5,
+    "source_composition": "(HexNAc)2 (Deoxyhexose)1",
+    "source_composition_counts": {
+      "HexNAc": 2,
+      "dHex": 1
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "GlcNAc(2)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "2",
+    "structure": "Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 5,
+    "transcribed_counts": {
+      "Man": 1,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 6,
+    "source_composition": "(Hex)1 (HexNAc)2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(1)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "3",
+    "structure": "Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 6,
+    "transcribed_counts": {
+      "Man": 1,
+      "GlcNAc": 2,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 7,
+    "source_composition": "(Hex)1 (HexNAc)2 (Deoxyhexose)1",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "dHex": 1
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(1)GlcNAc(2)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "4a",
+    "structure": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 8,
+    "transcribed_counts": {
+      "Man": 2,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 8,
+    "source_composition": "(Hex)2 (HexNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "4b",
+    "structure": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 8,
+    "transcribed_counts": {
+      "Man": 2,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 9,
+    "source_composition": "(Hex)2 (HexNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "5",
+    "structure": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 9,
+    "transcribed_counts": {
+      "Man": 2,
+      "GlcNAc": 2,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 10,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "6a",
+    "structure": "Man(?1-?)Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 11,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 11,
+    "source_composition": "(Hex)3 (HexNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "6b",
+    "structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 11,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 12,
+    "source_composition": "(Hex)3 (HexNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "7",
+    "structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 12,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 2,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 13,
+    "source_composition": "(Hex)3 (HexNAc)2 (Deoxyhexose)1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 2,
+      "dHex": 1
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(2)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "8",
+    "structure": "{Man(?1-?)|3,4}{Man(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 13,
+    "transcribed_counts": {
+      "Man": 5,
+      "GlcNAc": 2,
+      "Fuc": 1
+    },
+    "note": "Two additional mannoses are shown bracketed with multiplicity 2; their arm placement is unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 14,
+    "source_composition": "(Hex)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Man(?1-?)|3,4}{Man(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(5)GlcNAc(2)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "9a",
+    "structure": "{Man(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 15,
+    "transcribed_counts": {
+      "Man": 4,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 15,
+    "source_composition": "(Hex)4 (HexNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 4,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Man(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(4)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "9b",
+    "structure": null,
+    "pdf_page": 15,
+    "note": "Author explicitly states Structure not confirmed by MS/MS; no proposed structure is drawn. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 16,
+    "source_composition": "(Hex)4 (HexNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 4,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "composition only"
+  },
+  {
+    "feature_id": "9c",
+    "structure": "{Man(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 15,
+    "transcribed_counts": {
+      "Man": 4,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 17,
+    "source_composition": "(Hex)4 (HexNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 4,
+      "HexNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Man(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(4)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "10a",
+    "structure": "Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 17,
+    "transcribed_counts": {
+      "Man": 5,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 18,
+    "source_composition": "(Hex)2 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(5)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "10b",
+    "structure": "Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 17,
+    "transcribed_counts": {
+      "Man": 5,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 19,
+    "source_composition": "(Hex)2 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(5)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "11a",
+    "structure": "Man(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 19,
+    "transcribed_counts": {
+      "Man": 6,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 20,
+    "source_composition": "(Hex)3 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(6)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "11b",
+    "structure": "Man(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 19,
+    "transcribed_counts": {
+      "Man": 6,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 21,
+    "source_composition": "(Hex)3 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(6)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "12",
+    "structure": "Man(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 20,
+    "transcribed_counts": {
+      "Man": 7,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 22,
+    "source_composition": "(Hex)4 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 4,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(7)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "13",
+    "structure": "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 21,
+    "transcribed_counts": {
+      "Man": 8,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 23,
+    "source_composition": "(Hex)5 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 5,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(8)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "14",
+    "structure": "Man(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 22,
+    "transcribed_counts": {
+      "Man": 9,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 24,
+    "source_composition": "(Hex)6 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 6,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(9)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "15",
+    "structure": "Glc(?1-?)Man(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 23,
+    "transcribed_counts": {
+      "Glc": 1,
+      "Man": 9,
+      "GlcNAc": 2
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 25,
+    "source_composition": "(Hex)7 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 7,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Glc(?1-?)Man(?1-?)Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Glc(1)Man(9)GlcNAc(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "16",
+    "structure": "GlcNAc(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 24,
+    "transcribed_counts": {
+      "GlcNAc": 3,
+      "Man": 5
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 26,
+    "source_composition": "(Hex)2 (HexNAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Man(?1-?)[Man(?1-?)]Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(5)GlcNAc(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "17",
+    "structure": "{Man(?1-?)|4,5}GlcNAc(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 25,
+    "transcribed_counts": {
+      "GlcNAc": 3,
+      "Man": 6
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 27,
+    "source_composition": "(Hex)3 (HexNAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Man(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(6)GlcNAc(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "18a",
+    "structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 27,
+    "transcribed_counts": {
+      "Neu5Ac": 1,
+      "Gal": 1,
+      "GlcNAc": 3,
+      "Man": 4
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 28,
+    "source_composition": "(Hex)2 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(4)Gal(1)GlcNAc(3)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "18b",
+    "structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 27,
+    "transcribed_counts": {
+      "Neu5Ac": 1,
+      "Gal": 1,
+      "GlcNAc": 3,
+      "Man": 4
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 29,
+    "source_composition": "(Hex)2 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(4)Gal(1)GlcNAc(3)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "19",
+    "structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 28,
+    "transcribed_counts": {
+      "Neu5Ac": 1,
+      "Gal": 1,
+      "GlcNAc": 3,
+      "Man": 4,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 30,
+    "source_composition": "(Hex)2 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 1,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(4)Gal(1)GlcNAc(3)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "20a",
+    "structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 30,
+    "transcribed_counts": {
+      "Neu5Ac": 1,
+      "Gal": 1,
+      "GlcNAc": 3,
+      "Man": 5
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 31,
+    "source_composition": "(Hex)3 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(5)Gal(1)GlcNAc(3)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "20b",
+    "structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 30,
+    "transcribed_counts": {
+      "Neu5Ac": 1,
+      "Gal": 1,
+      "GlcNAc": 3,
+      "Man": 5
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 32,
+    "source_composition": "(Hex)3 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Man(?1-?)[Man(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(5)Gal(1)GlcNAc(3)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "21",
+    "structure": "{GlcNAc(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 31,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 33,
+    "source_composition": "(HexNAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "HexNAc": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{GlcNAc(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "22a",
+    "structure": "{GlcNAc(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 33,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 34,
+    "source_composition": "(HexNAc)1 (Deoxyhexose)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "HexNAc": 1,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{GlcNAc(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "22b",
+    "structure": "{GlcNAc(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 33,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 35,
+    "source_composition": "(HexNAc)1 (Deoxyhexose)1 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "HexNAc": 1,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{GlcNAc(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "23",
+    "structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 34,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 36,
+    "source_composition": "(HexNAc)2 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "HexNAc": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(4)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "24",
+    "structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 35,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 37,
+    "source_composition": "(HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "HexNAc": 2,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "25a",
+    "structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 37,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 38,
+    "source_composition": "(Hex)1 (HexNAc)2 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "25b",
+    "structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 37,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 39,
+    "source_composition": "(Hex)1 (HexNAc)2 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "26",
+    "structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 38,
+    "transcribed_counts": {
+      "GlcNAc": 5,
+      "Man": 3
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 40,
+    "source_composition": "(HexNAc)3 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "HexNAc": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(5)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "27a",
+    "structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 40,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 41,
+    "source_composition": "(Hex)1 (HexNAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "27b",
+    "structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 40,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 42,
+    "source_composition": "(Hex)1 (HexNAc)1 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "28a",
+    "structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 42,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 43,
+    "source_composition": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "28b",
+    "structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 42,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 44,
+    "source_composition": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|3,4}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "29a",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 44,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 45,
+    "source_composition": "(Hex)1 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "29b",
+    "structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 44,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 46,
+    "source_composition": "(Hex)1 (HexNAc)1 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "30a",
+    "structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 46,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 47,
+    "source_composition": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "30b",
+    "structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 46,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 48,
+    "source_composition": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "31",
+    "structure": "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 47,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 49,
+    "source_composition": "(Hex)2 (HexNAc)2 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "32a",
+    "structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 49,
+    "transcribed_counts": {
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 50,
+    "source_composition": "(HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "HexNAc": 3,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "32b",
+    "structure": "{GlcNAc(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 49,
+    "transcribed_counts": {
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": "Third antenna is bracketed between the two core arms; not bisecting. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 51,
+    "source_composition": "(HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "HexNAc": 3,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{GlcNAc(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "33a",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 51,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 52,
+    "source_composition": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "33b",
+    "structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 51,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 53,
+    "source_composition": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "33c",
+    "structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 51,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 54,
+    "source_composition": "(Hex)1 (HexNAc)1 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 1,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(3)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "34",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 52,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 55,
+    "source_composition": "(Hex)1 (HexNAc)2 (NeuAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "35",
+    "structure": "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 53,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 56,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "36",
+    "structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 54,
+    "transcribed_counts": {
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 57,
+    "source_composition": "(Hex)1 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)|2,4}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(5)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "37a",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 56,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 58,
+    "source_composition": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "37b",
+    "structure": "{Neu5Ac(a2-3)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 56,
+    "transcribed_counts": {
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 59,
+    "source_composition": "(Hex)1 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(4)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "38a",
+    "structure": "{Neu5Ac(a2-6)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 58,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Neu5Ac": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 60,
+    "source_composition": "(Hex)2 (HexNAc)2 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "38b",
+    "structure": "{Neu5Ac(a2-3)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 58,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Neu5Ac": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 61,
+    "source_composition": "(Hex)2 (HexNAc)2 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "39",
+    "structure": "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 59,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 62,
+    "source_composition": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(5)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "40a",
+    "structure": "{Neu5Ac(a2-6)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 61,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 63,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "40b",
+    "structure": "{Neu5Ac(a2-3)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 61,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 64,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "41",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 62,
+    "transcribed_counts": {
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 65,
+    "source_composition": "(Hex)1 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 1,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)Gal(?1-?)|3,5}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(1)GlcNAc(5)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "42",
+    "structure": "{Gal(?1-?)GlcNAc(?1-?)|7,8}{Gal(?1-?)GlcNAc(?1-?)|7,8}{Gal(?1-?)GlcNAc(?1-?)|7,8}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 63,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 66,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|7,8}{Gal(?1-?)GlcNAc(?1-?)|7,8}{Gal(?1-?)GlcNAc(?1-?)|7,8}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "43a",
+    "structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 65,
+    "transcribed_counts": {
+      "Neu5Ac": 2,
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 67,
+    "source_composition": "(Hex)2 (HexNAc)2 (NeuAc)2 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "43b",
+    "structure": "{Neu5Ac(a2-6)|3,6}{Neu5Ac(a2-3)|3,6}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 65,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Neu5Ac": 2
+    },
+    "note": "One alpha2-6 and one alpha2-3 sialic acid; arm assignment unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 68,
+    "source_composition": "(Hex)2 (HexNAc)2 (NeuAc)2 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)|3,6}{Neu5Ac(a2-6)|3,6}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "43c",
+    "structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 65,
+    "transcribed_counts": {
+      "Neu5Ac": 2,
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 69,
+    "source_composition": "(Hex)2 (HexNAc)2 (NeuAc)2 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "44",
+    "structure": "{Neu5Ac(a2-6)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 66,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 70,
+    "source_composition": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-6)|2,5}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(5)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "45a",
+    "structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 68,
+    "transcribed_counts": {
+      "Neu5Ac": 2,
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 71,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "45b",
+    "structure": "{Neu5Ac(a2-6)|3,6}{Neu5Ac(a2-3)|3,6}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 68,
+    "transcribed_counts": {
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1,
+      "Neu5Ac": 2
+    },
+    "note": "One alpha2-6 and one alpha2-3 sialic acid; arm assignment unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 72,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(a2-3)|3,6}{Neu5Ac(a2-6)|3,6}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "45c",
+    "structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 68,
+    "transcribed_counts": {
+      "Neu5Ac": 2,
+      "Gal": 2,
+      "GlcNAc": 4,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 73,
+    "source_composition": "(Hex)2 (HexNAc)2 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 2,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(4)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "46a",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 70,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 74,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|8,9}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "46b",
+    "structure": "{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 70,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 75,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}{Neu5Ac(a2-6)Gal(?1-?)GlcNAc(?1-?)|8,9}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "46c",
+    "structure": "{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 70,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 1,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 76,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)1 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 1,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|8,9}{Gal(?1-?)GlcNAc(?1-?)|8,9}{Neu5Ac(a2-3)Gal(?1-?)GlcNAc(?1-?)|8,9}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(1)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "47",
+    "structure": "Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 71,
+    "transcribed_counts": {
+      "Neu5Ac": 2,
+      "Gal": 2,
+      "GlcNAc": 5,
+      "Man": 3,
+      "Fuc": 1
+    },
+    "note": " Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 77,
+    "source_composition": "(Hex)2 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 2,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(2)GlcNAc(5)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "48a",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 73,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Neu5Ac": 2,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 78,
+    "source_composition": "(Hex)3 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "48b",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 73,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Neu5Ac": 2,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 79,
+    "source_composition": "(Hex)3 (HexNAc)3 (NeuAc)2 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "49a",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 75,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 2,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 80,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "49b",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 75,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 2,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 81,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "49c",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 75,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 2,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 82,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)2 + (Man)3(GlcNAc)2_3",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 2,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|9,10}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(2)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "50a",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 77,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Neu5Ac": 3,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 83,
+    "source_composition": "(Hex)3 (HexNAc)3 (NeuAc)3 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "Neu5Ac": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Neu5Ac(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "50b",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+    "pdf_page": 77,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Neu5Ac": 3,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 84,
+    "source_composition": "(Hex)3 (HexNAc)3 (NeuAc)3 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "Neu5Ac": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Neu5Ac(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "51a",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 79,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 3,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 85,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)3 + (Man)3(GlcNAc)2_1",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "51b",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 79,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 5,
+      "Fuc": 1,
+      "Neu5Ac": 3,
+      "Gal": 3
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 86,
+    "source_composition": "(Hex)3 (HexNAc)3 (Deoxyhexose)1 (NeuAc)3 + (Man)3(GlcNAc)2_2",
+    "source_composition_counts": {
+      "Hex": 3,
+      "HexNAc": 3,
+      "dHex": 1,
+      "Neu5Ac": 3,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|10,11}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(3)GlcNAc(5)Fuc(1)Neu5Ac(3)",
+    "glyrepr_validated": true
+  },
+  {
+    "feature_id": "52",
+    "structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+    "pdf_page": 80,
+    "transcribed_counts": {
+      "Man": 3,
+      "GlcNAc": 6,
+      "Fuc": 1,
+      "Neu5Ac": 4,
+      "Gal": 4
+    },
+    "note": "Author brackets antennae over the two core mannose arms; specific arm distribution and unspecified linkages remain unresolved. Source analytes are reduced glycans; reducing-end alditol treatment is retained in metadata, not inferred as a distinct sugar identity.",
+    "source_row": 87,
+    "source_composition": "(Hex)4 (HexNAc)4 (Deoxyhexose)1 (NeuAc)4 + (Man)3(GlcNAc)2",
+    "source_composition_counts": {
+      "Hex": 4,
+      "HexNAc": 4,
+      "dHex": 1,
+      "Neu5Ac": 4,
+      "Man": 3,
+      "GlcNAc": 2
+    },
+    "source_file": "si/mmc3.pdf",
+    "linkage_source": "Glycan_results.xlsx TS3 sialic_acid_position; other unnumbered linkages remain unknown",
+    "status": "source-supported partial structure",
+    "composition_check": true,
+    "canonical_structure": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|13,14}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc(?1-",
+    "composition": "Man(3)Gal(4)GlcNAc(6)Fuc(1)Neu5Ac(4)",
+    "glyrepr_validated": true
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "name": "glyhub_GPST000562_CS_DS",
+    "accession": "GPST000562",
+    "glycan_type": "GAG",
+    "source_glycan_type": "chondroitin/dermatan sulfate disaccharides",
+    "doi": "10.1016/j.mcpro.2026.101524",
+    "source_file": "data-raw/GPST000562/identification_quantification_table.xlsx",
+    "source_url": "https://glycopost.glycosmos.org/data/GPST000562.0/identification_quantification_table.xlsx",
+    "sheet": "Munka1",
+    "source_md5": "2445203e2ebf07dfc5fe48d38dc02a9f",
+    "row_indices": [],
+    "column_indices": [],
+    "raw_matrix": [
+      [
+        950.1070542,
+        1009.40205,
+        371.4844103,
+        442.6138511,
+        454.1628958,
+        437.457411,
+        178.8718756,
+        211.1664725,
+        210.8662655,
+        315.4388565,
+        281.0498426
+      ],
+      [
+        2440.082876,
+        4447.091681,
+        2975.201533,
+        2305.624319,
+        1795.42939,
+        536.8601335,
+        605.2605085,
+        789.4472274,
+        494.4809189,
+        371.9816842,
+        337.7521955
+      ],
+      [
+        2334.201567,
+        3242.266504,
+        2302.105147,
+        1860.387026,
+        1759.281999,
+        791.7669945,
+        1302.150476,
+        1340.735107,
+        862.6275744,
+        603.1082672,
+        655.8420733
+      ],
+      [
+        262.8150828,
+        652.6112007,
+        463.26131,
+        234.0905483,
+        290.6831085,
+        78.18801055,
+        123.9539516,
+        140.8688638,
+        81.5304507,
+        62.387903,
+        63.14746563
+      ]
+    ],
+    "raw_source_matrix": [
+      [
+        950.1070542,
+        1009.40205,
+        371.4844103,
+        442.6138511,
+        454.1628958,
+        437.457411,
+        178.8718756,
+        211.1664725,
+        210.8662655,
+        315.4388565,
+        281.0498426
+      ],
+      [
+        2440.082876,
+        4447.091681,
+        2975.201533,
+        2305.624319,
+        1795.42939,
+        536.8601335,
+        605.2605085,
+        789.4472274,
+        494.4809189,
+        371.9816842,
+        337.7521955
+      ],
+      [
+        2334.201567,
+        3242.266504,
+        2302.105147,
+        1860.387026,
+        1759.281999,
+        791.7669945,
+        1302.150476,
+        1340.735107,
+        862.6275744,
+        603.1082672,
+        655.8420733
+      ],
+      [
+        262.8150828,
+        652.6112007,
+        463.26131,
+        234.0905483,
+        290.6831085,
+        78.18801055,
+        123.9539516,
+        140.8688638,
+        81.5304507,
+        62.387903,
+        63.14746563
+      ]
+    ],
+    "feature_ids": [
+      "D0a0",
+      "D0a4",
+      "D0a6",
+      "D0a10"
+    ],
+    "sample_ids": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_feature_label": "D0a0",
+        "sulfate_count": 0,
+        "sulfation_positions": [],
+        "unsaturated_uronic_acid_count": 1,
+        "GalNAc_count": 1,
+        "annotation_limitation": "Unsaturated uronic acid is unsupported by the current glyrepr composition vocabulary."
+      },
+      {
+        "source_feature_label": "D0a4",
+        "sulfate_count": 1,
+        "sulfation_positions": [
+          4
+        ],
+        "unsaturated_uronic_acid_count": 1,
+        "GalNAc_count": 1,
+        "annotation_limitation": "Unsaturated uronic acid is unsupported by the current glyrepr composition vocabulary."
+      },
+      {
+        "source_feature_label": "D0a6",
+        "sulfate_count": 1,
+        "sulfation_positions": [
+          6
+        ],
+        "unsaturated_uronic_acid_count": 1,
+        "GalNAc_count": 1,
+        "annotation_limitation": "Unsaturated uronic acid is unsupported by the current glyrepr composition vocabulary."
+      },
+      {
+        "source_feature_label": "D0a10",
+        "sulfate_count": 2,
+        "sulfation_positions": [
+          4,
+          6
+        ],
+        "unsaturated_uronic_acid_count": 1,
+        "GalNAc_count": 1,
+        "annotation_limitation": "Unsaturated uronic acid is unsupported by the current glyrepr composition vocabulary."
+      }
+    ],
+    "col_data": {
+      "cell_line": [
+        "A549",
+        "A549",
+        "A549",
+        "A549",
+        "A549",
+        "BEAS-2B",
+        "BEAS-2B",
+        "BEAS-2B",
+        "BEAS-2B",
+        "BEAS-2B",
+        "BEAS-2B"
+      ],
+      "source": [
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles",
+        "small extracellular vesicles"
+      ],
+      "organism": [
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens"
+      ]
+    },
+    "conflict_columns": [],
+    "license": {
+      "name": "See original repository and publication license",
+      "url": "https://glycopost.glycosmos.org/entry/GPST000562"
+    },
+    "source_cell_rows": [
+      [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    ],
+    "source_cell_columns": [
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    ],
+    "title": "CS/DS disaccharide amounts in A549 and BEAS-2B small extracellular vesicles",
+    "description": "Four chondroitin/dermatan sulfate disaccharides quantified as fmol in five A549 and six BEAS-2B small-extracellular-vesicle preparations.",
+    "details": "Amounts derive from enzymatic CS/DS depolymerization and LC-MS/MS integration. D0a4 and D0a6 were distinguished by diagnostic fragments; the original 11 quantitative observations are preserved. The publication reports six preparations per cell line but excludes one A549 CS/DS preparation after a presumed preparation failure; the absent A5 observation is not manufactured. The N-glycan profiles from the same paper are stored under GPST000667.",
+    "annotation": "Author CS/DS disaccharide codes and sulfate positions are retained. The measured lyase products contain an unsaturated uronic acid that the installed glyrepr vocabulary cannot represent faithfully; typed compositions therefore remain missing rather than substituting saturated HexA. D0a0, D0a4, D0a6 and D0a10 denote zero, 4-O, 6-O and 4,6-di-O-sulfation, respectively.",
+    "unit": "fmol",
+    "related_accessions": [
+      "GPST000562",
+      "GPST000667"
+    ],
+    "additional_sources": [
+      {
+        "file": "data-raw/GPST000562/mmc2.xlsx",
+        "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1535947626000198-mmc2.xlsx",
+        "md5": "c4aae0989dbe15eca075218f046f4324",
+        "sheets": [
+          "S-7",
+          "S-14"
+        ]
+      }
+    ]
+  }
+]

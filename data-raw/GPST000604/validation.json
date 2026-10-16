@@ -1,0 +1,16 @@
+{
+  "glyhub_GPST000604_HS": {
+    "features": 8,
+    "observations": 21,
+    "assay_zero_to_na": 2,
+    "validation": true,
+    "annotation_gate": "representation_limited_accepted"
+  },
+  "glyhub_GPST000604_CS_DS": {
+    "features": 7,
+    "observations": 18,
+    "assay_zero_to_na": 0,
+    "validation": true,
+    "annotation_gate": "representation_limited_accepted"
+  }
+}

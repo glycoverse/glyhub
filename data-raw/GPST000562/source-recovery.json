@@ -1,0 +1,16 @@
+[
+  {
+    "path": "data-raw/GPST000562/identification_quantification_table.xlsx",
+    "url": "https://glycopost.glycosmos.org/data/GPST000562.0/identification_quantification_table.xlsx",
+    "sha256": "742188f863971a02fee738189a5ffd8b346caf00447b6b31da56e81a294632d8",
+    "bytes": 9822,
+    "source_kind": "Original public quantitative source"
+  },
+  {
+    "path": "data-raw/GPST000562/mmc2.xlsx",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1535947626000198-mmc2.xlsx",
+    "sha256": "5019585d5338e6b9e08b9fa3aab41dba5b6f8346d8382159de2f091d797bc487",
+    "bytes": 1188671,
+    "source_kind": "Original public quantitative source"
+  }
+]

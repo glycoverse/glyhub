@@ -1,0 +1,59 @@
+{
+  "doi": "10.1074/mcp.RA119.001534",
+  "pmid": "31375533",
+  "pmcid": "PMC6773561",
+  "glycopost_accession": "GPST000027",
+  "glycopost_revision": 0,
+  "publication_linkage_basis": "Exact paper title and PMID in official GPST000027 record match the supplemental PDF authors/title.",
+  "article_reported_brain_experiment": "Fig. 1 caption reports 3 independent WT/KO brain pairs analyzed; S2C contains only two published quantitative columns.",
+  "public_quantitative_columns_do_not_establish_biological_n": true,
+  "raw_file_mapping_status": "genotype-and-filename-derived candidates; no explicit S2C table-column to raw-run crosswalk found",
+  "raw_files": [
+    {
+      "id": "f_0000000563",
+      "name": "15071834_WT_TMT6_126.RAW",
+      "size": 26444876,
+      "type": "raw",
+      "status": "server",
+      "checksum": "84b8a016e88a25592b1973319b4d6b49",
+      "profiles": [
+        {
+          "id": "S0000000016",
+          "summary": "GnT3 KO mouse brain",
+          "category": "samplePreparation"
+        }
+      ]
+    },
+    {
+      "id": "f_0000000562",
+      "name": "15071835_GnT3KO_TMT6_127.RAW",
+      "size": 25374756,
+      "type": "raw",
+      "status": "server",
+      "checksum": "6cc605f285e4b629170a5fd33baf20da",
+      "profiles": [
+        {
+          "id": "S0000000016",
+          "summary": "GnT3 KO mouse brain",
+          "category": "samplePreparation"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "project": "https://glycopost.glycosmos.org/api/projects/GPST000027",
+    "files": "https://glycopost.glycosmos.org/api/projects/GPST000027.0/files?limit=20&offset=0",
+    "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773561/",
+    "publisher": "https://www.sciencedirect.com/science/article/pii/S1535947620315309",
+    "doi": "https://doi.org/10.1074/mcp.RA119.001534",
+    "license_record": "https://api.crossref.org/works/10.1074/mcp.RA119.001534"
+  },
+  "article_license": {
+    "license": "CC BY 4.0",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "basis": "Crossref article metadata, content-version vor",
+    "record_start_date": "2020-09-19",
+    "pdf_specific_license_notice": null,
+    "supplement_specific_license_separately_verified": false
+  }
+}

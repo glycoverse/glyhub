@@ -1,0 +1,34 @@
+{
+  "source": "Official supplementary PDF 41467_2023_41094_MOESM1_ESM.pdf, pages S46/S47 (physical pages46/47)",
+  "scope": "Every proposed structure row reviewed against rendered diagrams; first-round source mapping and final independent review",
+  "corrections": [
+    {
+      "rows": "N row3/4/6",
+      "finding": "Man7 extension belongs to upper arm; Man8 extends both terminal residues of upper arm; Man9 additionally extends lower arm. Corrected explicit topology without assigning unknown linkages."
+    },
+    {
+      "rows": "N row10",
+      "finding": "Extra outlined diamond absent from stated composition. Typed composition and structure missing; source text and figure retained."
+    },
+    {
+      "rows": "N row11",
+      "finding": "Core and antennal fucose are both drawn but composition has Fuc1. Typed composition and structure missing; source text and figure retained."
+    },
+    {
+      "rows": "O row7",
+      "finding": "GalNAc bears Neu5Ac directly and a HexNAc branch; HexNAc bears Fuc and Gal, and Gal bears second Fuc. Corrected branch topology."
+    },
+    {
+      "rows": "N row13/14",
+      "finding": "Neu5Gc donor carbon is2; unknown anomer and acceptor remain unspecified."
+    }
+  ],
+  "final_counts": {
+    "O_features": 13,
+    "O_structures": 13,
+    "N_features": 24,
+    "N_compositions": 22,
+    "N_structures": 22
+  },
+  "validation": "Every typed structure parsed and exact residue/substituent counts matched its source composition. Quantitative values and source coverage unchanged."
+}

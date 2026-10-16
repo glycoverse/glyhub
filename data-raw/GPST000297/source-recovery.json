@@ -1,0 +1,14 @@
+[
+  {
+    "accession": "GPST000297",
+    "path": "data-raw/GPST000297/41467_2023_41094_MOESM1_ESM.pdf",
+    "sha256": "f1dfca8db95510af6f092e7d17052e3742bd686d28c9e096336bc4ca46460aee",
+    "bytes": 5314093,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10475054/supplementaryFiles",
+    "archive_members": [
+      "41467_2023_41094_MOESM1_ESM.pdf"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  }
+]

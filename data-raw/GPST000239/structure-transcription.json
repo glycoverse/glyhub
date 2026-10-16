@@ -1,0 +1,754 @@
+[
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 3,
+    "source_label": "H3  ",
+    "iupac_condensed": "Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 4,
+    "source_label": "H2N1",
+    "iupac_condensed": "GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 5,
+    "source_label": "H2S1",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 6,
+    "source_label": "H2G1",
+    "iupac_condensed": "Neu5Gc(?2-?)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 7,
+    "source_label": "H3N1(1)",
+    "iupac_condensed": "GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 8,
+    "source_label": "H3N1(2)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 9,
+    "source_label": "H2N1S1",
+    "iupac_condensed": "GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 10,
+    "source_label": "H2N1G1",
+    "iupac_condensed": "GalNAc(b1-4)[Neu5Gc(?2-?)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 11,
+    "source_label": "H3N1F1(1)",
+    "iupac_condensed": "Gal(?1-?)[Fuc(?1-?)]GlcNAc(?1-?)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 12,
+    "source_label": "H3N1F1(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 13,
+    "source_label": "H3N1F1(3)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 14,
+    "source_label": "H4N1(1)",
+    "iupac_condensed": "Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 15,
+    "source_label": "H4N1(2)",
+    "iupac_condensed": "Gal(?1-?)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 16,
+    "source_label": "H3N2(1)",
+    "iupac_condensed": "Gal(b1-3)GlcNAc(b1-3)[HexNAc(?1-?)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 17,
+    "source_label": "H3N2(2)",
+    "iupac_condensed": "HexNAc(?1-?)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 18,
+    "source_label": "H2S2",
+    "iupac_condensed": "Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 19,
+    "source_label": "H2G2",
+    "iupac_condensed": "Neu5Gc(?2-?)Neu5Gc(?2-?)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 20,
+    "source_label": "H3N1S1(1)",
+    "iupac_condensed": "Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 21,
+    "source_label": "H3N1S1(2)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 22,
+    "source_label": "H3N1S1(3)",
+    "iupac_condensed": "Neu5Ac(a2-6)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 23,
+    "source_label": "H3N1S1(4)",
+    "iupac_condensed": "Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 24,
+    "source_label": "H3N1S1(5)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 25,
+    "source_label": "H3N1S1(6)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 26,
+    "source_label": "H3N1F2(1)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 27,
+    "source_label": "H3N1F2(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 28,
+    "source_label": "H3N1G1 (1)",
+    "iupac_condensed": "Neu5Gc(?2-?)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 29,
+    "source_label": "H3N1G1 (2)",
+    "iupac_condensed": "Neu5Gc(?2-?)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 30,
+    "source_label": "H4N1F1(1)",
+    "iupac_condensed": "Gal(a1-3)[Fuc(a1-2)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 31,
+    "source_label": "H4N1F1(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 32,
+    "source_label": "H4N1F1(3)",
+    "iupac_condensed": "Gal(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 33,
+    "source_label": "H3N2F1(1)",
+    "iupac_condensed": "GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 34,
+    "source_label": "H3N2F1(2)",
+    "iupac_condensed": "GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 35,
+    "source_label": "H3N2F1(3)",
+    "iupac_condensed": "Fuc(?1-?)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 36,
+    "source_label": "H4N2 ",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 37,
+    "source_label": "H2N1S2",
+    "iupac_condensed": "GalNAc(b1-4)[Neu5Ac(a2-8)Neu5Ac(a2-3)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 38,
+    "source_label": "H3N1F1S1(1)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 39,
+    "source_label": "H3N1F1S1(2)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 40,
+    "source_label": "H3N1F1S1(3)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 41,
+    "source_label": "H3N1F1S1(4)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)[Neu5Ac(a2-6)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 42,
+    "source_label": "H4N1S1",
+    "iupac_condensed": "Neu5Ac(a2-6)Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 43,
+    "source_label": "H4N1F2(1)",
+    "iupac_condensed": "Gal(?1-?)[Fuc(?1-?)]Gal(?1-?)[Fuc(?1-?)]GlcNAc(?1-?)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 44,
+    "source_label": "H4N1F2(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 45,
+    "source_label": "H3N2S1 (1)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-3)GlcNAc(b1-3)[HexNAc(?1-?)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 46,
+    "source_label": "H3N2S1 (2)",
+    "iupac_condensed": "Neu5Ac(a2-3)HexNAc(?1-?)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 47,
+    "source_label": "H3N2F2(1)",
+    "iupac_condensed": "GalNAc(?1-?)[Fuc(?1-?)]Gal(?1-?)[Fuc(?1-?)]GlcNAc(?1-?)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 48,
+    "source_label": "H3N2F2(2)",
+    "iupac_condensed": "GalNAc(?1-?)[Fuc(?1-?)]Gal(?1-?)[Fuc(?1-?)]GlcNAc(?1-?)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 49,
+    "source_label": "H4N2F1(1)",
+    "iupac_condensed": "GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 50,
+    "source_label": "H4N2F1(2)",
+    "iupac_condensed": "Gal(a1-3)[Fuc(a1-2)]Gal(b1-3)GlcNAc(b1-3)[HexNAc(?1-?)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 51,
+    "source_label": "H4N2F1(3)",
+    "iupac_condensed": "Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 52,
+    "source_label": "H4N2F1(4)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 53,
+    "source_label": "H4N2F1(5)",
+    "iupac_condensed": "Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 54,
+    "source_label": "H4N2F1(6)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 55,
+    "source_label": "H4N2F1(7)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 56,
+    "source_label": "H5N2",
+    "iupac_condensed": "Gal(a1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 57,
+    "source_label": "H3N1S2(1)",
+    "iupac_condensed": "Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-8)Neu5Ac(a2-3)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 58,
+    "source_label": "H3N1S2(2)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-3)GalNAc(b1-4)[Neu5Ac(a2-3)]Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 59,
+    "source_label": "H3N1S2(3)",
+    "iupac_condensed": "Neu5Ac(a2-8)Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 60,
+    "source_label": "H4N2S1(1)",
+    "iupac_condensed": "Neu5Ac(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 61,
+    "source_label": "H4N2S1(2)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 62,
+    "source_label": "H4N2F2(1)",
+    "iupac_condensed": "Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 63,
+    "source_label": "H4N2F2(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 64,
+    "source_label": "H4N2F2(3)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 65,
+    "source_label": "H4N2G1",
+    "iupac_condensed": "Neu5Gc(?2-?)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 66,
+    "source_label": "H5N2F1(1)",
+    "iupac_condensed": "Gal(a1-3)[Fuc(a1-2)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 67,
+    "source_label": "H5N2F1(2)",
+    "iupac_condensed": "Gal(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 68,
+    "source_label": "H4N3F1",
+    "iupac_condensed": "GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 69,
+    "source_label": "H5N3(1)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 70,
+    "source_label": "H5N3(2)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 71,
+    "source_label": "H4N1S2",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(?2-?)]GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 72,
+    "source_label": "H4N2F1S1(1)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 73,
+    "source_label": "H4N2F1S1(2)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 74,
+    "source_label": "H4N2F3 ",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 75,
+    "source_label": "H4N3F2",
+    "iupac_condensed": "GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 76,
+    "source_label": "H5N3F1(1)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 77,
+    "source_label": "H5N3F1(2)",
+    "iupac_condensed": "Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 78,
+    "source_label": "H5N3F1(3)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 79,
+    "source_label": "H5N3F1(4)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 80,
+    "source_label": "H5N3F1(5)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 81,
+    "source_label": "H4N2F2S1",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 82,
+    "source_label": "H4N3F3",
+    "iupac_condensed": "GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 83,
+    "source_label": "H5N3S1(1)",
+    "iupac_condensed": "Gal(b1-4)GlcNAc(b1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 84,
+    "source_label": "H5N3S1(2)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 85,
+    "source_label": "H5N3S1(3)",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 86,
+    "source_label": "H5N3F2(1)",
+    "iupac_condensed": "Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 87,
+    "source_label": "H5N3F2(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 88,
+    "source_label": "H5N3F2(3)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 89,
+    "source_label": "H5N3F1S1 ",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 90,
+    "source_label": "H5N3F3(1)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 91,
+    "source_label": "H5N3F3(2)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 92,
+    "source_label": "H5N3F3(3)",
+    "iupac_condensed": "Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 93,
+    "source_label": "H5N3S2 ",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 94,
+    "source_label": "H5N3F2S1",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 95,
+    "source_label": "H5N3F3S1",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  },
+  {
+    "dataset": "glyhub_GPST000239_GSL",
+    "source_sheet": "S-5",
+    "source_row": 96,
+    "source_label": "H6N4F1S1 ",
+    "iupac_condensed": "Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc",
+    "check": "Parsed structure composition agrees with source counts after residue-class aggregation; unknown bond positions preserved."
+  }
+]

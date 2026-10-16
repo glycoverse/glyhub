@@ -1,0 +1,177 @@
+[
+  {
+    "feature_id": "1",
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(8)GlcNAc(2)"
+  },
+  {
+    "feature_id": "2",
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(9)GlcNAc(2)"
+  },
+  {
+    "feature_id": "3",
+    "structure": "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(7)GlcNAc(2)"
+  },
+  {
+    "feature_id": "4",
+    "structure": "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(6)GlcNAc(2)"
+  },
+  {
+    "feature_id": "5",
+    "structure": "Man(a1-2)Man(a1-6)[Man(a1-2)Man(a1-3)]Man(a1-6)[Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Glc(1)Man(9)GlcNAc(2)"
+  },
+  {
+    "feature_id": "6",
+    "structure": "Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(5)GlcNAc(2)"
+  },
+  {
+    "feature_id": "7_849.3",
+    "structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)"
+  },
+  {
+    "feature_id": "7_1011.3",
+    "structure": "Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(2)"
+  },
+  {
+    "feature_id": "7_1173.4",
+    "structure": "Man(a1-3)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-3)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(4)GlcNAc(2)"
+  },
+  {
+    "feature_id": "7_1214.4",
+    "structure": "Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)"
+  },
+  {
+    "feature_id": "8",
+    "structure": "Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)][Fuc(a1-3)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)][Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(1)GlcNAc(2)Fuc(2)"
+  },
+  {
+    "feature_id": "9",
+    "structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)][Fuc(a1-3)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)][Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)Fuc(2)"
+  },
+  {
+    "feature_id": "10",
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(4)"
+  },
+  {
+    "feature_id": "11",
+    "structure": "Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)Fuc(1)"
+  },
+  {
+    "feature_id": "12",
+    "structure": "Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(1)GlcNAc(2)Fuc(1)"
+  },
+  {
+    "feature_id": "13_995.3",
+    "structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(2)GlcNAc(2)Fuc(1)"
+  },
+  {
+    "feature_id": "13_1157.4",
+    "structure": "Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(2)Fuc(1)"
+  },
+  {
+    "feature_id": "13_1360.5",
+    "structure": "Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(1)"
+  },
+  {
+    "feature_id": "14",
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(1)"
+  },
+  {
+    "feature_id": "15",
+    "structure": "GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(1)"
+  },
+  {
+    "feature_id": "16",
+    "structure": "GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(2)"
+  },
+  {
+    "feature_id": "17",
+    "structure": "Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(3)Fuc(2)"
+  },
+  {
+    "feature_id": "18",
+    "structure": "GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-4)[Fuc(a1-3)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(5)Fuc(2)"
+  },
+  {
+    "feature_id": "19",
+    "structure": "Fuc(a1-3)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc",
+    "annotation": "Explicit source linkage diagram; reducing-end anomer unspecified.",
+    "canonical_structure": "Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc(?1-",
+    "composition": "Man(3)GlcNAc(4)Fuc(3)"
+  },
+  {
+    "feature_id": "Others",
+    "structure": {},
+    "annotation": "Unresolved author aggregate Others; not a molecular assignment.",
+    "canonical_structure": null,
+    "composition": "<NA>"
+  }
+]

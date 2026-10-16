@@ -1,0 +1,349 @@
+[
+  {
+    "name": "glyhub_GPST000211_O",
+    "accession": "GPST000211",
+    "doi": "10.1016/j.mcpro.2024.100717",
+    "title": "O-glycans released by thrombin-activated human platelets",
+    "description": "Released O-glycan peak areas from platelet releasates of five human donors following thrombin stimulation.",
+    "details": "The published total-AUC columns combine the author-measured charge states for each of eleven glycan features. Isomer-resolved features remain distinct. Glycans below 300 Da were outside the reported detection range. Proposed source structures and their known linkages are retained where explicitly represented; the trisialylated feature has unresolved sialic-acid attachment topology and retains composition-level annotation.",
+    "unit": "peak area",
+    "glycan_type": "O",
+    "source_file": "data-raw/GPST000211/mmc6.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10879016/supplementaryFiles",
+    "sheet": "Table S3",
+    "row_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "column_indices": [
+      20,
+      24,
+      28,
+      32,
+      36
+    ],
+    "raw_matrix": [
+      [
+        5074.59,
+        6067.694,
+        6893.496,
+        29767.332,
+        128720.891
+      ],
+      [
+        27723.726,
+        30376.642,
+        55304.043,
+        115277.221,
+        16017.929
+      ],
+      [
+        54085.12,
+        44300.873,
+        195565.743,
+        120019.987,
+        254790.602
+      ],
+      [
+        1690.295,
+        3434.124,
+        1089.896,
+        12884.366,
+        7248.679
+      ],
+      [
+        546.516,
+        869.561,
+        3856.85,
+        1373.915,
+        4557.865
+      ],
+      [
+        47039.784,
+        40312.177,
+        88265.225,
+        50791.8,
+        147368.092
+      ],
+      [
+        2640.127,
+        1220.118,
+        13007.115,
+        2289.92,
+        11766.023
+      ],
+      [
+        1422.517,
+        2523.187,
+        4038.032,
+        2584.145,
+        8330.73
+      ],
+      [
+        1571.004,
+        632.553,
+        9356.676,
+        1070.968,
+        9363.463
+      ],
+      [
+        2443.724,
+        2708.436,
+        8339.044,
+        2567.798,
+        12629.264
+      ],
+      [
+        22648.377,
+        26492.481,
+        49522.806000000004,
+        33478.876000000004,
+        108088.415
+      ]
+    ],
+    "feature_ids": [
+      "1",
+      "2",
+      "3a",
+      "3b",
+      "4",
+      "5",
+      "6a",
+      "6b",
+      "7",
+      "8",
+      "9"
+    ],
+    "sample_ids": [
+      "A3",
+      "A7",
+      "A11",
+      "A15",
+      "A19"
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_composition": "(Hex)1(Deoxyhexose)1",
+        "composition_counts": {
+          "Hex": 1,
+          "dHex": 1
+        },
+        "glycan_number": "1",
+        "precursor_mz": 327.12,
+        "charge_states": -1,
+        "retention_time_min": 15.33,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)1(Pent)2",
+        "composition_counts": {
+          "Hex": 1,
+          "Pen": 2
+        },
+        "glycan_number": "2",
+        "precursor_mz": 445.1,
+        "charge_states": -1,
+        "retention_time_min": 15.65,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)1(HexNAc)1(NeuAc)1 - isomer a",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "Neu5Ac": 1
+        },
+        "glycan_number": "3a",
+        "precursor_mz": 675.16,
+        "charge_states": -1,
+        "retention_time_min": 16.51,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)1(HexNAc)1(NeuAc)1 - isomer b",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "Neu5Ac": 1
+        },
+        "glycan_number": "3b",
+        "precursor_mz": 675.16,
+        "charge_states": -1,
+        "retention_time_min": 20.44,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)1(HexNAc)2(NeuAc)1",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 2,
+          "Neu5Ac": 1
+        },
+        "glycan_number": "4",
+        "precursor_mz": 878.22,
+        "charge_states": -1,
+        "retention_time_min": 18.49,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)1(HexNAc)1(NeuAc)2",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "Neu5Ac": 2
+        },
+        "glycan_number": "5",
+        "precursor_mz": 966.26,
+        "charge_states": "-1, -2",
+        "retention_time_min": 18.83,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)2(HexNAc)2(NeuAc)1 - isomer a",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Neu5Ac": 1
+        },
+        "glycan_number": "6a",
+        "precursor_mz": 1040.32,
+        "charge_states": -1,
+        "retention_time_min": 21.39,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)2(HexNAc)2(NeuAc)1 - isomer b",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Neu5Ac": 1
+        },
+        "glycan_number": "6b",
+        "precursor_mz": 1040.32,
+        "charge_states": -1,
+        "retention_time_min": 26.19,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)2(HexNAc)2(Deoxyhexose)1(NeuAc)1",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "dHex": 1,
+          "Neu5Ac": 1
+        },
+        "glycan_number": "7",
+        "precursor_mz": 1186.38,
+        "charge_states": -1,
+        "retention_time_min": 25.88,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)1(HexNAc)1(NeuAc)3",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "Neu5Ac": 3
+        },
+        "glycan_number": "8",
+        "precursor_mz": 1257.4,
+        "charge_states": -1,
+        "retention_time_min": 22.16,
+        "msms_present": "Y"
+      },
+      {
+        "source_composition": "(Hex)2(HexNAc)2(NeuAc)2",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2,
+          "Neu5Ac": 2
+        },
+        "glycan_number": "9",
+        "precursor_mz": 1331.44,
+        "charge_states": "-1, -2",
+        "retention_time_min": 32.69,
+        "msms_present": "Y"
+      }
+    ],
+    "col_data": {
+      "donor_id": [
+        "A3",
+        "A7",
+        "A11",
+        "A15",
+        "A19"
+      ],
+      "organism": [
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens",
+        "Homo sapiens"
+      ],
+      "biospecimen": [
+        "thrombin-activated platelet releasate",
+        "thrombin-activated platelet releasate",
+        "thrombin-activated platelet releasate",
+        "thrombin-activated platelet releasate",
+        "thrombin-activated platelet releasate"
+      ],
+      "thrombin_U_mL": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    "source_md5": "57069a899a58589e7e040ac5fd138ec0",
+    "source_sha256": "25af08d221179ec922fcffe2281cbfbee11cef69b98bf7302fa10a059f650776",
+    "features": 11,
+    "observations": 5,
+    "table": "Table S3",
+    "annotation": "Source composition counts and proposed structures cross-checked against the source table images and deposited GlycoWorkbench workspace; unresolved topology remains missing.",
+    "license": {
+      "article_license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "article_license_text": "This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+      "article_url": "https://doi.org/10.1016/j.mcpro.2024.100717",
+      "source_scope": "Publisher supplementary data",
+      "reuse_scope_status": "Repository/publication source attribution retained; no claim that article license overrides independently deposited data"
+    },
+    "structure_iupac": [
+      "Glc(b1-3)Fuc",
+      "Xyl(a1-3)Xyl(a1-3)Glc",
+      "Neu5Ac(a2-3)Gal(b1-3)GalNAc",
+      "Gal(b1-3)[Neu5Ac(a2-6)]GalNAc",
+      "Neu5Ac(a2-3)Gal(b1-3)[GlcNAc(b1-6)]GalNAc",
+      "Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-6)]GalNAc",
+      "Neu5Ac(a2-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc",
+      "Gal(b1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc",
+      "Gal(b1-3)[Neu5Ac(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)]GalNAc",
+      null,
+      "Neu5Ac(a2-3)Gal(b1-3)[Neu5Ac(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc"
+    ],
+    "structure_source_file": "data-raw/GPST000211/ML_structures+linkages.gwp",
+    "structure_source_sha256": "d77a755f527d0bfcef75925d9cc41921bba570dde905dabfe3f963c9fa13b4a6"
+  }
+]

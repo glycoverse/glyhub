@@ -1,0 +1,23 @@
+{
+  "independent_rows": 51,
+  "independent_numeric_cells_compared": 204,
+  "differences": [],
+  "pdf_page": 4,
+  "image_coordinates_pdf_points": [
+    {
+      "x0": 73.5039,
+      "y0": 130.2882,
+      "x1": 524.5039,
+      "y1": 728.7882,
+      "width": 451.00000000000006,
+      "height": 598.5,
+      "name": "Im3",
+      "srcsize": [
+        1827,
+        2427
+      ],
+      "top": 113.10160000000008,
+      "bottom": 711.6016000000001
+    }
+  ]
+}

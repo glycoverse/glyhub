@@ -1,0 +1,33 @@
+[
+  {
+    "path": "data-raw/GPST000296/mmc2.xlsx",
+    "bytes": 5415770,
+    "sha256": "315a77045973ea067ea82090e75f4dd060cb982c81b99d46e1468b49e3c14d63",
+    "md5": "04b1cd055f65be76a406e776cffdb6f0",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10336694/supplementaryFiles",
+    "archive_member": "mmc2.xlsx",
+    "archive_sha256": "dd0fe8e3291a92a6f9d662e91ee43c7b6adcef384d4990730fd06842ee869f77",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  },
+  {
+    "path": "data-raw/GPST000296/Glycan_results.xlsx",
+    "bytes": 89116,
+    "sha256": "45fbd8fd82bde759664de60d908c7a9c18a8be6fd52453111d662fb1b9c10982",
+    "md5": "bcad2218504724dafc1e4f9193afccd7",
+    "url": "https://glycopost.glycosmos.org/data/GPST000296.0/Glycan_results.xlsx",
+    "source_kind": "GlycoPOST deposited source",
+    "verification": "Downloaded source MD5 matches official GlycoPOST file inventory"
+  },
+  {
+    "path": "data-raw/GPST000296/mmc3.pdf",
+    "bytes": 9910887,
+    "sha256": "cf56b7d30e5d91a69f9048b34fa2bd7966d8d802c135d6fec217b263f59e9b5e",
+    "md5": "200832fd016a3e1370eacd19b8ab6dde",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10336694/supplementaryFiles",
+    "archive_member": "mmc3.pdf",
+    "archive_sha256": "dd0fe8e3291a92a6f9d662e91ee43c7b6adcef384d4990730fd06842ee869f77",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  }
+]

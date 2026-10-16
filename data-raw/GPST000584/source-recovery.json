@@ -1,0 +1,35 @@
+[
+  {
+    "path": "data-raw/GPST000584/41467_2026_68579_MOESM12_ESM.xlsx",
+    "bytes": 86679,
+    "sha256": "3e3d5b4e179da9b545aed341f07d86e2cdb4dc682e86a723f109d6b658b3a90c",
+    "md5": "9ac52417fc03eddfa38c5563f3bca0b9",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12923677/supplementaryFiles",
+    "archive_member": "41467_2026_68579_MOESM12_ESM.xlsx",
+    "archive_sha256": "da627525a11d6ba0525347e595d02a1427d5dabc50c84c2ef52b6a56d9c4e845",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  },
+  {
+    "path": "data-raw/GPST000584/41467_2026_68579_MOESM14_ESM.xlsx",
+    "bytes": 5472291,
+    "sha256": "7abe7b13c55da0e4721eba31548b21ec68203b9c2e868929e79f8ad1c3dc6111",
+    "md5": "f19ec113214a9d5242dab66fab785e2f",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12923677/supplementaryFiles",
+    "archive_member": "41467_2026_68579_MOESM14_ESM.xlsx",
+    "archive_sha256": "da627525a11d6ba0525347e595d02a1427d5dabc50c84c2ef52b6a56d9c4e845",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  },
+  {
+    "path": "data-raw/GPST000584/41467_2026_68579_MOESM6_ESM.xlsx",
+    "bytes": 1375052,
+    "sha256": "0c89cfa86d3507ada63a4e34b8644678becef08d804982ff004b14bc7493b721",
+    "md5": "062cea74d2e865317cd5e482f8a63c2f",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12923677/supplementaryFiles",
+    "archive_member": "41467_2026_68579_MOESM6_ESM.xlsx",
+    "archive_sha256": "da627525a11d6ba0525347e595d02a1427d5dabc50c84c2ef52b6a56d9c4e845",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "accession": "GPST000294",
+  "source": "https://doi.org/10.1016/j.mcpro.2023.100505",
+  "reviewed_pages": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    14,
+    17
+  ],
+  "percent_token_audit": {
+    "pdf_table_tokens": 297,
+    "exact_numeric_values": 147,
+    "censored_values": 150
+  },
+  "topology_review": "Independent visual checks of colored SNFG nodes and edges on pages listed, including high-mannose branch differences, Glc versus Man, GalNAc versus generic HexNAc, methyl and PC placement. All 202 structures parsed; all 201 printed source compositions matched after aggregation of Hex and HexNAc identities.",
+  "special_rows": {
+    "N_S1_082": "One PC floats over exactly the two GlcNAc residues on upper arm; parent IDs 1,2.",
+    "N_S1_157": "Same restricted two-GlcNAc PC ambiguity, parents 1,2.",
+    "N_S1_196": "Article Results paragraph beginning A particular challenge explicitly groups Figure 4 G\u2013J with branched motifs consisting of Man and multiple HexNAc. Therefore disaccharide and monosaccharide fragments both use upper-arm Man parent 4; reciprocal fragment attachment removed.",
+    "N_S1_197": "Long and short fragments each have only two arm Man candidate parents5,6; source arm assignment remains unresolved."
+  }
+}

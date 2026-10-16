@@ -1,0 +1,5456 @@
+[
+  {
+    "feature_id": "N_S1_001",
+    "source_page": 4,
+    "source_table_row": 2,
+    "source_annotation": "827.34\nH2N2\n5.9",
+    "source_cells": [
+      "14.7’",
+      "14.7’",
+      "14.5’",
+      "tr 14.4’\n>0.1%",
+      "14.9’\n>0.1%\n13.7-14.7’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_002",
+    "source_page": 4,
+    "source_table_row": 3,
+    "source_annotation": "827.34\nH2N2\n7.8",
+    "source_cells": [
+      "tr 17.4’",
+      "nd 17.3’",
+      "tr 17.2’",
+      "tr 17.2’-18.4\n0.3%\n15.8-17.6’",
+      "17.1-18.2’\n0.1%\n16.5-17.6’",
+      "18.1’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.3,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.3%",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_003",
+    "source_page": 4,
+    "source_table_row": 4,
+    "source_annotation": "973.40\nH2N2F1\n4.2",
+    "source_cells": [
+      "tr 11’",
+      "nd 10.7’",
+      "nd 10.8’",
+      "",
+      "",
+      "10.6’ Ar\n>0.1%\n9.2’ A",
+      "10.7’ Ar\n>0.1%\n9.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_004",
+    "source_page": 4,
+    "source_table_row": 5,
+    "source_annotation": "973.40\nH2N2F1\n10",
+    "source_cells": [
+      "tr 20.8’",
+      "nd 20.7’",
+      "tr 20.8’",
+      "tr 20.6’\n>0.1%\ntr 19.5’",
+      "tr 20.6’\n>0.1%\ntr 19.5-20.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_005",
+    "source_page": 4,
+    "source_table_row": 6,
+    "source_annotation": "973.40\nH2N2F1\n15-16",
+    "source_cells": [
+      "22.4-23.5’",
+      "23.2’",
+      "22.2-23’",
+      "tr 22.1’ F\n0.2%\ntr 22.5’",
+      "tr 22.1’\n0.3%\n22.5’",
+      "23.4’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_006",
+    "source_page": 4,
+    "source_table_row": 7,
+    "source_annotation": "987.41\nH2N2F1Me1\n4.7-5.1",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 12.3’\n>0.1%\n11’ A",
+      "tr 12.1’\n>0.1%\n11.2’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_007",
+    "source_page": 4,
+    "source_table_row": 8,
+    "source_annotation": "989.39\nH3N2 (MM)\n7.2-7.6",
+    "source_cells": [
+      "17-17.4’",
+      "17.2’",
+      "17.2’",
+      "17.2’\n14.3%\n15.8-16.5’",
+      "17.1’\n13.5%\n16.5’",
+      "17.3’ Ar\n16.2’ A",
+      "17’ Ar\n16’ A"
+    ],
+    "abundance_percent": [
+      14.3,
+      13.5,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "14.3%",
+      "13.5%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_008",
+    "source_page": 4,
+    "source_table_row": 9,
+    "source_annotation": "1003.41\nH3N2Me\n9.5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "19.2’ F\n>0.1%\nnd 18.2’",
+      "tr 18.2’\n>0.1%\n18.5’ F",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_009",
+    "source_page": 4,
+    "source_table_row": 10,
+    "source_annotation": "1119.46\nH2N2F2\n5.8",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "13.6-14.1’ Ar\n>0.1%\ntr 12.2’ A",
+      "13.7’ Ar\n>0.1%\n13’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_010",
+    "source_page": 4,
+    "source_table_row": 11,
+    "source_annotation": "1119.46\nH2N2F2\n7-7.6\nG67083FT",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17.3’ Ar\n>0.1%\ntr 16.2’ A",
+      "17’ Ar\n>0.1%\n16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_011",
+    "source_page": 4,
+    "source_table_row": 12,
+    "source_annotation": "1119.46\nH2N2F2\n8-8.8\nG05890XZ",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17.8’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_012",
+    "source_page": 4,
+    "source_table_row": 13,
+    "source_annotation": "1119.46\nH2N2F2\n> 13-16",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "23.8’\n>0.1%\ntr 22.5’",
+      "23.8’\n0.1%\n22.5- 23.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_013",
+    "source_page": 4,
+    "source_table_row": 14,
+    "source_annotation": "1133.47\n6-6.3\nSupp. Fig. 11A",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n>0.1%\n14’ A",
+      "15.1’ Ar\n>0.1%\n14’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_014",
+    "source_page": 5,
+    "source_table_row": 1,
+    "source_annotation": "1135.45\nH3N2F1\n2.8",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "7.8’ Ar\n>0.1%",
+      "7.8’ Ar\n>0.1%\n7’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_015",
+    "source_page": 5,
+    "source_table_row": 2,
+    "source_annotation": "1135.45\nH3N2F1\n(MMF3)\n4.9\nG92612ZM",
+    "source_cells": [
+      "tr 12.5’",
+      "tr 12.4’",
+      "nd 12.5’",
+      "",
+      "",
+      "12.3’ Ar\n0.1%\n11’ A",
+      "12.1’ Ar\n0.2%\n11.2’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      0.2
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      "0.2%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_016",
+    "source_page": 5,
+    "source_table_row": 3,
+    "source_annotation": "1135.45\nH3N2F1\n5.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "13.1’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_017",
+    "source_page": 5,
+    "source_table_row": 4,
+    "source_annotation": "1135.45\nH3N2F1\n(MMF6)\n11.5\nG45995IV",
+    "source_cells": [
+      "22’",
+      "22.5’",
+      "22.2’",
+      "22.2’\n7.4%\n21.5-22.5’",
+      "22.1’\n7.3%\n21.5-22.5’",
+      "22.2-23.4’ Ar\n22’ A",
+      "22.3’ Ar"
+    ],
+    "abundance_percent": [
+      7.4,
+      7.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "7.4%",
+      "7.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_018",
+    "source_page": 5,
+    "source_table_row": 5,
+    "source_annotation": "1149.47\nH3N2F1Me1\n5.2\nYan 2015a",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "13’ F\n>0.1%\ntr 11.8’",
+      "13.1 F\n>0.1%\n11.8’",
+      "13.1’ Ar",
+      "12.9’ Ar"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_019",
+    "source_page": 5,
+    "source_table_row": 6,
+    "source_annotation": "1151.45\nH4N2\n4.2\nYan 2015b",
+    "source_cells": [
+      "11’",
+      "10.7’",
+      "10.8’",
+      "10.8’ F\n1.3%\n9.5’",
+      "10.7’ F\n2.7%\n9.5-10’",
+      "",
+      "10.7’ Ar\n9.8’ A"
+    ],
+    "abundance_percent": [
+      1.3,
+      2.7,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.3%",
+      "2.7%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_020",
+    "source_page": 5,
+    "source_table_row": 7,
+    "source_annotation": "1151.45\nH4N2\n7.8",
+    "source_cells": [
+      "17.4’",
+      "17.3’ tr",
+      "17.2’",
+      "17.2’ F\n0.5%",
+      "18.2’\n0.7%\n17.6’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.5,
+      0.7,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.5%",
+      "0.7%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_021",
+    "source_page": 5,
+    "source_table_row": 8,
+    "source_annotation": "1192.47\nH3N3 (MGn)\n7.2\nG70073SG",
+    "source_cells": [
+      "16.1-17’",
+      "16-16.8’",
+      "16-16.8’",
+      "16.6’\n2.6%\n15.8’",
+      "16.7’\n2.9%\n15.8’",
+      "16.4’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      2.6,
+      2.9,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "2.6%",
+      "2.9%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_022",
+    "source_page": 5,
+    "source_table_row": 9,
+    "source_annotation": "1192.47\nH3N3 (GnM)\n10.6-12\nG06920GM",
+    "source_cells": [
+      "20.8-21.5’",
+      "21.5’",
+      "20.6-21.3’",
+      "21.5’\n0.9%\n20.5-21.2’",
+      "20.6-21.6’\n1.0%\n20.5’",
+      "22.2’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.9,
+      1.0,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.9%",
+      "1.0%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_023",
+    "source_page": 5,
+    "source_table_row": 10,
+    "source_annotation": "1265.51\nH2N2F3\n7.2-8.8",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.8’ Ar\n>0.1%",
+      "18.5’ Ar\n0.2%\n17.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.2
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.2%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_024",
+    "source_page": 5,
+    "source_table_row": 11,
+    "source_annotation": "1279.53\nH2N2F3Me1\n10\nSupp. Fig. 11B",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "19.9’ Ar\n>0.1%",
+      "tr 19.6’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_025",
+    "source_page": 5,
+    "source_table_row": 12,
+    "source_annotation": "1281.51\nH3N2F2\n3.8\nFig. 6A",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10’ Ar\n>0.1%",
+      "9.6’ Ar\n0.2%\n8.7’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.2
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.2%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_026",
+    "source_page": 5,
+    "source_table_row": 13,
+    "source_annotation": "1281.51\nH3N2F2\n5.8-6.4\nFig. 6B",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n>0.1%",
+      "14.5-15.1’ Ar\n>0.1%\n14’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_027",
+    "source_page": 5,
+    "source_table_row": 14,
+    "source_annotation": "1281.51\nH3N2F2\n6.2-6.8\nFig. 6E",
+    "source_cells": [
+      "15.3-16’",
+      "nd 15.2’",
+      "15.2’",
+      "",
+      "",
+      "15.8’ Ar\n>0.1%",
+      "15.6’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_028",
+    "source_page": 5,
+    "source_table_row": 15,
+    "source_annotation": "1281.51\nH3N2F2\n(MMF3F6)\n7.5-8.2\nFig. 6F\nG77479VH",
+    "source_cells": [
+      "tr 17.4’",
+      "nd 17.3’",
+      "nd 17.2’",
+      "",
+      "",
+      "tr 17.3’ Ar\n>0.1%\ntr 17’ A",
+      "17-17.7’ Ar\n0.3%\n17’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.3
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.3%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_029",
+    "source_page": 5,
+    "source_table_row": 16,
+    "source_annotation": "1281.51\nH3N2F2\n8.8\nFig. 6H",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 18.8-19.2’\n>0.1%",
+      "18.5-19.6’ Ar\n>0.1%\ntr 17.8’"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_030",
+    "source_page": 6,
+    "source_table_row": 1,
+    "source_annotation": "1295.52\nH3N2F2Me1\n3.8",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10’ Ar\n>0.1%",
+      "9.6’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_031",
+    "source_page": 6,
+    "source_table_row": 2,
+    "source_annotation": "1297.50\nH4N2F1\n2.6\nSupp. Fig. S2B",
+    "source_cells": [
+      "7.2’",
+      "7.2’",
+      "7.4’",
+      "",
+      "",
+      "7.3’ Ar\n>0.1%\n6.5’ A",
+      "7.3-7.8’ Ar\n0.5%\n6.5-7’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.5
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.5%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_032",
+    "source_page": 6,
+    "source_table_row": 3,
+    "source_annotation": "1297.50\nH4N2F1\n3",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "8.3’ Ar\n>0.1%",
+      "8.2’ Ar\n>0.1%\n7’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_033",
+    "source_page": 6,
+    "source_table_row": 4,
+    "source_annotation": "1297.50\nH4N2F1\n4.2\nFig. 3P\nYan 2015b",
+    "source_cells": [
+      "11’",
+      "tr 10.7’",
+      "tr 10.8’",
+      "10.2-10.8’\n0.7%\n9.3’",
+      "10.6-10.7’\n1.5%\n9.5’",
+      "10.6’ Ar\n9.2’ A",
+      "10.7’ Ar\n9.8’ A"
+    ],
+    "abundance_percent": [
+      0.7,
+      1.5,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.7%",
+      "1.5%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_034",
+    "source_page": 6,
+    "source_table_row": 5,
+    "source_annotation": "1297.50\nH4N2F1\n5.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "tr 12.3-13.2’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_035",
+    "source_page": 6,
+    "source_table_row": 6,
+    "source_annotation": "1297.50\nH4N2F1\n6.7",
+    "source_cells": [
+      "16.1’",
+      "16’",
+      "16’",
+      "15.7’\n>0.1%\n14.7’",
+      "15.7’\n0.3%\n14.7’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "0.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_036",
+    "source_page": 6,
+    "source_table_row": 7,
+    "source_annotation": "1297.50\nH4N2F1\n15-16\nSupp. Fig. 2L",
+    "source_cells": [
+      "25’",
+      "24.5’",
+      "24.4’",
+      "24.3’\n0.1%\n24.7’",
+      "24.3’\n0.3%\n23.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.1,
+      0.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.1%",
+      "0.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_037",
+    "source_page": 6,
+    "source_table_row": 8,
+    "source_annotation": "1311.52\nH4N2F1Me1\n3.3",
+    "source_cells": [
+      "7.9’",
+      "tr 8.2’",
+      "nd 8.4’",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_038",
+    "source_page": 6,
+    "source_table_row": 9,
+    "source_annotation": "1311.52\nH4N2F1Me1\n4.8\nFig. 3A\nYan 2015b",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "12.1’\n0.4%\ntr 10.8’",
+      "12.0’\n0.4%\ntr 10.8’",
+      "12.3’ Ar",
+      "tr 12.1’ Ar"
+    ],
+    "abundance_percent": [
+      0.4,
+      0.4,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.4%",
+      "0.4%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_039",
+    "source_page": 6,
+    "source_table_row": 10,
+    "source_annotation": "1311.52\nH4N2F1Me1\n5.5\nFig. 3B\nYan 2015b",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "13.6’\n0.1%",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.1,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_040",
+    "source_page": 6,
+    "source_table_row": 11,
+    "source_annotation": "1313.50\nH5N2\n4.6",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "11.3’\n1.4%\n10.0’",
+      "11.0’\n0.4%\n10.0’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      1.4,
+      0.4,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.4%",
+      "0.4%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_041",
+    "source_page": 6,
+    "source_table_row": 12,
+    "source_annotation": "1313.50\nH5N2\n(Man5)\n7.1",
+    "source_cells": [
+      "17’",
+      "16.8’",
+      "16.8’",
+      "16.6’ F\n4.3%\n15.8’",
+      "16.7’ F\n5.1%\n15.8’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      4.3,
+      5.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "4.3%",
+      "5.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_042",
+    "source_page": 6,
+    "source_table_row": 13,
+    "source_annotation": "1338.53\nH3N3F1\n(MGnF6)\n10.2-12\nG14576KZ",
+    "source_cells": [
+      "20.8-21.5’",
+      "21.5’",
+      "20.6’",
+      "21.5’\n1.6%\n21.2’",
+      "20.6-21.5’\n1.6%\n20.5’",
+      "22.2’ Ar",
+      "20.6-21.7’ Ar"
+    ],
+    "abundance_percent": [
+      1.6,
+      1.6,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.6%",
+      "1.6%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_043",
+    "source_page": 6,
+    "source_table_row": 14,
+    "source_annotation": "1338.53\nH3N3F1\n12-14",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "tr 23.8’\n>0.1%",
+      "tr 23.8’",
+      "23.4’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_044",
+    "source_page": 6,
+    "source_table_row": 15,
+    "source_annotation": "1338.53\nH3N3F1\n(GnMF6)\n17\nG69987TD",
+    "source_cells": [
+      "26’",
+      "26’",
+      "25-25.8’",
+      "25.8’\n0.6%\n26’",
+      "25.8’\n0.5%\n23.5’-26’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.6,
+      0.5,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.6%",
+      "0.5%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_045",
+    "source_page": 6,
+    "source_table_row": 16,
+    "source_annotation": "1357.53\nH3N3PC1\n7.8",
+    "source_cells": [
+      "17.4’-18.5’",
+      "17-18.3’",
+      "17.2-19’",
+      "17.2-18.4’\n5.2%\n16.5’",
+      "17.1-18.2’\n2.6%\n17.6’",
+      "18.1-18.8’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      5.2,
+      2.6,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "5.2%",
+      "2.6%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_046",
+    "source_page": 6,
+    "source_table_row": 17,
+    "source_annotation": "1357.53\nH3N3PC1\n12-14\nSupp. Fig. S2I",
+    "source_cells": [
+      "22.4’",
+      "22.5’",
+      "22.2’",
+      "22.2’ F\n0.3%",
+      "22.1’ F\n0.3%",
+      "23.4’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.3,
+      0.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.3%",
+      "0.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_047",
+    "source_page": 7,
+    "source_table_row": 1,
+    "source_annotation": "1395.55\nH3N4 (GnGn)\n9-10\nG88876JQ",
+    "source_cells": [
+      "19.9’",
+      "19.8’",
+      "19.7’",
+      "19.8’\n1.2%\n19-19.5’",
+      "19.7’\n2.0%\n19.5’",
+      "19.9’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      1.2,
+      2.0,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.2%",
+      "2.0%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_048",
+    "source_page": 7,
+    "source_table_row": 2,
+    "source_annotation": "1395.55\nH3N4\n>11-15",
+    "source_cells": [
+      "23.5’",
+      "23.2’",
+      "nd 23’",
+      "nd 24.3’",
+      "23.8’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_049",
+    "source_page": 7,
+    "source_table_row": 3,
+    "source_annotation": "1427\nH3N2F3\n4.8\nSupp. Fig. 9A",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "11.3-11.6’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_050",
+    "source_page": 7,
+    "source_table_row": 4,
+    "source_annotation": "1427.56\nH3N2F3\n6-6.4\nSupp. Fig. 9B",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15.1-15.6’ Ar\n14’ A\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_051",
+    "source_page": 7,
+    "source_table_row": 5,
+    "source_annotation": "1427.56\nH3N2F3\n6.5-7.4",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 16.4’\n>0.1%",
+      "16-17’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_052",
+    "source_page": 7,
+    "source_table_row": 6,
+    "source_annotation": "1427.56\nH3N2F3\n8-9",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "19.2’ Ar\n>0.1%",
+      "18.5-19.2’ Ar\n0.1%\n17.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.1
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_053",
+    "source_page": 7,
+    "source_table_row": 7,
+    "source_annotation": "1427.56\nH3N2F3\n10\nSupp. Fig. 9C",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "20.6’ Ar\n0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.1
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_054",
+    "source_page": 7,
+    "source_table_row": 8,
+    "source_annotation": "1441.58\nH3N2F3Me1\n6.3-7.2\nSupp. Fig. 11C",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "16.4’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_055",
+    "source_page": 7,
+    "source_table_row": 9,
+    "source_annotation": "1443.56\nH4N2F2\n2.6",
+    "source_cells": [
+      "7.2’",
+      "7.2’",
+      "7.4’",
+      "",
+      "",
+      "7’ Ar\n0.1%\n6’ A",
+      "7.3’ Ar\n0.5%\n6’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      0.5
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      "0.5%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_056",
+    "source_page": 7,
+    "source_table_row": 10,
+    "source_annotation": "1443.56\nH4N2F2\n3.8\nFig. 6I",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10’ Ar\n>0.1%\n8.5’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_057",
+    "source_page": 7,
+    "source_table_row": 11,
+    "source_annotation": "1443.56\nH4N2F2\n4\nSupp. Fig. 9D",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "9.6’ Ar\n>0.1%\n8.7’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_058",
+    "source_page": 7,
+    "source_table_row": 12,
+    "source_annotation": "1443.56\nH4N2F2\n4.5\nSupp. Fig. 9E",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10.6’ Ar\n>0.1%\ntr 9.2’",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_059",
+    "source_page": 7,
+    "source_table_row": 13,
+    "source_annotation": "1443.56\nH4N2F2\n5.2-5.5\nSupp. Fig. S2E",
+    "source_cells": [
+      "13.4’",
+      "13.3’",
+      "13.8’",
+      "",
+      "",
+      "13.6-14.1’ Ar\n>0.1%\n13’ A",
+      "13.7’ Ar\n0.5%\n13-13.4’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.5
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.5%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_060",
+    "source_page": 7,
+    "source_table_row": 14,
+    "source_annotation": "1443.56\nH4N2F2\n5.5\nFig. 3U",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "13.6’\n0.1%\n12.3’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_061",
+    "source_page": 7,
+    "source_table_row": 15,
+    "source_annotation": "1443.56\nH4N2F2\n5.8-6.4\nSupp. Fig. 9F",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_062",
+    "source_page": 7,
+    "source_table_row": 16,
+    "source_annotation": "1443.56\nH4N2F2\n6.7\nFig. 3X",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "tr 14.7’",
+      "14.9-15.7’\n0.3%\n14.7’",
+      "",
+      "15.7’ Ar"
+    ],
+    "abundance_percent": [
+      null,
+      0.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "0.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_063",
+    "source_page": 8,
+    "source_table_row": 1,
+    "source_annotation": "1443.56\nH4N2F2\n8.8-9\nFig. 6J",
+    "source_cells": [
+      "19.9’",
+      "nd 19.8’",
+      "nd 19.7’",
+      "",
+      "",
+      "19.2-19.9’ Ar\n>0.1%\n18.5’ A",
+      "19.2-19.6’ Ar\n0.4%\n19.4’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.4
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.4%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_064",
+    "source_page": 8,
+    "source_table_row": 2,
+    "source_annotation": "1457.58\nH4N2F2Me1\n3.0",
+    "source_cells": [
+      "7.9’",
+      "tr 8.2’",
+      "tr 8.4’",
+      "",
+      "",
+      "8.3’ Ar\n0.2%\n7.2’ A",
+      "8.2’ Ar\n0.1%\n7.5’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      0.1
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_065",
+    "source_page": 8,
+    "source_table_row": 3,
+    "source_annotation": "1457.58\nH4N2F2Me1\n4.1",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10.6’ Ar\n>0.1%\n8.5-9.2’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_066",
+    "source_page": 8,
+    "source_table_row": 4,
+    "source_annotation": "1457.58\nH4N2F2Me1\n6.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "15.2’\n>0.1%\n14-14.7’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_067",
+    "source_page": 8,
+    "source_table_row": 5,
+    "source_annotation": "1459.56\nH5N2F1\n2.8",
+    "source_cells": [
+      "7.9’",
+      "nd 8.2’",
+      "nd 8.4’",
+      "",
+      "",
+      "7.8’ Ar\n0.4%\n6.5’ A",
+      "7.8’ Ar\n>0.1%\n7’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.4,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.4%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_068",
+    "source_page": 8,
+    "source_table_row": 6,
+    "source_annotation": "1459.56\nH5N2F1\n4.6\nFig. 3D",
+    "source_cells": [
+      "tr 11’",
+      "tr 10.7’",
+      "nd 10.8’",
+      "tr 10.8’\n0.3%\n10’",
+      "tr 10.7’\n>0.1%\n10’",
+      "10’ A",
+      ""
+    ],
+    "abundance_percent": [
+      0.3,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.3%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_069",
+    "source_page": 8,
+    "source_table_row": 7,
+    "source_annotation": "1459.56\nH5N2F1\n6.7",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "15.8’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_070",
+    "source_page": 8,
+    "source_table_row": 8,
+    "source_annotation": "1459.56\nH5N2F1\n8.4-9\nFig. 3Y\nG98795XC",
+    "source_cells": [
+      "18.5’",
+      "18.3’",
+      "18.2’",
+      "18.4’\n0.1%\n18.2’",
+      "18.2’\n0.4%\n18.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.1,
+      0.4,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.1%",
+      "0.4%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_071",
+    "source_page": 8,
+    "source_table_row": 9,
+    "source_annotation": "1473.57\nH5N2F1Me1\n5.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "13.0’\n1.5%\n12’",
+      "13.1’\n>0.1%\n11.8’",
+      "12.3-13.1’ Ar\ntr 12.2’ A",
+      ""
+    ],
+    "abundance_percent": [
+      1.5,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.5%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_072",
+    "source_page": 8,
+    "source_table_row": 10,
+    "source_annotation": "1475.55\nH6N2\n5.6",
+    "source_cells": [
+      "14’",
+      "13.9’",
+      "13.8’",
+      "tr 13.6’\n>0.1%",
+      "13.1’\n>0.1%",
+      "",
+      "13.7’ Ar"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_073",
+    "source_page": 8,
+    "source_table_row": 11,
+    "source_annotation": "1475.55\nH6N2\n5.9",
+    "source_cells": [
+      "14.7’",
+      "14.7-15.2’",
+      "14.5’",
+      "14.4’\n5.1%\n13.2’",
+      "14.3-14.9’\n6.1%\n13.2’",
+      "15’ Ar\n13’ A",
+      "14.5’ Ar"
+    ],
+    "abundance_percent": [
+      5.1,
+      6.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "5.1%",
+      "6.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_074",
+    "source_page": 8,
+    "source_table_row": 12,
+    "source_annotation": "1475.55\nH6N2\n7.8-8.5",
+    "source_cells": [
+      "18.5’",
+      "18.2’",
+      "18.2’",
+      "18.4’\n0.2%\ntr 17.6’",
+      "18.2’ F\n0.6%\n17.6’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.6,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.6%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_075",
+    "source_page": 8,
+    "source_table_row": 13,
+    "source_annotation": "1484\nH3N3F2\n9-11\nG28654UV",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "19.9’ Ar\n>0.1%\n20’ A",
+      "tr 19.6’ Ar\n>0.1%\n20’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_076",
+    "source_page": 8,
+    "source_table_row": 14,
+    "source_annotation": "1500.58\nH4N3F1\n14-16",
+    "source_cells": [
+      "",
+      "23.2’",
+      "",
+      "23.8’\n0.2%\ntr 24.7’",
+      "23.8’-24.3\n0.3%\n23.5’",
+      "24.5’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_077",
+    "source_page": 8,
+    "source_table_row": 15,
+    "source_annotation": "1503.59\nH3N3F1PC1\n12.6-16",
+    "source_cells": [
+      "23.5’",
+      "22.5’",
+      "23’",
+      "22.2’\n0.9%\n22.5’",
+      "22.1’\n0.5%\n21.5-22.5’",
+      "23.4-24.5’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.9,
+      0.5,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.9%",
+      "0.5%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_078",
+    "source_page": 8,
+    "source_table_row": 16,
+    "source_annotation": "1503.59\nH3N3F1PC1\n>17",
+    "source_cells": [
+      "27’",
+      "nd 27.8’",
+      "nd 27.7’",
+      "25.8-27.1’\n0.2%\ntr 26’",
+      "27.2’\n0.2%\n26-28’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_079",
+    "source_page": 9,
+    "source_table_row": 1,
+    "source_annotation": "1516.58\nH5N3\n7.1",
+    "source_cells": [
+      "16.1’",
+      "16’",
+      "16’",
+      "15.7’\n>0.1%\ntr 15.8’",
+      "15.7-16.7’\n>0.1%\n15.8’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_080",
+    "source_page": 9,
+    "source_table_row": 2,
+    "source_annotation": "1541.61\nH3N4F1\n(GnGnF6)\n15-16\nFig. 3L/M",
+    "source_cells": [
+      "25’",
+      "24.8’",
+      "24.4’",
+      "24.3’\n1.5%\n23.5-24.7’",
+      "23.8-24.3’\n1.3%\n23.5-25’",
+      "24.5’ Ar",
+      "24.3’ Ar"
+    ],
+    "abundance_percent": [
+      1.5,
+      1.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.5%",
+      "1.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_081",
+    "source_page": 9,
+    "source_table_row": 3,
+    "source_annotation": "1541.61\nH3N4F1\n15-16\nFig. 3L/M",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "24.3’ F (mix)\n0.2%\n25’",
+      "tr 25’ F\n0.2%\n23.5-25’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_082",
+    "source_page": 9,
+    "source_table_row": 4,
+    "source_annotation": "1560.61\nH3N4PC1\n6.3\nFig. 4G",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "15.2’\n>0.1%\n14’ F",
+      "14.7’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_083",
+    "source_page": 9,
+    "source_table_row": 5,
+    "source_annotation": "1560.61\nH3N4PC1\n10.5",
+    "source_cells": [
+      "20.8’",
+      "20.7’",
+      "20.7’",
+      "19.5’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_084",
+    "source_page": 9,
+    "source_table_row": 6,
+    "source_annotation": "1560.61\nH3N4PC1\n10.2-11",
+    "source_cells": [
+      "21.5-22.4’",
+      "21.5’",
+      "21.5-22.2’",
+      "19.8-20.6’\n1.9%\n19.5-20.6’",
+      "20.6’\n1.0%\n19.5’/20.6’",
+      "21.2’",
+      ""
+    ],
+    "abundance_percent": [
+      1.9,
+      1.0,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.9%",
+      "1.0%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_085",
+    "source_page": 9,
+    "source_table_row": 7,
+    "source_annotation": "1560.61\nH3N4PC1",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "21.5’\n0.1%\n21.2-22.5’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.1,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_086",
+    "source_page": 9,
+    "source_table_row": 8,
+    "source_annotation": "1560.61\nH3N4PC1\n15",
+    "source_cells": [
+      "25’",
+      "23.2-25’",
+      "25’",
+      "tr 23.8-24.3’\n>0.1%\n22.5’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_087",
+    "source_page": 9,
+    "source_table_row": 9,
+    "source_annotation": "1573.62\nH3N2F4\n7.4\nSupp. Fig. 9G",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_088",
+    "source_page": 9,
+    "source_table_row": 10,
+    "source_annotation": "1589.62\nH4N2F3\n4.2\nFig. 6N",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10.7-11.3’ Ar\n0.1%\n10.2’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.1
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_089",
+    "source_page": 9,
+    "source_table_row": 11,
+    "source_annotation": "1589.62\nH4N2F3\n5.2-5.9\nFig. 6K & S8C",
+    "source_cells": [
+      "tr 13.4’",
+      "nd 13.3’",
+      "nd 13.3’",
+      "",
+      "",
+      "tr 13.6’ Ar\n>0.1%\ntr 13’ A",
+      "13.7’ Ar\n0.6%\n13’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.6
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.6%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_090",
+    "source_page": 9,
+    "source_table_row": 12,
+    "source_annotation": "1589.62\nH4N2F3\n6-6.2\nFig. 6P",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "14.1’ Ar\n>0.1%",
+      "14.5’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_091",
+    "source_page": 9,
+    "source_table_row": 13,
+    "source_annotation": "1589.62\nH4N2F3\n6.4\nFig. 6L/Q",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n>0.1%",
+      "14.5-15.1’ Ar\n0.3%\n14.0’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.3
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.3%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_092",
+    "source_page": 9,
+    "source_table_row": 14,
+    "source_annotation": "1589.62\nH4N2F3\n8.2\nFig. 6R + S8J",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17-17.7’ Ar\n0.3%\n16-17’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.3
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.3%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_093",
+    "source_page": 9,
+    "source_table_row": 15,
+    "source_annotation": "1589.62\nH4N2F3\n9\nSupp. Fig. 9H",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.5’ Ar\n>0.1%\n17.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_094",
+    "source_page": 10,
+    "source_table_row": 1,
+    "source_annotation": "1589.62\nH4N2F3\n10.8\nFig. 6T",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "21.2’\n>0.1%",
+      "20.6-20.9’ Ar\n0.4%\n20.0’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.4
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.4%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_095",
+    "source_page": 10,
+    "source_table_row": 2,
+    "source_annotation": "1603.64\nH4N2F3Me\n4.2-4.5\nSupp. Fig. 11D",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10.6’ Ar\n>0.1%",
+      "10.7’ Ar\n>0.1%\ntr 9.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_096",
+    "source_page": 10,
+    "source_table_row": 3,
+    "source_annotation": "1603.64\nH4N2F3Me\n5\nSupp. Fig. 11E",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "12.3’ Ar\n0.1%\n11’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_097",
+    "source_page": 10,
+    "source_table_row": 4,
+    "source_annotation": "1603.64\nH4N2F3Me\n5.5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n0.1%\ntr 14’",
+      "14.5’ Ar\n>0.1%\n13.4’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_098",
+    "source_page": 10,
+    "source_table_row": 5,
+    "source_annotation": "1603.64\nH4N2F3Me\n7.3\nSupp. Fig. 11F",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.1 Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_099",
+    "source_page": 10,
+    "source_table_row": 6,
+    "source_annotation": "1605.61\nH5N2F2\n2.8",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "7.3-7.8’ Ar\n0.1%\n6.5’ A",
+      "7.3-7.8’ Ar\n>0.1%\ntr 6.5’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_100",
+    "source_page": 10,
+    "source_table_row": 7,
+    "source_annotation": "1605.61\nH5N2F2\n4\nSupp. Fig. 9I",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10’ Ar\n>0.1%\n8.5’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_101",
+    "source_page": 10,
+    "source_table_row": 8,
+    "source_annotation": "1605.61\nH5N2F2\n5.8-6\nSupp. Fig. 9J",
+    "source_cells": [
+      "",
+      "13.9’",
+      "",
+      "",
+      "",
+      "14.1’ Ar\n0.2%\n13-14’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_102",
+    "source_page": 10,
+    "source_table_row": 9,
+    "source_annotation": "1605.61\nH5N2F2\n6.5-7\nSupp. Fig. 2G\nSupp. Fig. S8E",
+    "source_cells": [
+      "15.3-16.1’",
+      "15.3-16’",
+      "15.3-16’",
+      "",
+      "",
+      "16.4’ Ar\n0.2%\ntr 15.5’ A",
+      "16’ Ar\n0.8%\n15.5-16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      0.8
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "0.8%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_103",
+    "source_page": 10,
+    "source_table_row": 10,
+    "source_annotation": "1605.61\nH5N2F2\n6.7",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "15.8’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_104",
+    "source_page": 10,
+    "source_table_row": 11,
+    "source_annotation": "1605.61\nH5N2F2\n6.8-7.2\nSupp. Fig. 9K",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 17.3’ Ar\n>0.1%\ntr 16.2’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_105",
+    "source_page": 10,
+    "source_table_row": 12,
+    "source_annotation": "1605.61\nH5N2F2\n7.7",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "nd 18.2\n17.6’",
+      "18.2’\n0.2%\n17.6’",
+      "tr 18.5’ Ar",
+      "tr 18.5’ Ar"
+    ],
+    "abundance_percent": [
+      null,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_106",
+    "source_page": 10,
+    "source_table_row": 13,
+    "source_annotation": "1605.61\nH5N2F2\n9-10",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 19.9’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_107",
+    "source_page": 10,
+    "source_table_row": 14,
+    "source_annotation": "1619.63\nH5N2F2Me1\n3.4",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "8.9’ Ar\n0.6%\n7.2-7.8’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.6,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.6%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_108",
+    "source_page": 10,
+    "source_table_row": 15,
+    "source_annotation": "1619.63\nH5N2F2Me1\n6\nFig. 3F",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "14.4’\n0.5%\n13.2’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.5,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.5%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_109",
+    "source_page": 10,
+    "source_table_row": 16,
+    "source_annotation": "1619.63\nH5N2F2Me1\n7.3",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "16.5’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_110",
+    "source_page": 11,
+    "source_table_row": 1,
+    "source_annotation": "1619.63\nH5N2F2Me1\n9",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "tr 18.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_111",
+    "source_page": 11,
+    "source_table_row": 2,
+    "source_annotation": "1621.61\nH6N2F1\n8.4-9.8\nFig. 3H",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "18.4-19.2’\n>0.1%\n19’",
+      "tr 18.2-19.7’\n>0.1%\ntr 18.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_112",
+    "source_page": 11,
+    "source_table_row": 3,
+    "source_annotation": "1633.65\nH5N2F2Me2\n5.5\nSupp. Fig. 11I",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "13.6’ Ar\n>0.1%\ntr 12.2’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_113",
+    "source_page": 11,
+    "source_table_row": 4,
+    "source_annotation": "1637.60\nH7N2\n4.9",
+    "source_cells": [
+      "12.5’",
+      "12.4’",
+      "12.5’",
+      "12.1’\n3.5%\n10.8’",
+      "12.0’\n2.9%\n10.8’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      3.5,
+      2.9,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "3.5%",
+      "2.9%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_114",
+    "source_page": 11,
+    "source_table_row": 5,
+    "source_annotation": "1637.60\nH7N2\n5.6\nFig. 3T",
+    "source_cells": [
+      "13.4-14’",
+      "13.3-13.9’",
+      "13.3-13.8’",
+      "13.6’\n0.6%\n12’",
+      "13.6’\n0.6%\n12.3’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.6,
+      0.6,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.6%",
+      "0.6%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_115",
+    "source_page": 11,
+    "source_table_row": 6,
+    "source_annotation": "1637.60\nH7N2\n6.6",
+    "source_cells": [
+      "15.3’",
+      "15.2’",
+      "15.2’",
+      "14’",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_116",
+    "source_page": 11,
+    "source_table_row": 7,
+    "source_annotation": "1637.60\nH7N2\n7",
+    "source_cells": [
+      "16.1’",
+      "16’",
+      "16’",
+      "15.2’\n>0.1%\n14-14.7’",
+      "14.9-15.7’\n0.5%\n14.7’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.5,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "0.5%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_117",
+    "source_page": 11,
+    "source_table_row": 8,
+    "source_annotation": "1646.64\nH4N3F2\n> 17\nYan 2012",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "tr 24.9’\n>0.1%",
+      "25’\n>0.1%",
+      "25.6’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_118",
+    "source_page": 11,
+    "source_table_row": 9,
+    "source_annotation": "1665.64\nH4N3F1PC1\n16.5\nFig. 4A",
+    "source_cells": [
+      "tr 25’",
+      "",
+      "",
+      "24.9’\n>0.1%\n25/26’",
+      "25’\n>0.1%\n26’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_119",
+    "source_page": 11,
+    "source_table_row": 10,
+    "source_annotation": "1681.63\nH5N3PC1\n7.3",
+    "source_cells": [
+      "17.4’",
+      "17.3’",
+      "17.3’",
+      "17.2’\n0.2%",
+      "17.1’\n0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_120",
+    "source_page": 11,
+    "source_table_row": 11,
+    "source_annotation": "1706.67\nH3N4F1PC1\n>17",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "25’",
+      "25’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_121",
+    "source_page": 11,
+    "source_table_row": 12,
+    "source_annotation": "1706.67\nH3N4F1PC1\n> 17\nFig. 4K",
+    "source_cells": [
+      "26’",
+      "26’",
+      "25.8’",
+      "24.9-25.8’\n1.5%\n25-26’",
+      "25-25.8’\n1.3%\n25-26’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      1.5,
+      1.3,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "1.5%",
+      "1.3%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_122",
+    "source_page": 11,
+    "source_table_row": 13,
+    "source_annotation": "1706.67\nH3N4F1PC1\n16.5",
+    "source_cells": [
+      "",
+      "",
+      "27.7’",
+      "28’",
+      "28’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_123",
+    "source_page": 11,
+    "source_table_row": 14,
+    "source_annotation": "1725.66\nH3N4PC2\n13-18\nFig. 4E & S5",
+    "source_cells": [
+      "25-27’",
+      "25’",
+      "25’",
+      "23.8’\n0.4%\n22.5-25’",
+      "23.8-24.3’\n0.5%\n22.5’-26’",
+      "25.6’ Ar",
+      "24.3’ Ar"
+    ],
+    "abundance_percent": [
+      0.4,
+      0.5,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.4%",
+      "0.5%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_124",
+    "source_page": 11,
+    "source_table_row": 15,
+    "source_annotation": "1725.66\nH3N4PC2\n>16",
+    "source_cells": [
+      "tr 27.7’",
+      "tr 27.8’",
+      "tr 27.7’",
+      "27.2-30.5’\n0.2%\n26’",
+      "27.2-31.2’\n>0.1%\n26’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_125",
+    "source_page": 12,
+    "source_table_row": 1,
+    "source_annotation": "1735.68\nH4N2F4\n6-7.6\nFig. 7H\nSupp. Fig. S8D",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17’ Ar\n0.5%\n16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.5
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.5%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_126",
+    "source_page": 12,
+    "source_table_row": 2,
+    "source_annotation": "1735.68\nH4N2F4\n8-9\nFig. 7I\nSupp. Fig. 8K",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.5-19.2’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_127",
+    "source_page": 12,
+    "source_table_row": 3,
+    "source_annotation": "1744.69\nH3N5F1\n9.4-10.5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "20.6’\n0.2%\ntr 20.5’",
+      "20.6’\n0.2%\n20.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_128",
+    "source_page": 12,
+    "source_table_row": 4,
+    "source_annotation": "1744.69\nH3N5F1\n20",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "27.2’\n0.2%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_129",
+    "source_page": 12,
+    "source_table_row": 5,
+    "source_annotation": "1749.69\nH4N2F4Me1\n6.8",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "14.6’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_130",
+    "source_page": 12,
+    "source_table_row": 6,
+    "source_annotation": "1749.69\nH4N2F4Me1\n9\nSupp. Fig. 11J",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.8' Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_131",
+    "source_page": 12,
+    "source_table_row": 7,
+    "source_annotation": "1751.67\nH5N2F3\n4.6\nFig. 7J",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 10-11’ A",
+      "11.3’-11.6’ Ar\n>0.1%\n10.2’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_132",
+    "source_page": 12,
+    "source_table_row": 8,
+    "source_annotation": "1751.67\nH5N2F3\n5.3-5.9\nSupp. Fig. 9L",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "14.1’ Ar\n>0.1%\n13’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_133",
+    "source_page": 12,
+    "source_table_row": 9,
+    "source_annotation": "1751.67\nH5N2F3\n5.8-6.4\nSupp. Fig. 9M",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n0.1%\n14’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_134",
+    "source_page": 12,
+    "source_table_row": 10,
+    "source_annotation": "1751.67\nH5N2F3\n7-7.6\nFig. 7K\nSupp. Fig. S8F",
+    "source_cells": [
+      "15.3-16.1’",
+      "16’",
+      "15.2’",
+      "",
+      "",
+      "tr 15.5’ A",
+      "15.6-16’ Ar\n1.3%\n15.5’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      1.3
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "1.3%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_135",
+    "source_page": 12,
+    "source_table_row": 11,
+    "source_annotation": "1751.67\nH5N2F3\n7.5\nFig. 7L",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17‘ Ar\n0.5%\n16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.5
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.5%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_136",
+    "source_page": 12,
+    "source_table_row": 12,
+    "source_annotation": "1751.67\nH5N2F3\n7.5-8.2\nSupp. Fig. 9N",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.1’ Ar\n>0.1%\n17’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_137",
+    "source_page": 12,
+    "source_table_row": 13,
+    "source_annotation": "1763.69\nH3N5PC1\n12-14\nSupp. Fig. S2J",
+    "source_cells": [
+      "23.5-25’",
+      "tr 22.5’",
+      "22.5-23’",
+      "22.2’\n0.5%\n22.5’",
+      "22.1’\n0.4%\n22.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.5,
+      0.4,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.5%",
+      "0.4%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_138",
+    "source_page": 12,
+    "source_table_row": 14,
+    "source_annotation": "1765.69\nH5N2F3Me1\n4.2\nSupp. Fig. 10A",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "10.6-11.3’ Ar\n0.5%\n9.2-10’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.5,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.5%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_139",
+    "source_page": 12,
+    "source_table_row": 15,
+    "source_annotation": "1765.69\nH5N2F3Me1\n6.4\nSupp. Fig. 10C",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n0.2%\n14’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_140",
+    "source_page": 13,
+    "source_table_row": 1,
+    "source_annotation": "1765.69\nH5N2F3Me1\n6.5-7.5",
+    "source_cells": [
+      "tr 17’",
+      "tr 16.8’",
+      "tr 16.8’",
+      "",
+      "",
+      "16.4’ Ar\n>0.1%\ntr 15.5’ A",
+      "17’ Ar\n0.1%\n16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.1
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_141",
+    "source_page": 13,
+    "source_table_row": 2,
+    "source_annotation": "1765.69\nH5N2F3Me1\n8.2\nSupp. Fig. 10E",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.1’ Ar\n0.2%\n17’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_142",
+    "source_page": 13,
+    "source_table_row": 3,
+    "source_annotation": "1767.67\nH6N2F2\n4.6\nFig. 7M\nYan 2018",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "11.3’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_143",
+    "source_page": 13,
+    "source_table_row": 4,
+    "source_annotation": "1767.67\nH6N2F2\n6.5-7.5\nFig. 7A",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "16.4’ Ar\n0.7%\n15.5-16.2’ A",
+      "tr. 16’ Ar\n>0.1%\n16’"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.7,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.7%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_144",
+    "source_page": 13,
+    "source_table_row": 5,
+    "source_annotation": "1767.67\nH6N2F2\n8.4-9.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "18.4’\n0.2%\n17.6’",
+      "18.2’\n>0.1%\ntr 17.6’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_145",
+    "source_page": 13,
+    "source_table_row": 6,
+    "source_annotation": "1779.70\nH5N2F3Me2\n7.5\nSupp. Fig. 11K",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17.3’ Ar\n0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.1,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_146",
+    "source_page": 13,
+    "source_table_row": 7,
+    "source_annotation": "1779.70\nH5N2F3Me2\n9.0",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "19.2’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_147",
+    "source_page": 13,
+    "source_table_row": 8,
+    "source_annotation": "1781.68\nH6N2F2Me1\n9.4\nFig. 3I",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "19.8’ F\n0.5%\n19.5’ F",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.5,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.5%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_148",
+    "source_page": 13,
+    "source_table_row": 9,
+    "source_annotation": "1781.68\nH6N2F2Me1\n9-11\nSupp. Fig. 11L",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "19.2-19.9’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_149",
+    "source_page": 13,
+    "source_table_row": 10,
+    "source_annotation": "1799.66\nH8N2\n(Man8B)\n4.6\nSupp. Fig. S2C",
+    "source_cells": [
+      "11.7’",
+      "11.5’",
+      "11.6’",
+      "tr 11.3’\n10’",
+      "11.3’\n10’",
+      "tr 11.3’ Ar",
+      "11.3’ Ar"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_150",
+    "source_page": 13,
+    "source_table_row": 11,
+    "source_annotation": "1799.66\nH8N2\n(Man8A)\n5.2\nSupp. Fig. S2D",
+    "source_cells": [
+      "13.4’",
+      "13.3’",
+      "13.3’",
+      "13’\n4.4%\n12.3’",
+      "13.1’\n5.2%\n11.8-12.3’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      4.4,
+      5.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "4.4%",
+      "5.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_151",
+    "source_page": 13,
+    "source_table_row": 12,
+    "source_annotation": "1799.66\nH8N2\n(Man8C)\n6.5",
+    "source_cells": [
+      "14.7-15.3’",
+      "14.5’-16’",
+      "14.5-16’",
+      "14.4-15.7’\n0.6%\n14.7’",
+      "15.7’\n0.1%\n14.7’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.6,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.6%",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_152",
+    "source_page": 13,
+    "source_table_row": 13,
+    "source_annotation": "1871.72\nH3N4F1PC2\n>17\nFig. 4B\nSupp. Fig. S5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "27.1-28.9’\n0.3%\n32.5’",
+      "28.9-29.3’\n0.2%\n32.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.3,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.3%",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_153",
+    "source_page": 13,
+    "source_table_row": 14,
+    "source_annotation": "1871.72\nH3N4F1PC2\n>17\nFig. 4C",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "30.5’\n>0.1%",
+      "30.5-31.2’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_154",
+    "source_page": 14,
+    "source_table_row": 1,
+    "source_annotation": "1897.73\nH5N2F4\n6.2-7.5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "16.2’ A",
+      "tr 17’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_155",
+    "source_page": 14,
+    "source_table_row": 2,
+    "source_annotation": "1897.73\nH5N2F4\n7.5-7.7\nSupp. Fig. 9O",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17.7’ Ar\n>0.1%\ntr 16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_156",
+    "source_page": 14,
+    "source_table_row": 3,
+    "source_annotation": "1897.73\nH5N2F4\n8.5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.5’ Ar\n0.9%\n17.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.9
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.9%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_157",
+    "source_page": 14,
+    "source_table_row": 4,
+    "source_annotation": "1909.74\nH3N5F1PC1\n11\nFig. 4N",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "tr 20.6-21.5’\n>0.1%",
+      "20.6’\n>0.1%\n21.5’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_158",
+    "source_page": 14,
+    "source_table_row": 5,
+    "source_annotation": "1909.74\nH3N5F1PC1\n>11\nFig. 4O",
+    "source_cells": [
+      "27.7’",
+      "27.8’",
+      "tr 27.7’",
+      "27.1’\n0.9%\n28’",
+      "27.2’\n1.0%\n28’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.9,
+      1.0,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.9%",
+      "1.0%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_159",
+    "source_page": 14,
+    "source_table_row": 6,
+    "source_annotation": "1911.75\nH5N2F4Me1\n6-7.2\nFig. 7B",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "16.4’ Ar\n0.7%\n15.5’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.7,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.7%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_160",
+    "source_page": 14,
+    "source_table_row": 7,
+    "source_annotation": "1911.75\nH5N2F4Me1\n8\nSupp. Fig. 8H",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17-17.7’ Ar\n0.2%\n16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      0.2
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_161",
+    "source_page": 14,
+    "source_table_row": 8,
+    "source_annotation": "1911.75\nH5N2F4Me1\n9\nSupp.Fig. 11M",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.8-19.2’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_162",
+    "source_page": 14,
+    "source_table_row": 9,
+    "source_annotation": "1913.73\nH6N2F3\n4.8\nSupp. Fig. 9P",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "11.3-11.6’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_163",
+    "source_page": 14,
+    "source_table_row": 10,
+    "source_annotation": "1913.73\nH6N2F3\n6.5-7\nFig. 7C",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "16.4’ Ar\n0.3%\n15.5’ A",
+      "15.6-16’ Ar\n>0.1%\n15.5’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.3,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.3%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_164",
+    "source_page": 14,
+    "source_table_row": 11,
+    "source_annotation": "1913.73\nH6N2F3\n6.8-7.5\nFig. 7D",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17.3’ Ar\n0.2%\n16.2’ A",
+      "17’ Ar\n>0.1%\n16’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_165",
+    "source_page": 14,
+    "source_table_row": 12,
+    "source_annotation": "1913.73\nH6N2F3\n6.8-7.5\nFig. 7E",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_166",
+    "source_page": 14,
+    "source_table_row": 13,
+    "source_annotation": "1913.73\nH6N2F3\n9.5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "19.7’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_167",
+    "source_page": 14,
+    "source_table_row": 14,
+    "source_annotation": "1925.76\nH5N2F4Me2\n8\nSupp. Fig. 11O",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.1’ Ar\n0.2%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_168",
+    "source_page": 14,
+    "source_table_row": 15,
+    "source_annotation": "1927.74\nH6N2F3Me\n5\nFig. 7N",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "12.3’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_169",
+    "source_page": 15,
+    "source_table_row": 1,
+    "source_annotation": "1927.74\nH6N2F3Me\n7.6\nFig. 7F",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "17.3’ Ar\n1.2%\n16.2’ A",
+      "tr 17.0’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      1.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "1.2%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_170",
+    "source_page": 15,
+    "source_table_row": 2,
+    "source_annotation": "1927.74\nH6N2F3Me\n9-10\nFig. 3J",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "19.8’ F\n0.2%\n19.5 F’",
+      "",
+      "19.9’ Ar",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_171",
+    "source_page": 15,
+    "source_table_row": 3,
+    "source_annotation": "1928.74\nH3N5PC2\n16\nFig. 4D\nSupp. Fig. 5",
+    "source_cells": [
+      "26-27’",
+      "26’",
+      "25-25.8’",
+      "24.3-25.8’\n0.2%\n25’",
+      "24.3-25.8’\n0.1%\n25-26’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.2,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.2%",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_172",
+    "source_page": 15,
+    "source_table_row": 4,
+    "source_annotation": "1928.74\nH3N5PC2\n>16",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "28.9’\n>0.1%\n26’",
+      "28.9-29.3’\n>0.1%\n25’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_173",
+    "source_page": 15,
+    "source_table_row": 5,
+    "source_annotation": "1928.74\nH3N5PC2\n17",
+    "source_cells": [
+      "27.7’",
+      "27.7’",
+      "27.7’",
+      "",
+      "25.8’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_174",
+    "source_page": 15,
+    "source_table_row": 6,
+    "source_annotation": "1941.76\nH6N2F3Me2\n11.5\nSupp. Fig. 11P",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "21.2’ Ar\n0.2%\n20’ A",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      0.2,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "0.2%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_175",
+    "source_page": 15,
+    "source_table_row": 7,
+    "source_annotation": "1943.74\nH7N2F2Me1\n5.5\nSupp. Fig. 11Q",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 13.6’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_176",
+    "source_page": 15,
+    "source_table_row": 8,
+    "source_annotation": "1961.71\nH9N2\n(Man9)\n4.9",
+    "source_cells": [
+      "12.5’",
+      "12.4’",
+      "12.5’",
+      "12.1’\n8.7%\n10.8’",
+      "12.0’\n10.0%\n10.8’",
+      "12.3 Ar\n11’ A",
+      "12.1’ Ar"
+    ],
+    "abundance_percent": [
+      8.7,
+      10.0,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "8.7%",
+      "10.0%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_177",
+    "source_page": 15,
+    "source_table_row": 9,
+    "source_annotation": "1961.71\nH9N2\nMan8Glc\n5.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "13.6’\n>0.1%",
+      "13.1’\n>0.1%\n11.8’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_178",
+    "source_page": 15,
+    "source_table_row": 10,
+    "source_annotation": "2033.77\nH4N4F1PC2\n>17\nSupp. Fig. 5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "28.9’\n>0.1%",
+      "29.3’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_179",
+    "source_page": 15,
+    "source_table_row": 11,
+    "source_annotation": "2033.77\nH4N4F1PC2\n>17",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "32.0’\n>0.1%",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_180",
+    "source_page": 15,
+    "source_table_row": 12,
+    "source_annotation": "2059.78\nH6N2F4\n7.5-8.8\nFig. 7S/U",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.8’ Ar\n>0.1%\n17.8’ A",
+      "18.5’ Ar\n>0.1%\n17.8’ A"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_181",
+    "source_page": 15,
+    "source_table_row": 13,
+    "source_annotation": "2059.78\nH6N2F4\n8.5\nFig. 7T",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.5’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_182",
+    "source_page": 15,
+    "source_table_row": 14,
+    "source_annotation": "2073.80\nH6N2F4Me1\n8.2\nFig. 7G",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18.1’ Ar\n1.7%\n17’ A",
+      "tr 17.7’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      1.7,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "1.7%",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_183",
+    "source_page": 16,
+    "source_table_row": 1,
+    "source_annotation": "2073.80\nH6N2F4Me1\n8.2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 17.7’ Ar\n>0.1%"
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%"
+    ]
+  },
+  {
+    "feature_id": "N_S1_184",
+    "source_page": 16,
+    "source_table_row": 2,
+    "source_annotation": "2074.80\nH3N5F1PC2\n15\nFig. 4H\nSupp. Fig. 5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "tr 22.2-23.8’\n>0.1%",
+      "tr 23.8’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_185",
+    "source_page": 16,
+    "source_table_row": 3,
+    "source_annotation": "2074.80\nH3N5F1PC2\n>17\nFig. 4R\nSupp. Fig. 5",
+    "source_cells": [
+      "tr 26’",
+      "",
+      "",
+      "27.1-28.9’ F\n>0.1%",
+      "29.3’ F\n0.2%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_186",
+    "source_page": 16,
+    "source_table_row": 4,
+    "source_annotation": "2074.80\nH3N5F1PC2\n>17\nSupp. Fig. 5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "30.5-31.3‘\n>0.1%\n32.5‘",
+      "31.2-32.8’\n0.2%\n32.5‘",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.2,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "0.2%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_187",
+    "source_page": 16,
+    "source_table_row": 5,
+    "source_annotation": "2075.78\nH7N2F3\n5\nFig 7O",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "tr 12.3’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_188",
+    "source_page": 16,
+    "source_table_row": 6,
+    "source_annotation": "2089.79\nH7N2F3Me1\n5\nFig 7P",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "12.3’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_189",
+    "source_page": 16,
+    "source_table_row": 7,
+    "source_annotation": "2103.81\nH7N2F3Me2\n6\nSupp. Fig. 11R",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "15’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_190",
+    "source_page": 16,
+    "source_table_row": 8,
+    "source_annotation": "2112.82\nH3N6F1PC1\n>11\nFig. 4P",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "tr 20.6-21.5’\n>0.1%",
+      "20.6-21.5’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_191",
+    "source_page": 16,
+    "source_table_row": 9,
+    "source_annotation": "2112.82\nH3N6F1PC1\n>11\nFig. 4Q",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "25.8-27.2’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_192",
+    "source_page": 16,
+    "source_table_row": 10,
+    "source_annotation": "2123.76\nH10N2\n5.9",
+    "source_cells": [
+      "14.7’",
+      "13.9-14.7’",
+      "14.5’",
+      "13.6-14.4’\n0.7%\n13.2’",
+      "14.3-14.9’\n0.9%\n13.2’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      0.7,
+      0.9,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "0.7%",
+      "0.9%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_193",
+    "source_page": 16,
+    "source_table_row": 11,
+    "source_annotation": "2131.82\nH3N6PC2\n14",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "24.3’\n>0.1%",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_194",
+    "source_page": 16,
+    "source_table_row": 12,
+    "source_annotation": "2131.82\nH3N6PC2\n16\nSupp. Fig. S2M\nSupp. Fig. 5",
+    "source_cells": [
+      "27’",
+      "27.8’",
+      "25.8’",
+      "25.8’\n>0.1%\ntr 25-26’",
+      "tr 25-25.8’\n>0.1%\n26’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_195",
+    "source_page": 16,
+    "source_table_row": 13,
+    "source_annotation": "H7N2F4Me1\n2235.85\n5.5\nFig. 7Q",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "13.1-13.6’ Ar\n>0.1%",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_196",
+    "source_page": 16,
+    "source_table_row": 14,
+    "source_annotation": "2277.88\nH3N6F1PC2\n>17\nFig. 4I",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "23.8’\n>0.1%",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_197",
+    "source_page": 17,
+    "source_table_row": 1,
+    "source_annotation": "2277.88\nH3N6F1PC2\n>17\nFig. 4S\nSupp. Fig. S5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "27.9-31.3’\n>0.1%",
+      "25.8-31.2\n0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      0.1,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_198",
+    "source_page": 17,
+    "source_table_row": 2,
+    "source_annotation": "2285.81\nH11N2\n6",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "14.9’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_199",
+    "source_page": 17,
+    "source_table_row": 3,
+    "source_annotation": "2442.94\nH3N6F1PC3",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "31.3-32’\n>0.1%",
+      "",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_200",
+    "source_page": 17,
+    "source_table_row": 4,
+    "source_annotation": "2447.87\nH12N2",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "13.6’\n>0.1%",
+      "nd 13.6’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_201",
+    "source_page": 17,
+    "source_table_row": 5,
+    "source_annotation": "2480.96\nH3N7F1PC2\n15\nFig. 4J\nSupp. Fig. S5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "22.2-23.8’\n>0.1%",
+      "23.8’\n>0.1%\ntr 23.5-25’",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      ">0.1%",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  },
+  {
+    "feature_id": "N_S1_202",
+    "source_page": 17,
+    "source_table_row": 6,
+    "source_annotation": "2480.96\nH3N7F1PC2\n>15\nFig. 4T\nSupp. Fig. S5",
+    "source_cells": [
+      "",
+      "",
+      "",
+      "",
+      "28.9-31.2’\n>0.1%",
+      "",
+      ""
+    ],
+    "abundance_percent": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "qualifiers": [
+      "no percentage reported",
+      ">0.1%",
+      "no percentage reported",
+      "no percentage reported"
+    ]
+  }
+]

@@ -20,18 +20,24 @@ for (x in records) {
     names(
       SummarizedExperiment::rowData(object_env[[x$name]])
     )
+  accessions <- if (is.null(x$accessions)) x$accession else unlist(x$accessions)
+  repository_links <- paste0(
+    "\\url{https://glycopost.glycosmos.org/entry/",
+    accessions,
+    "}"
+  )
   source <- paste0(
     "GlycoPOST ",
-    x$accession,
+    paste(accessions, collapse = " and "),
     ". ",
     x$table,
     ". ",
     "Study: \\url{https://doi.org/",
     x$doi,
     "}. ",
-    "Repository: \\url{https://glycopost.glycosmos.org/entry/",
-    x$accession,
-    "}.",
+    "Repository: ",
+    paste(repository_links, collapse = " and "),
+    ".",
     if (!is.null(x$source_url)) {
       paste0(" Quantitative source: \\url{", x$source_url, "}.")
     } else {

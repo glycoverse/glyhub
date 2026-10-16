@@ -1,0 +1,14 @@
+[
+  {
+    "accession": "GPST000009",
+    "path": "data-raw/GPST000009/142931_2_supp_306791_pp104v.xlsx",
+    "sha256": "8fdde731807c0b1751080b2caa712f5932df7d8ae72338cbc49be1da3c6dbf78",
+    "bytes": 201729,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6553937/supplementaryFiles",
+    "archive_members": [
+      "142931_2_supp_306791_pp104v.xlsx"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  }
+]

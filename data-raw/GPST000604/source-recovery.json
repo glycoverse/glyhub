@@ -1,0 +1,26 @@
+[
+  {
+    "accession": "GPST000604",
+    "path": "data-raw/GPST000604/ac5c02338_si_001.pdf",
+    "sha256": "1150cf1ce2d78d0e690edf7164cd8734b6f772ca8524252e7a760b7b5fdd8070",
+    "bytes": 2536722,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12368834/supplementaryFiles",
+    "archive_members": [
+      "ac5c02338_si_001.pdf"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  },
+  {
+    "accession": "GPST000604",
+    "path": "data-raw/GPST000604/ac5c02338_si_002.xlsx",
+    "sha256": "e6a4b738857aaf36e55b20859b86fb2b5d4e9c303b16cb70c3c35ff3ed7d105f",
+    "bytes": 82958,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12368834/supplementaryFiles",
+    "archive_members": [
+      "ac5c02338_si_002.xlsx"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  }
+]

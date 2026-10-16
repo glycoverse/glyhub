@@ -1,0 +1,11 @@
+[
+  {
+    "path": "data-raw/GPST000170/Glycopost_identification file.xlsx",
+    "bytes": 43902,
+    "sha256": "a1e47fdd1c758365dc1c8d4e12b792589f7764d51d2681098b6604574aabd6d1",
+    "md5": "833e543573bb15aa726bfcbcba242e76",
+    "url": "https://glycopost.glycosmos.org/data/GPST000170.0/Glycopost_identification%20file.xlsx",
+    "source_kind": "GlycoPOST deposited source",
+    "verification": "Downloaded source MD5 matches official GlycoPOST file inventory"
+  }
+]

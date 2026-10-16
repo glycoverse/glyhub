@@ -1,0 +1,1253 @@
+[
+  {
+    "name": "glyhub_GPST000297_O",
+    "accession": "GPST000297",
+    "doi": "10.1038/s41467-023-41094-z",
+    "glycan_type": "O",
+    "source_file": "data-raw/GPST000297/41467_2023_41094_MOESM1_ESM.pdf",
+    "source_sha256": "f1dfca8db95510af6f092e7d17052e3742bd686d28c9e096336bc4ca46460aee",
+    "sample_ids": [
+      "Adhesive",
+      "Lubricating",
+      "Protective"
+    ],
+    "feature_ids": [
+      "O_S46_row1",
+      "O_S46_row2",
+      "O_S46_row3",
+      "O_S46_row4",
+      "O_S46_row5",
+      "O_S46_row6",
+      "O_S46_row7",
+      "O_S46_row9",
+      "O_S46_row10",
+      "O_S46_row11",
+      "O_S46_row12",
+      "O_S46_row13",
+      "O_S46_row14"
+    ],
+    "raw_matrix": [
+      [
+        48.22,
+        null,
+        null
+      ],
+      [
+        14.56,
+        14.56,
+        null
+      ],
+      [
+        14.66,
+        null,
+        null
+      ],
+      [
+        9.56,
+        null,
+        null
+      ],
+      [
+        5.3,
+        null,
+        null
+      ],
+      [
+        5.45,
+        null,
+        null
+      ],
+      [
+        2.25,
+        null,
+        null
+      ],
+      [
+        null,
+        5.3,
+        null
+      ],
+      [
+        null,
+        5.3,
+        null
+      ],
+      [
+        null,
+        null,
+        45.1
+      ],
+      [
+        null,
+        null,
+        48.9
+      ],
+      [
+        null,
+        null,
+        2.8
+      ],
+      [
+        null,
+        null,
+        2.2
+      ]
+    ],
+    "row_annotations": [
+      {
+        "feature_id": "O_S46_row1",
+        "source_composition": "Gal1GalNAc1",
+        "composition_counts": {
+          "Gal": 1,
+          "GalNAc": 1
+        },
+        "source_mz": 561.5,
+        "source_page": 46,
+        "first_source_row": 1,
+        "structure_iupac": "Gal(?1-?)GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row2",
+        "source_composition": "Gal2GalNAc1 + 2Me",
+        "composition_counts": {
+          "Gal": 2,
+          "GalNAc": 1,
+          "Me": 2
+        },
+        "source_mz": 768.7,
+        "source_page": 46,
+        "first_source_row": 2,
+        "structure_iupac": "Gal?Me(?1-?)[Gal?Me(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row3",
+        "source_composition": "Gal2GalNAc1 + 1Me",
+        "composition_counts": {
+          "Gal": 2,
+          "GalNAc": 1,
+          "Me": 1
+        },
+        "source_mz": 771.7,
+        "source_page": 46,
+        "first_source_row": 3,
+        "structure_iupac": "Gal?Me(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row4",
+        "source_composition": "Gal2GalNAc1",
+        "composition_counts": {
+          "Gal": 2,
+          "GalNAc": 1
+        },
+        "source_mz": 774.7,
+        "source_page": 46,
+        "first_source_row": 4,
+        "structure_iupac": "Gal(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row5",
+        "source_composition": "Gal3GalNAc1 + 1Me",
+        "composition_counts": {
+          "Gal": 3,
+          "GalNAc": 1,
+          "Me": 1
+        },
+        "source_mz": 981.9,
+        "source_page": 46,
+        "first_source_row": 5,
+        "structure_iupac": "{?Me}Gal(?1-?)Gal(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row6",
+        "source_composition": "NeuAc1Gal1HexNAc1GalNAc1",
+        "composition_counts": {
+          "Neu5Ac": 1,
+          "Gal": 1,
+          "HexNAc": 1,
+          "GalNAc": 1
+        },
+        "source_mz": 1192.1,
+        "source_page": 46,
+        "first_source_row": 6,
+        "structure_iupac": "Neu5Ac(?2-?)Gal(?1-?)[HexNAc(?1-?)]GalNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row7",
+        "source_composition": "NeuAc1Fuc2Gal1HexNAc1GalNAc1",
+        "composition_counts": {
+          "Neu5Ac": 1,
+          "Fuc": 2,
+          "Gal": 1,
+          "HexNAc": 1,
+          "GalNAc": 1
+        },
+        "source_mz": 1552.4,
+        "source_page": 46,
+        "first_source_row": 7,
+        "structure_iupac": "Neu5Ac(?2-?)[Fuc(?1-?)Gal(?1-?)[Fuc(?1-?)]HexNAc(?1-?)]GalNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row9",
+        "source_composition": "Fuc1Gal2GalNAc1",
+        "composition_counts": {
+          "Fuc": 1,
+          "Gal": 2,
+          "GalNAc": 1
+        },
+        "source_mz": 954.97,
+        "source_page": 46,
+        "first_source_row": 9,
+        "structure_iupac": "{Fuc(?1-?)|2,3}Gal(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row10",
+        "source_composition": "Gal3GalNAc1 + 1Me",
+        "composition_counts": {
+          "Gal": 3,
+          "GalNAc": 1,
+          "Me": 1
+        },
+        "source_mz": 982.8,
+        "source_page": 46,
+        "first_source_row": 10,
+        "structure_iupac": "{?Me}Gal(?1-?)Gal(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row11",
+        "source_composition": "Gal1GalNAc1",
+        "composition_counts": {
+          "Gal": 1,
+          "GalNAc": 1
+        },
+        "source_mz": 534.5,
+        "source_page": 46,
+        "first_source_row": 11,
+        "structure_iupac": "Gal(?1-?)GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row12",
+        "source_composition": "Gal2GalNAc1 + 2Me",
+        "composition_counts": {
+          "Gal": 2,
+          "GalNAc": 1,
+          "Me": 2
+        },
+        "source_mz": 738.8,
+        "source_page": 46,
+        "first_source_row": 12,
+        "structure_iupac": "Gal?Me(?1-?)[Gal?Me(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row13",
+        "source_composition": "Fuc1Gal2GalNAc1",
+        "composition_counts": {
+          "Fuc": 1,
+          "Gal": 2,
+          "GalNAc": 1
+        },
+        "source_mz": 942.8,
+        "source_page": 46,
+        "first_source_row": 13,
+        "structure_iupac": "{Fuc(?1-?)|2,3}Gal(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "O_S46_row14",
+        "source_composition": "Gal3GalNAc1 + 1Me",
+        "composition_counts": {
+          "Gal": 3,
+          "GalNAc": 1,
+          "Me": 1
+        },
+        "source_mz": 983.9,
+        "source_page": 46,
+        "first_source_row": 14,
+        "structure_iupac": "{?Me}Gal(?1-?)Gal(?1-?)[Gal(?1-?)]GalNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      }
+    ],
+    "records": [
+      {
+        "feature_id": "O_S46_row1",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 1,
+        "source_mz": 561.5,
+        "source_composition": "Gal1GalNAc1",
+        "relative_percentage": 48.22
+      },
+      {
+        "feature_id": "O_S46_row2",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 2,
+        "source_mz": 768.7,
+        "source_composition": "Gal2GalNAc1 + 2Me",
+        "relative_percentage": 14.56
+      },
+      {
+        "feature_id": "O_S46_row3",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 3,
+        "source_mz": 771.7,
+        "source_composition": "Gal2GalNAc1 + 1Me",
+        "relative_percentage": 14.66
+      },
+      {
+        "feature_id": "O_S46_row4",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 4,
+        "source_mz": 774.7,
+        "source_composition": "Gal2GalNAc1",
+        "relative_percentage": 9.56
+      },
+      {
+        "feature_id": "O_S46_row5",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 5,
+        "source_mz": 981.9,
+        "source_composition": "Gal3GalNAc1 + 1Me",
+        "relative_percentage": 5.3
+      },
+      {
+        "feature_id": "O_S46_row6",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 6,
+        "source_mz": 1192.1,
+        "source_composition": "NeuAc1Gal1HexNAc1GalNAc1",
+        "relative_percentage": 5.45
+      },
+      {
+        "feature_id": "O_S46_row7",
+        "sample": "Adhesive",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 7,
+        "source_mz": 1552.4,
+        "source_composition": "NeuAc1Fuc2Gal1HexNAc1GalNAc1",
+        "relative_percentage": 2.25
+      },
+      {
+        "feature_id": "O_S46_row2",
+        "sample": "Lubricating",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 8,
+        "source_mz": 768.7,
+        "source_composition": "Gal2GalNAc1 + 2Me",
+        "relative_percentage": 14.56
+      },
+      {
+        "feature_id": "O_S46_row9",
+        "sample": "Lubricating",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 9,
+        "source_mz": 954.97,
+        "source_composition": "Fuc1Gal2GalNAc1",
+        "relative_percentage": 5.3
+      },
+      {
+        "feature_id": "O_S46_row10",
+        "sample": "Lubricating",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 10,
+        "source_mz": 982.8,
+        "source_composition": "Gal3GalNAc1 + 1Me",
+        "relative_percentage": 5.3
+      },
+      {
+        "feature_id": "O_S46_row11",
+        "sample": "Protective",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 11,
+        "source_mz": 534.5,
+        "source_composition": "Gal1GalNAc1",
+        "relative_percentage": 45.1
+      },
+      {
+        "feature_id": "O_S46_row12",
+        "sample": "Protective",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 12,
+        "source_mz": 738.8,
+        "source_composition": "Gal2GalNAc1 + 2Me",
+        "relative_percentage": 48.9
+      },
+      {
+        "feature_id": "O_S46_row13",
+        "sample": "Protective",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 13,
+        "source_mz": 942.8,
+        "source_composition": "Fuc1Gal2GalNAc1",
+        "relative_percentage": 2.8
+      },
+      {
+        "feature_id": "O_S46_row14",
+        "sample": "Protective",
+        "source_page": 46,
+        "source_table": 9,
+        "source_row": 14,
+        "source_mz": 983.9,
+        "source_composition": "Gal3GalNAc1 + 1Me",
+        "relative_percentage": 2.2
+      }
+    ],
+    "page": 46,
+    "table": 9,
+    "unit": "relative glycan peak-area percentage",
+    "notes": [
+      "All rows of published table transcribed from rendered image and independently compared with OCR.",
+      "Missing source glycan/sample combinations remain NA, never zero.",
+      "Distinct source masses are not silently collapsed even if their composition labels match.",
+      "Source diagrams show no linkage positions; none inferred.",
+      "O Lubricating percentages total25.16%, Protective99%; preserve as published without renormalization."
+    ]
+  },
+  {
+    "name": "glyhub_GPST000297_N",
+    "accession": "GPST000297",
+    "doi": "10.1038/s41467-023-41094-z",
+    "glycan_type": "N",
+    "source_file": "data-raw/GPST000297/41467_2023_41094_MOESM1_ESM.pdf",
+    "source_sha256": "f1dfca8db95510af6f092e7d17052e3742bd686d28c9e096336bc4ca46460aee",
+    "sample_ids": [
+      "Adhesive",
+      "Lubricating",
+      "Protective"
+    ],
+    "feature_ids": [
+      "N_S47_row1",
+      "N_S47_row2",
+      "N_S47_row3",
+      "N_S47_row4",
+      "N_S47_row5",
+      "N_S47_row6",
+      "N_S47_row7",
+      "N_S47_row8",
+      "N_S47_row9",
+      "N_S47_row10",
+      "N_S47_row11",
+      "N_S47_row12",
+      "N_S47_row13",
+      "N_S47_row14",
+      "N_S47_row15",
+      "N_S47_row16",
+      "N_S47_row17",
+      "N_S47_row18",
+      "N_S47_row20",
+      "N_S47_row21",
+      "N_S47_row22",
+      "N_S47_row23",
+      "N_S47_row24",
+      "N_S47_row25"
+    ],
+    "raw_matrix": [
+      [
+        30,
+        null,
+        null
+      ],
+      [
+        8,
+        null,
+        null
+      ],
+      [
+        9,
+        null,
+        null
+      ],
+      [
+        10,
+        null,
+        null
+      ],
+      [
+        4,
+        null,
+        null
+      ],
+      [
+        8,
+        null,
+        null
+      ],
+      [
+        4,
+        null,
+        null
+      ],
+      [
+        3,
+        null,
+        null
+      ],
+      [
+        3,
+        null,
+        null
+      ],
+      [
+        4,
+        null,
+        null
+      ],
+      [
+        4,
+        null,
+        null
+      ],
+      [
+        4,
+        null,
+        null
+      ],
+      [
+        3,
+        null,
+        null
+      ],
+      [
+        3,
+        null,
+        null
+      ],
+      [
+        3,
+        null,
+        null
+      ],
+      [
+        null,
+        32,
+        12
+      ],
+      [
+        null,
+        64,
+        null
+      ],
+      [
+        null,
+        4,
+        null
+      ],
+      [
+        null,
+        null,
+        29
+      ],
+      [
+        null,
+        null,
+        50
+      ],
+      [
+        null,
+        null,
+        3
+      ],
+      [
+        null,
+        null,
+        3
+      ],
+      [
+        null,
+        null,
+        2
+      ],
+      [
+        null,
+        null,
+        1
+      ]
+    ],
+    "row_annotations": [
+      {
+        "feature_id": "N_S47_row1",
+        "source_composition": "Man3GlcNAc2Xyl1 + 2Me",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 2,
+          "Xyl": 1,
+          "Me": 2
+        },
+        "source_mz": 1382.96,
+        "source_page": 47,
+        "first_source_row": 1,
+        "structure_iupac": "Man?Me(?1-?)[Man?Me(?1-?)][Xyl(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row2",
+        "source_composition": "Man6GlcNAc2",
+        "composition_counts": {
+          "Man": 6,
+          "GlcNAc": 2
+        },
+        "source_mz": 1862.33,
+        "source_page": 47,
+        "first_source_row": 2,
+        "structure_iupac": "Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row3",
+        "source_composition": "Man7GlcNAc2",
+        "composition_counts": {
+          "Man": 7,
+          "GlcNAc": 2
+        },
+        "source_mz": 2075.46,
+        "source_page": 47,
+        "first_source_row": 3,
+        "structure_iupac": "Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row4",
+        "source_composition": "Man8GlcNAc2",
+        "composition_counts": {
+          "Man": 8,
+          "GlcNAc": 2
+        },
+        "source_mz": 2288.6,
+        "source_page": 47,
+        "first_source_row": 4,
+        "structure_iupac": "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row5",
+        "source_composition": "HexNAc2GlcNAc2Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "HexNAc": 2,
+          "GlcNAc": 4,
+          "Man": 3,
+          "Fuc": 1
+        },
+        "source_mz": 2419.69,
+        "source_page": 47,
+        "first_source_row": 5,
+        "structure_iupac": "{HexNAc(?1-?)|3,4,5,6}{HexNAc(?1-?)|3,4,5,6}GlcNAc(?1-?)Man(?1-?)[GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row6",
+        "source_composition": "Man9GlcNAc2",
+        "composition_counts": {
+          "Man": 9,
+          "GlcNAc": 2
+        },
+        "source_mz": 2501.73,
+        "source_page": 47,
+        "first_source_row": 6,
+        "structure_iupac": "Man(?1-?)Man(?1-?)[Man(?1-?)Man(?1-?)]Man(?1-?)[Man(?1-?)Man(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row7",
+        "source_composition": "Gal1GlcNAc4Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "Gal": 1,
+          "GlcNAc": 6,
+          "Man": 3,
+          "Fuc": 1
+        },
+        "source_mz": 2632.81,
+        "source_page": 47,
+        "first_source_row": 7,
+        "structure_iupac": "{Gal(?1-?)|2,3,4,5,6,7}GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)[GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row8",
+        "source_composition": "NeuAc1Gal1GlcNAc2Man3GlcNAc2Fuc2",
+        "composition_counts": {
+          "Neu5Ac": 1,
+          "Gal": 1,
+          "GlcNAc": 4,
+          "Man": 3,
+          "Fuc": 2
+        },
+        "source_mz": 2680.8,
+        "source_page": 47,
+        "first_source_row": 8,
+        "structure_iupac": "GlcNAc(?1-?)Man(?1-?)[Neu5Ac(?2-?)Gal(?1-?)[Fuc(?1-?)]GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row9",
+        "source_composition": "Gal3GlcNAc4Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "Gal": 3,
+          "GlcNAc": 6,
+          "Man": 3,
+          "Fuc": 1
+        },
+        "source_mz": 3059.06,
+        "source_page": 47,
+        "first_source_row": 9,
+        "structure_iupac": "{Gal(?1-?)GlcNAc(?1-?)|3,4,5,6,7,8,9}Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)Man(?1-?)][GlcNAc(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row10",
+        "source_composition": "Fuc1Hex1GlcNAc2Man5GlcNAc2Fuc1",
+        "composition_counts": null,
+        "source_mz": 3138.14,
+        "source_page": 47,
+        "first_source_row": 10,
+        "structure_iupac": null,
+        "structure_status": "Source conflict: diagram has additional residue(s) absent from the stated composition; typed composition and structure missing.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately",
+        "source_composition_counts": {
+          "Fuc": 2,
+          "Hex": 1,
+          "GlcNAc": 4,
+          "Man": 5
+        },
+        "annotation_conflict": "Row10 diagram includes an extra outlined diamond not present in the composition."
+      },
+      {
+        "feature_id": "N_S47_row11",
+        "source_composition": "NeuAc2Gal1GlcNAc1Man5GlcNAc2Fuc1",
+        "composition_counts": null,
+        "source_mz": 3228.19,
+        "source_page": 47,
+        "first_source_row": 11,
+        "structure_iupac": null,
+        "structure_status": "Source conflict: diagram has additional residue(s) absent from the stated composition; typed composition and structure missing.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately",
+        "source_composition_counts": {
+          "Neu5Ac": 2,
+          "Gal": 1,
+          "GlcNAc": 3,
+          "Man": 5,
+          "Fuc": 1
+        },
+        "annotation_conflict": "Row11 diagram contains core and antennal fucose (two Fuc), but composition states Fuc1."
+      },
+      {
+        "feature_id": "N_S47_row12",
+        "source_composition": "NeuAc3Fuc1Gal2GlcNAc2Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "Neu5Ac": 3,
+          "Fuc": 2,
+          "Gal": 2,
+          "GlcNAc": 4,
+          "Man": 3
+        },
+        "source_mz": 3646.33,
+        "source_page": 47,
+        "first_source_row": 12,
+        "structure_iupac": "{Neu5Ac(?2-?)|3,4,5,6,7,8,9,10}{Fuc(?1-?)|3,4,5,6,7,8,9,10}Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row13",
+        "source_composition": "GalNAc1NeuGc3Gal2GlcNAc3Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "GalNAc": 1,
+          "Neu5Gc": 3,
+          "Gal": 2,
+          "GlcNAc": 5,
+          "Man": 3,
+          "Fuc": 1
+        },
+        "source_mz": 4072.63,
+        "source_page": 47,
+        "first_source_row": 13,
+        "structure_iupac": "{GalNAc(?1-?)GlcNAc(?1-?)|4,5,6,7,8,9,10,11}{Neu5Gc(?2-?)|4,5,6,7,8,9,10,11}Neu5Gc(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)[Neu5Gc(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row14",
+        "source_composition": "NeuGc3Gal3GlcNAc4Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "Neu5Gc": 3,
+          "Gal": 3,
+          "GlcNAc": 6,
+          "Man": 3,
+          "Fuc": 1
+        },
+        "source_mz": 4287.6,
+        "source_page": 47,
+        "first_source_row": 14,
+        "structure_iupac": "{Neu5Gc(?2-?)Gal(?1-?)|7,8,9,10,11,12}{Neu5Gc(?2-?)Gal(?1-?)|7,8,9,10,11,12}{Neu5Gc(?2-?)Gal(?1-?)|7,8,9,10,11,12}GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)[GlcNAc(?1-?)[GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row15",
+        "source_composition": "Gal6GlcNAc7Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "Gal": 6,
+          "GlcNAc": 9,
+          "Man": 3,
+          "Fuc": 1
+        },
+        "source_mz": 4461.8,
+        "source_page": 47,
+        "first_source_row": 15,
+        "structure_iupac": "{Gal(?1-?)GlcNAc(?1-?)|6,7,8,9,10,11,12,13,14,15}{Gal(?1-?)GlcNAc(?1-?)|6,7,8,9,10,11,12,13,14,15}{GlcNAc(?1-?)|6,7,8,9,10,11,12,13,14,15}Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)[Gal(?1-?)GlcNAc(?1-?)[Gal(?1-?)GlcNAc(?1-?)]Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row16",
+        "source_composition": "Man3GlcNAc2 + 1Me",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 2,
+          "Me": 1
+        },
+        "source_mz": 1219.92,
+        "source_page": 47,
+        "first_source_row": 16,
+        "structure_iupac": "Man?Me(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row17",
+        "source_composition": "GlcNAc1Man2GlcNAc2Xyl1",
+        "composition_counts": {
+          "GlcNAc": 3,
+          "Man": 2,
+          "Xyl": 1
+        },
+        "source_mz": 1430.07,
+        "source_page": 47,
+        "first_source_row": 17,
+        "structure_iupac": "{Xyl(?1-?)|2,3,4}GlcNAc(?1-?)Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row18",
+        "source_composition": "Man3GlcNAc2Fuc1Xyl1",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 2,
+          "Fuc": 1,
+          "Xyl": 1
+        },
+        "source_mz": 1568,
+        "source_page": 47,
+        "first_source_row": 18,
+        "structure_iupac": "{Xyl(?1-?)|2,3}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row20",
+        "source_composition": "Man3GlcNAc2Fuc1",
+        "composition_counts": {
+          "Man": 3,
+          "GlcNAc": 2,
+          "Fuc": 1
+        },
+        "source_mz": 1400.13,
+        "source_page": 47,
+        "first_source_row": 20,
+        "structure_iupac": "Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row21",
+        "source_composition": "GlcNAc1Man2GlcNAc2Xyl1",
+        "composition_counts": {
+          "GlcNAc": 3,
+          "Man": 2,
+          "Xyl": 1
+        },
+        "source_mz": 1430.07,
+        "source_page": 47,
+        "first_source_row": 21,
+        "structure_iupac": "GlcNAc(?1-?)Man(?1-?)[Xyl(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row22",
+        "source_composition": "Man4GlcNAc2Fuc2",
+        "composition_counts": {
+          "Man": 4,
+          "GlcNAc": 2,
+          "Fuc": 2
+        },
+        "source_mz": 1796.24,
+        "source_page": 47,
+        "first_source_row": 22,
+        "structure_iupac": "{Fuc(?1-?)|2,3,4}Man(?1-?)Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)[Fuc(?1-?)]GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row23",
+        "source_composition": "NeuAc1Gal1GlcNAc1Man2GlcNAc2",
+        "composition_counts": {
+          "Neu5Ac": 1,
+          "Gal": 1,
+          "GlcNAc": 3,
+          "Man": 2
+        },
+        "source_mz": 1853.33,
+        "source_page": 47,
+        "first_source_row": 23,
+        "structure_iupac": "Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)Man(?1-?)Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Topology transcribed from source drawing; all unlabelled linkage/anomer positions explicitly unknown.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row24",
+        "source_composition": "NeuAc1Gal1GlcNAc1Man3GlcNAc2",
+        "composition_counts": {
+          "Neu5Ac": 1,
+          "Gal": 1,
+          "GlcNAc": 3,
+          "Man": 3
+        },
+        "source_mz": 2067.43,
+        "source_page": 47,
+        "first_source_row": 24,
+        "structure_iupac": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|4,5}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      },
+      {
+        "feature_id": "N_S47_row25",
+        "source_composition": "NeuAc1Gal1Hex1GlcNAc1Man3GlcNAc2",
+        "composition_counts": {
+          "Neu5Ac": 1,
+          "Gal": 1,
+          "Hex": 1,
+          "GlcNAc": 3,
+          "Man": 3
+        },
+        "source_mz": 2280.56,
+        "source_page": 47,
+        "first_source_row": 25,
+        "structure_iupac": "{Neu5Ac(?2-?)Gal(?1-?)GlcNAc(?1-?)|5,6}{Hex(?1-?)|5,6}Man(?1-?)[Man(?1-?)]Man(?1-?)GlcNAc(?1-?)GlcNAc",
+        "structure_status": "Independently reviewed proposed source topology. Unknown bonds and floating groups retain source uncertainty.",
+        "source_derivatization": "per-deuter-O-methylated; Na+ adduct; source-native Me counts retained separately"
+      }
+    ],
+    "records": [
+      {
+        "feature_id": "N_S47_row1",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 1,
+        "source_mz": 1382.96,
+        "source_composition": "Man3GlcNAc2Xyl1 + 2Me",
+        "relative_percentage": 30
+      },
+      {
+        "feature_id": "N_S47_row2",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 2,
+        "source_mz": 1862.33,
+        "source_composition": "Man6GlcNAc2",
+        "relative_percentage": 8
+      },
+      {
+        "feature_id": "N_S47_row3",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 3,
+        "source_mz": 2075.46,
+        "source_composition": "Man7GlcNAc2",
+        "relative_percentage": 9
+      },
+      {
+        "feature_id": "N_S47_row4",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 4,
+        "source_mz": 2288.6,
+        "source_composition": "Man8GlcNAc2",
+        "relative_percentage": 10
+      },
+      {
+        "feature_id": "N_S47_row5",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 5,
+        "source_mz": 2419.69,
+        "source_composition": "HexNAc2GlcNAc2Man3GlcNAc2Fuc1",
+        "relative_percentage": 4
+      },
+      {
+        "feature_id": "N_S47_row6",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 6,
+        "source_mz": 2501.73,
+        "source_composition": "Man9GlcNAc2",
+        "relative_percentage": 8
+      },
+      {
+        "feature_id": "N_S47_row7",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 7,
+        "source_mz": 2632.81,
+        "source_composition": "Gal1GlcNAc4Man3GlcNAc2Fuc1",
+        "relative_percentage": 4
+      },
+      {
+        "feature_id": "N_S47_row8",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 8,
+        "source_mz": 2680.8,
+        "source_composition": "NeuAc1Gal1GlcNAc2Man3GlcNAc2Fuc2",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row9",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 9,
+        "source_mz": 3059.06,
+        "source_composition": "Gal3GlcNAc4Man3GlcNAc2Fuc1",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row10",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 10,
+        "source_mz": 3138.14,
+        "source_composition": "Fuc1Hex1GlcNAc2Man5GlcNAc2Fuc1",
+        "relative_percentage": 4
+      },
+      {
+        "feature_id": "N_S47_row11",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 11,
+        "source_mz": 3228.19,
+        "source_composition": "NeuAc2Gal1GlcNAc1Man5GlcNAc2Fuc1",
+        "relative_percentage": 4
+      },
+      {
+        "feature_id": "N_S47_row12",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 12,
+        "source_mz": 3646.33,
+        "source_composition": "NeuAc3Fuc1Gal2GlcNAc2Man3GlcNAc2Fuc1",
+        "relative_percentage": 4
+      },
+      {
+        "feature_id": "N_S47_row13",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 13,
+        "source_mz": 4072.63,
+        "source_composition": "GalNAc1NeuGc3Gal2GlcNAc3Man3GlcNAc2Fuc1",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row14",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 14,
+        "source_mz": 4287.6,
+        "source_composition": "NeuGc3Gal3GlcNAc4Man3GlcNAc2Fuc1",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row15",
+        "sample": "Adhesive",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 15,
+        "source_mz": 4461.8,
+        "source_composition": "Gal6GlcNAc7Man3GlcNAc2Fuc1",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row16",
+        "sample": "Lubricating",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 16,
+        "source_mz": 1219.92,
+        "source_composition": "Man3GlcNAc2 + 1Me",
+        "relative_percentage": 32
+      },
+      {
+        "feature_id": "N_S47_row17",
+        "sample": "Lubricating",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 17,
+        "source_mz": 1430.07,
+        "source_composition": "GlcNAc1Man2GlcNAc2Xyl1",
+        "relative_percentage": 64
+      },
+      {
+        "feature_id": "N_S47_row18",
+        "sample": "Lubricating",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 18,
+        "source_mz": 1568,
+        "source_composition": "Man3GlcNAc2Fuc1Xyl1",
+        "relative_percentage": 4
+      },
+      {
+        "feature_id": "N_S47_row16",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 19,
+        "source_mz": 1219.92,
+        "source_composition": "Man3GlcNAc2 + 1Me",
+        "relative_percentage": 12
+      },
+      {
+        "feature_id": "N_S47_row20",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 20,
+        "source_mz": 1400.13,
+        "source_composition": "Man3GlcNAc2Fuc1",
+        "relative_percentage": 29
+      },
+      {
+        "feature_id": "N_S47_row21",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 21,
+        "source_mz": 1430.07,
+        "source_composition": "GlcNAc1Man2GlcNAc2Xyl1",
+        "relative_percentage": 50
+      },
+      {
+        "feature_id": "N_S47_row22",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 22,
+        "source_mz": 1796.24,
+        "source_composition": "Man4GlcNAc2Fuc2",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row23",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 23,
+        "source_mz": 1853.33,
+        "source_composition": "NeuAc1Gal1GlcNAc1Man2GlcNAc2",
+        "relative_percentage": 3
+      },
+      {
+        "feature_id": "N_S47_row24",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 24,
+        "source_mz": 2067.43,
+        "source_composition": "NeuAc1Gal1GlcNAc1Man3GlcNAc2",
+        "relative_percentage": 2
+      },
+      {
+        "feature_id": "N_S47_row25",
+        "sample": "Protective",
+        "source_page": 47,
+        "source_table": 10,
+        "source_row": 25,
+        "source_mz": 2280.56,
+        "source_composition": "NeuAc1Gal1Hex1GlcNAc1Man3GlcNAc2",
+        "relative_percentage": 1
+      }
+    ],
+    "page": 47,
+    "table": 10,
+    "unit": "relative glycan peak-area percentage",
+    "notes": [
+      "All rows of published table transcribed from rendered image and independently compared with OCR.",
+      "Missing source glycan/sample combinations remain NA, never zero.",
+      "Distinct source masses are not silently collapsed even if their composition labels match.",
+      "Source diagrams show no linkage positions; none inferred.",
+      "N row10 and row11 have composition/diagram conflicts. Molecular annotations remain missing while original text, figure reference and quantitative values are retained."
+    ]
+  }
+]

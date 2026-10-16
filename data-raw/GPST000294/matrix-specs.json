@@ -1,0 +1,992 @@
+[
+  {
+    "name": "glyhub_GPST000294_O_Celegans_Development",
+    "accession": "GPST000294",
+    "glycan_type": "O",
+    "source_glycan_type": "O",
+    "title": "Caenorhabditis elegans developmental O-glycan profiles",
+    "description": "Complete Supplementary Table S2 of Increasing Complexity of the N-Glycome During Caenorhabditis Development: 20 O-glycan features quantified across six source culture profiles.",
+    "details": "O-glycans were released by reductive beta-elimination from peptic glycopeptides remaining after PNGase A/F digestion and analyzed without further derivatization by LC-ESI-MS. Source PDF page 18 has calculated m/z, RT, composition and paired observed-m/z/percentage columns for six samples. Only percentage occurrence is quantitative abundance; observed m/z, nd and fragmentation asterisks are annotations. All 20 rows are retained, including same-composition isomers. Quantitative zeros become NA without imputation or renormalization; raw zeros are preserved. Source columns are culture profiles, not six biological replicates of a common condition. Replication for individual S2 profiles is not explicit and remains unknown. The separately distributed N-glycan Table S1 object extracts the reported percentages from mixed retention-time/percentage cells, preserving censored inequalities and unreported values explicitly.",
+    "annotation": "Explicit author composition tokens provide Hex, HexNAc, dHex, HexA and PC/Me substituent counts. The source Hex3HexNAc1 Hex1Me has four Hex residues and one Me substituent. No Fuc identity is assigned to generic dHex. Linear/branched qualifiers and source isomers remain annotations; no full structure is inferred.",
+    "doi": "10.1016/j.mcpro.2023.100505",
+    "source_file": "data-raw/GPST000294/mmc1.pdf",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7614267/supplementaryFiles",
+    "source_md5": "1d7106921e6d2a49d922a394b66362a3",
+    "sheet": "Supplementary Table S2 (PDF page 18)",
+    "table": "Supplementary Table S2, PDF page 18",
+    "validated_source_table_file": "data-raw/GPST000294/validated-table-s2.json",
+    "validated_source_table_md5": "cca4dd63116f018a021a7bc67022f8f2",
+    "row_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "column_indices": [
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "feature_ids": [
+      "S2_row_01",
+      "S2_row_02",
+      "S2_row_03",
+      "S2_row_04",
+      "S2_row_05",
+      "S2_row_06",
+      "S2_row_07",
+      "S2_row_08",
+      "S2_row_09",
+      "S2_row_10",
+      "S2_row_11",
+      "S2_row_12",
+      "S2_row_13",
+      "S2_row_14",
+      "S2_row_15",
+      "S2_row_16",
+      "S2_row_17",
+      "S2_row_18",
+      "S2_row_19",
+      "S2_row_20"
+    ],
+    "sample_ids": [
+      "N2emb",
+      "e2144a",
+      "t3208a",
+      "N2L4 liq",
+      "N2L4 plate",
+      "pmk-1 mix"
+    ],
+    "raw_matrix": [
+      [
+        18.3,
+        25.6,
+        38.6,
+        8.2,
+        8.9,
+        10.3
+      ],
+      [
+        1.7,
+        2.1,
+        3.0,
+        5.2,
+        7.0,
+        6.2
+      ],
+      [
+        12.0,
+        12.7,
+        7.7,
+        2.0,
+        0.8,
+        1.3
+      ],
+      [
+        6.5,
+        2.3,
+        4.3,
+        1.4,
+        0.8,
+        2.2
+      ],
+      [
+        27.5,
+        12.7,
+        14.7,
+        14.0,
+        7.6,
+        9.4
+      ],
+      [
+        1.6,
+        1.5,
+        0.0,
+        8.0,
+        4.3,
+        2.5
+      ],
+      [
+        1.5,
+        0.0,
+        0.0,
+        1.4,
+        0.8,
+        1.5
+      ],
+      [
+        0.4,
+        0.0,
+        0.0,
+        2.8,
+        1.9,
+        0.0
+      ],
+      [
+        1.3,
+        5.2,
+        3.6,
+        1.7,
+        3.9,
+        7.2
+      ],
+      [
+        0.5,
+        0.6,
+        0.8,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.4,
+        1.1,
+        0.8,
+        0.1,
+        0.1,
+        0.0
+      ],
+      [
+        4.1,
+        2.1,
+        3.4,
+        4.8,
+        2.5,
+        4.9
+      ],
+      [
+        11.9,
+        18.8,
+        12.3,
+        35.4,
+        49.6,
+        40.8
+      ],
+      [
+        1.6,
+        2.1,
+        1.7,
+        5.9,
+        3.2,
+        3.6
+      ],
+      [
+        4.1,
+        7.7,
+        5.9,
+        4.5,
+        2.8,
+        4.6
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      [
+        0.7,
+        0.3,
+        0.8,
+        0.0,
+        0.0,
+        0.9
+      ],
+      [
+        3.4,
+        2.6,
+        0.8,
+        0.1,
+        0.0,
+        0.0
+      ],
+      [
+        1.3,
+        2.1,
+        1.3,
+        4.6,
+        5.7,
+        4.2
+      ],
+      [
+        0.2,
+        0.3,
+        0.3,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "raw_source_matrix": [
+      [
+        "18.3",
+        "25.6",
+        "38.6",
+        "8.2",
+        "8.9",
+        "10.3"
+      ],
+      [
+        "1.7",
+        "2.1",
+        "3.0",
+        "5.2",
+        "7.0",
+        "6.2"
+      ],
+      [
+        "12.0",
+        "12.7",
+        "7.7",
+        "2.0",
+        "0.8",
+        "1.3"
+      ],
+      [
+        "6.5",
+        "2.3",
+        "4.3",
+        "1.4",
+        "0.8",
+        "2.2"
+      ],
+      [
+        "27.5",
+        "12.7",
+        "14.7",
+        "14.0",
+        "7.6",
+        "9.4"
+      ],
+      [
+        "1.6",
+        "1.5",
+        "0.0",
+        "8.0",
+        "4.3",
+        "2.5"
+      ],
+      [
+        "1.5",
+        "0.0",
+        "0.0",
+        "1.4",
+        "0.8",
+        "1.5"
+      ],
+      [
+        "0.4",
+        "0.0",
+        "0.0",
+        "2.8",
+        "1.9",
+        "0.0"
+      ],
+      [
+        "1.3",
+        "5.2",
+        "3.6",
+        "1.7",
+        "3.9",
+        "7.2"
+      ],
+      [
+        "0.5",
+        "0.6",
+        "0.8",
+        "0.0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "1.4",
+        "1.1",
+        "0.8",
+        "0.1",
+        "0.1",
+        "0.0"
+      ],
+      [
+        "4.1",
+        "2.1",
+        "3.4",
+        "4.8",
+        "2.5",
+        "4.9"
+      ],
+      [
+        "11.9",
+        "18.8",
+        "12.3",
+        "35.4",
+        "49.6",
+        "40.8"
+      ],
+      [
+        "1.6",
+        "2.1",
+        "1.7",
+        "5.9",
+        "3.2",
+        "3.6"
+      ],
+      [
+        "4.1",
+        "7.7",
+        "5.9",
+        "4.5",
+        "2.8",
+        "4.6"
+      ],
+      [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.3"
+      ],
+      [
+        "0.7",
+        "0.3",
+        "0.8",
+        "0.0",
+        "0.0",
+        "0.9"
+      ],
+      [
+        "3.4",
+        "2.6",
+        "0.8",
+        "0.1",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "1.3",
+        "2.1",
+        "1.3",
+        "4.6",
+        "5.7",
+        "4.2"
+      ],
+      [
+        "0.2",
+        "0.3",
+        "0.3",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    ],
+    "composition": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "row_annotations": [
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 1,
+        "source_extraction_row": 2,
+        "source_composition": "Hex1HexNAc1",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1
+        },
+        "calculated_mz": 384.15,
+        "retention_time": 9.5,
+        "source_rt_text": "9.50",
+        "observed_mz_by_sample": {
+          "N2emb": "384.25",
+          "e2144a": "384.17",
+          "t3208a": "384.25",
+          "N2L4 liq": "384.25",
+          "N2L4 plate": "384.08",
+          "pmk-1 mix": "384.25"
+        },
+        "source_row_text": "    384.15      9.50                   Hex1HexNAc1     384.25     18.3    384.17      25.6    384.25      38.6    384.25        8.2    384.08      8.9    384.25       10.3",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 2,
+        "source_extraction_row": 3,
+        "source_composition": "Hex2HexNAc1",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 1
+        },
+        "calculated_mz": 546.2,
+        "retention_time": 15.52,
+        "source_rt_text": "15.52",
+        "observed_mz_by_sample": {
+          "N2emb": "546.25",
+          "e2144a": "546.25",
+          "t3208a": "546.25",
+          "N2L4 liq": "546.17",
+          "N2L4 plate": "546.25",
+          "pmk-1 mix": "546.25"
+        },
+        "source_row_text": "    546.20     15.52                   Hex2HexNAc1     546.25      1.7    546.25       2.1    546.25       3.0    546.17        5.2    546.25      7.0    546.25        6.2",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 3,
+        "source_extraction_row": 4,
+        "source_composition": "Hex1HexNAc1HexA1 (branched)",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "HexA": 1
+        },
+        "calculated_mz": 560.18,
+        "retention_time": 12.36,
+        "source_rt_text": "12.36",
+        "observed_mz_by_sample": {
+          "N2emb": "560.25",
+          "e2144a": "560.25",
+          "t3208a": "560.25",
+          "N2L4 liq": "560.25",
+          "N2L4 plate": "560.25",
+          "pmk-1 mix": "560.33"
+        },
+        "source_row_text": "    560.18     12.36   Hex1HexNAc1HexA1 (branched)     560.25     12.0    560.25      12.7    560.25       7.7    560.25        2.0    560.25      0.8    560.33        1.3",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 4,
+        "source_extraction_row": 5,
+        "source_composition": "Hex1HexNAc1HexA1 (linear)",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 1,
+          "HexA": 1
+        },
+        "calculated_mz": 560.18,
+        "retention_time": 16.28,
+        "source_rt_text": "16.28",
+        "observed_mz_by_sample": {
+          "N2emb": "560.25",
+          "e2144a": "560.25",
+          "t3208a": "560.25",
+          "N2L4 liq": "560.25",
+          "N2L4 plate": "560.25",
+          "pmk-1 mix": "560.17"
+        },
+        "source_row_text": "    560.18     16.28      Hex1HexNAc1HexA1 (linear)    560.25      6.5    560.25       2.3    560.25       4.3    560.25        1.4    560.25      0.8    560.17        2.2",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 5,
+        "source_extraction_row": 6,
+        "source_composition": "Hex2HexNAc1dHex1",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 1,
+          "dHex": 1
+        },
+        "calculated_mz": 692.26,
+        "retention_time": 21.14,
+        "source_rt_text": "21.14",
+        "observed_mz_by_sample": {
+          "N2emb": "692.33",
+          "e2144a": "692.25",
+          "t3208a": "692.42",
+          "N2L4 liq": "692.25",
+          "N2L4 plate": "692.25",
+          "pmk-1 mix": "692.25"
+        },
+        "source_row_text": "    692.26     21.14             Hex2HexNAc1dHex1      692.33     27.5    692.25      12.7    692.42      14.7    692.25       14.0    692.25      7.6    692.25        9.4",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 6,
+        "source_extraction_row": 7,
+        "source_composition": "Hex2HexNAc1dHex1",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 1,
+          "dHex": 1
+        },
+        "calculated_mz": 692.26,
+        "retention_time": 30.3,
+        "source_rt_text": "30.30",
+        "observed_mz_by_sample": {
+          "N2emb": "692.33",
+          "e2144a": "692.33",
+          "t3208a": "nd",
+          "N2L4 liq": "692.33",
+          "N2L4 plate": "692.25",
+          "pmk-1 mix": "692.33"
+        },
+        "source_row_text": "    692.26     30.30             Hex2HexNAc1dHex1      692.33      1.6    692.33       1.5        nd       0.0    692.33        8.0    692.25      4.3    692.33        2.5",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 7,
+        "source_extraction_row": 8,
+        "source_composition": "Hex2HexNAc1dHex1 Me",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 1,
+          "dHex": 1,
+          "Me": 1
+        },
+        "calculated_mz": 706.24,
+        "retention_time": 21.45,
+        "source_rt_text": "21.45",
+        "observed_mz_by_sample": {
+          "N2emb": "706.33",
+          "e2144a": "nd",
+          "t3208a": "nd",
+          "N2L4 liq": "706.25",
+          "N2L4 plate": "706.33",
+          "pmk-1 mix": "706.33"
+        },
+        "source_row_text": "    706.24     21.45         Hex2HexNAc1dHex1 Me       706.33      1.5        nd       0.0        nd       0.0    706.25        1.4    706.33      0.8    706.33        1.5",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 8,
+        "source_extraction_row": 9,
+        "source_composition": "Hex3HexNAc1",
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 1
+        },
+        "calculated_mz": 708.26,
+        "retention_time": 17.08,
+        "source_rt_text": "17.08",
+        "observed_mz_by_sample": {
+          "N2emb": "708.25",
+          "e2144a": "708.33",
+          "t3208a": "708.33",
+          "N2L4 liq": "708.25",
+          "N2L4 plate": "708.25",
+          "pmk-1 mix": "708.25"
+        },
+        "source_row_text": "    708.26     17.08                   Hex3HexNAc1     708.25      0.4    708.33       0.0    708.33       0.0    708.25        2.8    708.25      1.9    708.25        0.0",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 9,
+        "source_extraction_row": 10,
+        "source_composition": "Hex2HexNAc1 HexA1",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 1,
+          "HexA": 1
+        },
+        "calculated_mz": 722.24,
+        "retention_time": 19.55,
+        "source_rt_text": "19.55",
+        "observed_mz_by_sample": {
+          "N2emb": "722.25",
+          "e2144a": "722.33",
+          "t3208a": "722.33",
+          "N2L4 liq": "722.33",
+          "N2L4 plate": "722.25",
+          "pmk-1 mix": "722.25"
+        },
+        "source_row_text": "    722.24     19.55            Hex2HexNAc1 HexA1      722.25      1.3    722.33       5.2    722.33       3.6    722.33        1.7    722.25      3.9    722.25        7.2",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 10,
+        "source_extraction_row": 11,
+        "source_composition": "Hex2HexNAc2",
+        "composition_counts": {
+          "Hex": 2,
+          "HexNAc": 2
+        },
+        "calculated_mz": 749.28,
+        "retention_time": 19.07,
+        "source_rt_text": "19.07",
+        "observed_mz_by_sample": {
+          "N2emb": "749.25",
+          "e2144a": "749.33",
+          "t3208a": "749.25",
+          "N2L4 liq": "749.25",
+          "N2L4 plate": "749.42",
+          "pmk-1 mix": "749.25"
+        },
+        "source_row_text": "    749.28     19.07                   Hex2HexNAc2     749.25      0.5    749.33       0.6    749.25       0.8    749.25        0.0    749.42      0.0    749.25        0.0",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 11,
+        "source_extraction_row": 12,
+        "source_composition": "HexNAc2HexA1PC1",
+        "composition_counts": {
+          "HexNAc": 2,
+          "HexA": 1,
+          "PC": 1
+        },
+        "calculated_mz": 766.26,
+        "retention_time": 17.48,
+        "source_rt_text": "17.48",
+        "observed_mz_by_sample": {
+          "N2emb": "766.25",
+          "e2144a": "766.33",
+          "t3208a": "766.25",
+          "N2L4 liq": "766.33*",
+          "N2L4 plate": "766.33*",
+          "pmk-1 mix": "nd"
+        },
+        "source_row_text": "    766.26     17.48              HexNAc2HexA1PC1      766.25      1.4    766.33       1.1    766.25       0.8   766.33*        0.1   766.33*      0.1        nd        0.0",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 12,
+        "source_extraction_row": 13,
+        "source_composition": "Hex3HexNAc1dHex1",
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 1,
+          "dHex": 1
+        },
+        "calculated_mz": 854.31,
+        "retention_time": 24.77,
+        "source_rt_text": "24.77",
+        "observed_mz_by_sample": {
+          "N2emb": "854.33",
+          "e2144a": "854.33",
+          "t3208a": "854.33",
+          "N2L4 liq": "854.33",
+          "N2L4 plate": "854.33",
+          "pmk-1 mix": "854.33"
+        },
+        "source_row_text": "    854.31     24.77             Hex3HexNAc1dHex1      854.33      4.1    854.33       2.1    854.33       3.4    854.33        4.8    854.33      2.5    854.33        4.9",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 13,
+        "source_extraction_row": 14,
+        "source_composition": "Hex4HexNAc1",
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 1
+        },
+        "calculated_mz": 870.31,
+        "retention_time": 17.72,
+        "source_rt_text": "17.72",
+        "observed_mz_by_sample": {
+          "N2emb": "870.33",
+          "e2144a": "870.42",
+          "t3208a": "870.42",
+          "N2L4 liq": "870.33",
+          "N2L4 plate": "870.50",
+          "pmk-1 mix": "870.33"
+        },
+        "source_row_text": "    870.31     17.72                   Hex4HexNAc1     870.33     11.9    870.42      18.8    870.42      12.3    870.33       35.4    870.50     49.6    870.33       40.8",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 14,
+        "source_extraction_row": 15,
+        "source_composition": "Hex3HexNAc1 Hex1Me",
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 1,
+          "Me": 1
+        },
+        "calculated_mz": 884.29,
+        "retention_time": 19.46,
+        "source_rt_text": "19.46",
+        "observed_mz_by_sample": {
+          "N2emb": "884.33",
+          "e2144a": "884.25",
+          "t3208a": "884.25",
+          "N2L4 liq": "884.25",
+          "N2L4 plate": "884.42",
+          "pmk-1 mix": "884.33"
+        },
+        "source_row_text": "    884.29     19.46          Hex3HexNAc1 Hex1Me       884.33      1.6    884.25       2.1    884.25       1.7    884.25        5.9    884.42      3.2    884.33        3.6",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 15,
+        "source_extraction_row": 16,
+        "source_composition": "Hex3HexNAc1 HexA1",
+        "composition_counts": {
+          "Hex": 3,
+          "HexNAc": 1,
+          "HexA": 1
+        },
+        "calculated_mz": 884.29,
+        "retention_time": 20.89,
+        "source_rt_text": "20.89",
+        "observed_mz_by_sample": {
+          "N2emb": "884.42",
+          "e2144a": "884.33",
+          "t3208a": "884.25",
+          "N2L4 liq": "884.33",
+          "N2L4 plate": "884.33",
+          "pmk-1 mix": "884.33"
+        },
+        "source_row_text": "    884.29     20.89            Hex3HexNAc1 HexA1      884.42      4.1    884.33       7.7    884.25       5.9    884.33        4.5    884.33      2.8    884.33        4.6",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 16,
+        "source_extraction_row": 17,
+        "source_composition": "Hex1HexNAc2HexA1PC1",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 2,
+          "HexA": 1,
+          "PC": 1
+        },
+        "calculated_mz": 928.32,
+        "retention_time": 18.53,
+        "source_rt_text": "18.53",
+        "observed_mz_by_sample": {
+          "N2emb": "nd",
+          "e2144a": "nd",
+          "t3208a": "nd",
+          "N2L4 liq": "nd",
+          "N2L4 plate": "nd",
+          "pmk-1 mix": "928.33"
+        },
+        "source_row_text": "    928.32     18.53         Hex1HexNAc2HexA1PC1           nd      0.0        nd       0.0        nd       0.0        nd        0.0        nd      0.0    928.33        0.3",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 17,
+        "source_extraction_row": 18,
+        "source_composition": "Hex1HexNAc2HexA1PC1",
+        "composition_counts": {
+          "Hex": 1,
+          "HexNAc": 2,
+          "HexA": 1,
+          "PC": 1
+        },
+        "calculated_mz": 928.32,
+        "retention_time": 22.83,
+        "source_rt_text": "22.83",
+        "observed_mz_by_sample": {
+          "N2emb": "928.33",
+          "e2144a": "928.42",
+          "t3208a": "928.42",
+          "N2L4 liq": "nd",
+          "N2L4 plate": "nd",
+          "pmk-1 mix": "928.25"
+        },
+        "source_row_text": "    928.32     22.83         Hex1HexNAc2HexA1PC1       928.33      0.7    928.42       0.3    928.42       0.8        nd        0.0        nd      0.0    928.25        0.9",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 18,
+        "source_extraction_row": 19,
+        "source_composition": "HexNAc3HexA1PC1",
+        "composition_counts": {
+          "HexNAc": 3,
+          "HexA": 1,
+          "PC": 1
+        },
+        "calculated_mz": 969.34,
+        "retention_time": 17.64,
+        "source_rt_text": "17.64",
+        "observed_mz_by_sample": {
+          "N2emb": "969.42",
+          "e2144a": "969.42",
+          "t3208a": "969.25",
+          "N2L4 liq": "969.33*",
+          "N2L4 plate": "nd",
+          "pmk-1 mix": "nd"
+        },
+        "source_row_text": "    969.34     17.64              HexNAc3HexA1PC1      969.42      3.4    969.42       2.6    969.25       0.8   969.33*        0.1        nd      0.0        nd        0.0",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 19,
+        "source_extraction_row": 20,
+        "source_composition": "Hex4HexNAc1 HexA1",
+        "composition_counts": {
+          "Hex": 4,
+          "HexNAc": 1,
+          "HexA": 1
+        },
+        "calculated_mz": 1046.34,
+        "retention_time": 19.46,
+        "source_rt_text": "19.46",
+        "observed_mz_by_sample": {
+          "N2emb": "1046.33",
+          "e2144a": "1046.42",
+          "t3208a": "1046.42",
+          "N2L4 liq": "1046.33",
+          "N2L4 plate": "1046.42",
+          "pmk-1 mix": "1046.33"
+        },
+        "source_row_text": "   1046.34     19.46            Hex4HexNAc1 HexA1     1046.33      1.3   1046.42       2.1   1046.42       1.3   1046.33        4.6   1046.42      5.7   1046.33        4.2",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      },
+      {
+        "source_pdf_page": 18,
+        "source_table": "Supplementary Table S2",
+        "source_table_data_row": 20,
+        "source_extraction_row": 21,
+        "source_composition": "HexNAc3HexA1PC2",
+        "composition_counts": {
+          "HexNAc": 3,
+          "HexA": 1,
+          "PC": 2
+        },
+        "calculated_mz": 1134.4,
+        "retention_time": 16.84,
+        "source_rt_text": "16,84",
+        "observed_mz_by_sample": {
+          "N2emb": "1134.42",
+          "e2144a": "1134.33",
+          "t3208a": "1134.42",
+          "N2L4 liq": "nd",
+          "N2L4 plate": "nd",
+          "pmk-1 mix": "nd"
+        },
+        "source_row_text": "   1134.40     16,84              HexNAc3HexA1PC2     1134.42      0.2   1134.33       0.3   1134.42       0.3        nd        0.0        nd      0.0        nd        0.0",
+        "assignment_basis": "Author Composition column only. Repeated Hex tokens are summed, PC and Me retained as substituent counts. No identity inferred from m/z; linear/branched words retained as source annotations without fabricating bonds."
+      }
+    ],
+    "col_data": {
+      "source_sample": [
+        "N2emb",
+        "e2144a",
+        "t3208a",
+        "N2L4 liq",
+        "N2L4 plate",
+        "pmk-1 mix"
+      ],
+      "organism": [
+        "Caenorhabditis elegans",
+        "Caenorhabditis elegans",
+        "Caenorhabditis elegans",
+        "Caenorhabditis elegans",
+        "Caenorhabditis elegans",
+        "Caenorhabditis elegans"
+      ],
+      "strain": [
+        "N2",
+        "e2144",
+        "t3208",
+        "N2",
+        "N2",
+        "pmk-1"
+      ],
+      "gene_context": [
+        "wild type",
+        "glp-1",
+        "apx-1",
+        "wild type",
+        "wild type",
+        "pmk-1"
+      ],
+      "developmental_stage": [
+        "embryo",
+        "embryo",
+        "embryo",
+        "L4 larva",
+        "L4 larva",
+        "mixed culture"
+      ],
+      "growth_condition": [
+        null,
+        null,
+        null,
+        "liquid",
+        "plate",
+        null
+      ],
+      "replicate_type": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "unit": "percent occurrence",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "features": 20,
+    "observations": 6,
+    "object_class": "GlycomicSE"
+  }
+]

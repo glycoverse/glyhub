@@ -1,0 +1,461 @@
+{
+  "checked_date": "2026-10-16",
+  "doi": "10.1074/mcp.RA119.001534",
+  "article_title": [
+    "Bisecting GlcNAc Is a General Suppressor of Terminal Modification of N-glycan*[S]"
+  ],
+  "primary_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773561/",
+  "accession": "GPST000031",
+  "project_url": "https://glycopost.glycosmos.org/entry/GPST000031",
+  "file_list_url": "https://glycopost.glycosmos.org/api/projects/GPST000031.0/files?limit=20&offset=0",
+  "file_list": {
+    "list": [
+      {
+        "id": "f_0000000706",
+        "name": "19060303_WT1_TMT0_kidney.raw",
+        "size": 45900972,
+        "type": "raw",
+        "status": "server",
+        "checksum": "16852e39ee3b2819c41674b306b356f6",
+        "profiles": [
+          {
+            "id": "S0000000031",
+            "summary": "GnT3 KO mouse kidney",
+            "category": "samplePreparation"
+          }
+        ]
+      },
+      {
+        "id": "f_0000000705",
+        "name": "19060304_GnT3KO3_TMT0_kidney.raw",
+        "size": 49261972,
+        "type": "raw",
+        "status": "server",
+        "checksum": "ce54805317b8a15e50b04b527976d691",
+        "profiles": [
+          {
+            "id": "S0000000031",
+            "summary": "GnT3 KO mouse kidney",
+            "category": "samplePreparation"
+          }
+        ]
+      },
+      {
+        "id": "f_0000000704",
+        "name": "19060305_WT2_TMT0_kidney.raw",
+        "size": 54387024,
+        "type": "raw",
+        "status": "server",
+        "checksum": "ef3bc6ea27c43d866926714213f432ff",
+        "profiles": [
+          {
+            "id": "S0000000031",
+            "summary": "GnT3 KO mouse kidney",
+            "category": "samplePreparation"
+          }
+        ]
+      },
+      {
+        "id": "f_0000000703",
+        "name": "19060306_GnT3KO4_TMT0_kidney.raw",
+        "size": 47069696,
+        "type": "raw",
+        "status": "server",
+        "checksum": "20cf79e7e018621bdb77d59c4371fed2",
+        "profiles": [
+          {
+            "id": "S0000000031",
+            "summary": "GnT3 KO mouse kidney",
+            "category": "samplePreparation"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "total": 4,
+      "from": 1,
+      "to": 4,
+      "size": 196619664
+    }
+  },
+  "sample_preparation_url": "https://glycopost.glycosmos.org/api/projects/GPST000031.0/files/f_0000000706",
+  "sample_preparation": {
+    "id": "f_0000000706",
+    "name": "19060303_WT1_TMT0_kidney.raw",
+    "size": 45900972,
+    "type": "raw",
+    "is_on_server": 1,
+    "checksum": "16852e39ee3b2819c41674b306b356f6",
+    "presets": [
+      {
+        "id": "S0000000031",
+        "category": "samplePreparation",
+        "experimentType": null,
+        "presets": [
+          {
+            "key": "title",
+            "value": "GnT3 KO mouse kidney",
+            "ontologyValue": "",
+            "groupId": "ecf420cd-f317-4839-ac51-bd6bdd248edb",
+            "orderKey": 0,
+            "label": "Title"
+          },
+          {
+            "key": "generalInformation",
+            "value": "Bisecting GlcNAc is a general suppressor of terminal modification of N-glycan ",
+            "ontologyValue": "",
+            "groupId": "dc32487b-eb19-4e37-8f49-3d9361fb3f4e",
+            "orderKey": 1,
+            "label": "General information"
+          },
+          {
+            "key": "recombinantlyProducedMaterial",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "d4aad446-f4f5-485a-abe0-b1369f82c977",
+            "orderKey": 2,
+            "label": "Biologically derived material - Recombinantly produced material"
+          },
+          {
+            "key": "cellType",
+            "value": "Mouse cell",
+            "ontologyValue": "",
+            "groupId": "bf80da4a-befd-429d-bf6f-16a34c9b04de",
+            "orderKey": 3,
+            "label": "Cell line"
+          },
+          {
+            "key": "growthHarvestConditions",
+            "value": "GnT3 KO",
+            "ontologyValue": "",
+            "groupId": "0601d866-6f58-4860-ba8f-196bb83f00bd",
+            "orderKey": 4,
+            "label": "Growth/harvest conditions. Other modifications."
+          },
+          {
+            "key": "biologicalOrigin",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "33a2e01b-3d02-4afb-b8d1-ef96668f0b99",
+            "orderKey": 5,
+            "label": "Biologically derived material - Biological origin of Material"
+          },
+          {
+            "key": "origin1",
+            "value": "Tissues",
+            "ontologyValue": "",
+            "groupId": "60d9d9a3-b74f-48ce-86da-818064aef219",
+            "orderKey": 6,
+            "label": "Origin (biological fluids, tissue, etc)"
+          },
+          {
+            "key": "species",
+            "value": "Mus musculus (Mouse)",
+            "ontologyValue": "",
+            "groupId": "1705619f-b991-46bf-af31-4a4b0dedccc5",
+            "orderKey": 7,
+            "label": "Species"
+          },
+          {
+            "key": "treatmentsStorageConditions",
+            "value": "GnT3 KO",
+            "ontologyValue": "",
+            "groupId": "25d6cea6-af91-4ca2-a4e6-22239bad6861",
+            "orderKey": 8,
+            "label": "Describe treatments and/or storage conditions"
+          },
+          {
+            "key": "glycoprotein",
+            "value": "not specific",
+            "ontologyValue": "",
+            "groupId": "608c0c39-7463-4e26-a150-649c437acf1d",
+            "orderKey": 9,
+            "label": "Glycoprotein (Uniprot ID)"
+          },
+          {
+            "key": "purchasedFromCommercialManufacturer",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "09eb206b-8138-44a6-9d7e-15c9d58805e8",
+            "orderKey": 10,
+            "label": "Biologically derived material - Purchased from commercial manufacturer"
+          },
+          {
+            "key": "vendorAndApplicableItemInformation",
+            "value": "aminoxyTMT0 (Thermo fisher)",
+            "ontologyValue": "",
+            "groupId": "d62ea4be-7124-4834-981f-e4516731c915",
+            "orderKey": 11,
+            "label": "Vendor and applicable item information"
+          },
+          {
+            "key": "chemicallyDerivedMaterial",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "97411263-9ba0-4f2d-b3d2-cc828075f2f0",
+            "orderKey": 12,
+            "label": "Chemically derived material"
+          },
+          {
+            "key": "synthesisSteps",
+            "value": "Thermo fisher",
+            "ontologyValue": "",
+            "groupId": "8294dd8b-6ab0-4fc5-81b5-13450e82fbb3",
+            "orderKey": 13,
+            "label": "Synthesis steps or specify where the equivalent reaction protocol is available."
+          },
+          {
+            "key": "startingMaterial",
+            "value": "Glycoproteins",
+            "ontologyValue": "Glycoproteins",
+            "groupId": "2773c71c-2ef9-4f6c-a89e-c94d6850ccde",
+            "orderKey": 14,
+            "label": "Description of starting material"
+          },
+          {
+            "key": "isolation",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "cdc91e18-8b1c-4396-8dc0-3ead4d5383c8",
+            "orderKey": 15,
+            "label": "Sample Processing – Isolation"
+          },
+          {
+            "key": "enzymaticTreatments",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "ea905eb7-20ac-43bf-8510-af918fdff96c",
+            "orderKey": 16,
+            "label": "Enzymatic treatments"
+          },
+          {
+            "key": "enzymesUsed1",
+            "value": "PNGase F",
+            "ontologyValue": "PNGase F",
+            "groupId": "ea905eb7-20ac-43bf-8510-af918fdff96c",
+            "orderKey": 17,
+            "label": "Enzymes used"
+          },
+          {
+            "key": "vendorEnzymeProduction",
+            "value": "Roche",
+            "ontologyValue": "",
+            "groupId": "ea905eb7-20ac-43bf-8510-af918fdff96c",
+            "orderKey": 18,
+            "label": "Vendor or enzyme production"
+          },
+          {
+            "key": "reactionConditions1",
+            "value": "16h, 37oC",
+            "ontologyValue": "",
+            "groupId": "ea905eb7-20ac-43bf-8510-af918fdff96c",
+            "orderKey": 19,
+            "label": "Reaction conditions"
+          },
+          {
+            "key": "chemicalTreatments1",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "da65edf2-59fe-4c9d-a15b-bd17662aacda",
+            "orderKey": 20,
+            "label": "Chemical treatments"
+          },
+          {
+            "key": "chemicalMethods1",
+            "value": "PNGase F",
+            "ontologyValue": "PNGase F",
+            "groupId": "da65edf2-59fe-4c9d-a15b-bd17662aacda",
+            "orderKey": 21,
+            "label": "Chemical methods"
+          },
+          {
+            "key": "reactionConditions2",
+            "value": "16h, 37oC",
+            "ontologyValue": "",
+            "groupId": "da65edf2-59fe-4c9d-a15b-bd17662aacda",
+            "orderKey": 22,
+            "label": "Reaction conditions"
+          },
+          {
+            "key": "modification",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "2151144e-4223-4879-9858-f45cb75c98e6",
+            "orderKey": 23,
+            "label": "Sample Processing – Modification"
+          },
+          {
+            "key": "enzymaticModifications",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "6dd197b6-f62b-4bec-9746-3a1f0a5cc24f",
+            "orderKey": 24,
+            "label": "Enzymatic modifications"
+          },
+          {
+            "key": "enzymesUsed2",
+            "value": "PNGase F",
+            "ontologyValue": "PNGase F",
+            "groupId": "6dd197b6-f62b-4bec-9746-3a1f0a5cc24f",
+            "orderKey": 25,
+            "label": "Enzymes used"
+          },
+          {
+            "key": "reactionConditions3",
+            "value": "16h, 37oC",
+            "ontologyValue": "",
+            "groupId": "6dd197b6-f62b-4bec-9746-3a1f0a5cc24f",
+            "orderKey": 26,
+            "label": "Reaction conditions"
+          },
+          {
+            "key": "origin2",
+            "value": "Flavobacterium meningosepticum",
+            "ontologyValue": "",
+            "groupId": "6dd197b6-f62b-4bec-9746-3a1f0a5cc24f",
+            "orderKey": 27,
+            "label": "Origin of novel enzyme"
+          },
+          {
+            "key": "chemicalTreatments2",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "e1c9d68c-3434-43f4-bb91-b6e30e957400",
+            "orderKey": 28,
+            "label": "Chemical treatments"
+          },
+          {
+            "key": "chemicalMethods2",
+            "value": "PNGase F",
+            "ontologyValue": "PNGase F",
+            "groupId": "e1c9d68c-3434-43f4-bb91-b6e30e957400",
+            "orderKey": 29,
+            "label": "Chemical methods"
+          },
+          {
+            "key": "typeOfModification",
+            "value": "nothing",
+            "ontologyValue": "",
+            "groupId": "e1c9d68c-3434-43f4-bb91-b6e30e957400",
+            "orderKey": 30,
+            "label": "Type of modification"
+          },
+          {
+            "key": "reactionConditions4",
+            "value": "nothing",
+            "ontologyValue": "",
+            "groupId": "e1c9d68c-3434-43f4-bb91-b6e30e957400",
+            "orderKey": 31,
+            "label": "Reaction conditions"
+          },
+          {
+            "key": "purification",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "49d1bfbf-30b3-4e45-b42a-6b8e775255a1",
+            "orderKey": 32,
+            "label": "Sample Processing – Purification"
+          },
+          {
+            "key": "purificationSteps",
+            "value": "Sepharose CL4B",
+            "ontologyValue": "",
+            "groupId": "af443f7c-9892-4787-9a25-4a2aff2a3c3d",
+            "orderKey": 33,
+            "label": "Purification steps"
+          },
+          {
+            "key": "definedSample",
+            "value": "",
+            "ontologyValue": "",
+            "groupId": "895aff2f-89c4-4c7e-825a-d5a5f347f81e",
+            "orderKey": 34,
+            "label": "Defined sample"
+          },
+          {
+            "key": "sampleName",
+            "value": "N-linked oligosaccharides",
+            "ontologyValue": "N-linked oligosaccharides",
+            "groupId": "cdf365c5-12a8-4660-9b4f-c02745a95922",
+            "orderKey": 35,
+            "label": "Sample name"
+          },
+          {
+            "key": "note",
+            "value": "aminoxyTMT0 labelled N-glycans",
+            "ontologyValue": "",
+            "groupId": "e85fb476-6aaa-4456-bee5-81206be6bf90",
+            "orderKey": 36,
+            "label": "Note"
+          }
+        ]
+      }
+    ]
+  },
+  "assignment": "The four XLS run IDs and source sample labels match all four GPST000031 kidney raw filenames in exact source order.",
+  "metadata_caution": "The shared sample-preparation preset is titled GnT3 KO mouse kidney even on WT files. Condition is taken from each actual filename and the workbook genotype header, not applied from the shared preset. Biological replicate type, sex, age and pairing are not inferred.",
+  "related_brain_accession": "GPST000027",
+  "related_brain_file_list_url": "https://glycopost.glycosmos.org/api/projects/GPST000027.0/files?limit=20&offset=0",
+  "related_brain_file_list": {
+    "list": [
+      {
+        "id": "f_0000000563",
+        "name": "15071834_WT_TMT6_126.RAW",
+        "size": 26444876,
+        "type": "raw",
+        "status": "server",
+        "checksum": "84b8a016e88a25592b1973319b4d6b49",
+        "profiles": [
+          {
+            "id": "S0000000016",
+            "summary": "GnT3 KO mouse brain",
+            "category": "samplePreparation"
+          }
+        ]
+      },
+      {
+        "id": "f_0000000562",
+        "name": "15071835_GnT3KO_TMT6_127.RAW",
+        "size": 25374756,
+        "type": "raw",
+        "status": "server",
+        "checksum": "6cc605f285e4b629170a5fd33baf20da",
+        "profiles": [
+          {
+            "id": "S0000000016",
+            "summary": "GnT3 KO mouse brain",
+            "category": "samplePreparation"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "total": 2,
+      "from": 1,
+      "to": 2,
+      "size": 51819632
+    }
+  },
+  "license_evidence": {
+    "url": "https://api.crossref.org/works/10.1074/mcp.RA119.001534",
+    "record_type": "journal-article",
+    "version_of_record_licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              19
+            ]
+          ],
+          "date-time": "2020-09-19T00:00:00Z",
+          "timestamp": 1600473600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 354,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  }
+}

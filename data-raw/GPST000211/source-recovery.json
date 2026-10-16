@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data-raw/GPST000211/ML_structures+linkages.gwp",
+    "bytes": 45965,
+    "sha256": "d77a755f527d0bfcef75925d9cc41921bba570dde905dabfe3f963c9fa13b4a6",
+    "md5": "3343bbfd88536cdde50cea52098388d2",
+    "url": "https://glycopost.glycosmos.org/data/GPST000211.0/ML_structures%2Blinkages.gwp",
+    "source_kind": "GlycoPOST deposited source",
+    "verification": "Downloaded source MD5 matches official GlycoPOST file inventory"
+  },
+  {
+    "path": "data-raw/GPST000211/mmc6.xlsx",
+    "bytes": 40282,
+    "sha256": "25af08d221179ec922fcffe2281cbfbee11cef69b98bf7302fa10a059f650776",
+    "md5": "57069a899a58589e7e040ac5fd138ec0",
+    "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10879016/supplementaryFiles",
+    "archive_member": "mmc6.xlsx",
+    "archive_sha256": "cee3c3d74c67b40740692f6ace2c76e788c2a1e1b84b7e60480ae2029b321beb",
+    "source_kind": "Publisher supplementary file retrieved from Europe PMC",
+    "verification": "Exact member SHA256 matches the downloaded public supplementary archive"
+  }
+]

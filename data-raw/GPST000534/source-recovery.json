@@ -1,0 +1,11 @@
+[
+  {
+    "path": "data-raw/GPST000534/Table.docx",
+    "bytes": 179933,
+    "sha256": "432c48e6536244186d5c3d12fcff6703da164bc71e5ed800b54ce1afa44b543e",
+    "md5": "f7d7c9530a7568e35c6ba3caf4b0239d",
+    "url": "https://glycopost.glycosmos.org/data/GPST000534.2/Table.docx",
+    "source_kind": "GlycoPOST deposited source",
+    "verification": "Downloaded source MD5 matches official GlycoPOST file inventory"
+  }
+]

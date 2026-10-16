@@ -1,0 +1,11 @@
+[
+  {
+    "path": "data-raw/GPST000190/MoranAB_Glycopost_Identification.xlsx",
+    "bytes": 59737,
+    "sha256": "02e8cf96d41158c8e432f69716bc11c7d8389298653925aec7cd757db7b9e94a",
+    "md5": "28eaaf8a12e5262920c72e8a0814c3c9",
+    "url": "https://glycopost.glycosmos.org/data/GPST000190.2/MoranAB_Glycopost_Identification.xlsx",
+    "source_kind": "GlycoPOST deposited source",
+    "verification": "Downloaded source MD5 matches official GlycoPOST file inventory"
+  }
+]

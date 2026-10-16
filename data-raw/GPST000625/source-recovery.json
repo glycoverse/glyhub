@@ -1,0 +1,15 @@
+[
+  {
+    "accession": "GPST000625",
+    "path": "data-raw/GPST000625/advs72721-sup-0003-TableS2.xlsx",
+    "sha256": "6a5ffe5a5f72ced69b924370e72595ba8e8d932efd1fddf7d7d629f73496cb57",
+    "bytes": 921982,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12866799/supplementaryFiles",
+    "archive_members": [
+      "ADVS-13-e06669-s002.zip",
+      "advs72721-sup-0003-TableS2.xlsx"
+    ],
+    "source_kind": "Publisher supplementary material distributed by EuropePMC",
+    "verified": "Exact archive member extraction reproduces pinned SHA256"
+  }
+]
