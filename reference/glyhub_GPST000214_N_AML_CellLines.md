@@ -1,0 +1,52 @@
+# N-glycan profiles of 21 acute myeloid leukemia cell lines
+
+Complete 68-feature released N-glycan fractional-abundance matrix in 21
+AML cell lines from Integrated N- and O-Glycomics of Acute Myeloid
+Leukemia (AML) Cell Lines.
+
+## Usage
+
+``` r
+glyhub_GPST000214_N_AML_CellLines
+```
+
+## Format
+
+A
+[glyexp::GlycomicSE](https://glycoverse.github.io/glyexp/reference/GlycomicSE.html)
+with 68 features and 21 observations. The abundance assay is in percent
+fractional abundance. rowData has no glycan_structure column because no
+feature has a supported structural annotation.
+
+## Source
+
+GlycoPOST GPST000214. . Study: <https://doi.org/10.3390/cells10113058>.
+Repository: <https://glycopost.glycosmos.org/entry/GPST000214>.
+Quantitative source:
+<https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8616353/supplementaryFiles>.
+
+## Details
+
+Source assay is the complete individual-glycan block only; following
+glycan-feature/derived-trait rows are not molecular features.
+Author-imputed values of 0.01 replacing zeros are preserved exactly as
+published; this curation does not reverse or add imputation. Only actual
+quantitative zero values become NA. No renormalization is applied. One
+source profile column represents each cell line; biological/technical
+replicate status of the main table is not specified by its headers and
+is left unknown. The RSD_MOLM-14 sheet is retained as auxiliary
+variability data rather than appended: biological rep1 overlaps
+technical replicates, and N-glycan technical and biological panels have
+different feature denominators. Isomer suffixes are preserved without
+collapsing rows.
+
+Counts follow the author legend: H=Hex, N=HexNAc, F=Fuc, S=NeuAc,
+P=phosphate, Su=sulfate. In typed composition, sulfate uses S and sialic
+acid uses NeuAc. Structures are not inferred from composition, retention
+order or mass.
+
+## See also
+
+[glyhub_data_conventions](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+for missing-value handling, annotations and access to original
+measurements and source coordinates.

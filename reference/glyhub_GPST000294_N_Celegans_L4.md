@@ -1,0 +1,62 @@
+# Caenorhabditis elegans L4 N-glycans across culture and release fractions
+
+All 202 molecular-feature rows of Supplementary Table S1, with relative
+percentages reported for four L4 culture and glycan-release fraction
+profiles.
+
+## Usage
+
+``` r
+glyhub_GPST000294_N_Celegans_L4
+```
+
+## Format
+
+A
+[glyexp::GlycomicSE](https://glycoverse.github.io/glyexp/reference/GlycomicSE.html)
+with 202 features and 4 observations. The abundance assay is in reported
+relative percentage. rowData includes a typed glycan_structure column;
+features without a supported structure are NA.
+
+## Source
+
+GlycoPOST GPST000294. Supplementary Table S1, PDF pages 4–17. Study:
+<https://doi.org/10.1016/j.mcpro.2023.100505>. Repository:
+<https://glycopost.glycosmos.org/entry/GPST000294>.
+
+## Details
+
+L4 larvae were grown in liquid or on plates. PNGase F and the subsequent
+Ar release fractions are separate analytical fractions of these
+preparations, not four independent biological replicates. The table
+reports percentages for the second L4 preparations together with
+retention times from eleven preparations. Only the percentage tokens are
+used in the abundance assay; embryo and first-preparation retention
+times are preserved as source annotations. All 202 source rows remain,
+including 14 with no percentage in any profile. There are 147 exact
+percentage measurements and 150 source values explicitly reported as
+\>0.1%; censored values have missing numeric abundance and retain their
+literal inequalities. Unreported percentages remain missing. No
+threshold substitution or renormalization is performed.
+
+Each source diagram is transcribed with its displayed topology and
+residue identity. Unlabelled glycosidic configurations and acceptor
+positions remain unknown. Explicit author GlyTouCan accessions refine
+bond information only after residue-labelled topology is verified. PC
+and methyl substituents retain their source placement uncertainty,
+including a PC restricted to two candidate GlcNAc residues. Source
+composition/mass, original table cells, diagram row and review evidence
+remain available. All 202 rows have parsed, source-backed structures;
+broad source H/N/F/substituent totals match where a printed composition
+exists (201 rows). The one row without printed composition is assigned
+from its diagram. Twelve explicit GlyTouCan identifiers have
+residue-labelled topology verification. Row 196 uses the article Results
+identification of Figure 4I as a branched Man-HexNAc motif to constrain
+both fragments to the upper-arm Man; row 197 retains uncertain arm
+placement of long and short chains.
+
+## See also
+
+[glyhub_data_conventions](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+for missing-value handling, annotations and access to original
+measurements and source coordinates.
