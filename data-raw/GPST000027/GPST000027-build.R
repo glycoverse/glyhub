@@ -18,7 +18,10 @@ storage.mode(relative) <- "double"
 dimnames(relative) <- dimnames(brain)
 denominator <- unlist(bs$high_mannose_denominator)
 names(denominator) <- colnames(brain)
-stopifnot(all(abs(relative - sweep(bm$raw_abundance, 2L, denominator, "/") * 100) <= 0.05000000001))
+stopifnot(all(
+  abs(relative - sweep(bm$raw_abundance, 2L, denominator, "/") * 100) <=
+    0.05000000001
+))
 bm$doi <- bs$doi
 bm$source$sha256 <- bs$source_sha256
 bm$source$pdf_page <- 4L
@@ -34,7 +37,10 @@ bm$source_relative_abundance_provenance <- list(
   formula = "100 * EIC peak intensity / sample-specific high-mannose intensity sum; printed to one decimal place"
 )
 bm$transcription_validation <- bs$transcription_validation
-bm$source_identity <- jsonlite::fromJSON("data-raw/GPST000027/provenance_license_snapshot.json", simplifyVector = FALSE)
+bm$source_identity <- jsonlite::fromJSON(
+  "data-raw/GPST000027/provenance_license_snapshot.json",
+  simplifyVector = FALSE
+)
 S4Vectors::metadata(brain) <- bm
 panels[[1]] <- brain
 
@@ -43,9 +49,15 @@ rds <- lapply(panels, SummarizedExperiment::rowData)
 cds <- lapply(panels, SummarizedExperiment::colData)
 rows <- list(seq_len(51L), 51L + seq_len(287L))
 columns <- list(1:2, 3:6)
-feature_ids <- c(paste0("GPST000027::", rownames(brain)),
-                 paste0("GPST000031::", rownames(panels[[2]])))
-sample_ids <- c("brain_WT", "brain_KO", paste0("kidney_", colnames(panels[[2]])))
+feature_ids <- c(
+  paste0("GPST000027::", rownames(brain)),
+  paste0("GPST000031::", rownames(panels[[2]]))
+)
+sample_ids <- c(
+  "brain_WT",
+  "brain_KO",
+  paste0("kidney_", colnames(panels[[2]]))
+)
 dn <- list(feature_ids, sample_ids)
 raw <- matrix(NA_real_, 338L, 6L, dimnames = dn)
 percentage <- raw
@@ -56,7 +68,11 @@ for (i in seq_along(panels)) {
   percentage[rows[[i]], columns[[i]]] <- md[[i]]$source_relative_abundance
   coverage[rows[[i]], columns[[i]]] <- TRUE
   zero[rows[[i]], columns[[i]]] <- md[[i]]$processing_masks$zero_to_na
-  maps[[panel_names[i]]] <- list(rows = rows[[i]], columns = columns[[i]], original_dimnames = dimnames(panels[[i]]))
+  maps[[panel_names[i]]] <- list(
+    rows = rows[[i]],
+    columns = columns[[i]],
+    original_dimnames = dimnames(panels[[i]])
+  )
 }
 abundance <- raw
 abundance[zero] <- NA_real_
@@ -66,26 +82,53 @@ rd <- S4Vectors::DataFrame(
   source_panel = c(rep(panel_names[1], 51L), rep(panel_names[2], 287L)),
   row.names = feature_ids
 )
-rd$glycan_composition <- c(rds[[1]]$glycan_composition, rds[[2]]$glycan_composition)
-rd$source_annotations <- I(c(as.list(rds[[1]]$source_annotations), as.list(rds[[2]]$source_annotations)))
-rd$source_composition <- vapply(rd$source_annotations, `[[`, "", "source_composition")
-rd$composition_status <- vapply(rd$source_annotations, `[[`, "", "composition_status")
+rd$glycan_composition <- c(
+  rds[[1]]$glycan_composition,
+  rds[[2]]$glycan_composition
+)
+rd$source_annotations <- I(c(
+  as.list(rds[[1]]$source_annotations),
+  as.list(rds[[2]]$source_annotations)
+))
+rd$source_composition <- vapply(
+  rd$source_annotations,
+  `[[`,
+  "",
+  "source_composition"
+)
+rd$composition_status <- vapply(
+  rd$source_annotations,
+  `[[`,
+  "",
+  "composition_status"
+)
 fields <- unique(unlist(lapply(cds, names)))
 aligned_cds <- lapply(cds, function(cd) {
-  for (field in setdiff(fields, names(cd))) cd[[field]] <- rep(NA_character_, nrow(cd))
+  for (field in setdiff(fields, names(cd))) {
+    cd[[field]] <- rep(NA_character_, nrow(cd))
+  }
   cd[, fields, drop = FALSE]
 })
 cd <- do.call(rbind, aligned_cds)
 rownames(cd) <- sample_ids
 cd$source_panel <- c(rep(panel_names[1], 2L), rep(panel_names[2], 4L))
-cd$assay_unit <- rep("source EIC peak intensity (panel-specific instrument units)", 6L)
-idx <- expand.grid(feature_index = seq_len(338L), observation_index = seq_len(6L))
+cd$assay_unit <- rep(
+  "source EIC peak intensity (panel-specific instrument units)",
+  6L
+)
+idx <- expand.grid(
+  feature_index = seq_len(338L),
+  observation_index = seq_len(6L)
+)
 idx$feature_id <- feature_ids[idx$feature_index]
 idx$observation_id <- sample_ids[idx$observation_index]
 idx$original_value <- as.vector(raw)
 idx$curated_value <- as.vector(abundance)
-idx$reason <- ifelse(!as.vector(coverage), "not_measured_in_source_panel",
-                    ifelse(as.vector(zero), "zero_abundance", "unchanged"))
+idx$reason <- ifelse(
+  !as.vector(coverage),
+  "not_measured_in_source_panel",
+  ifelse(as.vector(zero), "zero_abundance", "unchanged")
+)
 name <- "glyhub_GPST000027_031_N"
 metadata <- list(
   accession = "GPST000027",
@@ -105,8 +148,18 @@ metadata <- list(
   source_relative_abundance = percentage,
   source_relative_abundance_note = "Original panel-specific percentages are retained as provenance, not a second assay. Brain percentages are rounded to one decimal; kidney percentages retain Excel precision. Both use high-mannose denominators, not total-glycome sums.",
   source_coverage = coverage,
-  processing_masks = list(zero_to_na = zero, conflict = zero & FALSE, source_missing = coverage & is.na(raw), not_measured = !coverage),
-  processing_counts = c(zero_to_na = sum(zero), conflict = 0L, source_missing = sum(coverage & is.na(raw)), not_measured = sum(!coverage)),
+  processing_masks = list(
+    zero_to_na = zero,
+    conflict = zero & FALSE,
+    source_missing = coverage & is.na(raw),
+    not_measured = !coverage
+  ),
+  processing_counts = c(
+    zero_to_na = sum(zero),
+    conflict = 0L,
+    source_missing = sum(coverage & is.na(raw)),
+    not_measured = sum(!coverage)
+  ),
   processing_ledger = idx,
   panels = md,
   panel_maps = maps,
@@ -124,14 +177,29 @@ metadata <- list(
   zero_handling = "Only primary quantitative assay zeros become NA; source zeros, percentages, candidate compositions and source summaries remain intact. No imputation or renormalization.",
   software = md[[2]]$software
 )
-x <- glyexp::GlycomicSE(abundance, rowData = rd, colData = cd, metadata = metadata)
-stopifnot(isTRUE(methods::validObject(x)), sum(coverage) == 1250L,
-          sum(!coverage) == 778L, sum(zero) == 324L,
-          sum(is.na(rd$glycan_composition)) == 32L,
-          !"glycan_structure" %in% names(rd))
+x <- glyexp::GlycomicSE(
+  abundance,
+  rowData = rd,
+  colData = cd,
+  metadata = metadata
+)
+stopifnot(
+  isTRUE(methods::validObject(x)),
+  sum(coverage) == 1250L,
+  sum(!coverage) == 778L,
+  sum(zero) == 324L,
+  sum(is.na(rd$glycan_composition)) == 32L,
+  !"glycan_structure" %in% names(rd)
+)
 for (i in seq_along(panels)) {
-  stopifnot(isTRUE(all.equal(unname(raw[rows[[i]], columns[[i]]]), unname(md[[i]]$raw_abundance))))
-  stopifnot(isTRUE(all.equal(unname(percentage[rows[[i]], columns[[i]]]), unname(md[[i]]$source_relative_abundance))))
+  stopifnot(isTRUE(all.equal(
+    unname(raw[rows[[i]], columns[[i]]]),
+    unname(md[[i]]$raw_abundance)
+  )))
+  stopifnot(isTRUE(all.equal(
+    unname(percentage[rows[[i]], columns[[i]]]),
+    unname(md[[i]]$source_relative_abundance)
+  )))
 }
 assign(name, x)
 file <- file.path("data", paste0(name, ".rda"))
@@ -140,9 +208,25 @@ save(list = name, file = file, compress = "xz", version = 3)
 unlink(file.path("data", paste0(panel_names, ".rda")))
 inventory <- utils::read.csv("data-raw/object-inventory.csv")
 inventory <- inventory[!inventory$dataset %in% c(panel_names, name), ]
-record <- data.frame(dataset = name, accession = "GPST000027;GPST000031", features = 338L,
-  observations = 6L, missing = sum(is.na(abundance)), zero_to_na = sum(zero), conflict_to_na = 0L,
-  typed_compositions = sum(!is.na(rd$glycan_composition)), typed_structures = 0L,
-  compressed_bytes = file.info(file)$size, build_seconds = NA_real_)
-utils::write.csv(rbind(inventory, record), "data-raw/object-inventory.csv", row.names = FALSE)
-message(name, ": 338 x 6; 1250 measured source cells; no cross-tissue peak alignment")
+record <- data.frame(
+  dataset = name,
+  accession = "GPST000027;GPST000031",
+  features = 338L,
+  observations = 6L,
+  missing = sum(is.na(abundance)),
+  zero_to_na = sum(zero),
+  conflict_to_na = 0L,
+  typed_compositions = sum(!is.na(rd$glycan_composition)),
+  typed_structures = 0L,
+  compressed_bytes = file.info(file)$size,
+  build_seconds = NA_real_
+)
+utils::write.csv(
+  rbind(inventory, record),
+  "data-raw/object-inventory.csv",
+  row.names = FALSE
+)
+message(
+  name,
+  ": 338 x 6; 1250 measured source cells; no cross-tissue peak alignment"
+)

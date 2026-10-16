@@ -13,13 +13,18 @@ records <- list(
 for (record in records) {
   if (!file.exists(record$path)) {
     stop(
-      "Source attachment required: ", record$path,
+      "Source attachment required: ",
+      record$path,
       ". Place the lawfully obtained original at this path before rebuilding. ",
       "See data-raw/GPST000027/README.md. No verified automatic download is available.",
       call. = FALSE
     )
   }
-  actual <- digest::digest(file = record$path, algo = "sha256", serialize = FALSE)
+  actual <- digest::digest(
+    file = record$path,
+    algo = "sha256",
+    serialize = FALSE
+  )
   if (!identical(actual, record$sha256)) {
     stop("Source SHA-256 mismatch: ", record$path, call. = FALSE)
   }

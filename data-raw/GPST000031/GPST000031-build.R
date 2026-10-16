@@ -11,8 +11,18 @@ rd <- SummarizedExperiment::rowData(x)
 rd$source_excel_row <- vapply(s$row_annotations, `[[`, 0L, "source_excel_row")
 rd$source_number <- vapply(s$row_annotations, `[[`, 0L, "source_number")
 rd$source_suffix <- vapply(s$row_annotations, `[[`, "", "source_suffix")
-rd$source_composition <- vapply(s$row_annotations, `[[`, "", "source_composition")
-rd$composition_status <- vapply(s$row_annotations, `[[`, "", "composition_status")
+rd$source_composition <- vapply(
+  s$row_annotations,
+  `[[`,
+  "",
+  "source_composition"
+)
+rd$composition_status <- vapply(
+  s$row_annotations,
+  `[[`,
+  "",
+  "composition_status"
+)
 SummarizedExperiment::rowData(x) <- rd
 m <- S4Vectors::metadata(x)
 relative <- do.call(rbind, lapply(s$source_relative_abundance, unlist))

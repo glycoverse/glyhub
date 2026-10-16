@@ -25,8 +25,10 @@ test_that("Mgat3 study combines source panels without invented feature alignment
   expect_true(all(is.na(cd$source_run_id[1:2])))
   expect_true(all(is.na(cd$source_raw_file[1:2])))
   expect_identical(cd$source_run_id_candidate[1:2], c("15071834", "15071835"))
-  expect_identical(cd$raw_file_mapping_status,
-    c(rep("inferred_candidate", 2), rep("exact_source_id_match", 4)))
+  expect_identical(
+    cd$raw_file_mapping_status,
+    c(rep("inferred_candidate", 2), rep("exact_source_id_match", 4))
+  )
   for (name in names(m$panel_maps)) {
     map <- m$panel_maps[[name]]
     raw <- m$raw_abundance[map$rows, map$columns, drop = FALSE]
@@ -34,8 +36,10 @@ test_that("Mgat3 study combines source panels without invented feature alignment
     dimnames(raw) <- dimnames(percent) <- map$original_dimnames
     expect_identical(raw, m$panels[[name]]$raw_abundance)
     expect_identical(percent, m$panels[[name]]$source_relative_abundance)
-    expect_equal(as.character(rd$glycan_composition[map$rows]),
-      as.character(m$panel_row_data[[name]]$glycan_composition))
+    expect_equal(
+      as.character(rd$glycan_composition[map$rows]),
+      as.character(m$panel_row_data[[name]]$glycan_composition)
+    )
   }
 })
 
@@ -48,12 +52,31 @@ test_that("brain table retains printed precision and source coverage limitations
   expect_identical(as.integer(colSums(p$raw_abundance == 0)), c(3L, 12L))
   denominator <- p$source_relative_abundance_provenance$denominator
   expect_equal(unname(denominator), c(979000, 745500))
-  expect_true(all(abs(p$source_relative_abundance -
-    sweep(p$raw_abundance, 2L, denominator, "/") * 100) <= 0.05000000001))
-  expect_identical(p$source_relative_abundance_provenance$printed_decimal_places, 1L)
-  expect_identical(p$source_relative_abundance_provenance$is_abundance_assay, FALSE)
-  expect_equal(p$source_relative_abundance["1", ], c("Mgat3+/+" = 39.0, "Mgat3-/-" = 37.8))
-  expect_identical(p$transcription_validation$independent$independent_numeric_cells_compared, 204L)
+  expect_true(all(
+    abs(
+      p$source_relative_abundance -
+        sweep(p$raw_abundance, 2L, denominator, "/") * 100
+    ) <=
+      0.05000000001
+  ))
+  expect_identical(
+    p$source_relative_abundance_provenance$printed_decimal_places,
+    1L
+  )
+  expect_identical(
+    p$source_relative_abundance_provenance$is_abundance_assay,
+    FALSE
+  )
+  expect_equal(
+    p$source_relative_abundance["1", ],
+    c("Mgat3+/+" = 39.0, "Mgat3-/-" = 37.8)
+  )
+  expect_identical(
+    p$transcription_validation$independent$independent_numeric_cells_compared,
+    204L
+  )
   expect_length(p$transcription_validation$independent$differences, 0L)
-  expect_true(p$source_identity$public_quantitative_columns_do_not_establish_biological_n)
+  expect_true(
+    p$source_identity$public_quantitative_columns_do_not_establish_biological_n
+  )
 })

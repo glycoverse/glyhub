@@ -22,7 +22,9 @@ for (x in records) {
     )
   accessions <- if (is.null(x$accessions)) x$accession else unlist(x$accessions)
   repository_links <- paste0(
-    "\\url{https://glycopost.glycosmos.org/entry/", accessions, "}"
+    "\\url{https://glycopost.glycosmos.org/entry/",
+    accessions,
+    "}"
   )
   source <- paste0(
     "GlycoPOST ",
