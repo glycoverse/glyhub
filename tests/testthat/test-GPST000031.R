@@ -1,5 +1,5 @@
 mgat3_kidney_panel <- function() {
-  study <- glyhub_GPST000027_031_N
+  study <- load_test_dataset("glyhub_GPST000027_031_N")
   m <- S4Vectors::metadata(study)
   name <- "glyhub_GPST000031_N_Kidney"
   map <- m$panel_maps[[name]]

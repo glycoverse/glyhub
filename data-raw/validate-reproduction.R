@@ -28,7 +28,11 @@ read_object <- function(file) {
   stopifnot(length(name) == 1)
   canonical(env[[name]])
 }
-files <- list.files("data", pattern = "[.]rda$", full.names = TRUE)
+files <- list.files(
+  "data-raw/bundled-build",
+  pattern = "[.]rda$",
+  full.names = TRUE
+)
 before <- lapply(files, read_object)
 source("data-raw/build.R", local = new.env())
 after <- lapply(files, read_object)

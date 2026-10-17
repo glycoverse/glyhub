@@ -10,21 +10,23 @@ The source data are not licensed under the package's MIT code license.
 }
 \usage{
 glyhub_CPTAC_CCRCC(
+  kind = c("curated", "raw"),
   cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
   refresh = FALSE,
   offline = FALSE
 )
 }
 \arguments{
-\item{cache_dir}{Cache directory. Defaults to \code{tools::R_user_dir("glyhub", "cache")}; override with option \code{glyhub.cache_dir}.}
+\item{kind}{\code{"curated"} returns a data object; \code{"raw"} returns the path to
+a verified source archive. Raw archives are currently available for CPTAC.}
 
-\item{refresh}{Download again, even if a valid cached file exists. Bundled
-files are always read from the installed package.}
+\item{cache_dir}{Cache directory, defaulting to
+\code{tools::R_user_dir("glyhub", "cache")}. Set option \code{glyhub.cache_dir}
+to change the default.}
 
-\item{offline}{Prohibit downloads; fail if a verified local file is absent.}
-}
-\value{
-A \code{GlycoproteomicSE} with all source features and measurement columns.
+\item{refresh}{Download the pinned resource again, even if cached.}
+
+\item{offline}{Prohibit downloads; require a verified local resource.}
 }
 \description{
 Load the supplied JHU GENCODEv34 median-normalized glycoform-peptide
@@ -35,7 +37,7 @@ The assay is \code{2^source_value}, a linearized normalized abundance. Source
 log2 values, including zeros, are retained in \code{metadata(x)$raw_abundance}.
 Source \code{None} entries become \code{NA}; no filtering, imputation, aggregation or
 further normalization is performed. These data are an exception to the
-zero-to-NA convention used for bundled GlycoPOST datasets.
+zero-to-NA convention used for GlycoPOST datasets.
 
 Reference and QC columns remain present, with source-label-derived roles
 in \code{colData}. Unresolved roles remain unresolved. Repeated measurements
@@ -50,8 +52,13 @@ Provenance records the supplied file hash and upstream checksum status.
 COAD and PDAC match upstream CRC and PDA after reversing column-prefix
 renaming; HGSC has not been matched to the supplied upstream MD5 list.
 The HGSC fractionation identity therefore remains unverified.
-See \code{\link[=glyhub_cptac_catalog]{glyhub_cptac_catalog()}} for dimensions, sizes and storage location.
+See \code{\link[=glyhub_catalog]{glyhub_catalog()}} for dimensions, sizes and download URLs.
 }
+\section{Access}{
+
+Use \code{glyhub_load("glyhub_CPTAC_CCRCC")} to load this dataset.
+}
+
 \seealso{
-\code{\link[=glyhub_cptac_download]{glyhub_cptac_download()}} to retrieve the original TSV archive.
+\code{\link[=glyhub_load]{glyhub_load()}} to retrieve the original TSV archive.
 }

@@ -1,5 +1,5 @@
 test_that("prosaposin profiles use the source expression-block labels", {
-  x <- glyhub_GPST000381_N_Prosaposin
+  x <- load_test_dataset("glyhub_GPST000381_N_Prosaposin")
   m <- S4Vectors::metadata(x)
   expect_identical(dim(x), c(36L, 2L))
   expect_identical(colnames(x), c("pSAP65", "pSAP75"))
@@ -33,10 +33,7 @@ test_that("schistosome sheets retain annotated source peaks without invented ali
   observations <- c(11L, 3L, 10L, 4L, 4L)
   total <- 0L
   for (i in seq_along(expected)) {
-    x <- getExportedValue(
-      "glyhub",
-      paste0("glyhub_GPST000602_", names(expected)[i])
-    )
+    x <- load_test_dataset(paste0("glyhub_GPST000602_", names(expected)[i]))
     m <- S4Vectors::metadata(x)
     a <- SummarizedExperiment::assay(x)
     expect_identical(dim(x), c(unname(expected[i]), observations[i]))
@@ -59,7 +56,7 @@ test_that("schistosome sheets retain annotated source peaks without invented ali
 
 
 test_that("BIFF worksheet measurements cannot regress to embedded chart caches", {
-  x <- glyhub_GPST000578_N_source_repeatability_intensity
+  x <- load_test_dataset("glyhub_GPST000578_N_source_repeatability_intensity")
   m <- S4Vectors::metadata(x)
   panel <- "glyhub_GPST000578_N_Ovalbumin_Repeatability"
   original <- m$panels[[panel]]
@@ -101,9 +98,9 @@ test_that("BIFF worksheet measurements cannot regress to embedded chart caches",
 
 test_that("HEK293 source workbook preserves all observations and unresolved annotations", {
   objects <- list(
-    glyhub_GPST000125_N_HEK293,
-    glyhub_GPST000125_O_HEK293,
-    glyhub_GPST000125_GSL_HEK293
+    load_test_dataset("glyhub_GPST000125_N_HEK293"),
+    load_test_dataset("glyhub_GPST000125_O_HEK293"),
+    load_test_dataset("glyhub_GPST000125_GSL_HEK293")
   )
   nr <- c(41L, 14L, 12L)
   nz <- c(242L, 30L, 32L)

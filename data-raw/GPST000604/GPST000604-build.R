@@ -2,7 +2,7 @@
 # Run from the package root: Rscript data-raw/GPST000604/GPST000604-build.R
 args <- commandArgs(trailingOnly = TRUE)
 root <- 'data-raw'
-outdir <- if (length(args)) args[1] else 'data'
+outdir <- if (length(args)) args[1] else 'data-raw/bundled-build'
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
 suppressPackageStartupMessages({
   library(glyexp)

@@ -1,9 +1,9 @@
 original_panel <- function(name) {
   if (!grepl("GPST000643", name)) {
-    return(getExportedValue("glyhub", name))
+    return(load_test_dataset(name))
   }
   type <- if (grepl("_N_", name)) "N" else "O"
-  x <- getExportedValue("glyhub", paste0("glyhub_GPST000643_", type))
+  x <- load_test_dataset(paste0("glyhub_GPST000643_", type))
   m <- S4Vectors::metadata(x)
   map <- m$panel_maps[[name]]
   a <- SummarizedExperiment::assay(x)[map$rows, map$columns, drop = FALSE]
@@ -82,7 +82,7 @@ test_that("curated data preserve measurements and explain every changed cell", {
 })
 
 test_that("GPST000738 retains source scale, time zero and unresolved provenance", {
-  x <- glyhub_GPST000738_N_B4GalT1
+  x <- load_test_dataset("glyhub_GPST000738_N_B4GalT1")
   m <- S4Vectors::metadata(x)
   expect_equal(m$raw_abundance["A2", 1], 70.66)
   expect_equal(SummarizedExperiment::assay(x)["A2", 1], 70.66)
@@ -97,7 +97,7 @@ test_that("GPST000738 retains source scale, time zero and unresolved provenance"
     4
   )
   expect_identical(m$unit, "percent within glycan family")
-  y <- glyhub_GPST000738_N_ST6GAL1
+  y <- load_test_dataset("glyhub_GPST000738_N_ST6GAL1")
   n <- S4Vectors::metadata(y)
   expect_identical(n$unit, "fraction within glycan family")
   expect_equal(n$processing_counts[["source_nd"]], 13)

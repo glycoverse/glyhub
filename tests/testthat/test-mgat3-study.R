@@ -1,5 +1,5 @@
 test_that("Mgat3 study combines source panels without invented feature alignment", {
-  x <- glyhub_GPST000027_031_N
+  x <- load_test_dataset("glyhub_GPST000027_031_N")
   m <- S4Vectors::metadata(x)
   rd <- SummarizedExperiment::rowData(x)
   cd <- SummarizedExperiment::colData(x)
@@ -44,7 +44,7 @@ test_that("Mgat3 study combines source panels without invented feature alignment
 })
 
 test_that("brain table retains printed precision and source coverage limitations", {
-  x <- glyhub_GPST000027_031_N
+  x <- load_test_dataset("glyhub_GPST000027_031_N")
   m <- S4Vectors::metadata(x)
   p <- m$panels$glyhub_GPST000027_N_Brain
   expect_identical(dim(p$raw_abundance), c(51L, 2L))

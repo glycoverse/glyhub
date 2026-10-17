@@ -15,7 +15,7 @@ output <- c(
 )
 for (x in records) {
   object_env <- new.env()
-  load(file.path("data", paste0(x$name, ".rda")), object_env)
+  load(file.path("data-raw/bundled-build", paste0(x$name, ".rda")), object_env)
   has_structure <- "glycan_structure" %in%
     names(
       SummarizedExperiment::rowData(object_env[[x$name]])
@@ -87,7 +87,24 @@ for (x in records) {
     "#' @seealso [glyhub_data_conventions] for missing-value handling, annotations",
     "#'   and access to original measurements and source coordinates.",
     "#' @keywords datasets",
-    paste0('"', x$name, '"'),
+    paste0("#' @name ", x$name),
+    paste0(
+      "#' @section Access:\n#' Use `glyhub_load(\"",
+      x$name,
+      "\")` to load this dataset."
+    ),
+    "#' @inheritParams glyhub_load",
+    "#' @export",
+    paste0(
+      x$name,
+      " <- function(kind = c(\"curated\", \"raw\"), cache_dir = getOption(\"glyhub.cache_dir\", tools::R_user_dir(\"glyhub\", \"cache\")), refresh = FALSE, offline = FALSE) {"
+    ),
+    paste0(
+      "  glyhub_load(\"",
+      x$name,
+      "\", kind, cache_dir, refresh, offline)"
+    ),
+    "}",
     ""
   )
 }

@@ -6,7 +6,7 @@ merge_study_panels <- function() {
   )
   objects <- lapply(catalog, function(d) {
     e <- new.env()
-    load(file.path('data', paste0(d$name, '.rda')), e)
+    load(file.path('data-raw/bundled-build', paste0(d$name, '.rda')), e)
     e[[d$name]]
   })
   names(objects) <- vapply(catalog, `[[`, '', 'name')
@@ -408,7 +408,7 @@ merge_study_panels <- function() {
     assign(name, object)
     save(
       list = name,
-      file = file.path('data', paste0(name, '.rda')),
+      file = file.path('data-raw/bundled-build', paste0(name, '.rda')),
       compress = 'xz',
       version = 3
     )
@@ -481,7 +481,7 @@ merge_study_panels <- function() {
   )
   dir.create(cache, recursive = TRUE, showWarnings = FALSE)
   for (n in obsolete) {
-    f <- file.path('data', paste0(n, '.rda'))
+    f <- file.path('data-raw/bundled-build', paste0(n, '.rda'))
     stopifnot(file.copy(f, file.path(cache, basename(f)), overwrite = TRUE))
     unlink(f)
   }
@@ -498,7 +498,7 @@ merge_study_panels <- function() {
   )
   inventory <- lapply(keep, function(n) {
     e <- new.env()
-    load(file.path('data', paste0(n, '.rda')), e)
+    load(file.path('data-raw/bundled-build', paste0(n, '.rda')), e)
     x <- e[[n]]
     m <- S4Vectors::metadata(x)
     r <- SummarizedExperiment::rowData(x)
@@ -514,7 +514,10 @@ merge_study_panels <- function() {
       conflict_to_na = sum(m$processing_masks$conflict),
       typed_compositions = sum(!is.na(r$glycan_composition)),
       typed_structures = sum(!is.na(r$glycan_structure)),
-      compressed_bytes = file.info(file.path('data', paste0(n, '.rda')))$size,
+      compressed_bytes = file.info(file.path(
+        'data-raw/bundled-build',
+        paste0(n, '.rda')
+      ))$size,
       build_seconds = if (m$accession %in% c('GPST000643', 'GPST000738')) {
         NA_real_
       } else if (any(panel_inventory$dataset %in% old)) {

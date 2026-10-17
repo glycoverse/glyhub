@@ -175,8 +175,6 @@ reference:
 
 - title: CPTAC glycoproteomes
   contents:
-  - glyhub_cptac_catalog
-  - glyhub_cptac_download
   - glyhub_CPTAC_CCRCC
   - glyhub_CPTAC_COAD
   - glyhub_CPTAC_HGSC
@@ -185,3 +183,8 @@ reference:
   - glyhub_CPTAC_LUAD
   - glyhub_CPTAC_PDAC
   - glyhub_CPTAC_UCEC
+
+- title: Load and discover data
+  contents:
+  - glyhub_load
+  - glyhub_catalog

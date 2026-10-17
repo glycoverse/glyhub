@@ -348,10 +348,10 @@ for (enzyme in names(compositions)) {
   stopifnot(isTRUE(methods::validObject(x)), !any(curated == 0, na.rm = TRUE))
   name <- paste0("glyhub_GPST000738_N_", enzyme)
   assign(name, x)
-  dir.create("data", showWarnings = FALSE)
+  dir.create("data-raw/bundled-build", showWarnings = FALSE)
   save(
     list = name,
-    file = file.path("data", paste0(name, ".rda")),
+    file = file.path("data-raw/bundled-build", paste0(name, ".rda")),
     compress = "xz",
     version = 3
   )

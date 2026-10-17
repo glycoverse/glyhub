@@ -5,10 +5,10 @@
 #' experimental design, units and specific limitations.
 #'
 #' @details
-#' These zero-handling and processing-ledger conventions apply to the bundled
+#' These zero-handling and processing-ledger conventions apply to the curated
 #' GlycoPOST datasets. CPTAC loaders retain source log2 values in metadata and
 #' use `2^source_value` in the assay; source zeros become 1. See
-#' [glyhub_CPTAC_CCRCC()] and [glyhub_cptac_catalog()].
+#' [glyhub_CPTAC_CCRCC] and [glyhub_catalog()].
 #'
 #' Zero-valued abundances are represented as `NA` in the distributed abundance
 #' assay. This representation differs from the original source tables, which

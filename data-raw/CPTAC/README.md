@@ -10,9 +10,10 @@ Rscript data-raw/CPTAC/build.R /path/to/glycoproteome
 
 `assets/` is ignored by Git. The build emits byte-preserving `.tsv.gz` sources,
 validated `GlycoproteomicSE` RDS objects, the source documentation and manifest.
-Files at most 2 MiB after RDS xz compression are also copied to
-`inst/extdata/CPTAC/`; larger RDS files remain external. Both kinds are archived
-in the data release. This is a per-file size policy, not a rule for all CPTAC data.
+All files are distributed externally through the consolidated `glyhub-data-v1`
+release. Run `Rscript data-raw/package-resources.R` after building to refresh the
+unified manifest and stage all resources. The CPTAC source manifest retains the
+original data-version provenance; the unified manifest supplies current URLs.
 
 The manifest records the source SHA-256, local source MD5, asset SHA-256, asset
 bytes, dimensions, storage and pinned URL. Code changes alone do not overwrite
@@ -51,3 +52,6 @@ Data-use guidelines: https://pdc.cancer.gov/pdc/data-use-guidelines
 Source data are not covered by glyhub's MIT code license. Cite the relevant
 CPTAC primary studies and acknowledge the consortium as requested by PDC.
 The source documentation is distributed with the release for provenance.
+
+After building, run `Rscript data-raw/package-resources.R` to refresh the unified
+manifest and stage all external resources. Public access uses `glyhub_load()`.

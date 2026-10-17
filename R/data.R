@@ -44,7 +44,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000738_N_B4GalT1"
+#' @name glyhub_GPST000738_N_B4GalT1
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000738_N_B4GalT1")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000738_N_B4GalT1 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000738_N_B4GalT1", kind, cache_dir, refresh, offline)
+}
 
 #' Sialylation of bovine fetuin N-glycans in an enzyme reactor
 #'
@@ -88,7 +95,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000738_N_ST6GAL1"
+#' @name glyhub_GPST000738_N_ST6GAL1
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000738_N_ST6GAL1")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000738_N_ST6GAL1 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000738_N_ST6GAL1", kind, cache_dir, refresh, offline)
+}
 
 #' Fucosidase treatment of porcine colonic mucin O-glycans and related study experiments
 #'
@@ -216,7 +230,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000643_O"
+#' @name glyhub_GPST000643_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000643_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000643_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000643_O", kind, cache_dir, refresh, offline)
+}
 
 #' GH20 activity on N-glycans from pretreated PSGL-1 and related study experiments
 #'
@@ -280,7 +301,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000643_N"
+#' @name glyhub_GPST000643_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000643_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000643_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000643_N", kind, cache_dir, refresh, offline)
+}
 
 #' Mouse CTX (M) N-glycan source peak profiles and related study experiments
 #'
@@ -418,7 +446,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000213_N"
+#' @name glyhub_GPST000213_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000213_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000213_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000213_N", kind, cache_dir, refresh, offline)
+}
 
 #' Mouse CTX (M) O-glycan source peak profiles and related study experiments
 #'
@@ -523,7 +558,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000213_O"
+#' @name glyhub_GPST000213_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000213_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000213_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000213_O", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycan profiles in CAL51 Golgi knockout cells
 #'
@@ -555,7 +597,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000271_N_CAL51"
+#' @name glyhub_GPST000271_N_CAL51
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000271_N_CAL51")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000271_N_CAL51 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000271_N_CAL51", kind, cache_dir, refresh, offline)
+}
 
 #' O-glycan profiles in CAL51 Golgi knockout cells
 #'
@@ -587,7 +636,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000271_O_CAL51"
+#' @name glyhub_GPST000271_O_CAL51
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000271_O_CAL51")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000271_O_CAL51 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000271_O_CAL51", kind, cache_dir, refresh, offline)
+}
 
 #' Desialylated haptoglobin released N-glycans in sepsis serum
 #'
@@ -623,7 +679,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000533_N_Released"
+#' @name glyhub_GPST000533_N_Released
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000533_N_Released")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000533_N_Released <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000533_N_Released", kind, cache_dir, refresh, offline)
+}
 
 #' Desialylated haptoglobin glycopeptides in sepsis serum
 #'
@@ -667,7 +730,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000533_N_Glycopeptides"
+#' @name glyhub_GPST000533_N_Glycopeptides
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000533_N_Glycopeptides")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000533_N_Glycopeptides <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000533_N_Glycopeptides", kind, cache_dir, refresh, offline)
+}
 
 #' Released O-glycans of recombinant SARS-CoV-2 Spike and ACE2
 #'
@@ -704,7 +774,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000120_O_Spike_ACE2"
+#' @name glyhub_GPST000120_O_Spike_ACE2
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000120_O_Spike_ACE2")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000120_O_Spike_ACE2 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000120_O_Spike_ACE2", kind, cache_dir, refresh, offline)
+}
 
 #' O-glycan profile of Fetuin_standard and related study experiments
 #'
@@ -1039,7 +1116,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000035_O"
+#' @name glyhub_GPST000035_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000035_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000035_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000035_O", kind, cache_dir, refresh, offline)
+}
 
 #' Red-blood-cell N-glycan precursor quantification
 #'
@@ -1070,7 +1154,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000128_n_precursor"
+#' @name glyhub_GPST000128_n_precursor
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000128_n_precursor")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000128_n_precursor <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000128_n_precursor", kind, cache_dir, refresh, offline)
+}
 
 #' Red-blood-cell O-glycan precursor quantification
 #'
@@ -1101,7 +1192,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000128_o_precursor"
+#' @name glyhub_GPST000128_o_precursor
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000128_o_precursor")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000128_o_precursor <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000128_o_precursor", kind, cache_dir, refresh, offline)
+}
 
 #' MLL-rearranged B-cell precursor ALL N-glycome
 #'
@@ -1133,7 +1231,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000183_n"
+#' @name glyhub_GPST000183_n
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000183_n")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000183_n <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000183_n", kind, cache_dir, refresh, offline)
+}
 
 #' MLL-rearranged B-cell precursor ALL O-glycome
 #'
@@ -1165,7 +1270,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000183_o"
+#' @name glyhub_GPST000183_o
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000183_o")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000183_o <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000183_o", kind, cache_dir, refresh, offline)
+}
 
 #' Septic shock longitudinal serum N-glycome
 #'
@@ -1197,7 +1309,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000599_serum_n"
+#' @name glyhub_GPST000599_serum_n
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000599_serum_n")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000599_serum_n <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000599_serum_n", kind, cache_dir, refresh, offline)
+}
 
 #' Swift Universal Glycan Acquisition (SUGA) Enables Quantitative Glycan Profiling across Diverse Sample Types. and related study experiments
 #'
@@ -1246,7 +1365,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000431_N"
+#' @name glyhub_GPST000431_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000431_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000431_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000431_N", kind, cache_dir, refresh, offline)
+}
 
 #' SSSMuG: Same Sample Sequential Multi-Glycomics.
 #'
@@ -1278,7 +1404,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000374_sssmug_gsl"
+#' @name glyhub_GPST000374_sssmug_gsl
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000374_sssmug_gsl")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000374_sssmug_gsl <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000374_sssmug_gsl", kind, cache_dir, refresh, offline)
+}
 
 #' SSSMuG: Same Sample Sequential Multi-Glycomics.
 #'
@@ -1310,7 +1443,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000374_sssmug_n"
+#' @name glyhub_GPST000374_sssmug_n
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000374_sssmug_n")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000374_sssmug_n <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000374_sssmug_n", kind, cache_dir, refresh, offline)
+}
 
 #' SSSMuG: Same Sample Sequential Multi-Glycomics. and related study experiments
 #'
@@ -1364,7 +1504,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000374_O"
+#' @name glyhub_GPST000374_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000374_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000374_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000374_O", kind, cache_dir, refresh, offline)
+}
 
 #' Sulfatase modifying factors control the timing of zebrafish convergence and extension morphogenesis. and related study experiments
 #'
@@ -1415,7 +1562,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000676_GAG"
+#' @name glyhub_GPST000676_GAG
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000676_GAG")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000676_GAG <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000676_GAG", kind, cache_dir, refresh, offline)
+}
 
 #' Released N-glycans of pSAP65 and pSAP75 prosaposin forms
 #'
@@ -1454,7 +1608,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000381_N_Prosaposin"
+#' @name glyhub_GPST000381_N_Prosaposin
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000381_N_Prosaposin")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000381_N_Prosaposin <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000381_N_Prosaposin", kind, cache_dir, refresh, offline)
+}
 
 #' Major human schistosome species express different glycans with immunological and diagnostic implications
 #'
@@ -1499,7 +1660,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000602_Sh_GSL"
+#' @name glyhub_GPST000602_Sh_GSL
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000602_Sh_GSL")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000602_Sh_GSL <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000602_Sh_GSL", kind, cache_dir, refresh, offline)
+}
 
 #' Major human schistosome species express different glycans with immunological and diagnostic implications
 #'
@@ -1544,7 +1712,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000602_Sm_GSL"
+#' @name glyhub_GPST000602_Sm_GSL
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000602_Sm_GSL")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000602_Sm_GSL <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000602_Sm_GSL", kind, cache_dir, refresh, offline)
+}
 
 #' Major human schistosome species express different glycans with immunological and diagnostic implications
 #'
@@ -1589,7 +1764,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000602_Sh_N"
+#' @name glyhub_GPST000602_Sh_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000602_Sh_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000602_Sh_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000602_Sh_N", kind, cache_dir, refresh, offline)
+}
 
 #' Major human schistosome species express different glycans with immunological and diagnostic implications
 #'
@@ -1634,7 +1816,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000602_Sm_N"
+#' @name glyhub_GPST000602_Sm_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000602_Sm_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000602_Sm_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000602_Sm_N", kind, cache_dir, refresh, offline)
+}
 
 #' Major human schistosome species express different glycans with immunological and diagnostic implications
 #'
@@ -1679,7 +1868,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000602_Sh_O"
+#' @name glyhub_GPST000602_Sh_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000602_Sh_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000602_Sh_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000602_Sh_O", kind, cache_dir, refresh, offline)
+}
 
 #' Immunoglobulins N-glycan total peak areas and related study experiments
 #'
@@ -1749,7 +1945,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000578_N_total_peak_area"
+#' @name glyhub_GPST000578_N_total_peak_area
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000578_N_total_peak_area")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000578_N_total_peak_area <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000578_N_total_peak_area", kind, cache_dir, refresh, offline)
+}
 
 #' Ovalbumin N-glycan repeatability profiles and related study experiments
 #'
@@ -1836,7 +2039,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000578_N_source_repeatability_intensity"
+#' @name glyhub_GPST000578_N_source_repeatability_intensity
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000578_N_source_repeatability_intensity")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000578_N_source_repeatability_intensity <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000578_N_source_repeatability_intensity", kind, cache_dir, refresh, offline)
+}
 
 #' Fetuin N-glycan peak areas across two instrument sites
 #'
@@ -1875,7 +2085,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000578_N_Fetuin_TwoSites"
+#' @name glyhub_GPST000578_N_Fetuin_TwoSites
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000578_N_Fetuin_TwoSites")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000578_N_Fetuin_TwoSites <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000578_N_Fetuin_TwoSites", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycan profiles in HEK293 glycosylation-knockout cells
 #'
@@ -1918,7 +2135,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000125_N_HEK293"
+#' @name glyhub_GPST000125_N_HEK293
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000125_N_HEK293")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000125_N_HEK293 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000125_N_HEK293", kind, cache_dir, refresh, offline)
+}
 
 #' O-glycan profiles in HEK293 glycosylation-knockout cells
 #'
@@ -1961,7 +2185,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000125_O_HEK293"
+#' @name glyhub_GPST000125_O_HEK293
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000125_O_HEK293")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000125_O_HEK293 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000125_O_HEK293", kind, cache_dir, refresh, offline)
+}
 
 #' Glycosphingolipid glycan profiles in HEK293 glycosylation-knockout cells
 #'
@@ -2004,7 +2235,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000125_GSL_HEK293"
+#' @name glyhub_GPST000125_GSL_HEK293
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000125_GSL_HEK293")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000125_GSL_HEK293 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000125_GSL_HEK293", kind, cache_dir, refresh, offline)
+}
 
 #' Ion-source dopant effects on N-glycan signal
 #'
@@ -2035,7 +2273,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000170_N"
+#' @name glyhub_GPST000170_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000170_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000170_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000170_N", kind, cache_dir, refresh, offline)
+}
 
 #' Ion-source dopant effects on O-glycan signal
 #'
@@ -2066,7 +2311,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000170_O"
+#' @name glyhub_GPST000170_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000170_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000170_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000170_O", kind, cache_dir, refresh, offline)
+}
 
 #' Linkage-specific sialic-acid derivatization of plasma N-glycans
 #'
@@ -2101,7 +2353,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000190_N"
+#' @name glyhub_GPST000190_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000190_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000190_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000190_N", kind, cache_dir, refresh, offline)
+}
 
 #' O-glycans released by thrombin-activated human platelets
 #'
@@ -2131,7 +2390,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000211_O"
+#' @name glyhub_GPST000211_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000211_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000211_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000211_O", kind, cache_dir, refresh, offline)
+}
 
 #' Oral tumor N-glycans associated with lymph node metastasis
 #'
@@ -2164,7 +2430,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000296_N"
+#' @name glyhub_GPST000296_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000296_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000296_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000296_N", kind, cache_dir, refresh, offline)
+}
 
 #' Cardiac N-glycomes in fatal COVID-19
 #'
@@ -2198,7 +2471,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000460_N"
+#' @name glyhub_GPST000460_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000460_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000460_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000460_N", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycan remodeling after TANGO2 loss
 #'
@@ -2230,7 +2510,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000473_N"
+#' @name glyhub_GPST000473_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000473_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000473_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000473_N", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycan profiles of two tardigrade species
 #'
@@ -2262,7 +2549,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000534_N"
+#' @name glyhub_GPST000534_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000534_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000534_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000534_N", kind, cache_dir, refresh, offline)
+}
 
 #' Serum N-glycan profiles across hepatocellular carcinoma progression
 #'
@@ -2295,7 +2589,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000584_N"
+#' @name glyhub_GPST000584_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000584_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000584_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000584_N", kind, cache_dir, refresh, offline)
+}
 
 #' Whole-brain N-glycans in Slc35a3-deficient mice
 #'
@@ -2328,7 +2629,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000647_N"
+#' @name glyhub_GPST000647_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000647_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000647_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000647_N", kind, cache_dir, refresh, offline)
+}
 
 #' Whole-brain O-glycans in Slc35a3-deficient mice
 #'
@@ -2359,7 +2667,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000650_O"
+#' @name glyhub_GPST000650_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000650_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000650_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000650_O", kind, cache_dir, refresh, offline)
+}
 
 #' Human intervertebral-disc N-glycan chromatographic profiles
 #'
@@ -2390,7 +2705,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000625_N"
+#' @name glyhub_GPST000625_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000625_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000625_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000625_N", kind, cache_dir, refresh, offline)
+}
 
 #' Rat serum N-glycopeptides across repeated sampling
 #'
@@ -2421,7 +2743,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000601_N_glycopeptides"
+#' @name glyhub_GPST000601_N_glycopeptides
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000601_N_glycopeptides")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000601_N_glycopeptides <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000601_N_glycopeptides", kind, cache_dir, refresh, offline)
+}
 
 #' Longitudinal rat-serum released N-glycans
 #'
@@ -2456,7 +2785,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000601_N"
+#' @name glyhub_GPST000601_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000601_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000601_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000601_N", kind, cache_dir, refresh, offline)
+}
 
 #' Bladder-tissue N-glycans across cancer stages
 #'
@@ -2488,7 +2824,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000585_N"
+#' @name glyhub_GPST000585_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000585_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000585_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000585_N", kind, cache_dir, refresh, offline)
+}
 
 #' Rat serum N-glycans after chronic herbicide exposure
 #'
@@ -2519,7 +2862,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000403_N"
+#' @name glyhub_GPST000403_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000403_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000403_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000403_N", kind, cache_dir, refresh, offline)
+}
 
 #' Onchocerca volvulus adult-female N glycan profile
 #'
@@ -2554,7 +2904,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000299_N"
+#' @name glyhub_GPST000299_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000299_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000299_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000299_N", kind, cache_dir, refresh, offline)
+}
 
 #' Onchocerca volvulus adult-female GSL glycan profile
 #'
@@ -2589,7 +2946,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000299_GSL"
+#' @name glyhub_GPST000299_GSL
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000299_GSL")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000299_GSL <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000299_GSL", kind, cache_dir, refresh, offline)
+}
 
 #' Colorectal-cancer cell-line glycosphingolipid glycans
 #'
@@ -2622,7 +2986,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000239_GSL"
+#' @name glyhub_GPST000239_GSL
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000239_GSL")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000239_GSL <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000239_GSL", kind, cache_dir, refresh, offline)
+}
 
 #' Postnatal mouse skeletal-muscle N-glycome
 #'
@@ -2650,7 +3021,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000079_N"
+#' @name glyhub_GPST000079_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000079_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000079_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000079_N", kind, cache_dir, refresh, offline)
+}
 
 #' Atlantic salmon epithelial mucin O-glycans
 #'
@@ -2684,7 +3062,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000009_O"
+#' @name glyhub_GPST000009_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000009_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000009_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000009_O", kind, cache_dir, refresh, offline)
+}
 
 #' Heparan sulfate disaccharide profiles measured by HILIC-Q-TOF-MS
 #'
@@ -2718,7 +3103,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000604_HS"
+#' @name glyhub_GPST000604_HS
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000604_HS")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000604_HS <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000604_HS", kind, cache_dir, refresh, offline)
+}
 
 #' Chondroitin/dermatan sulfate disaccharide profiles measured by HILIC-Q-TOF-MS
 #'
@@ -2752,7 +3144,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000604_CS_DS"
+#' @name glyhub_GPST000604_CS_DS
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000604_CS_DS")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000604_CS_DS <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000604_CS_DS", kind, cache_dir, refresh, offline)
+}
 
 #' Brugia malayi N-glycans across life stages
 #'
@@ -2790,7 +3189,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000240_N"
+#' @name glyhub_GPST000240_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000240_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000240_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000240_N", kind, cache_dir, refresh, offline)
+}
 
 #' Brugia malayi glycosphingolipid glycans across life stages
 #'
@@ -2830,7 +3236,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000240_GSL"
+#' @name glyhub_GPST000240_GSL
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000240_GSL")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000240_GSL <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000240_GSL", kind, cache_dir, refresh, offline)
+}
 
 #' Cornu aspersum mucus O-glycan profiles
 #'
@@ -2862,7 +3275,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000297_O"
+#' @name glyhub_GPST000297_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000297_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000297_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000297_O", kind, cache_dir, refresh, offline)
+}
 
 #' Cornu aspersum mucus N-glycan profiles
 #'
@@ -2898,7 +3318,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000297_N"
+#' @name glyhub_GPST000297_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000297_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000297_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000297_N", kind, cache_dir, refresh, offline)
+}
 
 #' CS/DS disaccharide amounts in A549 and BEAS-2B small extracellular vesicles
 #'
@@ -2934,7 +3361,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000562_CS_DS"
+#' @name glyhub_GPST000562_CS_DS
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000562_CS_DS")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000562_CS_DS <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000562_CS_DS", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycan profiles of A549 and BEAS-2B small extracellular vesicles and culture media
 #'
@@ -2972,7 +3406,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000667_N"
+#' @name glyhub_GPST000667_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000667_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000667_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000667_N", kind, cache_dir, refresh, offline)
+}
 
 #' Site-resolved N-glycoform proportions during influenza infection of A549 cells
 #'
@@ -3022,7 +3463,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000671_N_Glycoproteomics"
+#' @name glyhub_GPST000671_N_Glycoproteomics
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000671_N_Glycoproteomics")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000671_N_Glycoproteomics <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000671_N_Glycoproteomics", kind, cache_dir, refresh, offline)
+}
 
 #' Site-resolved O-glycoform proportions during influenza infection of A549 cells
 #'
@@ -3072,7 +3520,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000671_O_Glycoproteomics"
+#' @name glyhub_GPST000671_O_Glycoproteomics
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000671_O_Glycoproteomics")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000671_O_Glycoproteomics <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000671_O_Glycoproteomics", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycomes of influenza-infected A549 organelle and secreted fractions
 #'
@@ -3117,7 +3572,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000671_N"
+#' @name glyhub_GPST000671_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000671_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000671_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000671_N", kind, cache_dir, refresh, offline)
+}
 
 #' O-glycomes of influenza-infected A549 organelle and secreted fractions
 #'
@@ -3162,7 +3624,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000671_O"
+#' @name glyhub_GPST000671_O
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000671_O")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000671_O <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000671_O", kind, cache_dir, refresh, offline)
+}
 
 #' Platelet N-glycan isomer profiles in control and FUT8-knockout mice
 #'
@@ -3197,7 +3666,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000596_N"
+#' @name glyhub_GPST000596_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000596_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000596_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000596_N", kind, cache_dir, refresh, offline)
+}
 
 #' Plasma N-glycomes of ASGR1- and MRC1-deficient mice under dietary challenge
 #'
@@ -3233,7 +3709,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000351_N"
+#' @name glyhub_GPST000351_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000351_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000351_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000351_N", kind, cache_dir, refresh, offline)
+}
 
 #' Caenorhabditis elegans developmental O-glycan profiles
 #'
@@ -3275,7 +3758,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000294_O_Celegans_Development"
+#' @name glyhub_GPST000294_O_Celegans_Development
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000294_O_Celegans_Development")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000294_O_Celegans_Development <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000294_O_Celegans_Development", kind, cache_dir, refresh, offline)
+}
 
 #' N-glycan profiles of 21 acute myeloid leukemia cell lines
 #'
@@ -3313,7 +3803,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000214_N_AML_CellLines"
+#' @name glyhub_GPST000214_N_AML_CellLines
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000214_N_AML_CellLines")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000214_N_AML_CellLines <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000214_N_AML_CellLines", kind, cache_dir, refresh, offline)
+}
 
 #' O-glycan profiles of 21 acute myeloid leukemia cell lines
 #'
@@ -3351,7 +3848,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000214_O_AML_CellLines"
+#' @name glyhub_GPST000214_O_AML_CellLines
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000214_O_AML_CellLines")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000214_O_AML_CellLines <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000214_O_AML_CellLines", kind, cache_dir, refresh, offline)
+}
 
 #' Caenorhabditis elegans L4 N-glycans across culture and release fractions
 #'
@@ -3399,7 +3903,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000294_N_Celegans_L4"
+#' @name glyhub_GPST000294_N_Celegans_L4
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000294_N_Celegans_L4")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000294_N_Celegans_L4 <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000294_N_Celegans_L4", kind, cache_dir, refresh, offline)
+}
 
 #' Site-specific N-glycoproteome of oral squamous-cell carcinoma tissues
 #'
@@ -3440,7 +3951,14 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000296_N_Glycoproteomics"
+#' @name glyhub_GPST000296_N_Glycoproteomics
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000296_N_Glycoproteomics")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000296_N_Glycoproteomics <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000296_N_Glycoproteomics", kind, cache_dir, refresh, offline)
+}
 
 #' Mgat3 mouse brain and kidney N-glycan source profiles
 #'
@@ -3504,5 +4022,12 @@
 #' @seealso [glyhub_data_conventions] for missing-value handling, annotations
 #'   and access to original measurements and source coordinates.
 #' @keywords datasets
-"glyhub_GPST000027_031_N"
+#' @name glyhub_GPST000027_031_N
+#' @section Access:
+#' Use `glyhub_load("glyhub_GPST000027_031_N")` to load this dataset.
+#' @inheritParams glyhub_load
+#' @export
+glyhub_GPST000027_031_N <- function(kind = c("curated", "raw"), cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")), refresh = FALSE, offline = FALSE) {
+  glyhub_load("glyhub_GPST000027_031_N", kind, cache_dir, refresh, offline)
+}
 

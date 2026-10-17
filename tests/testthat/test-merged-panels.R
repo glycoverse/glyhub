@@ -1,7 +1,10 @@
 test_that("merged panels conserve every source measurement and its missingness", {
-  entries <- utils::data(package = "glyhub")$results[, "Item"]
+  entries <- subset(
+    glyhub_catalog(),
+    source == "GlycoPOST"
+  )$dataset
   for (name in entries) {
-    x <- getExportedValue("glyhub", name)
+    x <- load_test_dataset(name)
     m <- S4Vectors::metadata(x)
     if (is.null(m$panel_maps)) {
       next

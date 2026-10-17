@@ -1,9 +1,12 @@
 test_that("all documented datasets satisfy measurement and annotation contracts", {
-  entries <- utils::data(package = "glyhub")$results[, "Item"]
+  entries <- subset(
+    glyhub_catalog(),
+    source == "GlycoPOST"
+  )$dataset
   expect_gt(length(entries), 11L)
   expect_false(anyDuplicated(entries) > 0)
   for (name in entries) {
-    x <- getExportedValue("glyhub", name)
+    x <- load_test_dataset(name)
     expect_true(
       methods::is(x, "GlycomicSE") || methods::is(x, "GlycoproteomicSE"),
       info = name
@@ -53,10 +56,13 @@ test_that("all documented datasets satisfy measurement and annotation contracts"
 })
 
 test_that("structure columns exist only for datasets with structural annotations", {
-  entries <- utils::data(package = "glyhub")$results[, "Item"]
+  entries <- subset(
+    glyhub_catalog(),
+    source == "GlycoPOST"
+  )$dataset
   absent <- 0L
   for (name in entries) {
-    x <- getExportedValue("glyhub", name)
+    x <- load_test_dataset(name)
     rd <- SummarizedExperiment::rowData(x)
     if ("glycan_structure" %in% names(rd)) {
       expect_true(any(!is.na(rd$glycan_structure)), info = name)

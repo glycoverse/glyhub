@@ -4,7 +4,7 @@ path <- "data-raw/GPST000031/matrix-specs.json"
 build_matrix_specs(path)
 s <- jsonlite::fromJSON(path, simplifyVector = FALSE)[[1]]
 e <- new.env()
-file <- file.path("data", paste0(s$name, ".rda"))
+file <- file.path("data-raw/bundled-build", paste0(s$name, ".rda"))
 load(file, e)
 x <- e[[s$name]]
 rd <- SummarizedExperiment::rowData(x)

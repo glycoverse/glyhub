@@ -18,7 +18,10 @@ original <- jsonlite::fromJSON(
 all_records <- c(original, records)
 object_names <- vapply(all_records, `[[`, "", "name")
 stopifnot(!anyDuplicated(object_names))
-stopifnot(all(file.exists(file.path("data", paste0(object_names, ".rda")))))
+stopifnot(all(file.exists(file.path(
+  "data-raw/bundled-build",
+  paste0(object_names, ".rda")
+))))
 jsonlite::write_json(
   all_records,
   "data-raw/dataset-descriptions.json",

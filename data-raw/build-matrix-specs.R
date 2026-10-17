@@ -346,7 +346,7 @@ build_matrix_specs <- function(path) {
     assign(s$name, object)
     save(
       list = s$name,
-      file = file.path("data", paste0(s$name, ".rda")),
+      file = file.path("data-raw/bundled-build", paste0(s$name, ".rda")),
       compress = "xz",
       version = 3
     )
@@ -362,7 +362,7 @@ build_matrix_specs <- function(path) {
       typed_compositions = sum(!is.na(rd$glycan_composition)),
       typed_structures = sum(!is.na(rd$glycan_structure)),
       compressed_bytes = file.info(file.path(
-        "data",
+        "data-raw/bundled-build",
         paste0(s$name, ".rda")
       ))$size,
       build_seconds = proc.time()[["elapsed"]] - build_started

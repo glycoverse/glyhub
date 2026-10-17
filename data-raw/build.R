@@ -1,3 +1,4 @@
+dir.create("data-raw/bundled-build", recursive = TRUE, showWarnings = FALSE)
 source("data-raw/GPST000599/ensure-source.R", local = new.env())
 source("data-raw/ensure-expansion-sources.R", local = new.env())
 # Verify retained original sources, annotations and reviewed mappings.
@@ -29,3 +30,5 @@ source("data-raw/GPST000578/GPST000578-build.R", local = new.env())
 source("data-raw/GPST000125/GPST000125-build.R", local = new.env())
 source('data-raw/merge-panels.R', local = new.env())
 source("data-raw/build-expansion.R", local = new.env())
+
+source("data-raw/package-resources.R", local = new.env())

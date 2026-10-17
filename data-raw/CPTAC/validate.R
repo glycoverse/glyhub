@@ -3,7 +3,7 @@ stopifnot(requireNamespace("glyexp", quietly = TRUE))
 args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 1L)
 manifest <- utils::read.delim(
-  "inst/extdata/CPTAC/manifest.tsv",
+  "data-raw/CPTAC/manifest.tsv",
   stringsAsFactors = FALSE
 )
 for (cohort in unique(manifest$cohort)) {

@@ -19,7 +19,7 @@ package is experimental.
 
 ## Available data
 
-75 datasets from 47 public GlycoPOST projects are bundled, including
+75 datasets from 47 public GlycoPOST projects are available, including
 released glycans, glycosaminoglycan disaccharides and
 site/charge-resolved glycopeptides. Objects combine source-defined
 quantitative tables from the same study and glycan class where
@@ -30,7 +30,7 @@ paper.
 
 Each dataset has its own help page describing the biological system,
 experimental design, units, source table and limitations. Use
-`data(package = "glyhub")` for the installed catalog. N/O classes remain
+`glyhub_catalog()` for the complete catalog. N/O classes remain
 separate; source experiments, sample conditions and replicate labels
 remain in `colData`. Feature unions use documented author keys or
 supported structures, with an explicit source-coverage mask for
@@ -57,81 +57,84 @@ pak::pkg_install("glycoverse/glyhub")
 ## Example
 
 ``` r
-x <- glyhub::glyhub_GPST000738_N_B4GalT1
+x <- glyhub::glyhub_load("glyhub_GPST000738_N_B4GalT1")
 dim(x)
-#> [1]  9 18
 data.frame(as.list(S4Vectors::metadata(x)$processing_counts))
-#>   source_missing source_nd conflict zero_to_na
-#> 1              0         0       24          6
 ```
 
-Data use R’s LazyData mechanism. `SummarizedExperiment::assay(x)`
+All datasets use `glyhub_load()`. `SummarizedExperiment::assay(x)`
 contains the curated abundance matrix;
 `S4Vectors::metadata(x)$raw_abundance` preserves the unconverted values.
 `rowData(x)` retains typed glyrepr annotations and source evidence, and
 `colData(x)` retains source conditions and observation locations.
 
-## CPTAC glycoproteomes
+## Loading external data
 
-Eight JHU GENCODEv34 N-glycoform-peptide matrices are available through
-`glyhub_CPTAC_CCRCC()`, `glyhub_CPTAC_COAD()`, `glyhub_CPTAC_HGSC()`,
-`glyhub_CPTAC_HNSCC()`, `glyhub_CPTAC_LSCC()`, `glyhub_CPTAC_LUAD()`,
-`glyhub_CPTAC_PDAC()` and `glyhub_CPTAC_UCEC()`. These are loader
-functions, rather than the LazyData objects listed above.
-
-``` r
-glyhub::glyhub_cptac_catalog()[, c("dataset", "kind", "storage", "bytes")]
-#>               dataset    kind storage    bytes
-#> 1  glyhub_CPTAC_CCRCC curated release 47437468
-#> 2  glyhub_CPTAC_CCRCC     raw release 21401950
-#> 3   glyhub_CPTAC_COAD curated release  5653760
-#> 4   glyhub_CPTAC_COAD     raw release  2683719
-#> 5   glyhub_CPTAC_HGSC curated release  2501440
-#> 6   glyhub_CPTAC_HGSC     raw release  1187065
-#> 7  glyhub_CPTAC_HNSCC curated release 19378376
-#> 8  glyhub_CPTAC_HNSCC     raw release  8966305
-#> 9   glyhub_CPTAC_LSCC curated release 22958288
-#> 10  glyhub_CPTAC_LSCC     raw release 10591675
-#> 11  glyhub_CPTAC_LUAD curated release 27852408
-#> 12  glyhub_CPTAC_LUAD     raw release 12734529
-#> 13  glyhub_CPTAC_PDAC curated release 36204104
-#> 14  glyhub_CPTAC_PDAC     raw release 16438827
-#> 15  glyhub_CPTAC_UCEC curated release  4556352
-#> 16  glyhub_CPTAC_UCEC     raw release  2288060
-```
+All 83 datasets are stored in the [Glyhub data
+release](https://github.com/glycoverse/glyhub/releases/tag/glyhub-data-v1).
+The package includes the catalog and loader code, with no bundled data
+objects.
 
 ``` r
-x <- glyhub::glyhub_CPTAC_CCRCC() # Download once, then use the verified cache
-x <- glyhub::glyhub_CPTAC_CCRCC(offline = TRUE)
-raw_file <- glyhub::glyhub_cptac_download("CCRCC", kind = "raw")
+head(glyhub::glyhub_catalog()[, c("dataset", "source", "bytes")])
+#>                       dataset    source  bytes
+#> 1 glyhub_GPST000738_N_B4GalT1 GlycoPOST  85324
+#> 2 glyhub_GPST000738_N_ST6GAL1 GlycoPOST  86980
+#> 3         glyhub_GPST000643_O GlycoPOST 136920
+#> 4         glyhub_GPST000643_N GlycoPOST  10320
+#> 5         glyhub_GPST000213_N GlycoPOST 273048
+#> 6         glyhub_GPST000213_O GlycoPOST  46920
 ```
 
-Curated files up to 2 MiB (xz-compressed RDS) are bundled; larger
-datasets are downloaded on demand. Raw TSV gzip archives and all curated
-RDS files are preserved in the [versioned data
-release](https://github.com/glycoverse/glyhub/releases/tag/cptac-data-v1).
-No large source files are tracked by Git. Downloads are checked against
-the package’s SHA-256 manifest. `cache_dir` or option `glyhub.cache_dir`
-selects the cache; `refresh = TRUE` downloads a fresh copy. An offline
-call requires a valid cached or bundled file. Remove downloaded files to
-clear the cache.
+Use either the common loader or a dataset’s own function. Both share the
+same verified cache and return the same object:
 
-The assay contains **linearized abundance (`2^source log2 value`)**.
+``` r
+x <- glyhub::glyhub_load("glyhub_CPTAC_CCRCC")
+x <- glyhub::glyhub_CPTAC_CCRCC()
+
+x <- glyhub::glyhub_GPST000738_N_B4GalT1()
+x <- glyhub::glyhub_load("glyhub_GPST000738_N_B4GalT1", offline = TRUE)
+
+# Original CPTAC source archive; returns a verified local file path.
+raw_file <- glyhub::glyhub_CPTAC_CCRCC(kind = "raw")
+# Equivalent: glyhub::glyhub_load("glyhub_CPTAC_CCRCC", kind = "raw")
+```
+
+**Breaking interface change:** all former dataset objects are now
+functions. Add `()` when using a dataset name directly, or pass its name
+to `glyhub_load()`. LazyData, variable-style access and `data()` access
+are no longer provided. `glyhub_catalog()` lists all curated datasets;
+`kind = "raw"` lists available source archives, currently the eight
+CPTAC archives. Dataset help topics retain scientific details and source
+references.
+
+Every resource is checked against its size and SHA-256 before use. The
+first call requires an internet connection; subsequent calls reuse the
+cache. Set `cache_dir` or option `glyhub.cache_dir` to select its
+location. `refresh = TRUE` retrieves the pinned version again;
+`offline = TRUE` prohibits downloads and requires a valid cached file.
+Delete cached files to clear the cache.
+
+## CPTAC measurement conventions
+
+Eight JHU GENCODEv34 N-glycoform-peptide matrices are available: CCRCC,
+COAD, HGSC, HNSCC, LSCC, LUAD, PDAC and UCEC. The assay contains
+**linearized abundance (`2^source log2 value`)**.
 `metadata(x)$raw_abundance` preserves the source log2 matrix, including
-zeros; `None` is represented as `NA`. No features or measurement columns
-are dropped. Reference, QC and unresolved sample roles remain annotated
-in `colData`. Absolute protein sites and protein accessions are
-unavailable and remain `NA`; source peptide, gene and glycan-composition
-labels are retained in `rowData`. The matrices do not establish
-independent patients for every measurement column.
+zeros; `None` becomes `NA`. No features or measurement columns are
+dropped. Reference, QC and unresolved sample roles remain in `colData`.
+Protein accessions and absolute sites are unavailable and remain `NA`;
+source peptide, gene and composition labels remain in `rowData`.
+Measurement columns must not all be interpreted as independent patients.
 
 Five supplied files match upstream MD5 checksums exactly. COAD and PDAC
-match CRC and PDA after reversing sample-column prefix renaming. HGSC
-has not been matched to the supplied upstream checksum list; its
-fractionation identity remains unverified. These limitations are
-recorded in each object’s provenance.
+match CRC and PDA after reversing column-prefix renaming. HGSC remains
+unmatched to the supplied upstream checksum list, and its fractionation
+identity is unverified. These limitations are recorded in the object
+provenance.
 
 Source: [CPTAC Pan-Cancer](https://pdc.cancer.gov/pdc/cptac-pancancer).
 Follow [PDC data-use and attribution
 guidelines](https://pdc.cancer.gov/pdc/data-use-guidelines); the
-package’s MIT code license does not license the source data.
+package’s MIT code license does not license source data.

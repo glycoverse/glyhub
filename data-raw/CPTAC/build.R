@@ -72,14 +72,7 @@ for (path in sort(list.files(
   con <- gzfile(raw_path, "wb", compression = 9)
   writeBin(readBin(path, "raw", n = file.info(path)$size), con)
   close(con)
-  storage <- if (file.info(rds)$size <= 2 * 1024^2) "bundled" else "release"
-  bundled <- file.path("inst/extdata/CPTAC", basename(rds))
-  if (storage == "bundled") {
-    file.copy(rds, bundled, overwrite = TRUE)
-  }
-  if (storage == "release" && file.exists(bundled)) {
-    unlink(bundled)
-  }
+  storage <- "release"
   for (kind in c("curated", "raw")) {
     f <- if (kind == "curated") rds else raw_path
     manifest[[length(manifest) + 1L]] <- data.frame(
@@ -111,13 +104,13 @@ for (path in sort(list.files(
 manifest <- do.call(rbind, manifest)
 utils::write.table(
   manifest,
-  "inst/extdata/CPTAC/manifest.tsv",
+  "data-raw/CPTAC/manifest.tsv",
   sep = "\t",
   quote = FALSE,
   row.names = FALSE
 )
 file.copy(
-  "inst/extdata/CPTAC/manifest.tsv",
+  "data-raw/CPTAC/manifest.tsv",
   file.path(out, "manifest.tsv"),
   overwrite = TRUE
 )
