@@ -13,6 +13,24 @@ or \code{"all"} resources. Raw archives are currently available for CPTAC only.}
 \value{
 A data frame containing dataset identifiers, source, file format,
 storage, compressed bytes, SHA-256, version, URL and dimensions.
+Additional metadata columns are:
+\itemize{
+\item \code{exp_type}: \code{"glycomics"} or \code{"glycoproteomics"}.
+\item \code{glycan_type}: Glycan type recorded in the curated object.
+\item \code{n_samples}: Number of measurement columns (including technical replicates
+and pooled samples where present), not necessarily unique individuals.
+This is an alias for \code{measurements}.
+\item \code{n_variables}: Number of feature rows; an alias for \code{features}.
+\item \code{has_glycan_structures}: Whether at least one non-missing typed glycan
+structure is available, rather than compositions alone.
+\item \code{quant_method}: Source-recorded quantification description, falling back
+to the assay scale or unit when no explicit method is recorded. This is
+descriptive text, not a controlled classification of instruments.
+}
+
+Raw archives inherit experiment and glycan types from their curated dataset;
+structure availability and quantification descriptions are \code{NA} for raw
+archives. Unavailable or outdated object metadata is also returned as \code{NA}.
 }
 \description{
 List released and locally staged datasets without downloading any files.

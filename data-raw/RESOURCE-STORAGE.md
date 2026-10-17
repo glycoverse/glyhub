@@ -17,6 +17,16 @@ to ignored `data-raw/releases/data-v0.1.0/` and regenerate the manifest.
 The full GlycoPOST build invokes this packaging step automatically.
 Build CPTAC assets using its documented source directory first.
 
+After preparing or changing resource manifests, run
+`Rscript data-raw/catalog-metadata.R [cache-directory]` to regenerate
+`inst/extdata/catalog-metadata.tsv`. This reads SHA-256-verified curated assets
+from staging or the loader cache (downloading missing assets when needed).
+The metadata table is keyed by dataset and curated-asset SHA-256; catalog queries
+never load data assets and return missing metadata for changed asset hashes until
+this table is regenerated. Quantification descriptions use the object's explicit
+method, then assay scale or unit, without inferring an instrument or labeling
+strategy. Structure availability requires a non-missing typed structure.
+
 The release consolidates the former CPTAC release and the unpublished general
 data draft. Original CPTAC object provenance retains its original data-version
 label; the unified manifest identifies the current transport release. The build

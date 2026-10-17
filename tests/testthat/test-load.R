@@ -15,9 +15,9 @@ test_that("all datasets and their convenience functions use external storage", {
   for (name in x$dataset) {
     expect_type(getExportedValue("glyhub", name), "closure")
   }
-  expect_identical(
+  expect_setequal(
     list.files(system.file("extdata", package = "glyhub"), recursive = TRUE),
-    "manifest.tsv"
+    c("manifest.tsv", "catalog-metadata.tsv")
   )
   released <- x[x$storage == "release", ]
   expect_identical(
@@ -152,5 +152,61 @@ test_that("external rda and rds use the same object-loading interface", {
       glyhub_load(entry$dataset, cache_dir = cache, offline = TRUE),
       x
     )
+  }
+})
+
+
+test_that("catalog metadata describes every curated dataset without loading assets", {
+  local_mocked_bindings(.glyhub_download_file = function(...) {
+    stop("No downloads")
+  })
+  x <- glyhub_catalog()
+  expect_setequal(unique(x$exp_type), c("glycomics", "glycoproteomics"))
+  expect_equal(anyNA(x$glycan_type), FALSE)
+  expect_identical(x$n_samples, x$measurements)
+  expect_identical(x$n_variables, x$features)
+  expect_type(x$has_glycan_structures, "logical")
+  expect_equal(anyNA(x$has_glycan_structures), FALSE)
+  expect_equal(anyNA(x$quant_method), FALSE)
+  expect_equal(all(nzchar(x$quant_method)), TRUE)
+  raw <- glyhub_catalog("raw")
+  expect_equal(raw$exp_type, rep("glycoproteomics", nrow(raw)))
+  expect_equal(raw$glycan_type, rep("N", nrow(raw)))
+  expect_equal(all(is.na(raw$has_glycan_structures)), TRUE)
+  expect_equal(all(is.na(raw$quant_method)), TRUE)
+  expect_equal(
+    glyhub_catalog("all")$dataset,
+    read.delim(system.file(
+      "extdata",
+      "manifest.tsv",
+      package = "glyhub"
+    ))$dataset
+  )
+})
+
+test_that("catalog annotations agree with representative scientific assets", {
+  for (name in c(
+    "glyhub_GPST000009_O",
+    "glyhub_GPST000671_N_Glycoproteomics"
+  )) {
+    x <- load_test_dataset(name)
+    entry <- subset(glyhub_catalog(), dataset == name)
+    expect_identical(entry$n_samples, ncol(x))
+    expect_identical(entry$n_variables, nrow(x))
+    expect_identical(entry$glycan_type, S4Vectors::metadata(x)$glycan_type)
+    expect_identical(
+      entry$exp_type,
+      if (methods::is(x, "GlycoproteomicSE")) {
+        "glycoproteomics"
+      } else {
+        "glycomics"
+      }
+    )
+    rd <- SummarizedExperiment::rowData(x)
+    expect_identical(
+      entry$has_glycan_structures,
+      "glycan_structure" %in% names(rd) && any(!is.na(rd$glycan_structure))
+    )
+    expect_identical(entry$quant_method, S4Vectors::metadata(x)$unit)
   }
 })

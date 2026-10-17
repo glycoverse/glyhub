@@ -8,6 +8,22 @@
 #'   or `"all"` resources. Raw archives are currently available for CPTAC only.
 #' @return A data frame containing dataset identifiers, source, file format,
 #'   storage, compressed bytes, SHA-256, version, URL and dimensions.
+#'   Additional metadata columns are:
+#'   * `exp_type`: `"glycomics"` or `"glycoproteomics"`.
+#'   * `glycan_type`: Glycan type recorded in the curated object.
+#'   * `n_samples`: Number of measurement columns (including technical replicates
+#'     and pooled samples where present), not necessarily unique individuals.
+#'     This is an alias for `measurements`.
+#'   * `n_variables`: Number of feature rows; an alias for `features`.
+#'   * `has_glycan_structures`: Whether at least one non-missing typed glycan
+#'     structure is available, rather than compositions alone.
+#'   * `quant_method`: Source-recorded quantification description, falling back
+#'     to the assay scale or unit when no explicit method is recorded. This is
+#'     descriptive text, not a controlled classification of instruments.
+#'
+#'   Raw archives inherit experiment and glycan types from their curated dataset;
+#'   structure availability and quantification descriptions are `NA` for raw
+#'   archives. Unavailable or outdated object metadata is also returned as `NA`.
 #' @export
 #' @examples
 #' glyhub_catalog()[, c("dataset", "storage", "bytes")]
@@ -20,6 +36,29 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
   if (kind != "all") {
     catalog <- catalog[catalog$kind == kind, , drop = FALSE]
   }
+  metadata <- utils::read.delim(
+    system.file(
+      "extdata",
+      "catalog-metadata.tsv",
+      package = "glyhub",
+      mustWork = TRUE
+    ),
+    stringsAsFactors = FALSE
+  )
+  index <- match(catalog$dataset, metadata$dataset)
+  stale <- catalog$kind == "curated" &
+    !is.na(index) &
+    catalog$sha256 != metadata$sha256[index]
+  index[stale] <- NA_integer_
+  catalog$exp_type <- metadata$exp_type[index]
+  catalog$glycan_type <- metadata$glycan_type[index]
+  catalog$n_samples <- catalog$measurements
+  catalog$n_variables <- catalog$features
+  catalog$has_glycan_structures <- metadata$has_glycan_structures[index]
+  catalog$quant_method <- metadata$quant_method[index]
+  raw <- catalog$kind == "raw"
+  catalog$has_glycan_structures[raw] <- NA
+  catalog$quant_method[raw] <- NA_character_
   rownames(catalog) <- NULL
   catalog
 }
