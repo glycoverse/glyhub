@@ -6,24 +6,21 @@
 \alias{glyhub-package}
 \title{Curated Glycomics and Glycoproteomics Data Resources}
 \description{
-\if{html}{\figure{logo.svg}{options: style='float: right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Public glycomics and glycoproteomics data represented as 'glyexp' 'GlycomicSE' and 'GlycoproteomicSE' objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.
+Provides access to curated public glycomics and glycoproteomics datasets from GlycoPOST and CPTAC as 'glyexp' 'GlycomicSE' and 'GlycoproteomicSE' objects. Datasets preserve source molecular annotations, measurement provenance, and explicit processing records. A catalog and shared loader retrieve data from versioned GitHub Releases, verify file integrity with SHA-256 checksums, and cache downloads for offline reuse.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://glycoverse.github.io/glyhub/}
+  \item \url{https://github.com/glycoverse/glyhub}
+  \item Report bugs at \url{https://github.com/glycoverse/glyhub/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
-
-Authors:
-\itemize{
-  \item First Last \email{first.last@example.com}
-}
+\strong{Maintainer}: Bin Fu \email{23110220018@m.fudan.edu.cn} (\href{https://orcid.org/0000-0001-8567-2997}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}
