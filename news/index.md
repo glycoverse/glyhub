@@ -1,5 +1,7 @@
 # Changelog
 
+## glyhub (development version)
+
 ## glyhub 0.1.0
 
 - Initial release with 97 curated glycomics and glycoproteomics
