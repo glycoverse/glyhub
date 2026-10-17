@@ -1,7 +1,8 @@
 # List available glyhub datasets
 
-List externally hosted datasets without downloading any files. All data
-are stored in a versioned GitHub Release and excluded from the package.
+List released and locally staged datasets without downloading any files.
+Data assets are excluded from the package. A staged entry has no
+download URL and requires the maintainer's verified local cache.
 
 ## Usage
 
@@ -110,4 +111,17 @@ glyhub_catalog()[, c("dataset", "storage", "bytes")]
 #> 81                                  glyhub_CPTAC_LUAD release 27852408
 #> 82                                  glyhub_CPTAC_PDAC release 36204104
 #> 83                                  glyhub_CPTAC_UCEC release  4556352
+#> 84                      glyhub_PXD070547_N_HumanAtlas  staged  3644032
+#> 85                      glyhub_PXD052447_N_Solubility release 21226446
+#> 86                              glyhub_PXD065283_N_QC  staged   635028
+#> 87               glyhub_PXD065283_N_DiscoverySelected  staged   979468
+#> 88                           glyhub_PXD052447_N_TwoFF release 29882235
+#> 89                      glyhub_PXD052447_N_Microbiome release 50422517
+#> 90                        glyhub_PXD011063_O_Dilution release 11414190
+#> 91                         glyhub_PXD052447_N_Tissues release 65947199
+#> 92                          glyhub_PXD052447_N_PNGase release 29596300
+#> 93                     glyhub_PXD052447_N_ProteinaseK release 31302092
+#> 94                       glyhub_IPX0011099000_N_Brain  staged  3181159
+#> 95                            glyhub_PXD046637_N_Lung  staged 33574472
+#> 96                         glyhub_PXD011063_O_SerumSA release 18902343
 ```

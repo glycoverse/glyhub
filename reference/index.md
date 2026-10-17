@@ -344,3 +344,32 @@
   : Load any glyhub dataset
 - [`glyhub_catalog()`](https://glycoverse.github.io/glyhub/reference/glyhub_catalog.md)
   : List available glyhub datasets
+
+## Non-CPTAC local candidates
+
+- [`glyhub_PXD070547_N_HumanAtlas()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD070547_N_HumanAtlas.md)
+  : Human organ atlas raw XIC matrix
+- [`glyhub_PXD052447_N_Solubility()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_Solubility.md)
+  : DQGlyco mouse brain solubility reporter intensities
+- [`glyhub_PXD065283_N_QC()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD065283_N_QC.md)
+  : HCC study quality-control injections
+- [`glyhub_PXD065283_N_DiscoverySelected()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD065283_N_DiscoverySelected.md)
+  : HCC discovery cohort selected processed features
+- [`glyhub_PXD052447_N_TwoFF()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_TwoFF.md)
+  : DQGlyco 2-fluorofucose time course reporter intensities
+- [`glyhub_PXD052447_N_Microbiome()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_Microbiome.md)
+  : DQGlyco microbiome experiment reporter intensities
+- [`glyhub_PXD011063_O_Dilution()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD011063_O_Dilution.md)
+  : Glyco-DIA precursor peak areas in a dilution experiment
+- [`glyhub_PXD052447_N_Tissues()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_Tissues.md)
+  : DQGlyco mouse tissue reporter intensities
+- [`glyhub_PXD052447_N_PNGase()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_PNGase.md)
+  : DQGlyco PNGase accessibility reporter intensities
+- [`glyhub_PXD052447_N_ProteinaseK()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_ProteinaseK.md)
+  : DQGlyco proteinase K accessibility reporter intensities
+- [`glyhub_IPX0011099000_N_Brain()`](https://glycoverse.github.io/glyhub/reference/glyhub_IPX0011099000_N_Brain.md)
+  : Mouse brain Glyco-Decipher chromatographic areas
+- [`glyhub_PXD046637_N_Lung()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD046637_N_Lung.md)
+  : Paired lung nodule glycoproteomics
+- [`glyhub_PXD011063_O_SerumSA()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD011063_O_SerumSA.md)
+  : Glyco-DIA SA serum source precursor peak areas

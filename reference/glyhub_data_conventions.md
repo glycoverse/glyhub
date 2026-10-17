@@ -13,6 +13,12 @@ See
 [glyhub_CPTAC_CCRCC](https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_CCRCC.md)
 and
 [`glyhub_catalog()`](https://glycoverse.github.io/glyhub/reference/glyhub_catalog.md).
+Locally staged non-CPTAC datasets retain source numeric values and zeros
+without added normalization, imputation or inverse transformation.
+Prefer original intensities where available; processed-only matrices
+explicitly document their source scale. `raw_abundance` means the source
+numeric matrix, not a guarantee that authors supplied unprocessed
+intensities. See each dataset's help and metadata.
 
 Zero-valued abundances are represented as `NA` in the distributed
 abundance assay. This representation differs from the original source
