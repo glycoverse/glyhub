@@ -17,6 +17,9 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-universe version](https://glycoverse.r-universe.dev/glyhub/badges/version)](https://glycoverse.r-universe.dev/glyhub)
+[![R-CMD-check](https://github.com/glycoverse/glyhub/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/glycoverse/glyhub/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/glycoverse/glyhub/graph/badge.svg)](https://app.codecov.io/gh/glycoverse/glyhub)
 <!-- badges: end -->
 
 glyhub collects glycomics and glycoproteomics data for the Glycoverse ecosystem,
