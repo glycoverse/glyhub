@@ -20,7 +20,13 @@ for (i in seq_len(nrow(m))) {
   a <- SummarizedExperiment::assay(x)
   md <- S4Vectors::metadata(x)
   stopifnot(
-    identical(a, md$raw_abundance),
+    if (e$dataset == "glyhub_MSV000089484_N_HCC") {
+      expected <- md$raw_abundance
+      expected[expected == -1] <- NA_real_
+      identical(a, expected)
+    } else {
+      identical(a, md$raw_abundance)
+    },
     all(is.finite(a) | is.na(a)),
     all(a >= 0, na.rm = TRUE)
   )
@@ -29,6 +35,20 @@ for (i in seq_len(nrow(m))) {
     identical(prior[[e$dataset]]$sha256, e$sha256)
   if (reused) {
     checked <- prior[[e$dataset]]$compared_cells
+  } else if (e$dataset == 'glyhub_MSV000089484_N_HCC') {
+    d <- readxl::read_excel(
+      file.path(evidence, '41467_2022_35172_MOESM6_ESM.xlsx'),
+      sheet = 'Intact glycopeptides-original'
+    )
+    raw <- as.matrix(d[4:15])
+    stopifnot(
+      identical(as.numeric(raw), as.numeric(md$raw_abundance)),
+      sum(raw == -1) == 40338L,
+      sum(raw == 0) == 2137L
+    )
+    raw[raw == -1] <- NA_real_
+    stopifnot(identical(as.numeric(raw), as.numeric(a)))
+    checked <- length(a)
   } else if (grepl('^glyhub_PXD052447', e$dataset)) {
     p <- file.path(evidence, 'range-downloads', md$source)
     d <- read.delim(
@@ -173,7 +193,8 @@ for (i in seq_len(nrow(m))) {
     dimensions = dim(x),
     source_cells_compared = checked,
     matrix_cells = length(a),
-    source_values_exact = TRUE,
+    source_values_exact = e$dataset != "glyhub_MSV000089484_N_HCC",
+    source_values_exact_in_metadata = TRUE,
     reused_completed_check = reused,
     reused_evidence = if (reused) prior[[e$dataset]]$evidence else NULL,
     missing = sum(is.na(a)),

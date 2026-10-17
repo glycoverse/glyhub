@@ -1,11 +1,11 @@
 test_that("all datasets and their convenience functions use external storage", {
   x <- glyhub_catalog()
-  expect_equal(nrow(x), 96L)
+  expect_equal(nrow(x), 97L)
   expect_equal(anyDuplicated(x$dataset), 0L)
   expect_equal(sum(x$storage == "bundled"), 0L)
-  expect_equal(sum(x$storage == "release"), 96L)
+  expect_equal(sum(x$storage == "release"), 97L)
   expect_equal(nrow(glyhub_catalog("raw")), 8L)
-  expect_equal(nrow(glyhub_catalog("all")), 104L)
+  expect_equal(nrow(glyhub_catalog("all")), 105L)
   expect_match(x$sha256, "^[a-f0-9]{64}$")
   expect_setequal(
     getNamespaceExports("glyhub"),

@@ -50,3 +50,12 @@ test_that("staged assets use the ordinary verified cache", {
     "locally staged"
   )
 })
+
+test_that("pGlycoQuant original table is a single released dataset", {
+  entry <- subset(glyhub_catalog(), dataset == "glyhub_MSV000089484_N_HCC")
+  expect_equal(nrow(entry), 1L)
+  expect_equal(entry$features, 11001L)
+  expect_equal(entry$measurements, 12L)
+  expect_identical(entry$storage, "release")
+  expect_identical(entry$version, "data-v0.1.0")
+})

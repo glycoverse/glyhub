@@ -15,6 +15,7 @@ for (i in seq_len(nrow(checks))) {
 }
 for (script in c(
   "build-workbooks.R",
+  "build-pglyco.R",
   "build-lung-raw.R",
   "build-raw-psm.R",
   "build-pngase-pk.R",

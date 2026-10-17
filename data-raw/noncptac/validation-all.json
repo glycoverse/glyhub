@@ -268,5 +268,22 @@
       "previous_sha256": "d6ad3ad76c8b56024156c41d92916004114c5bdaf99985699d3a3ed8d8262285",
       "assay_annotations_and_other_metadata_identical": true
     }
+  },
+  "glyhub_MSV000089484_N_HCC": {
+    "dimensions": [
+      11001,
+      12
+    ],
+    "source_cells_compared": 132012,
+    "source_values_exact_in_metadata": true,
+    "retained_nonnegative_values_exact": true,
+    "minus_one_to_NA": 40338,
+    "zero_retained": 2137,
+    "sha256": "1351b6d64f6b64666b04b13f2b2aea6cc43c8e9c9be37d36acf8351a1b81d788",
+    "matrix_cells": 132012,
+    "missing": 40338,
+    "zero": 2137,
+    "source_values_exact": false,
+    "source_scale": "Source intensity; user-confirmed -1 -> NA only"
   }
 }

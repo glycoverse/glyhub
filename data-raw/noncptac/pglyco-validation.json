@@ -1,0 +1,9 @@
+{
+  "dimensions": [11001, 12],
+  "source_cells_compared": 132012,
+  "source_values_exact_in_metadata": true,
+  "retained_nonnegative_values_exact": true,
+  "minus_one_to_NA": 40338,
+  "zero_retained": 2137,
+  "sha256": "1351b6d64f6b64666b04b13f2b2aea6cc43c8e9c9be37d36acf8351a1b81d788"
+}

@@ -297,5 +297,28 @@
     "sample_annotation_matched": {},
     "license": "Deposited PRIDE source data: CC0-1.0, explicitly declared by the project API. Source scientific values retained; cite the original authors and project.",
     "asset_sha256": "4bab19c4b3c777e329723b1ceef3a0a4df7705502336e71414825de1da500e04"
+  },
+  "glyhub_MSV000089484_N_HCC": {
+    "dataset": "glyhub_MSV000089484_N_HCC",
+    "features": 11001,
+    "measurements": 12,
+    "assay_scale": "Source SILAC glycoform-site intensity; -1 mapped to NA by user-confirmed curation convention",
+    "raw_abundance_scale": "Original source intensity including exact -1 codes",
+    "source_selection": {},
+    "processing": ["Exactly 40338 source -1 entries mapped to assay NA by explicit user instruction; the author has not directly defined this code in inspected sources", "Original -1 entries and every source value remain in metadata raw_abundance", "All 2137 zeros and every positive intensity preserved exactly; no log transform, normalization, imputation or filtering", "One record per source protein/site/glycan row; no invented peptide sequence or PSM", "The 6435-row filtered sheet is not a separate dataset or cohort", "Repeat labels do not establish independent biological replication"],
+    "source_provenance": {
+      "workbook_sha256": "1778bec72de7eb087cb4f3fe1a9419a032c9ae6bd766eddd5c4724cfa7e7da7e",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35172-x/MediaObjects/41467_2022_35172_MOESM6_ESM.xlsx",
+      "sheet": "Intact glycopeptides-original",
+      "source_range": "D2:O11002",
+      "retrieved": "2026-10-17",
+      "glycan_dictionary": "Official pGlycoQuant v202211 glyco.ini: H/N/A/F/pH = Hex/HexNAc/NeuAc/dHex/phosphoHex; pH counts are all zero"
+    },
+    "source": "Kong et al. (2022), Supplementary Data 3, Intact glycopeptides-original",
+    "doi": "10.1038/s41467-022-35172-x",
+    "missing_typed_compositions": 0,
+    "sample_annotation_matched": {},
+    "license": "Article CC BY 4.0; attachment applicability not independently confirmed; no new license granted",
+    "asset_sha256": "1351b6d64f6b64666b04b13f2b2aea6cc43c8e9c9be37d36acf8351a1b81d788"
   }
 }

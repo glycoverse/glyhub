@@ -1,6 +1,6 @@
 # Non-CPTAC data sources and reproduction
 
-Eight DQGlyco/Glyco-DIA objects are distributed in the existing `data-v0.1.0` release, based on explicit PRIDE project CC0 licenses. Five additional factual numerical objects are published at the user's explicit request after disclosure that source attachment or repository redistribution scope remains unresolved. Publication does not establish or grant a new license. Source numbers are preserved. See `publication-decisions.tsv` for the exact per-object decisions.
+Eight DQGlyco/Glyco-DIA objects are distributed in the existing `data-v0.1.0` release, based on explicit PRIDE project CC0 licenses. Five additional factual numerical objects are published at the user's explicit request after disclosure that source attachment or repository redistribution scope remains unresolved. Publication does not establish or grant a new license. Source numbers are preserved, with pGlycoQuant source -1 mapped to assay NA under the documented convention. See `publication-decisions.tsv` for the exact per-object decisions.
 
 ## Load
 
@@ -62,7 +62,7 @@ The original 91 catalog rows remain unchanged. Rebuilding historical package res
 
 Validation results are in [validation-all.json](validation-all.json). Exact source comparisons completed during individual builders can be reused only for matching asset hashes in `completed-source-checks.json`; changed objects are checked again. The loader verifies every staged asset hash before offline use. Tests for historical GlycoPOST assets may skip when their maintainer-only staging files are absent; those skips do not validate historical source data.
 
-Superseded processed tissue, solubility, dilution and lung objects remain in the task's `../evidence/processed-alternatives` as alternatives, not duplicate active cohorts. The provisional pGlycoQuant object was retired because -1 encoding remains unresolved; it is not in the active manifest or exported interface. GPST000216/GPST000109 remain excluded.
+Superseded processed tissue, solubility, dilution and lung objects remain in the task's `../evidence/processed-alternatives` as alternatives, not duplicate active cohorts. pGlycoQuant now uses the explicit user-confirmed convention of -1 -> NA; no author definition has been found. The original 11001 × 12 table is included, with 40338 conversions and 2137 zeros retained. Original values remain in metadata raw_abundance; no log/normalization/imputation/filtering is added. The 6435-row selected sheet is not a second cohort. GPST000216/GPST000109 remain excluded.
 
 ## Data release tags
 

@@ -1,0 +1,35 @@
+{
+  "dataset": "glyhub_MSV000089484_N_HCC",
+  "dimensions": [
+    11001,
+    12
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000089484_N_HCC",
+      "source": "MassIVE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_MSV000089484_N_HCC.rds",
+      "bytes": "1378116",
+      "sha256": "1351b6d64f6b64666b04b13f2b2aea6cc43c8e9c9be37d36acf8351a1b81d788",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_MSV000089484_N_HCC.rds",
+      "features": "11001",
+      "measurements": "12"
+    }
+  ],
+  "provenance": {
+    "workbook_sha256": "1778bec72de7eb087cb4f3fe1a9419a032c9ae6bd766eddd5c4724cfa7e7da7e",
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35172-x/MediaObjects/41467_2022_35172_MOESM6_ESM.xlsx",
+    "sheet": "Intact glycopeptides-original",
+    "source_range": "D2:O11002",
+    "retrieved": "2026-10-17",
+    "glycan_dictionary": "Official pGlycoQuant v202211 glyco.ini: H/N/A/F/pH = Hex/HexNAc/NeuAc/dHex/phosphoHex; pH counts are all zero"
+  },
+  "missing": 40338,
+  "zero": 2137,
+  "typed_composition_missing": 0,
+  "missing_value_authority": "User-confirmed convention; not an author definition"
+}

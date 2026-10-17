@@ -1,5 +1,6 @@
 m <- read.delim('data-raw/noncptac/manifest.tsv', stringsAsFactors = FALSE)
 titles <- c(
+  glyhub_MSV000089484_N_HCC = "pGlycoQuant HCC cell-line source intensities",
   glyhub_PXD052447_N_Tissues = 'DQGlyco mouse tissue reporter intensities',
   glyhub_PXD052447_N_Solubility = 'DQGlyco mouse brain solubility reporter intensities',
   glyhub_PXD052447_N_TwoFF = 'DQGlyco 2-fluorofucose time course reporter intensities',
@@ -34,7 +35,11 @@ for (i in seq_len(nrow(m))) {
     },
     md$processing,
     'Measurement columns are not automatically independent biological samples. Source row identifiers, annotations and provenance are retained in metadata.',
-    'The assay preserves source numeric values. The metadata field raw_abundance means source numbers; it does not certify that the authors supplied unprocessed intensity.'
+    if (e$dataset == 'glyhub_MSV000089484_N_HCC') {
+      'The assay maps source -1 to NA by user-confirmed convention, not an author-confirmed definition. All source values, including -1, remain in metadata raw_abundance; zeros and positive values are unchanged.'
+    } else {
+      'The assay preserves source numeric values. The metadata field raw_abundance means source numbers; it does not certify that the authors supplied unprocessed intensity.'
+    }
   )
   if (grepl('PXD052447', e$dataset)) {
     detail <- c(

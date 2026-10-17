@@ -1,6 +1,6 @@
 id	doi	accession	status	completed	remaining
 N01	10.1038/s41594-025-01485-w	PXD052447	locally_staged_raw	完整540文件PRIDE索引、五份原始PSM表和样本注释已取得；处理后的VSN/蛋白校正/比值表降为备选。	原始PSM含未注释糖链的行；不能把行数当唯一糖肽数或通道数当独立动物数。
-N02	10.1038/s41467-022-35172-x	MSV000089484；复用基准 PXD023980 必须分开	hold_encoding	主文、补充方法、官方手册、公开代码、2022发行版字典及MassIVE文件目录已核。H/N/A/F/pH为Hex/HexNAc/NeuAc/dHex/phosphoHex；不把F自动写成Fuc。	glyexp assay要求非负；在不改动数值的约束下不能将-1强制改成NA。需要明确编码定义或兼容的未改值表示。
+N02	10.1038/s41467-022-35172-x	MSV000089484；复用基准 PXD023980 必须分开	release_user_missing_convention	原始11001×12表逐值核验：40338个-1按用户确认约定转NA，2137个0和全部正值原样保留；原始矩阵保存在metadata。	作者未直接定义-1，不能称官方缺失码；不推断重复生物学独立性，不重复收录6435行筛选表。
 N03	10.1038/s41467-025-57364-x	PXD046637；WES HRA005849（受控，不需要下载）	release_raw	PRIDE全部361文件已索引；49GB search.zip只取其中糖蛋白结果成员，428799239字节及CRC核验通过，内层270文件CRC通过。15个ion.tsv提供强度。	原始通道与132组织样本的映射未提供，annotation.txt只重复标签；不猜患者/肿瘤组，不按顺序对齐两个矩阵。
 N04	10.1038/s41467-025-60437-6	IPX0011099000	release_raw	iProX公开接口成功；PD-AD-glycodecipher.rar已下载并与仓库SHA1一致，60个Area表已读取。	来源含未定质量偏移的糖组成，保留原文且typed composition为NA；不新增归一化、过滤或插补。
 N05	10.1126/sciadv.adk6911	PXD045001	hold_no_sample_matrix_verified	PRIDE Search.zip完整CRC通过（16份Byonic鉴定工作簿）；Europe PMC开放API补充ZIP及内层S2–S10通过CRC，表为鉴定、组均值/SD、差异和网络统计。	方法确认Byologic强度定量，但原始个体强度表未随已核文件发现；不能把Byonic鉴定或均值统计当16样本矩阵。无需用户授权即可核查的替代入口已尝试。

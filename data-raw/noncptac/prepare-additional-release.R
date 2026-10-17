@@ -4,7 +4,8 @@ root <- "data-raw/noncptac"
 decisions <- jsonlite::fromJSON(file.path(root, "publication-decisions.json"))
 names <- decisions$dataset[
   decisions$publish &
-    decisions$source_license == "unresolved-for-complete-object"
+    decisions$source_license == "unresolved-for-complete-object" &
+    decisions$dataset != "glyhub_MSV000089484_N_HCC"
 ]
 m <- read.delim(file.path(root, "manifest.tsv"), stringsAsFactors = FALSE)
 validation <- jsonlite::fromJSON(
