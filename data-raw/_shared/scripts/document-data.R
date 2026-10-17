@@ -1,4 +1,4 @@
-# Regenerate R/data.R from the dataset-specific documentation catalog.
+# Regenerate the GlycoPOST section of R/data.R from its documentation catalog.
 records <- jsonlite::fromJSON(
   "data-raw/_shared/metadata/dataset-descriptions.json",
   simplifyVector = FALSE
@@ -114,4 +114,5 @@ for (x in records) {
     ""
   )
 }
-writeLines(output, "R/data.R")
+source("data-raw/_shared/scripts/write-data-section.R", local = TRUE)
+write_data_section("glycopost", output)

@@ -133,7 +133,8 @@ for (i in seq_len(nrow(m))) {
   rm(x)
   gc()
 }
-writeLines(text, 'R/noncptac.R')
+source('data-raw/_shared/scripts/write-data-section.R', local = TRUE)
+write_data_section('noncptac', text)
 if (file.exists('R/noncptac-additional.R')) {
   unlink('R/noncptac-additional.R')
 }

@@ -55,7 +55,7 @@ Rscript data-raw/_shared/scripts/noncptac/prepare-release.R
 Rscript data-raw/_shared/scripts/noncptac/prepare-additional-release.R
 Rscript data-raw/_shared/scripts/noncptac/verify-all.R ../evidence ../noncptac-cache
 Rscript data-raw/_shared/scripts/noncptac/update-docs.R
-air format R/noncptac.R
+air format R/data.R
 ```
 
 The original 91 catalog rows remain unchanged. Rebuilding historical package resources can replace the manifest; rerun the local builder afterward. Do not overwrite existing published assets.
