@@ -3,11 +3,11 @@ stopifnot(length(args) == 2L)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
 devtools::load_all(quiet = TRUE)
-ids <- read.delim('data-raw/_shared/noncptac/manifest.tsv')$dataset
+ids <- read.delim('data-raw/_shared/metadata/noncptac/manifest.tsv')$dataset
 m <- subset(glyhub_catalog(), dataset %in% ids)
 results <- list()
 prior <- jsonlite::fromJSON(
-  "data-raw/_shared/noncptac/completed-source-checks.json",
+  "data-raw/_shared/reports/noncptac/completed-source-checks.json",
   simplifyVector = FALSE
 )
 for (i in seq_len(nrow(m))) {
@@ -211,7 +211,7 @@ for (i in seq_len(nrow(m))) {
 }
 jsonlite::write_json(
   results,
-  'data-raw/_shared/noncptac/validation-all.json',
+  'data-raw/_shared/reports/noncptac/validation-all.json',
   pretty = TRUE,
   auto_unbox = TRUE
 )

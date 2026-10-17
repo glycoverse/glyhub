@@ -2,9 +2,9 @@ args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 2L)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
-source("data-raw/_shared/noncptac/convert.R")
-source("data-raw/_shared/noncptac/convert-additional.R")
-source("data-raw/_shared/noncptac/register.R")
+source("data-raw/_shared/scripts/noncptac/convert.R")
+source("data-raw/_shared/scripts/noncptac/convert-additional.R")
+source("data-raw/_shared/scripts/noncptac/register.R")
 
 p <- file.path(evidence, "human-atlas/Supplementary Data 2.xlsx")
 mp <- file.path(evidence, "human-atlas/Supplementary Data 1.xlsx")

@@ -1,5 +1,5 @@
-# Run from the repository root: Rscript data-raw/_shared/test-compact-specs.R
-source("data-raw/_shared/build-matrix-specs.R")
+# Run from the repository root: Rscript data-raw/_shared/scripts/test-compact-specs.R
+source("data-raw/_shared/scripts/build-matrix-specs.R")
 
 # Exercise nulls, zeros, integer/double types, nested annotations and key order.
 local({

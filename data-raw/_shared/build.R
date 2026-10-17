@@ -1,13 +1,13 @@
 dir.create(
-  "data-raw/_shared/bundled-build",
+  "data-raw/_shared/artifacts/bundled-build",
   recursive = TRUE,
   showWarnings = FALSE
 )
 source("data-raw/GPST000599/ensure-source.R", local = new.env())
-source("data-raw/_shared/ensure-expansion-sources.R", local = new.env())
+source("data-raw/_shared/scripts/ensure-expansion-sources.R", local = new.env())
 # Verify retained original sources, annotations and reviewed mappings.
 source_manifest <- utils::read.csv(
-  "data-raw/_shared/source-checksums.csv",
+  "data-raw/_shared/metadata/source-checksums.csv",
   stringsAsFactors = FALSE
 )
 stopifnot(
@@ -32,7 +32,7 @@ source("data-raw/GPST000381/GPST000381-build.R", local = new.env())
 source("data-raw/GPST000602/GPST000602-build.R", local = new.env())
 source("data-raw/GPST000578/GPST000578-build.R", local = new.env())
 source("data-raw/GPST000125/GPST000125-build.R", local = new.env())
-source('data-raw/_shared/merge-panels.R', local = new.env())
-source("data-raw/_shared/build-expansion.R", local = new.env())
+source('data-raw/_shared/scripts/merge-panels.R', local = new.env())
+source("data-raw/_shared/scripts/build-expansion.R", local = new.env())
 
-source("data-raw/_shared/package-resources.R", local = new.env())
+source("data-raw/_shared/scripts/package-resources.R", local = new.env())

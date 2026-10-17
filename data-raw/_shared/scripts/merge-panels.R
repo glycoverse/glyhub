@@ -1,12 +1,18 @@
 # Consolidate study/type panels without inventing cross-panel feature identity.
 merge_study_panels <- function() {
   catalog <- jsonlite::fromJSON(
-    'data-raw/_shared/panel-descriptions.json',
+    'data-raw/_shared/metadata/panel-descriptions.json',
     simplifyVector = FALSE
   )
   objects <- lapply(catalog, function(d) {
     e <- new.env()
-    load(file.path('data-raw/_shared/bundled-build', paste0(d$name, '.rda')), e)
+    load(
+      file.path(
+        'data-raw/_shared/artifacts/bundled-build',
+        paste0(d$name, '.rda')
+      ),
+      e
+    )
     e[[d$name]]
   })
   names(objects) <- vapply(catalog, `[[`, '', 'name')
@@ -408,7 +414,10 @@ merge_study_panels <- function() {
     assign(name, object)
     save(
       list = name,
-      file = file.path('data-raw/_shared/bundled-build', paste0(name, '.rda')),
+      file = file.path(
+        'data-raw/_shared/artifacts/bundled-build',
+        paste0(name, '.rda')
+      ),
       compress = 'xz',
       version = 3
     )
@@ -457,19 +466,19 @@ merge_study_panels <- function() {
   }
   jsonlite::write_json(
     final,
-    'data-raw/_shared/dataset-descriptions.json',
+    'data-raw/_shared/metadata/dataset-descriptions.json',
     auto_unbox = TRUE,
     pretty = TRUE,
     null = 'null'
   )
   utils::write.csv(
     do.call(rbind, mapping),
-    'data-raw/_shared/panel-name-mapping.csv',
+    'data-raw/_shared/metadata/panel-name-mapping.csv',
     row.names = FALSE
   )
   jsonlite::write_json(
     audit,
-    'data-raw/_shared/merge-validation.json',
+    'data-raw/_shared/reports/merge-validation.json',
     auto_unbox = TRUE,
     pretty = TRUE
   )
@@ -481,11 +490,16 @@ merge_study_panels <- function() {
   )
   dir.create(cache, recursive = TRUE, showWarnings = FALSE)
   for (n in obsolete) {
-    f <- file.path('data-raw/_shared/bundled-build', paste0(n, '.rda'))
+    f <- file.path(
+      'data-raw/_shared/artifacts/bundled-build',
+      paste0(n, '.rda')
+    )
     stopifnot(file.copy(f, file.path(cache, basename(f)), overwrite = TRUE))
     unlink(f)
   }
-  panel_inventory <- utils::read.csv('data-raw/_shared/object-inventory.csv')
+  panel_inventory <- utils::read.csv(
+    'data-raw/_shared/reports/object-inventory.csv'
+  )
   panel_inventory <- panel_inventory[
     panel_inventory$dataset %in% names(objects),
     ,
@@ -493,12 +507,15 @@ merge_study_panels <- function() {
   ]
   utils::write.csv(
     panel_inventory,
-    'data-raw/_shared/panel-inventory.csv',
+    'data-raw/_shared/reports/panel-inventory.csv',
     row.names = FALSE
   )
   inventory <- lapply(keep, function(n) {
     e <- new.env()
-    load(file.path('data-raw/_shared/bundled-build', paste0(n, '.rda')), e)
+    load(
+      file.path('data-raw/_shared/artifacts/bundled-build', paste0(n, '.rda')),
+      e
+    )
     x <- e[[n]]
     m <- S4Vectors::metadata(x)
     r <- SummarizedExperiment::rowData(x)
@@ -515,7 +532,7 @@ merge_study_panels <- function() {
       typed_compositions = sum(!is.na(r$glycan_composition)),
       typed_structures = sum(!is.na(r$glycan_structure)),
       compressed_bytes = file.info(file.path(
-        'data-raw/_shared/bundled-build',
+        'data-raw/_shared/artifacts/bundled-build',
         paste0(n, '.rda')
       ))$size,
       build_seconds = if (m$accession %in% c('GPST000643', 'GPST000738')) {
@@ -529,7 +546,7 @@ merge_study_panels <- function() {
   })
   utils::write.csv(
     do.call(rbind, inventory),
-    'data-raw/_shared/object-inventory.csv',
+    'data-raw/_shared/reports/object-inventory.csv',
     row.names = FALSE
   )
   invisible(final)

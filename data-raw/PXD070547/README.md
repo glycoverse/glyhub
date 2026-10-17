@@ -7,4 +7,4 @@ Rscript data-raw/PXD070547/build-workbooks.R ../evidence ../noncptac-cache
 ```
 
 Source prerequisites, checksums and shared release/validation commands are in
-[the shared guide](../_shared/noncptac/README.md).
+[the shared guide](../_shared/reports/noncptac/README.md).

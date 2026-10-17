@@ -11,7 +11,7 @@ Rscript data-raw/CPTAC/build.R /path/to/glycoproteome
 `assets/` is ignored by Git. The build emits byte-preserving `.tsv.gz` sources,
 validated `GlycoproteomicSE` RDS objects, the source documentation and manifest.
 All files are distributed externally through the consolidated `glyhub-data-v1`
-release. Run `Rscript data-raw/_shared/package-resources.R` after building to refresh the
+release. Run `Rscript data-raw/_shared/scripts/package-resources.R` after building to refresh the
 unified manifest and stage all resources. The CPTAC source manifest retains the
 original data-version provenance; the unified manifest supplies current URLs.
 
@@ -53,5 +53,5 @@ Source data are not covered by glyhub's MIT code license. Cite the relevant
 CPTAC primary studies and acknowledge the consortium as requested by PDC.
 The source documentation is distributed with the release for provenance.
 
-After building, run `Rscript data-raw/_shared/package-resources.R` to refresh the unified
+After building, run `Rscript data-raw/_shared/scripts/package-resources.R` to refresh the unified
 manifest and stage all external resources. Public access uses `glyhub_load()`.

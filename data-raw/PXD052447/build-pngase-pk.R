@@ -1,9 +1,9 @@
 args <- commandArgs(trailingOnly = TRUE)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
-source('data-raw/_shared/noncptac/convert.R')
+source('data-raw/_shared/scripts/noncptac/convert.R')
 source('data-raw/PXD052447/convert-raw-psm.R')
-source('data-raw/_shared/noncptac/register.R')
+source('data-raw/_shared/scripts/noncptac/register.R')
 p <- file.path(evidence, 'range-downloads/PNGase_PK_glyco_psm.tsv')
 stopifnot(file.info(p)$size == 169058291)
 ref <- read.delim(

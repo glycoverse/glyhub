@@ -1,7 +1,7 @@
-source("data-raw/_shared/recover-sources.R", local = TRUE)
+source("data-raw/_shared/scripts/recover-sources.R", local = TRUE)
 # Recover only sources used by accepted high-impact expansion datasets.
 records <- jsonlite::fromJSON(
-  "data-raw/_shared/expansion-dataset-descriptions.json",
+  "data-raw/_shared/metadata/expansion-dataset-descriptions.json",
   simplifyVector = FALSE
 )
 accessions <- unique(vapply(records, `[[`, "", "accession"))

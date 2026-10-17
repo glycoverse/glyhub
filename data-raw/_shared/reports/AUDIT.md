@@ -2,7 +2,7 @@
 
 This historical audit describes the original five-project screen. For the later
 20-project calibration and consolidated dataset names, see [CALIBRATION.md](CALIBRATION.md)
-and [panel-name-mapping.csv](panel-name-mapping.csv).
+and [panel-name-mapping.csv](../metadata/panel-name-mapping.csv).
 
 ## Scope and retained data
 

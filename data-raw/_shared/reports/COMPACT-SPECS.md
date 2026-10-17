@@ -19,8 +19,8 @@ source coordinates, annotations or provenance are discarded.
 After regenerating either spec with its original representation, run:
 
 ```sh
-python3 data-raw/_shared/compact-specs.py data-raw/GPST000671/glycoproteomics-matrix-specs.json data-raw/GPST000296/glycoproteomics-matrix-specs.json
-Rscript data-raw/_shared/test-compact-specs.R
+python3 data-raw/_shared/scripts/compact-specs.py data-raw/GPST000671/glycoproteomics-matrix-specs.json data-raw/GPST000296/glycoproteomics-matrix-specs.json
+Rscript data-raw/_shared/scripts/test-compact-specs.R
 ```
 
 The compactor verifies a lossless Python round-trip before writing and can be

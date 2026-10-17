@@ -192,7 +192,10 @@ for (s in specs) {
   assign(s$name, obj)
   save(
     list = s$name,
-    file = file.path('data-raw/_shared/bundled-build', paste0(s$name, '.rda')),
+    file = file.path(
+      'data-raw/_shared/artifacts/bundled-build',
+      paste0(s$name, '.rda')
+    ),
     compress = 'xz',
     version = 3
   )

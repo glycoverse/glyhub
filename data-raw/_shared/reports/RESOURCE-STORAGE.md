@@ -10,15 +10,15 @@ There is no LazyData, `data()` or variable-style object interface.
 `kind = "raw"` returns a verified file path for the eight available CPTAC source
 archives. Scientific data and original provenance have not changed.
 
-GlycoPOST build scripts write to ignored `data-raw/_shared/bundled-build/` (the historical
+GlycoPOST build scripts write to ignored `data-raw/_shared/artifacts/bundled-build/` (the historical
 staging directory name does not indicate package inclusion). Run
-`Rscript data-raw/_shared/package-resources.R` to copy all 75 files and all CPTAC resources
-to ignored `data-raw/_shared/releases/data-v0.1.0/` and regenerate the manifest.
+`Rscript data-raw/_shared/scripts/package-resources.R` to copy all 75 files and all CPTAC resources
+to ignored `data-raw/_shared/artifacts/releases/data-v0.1.0/` and regenerate the manifest.
 The full GlycoPOST build invokes this packaging step automatically.
 Build CPTAC assets using its documented source directory first.
 
 After preparing or changing resource manifests, run
-`Rscript data-raw/_shared/catalog-metadata.R [cache-directory]` to regenerate
+`Rscript data-raw/_shared/scripts/catalog-metadata.R [cache-directory]` to regenerate
 `inst/extdata/catalog-metadata.tsv`. This reads SHA-256-verified curated assets
 from staging or the loader cache (downloading missing assets when needed).
 The metadata table is keyed by dataset and curated-asset SHA-256; catalog queries

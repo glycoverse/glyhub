@@ -29,7 +29,7 @@ read_object <- function(file) {
   canonical(env[[name]])
 }
 files <- list.files(
-  "data-raw/_shared/bundled-build",
+  "data-raw/_shared/artifacts/bundled-build",
   pattern = "[.]rda$",
   full.names = TRUE
 )

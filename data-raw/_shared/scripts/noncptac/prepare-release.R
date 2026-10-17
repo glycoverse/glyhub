@@ -1,16 +1,20 @@
 # Metadata-only preparation of the license-cleared batch; no upload or Git action.
 devtools::load_all(quiet = TRUE)
 tag <- "data-v0.1.0"
-root <- "data-raw/_shared/noncptac"
-decisions <- jsonlite::fromJSON(file.path(root, "publication-decisions.json"))
-m <- read.delim(file.path(root, "manifest.tsv"), stringsAsFactors = FALSE)
+decisions <- jsonlite::fromJSON(
+  "data-raw/_shared/metadata/noncptac/publication-decisions.json"
+)
+m <- read.delim(
+  "data-raw/_shared/metadata/noncptac/manifest.tsv",
+  stringsAsFactors = FALSE
+)
 m$url[is.na(m$url)] <- ""
 validation <- jsonlite::fromJSON(
-  file.path(root, "validation-all.json"),
+  "data-raw/_shared/reports/noncptac/validation-all.json",
   simplifyVector = FALSE
 )
 pins <- jsonlite::fromJSON(
-  file.path(root, "completed-source-checks.json"),
+  "data-raw/_shared/reports/noncptac/completed-source-checks.json",
   simplifyVector = FALSE
 )
 checks <- list()
@@ -18,7 +22,7 @@ for (name in decisions$dataset[
   decisions$publish & decisions$source_license == "CC0-1.0"
 ]) {
   i <- match(name, m$dataset)
-  path <- file.path(root, "assets", m$filename[i])
+  path <- file.path("data-raw/_shared/artifacts/noncptac/assets", m$filename[i])
   old <- readRDS(path)
   old_hash <- digest::digest(file = path, algo = "sha256")
   x <- old
@@ -93,7 +97,7 @@ for (name in decisions$dataset[
 }
 write.table(
   m,
-  file.path(root, "manifest.tsv"),
+  "data-raw/_shared/metadata/noncptac/manifest.tsv",
   sep = "\t",
   quote = FALSE,
   row.names = FALSE,
@@ -114,19 +118,19 @@ write.table(
 )
 jsonlite::write_json(
   validation,
-  file.path(root, "validation-all.json"),
+  "data-raw/_shared/reports/noncptac/validation-all.json",
   pretty = TRUE,
   auto_unbox = TRUE
 )
 jsonlite::write_json(
   pins,
-  file.path(root, "completed-source-checks.json"),
+  "data-raw/_shared/reports/noncptac/completed-source-checks.json",
   pretty = TRUE,
   auto_unbox = TRUE
 )
 jsonlite::write_json(
   checks,
-  file.path(root, "release-preparation-checks.json"),
+  "data-raw/_shared/reports/noncptac/release-preparation-checks.json",
   pretty = TRUE,
   auto_unbox = TRUE
 )

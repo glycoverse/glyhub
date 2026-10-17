@@ -1,10 +1,10 @@
 # Stage every curated dataset externally and generate the package manifest.
 stopifnot(requireNamespace("glyexp", quietly = TRUE))
-staging <- "data-raw/_shared/bundled-build"
-assets <- "data-raw/_shared/releases/data-v0.1.0"
+staging <- "data-raw/_shared/artifacts/bundled-build"
+assets <- "data-raw/_shared/artifacts/releases/data-v0.1.0"
 dir.create(assets, recursive = TRUE, showWarnings = FALSE)
 records <- jsonlite::fromJSON(
-  "data-raw/_shared/dataset-descriptions.json",
+  "data-raw/_shared/metadata/dataset-descriptions.json",
   simplifyVector = FALSE
 )
 entries <- list()

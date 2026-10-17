@@ -1,7 +1,7 @@
 # These study-level matrices are already consolidated by compatible glycan type.
 # The original panel merger runs first and restores its own documentation catalog.
 records <- jsonlite::fromJSON(
-  "data-raw/_shared/expansion-dataset-descriptions.json",
+  "data-raw/_shared/metadata/expansion-dataset-descriptions.json",
   simplifyVector = FALSE
 )
 accessions <- unique(vapply(records, `[[`, "", "accession"))
@@ -12,19 +12,19 @@ for (accession in accessions) {
   )
 }
 original <- jsonlite::fromJSON(
-  "data-raw/_shared/dataset-descriptions.json",
+  "data-raw/_shared/metadata/dataset-descriptions.json",
   simplifyVector = FALSE
 )
 all_records <- c(original, records)
 object_names <- vapply(all_records, `[[`, "", "name")
 stopifnot(!anyDuplicated(object_names))
 stopifnot(all(file.exists(file.path(
-  "data-raw/_shared/bundled-build",
+  "data-raw/_shared/artifacts/bundled-build",
   paste0(object_names, ".rda")
 ))))
 jsonlite::write_json(
   all_records,
-  "data-raw/_shared/dataset-descriptions.json",
+  "data-raw/_shared/metadata/dataset-descriptions.json",
   auto_unbox = TRUE,
   pretty = TRUE,
   null = "null"

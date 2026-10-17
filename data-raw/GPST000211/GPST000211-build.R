@@ -7,5 +7,5 @@ stopifnot(
   unname(tools::md5sum("data-raw/GPST000211/mmc6.xlsx")) ==
     "57069a899a58589e7e040ac5fd138ec0"
 )
-source("data-raw/_shared/build-matrix-specs.R", local = TRUE)
+source("data-raw/_shared/scripts/build-matrix-specs.R", local = TRUE)
 build_matrix_specs("data-raw/GPST000211/matrix-specs.json")

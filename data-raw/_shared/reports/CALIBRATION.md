@@ -37,7 +37,7 @@ Each merged object retains its panel-level rowData, colData, metadata and origin
 
 ## Reproduction
 
-From the repository root, run `source("data-raw/_shared/build.R")`, then `source("data-raw/_shared/document-data.R")`. Required R packages include glyexp, glyrepr, jsonlite, readxl, S4Vectors and SummarizedExperiment. glyexp/glyrepr are available from the glycoverse r-universe; Bioconductor supplies the Bioconductor classes. `validate-reproduction.R` checks canonical scientific contents across a complete rebuild. The GPST000035 alignment and GPST000128 source-JSON reconstruction also have independent Python checks.
+From the repository root, run `source("data-raw/_shared/build.R")`, then `source("data-raw/_shared/scripts/document-data.R")`. Required R packages include glyexp, glyrepr, jsonlite, readxl, S4Vectors and SummarizedExperiment. glyexp/glyrepr are available from the glycoverse r-universe; Bioconductor supplies the Bioconductor classes. `validate-reproduction.R` checks canonical scientific contents across a complete rebuild. The GPST000035 alignment and GPST000128 source-JSON reconstruction also have independent Python checks.
 
 Primary sources and accession-specific mappings are retained under `data-raw/<accession>/`. Each file is checksum-pinned. Source terms are documented independently of the package code license. Sources and derived objects for nonincluded projects are absent from the distributed repository; the ledger retains URLs and reasons.
 

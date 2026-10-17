@@ -3,9 +3,9 @@ args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) >= 2L)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
-source('data-raw/_shared/noncptac/convert.R')
+source('data-raw/_shared/scripts/noncptac/convert.R')
 source('data-raw/PXD052447/convert-raw-psm.R')
-source('data-raw/_shared/noncptac/register.R')
+source('data-raw/_shared/scripts/noncptac/register.R')
 specs <- data.frame(
   experiment = c('Tissues', 'Solubility', 'TwoFF', 'Microbiome'),
   file = c(
@@ -72,7 +72,7 @@ for (i in seq_len(nrow(specs))) {
   ))
   register(x, name, compression = 'gzip')
   reloaded <- readRDS(file.path(
-    'data-raw/_shared/noncptac/assets',
+    'data-raw/_shared/artifacts/noncptac/assets',
     paste0(name, '.rds')
   ))
   stopifnot(identical(

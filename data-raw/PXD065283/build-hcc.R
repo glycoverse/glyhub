@@ -1,8 +1,8 @@
 args <- commandArgs(trailingOnly = TRUE)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
-source('data-raw/_shared/noncptac/convert.R')
-source('data-raw/_shared/noncptac/register.R')
+source('data-raw/_shared/scripts/noncptac/convert.R')
+source('data-raw/_shared/scripts/noncptac/register.R')
 source('data-raw/PXD065283/convert-hcc.R')
 p <- file.path(evidence, 'hcc-epmc-supp/ADVS-13-e16299-s002.xlsx')
 prov <- list(

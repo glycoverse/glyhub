@@ -1,8 +1,8 @@
 args <- commandArgs(trailingOnly = TRUE)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
-source('data-raw/_shared/noncptac/convert.R')
-source('data-raw/_shared/noncptac/register.R')
+source('data-raw/_shared/scripts/noncptac/convert.R')
+source('data-raw/_shared/scripts/noncptac/register.R')
 source('data-raw/PXD046637/convert-lung-raw.R')
 paths <- sort(list.files(
   file.path(evidence, 'lung-glyco-results'),

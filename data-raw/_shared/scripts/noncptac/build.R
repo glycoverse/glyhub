@@ -3,7 +3,7 @@ args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 2L)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 checks <- read.delim(
-  "data-raw/_shared/noncptac/input-checksums.tsv",
+  "data-raw/_shared/metadata/noncptac/input-checksums.tsv",
   stringsAsFactors = FALSE
 )
 for (i in seq_len(nrow(checks))) {

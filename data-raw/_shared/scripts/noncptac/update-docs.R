@@ -1,5 +1,5 @@
 m <- read.delim(
-  'data-raw/_shared/noncptac/manifest.tsv',
+  'data-raw/_shared/metadata/noncptac/manifest.tsv',
   stringsAsFactors = FALSE
 )
 titles <- c(
@@ -22,7 +22,10 @@ text <- character()
 audit <- list()
 for (i in seq_len(nrow(m))) {
   e <- m[i, ]
-  x <- readRDS(file.path('data-raw/_shared/noncptac/assets', e$filename))
+  x <- readRDS(file.path(
+    'data-raw/_shared/artifacts/noncptac/assets',
+    e$filename
+  ))
   md <- S4Vectors::metadata(x)
   title <- titles[[e$dataset]]
   detail <- c(
@@ -136,7 +139,7 @@ if (file.exists('R/noncptac-additional.R')) {
 }
 jsonlite::write_json(
   audit,
-  'data-raw/_shared/noncptac/source-selection.json',
+  'data-raw/_shared/metadata/noncptac/source-selection.json',
   pretty = TRUE,
   auto_unbox = TRUE
 )
@@ -160,7 +163,7 @@ table <- do.call(
 )
 write.table(
   table,
-  'data-raw/_shared/noncptac/source-selection.tsv',
+  'data-raw/_shared/metadata/noncptac/source-selection.tsv',
   sep = '\t',
   quote = TRUE,
   row.names = FALSE

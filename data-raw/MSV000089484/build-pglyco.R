@@ -3,8 +3,8 @@ args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 2L)
 evidence <- normalizePath(args[1], mustWork = TRUE)
 cache <- args[2]
-source("data-raw/_shared/noncptac/convert.R")
-source("data-raw/_shared/noncptac/register.R")
+source("data-raw/_shared/scripts/noncptac/convert.R")
+source("data-raw/_shared/scripts/noncptac/register.R")
 path <- file.path(evidence, "41467_2022_35172_MOESM6_ESM.xlsx")
 sha <- digest::digest(file = path, algo = "sha256")
 stopifnot(
@@ -116,7 +116,7 @@ register(x, "glyhub_MSV000089484_N_HCC", compression = "gzip")
 name <- "glyhub_MSV000089484_N_HCC"
 for (mp in c(
   "inst/extdata/manifest.tsv",
-  "data-raw/_shared/noncptac/manifest.tsv"
+  "data-raw/_shared/metadata/noncptac/manifest.tsv"
 )) {
   m <- read.delim(mp, stringsAsFactors = FALSE)
   i <- m$dataset == name
@@ -129,7 +129,7 @@ for (mp in c(
   write.table(m, mp, sep = "\t", quote = FALSE, row.names = FALSE, na = "")
 }
 y <- readRDS(file.path(
-  "data-raw/_shared/noncptac/assets",
+  "data-raw/_shared/artifacts/noncptac/assets",
   paste0(name, ".rds")
 ))
 a <- SummarizedExperiment::assay(y)
@@ -147,7 +147,10 @@ result <- list(
   minus_one_to_NA = sum(mask),
   zero_retained = sum(a == 0, na.rm = TRUE),
   sha256 = digest::digest(
-    file = file.path("data-raw/_shared/noncptac/assets", paste0(name, ".rds")),
+    file = file.path(
+      "data-raw/_shared/artifacts/noncptac/assets",
+      paste0(name, ".rds")
+    ),
     algo = "sha256"
   )
 )

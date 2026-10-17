@@ -43,18 +43,18 @@ Reporter channels, library-analysis outputs, technical replicates and QC injecti
 
 `metadata(x)$raw_abundance` always means the original numerical matrix selected from the author source. It does not certify that a processed-only source was unprocessed. No inverse transformation is used to claim recovered raw intensity. Source blank/NA/NaN entries are retained as missing; numerical zeros are not given a guessed missingness interpretation.
 
-Full machine-readable rationale, exact source URLs, hashes, known processing and unresolved points: [source-selection.json](source-selection.json), [source-selection.tsv](source-selection.tsv), [candidate-decisions.tsv](candidate-decisions.tsv). Source terms and code license are distinct. The PRIDE CC0 evidence applies to the deposited source files, not automatically to publisher supplementary workbooks. The five additional objects retain the unresolved source-license status; only outdated local-staging wording and publication metadata were updated.
+Full machine-readable rationale, exact source URLs, hashes, known processing and unresolved points: [source-selection.json](../../metadata/noncptac/source-selection.json), [source-selection.tsv](../../metadata/noncptac/source-selection.tsv), [candidate-decisions.tsv](../../metadata/noncptac/candidate-decisions.tsv). Source terms and code license are distinct. The PRIDE CC0 evidence applies to the deposited source files, not automatically to publisher supplementary workbooks. The five additional objects retain the unresolved source-license status; only outdated local-staging wording and publication metadata were updated.
 
 ## Rebuild and verify
 
-Acquire the public files under the evidence layout recorded in the provenance, or reuse this task's `../evidence` directory. All required input paths and SHA-256 checksums are listed in [input-checksums.tsv](input-checksums.tsv). Build performs no network requests and only writes this checkout plus the supplied cache.
+Acquire the public files under the evidence layout recorded in the provenance, or reuse this task's `../evidence` directory. All required input paths and SHA-256 checksums are listed in [input-checksums.tsv](../../metadata/noncptac/input-checksums.tsv). Build performs no network requests and only writes this checkout plus the supplied cache.
 
 ```sh
-Rscript data-raw/_shared/noncptac/build.R ../evidence ../noncptac-cache
-Rscript data-raw/_shared/noncptac/prepare-release.R
-Rscript data-raw/_shared/noncptac/prepare-additional-release.R
-Rscript data-raw/_shared/noncptac/verify-all.R ../evidence ../noncptac-cache
-Rscript data-raw/_shared/noncptac/update-docs.R
+Rscript data-raw/_shared/scripts/noncptac/build.R ../evidence ../noncptac-cache
+Rscript data-raw/_shared/scripts/noncptac/prepare-release.R
+Rscript data-raw/_shared/scripts/noncptac/prepare-additional-release.R
+Rscript data-raw/_shared/scripts/noncptac/verify-all.R ../evidence ../noncptac-cache
+Rscript data-raw/_shared/scripts/noncptac/update-docs.R
 air format R/noncptac.R
 ```
 

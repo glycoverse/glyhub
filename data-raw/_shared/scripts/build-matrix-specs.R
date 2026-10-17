@@ -347,13 +347,13 @@ build_matrix_specs <- function(path) {
     save(
       list = s$name,
       file = file.path(
-        "data-raw/_shared/bundled-build",
+        "data-raw/_shared/artifacts/bundled-build",
         paste0(s$name, ".rda")
       ),
       compress = "xz",
       version = 3
     )
-    inventory_path <- "data-raw/_shared/object-inventory.csv"
+    inventory_path <- "data-raw/_shared/reports/object-inventory.csv"
     record <- data.frame(
       dataset = s$name,
       accession = s$accession,
@@ -365,7 +365,7 @@ build_matrix_specs <- function(path) {
       typed_compositions = sum(!is.na(rd$glycan_composition)),
       typed_structures = sum(!is.na(rd$glycan_structure)),
       compressed_bytes = file.info(file.path(
-        "data-raw/_shared/bundled-build",
+        "data-raw/_shared/artifacts/bundled-build",
         paste0(s$name, ".rda")
       ))$size,
       build_seconds = proc.time()[["elapsed"]] - build_started

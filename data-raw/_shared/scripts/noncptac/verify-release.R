@@ -4,7 +4,7 @@ stopifnot(length(args) == 1L, !dir.exists(args[1]))
 options(timeout = 600)
 devtools::load_all(quiet = TRUE)
 decisions <- jsonlite::fromJSON(
-  "data-raw/_shared/noncptac/publication-decisions.json"
+  "data-raw/_shared/metadata/noncptac/publication-decisions.json"
 )
 m <- subset(glyhub_catalog(), dataset %in% decisions$dataset[decisions$publish])
 stopifnot(nrow(m) == 8L)
@@ -12,7 +12,10 @@ results <- list()
 for (i in seq_len(nrow(m))) {
   e <- m[i, ]
   x <- glyhub_load(e$dataset, cache_dir = args[1])
-  local <- readRDS(file.path("data-raw/_shared/noncptac/assets", e$filename))
+  local <- readRDS(file.path(
+    "data-raw/_shared/artifacts/noncptac/assets",
+    e$filename
+  ))
   stopifnot(methods::validObject(x), identical(x, local))
   path <- file.path(args[1], e$version, paste0(e$sha256, "-", e$filename))
   stopifnot(

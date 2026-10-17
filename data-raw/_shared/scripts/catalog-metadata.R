@@ -1,5 +1,5 @@
 # Run after preparing resource manifests. Only verified curated assets are read.
-# Usage: Rscript data-raw/_shared/catalog-metadata.R [cache directory]
+# Usage: Rscript data-raw/_shared/scripts/catalog-metadata.R [cache directory]
 devtools::load_all(quiet = TRUE)
 args <- commandArgs(trailingOnly = TRUE)
 cache <- if (length(args)) args[[1]] else tools::R_user_dir("glyhub", "cache")
@@ -8,10 +8,14 @@ entries <- manifest[manifest$kind == "curated", ]
 metadata <- lapply(seq_len(nrow(entries)), function(i) {
   entry <- entries[i, ]
   paths <- c(
-    file.path("data-raw/_shared/releases", entry$version, entry$filename),
-    file.path("data-raw/_shared/bundled-build", entry$filename),
+    file.path(
+      "data-raw/_shared/artifacts/releases",
+      entry$version,
+      entry$filename
+    ),
+    file.path("data-raw/_shared/artifacts/bundled-build", entry$filename),
     file.path("data-raw/CPTAC/assets", entry$filename),
-    file.path("data-raw/_shared/noncptac/assets", entry$filename)
+    file.path("data-raw/_shared/artifacts/noncptac/assets", entry$filename)
   )
   paths <- paths[file.exists(paths)]
   verified <- vapply(

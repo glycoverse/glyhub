@@ -1,6 +1,9 @@
 register <- function(x, name, compression = "xz") {
   stopifnot(methods::validObject(x))
-  file <- file.path("data-raw/_shared/noncptac/assets", paste0(name, ".rds"))
+  file <- file.path(
+    "data-raw/_shared/artifacts/noncptac/assets",
+    paste0(name, ".rds")
+  )
   saveRDS(x, file, compress = compression, version = 3)
   entry <- data.frame(
     dataset = name,
@@ -26,7 +29,7 @@ register <- function(x, name, compression = "xz") {
   )
   for (mp in c(
     "inst/extdata/manifest.tsv",
-    "data-raw/_shared/noncptac/manifest.tsv"
+    "data-raw/_shared/metadata/noncptac/manifest.tsv"
   )) {
     m <- utils::read.delim(mp, stringsAsFactors = FALSE)
     m <- rbind(m[m$dataset != name, ], entry)

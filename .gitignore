@@ -55,7 +55,7 @@ docs
 
 /data-raw/CPTAC/assets/
 
-/data-raw/_shared/bundled-build/
-/data-raw/_shared/releases/
+/data-raw/_shared/artifacts/bundled-build/
+/data-raw/_shared/artifacts/releases/
 
-/data-raw/_shared/noncptac/assets/
+/data-raw/_shared/artifacts/noncptac/assets/

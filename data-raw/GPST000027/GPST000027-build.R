@@ -1,11 +1,14 @@
 # One study-level N-glycan object, with source-specific unaligned feature spaces.
-source("data-raw/_shared/build-matrix-specs.R", local = TRUE)
+source("data-raw/_shared/scripts/build-matrix-specs.R", local = TRUE)
 build_matrix_specs("data-raw/GPST000027/matrix-specs.json")
 source("data-raw/GPST000031/GPST000031-build.R", local = new.env())
 panel_names <- c("glyhub_GPST000027_N_Brain", "glyhub_GPST000031_N_Kidney")
 panels <- lapply(panel_names, function(name) {
   e <- new.env()
-  load(file.path("data-raw/_shared/bundled-build", paste0(name, ".rda")), e)
+  load(
+    file.path("data-raw/_shared/artifacts/bundled-build", paste0(name, ".rda")),
+    e
+  )
   e[[name]]
 })
 names(panels) <- panel_names
@@ -202,11 +205,17 @@ for (i in seq_along(panels)) {
   )))
 }
 assign(name, x)
-file <- file.path("data-raw/_shared/bundled-build", paste0(name, ".rda"))
+file <- file.path(
+  "data-raw/_shared/artifacts/bundled-build",
+  paste0(name, ".rda")
+)
 save(list = name, file = file, compress = "xz", version = 3)
 # These newly built panel objects are retained losslessly inside the study object.
-unlink(file.path("data-raw/_shared/bundled-build", paste0(panel_names, ".rda")))
-inventory <- utils::read.csv("data-raw/_shared/object-inventory.csv")
+unlink(file.path(
+  "data-raw/_shared/artifacts/bundled-build",
+  paste0(panel_names, ".rda")
+))
+inventory <- utils::read.csv("data-raw/_shared/reports/object-inventory.csv")
 inventory <- inventory[!inventory$dataset %in% c(panel_names, name), ]
 record <- data.frame(
   dataset = name,
@@ -223,7 +232,7 @@ record <- data.frame(
 )
 utils::write.csv(
   rbind(inventory, record),
-  "data-raw/_shared/object-inventory.csv",
+  "data-raw/_shared/reports/object-inventory.csv",
   row.names = FALSE
 )
 message(
