@@ -1,6 +1,6 @@
 # External data resources
 
-All 83 curated datasets are hosted on the single `v0.1.0` GitHub Release.
+All 83 curated datasets are hosted on the single `data-v0.1.0` GitHub Release.
 No dataset objects are installed with the package. `inst/extdata/manifest.tsv`
 is the authority for resource filenames, SHA-256, sizes, versions and URLs.
 
@@ -13,7 +13,7 @@ archives. Scientific data and original provenance have not changed.
 GlycoPOST build scripts write to ignored `data-raw/bundled-build/` (the historical
 staging directory name does not indicate package inclusion). Run
 `Rscript data-raw/package-resources.R` to copy all 75 files and all CPTAC resources
-to ignored `data-raw/releases/v0.1.0/` and regenerate the manifest.
+to ignored `data-raw/releases/data-v0.1.0/` and regenerate the manifest.
 The full GlycoPOST build invokes this packaging step automatically.
 Build CPTAC assets using its documented source directory first.
 
