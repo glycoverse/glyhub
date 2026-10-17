@@ -11,7 +11,7 @@ glyhub_catalog(kind = c("curated", "raw", "all"))
 or \code{"all"} resources. Raw archives are currently available for CPTAC only.}
 }
 \value{
-A data frame containing dataset identifiers, source, file format,
+A tibble containing dataset identifiers, source, file format,
 storage, compressed bytes, SHA-256, version, URL and dimensions.
 Additional metadata columns are:
 \itemize{

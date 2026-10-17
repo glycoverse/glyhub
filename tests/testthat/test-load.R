@@ -1,3 +1,10 @@
+test_that("catalog returns a tibble for every resource kind", {
+  expect_s3_class(glyhub_catalog(), "tbl_df")
+  for (kind in c("curated", "raw", "all")) {
+    expect_s3_class(glyhub_catalog(kind), "tbl_df")
+  }
+})
+
 test_that("all datasets and their convenience functions use external storage", {
   x <- glyhub_catalog()
   expect_equal(nrow(x), 97L)

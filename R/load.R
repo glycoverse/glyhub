@@ -6,7 +6,7 @@
 #'
 #' @param kind List `"curated"` datasets (default), `"raw"` source archives,
 #'   or `"all"` resources. Raw archives are currently available for CPTAC only.
-#' @return A data frame containing dataset identifiers, source, file format,
+#' @return A tibble containing dataset identifiers, source, file format,
 #'   storage, compressed bytes, SHA-256, version, URL and dimensions.
 #'   Additional metadata columns are:
 #'   * `exp_type`: `"glycomics"` or `"glycoproteomics"`.
@@ -59,8 +59,7 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
   raw <- catalog$kind == "raw"
   catalog$has_glycan_structures[raw] <- NA
   catalog$quant_method[raw] <- NA_character_
-  rownames(catalog) <- NULL
-  catalog
+  tibble::as_tibble(catalog)
 }
 
 #' Load any glyhub dataset
