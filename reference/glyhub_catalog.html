@@ -58,7 +58,21 @@ or <code>"all"</code> resources. Raw archives are currently available for CPTAC 
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     <p>A data frame containing dataset identifiers, source, file format,
-storage, compressed bytes, SHA-256, version, URL and dimensions.</p>
+storage, compressed bytes, SHA-256, version, URL and dimensions.
+Additional metadata columns are:</p><ul><li><p><code>exp_type</code>: <code>"glycomics"</code> or <code>"glycoproteomics"</code>.</p></li>
+<li><p><code>glycan_type</code>: Glycan type recorded in the curated object.</p></li>
+<li><p><code>n_samples</code>: Number of measurement columns (including technical replicates
+and pooled samples where present), not necessarily unique individuals.
+This is an alias for <code>measurements</code>.</p></li>
+<li><p><code>n_variables</code>: Number of feature rows; an alias for <code>features</code>.</p></li>
+<li><p><code>has_glycan_structures</code>: Whether at least one non-missing typed glycan
+structure is available, rather than compositions alone.</p></li>
+<li><p><code>quant_method</code>: Source-recorded quantification description, falling back
+to the assay scale or unit when no explicit method is recorded. This is
+descriptive text, not a controlled classification of instruments.</p></li>
+</ul><p>Raw archives inherit experiment and glycan types from their curated dataset;
+structure availability and quantification descriptions are <code>NA</code> for raw
+archives. Unavailable or outdated object metadata is also returned as <code>NA</code>.</p>
     </div>
 
     <div class="section level2">

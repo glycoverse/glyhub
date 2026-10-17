@@ -22,6 +22,30 @@ glyhub_catalog(kind = c("curated", "raw", "all"))
 
 A data frame containing dataset identifiers, source, file format,
 storage, compressed bytes, SHA-256, version, URL and dimensions.
+Additional metadata columns are:
+
+- `exp_type`: `"glycomics"` or `"glycoproteomics"`.
+
+- `glycan_type`: Glycan type recorded in the curated object.
+
+- `n_samples`: Number of measurement columns (including technical
+  replicates and pooled samples where present), not necessarily unique
+  individuals. This is an alias for `measurements`.
+
+- `n_variables`: Number of feature rows; an alias for `features`.
+
+- `has_glycan_structures`: Whether at least one non-missing typed glycan
+  structure is available, rather than compositions alone.
+
+- `quant_method`: Source-recorded quantification description, falling
+  back to the assay scale or unit when no explicit method is recorded.
+  This is descriptive text, not a controlled classification of
+  instruments.
+
+Raw archives inherit experiment and glycan types from their curated
+dataset; structure availability and quantification descriptions are `NA`
+for raw archives. Unavailable or outdated object metadata is also
+returned as `NA`.
 
 ## Examples
 
