@@ -84,7 +84,7 @@ To rebuild the three source-panel GlycomicSE objects, run from the repository ro
 R --vanilla -s -f data-raw/GPST000125/GPST000125-build.R
 ```
 
-This uses the shared data-raw/build-matrix-specs.R helper, which verifies the XLSX checksum and its measurement cells before building the objects. It writes the source-panel objects and updates the build inventory. Package-wide merging and documentation are handled by the repository's full build workflow.
+This uses the shared data-raw/_shared/build-matrix-specs.R helper, which verifies the XLSX checksum and its measurement cells before building the objects. It writes the source-panel objects and updates the build inventory. Package-wide merging and documentation are handled by the repository's full build workflow.
 
 validation.json records the quantitative checks. Its R-builder summary records the separate object validation performed for this source snapshot; validate_extraction.py does not itself execute R. Re-run the R command above to check current object construction.
 

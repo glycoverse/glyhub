@@ -1,10 +1,10 @@
 # Build the complete Table S2 intensity matrix, then attach distinct source scales.
-source("data-raw/build-matrix-specs.R", local = TRUE)
+source("data-raw/_shared/build-matrix-specs.R", local = TRUE)
 path <- "data-raw/GPST000031/matrix-specs.json"
 build_matrix_specs(path)
 s <- jsonlite::fromJSON(path, simplifyVector = FALSE)[[1]]
 e <- new.env()
-file <- file.path("data-raw/bundled-build", paste0(s$name, ".rda"))
+file <- file.path("data-raw/_shared/bundled-build", paste0(s$name, ".rda"))
 load(file, e)
 x <- e[[s$name]]
 rd <- SummarizedExperiment::rowData(x)
@@ -69,6 +69,10 @@ stopifnot(
 )
 assign(s$name, x)
 save(list = s$name, file = file, compress = "xz", version = 3)
-inventory <- utils::read.csv("data-raw/object-inventory.csv")
+inventory <- utils::read.csv("data-raw/_shared/object-inventory.csv")
 inventory$compressed_bytes[inventory$dataset == s$name] <- file.info(file)$size
-utils::write.csv(inventory, "data-raw/object-inventory.csv", row.names = FALSE)
+utils::write.csv(
+  inventory,
+  "data-raw/_shared/object-inventory.csv",
+  row.names = FALSE
+)

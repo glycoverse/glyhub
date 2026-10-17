@@ -5,6 +5,7 @@ load_test_dataset <- function(dataset) {
     "..",
     "..",
     "data-raw",
+    "_shared",
     "bundled-build",
     paste0(dataset, ".rda")
   )

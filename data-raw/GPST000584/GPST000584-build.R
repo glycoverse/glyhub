@@ -21,5 +21,5 @@ stopifnot(
   )) ==
     "062cea74d2e865317cd5e482f8a63c2f"
 )
-source("data-raw/build-matrix-specs.R", local = TRUE)
+source("data-raw/_shared/build-matrix-specs.R", local = TRUE)
 build_matrix_specs("data-raw/GPST000584/matrix-specs.json")

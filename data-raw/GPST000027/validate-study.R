@@ -1,8 +1,12 @@
 # Rebuild only this study and prove that every pre-existing RDA stays byte-identical.
 name <- "glyhub_GPST000027_031_N"
-target <- file.path("data-raw/bundled-build", paste0(name, ".rda"))
+target <- file.path("data-raw/_shared/bundled-build", paste0(name, ".rda"))
 baseline <- setdiff(
-  list.files("data-raw/bundled-build", pattern = "[.]rda$", full.names = TRUE),
+  list.files(
+    "data-raw/_shared/bundled-build",
+    pattern = "[.]rda$",
+    full.names = TRUE
+  ),
   target
 )
 stopifnot(length(baseline) == 74L)

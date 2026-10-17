@@ -433,7 +433,7 @@ for (s in specs) {
   assign(name, object)
   save(
     list = name,
-    file = file.path("data-raw/bundled-build", paste0(name, ".rda")),
+    file = file.path("data-raw/_shared/bundled-build", paste0(name, ".rda")),
     compress = "xz",
     version = 3
   )

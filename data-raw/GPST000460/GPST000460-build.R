@@ -19,5 +19,5 @@ stopifnot(
   unname(tools::md5sum("data-raw/GPST000460/source-worksheets.json")) ==
     "f9b448954c51180a685223db3b8937fb"
 )
-source("data-raw/build-matrix-specs.R", local = TRUE)
+source("data-raw/_shared/build-matrix-specs.R", local = TRUE)
 build_matrix_specs("data-raw/GPST000460/matrix-specs.json")
