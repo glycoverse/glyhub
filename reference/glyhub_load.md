@@ -73,8 +73,10 @@ the verified cache. Consult dataset help for scientific details.
 
 ``` r
 glyhub_catalog()[1:3, c("dataset", "bytes")]
-#>                       dataset  bytes
+#> # A tibble: 3 × 2
+#>   dataset                      bytes
+#>   <chr>                        <int>
 #> 1 glyhub_GPST000738_N_B4GalT1  85324
 #> 2 glyhub_GPST000738_N_ST6GAL1  86980
-#> 3         glyhub_GPST000643_O 136920
+#> 3 glyhub_GPST000643_O         136920
 ```
