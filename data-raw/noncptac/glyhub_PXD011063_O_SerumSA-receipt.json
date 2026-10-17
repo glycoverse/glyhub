@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD011063_O_SerumSA.rds",
       "bytes": 18902343,
       "sha256": "4bab19c4b3c777e329723b1ceef3a0a4df7705502336e71414825de1da500e04",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD011063_O_SerumSA.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD011063_O_SerumSA.rds",
       "features": 93442,
       "measurements": 6
     }

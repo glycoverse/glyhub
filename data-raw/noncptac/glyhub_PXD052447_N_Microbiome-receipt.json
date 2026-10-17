@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD052447_N_Microbiome.rds",
       "bytes": 50422517,
       "sha256": "3f35f3612933be2589f40f71b935063781648c5644427af7d3d46ba5d0680258",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_Microbiome.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD052447_N_Microbiome.rds",
       "features": 160699,
       "measurements": 18
     }

@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD052447_N_Solubility.rds",
       "bytes": 21226446,
       "sha256": "ff1c1c39ee09422f926d66391ec58cf3ef2429263b4e2dda5fe9aaaf8a5653eb",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_Solubility.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD052447_N_Solubility.rds",
       "features": 89115,
       "measurements": 18
     }

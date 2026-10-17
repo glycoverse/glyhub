@@ -1,4 +1,4 @@
-# Real cold-cache download verification of the independent release.
+# Real cold-cache download verification of the existing release.
 args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 1L, !dir.exists(args[1]))
 Sys.unsetenv(c(
@@ -11,7 +11,8 @@ Sys.unsetenv(c(
 ))
 options(timeout = 600)
 devtools::load_all(quiet = TRUE)
-m <- subset(glyhub_catalog(), version == "data-noncptac-2026-10-17-v1")
+decisions <- jsonlite::fromJSON("data-raw/noncptac/publication-decisions.json")
+m <- subset(glyhub_catalog(), dataset %in% decisions$dataset[decisions$publish])
 stopifnot(nrow(m) == 8L)
 results <- list()
 for (i in seq_len(nrow(m))) {

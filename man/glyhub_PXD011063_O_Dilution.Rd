@@ -72,7 +72,7 @@ representation, not a confidence-filtered biological feature set.
 }
 \section{Availability and source license}{
 
-Downloaded from the independent non-CPTAC data release through the verified cache.
+Downloaded from the existing data release through the verified cache.
 Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 Cite the original authors and accession; see metadata redistribution and source provenance.
 }

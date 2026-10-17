@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD052447_N_PNGase.rds",
       "bytes": 29596300,
       "sha256": "a666f60351d2d33280f6fcb37dfd4497c39e348d226d3dd5344e1d7c83321b4c",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_PNGase.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD052447_N_PNGase.rds",
       "features": 118216,
       "measurements": 18
     }

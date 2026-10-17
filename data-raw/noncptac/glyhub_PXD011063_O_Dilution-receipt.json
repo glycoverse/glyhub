@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD011063_O_Dilution.rds",
       "bytes": 11414190,
       "sha256": "b312893ec5e4044daceb32bc2b49e39dc2b4e3eaf42eb3e0e3180a1a679b8b75",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD011063_O_Dilution.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD011063_O_Dilution.rds",
       "features": 15890,
       "measurements": 10
     }

@@ -94,7 +94,7 @@ glyhub_PXD070547_N_HumanAtlas <- function(
 #' Consult sample_annotation_matched before comparing biological groups.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41594-025-01485-w>.
@@ -268,7 +268,7 @@ glyhub_PXD065283_N_DiscoverySelected <- function(
 #' Consult sample_annotation_matched before comparing biological groups.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41594-025-01485-w>.
@@ -328,7 +328,7 @@ glyhub_PXD052447_N_TwoFF <- function(
 #' Consult sample_annotation_matched before comparing biological groups.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41594-025-01485-w>.
@@ -395,7 +395,7 @@ glyhub_PXD052447_N_Microbiome <- function(
 #' representation, not a confidence-filtered biological feature set.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41592-019-0504-x>.
@@ -455,7 +455,7 @@ glyhub_PXD011063_O_Dilution <- function(
 #' Consult sample_annotation_matched before comparing biological groups.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41594-025-01485-w>.
@@ -516,7 +516,7 @@ glyhub_PXD052447_N_Tissues <- function(
 #' Consult sample_annotation_matched before comparing biological groups.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41594-025-01485-w>.
@@ -577,7 +577,7 @@ glyhub_PXD052447_N_PNGase <- function(
 #' Consult sample_annotation_matched before comparing biological groups.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41594-025-01485-w>.
@@ -765,7 +765,7 @@ glyhub_PXD046637_N_Lung <- function(
 #' flagged. Biological independence and exact glycan compositions remain unassigned.
 #'
 #' @section Availability and source license:
-#' Downloaded from the independent non-CPTAC data release through the verified cache.
+#' Downloaded from the existing data release through the verified cache.
 #' Deposited PRIDE source data are CC0-1.0, explicitly declared in the project API.
 #' Cite the original authors and accession; see metadata redistribution and source provenance.
 #' @source <https://doi.org/10.1038/s41592-019-0504-x>.

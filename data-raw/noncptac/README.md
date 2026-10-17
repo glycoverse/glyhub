@@ -1,6 +1,6 @@
 # Non-CPTAC data sources and reproduction
 
-Eight DQGlyco/Glyco-DIA objects are distributed in the independent `data-noncptac-2026-10-17-v1` release, based on explicit PRIDE project CC0 licenses. Five other complete objects remain local because their source attachment or repository redistribution scope is unresolved. Source numbers are preserved. See `publication-decisions.tsv` for the exact per-object decisions.
+Eight DQGlyco/Glyco-DIA objects are distributed in the existing `data-v0.1.0` release, based on explicit PRIDE project CC0 licenses. Five other complete objects remain local because their source attachment or repository redistribution scope is unresolved. Source numbers are preserved. See `publication-decisions.tsv` for the exact per-object decisions.
 
 ## Load
 

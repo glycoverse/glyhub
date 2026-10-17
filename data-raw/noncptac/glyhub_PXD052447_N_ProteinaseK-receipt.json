@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD052447_N_ProteinaseK.rds",
       "bytes": 31302092,
       "sha256": "67500dcff2e09b1ebbaaba8813abee1ea1439026f0a818d6e3e4a3859f346a08",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_ProteinaseK.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD052447_N_ProteinaseK.rds",
       "features": 125755,
       "measurements": 18
     }

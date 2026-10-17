@@ -74,8 +74,8 @@ evidence, and `colData(x)` retains source conditions and observation locations.
 
 The 83 existing released datasets are stored in the [Glyhub data release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 The package includes the catalog and loader code, with no bundled data objects.
-This checkout adds eight CC0-cleared non-CPTAC datasets in the independent
-[data release](https://github.com/glycoverse/glyhub/releases/tag/data-noncptac-2026-10-17-v1).
+This checkout adds eight CC0-cleared non-CPTAC datasets in the existing
+[data release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 Five other candidates remain local: their `storage` is `"staged"` and URLs are empty
 because permission to redistribute the complete objects has not been established.
 See [the local build workflow](data-raw/noncptac/README.md) to seed its verified

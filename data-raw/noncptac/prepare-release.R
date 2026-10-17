@@ -1,6 +1,6 @@
 # Metadata-only preparation of the license-cleared batch; no upload or Git action.
 devtools::load_all(quiet = TRUE)
-tag <- "data-noncptac-2026-10-17-v1"
+tag <- "data-v0.1.0"
 root <- "data-raw/noncptac"
 decisions <- jsonlite::fromJSON(file.path(root, "publication-decisions.json"))
 m <- read.delim(file.path(root, "manifest.tsv"), stringsAsFactors = FALSE)

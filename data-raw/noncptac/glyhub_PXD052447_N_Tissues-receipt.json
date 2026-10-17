@@ -14,8 +14,8 @@
       "filename": "glyhub_PXD052447_N_Tissues.rds",
       "bytes": 65947199,
       "sha256": "b04a942f1404a456cc4d409caddd1ab915aa91076f7dfd3f6025ac4fd482b3f1",
-      "version": "data-noncptac-2026-10-17-v1",
-      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_Tissues.rds",
+      "version": "data-v0.1.0",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/glyhub_PXD052447_N_Tissues.rds",
       "features": 205904,
       "measurements": 18
     }
