@@ -210,3 +210,23 @@ test_that("catalog annotations agree with representative scientific assets", {
     expect_identical(entry$quant_method, S4Vectors::metadata(x)$unit)
   }
 })
+
+test_that("catalog metadata stays synchronized with curated asset hashes", {
+  manifest <- read.delim(system.file(
+    "extdata",
+    "manifest.tsv",
+    package = "glyhub"
+  ))
+  curated <- manifest[manifest$kind == "curated", ]
+  metadata <- read.delim(system.file(
+    "extdata",
+    "catalog-metadata.tsv",
+    package = "glyhub"
+  ))
+  expect_equal(anyDuplicated(metadata$dataset), 0L)
+  expect_setequal(metadata$dataset, curated$dataset)
+  expect_identical(
+    metadata$sha256[match(curated$dataset, metadata$dataset)],
+    curated$sha256
+  )
+})
