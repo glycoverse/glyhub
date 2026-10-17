@@ -10,7 +10,12 @@ features and 15 source observations are represented.
 ## Usage
 
 ``` r
-glyhub_GPST000676_GAG
+glyhub_GPST000676_GAG(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -27,6 +32,27 @@ GlycoPOST GPST000676. Figure 5 e,f. Study:
 <https://doi.org/10.1038/s41467-026-70804-6>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000676>. Quantitative source:
 <https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41467-026-70804-6/MediaObjects/41467_2026_70804_MOESM10_ESM.xlsx>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -55,6 +81,10 @@ raw-file correspondence is asserted.
 Molecular annotations retain source precision. Unresolved compositions
 or structures are NA; original annotations are retained in rowData. All
 quantitative source features are preserved.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000676_GAG")` to load this dataset.
 
 ## See also
 

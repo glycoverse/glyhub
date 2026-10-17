@@ -6,7 +6,12 @@ Ramazzottius varieornatus and Hypsibius exemplaris.
 ## Usage
 
 ``` r
-glyhub_GPST000534_N
+glyhub_GPST000534_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ varieornatus and H. exemplaris. Study:
 <https://doi.org/10.1016/j.mcpro.2025.100979>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000534>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The author table reports 24 identified glycan structures and an
@@ -38,6 +64,10 @@ preserved; the unresolved aggregate has no typed glycan annotation.
 Twenty-four source linkage diagrams independently checked against the
 rendered deposited table; Others retains missing composition and
 structure.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000534_N")` to load this dataset.
 
 ## See also
 

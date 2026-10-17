@@ -7,7 +7,12 @@ source-specific peak records across 11 spectra.
 ## Usage
 
 ``` r
-glyhub_GPST000602_Sh_GSL
+glyhub_GPST000602_Sh_GSL(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -25,6 +30,27 @@ GlycoPOST GPST000602. Supplementary Data 1 / Table S1 - Raw MALDI-TOF-MS
 data. Study: <https://doi.org/10.1038/s41467-026-70850-0>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000602>. Quantitative source:
 <https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-70850-0/MediaObjects/41467_2026_70850_MOESM3_ESM.xlsx>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -49,6 +75,10 @@ All retained features have source putative composition annotations
 parsed to typed monosaccharide counts; exact glycan structures remain
 NA. Original labels, m/z values, all source block values and source
 formulas are preserved.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000602_Sh_GSL")` to load this dataset.
 
 ## See also
 

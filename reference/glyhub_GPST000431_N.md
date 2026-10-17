@@ -8,7 +8,12 @@ features and 62 source observations are represented.
 ## Usage
 
 ``` r
-glyhub_GPST000431_N
+glyhub_GPST000431_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -25,6 +30,27 @@ GlycoPOST GPST000431. SUGA_DrugTreatments_GlycanQuant. Study:
 <https://doi.org/10.1021/acs.jproteome.4c00657>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000431>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000431.1/SUGA_DrugTreatments_GlycanQuant_treatmentkey.xlsx>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -53,6 +79,10 @@ distinct experiments are retained in column metadata.
 Molecular annotations retain source precision. Unresolved compositions
 or structures are NA; original annotations are retained in rowData. All
 quantitative source features are preserved.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000431_N")` to load this dataset.
 
 ## See also
 

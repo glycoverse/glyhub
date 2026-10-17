@@ -7,7 +7,12 @@ Leukemia (AML) Cell Lines.
 ## Usage
 
 ``` r
-glyhub_GPST000214_N_AML_CellLines
+glyhub_GPST000214_N_AML_CellLines(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000214. . Study: <https://doi.org/10.3390/cells10113058>.
 Repository: <https://glycopost.glycosmos.org/entry/GPST000214>.
 Quantitative source:
 <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8616353/supplementaryFiles>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -44,6 +70,11 @@ Counts follow the author legend: H=Hex, N=HexNAc, F=Fuc, S=NeuAc,
 P=phosphate, Su=sulfate. In typed composition, sulfate uses S and sialic
 acid uses NeuAc. Structures are not inferred from composition, retention
 order or mass.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000214_N_AML_CellLines")` to load this
+dataset.
 
 ## See also
 

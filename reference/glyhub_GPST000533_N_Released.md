@@ -7,7 +7,12 @@ contains three HC0, three SG1 and three SG2 observations.
 ## Usage
 
 ``` r
-glyhub_GPST000533_N_Released
+glyhub_GPST000533_N_Released(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -27,6 +32,27 @@ GlycoPOST GPST000533. results of 231208_Hpt_glycans. Study:
 Annotation evidence:
 <https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-56524-3/MediaObjects/41467_2025_56524_MOESM1_ESM.pdf>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 PNGase F-released glycans were labeled with aminoxy tandem mass tag
@@ -42,6 +68,10 @@ structures in Supplementary Figures 1d/e and 2a. Typed structures
 preserve unknown linkages; terminal or otherwise unlocalized fucose is
 left structurally unassigned. Original labels and figure evidence are
 retained.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000533_N_Released")` to load this dataset.
 
 ## See also
 

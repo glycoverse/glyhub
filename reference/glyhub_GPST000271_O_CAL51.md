@@ -7,7 +7,12 @@ interactions.
 ## Usage
 
 ``` r
-glyhub_GPST000271_O_CAL51
+glyhub_GPST000271_O_CAL51(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -25,6 +30,27 @@ GlycoPOST GPST000271. Summary - O_glycans. Study:
 <https://glycopost.glycosmos.org/entry/GPST000271>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000271.1/Glycan_supplementary_table_N_O_glycan.xlsx>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Five source-numbered observations are provided for each of the three
@@ -36,6 +62,10 @@ available. No glycan topology is inferred from composition.
 
 Composition and retention-time-resolved feature labels are preserved;
 structure is not assigned.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000271_O_CAL51")` to load this dataset.
 
 ## See also
 

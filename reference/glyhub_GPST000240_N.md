@@ -6,7 +6,12 @@ worms, microfilariae, adult females and adult males, and L3 larvae.
 ## Usage
 
 ``` r
-glyhub_GPST000240_N
+glyhub_GPST000240_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -22,6 +27,27 @@ glycan_structure column; features without a supported structure are NA.
 GlycoPOST GPST000240. Supplementary Table S3, B - MALDI Raw Data. Study:
 <https://doi.org/10.1016/j.mcpro.2022.100201>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000240>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -42,6 +68,10 @@ groups without selecting a particular attachment.
 floating groups kept uncertain. Source compositions preserve Hex,
 HexNAc, Fuc, GlcA and phosphorylcholine; analytical anthranilic-acid
 labeling is recorded separately.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000240_N")` to load this dataset.
 
 ## See also
 

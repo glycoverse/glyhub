@@ -7,7 +7,12 @@ isotopic aniline labeling.
 ## Usage
 
 ``` r
-glyhub_GPST000604_CS_DS
+glyhub_GPST000604_CS_DS(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -25,6 +30,27 @@ GlycoPOST GPST000604. ac5c02338_si_002.xlsx. Study:
 <https://doi.org/10.1021/acs.analchem.5c02338>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000604>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Sample 12C XIC peak areas are summed across observed sodium adducts.
@@ -40,6 +66,10 @@ source chemistry remains available in rowData.
 Exact source structures and modification counts retained; typed
 composition missing because DeltaUA is unsupported. No saturated-residue
 substitution.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000604_CS_DS")` to load this dataset.
 
 ## See also
 

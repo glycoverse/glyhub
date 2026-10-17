@@ -7,7 +7,12 @@ each of the first four groups and eight in the muscle-invasive group.
 ## Usage
 
 ``` r
-glyhub_GPST000585_N
+glyhub_GPST000585_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000585. Table S1. Study:
 <https://doi.org/10.3390/ijms26104891>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000585>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 PNGase F-released, reduced and permethylated N-glycans were quantified
@@ -36,6 +62,10 @@ converting class labels into asserted structures.
 Source-derived composition annotations; linkage information is retained
 as source annotation without inferring a full topology. No complete
 unambiguous structures are asserted.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000585_N")` to load this dataset.
 
 ## See also
 

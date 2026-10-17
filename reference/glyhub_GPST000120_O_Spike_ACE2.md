@@ -8,7 +8,12 @@ Columns are protein-level profiles, not biological replicates.
 ## Usage
 
 ``` r
-glyhub_GPST000120_O_Spike_ACE2
+glyhub_GPST000120_O_Spike_ACE2(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -27,6 +32,27 @@ GlycoPOST GPST000120. Sheet1. Study:
 <https://glycopost.glycosmos.org/data/GPST000120.0/olinked3.xlsx>.
 Annotation evidence: <https://ts.glytoucan.org/sparql>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The entire 16-feature source O-glycan table is retained. The two columns
@@ -41,6 +67,11 @@ converted with glyparse 0.8.1, reparsed and validated with glyrepr
 1.1.0, and compositions derived from those structures. This preserves
 the source accession assignments and does not infer structures from mass
 or infer new experimental linkage evidence.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000120_O_Spike_ACE2")` to load this
+dataset.
 
 ## See also
 

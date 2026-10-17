@@ -7,7 +7,12 @@ mock infection.
 ## Usage
 
 ``` r
-glyhub_GPST000671_N
+glyhub_GPST000671_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000671. . Study:
 <https://doi.org/10.1038/s42003-026-10759-y>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000671>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000671.0/Supplementary%20File_4_Glycomics.xlsx>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -50,6 +76,10 @@ identity is resolved only when the row explicitly names it; ambiguous
 substitution remains source annotation without a falsely complete
 composition. Glycans were chemically reduced for measurement; structures
 represent the source-referenced glycan identity.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000671_N")` to load this dataset.
 
 ## See also
 

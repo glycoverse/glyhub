@@ -8,7 +8,12 @@ source panels.
 ## Usage
 
 ``` r
-glyhub_GPST000027_031_N
+glyhub_GPST000027_031_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -28,6 +33,27 @@ GlycoPOST GPST000027 and GPST000031. Supplementary Figure S2C (PDF page
 <https://glycopost.glycosmos.org/entry/GPST000027> and
 <https://glycopost.glycosmos.org/entry/GPST000031>. Quantitative source:
 <https://pmc.ncbi.nlm.nih.gov/articles/PMC6773561/>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -71,6 +97,10 @@ scan identifiers do not establish complete topology; no glycan_structure
 column is present. Source file attribution and article-version CC BY 4.0
 license evidence are retained separately from the package code license;
 no supplement-specific license declaration was independently verified.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000027_031_N")` to load this dataset.
 
 ## See also
 

@@ -45,7 +45,12 @@ quantitative abundance.</p>
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="va">glyhub_GPST000578_N_Fetuin_TwoSites</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">glyhub_GPST000578_N_Fetuin_TwoSites</span><span class="op">(</span></span>
+<span>  kind <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"curated"</span>, <span class="st">"raw"</span><span class="op">)</span>,</span>
+<span>  cache_dir <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"glyhub.cache_dir"</span>, <span class="fu">tools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/tools/userdir.html" class="external-link">R_user_dir</a></span><span class="op">(</span><span class="st">"glyhub"</span>, <span class="st">"cache"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>  refresh <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  offline <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -63,6 +68,29 @@ source:
 <a href="https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-73091-3/MediaObjects/41467_2026_73091_MOESM4_ESM.xls" class="external-link">https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-73091-3/MediaObjects/41467_2026_73091_MOESM4_ESM.xls</a>.</p>
     </div>
     <div class="section level2">
+    <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
+
+
+<dl><dt id="arg-kind">kind<a class="anchor" aria-label="anchor" href="#arg-kind"></a></dt>
+<dd><p><code>"curated"</code> returns a data object; <code>"raw"</code> returns the path to
+a verified source archive. Raw archives are currently available for CPTAC.</p></dd>
+
+
+<dt id="arg-cache-dir">cache_dir<a class="anchor" aria-label="anchor" href="#arg-cache-dir"></a></dt>
+<dd><p>Cache directory, defaulting to
+<code>tools::R_user_dir("glyhub", "cache")</code>. Set option <code>glyhub.cache_dir</code>
+to change the default.</p></dd>
+
+
+<dt id="arg-refresh">refresh<a class="anchor" aria-label="anchor" href="#arg-refresh"></a></dt>
+<dd><p>Download the pinned resource again, even if cached.</p></dd>
+
+
+<dt id="arg-offline">offline<a class="anchor" aria-label="anchor" href="#arg-offline"></a></dt>
+<dd><p>Prohibit downloads; require a verified local resource.</p></dd>
+
+</dl></div>
+    <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>Complete 14-feature two-site fetuin source peak-area block. Site 1 and Site
 2 remain distinct observations. Their sample identity/pairing is not
@@ -78,6 +106,12 @@ GlyTouCan SPARQL service. Structures are converted with glyparse 0.8.1 and
 validated with glyrepr 1.1.0, and compositions are derived from the
 validated structures. No mass-based assignments or new experimental linkage
 evidence are inferred.</p>
+    </div>
+    <div class="section level2">
+    <h2 id="access">Access<a class="anchor" aria-label="anchor" href="#access"></a></h2>
+
+
+<p>Use <code>glyhub_load("glyhub_GPST000578_N_Fetuin_TwoSites")</code> to load this dataset.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>

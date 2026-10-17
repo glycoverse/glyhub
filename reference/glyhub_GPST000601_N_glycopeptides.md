@@ -6,7 +6,12 @@ serum, sampled on five days in three female rats and one male rat.
 ## Usage
 
 ``` r
-glyhub_GPST000601_N_glycopeptides
+glyhub_GPST000601_N_glycopeptides(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -23,6 +28,27 @@ GlycoPOST GPST000601. Table S2. Study:
 <https://doi.org/10.3390/ijms26157266>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000601>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Supplementary Table S2 provides 1256 quantified peptide-glycan feature
@@ -35,6 +61,11 @@ all original peptide and protein mappings are retained.
 
 Source-derived compositions and original annotation fields are
 preserved; unknown linkages are not inferred.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000601_N_glycopeptides")` to load this
+dataset.
 
 ## See also
 

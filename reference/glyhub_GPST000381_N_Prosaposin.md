@@ -8,7 +8,12 @@ observations.
 ## Usage
 
 ``` r
-glyhub_GPST000381_N_Prosaposin
+glyhub_GPST000381_N_Prosaposin(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -26,6 +31,27 @@ GlycoPOST GPST000381. Sheet1. Study:
 <https://glycopost.glycosmos.org/entry/GPST000381>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000381.0/Analyzed%20data.xlsx>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The quantitative assay is the complete Relative expression block (I:J),
@@ -42,6 +68,11 @@ replication for these two profiles, so replicate type is unknown.
 Composition counts are directly transcribed from the author Sugar
 Composition block; NeuAc and NeuGc are distinguished. No glycan
 structure is inferred from composition or mass.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000381_N_Prosaposin")` to load this
+dataset.
 
 ## See also
 

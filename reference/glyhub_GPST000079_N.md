@@ -6,7 +6,12 @@ Released N-glycans from skeletal muscle at postnatal days 1, 7, 14 and
 ## Usage
 
 ``` r
-glyhub_GPST000079_N
+glyhub_GPST000079_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -23,6 +28,27 @@ GlycoPOST GPST000079. BP_muscles_rawdata_251017_Perse. Study:
 <https://doi.org/10.1074/mcp.ra120.002166>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000079>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Supplementary Table S5 individual abundance columns are used; derived
@@ -33,6 +59,10 @@ digalactose-to-sialic-acid switch during muscle development.
 
 Source-derived compositions and original annotation fields are
 preserved; unknown linkages are not inferred.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000079_N")` to load this dataset.
 
 ## See also
 

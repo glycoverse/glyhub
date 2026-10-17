@@ -7,7 +7,12 @@ wild-type HEK293 with seven glycosylation knockout conditions.
 ## Usage
 
 ``` r
-glyhub_GPST000125_O_HEK293
+glyhub_GPST000125_O_HEK293(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000125. Table S4_1, O block. Study:
 <https://doi.org/10.1016/j.devcel.2021.02.023>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000125>. Quantitative source:
 <https://pmc.ncbi.nlm.nih.gov/articles/instance/8086148/bin/NIHMS1683936-supplement-5.xlsx>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -48,6 +74,10 @@ original names and native-vector diagrams; N feature 17 remains
 unresolved because its source drawing also disagrees. Registry
 identifiers and all conflicting evidence remain intact. No mass-derived
 structure or sample identity is inferred.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000125_O_HEK293")` to load this dataset.
 
 ## See also
 

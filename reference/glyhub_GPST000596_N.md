@@ -7,7 +7,12 @@ supporting a study of platelet activation and thrombosis.
 ## Usage
 
 ``` r
-glyhub_GPST000596_N
+glyhub_GPST000596_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -25,6 +30,27 @@ GlycoPOST GPST000596. . Study:
 <https://glycopost.glycosmos.org/entry/GPST000596>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000596.0/FUT8-KO_Manuscript_SupplementaryTable_Final.xlsx>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The assay contains the six original area-under-curve columns C1–C3 and
@@ -38,6 +64,10 @@ Explicit total Hex, HexNAc, Fuc, NeuGc and NeuAc counts are used.
 Distinct chromatographic isomers remain distinct features.
 Core/outer-arm linkage information is retained as an author annotation
 and is not expanded into an unsupported complete glycan topology.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000596_N")` to load this dataset.
 
 ## See also
 

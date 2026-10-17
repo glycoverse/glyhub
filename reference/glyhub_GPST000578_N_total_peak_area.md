@@ -11,7 +11,12 @@ represented.
 ## Usage
 
 ``` r
-glyhub_GPST000578_N_total_peak_area
+glyhub_GPST000578_N_total_peak_area(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -28,6 +33,27 @@ GlycoPOST GPST000578. Figure 5bc. Study:
 <https://doi.org/10.1038/s41467-026-73091-3>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000578>. Quantitative source:
 <https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-73091-3/MediaObjects/41467_2026_73091_MOESM4_ESM.xls>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -76,6 +102,11 @@ GlyTouCan SPARQL service. Structures are converted with glyparse 0.8.1
 and validated with glyrepr 1.1.0, and compositions are derived from the
 validated structures. No mass-based assignments or new experimental
 linkage evidence are inferred.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000578_N_total_peak_area")` to load this
+dataset.
 
 ## See also
 

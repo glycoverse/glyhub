@@ -6,7 +6,12 @@ squamous cell carcinoma tumors with or without lymph node metastasis.
 ## Usage
 
 ``` r
-glyhub_GPST000296_N
+glyhub_GPST000296_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ supplementary spectral atlas. Study:
 <https://doi.org/10.1016/j.mcpro.2023.100586>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000296>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The complete source matrix contains 12 N0 and 19 N+ tumor samples.
@@ -39,6 +65,10 @@ monosaccharide identity.
 Source spectral-atlas topologies with TS3-supported sialic linkages;
 unnumbered linkages and uncertain arms retained as unknown.
 Composition-only annotation for 9b.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000296_N")` to load this dataset.
 
 ## See also
 

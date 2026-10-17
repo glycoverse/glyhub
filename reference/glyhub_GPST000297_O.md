@@ -6,7 +6,12 @@ measured by glycomic mass spectrometry after per-deuter-O-methylation.
 ## Usage
 
 ``` r
-glyhub_GPST000297_O
+glyhub_GPST000297_O(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -23,6 +28,27 @@ GlycoPOST GPST000297. Supplementary Table 9 (PDF S46). Study:
 <https://doi.org/10.1038/s41467-023-41094-z>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000297>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 All 14 reported rows of Supplementary Table 9 are retained across three
@@ -37,6 +63,10 @@ are preserved separately from analytical derivatization.
 All 13 proposed O-glycan structures are encoded with unknown linkages
 and source floating-group ambiguity. Native methyl substituents remain
 explicit.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000297_O")` to load this dataset.
 
 ## See also
 

@@ -6,7 +6,12 @@ five A549 and six BEAS-2B small-extracellular-vesicle preparations.
 ## Usage
 
 ``` r
-glyhub_GPST000562_CS_DS
+glyhub_GPST000562_CS_DS(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000562. . Study:
 <https://glycopost.glycosmos.org/entry/GPST000562>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000562.0/identification_quantification_table.xlsx>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Amounts derive from enzymatic CS/DS depolymerization and LC-MS/MS
@@ -40,6 +66,10 @@ installed glyrepr vocabulary cannot represent faithfully; typed
 compositions therefore remain missing rather than substituting saturated
 HexA. D0a0, D0a4, D0a6 and D0a10 denote zero, 4-O, 6-O and
 4,6-di-O-sulfation, respectively.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000562_CS_DS")` to load this dataset.
 
 ## See also
 

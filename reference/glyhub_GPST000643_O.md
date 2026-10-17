@@ -11,7 +11,12 @@ observations are represented.
 ## Usage
 
 ``` r
-glyhub_GPST000643_O
+glyhub_GPST000643_O(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -27,6 +32,27 @@ glycan_structure column; features without a supported structure are NA.
 GlycoPOST GPST000643. Supplementary Table S5 (media-6.xlsx). Study:
 <https://doi.org/10.64898/2026.03.26.714468>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000643>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -134,6 +160,10 @@ All 108 source composition labels are retained as typed compositions.
 Forty-seven source putative structures have explicit encodings;
 remaining structural descriptions are preserved as text without
 completing unspecified linkages.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000643_O")` to load this dataset.
 
 ## See also
 

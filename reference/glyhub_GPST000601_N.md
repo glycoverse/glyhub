@@ -7,7 +7,12 @@ acquisitions.
 ## Usage
 
 ``` r
-glyhub_GPST000601_N
+glyhub_GPST000601_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -23,6 +28,27 @@ features without a supported structure are NA.
 GlycoPOST GPST000601. quantitative-only (combine). Study:
 <https://doi.org/10.3390/ijms26157266>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000601>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -41,6 +67,10 @@ Source-derived compositions and original labels are retained. 6
 source-supported structures are typed; unspecified bonds remain unknown.
 Unresolved or conflicting structures remain missing with source
 provenance.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000601_N")` to load this dataset.
 
 ## See also
 

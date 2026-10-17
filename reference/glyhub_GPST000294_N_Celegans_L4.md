@@ -7,7 +7,12 @@ profiles.
 ## Usage
 
 ``` r
-glyhub_GPST000294_N_Celegans_L4
+glyhub_GPST000294_N_Celegans_L4(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -23,6 +28,27 @@ features without a supported structure are NA.
 GlycoPOST GPST000294. Supplementary Table S1, PDF pages 4–17. Study:
 <https://doi.org/10.1016/j.mcpro.2023.100505>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000294>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -54,6 +80,11 @@ residue-labelled topology verification. Row 196 uses the article Results
 identification of Figure 4I as a branched Man-HexNAc motif to constrain
 both fragments to the upper-arm Man; row 197 retains uncertain arm
 placement of long and short chains.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000294_N_Celegans_L4")` to load this
+dataset.
 
 ## See also
 

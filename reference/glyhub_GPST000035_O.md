@@ -9,7 +9,12 @@ union features and 66 source observations are represented.
 ## Usage
 
 ``` r
-glyhub_GPST000035_O
+glyhub_GPST000035_O(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -26,6 +31,27 @@ GlycoPOST GPST000035. S2 Fetuin_standard. Study:
 <https://doi.org/10.1007/s00018-020-03504-z>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000035>. Quantitative source:
 <https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs00018-020-03504-z/MediaObjects/18_2020_3504_MOESM4_ESM.xlsx>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -340,6 +366,10 @@ are preserved. Sulfation is encoded as a substituent where supported.
 Molecular annotations retain source precision. Unresolved compositions
 or structures are NA; original annotations are retained in rowData. All
 quantitative source features are preserved.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000035_O")` to load this dataset.
 
 ## See also
 

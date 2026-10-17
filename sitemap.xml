@@ -8,6 +8,14 @@
 <url><loc>https://glycoverse.github.io/glyhub/authors.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/index.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub-package.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_CCRCC.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_COAD.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_HGSC.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_HNSCC.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_LSCC.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_LUAD.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_PDAC.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_CPTAC_UCEC.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_GPST000009_O.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_GPST000027_031_N.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_GPST000035_O.html</loc></url>
@@ -83,7 +91,9 @@
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_GPST000676_GAG.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_GPST000738_N_B4GalT1.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_GPST000738_N_ST6GAL1.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_catalog.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.html</loc></url>
+<url><loc>https://glycoverse.github.io/glyhub/reference/glyhub_load.html</loc></url>
 <url><loc>https://glycoverse.github.io/glyhub/reference/index.html</loc></url>
 </urlset>
 

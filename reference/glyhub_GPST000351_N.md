@@ -8,7 +8,12 @@ and pooled controls.
 ## Usage
 
 ``` r
-glyhub_GPST000351_N
+glyhub_GPST000351_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -26,6 +31,27 @@ GlycoPOST GPST000351. . Study:
 <https://glycopost.glycosmos.org/entry/GPST000351>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000351.0/TPNG%20curated%20data%20MALDI.xlsx>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The complete author-renormalized matrix is retained as fractions, with
@@ -40,6 +66,10 @@ H and N encode Hex and HexNAc; F encodes Fuc. Ge/Gl encode
 alpha2,6/alpha2,3-linked Neu5Gc, E/L encode the corresponding Neu5Ac
 linkages, and Ac denotes an acetyl substituent. Linkage counts remain in
 source annotations; composition does not imply a full structure.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000351_N")` to load this dataset.
 
 ## See also
 

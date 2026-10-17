@@ -6,7 +6,12 @@ Slc 35 a 3-knockout mice, with three source observations per genotype.
 ## Usage
 
 ``` r
-glyhub_GPST000647_N
+glyhub_GPST000647_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -23,6 +28,27 @@ GlycoPOST GPST000647. Supplementary Table 1. Study:
 <https://doi.org/10.3390/ijms27041643>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000647>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The 179 rows include paucimannose, high-mannose, hybrid, neutral-complex
@@ -37,6 +63,10 @@ isomer structures.
 Source-derived composition annotations; linkage information is retained
 as source annotation without inferring a full topology. No complete
 unambiguous structures are asserted.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000647_N")` to load this dataset.
 
 ## See also
 

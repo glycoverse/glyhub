@@ -6,7 +6,12 @@ of COVID-positive and COVID-negative donors.
 ## Usage
 
 ``` r
-glyhub_GPST000460_N
+glyhub_GPST000460_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -22,6 +27,27 @@ a supported structure are NA.
 GlycoPOST GPST000460. Tables S5-S8. Study:
 <https://doi.org/10.1021/acs.analchem.3c03649>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000460>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -39,6 +65,10 @@ cardiomyocyte IDs are not guessed.
 Author glycan labels, additive monosaccharide counts, and uniquely
 matched registry structures. Source/registry annotation conflicts are
 preserved for review.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000460_N")` to load this dataset.
 
 ## See also
 

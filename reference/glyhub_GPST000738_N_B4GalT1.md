@@ -9,7 +9,12 @@ observations.
 ## Usage
 
 ``` r
-glyhub_GPST000738_N_B4GalT1
+glyhub_GPST000738_N_B4GalT1(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -26,6 +31,27 @@ GlycoPOST GPST000738. Supplementary Table 1, sheets 1 and 2; composition
 comparisons in sheets 5 and 6; Figure S3. Study:
 <https://doi.org/10.3389/fmolb.2026.1932584>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000738>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -50,6 +76,10 @@ values therefore need not give 100.
 Nine typed compositions retain distinct source isomer labels. Four fully
 localized structures from Supplementary Figure S3 are encoded; ambiguous
 antennae and unresolved isomer mappings retain diagram evidence.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000738_N_B4GalT1")` to load this dataset.
 
 ## See also
 

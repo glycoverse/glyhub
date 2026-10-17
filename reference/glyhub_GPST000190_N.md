@@ -6,7 +6,12 @@ plasma N-glycans after linkage-specific sialic-acid derivatization.
 ## Usage
 
 ``` r
-glyhub_GPST000190_N
+glyhub_GPST000190_N(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000190. Table S-3. Study:
 <https://doi.org/10.1021/acs.analchem.1c02610>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000190>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 The deposited complete extraction table contains 39
@@ -40,6 +66,10 @@ are not interpreted as independent biological donors.
 Composition-level glycans with source charge, retention time,
 procainamide label, and linkage-specific sialic-acid derivative counts;
 no full topology inferred.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000190_N")` to load this dataset.
 
 ## See also
 

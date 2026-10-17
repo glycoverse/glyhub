@@ -6,7 +6,12 @@ features and 134 samples; paired fractional abundance block preserved.
 ## Usage
 
 ``` r
-glyhub_GPST000599_serum_n
+glyhub_GPST000599_serum_n(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000599. Table S2. Study:
 <https://glycopost.glycosmos.org/entry/GPST000599>. Quantitative source:
 <https://glycopost.glycosmos.org/data/GPST000599.0/Supplementary%20Table.xlsx>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Complete 45-feature by 134-sample glycan peak areas exactly match
@@ -37,6 +63,10 @@ imported as glycan matrices.
 Molecular annotations retain source precision. Unresolved compositions
 or structures are NA; original annotations are retained in rowData. All
 quantitative source features are preserved.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000599_serum_n")` to load this dataset.
 
 ## See also
 

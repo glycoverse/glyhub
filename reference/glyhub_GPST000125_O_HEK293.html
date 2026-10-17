@@ -42,7 +42,12 @@ HEK293 with seven glycosylation knockout conditions.</p>
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="va">glyhub_GPST000125_O_HEK293</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">glyhub_GPST000125_O_HEK293</span><span class="op">(</span></span>
+<span>  kind <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"curated"</span>, <span class="st">"raw"</span><span class="op">)</span>,</span>
+<span>  cache_dir <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"glyhub.cache_dir"</span>, <span class="fu">tools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/tools/userdir.html" class="external-link">R_user_dir</a></span><span class="op">(</span><span class="st">"glyhub"</span>, <span class="st">"cache"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>  refresh <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  offline <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -59,6 +64,29 @@ glycan_structure column; features without a supported structure are NA.</p>
 source:
 <a href="https://pmc.ncbi.nlm.nih.gov/articles/instance/8086148/bin/NIHMS1683936-supplement-5.xlsx" class="external-link">https://pmc.ncbi.nlm.nih.gov/articles/instance/8086148/bin/NIHMS1683936-supplement-5.xlsx</a>.</p>
     </div>
+    <div class="section level2">
+    <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
+
+
+<dl><dt id="arg-kind">kind<a class="anchor" aria-label="anchor" href="#arg-kind"></a></dt>
+<dd><p><code>"curated"</code> returns a data object; <code>"raw"</code> returns the path to
+a verified source archive. Raw archives are currently available for CPTAC.</p></dd>
+
+
+<dt id="arg-cache-dir">cache_dir<a class="anchor" aria-label="anchor" href="#arg-cache-dir"></a></dt>
+<dd><p>Cache directory, defaulting to
+<code>tools::R_user_dir("glyhub", "cache")</code>. Set option <code>glyhub.cache_dir</code>
+to change the default.</p></dd>
+
+
+<dt id="arg-refresh">refresh<a class="anchor" aria-label="anchor" href="#arg-refresh"></a></dt>
+<dd><p>Download the pinned resource again, even if cached.</p></dd>
+
+
+<dt id="arg-offline">offline<a class="anchor" aria-label="anchor" href="#arg-offline"></a></dt>
+<dd><p>Prohibit downloads; require a verified local resource.</p></dd>
+
+</dl></div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>All source-numbered features and both experiment columns for all eight
@@ -80,6 +108,12 @@ conflicting compositions are supported by original names and native-vector
 diagrams; N feature 17 remains unresolved because its source drawing also
 disagrees. Registry identifiers and all conflicting evidence remain intact.
 No mass-derived structure or sample identity is inferred.</p>
+    </div>
+    <div class="section level2">
+    <h2 id="access">Access<a class="anchor" aria-label="anchor" href="#access"></a></h2>
+
+
+<p>Use <code>glyhub_load("glyhub_GPST000125_O_HEK293")</code> to load this dataset.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>

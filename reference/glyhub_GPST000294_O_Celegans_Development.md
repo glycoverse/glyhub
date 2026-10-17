@@ -7,7 +7,12 @@ quantified across six source culture profiles.
 ## Usage
 
 ``` r
-glyhub_GPST000294_O_Celegans_Development
+glyhub_GPST000294_O_Celegans_Development(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -24,6 +29,27 @@ GlycoPOST GPST000294. . Study:
 <https://doi.org/10.1016/j.mcpro.2023.100505>. Repository:
 <https://glycopost.glycosmos.org/entry/GPST000294>. Quantitative source:
 <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7614267/supplementaryFiles>.
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
 
 ## Details
 
@@ -47,6 +73,11 @@ PC/Me substituent counts. The source Hex3HexNAc1 Hex1Me has four Hex
 residues and one Me substituent. No Fuc identity is assigned to generic
 dHex. Linear/branched qualifiers and source isomers remain annotations;
 no full structure is inferred.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000294_O_Celegans_Development")` to load
+this dataset.
 
 ## See also
 

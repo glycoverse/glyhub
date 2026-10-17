@@ -7,7 +7,12 @@ standards retained.
 ## Usage
 
 ``` r
-glyhub_GPST000128_o_precursor
+glyhub_GPST000128_o_precursor(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
 ```
 
 ## Format
@@ -25,6 +30,27 @@ GlycoPOST GPST000128. Panorama PrecursorChromInfo. Study:
 <https://glycopost.glycosmos.org/entry/GPST000128>. Quantitative source:
 <https://panoramaweb.org/Panorama%20Public/2020/U%20of%20Nebraska%20Medical%20Center%20Gundry%20Lab%20-%20Sickle%20Cell%20Manuscript/query-selectRows.api?schemaName=targetedms&query.queryName=PrecursorChromInfo&query.maxRows=2000>.
 
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source archive. Raw archives are currently available for
+  CPTAC.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
 ## Details
 
 Six source sample identifiers 07,08,13,39,55,56 retained. Clinical group
@@ -35,6 +61,10 @@ already integrated processed quantity export, no raw-MS reprocessing.
 Molecular annotations retain source precision. Unresolved compositions
 or structures are NA; original annotations are retained in rowData. All
 quantitative source features are preserved.
+
+## Access
+
+Use `glyhub_load("glyhub_GPST000128_o_precursor")` to load this dataset.
 
 ## See also
 
