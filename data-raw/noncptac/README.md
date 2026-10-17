@@ -1,6 +1,6 @@
 # Non-CPTAC data sources and reproduction
 
-Eight DQGlyco/Glyco-DIA objects are distributed in the existing `data-v0.1.0` release, based on explicit PRIDE project CC0 licenses. Five other complete objects remain local because their source attachment or repository redistribution scope is unresolved. Source numbers are preserved. See `publication-decisions.tsv` for the exact per-object decisions.
+Eight DQGlyco/Glyco-DIA objects are distributed in the existing `data-v0.1.0` release, based on explicit PRIDE project CC0 licenses. Five additional factual numerical objects are published at the user's explicit request after disclosure that source attachment or repository redistribution scope remains unresolved. Publication does not establish or grant a new license. Source numbers are preserved. See `publication-decisions.tsv` for the exact per-object decisions.
 
 ## Load
 
@@ -11,7 +11,7 @@ SummarizedExperiment::assay(x)
 S4Vectors::metadata(x)$assay_scale
 ```
 
-All these objects use catalog `kind = "curated"` to mean a standardized object; this does **not** mean its intensities were normalized, its confidence thresholds were changed, or every row is a confirmed biological glycopeptide. The separate catalog `kind = "raw"` still refers to existing CPTAC source archives. Uncached local candidates fail clearly, without attempting an invented URL.
+All these objects use catalog `kind = "curated"` to mean a standardized object; this does **not** mean its intensities were normalized, its confidence thresholds were changed, or every row is a confirmed biological glycopeptide. The separate catalog `kind = "raw"` still refers to existing CPTAC source archives.
 
 ## Source choices
 
@@ -39,11 +39,11 @@ Reporter channels, library-analysis outputs, technical replicates and QC injecti
 - Lung: choose deposited ion reporter intensities. Fifteen batches × eleven channels do not map automatically to 132 clinical specimens. The authors' protein-corrected 12,480 × 132 matrix is retained in `metadata(x)$processed_clinical_alternative` with its scale and labels. No verified channel-to-patient or ion-to-processed-row map exists in inspected annotations; never join by row/column order. Upstream PSM-to-ion aggregation was performed by author software, not repeated here.
 - Glyco-DIA dilution: use `FG.MS2TotalPeakArea`, with MS1 peak areas retained in metadata. Source decoys and confidence fields are preserved. Different libraries are alternative analyses. Do not infer glycan identity solely from rounded modification masses.
 - Glyco-DIA serum SA: 93,442 precursor/library/decoy keys across six source runs; all 563,129 source associations are retained. Exactly 2,477 repeated associations share a quantitative cell only after exact MS2/MS1 equality is confirmed. The deSA CSV contains a repository-confirmed 28,672-byte NUL region and an unparsable quantitative record; it is excluded without deleting rows or inventing replacements. This object is not the complete SA/deSA comparison.
-- HCC QC: source linear MBR-derived quantities are available, but upstream normalization has not been independently established. HCC clinical: only the verified 1,038-feature × 140-sample discovery table is staged. It follows source missingness filtering, median normalization, log2, normal-distribution interpolation and differential-feature selection. It is **not** raw intensity, the complete 8,902-feature matrix, or the 60-person validation cohort. Do not use it for unbiased feature discovery/classifier evaluation. The earliest unnormalized clinical matrix was not available through the inspected sources; the QC table is a different experiment and cannot substitute for clinical samples.
+- HCC QC: source linear MBR-derived quantities are available, but upstream normalization has not been independently established. HCC clinical: only the verified 1,038-feature × 140-sample discovery table is included. It follows source missingness filtering, median normalization, log2, normal-distribution interpolation and differential-feature selection. It is **not** raw intensity, the complete 8,902-feature matrix, or the 60-person validation cohort. Do not use it for unbiased feature discovery/classifier evaluation. The earliest unnormalized clinical matrix was not available through the inspected sources; the QC table is a different experiment and cannot substitute for clinical samples.
 
 `metadata(x)$raw_abundance` always means the original numerical matrix selected from the author source. It does not certify that a processed-only source was unprocessed. No inverse transformation is used to claim recovered raw intensity. Source blank/NA/NaN entries are retained as missing; numerical zeros are not given a guessed missingness interpretation.
 
-Full machine-readable rationale, exact source URLs, hashes, known processing and unresolved points: [source-selection.json](source-selection.json), [source-selection.tsv](source-selection.tsv), [candidate-decisions.tsv](candidate-decisions.tsv). Source terms and code license are distinct. The PRIDE CC0 evidence applies to the deposited source files, not automatically to publisher supplementary workbooks. Five unresolved complete objects have empty URLs.
+Full machine-readable rationale, exact source URLs, hashes, known processing and unresolved points: [source-selection.json](source-selection.json), [source-selection.tsv](source-selection.tsv), [candidate-decisions.tsv](candidate-decisions.tsv). Source terms and code license are distinct. The PRIDE CC0 evidence applies to the deposited source files, not automatically to publisher supplementary workbooks. The five additional objects retain the unresolved source-license status; only outdated local-staging wording and publication metadata were updated.
 
 ## Rebuild and verify
 
@@ -52,13 +52,18 @@ Acquire the public files under the evidence layout recorded in the provenance, o
 ```sh
 Rscript data-raw/noncptac/build.R ../evidence ../noncptac-cache
 Rscript data-raw/noncptac/prepare-release.R
+Rscript data-raw/noncptac/prepare-additional-release.R
 Rscript data-raw/noncptac/verify-all.R ../evidence ../noncptac-cache
 Rscript data-raw/noncptac/update-docs.R
 air format R/noncptac.R
 ```
 
-The original 91 catalog rows remain unchanged. Rebuilding historical package resources can replace the manifest; rerun the local builder afterward. Do not overwrite an existing published release with this staged manifest.
+The original 91 catalog rows remain unchanged. Rebuilding historical package resources can replace the manifest; rerun the local builder afterward. Do not overwrite existing published assets.
 
 Validation results are in [validation-all.json](validation-all.json). Exact source comparisons completed during individual builders can be reused only for matching asset hashes in `completed-source-checks.json`; changed objects are checked again. The loader verifies every staged asset hash before offline use. Tests for historical GlycoPOST assets may skip when their maintainer-only staging files are absent; those skips do not validate historical source data.
 
 Superseded processed tissue, solubility, dilution and lung objects remain in the task's `../evidence/processed-alternatives` as alternatives, not duplicate active cohorts. The provisional pGlycoQuant object was retired because -1 encoding remains unresolved; it is not in the active manifest or exported interface. GPST000216/GPST000109 remain excluded.
+
+## Data release tags
+
+Future package version tags and data tags use matching versions, for example `v0.2.0` and `data-v0.2.0`. Do not create separate project or batch data tags. The current data release remains `data-v0.1.0`; this convention does not authorize creating a package tag or initiating a future release.

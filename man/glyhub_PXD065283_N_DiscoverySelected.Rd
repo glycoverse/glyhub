@@ -62,11 +62,11 @@ identifiers, annotations and provenance are retained in metadata.
 The assay preserves source numeric values. The metadata field raw_abundance means
 source numbers; it does not certify that the authors supplied unprocessed intensity.
 }
-\section{Local availability}{
+\section{Availability and source license}{
 
-Locally staged only; the complete object's redistribution permission is unresolved.
-Build with \code{data-raw/noncptac/build.R} and use the supplied local cache.
-No remote URL is provided. See publication-decisions.tsv for the source-specific reason.
+Downloaded from the existing data release through the verified cache.
+Source-license scope for the complete object remains unresolved; no new license is granted.
+See publication-decisions.tsv and object metadata for original sources and limitations.
 }
 
 \seealso{

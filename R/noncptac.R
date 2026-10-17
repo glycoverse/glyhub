@@ -27,10 +27,10 @@
 #' The assay preserves source numeric values. The metadata field raw_abundance means
 #' source numbers; it does not certify that the authors supplied unprocessed intensity.
 #'
-#' @section Local availability:
-#' Locally staged only; the complete object's redistribution permission is unresolved.
-#' Build with `data-raw/noncptac/build.R` and use the supplied local cache.
-#' No remote URL is provided. See publication-decisions.tsv for the source-specific reason.
+#' @section Availability and source license:
+#' Downloaded from the existing data release through the verified cache.
+#' Source-license scope for the complete object remains unresolved; no new license is granted.
+#' See publication-decisions.tsv and object metadata for original sources and limitations.
 #' @source <https://doi.org/10.1038/s41467-026-74631-7>.
 #' @inheritParams glyhub_load
 #' @return A [glyexp::GlycoproteomicSE].
@@ -148,10 +148,10 @@ glyhub_PXD052447_N_Solubility <- function(
 #' The assay preserves source numeric values. The metadata field raw_abundance means
 #' source numbers; it does not certify that the authors supplied unprocessed intensity.
 #'
-#' @section Local availability:
-#' Locally staged only; the complete object's redistribution permission is unresolved.
-#' Build with `data-raw/noncptac/build.R` and use the supplied local cache.
-#' No remote URL is provided. See publication-decisions.tsv for the source-specific reason.
+#' @section Availability and source license:
+#' Downloaded from the existing data release through the verified cache.
+#' Source-license scope for the complete object remains unresolved; no new license is granted.
+#' See publication-decisions.tsv and object metadata for original sources and limitations.
 #' @source <https://doi.org/10.1002/advs.202516299>.
 #' @inheritParams glyhub_load
 #' @return A [glyexp::GlycoproteomicSE].
@@ -201,10 +201,10 @@ glyhub_PXD065283_N_QC <- function(
 #' The assay preserves source numeric values. The metadata field raw_abundance means
 #' source numbers; it does not certify that the authors supplied unprocessed intensity.
 #'
-#' @section Local availability:
-#' Locally staged only; the complete object's redistribution permission is unresolved.
-#' Build with `data-raw/noncptac/build.R` and use the supplied local cache.
-#' No remote URL is provided. See publication-decisions.tsv for the source-specific reason.
+#' @section Availability and source license:
+#' Downloaded from the existing data release through the verified cache.
+#' Source-license scope for the complete object remains unresolved; no new license is granted.
+#' See publication-decisions.tsv and object metadata for original sources and limitations.
 #' @source <https://doi.org/10.1002/advs.202516299>.
 #' @inheritParams glyhub_load
 #' @return A [glyexp::GlycoproteomicSE].
@@ -638,10 +638,10 @@ glyhub_PXD052447_N_ProteinaseK <- function(
 #' The assay preserves source numeric values. The metadata field raw_abundance means
 #' source numbers; it does not certify that the authors supplied unprocessed intensity.
 #'
-#' @section Local availability:
-#' Locally staged only; the complete object's redistribution permission is unresolved.
-#' Build with `data-raw/noncptac/build.R` and use the supplied local cache.
-#' No remote URL is provided. See publication-decisions.tsv for the source-specific reason.
+#' @section Availability and source license:
+#' Downloaded from the existing data release through the verified cache.
+#' Source-license scope for the complete object remains unresolved; no new license is granted.
+#' See publication-decisions.tsv and object metadata for original sources and limitations.
 #' @source <https://doi.org/10.1038/s41467-025-60437-6>.
 #' @inheritParams glyhub_load
 #' @return A [glyexp::GlycoproteomicSE].
@@ -701,10 +701,10 @@ glyhub_IPX0011099000_N_Brain <- function(
 #' The assay preserves source numeric values. The metadata field raw_abundance means
 #' source numbers; it does not certify that the authors supplied unprocessed intensity.
 #'
-#' @section Local availability:
-#' Locally staged only; the complete object's redistribution permission is unresolved.
-#' Build with `data-raw/noncptac/build.R` and use the supplied local cache.
-#' No remote URL is provided. See publication-decisions.tsv for the source-specific reason.
+#' @section Availability and source license:
+#' Downloaded from the existing data release through the verified cache.
+#' Source-license scope for the complete object remains unresolved; no new license is granted.
+#' See publication-decisions.tsv and object metadata for original sources and limitations.
 #' @source <https://doi.org/10.1038/s41467-025-57364-x>.
 #' @inheritParams glyhub_load
 #' @return A [glyexp::GlycoproteomicSE].

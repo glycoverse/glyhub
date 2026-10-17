@@ -1,0 +1,32 @@
+{
+  "glyhub_PXD070547_N_HumanAtlas": {
+    "previous_sha256": "ed0aa4a74db885c56adcdb4aec9db478408bcee1e9ba0d015258058c1e56162d",
+    "sha256": "16461e2fc1748a18e4383665a35aeca2babb22648fc8817ab7f245e071de9630",
+    "bytes": 6197183,
+    "all_content_except_license_and_publication_identical": true
+  },
+  "glyhub_PXD065283_N_QC": {
+    "previous_sha256": "3dffbce9fb1bf2fc45b353f7a417368174125244bb22db409a527e92af21b578",
+    "sha256": "7db8af1a70e8e4115ea9c6c70f799ff8513963ba9da5f16417d6714a721879f4",
+    "bytes": 1888158,
+    "all_content_except_license_and_publication_identical": true
+  },
+  "glyhub_PXD065283_N_DiscoverySelected": {
+    "previous_sha256": "8160ca1e68613d78c6b29cbc75aa3bf029ef03910b6227b3584c539923e3e6d2",
+    "sha256": "af4377e6aa7f6b4ad38f9fadc2e386b0bef35686511d47c3219b6ff5078513f7",
+    "bytes": 2142532,
+    "all_content_except_license_and_publication_identical": true
+  },
+  "glyhub_IPX0011099000_N_Brain": {
+    "previous_sha256": "7c86fee84580fbbf658a06186301baff4af1d0e61d10fcb473df504b1eb80c69",
+    "sha256": "3714ba52aa00e7ff09862cb369c7dd519ba1e20aed037bc04748b3b00c256ab8",
+    "bytes": 3181648,
+    "all_content_except_license_and_publication_identical": true
+  },
+  "glyhub_PXD046637_N_Lung": {
+    "previous_sha256": "e6df15870d664ac81673e7f50ec0e90552d32c65cc7b40083f44454f05f2099c",
+    "sha256": "c229834dec6d3851767c1e953df44ae26017cea3a03f235a86b32934be16614a",
+    "bytes": 33574842,
+    "all_content_except_license_and_publication_identical": true
+  }
+}

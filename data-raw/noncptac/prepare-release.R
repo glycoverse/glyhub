@@ -14,7 +14,9 @@ pins <- jsonlite::fromJSON(
   simplifyVector = FALSE
 )
 checks <- list()
-for (name in decisions$dataset[decisions$publish]) {
+for (name in decisions$dataset[
+  decisions$publish & decisions$source_license == "CC0-1.0"
+]) {
   i <- match(name, m$dataset)
   path <- file.path(root, "assets", m$filename[i])
   old <- readRDS(path)

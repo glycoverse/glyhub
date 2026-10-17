@@ -19,8 +19,8 @@
     "doi": "10.1038/s41467-026-74631-7",
     "missing_typed_compositions": 17351,
     "sample_annotation_matched": {},
-    "license": "Attachment applicability not independently confirmed; local staging only",
-    "asset_sha256": "ed0aa4a74db885c56adcdb4aec9db478408bcee1e9ba0d015258058c1e56162d"
+    "license": "Attachment applicability not independently confirmed; source-license scope remains unresolved; no new license granted",
+    "asset_sha256": "16461e2fc1748a18e4383665a35aeca2babb22648fc8817ab7f245e071de9630"
   },
   "glyhub_PXD052447_N_Solubility": {
     "dataset": "glyhub_PXD052447_N_Solubility",
@@ -66,8 +66,8 @@
     "doi": "10.1002/advs.202516299",
     "missing_typed_compositions": 3078,
     "sample_annotation_matched": {},
-    "license": "Article and attachment terms require separate redistribution review; local staging only",
-    "asset_sha256": "3dffbce9fb1bf2fc45b353f7a417368174125244bb22db409a527e92af21b578"
+    "license": "Article and attachment terms require separate redistribution review; source-license scope remains unresolved; no new license granted",
+    "asset_sha256": "7db8af1a70e8e4115ea9c6c70f799ff8513963ba9da5f16417d6714a721879f4"
   },
   "glyhub_PXD065283_N_DiscoverySelected": {
     "dataset": "glyhub_PXD065283_N_DiscoverySelected",
@@ -89,8 +89,8 @@
     "doi": "10.1002/advs.202516299",
     "missing_typed_compositions": 0,
     "sample_annotation_matched": {},
-    "license": "Article and attachment terms require separate redistribution review; local staging only",
-    "asset_sha256": "8160ca1e68613d78c6b29cbc75aa3bf029ef03910b6227b3584c539923e3e6d2"
+    "license": "Article and attachment terms require separate redistribution review; source-license scope remains unresolved; no new license granted",
+    "asset_sha256": "af4377e6aa7f6b4ad38f9fadc2e386b0bef35686511d47c3219b6ff5078513f7"
   },
   "glyhub_PXD052447_N_TwoFF": {
     "dataset": "glyhub_PXD052447_N_TwoFF",
@@ -250,8 +250,8 @@
     "doi": "10.1038/s41467-025-60437-6",
     "missing_typed_compositions": 7582,
     "sample_annotation_matched": 48,
-    "license": "Article CC BY-NC-ND4.0; repository attachment applicability unconfirmed; local staging only",
-    "asset_sha256": "7c86fee84580fbbf658a06186301baff4af1d0e61d10fcb473df504b1eb80c69"
+    "license": "Article CC BY-NC-ND4.0; repository attachment applicability unconfirmed; source-license scope remains unresolved; no new license granted",
+    "asset_sha256": "3714ba52aa00e7ff09862cb369c7dd519ba1e20aed037bc04748b3b00c256ab8"
   },
   "glyhub_PXD046637_N_Lung": {
     "dataset": "glyhub_PXD046637_N_Lung",
@@ -275,8 +275,8 @@
     "doi": "10.1038/s41467-025-57364-x",
     "missing_typed_compositions": 28875,
     "sample_annotation_matched": 0,
-    "license": "Article CC BY-NC-ND4.0; attachment applicability unconfirmed; local staging only",
-    "asset_sha256": "e6df15870d664ac81673e7f50ec0e90552d32c65cc7b40083f44454f05f2099c"
+    "license": "Article CC BY-NC-ND4.0; attachment applicability unconfirmed; source-license scope remains unresolved; no new license granted",
+    "asset_sha256": "c229834dec6d3851767c1e953df44ae26017cea3a03f235a86b32934be16614a"
   },
   "glyhub_PXD011063_O_SerumSA": {
     "dataset": "glyhub_PXD011063_O_SerumSA",

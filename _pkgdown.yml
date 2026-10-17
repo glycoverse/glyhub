@@ -189,7 +189,7 @@ reference:
   - glyhub_load
   - glyhub_catalog
 
-- title: Non-CPTAC local candidates
+- title: Non-CPTAC datasets
   contents:
   - glyhub_PXD070547_N_HumanAtlas
   - glyhub_PXD052447_N_Solubility

@@ -61,7 +61,7 @@ for (i in seq_len(nrow(m))) {
     unlist(lapply(detail, function(t) {
       c(paste0("#' ", strwrap(t, width = 85)), "#'")
     })),
-    if (e$storage == "release") {
+    if (e$storage == "release" && grepl("CC0-1.0", md$license, fixed = TRUE)) {
       c(
         "#' @section Availability and source license:",
         "#' Downloaded from the existing data release through the verified cache.",
@@ -70,10 +70,10 @@ for (i in seq_len(nrow(m))) {
       )
     } else {
       c(
-        "#' @section Local availability:",
-        "#' Locally staged only; the complete object's redistribution permission is unresolved.",
-        "#' Build with `data-raw/noncptac/build.R` and use the supplied local cache.",
-        "#' No remote URL is provided. See publication-decisions.tsv for the source-specific reason."
+        "#' @section Availability and source license:",
+        "#' Downloaded from the existing data release through the verified cache.",
+        "#' Source-license scope for the complete object remains unresolved; no new license is granted.",
+        "#' See publication-decisions.tsv and object metadata for original sources and limitations."
       )
     },
     paste0("#' @source <https://doi.org/", md$doi, ">."),
@@ -160,12 +160,16 @@ write.table(
 pkg <- readLines('_pkgdown.yml')
 i <- which(
   pkg %in%
-    c('- title: DQGlyco mouse tissues', '- title: Non-CPTAC local candidates')
+    c(
+      '- title: DQGlyco mouse tissues',
+      '- title: Non-CPTAC local candidates',
+      '- title: Non-CPTAC datasets'
+    )
 )[1]
 stopifnot(length(i) == 1L, !is.na(i))
 pkg <- c(
   pkg[seq_len(i - 1)],
-  '- title: Non-CPTAC local candidates',
+  '- title: Non-CPTAC datasets',
   '  contents:',
   paste0('  - ', m$dataset)
 )

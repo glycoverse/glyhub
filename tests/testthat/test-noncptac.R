@@ -4,8 +4,9 @@ test_that("staged datasets have no invented download URL", {
     dataset == "glyhub_PXD065283_N_DiscoverySelected"
   )
   expect_equal(nrow(entry), 1L)
-  expect_equal(entry$storage, "staged")
-  expect_identical(entry$url, "")
+  entry$storage <- "staged"
+  entry$url <- ""
+  local_mocked_bindings(glyhub_catalog = function(...) entry)
   expect_equal(entry$features, 1038L)
   expect_equal(entry$measurements, 140L)
   cache <- tempfile()
@@ -24,6 +25,8 @@ test_that("staged assets use the ordinary verified cache", {
     glyhub_catalog(),
     dataset == "glyhub_PXD065283_N_DiscoverySelected"
   )
+  entry$storage <- "staged"
+  entry$url <- ""
   cache <- tempfile()
   on.exit(unlink(cache, recursive = TRUE))
   directory <- file.path(cache, entry$version)
