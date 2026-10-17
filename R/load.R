@@ -11,10 +11,6 @@
 #'   Additional metadata columns are:
 #'   * `exp_type`: `"glycomics"` or `"glycoproteomics"`.
 #'   * `glycan_type`: Glycan type recorded in the curated object.
-#'   * `n_samples`: Number of measurement columns (including technical replicates
-#'     and pooled samples where present), not necessarily unique individuals.
-#'     This is an alias for `measurements`.
-#'   * `n_variables`: Number of feature rows; an alias for `features`.
 #'   * `has_glycan_structures`: Whether at least one non-missing typed glycan
 #'     structure is available, rather than compositions alone.
 #'   * `quant_method`: Source-recorded quantification description, falling back
@@ -52,8 +48,6 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
   index[stale] <- NA_integer_
   catalog$exp_type <- metadata$exp_type[index]
   catalog$glycan_type <- metadata$glycan_type[index]
-  catalog$n_samples <- catalog$measurements
-  catalog$n_variables <- catalog$features
   catalog$has_glycan_structures <- metadata$has_glycan_structures[index]
   catalog$quant_method <- metadata$quant_method[index]
   raw <- catalog$kind == "raw"

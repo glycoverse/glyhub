@@ -17,10 +17,6 @@ Additional metadata columns are:
 \itemize{
 \item \code{exp_type}: \code{"glycomics"} or \code{"glycoproteomics"}.
 \item \code{glycan_type}: Glycan type recorded in the curated object.
-\item \code{n_samples}: Number of measurement columns (including technical replicates
-and pooled samples where present), not necessarily unique individuals.
-This is an alias for \code{measurements}.
-\item \code{n_variables}: Number of feature rows; an alias for \code{features}.
 \item \code{has_glycan_structures}: Whether at least one non-missing typed glycan
 structure is available, rather than compositions alone.
 \item \code{quant_method}: Source-recorded quantification description, falling back

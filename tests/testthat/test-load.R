@@ -1,7 +1,9 @@
 test_that("catalog returns a tibble for every resource kind", {
   expect_s3_class(glyhub_catalog(), "tbl_df")
   for (kind in c("curated", "raw", "all")) {
-    expect_s3_class(glyhub_catalog(kind), "tbl_df")
+    catalog <- glyhub_catalog(kind)
+    expect_s3_class(catalog, "tbl_df")
+    expect_length(intersect(names(catalog), c("n_samples", "n_variables")), 0L)
   }
 })
 
@@ -170,8 +172,6 @@ test_that("catalog metadata describes every curated dataset without loading asse
   x <- glyhub_catalog()
   expect_setequal(unique(x$exp_type), c("glycomics", "glycoproteomics"))
   expect_equal(anyNA(x$glycan_type), FALSE)
-  expect_identical(x$n_samples, x$measurements)
-  expect_identical(x$n_variables, x$features)
   expect_type(x$has_glycan_structures, "logical")
   expect_equal(anyNA(x$has_glycan_structures), FALSE)
   expect_equal(anyNA(x$quant_method), FALSE)
@@ -198,8 +198,8 @@ test_that("catalog annotations agree with representative scientific assets", {
   )) {
     x <- load_test_dataset(name)
     entry <- subset(glyhub_catalog(), dataset == name)
-    expect_identical(entry$n_samples, ncol(x))
-    expect_identical(entry$n_variables, nrow(x))
+    expect_identical(entry$measurements, ncol(x))
+    expect_identical(entry$features, nrow(x))
     expect_identical(entry$glycan_type, S4Vectors::metadata(x)$glycan_type)
     expect_identical(
       entry$exp_type,
