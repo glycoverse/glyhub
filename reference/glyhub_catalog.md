@@ -124,4 +124,5 @@ glyhub_catalog()[, c("dataset", "storage", "bytes")]
 #> 94                       glyhub_IPX0011099000_N_Brain release  3181648
 #> 95                            glyhub_PXD046637_N_Lung release 33574842
 #> 96                         glyhub_PXD011063_O_SerumSA release 18902343
+#> 97                          glyhub_MSV000089484_N_HCC release  1378116
 ```

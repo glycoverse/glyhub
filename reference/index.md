@@ -373,3 +373,5 @@
   : Paired lung nodule glycoproteomics
 - [`glyhub_PXD011063_O_SerumSA()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD011063_O_SerumSA.md)
   : Glyco-DIA SA serum source precursor peak areas
+- [`glyhub_MSV000089484_N_HCC()`](https://glycoverse.github.io/glyhub/reference/glyhub_MSV000089484_N_HCC.md)
+  : pGlycoQuant HCC cell-line source intensities

@@ -67,7 +67,7 @@ All datasets use
 The 83 existing released datasets are stored in the [Glyhub data
 release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 The package includes the catalog and loader code, with no bundled data
-objects. Thirteen non-CPTAC datasets are available in the existing [data
+objects. Fourteen non-CPTAC datasets are available in the existing [data
 release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 Eight have explicit PRIDE CC0 source-file licenses. For the human atlas,
 mouse brain, lung and two HCC objects, source-license scope remains
@@ -152,8 +152,17 @@ See [the source-selection audit and rebuild
 instructions](https://glycoverse.github.io/glyhub/data-raw/noncptac/README.md).
 Data licenses remain separate from the package’s code license. PRIDE CC0
 evidence applies to the eight DQGlyco/Glyco-DIA objects, not
-automatically to publisher supplements or the five objects with
-unresolved source-license scope. Original sources, attribution,
-processing and limitations remain in each object’s metadata and the
-[publication
+automatically to publisher supplements or objects with unresolved
+source-license scope. Original sources, attribution, processing and
+limitations remain in each object’s metadata and the [publication
 records](https://glycoverse.github.io/glyhub/data-raw/noncptac/publication-decisions.tsv).
+
+[`glyhub_MSV000089484_N_HCC()`](https://glycoverse.github.io/glyhub/reference/glyhub_MSV000089484_N_HCC.md)
+provides the original 11,001 × 12 pGlycoQuant cell-line table. By an
+explicit user-confirmed curation convention, 40,338 source `-1` values
+become assay `NA`; an author definition of this code has not been
+located. All 2,137 zeros and positive intensities are unchanged. The
+original values, including `-1`, remain in `metadata(x)$raw_abundance`.
+No log transform, normalization, imputation or row filtering is added.
+The 6,435-row filtered sheet is not included as another cohort.
+Attachment-license scope remains unconfirmed.
