@@ -1,9 +1,11 @@
 # Curated Glycomics and Glycoproteomics Data Resources
 
-Public glycomics and glycoproteomics data represented as 'glyexp'
-'GlycomicSE' and 'GlycoproteomicSE' objects with original molecular
-annotations, measurement provenance, source licenses, and explicit
-missing-value processing records.
+Provides access to curated public glycomics and glycoproteomics datasets
+from GlycoPOST and CPTAC as 'glyexp' 'GlycomicSE' and 'GlycoproteomicSE'
+objects. Datasets preserve source molecular annotations, measurement
+provenance, and explicit processing records. A catalog and shared loader
+retrieve data from versioned GitHub Releases, verify file integrity with
+SHA-256 checksums, and cache downloads for offline reuse.
 
 ## See also
 
@@ -11,10 +13,11 @@ Useful links:
 
 - <https://glycoverse.github.io/glyhub/>
 
+- <https://github.com/glycoverse/glyhub>
+
+- Report bugs at <https://github.com/glycoverse/glyhub/issues>
+
 ## Author
 
-**Maintainer**: First Last <first.last@example.com>
-
-Authors:
-
-- First Last <first.last@example.com>
+**Maintainer**: Bin Fu <23110220018@m.fudan.edu.cn>
+([ORCID](https://orcid.org/0000-0001-8567-2997)) \[copyright holder\]

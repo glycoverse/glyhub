@@ -11,8 +11,8 @@
 <script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Curated Glycomics and Glycoproteomics Data Resources">
-<meta name="description" content="Public glycomics and glycoproteomics data represented as glyexp GlycomicSE and GlycoproteomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
-<meta property="og:description" content="Public glycomics and glycoproteomics data represented as glyexp GlycomicSE and GlycoproteomicSE objects with original molecular annotations, measurement provenance, source licenses, and explicit missing-value processing records.">
+<meta name="description" content="Provides access to curated public glycomics and glycoproteomics datasets from GlycoPOST and CPTAC as glyexp GlycomicSE and GlycoproteomicSE objects. Datasets preserve source molecular annotations, measurement provenance, and explicit processing records. A catalog and shared loader retrieve data from versioned GitHub Releases, verify file integrity with SHA-256 checksums, and cache downloads for offline reuse.">
+<meta property="og:description" content="Provides access to curated public glycomics and glycoproteomics datasets from GlycoPOST and CPTAC as glyexp GlycomicSE and GlycoproteomicSE objects. Datasets preserve source molecular annotations, measurement provenance, and explicit processing records. A catalog and shared loader retrieve data from versioned GitHub Releases, verify file integrity with SHA-256 checksums, and cache downloads for offline reuse.">
 <meta property="og:image" content="https://glycoverse.github.io/glyhub/logo.svg">
 </head>
 <body>
@@ -38,6 +38,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/glycoverse/glyhub/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -112,7 +113,15 @@
 <p>Source: <a href="https://pdc.cancer.gov/pdc/cptac-pancancer" class="external-link">CPTAC Pan-Cancer</a>. Follow <a href="https://pdc.cancer.gov/pdc/data-use-guidelines" class="external-link">PDC data-use and attribution guidelines</a>; the package’s MIT code license does not license source data.</p>
 </div>
 </div>
-  </main><aside class="col-md-3"><div class="license">
+  </main><aside class="col-md-3"><div class="links">
+<h2 data-toc-skip>Links</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/glycoverse/glyhub/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/glycoverse/glyhub/issues" class="external-link">Report a bug</a></li>
+</ul>
+</div>
+
+<div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
@@ -139,7 +148,7 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>First Last <br><small class="roles"> Author, maintainer </small>   </li>
+<li>Bin Fu <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0000-0001-8567-2997" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 </ul>
 </div>
 
@@ -147,6 +156,9 @@
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
+<li><a href="https://glycoverse.r-universe.dev/glyhub" class="external-link"><img src="https://glycoverse.r-universe.dev/glyhub/badges/version" alt="R-universe version"></a></li>
+<li><a href="https://github.com/glycoverse/glyhub/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/glycoverse/glyhub/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://app.codecov.io/gh/glycoverse/glyhub" class="external-link"><img src="https://codecov.io/gh/glycoverse/glyhub/graph/badge.svg" alt="Codecov test coverage"></a></li>
 </ul>
 </div>
 
@@ -155,7 +167,7 @@
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by First Last.</p>
+  <p>Developed by Bin Fu.</p>
 </div>
 
 <div class="pkgdown-footer-right">
