@@ -66,30 +66,15 @@
 </h2>
 <p>Install the development version from <a href="https://github.com/glycoverse/glyhub" class="external-link">GitHub</a>:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw">if</span> <span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html" class="external-link">requireNamespace</a></span><span class="op">(</span><span class="st">"pak"</span>, quietly <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"pak"</span>, repos <span class="op">=</span> <span class="st">"https://cloud.r-project.org"</span><span class="op">)</span></span>
-<span><span class="op">}</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>repos <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span></span>
-<span>  glycoverse <span class="op">=</span> <span class="st">"https://glycoverse.r-universe.dev"</span>,</span>
-<span>  CRAN <span class="op">=</span> <span class="st">"https://cloud.r-project.org"</span></span>
-<span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/repo_add.html" class="external-link">repo_add</a></span><span class="op">(</span>glycoverse <span class="op">=</span> <span class="st">"https://glycoverse.r-universe.dev"</span><span class="op">)</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html" class="external-link">pkg_install</a></span><span class="op">(</span><span class="st">"glycoverse/glyhub"</span><span class="op">)</span></span></code></pre></div>
 <p>The Glycoverse repository provides dependencies such as <code>glyexp</code>. <code>pak</code> also resolves required Bioconductor packages for your R version.</p>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
+<p>The 83 existing released datasets are stored in the <a href="https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0" class="external-link">Glyhub data release</a>. The package includes the catalog and loader code, with no bundled data objects.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_load.html">glyhub_load</a></span><span class="op">(</span><span class="st">"glyhub_GPST000738_N_B4GalT1"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">as.list</a></span><span class="op">(</span><span class="fu">S4Vectors</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/S4Vectors/man/Annotated-class.html" class="external-link">metadata</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span><span class="op">$</span><span class="va">processing_counts</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
-<p>All datasets use <code><a href="reference/glyhub_load.html">glyhub_load()</a></code>. <code>SummarizedExperiment::assay(x)</code> contains the curated abundance matrix; <code>S4Vectors::metadata(x)$raw_abundance</code> preserves the unconverted values. <code>rowData(x)</code> retains typed glyrepr annotations and source evidence, and <code>colData(x)</code> retains source conditions and observation locations.</p>
-</div>
-<div class="section level2">
-<h2 id="loading-external-data">Loading external data<a class="anchor" aria-label="anchor" href="#loading-external-data"></a>
-</h2>
-<p>The 83 existing released datasets are stored in the <a href="https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0" class="external-link">Glyhub data release</a>. The package includes the catalog and loader code, with no bundled data objects. Fourteen non-CPTAC datasets are available in the existing <a href="https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0" class="external-link">data release</a>. Eight have explicit PRIDE CC0 source-file licenses. For the human atlas, mouse brain, lung and two HCC objects, source-license scope remains unresolved; publication does not establish or grant a new license. See the <a href="data-raw/noncptac/publication-decisions.tsv">per-object source and publication records</a>.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_catalog.html">glyhub_catalog</a></span><span class="op">(</span><span class="op">)</span><span class="op">[</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"dataset"</span>, <span class="st">"source"</span>, <span class="st">"bytes"</span><span class="op">)</span><span class="op">]</span><span class="op">)</span></span>
 <span><span class="co">#&gt;                       dataset    source  bytes</span></span>
 <span><span class="co">#&gt; 1 glyhub_GPST000738_N_B4GalT1 GlycoPOST  85324</span></span>
@@ -99,7 +84,7 @@
 <span><span class="co">#&gt; 5         glyhub_GPST000213_N GlycoPOST 273048</span></span>
 <span><span class="co">#&gt; 6         glyhub_GPST000213_O GlycoPOST  46920</span></span></code></pre></div>
 <p>Use either the common loader or a dataset’s own function. Both share the same verified cache and return the same object:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_load.html">glyhub_load</a></span><span class="op">(</span><span class="st">"glyhub_CPTAC_CCRCC"</span><span class="op">)</span></span>
 <span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_CPTAC_CCRCC.html">glyhub_CPTAC_CCRCC</a></span><span class="op">(</span><span class="op">)</span></span>
 <span></span>
@@ -109,17 +94,6 @@
 <span><span class="co"># Original CPTAC source archive; returns a verified local file path.</span></span>
 <span><span class="va">raw_file</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_CPTAC_CCRCC.html">glyhub_CPTAC_CCRCC</a></span><span class="op">(</span>kind <span class="op">=</span> <span class="st">"raw"</span><span class="op">)</span></span>
 <span><span class="co"># Equivalent: glyhub::glyhub_load("glyhub_CPTAC_CCRCC", kind = "raw")</span></span></code></pre></div>
-<p><strong>Breaking interface change:</strong> all former dataset objects are now functions. Add <code>()</code> when using a dataset name directly, or pass its name to <code><a href="reference/glyhub_load.html">glyhub_load()</a></code>. LazyData, variable-style access and <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code> access are no longer provided. <code><a href="reference/glyhub_catalog.html">glyhub_catalog()</a></code> lists all curated datasets; <code>kind = "raw"</code> lists available source archives, currently the eight CPTAC archives. Dataset help topics retain scientific details and source references.</p>
-<p>Every resource is checked against its size and SHA-256 before use. For released resources, the first call requires an internet connection; subsequent calls reuse the cache. Set <code>cache_dir</code> or option <code>glyhub.cache_dir</code> to select its location. <code>refresh = TRUE</code> retrieves the pinned version again; <code>offline = TRUE</code> prohibits downloads and requires a valid cached file. Delete cached files to clear the cache.</p>
-</div>
-<div class="section level2">
-<h2 id="non-cptac-studies">Non-CPTAC studies<a class="anchor" aria-label="anchor" href="#non-cptac-studies"></a>
-</h2>
-<p>These datasets prefer deposited reporter intensities, chromatographic peak areas, or the authors’ raw expression matrices. Source zeros are preserved. No additional normalization, imputation, logarithm, or inverse transformation is applied.</p>
-<p><code><a href="reference/glyhub_PXD052447_N_Tissues.html">glyhub_PXD052447_N_Tissues()</a></code> contains 205,904 deposited PSM rows across 18 TMT channels from three tissues of two mice, with technical replication. PSM rows are not unique glycopeptides. Rows without glycan annotations and unused or unmapped channels remain explicitly identifiable in the source annotations. Measurement channels and technical runs are not automatically independent people or animals.</p>
-<p>Some studies provide only processed quantitative tables. Their help pages and metadata state the scale, source normalization, transformations, imputation and feature selection. In particular, the HCC discovery table contains selected features, so it is not suitable for unbiased feature discovery or classifier performance estimation. <code>metadata(x)$raw_abundance</code> preserves source numbers; it does not imply that a processed source table is raw intensity. The earliest unnormalized HCC clinical matrix was not available through the inspected sources; the linear QC table represents a different experiment and cannot replace it.</p>
-<p>See <a href="data-raw/noncptac/README.html">the source-selection audit and rebuild instructions</a>. Data licenses remain separate from the package’s code license. PRIDE CC0 evidence applies to the eight DQGlyco/Glyco-DIA objects, not automatically to publisher supplements or objects with unresolved source-license scope. Original sources, attribution, processing and limitations remain in each object’s metadata and the <a href="data-raw/noncptac/publication-decisions.tsv">publication records</a>.</p>
-<p><code><a href="reference/glyhub_MSV000089484_N_HCC.html">glyhub_MSV000089484_N_HCC()</a></code> provides the original 11,001 × 12 pGlycoQuant cell-line table. By an explicit user-confirmed curation convention, 40,338 source <code>-1</code> values become assay <code>NA</code>; an author definition of this code has not been located. All 2,137 zeros and positive intensities are unchanged. The original values, including <code>-1</code>, remain in <code>metadata(x)$raw_abundance</code>. No log transform, normalization, imputation or row filtering is added. The 6,435-row filtered sheet is not included as another cohort. Attachment-license scope remains unconfirmed.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">

@@ -42,13 +42,7 @@ Install the development version from
 
 ``` r
 
-if (!requireNamespace("pak", quietly = TRUE)) {
-  install.packages("pak", repos = "https://cloud.r-project.org")
-}
-options(repos = c(
-  glycoverse = "https://glycoverse.r-universe.dev",
-  CRAN = "https://cloud.r-project.org"
-))
+pak::repo_add(glycoverse = "https://glycoverse.r-universe.dev")
 pak::pkg_install("glycoverse/glyhub")
 ```
 
@@ -57,32 +51,10 @@ also resolves required Bioconductor packages for your R version.
 
 ## Example
 
-``` r
-
-x <- glyhub::glyhub_load("glyhub_GPST000738_N_B4GalT1")
-dim(x)
-data.frame(as.list(S4Vectors::metadata(x)$processing_counts))
-```
-
-All datasets use
-[`glyhub_load()`](https://glycoverse.github.io/glyhub/reference/glyhub_load.md).
-`SummarizedExperiment::assay(x)` contains the curated abundance matrix;
-`S4Vectors::metadata(x)$raw_abundance` preserves the unconverted values.
-`rowData(x)` retains typed glyrepr annotations and source evidence, and
-`colData(x)` retains source conditions and observation locations.
-
-## Loading external data
-
 The 83 existing released datasets are stored in the [Glyhub data
 release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 The package includes the catalog and loader code, with no bundled data
-objects. Fourteen non-CPTAC datasets are available in the existing [data
-release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
-Eight have explicit PRIDE CC0 source-file licenses. For the human atlas,
-mouse brain, lung and two HCC objects, source-license scope remains
-unresolved; publication does not establish or grant a new license. See
-the [per-object source and publication
-records](https://glycoverse.github.io/glyhub/data-raw/noncptac/publication-decisions.tsv).
+objects.
 
 ``` r
 
@@ -111,70 +83,6 @@ x <- glyhub::glyhub_load("glyhub_GPST000738_N_B4GalT1", offline = TRUE)
 raw_file <- glyhub::glyhub_CPTAC_CCRCC(kind = "raw")
 # Equivalent: glyhub::glyhub_load("glyhub_CPTAC_CCRCC", kind = "raw")
 ```
-
-**Breaking interface change:** all former dataset objects are now
-functions. Add `()` when using a dataset name directly, or pass its name
-to
-[`glyhub_load()`](https://glycoverse.github.io/glyhub/reference/glyhub_load.md).
-LazyData, variable-style access and
-[`data()`](https://rdrr.io/r/utils/data.html) access are no longer
-provided.
-[`glyhub_catalog()`](https://glycoverse.github.io/glyhub/reference/glyhub_catalog.md)
-lists all curated datasets; `kind = "raw"` lists available source
-archives, currently the eight CPTAC archives. Dataset help topics retain
-scientific details and source references.
-
-Every resource is checked against its size and SHA-256 before use. For
-released resources, the first call requires an internet connection;
-subsequent calls reuse the cache. Set `cache_dir` or option
-`glyhub.cache_dir` to select its location. `refresh = TRUE` retrieves
-the pinned version again; `offline = TRUE` prohibits downloads and
-requires a valid cached file. Delete cached files to clear the cache.
-
-## Non-CPTAC studies
-
-These datasets prefer deposited reporter intensities, chromatographic
-peak areas, or the authors’ raw expression matrices. Source zeros are
-preserved. No additional normalization, imputation, logarithm, or
-inverse transformation is applied.
-
-[`glyhub_PXD052447_N_Tissues()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD052447_N_Tissues.md)
-contains 205,904 deposited PSM rows across 18 TMT channels from three
-tissues of two mice, with technical replication. PSM rows are not unique
-glycopeptides. Rows without glycan annotations and unused or unmapped
-channels remain explicitly identifiable in the source annotations.
-Measurement channels and technical runs are not automatically
-independent people or animals.
-
-Some studies provide only processed quantitative tables. Their help
-pages and metadata state the scale, source normalization,
-transformations, imputation and feature selection. In particular, the
-HCC discovery table contains selected features, so it is not suitable
-for unbiased feature discovery or classifier performance estimation.
-`metadata(x)$raw_abundance` preserves source numbers; it does not imply
-that a processed source table is raw intensity. The earliest
-unnormalized HCC clinical matrix was not available through the inspected
-sources; the linear QC table represents a different experiment and
-cannot replace it.
-
-See [the source-selection audit and rebuild
-instructions](https://glycoverse.github.io/glyhub/data-raw/noncptac/README.md).
-Data licenses remain separate from the package’s code license. PRIDE CC0
-evidence applies to the eight DQGlyco/Glyco-DIA objects, not
-automatically to publisher supplements or objects with unresolved
-source-license scope. Original sources, attribution, processing and
-limitations remain in each object’s metadata and the [publication
-records](https://glycoverse.github.io/glyhub/data-raw/noncptac/publication-decisions.tsv).
-
-[`glyhub_MSV000089484_N_HCC()`](https://glycoverse.github.io/glyhub/reference/glyhub_MSV000089484_N_HCC.md)
-provides the original 11,001 × 12 pGlycoQuant cell-line table. By an
-explicit user-confirmed curation convention, 40,338 source `-1` values
-become assay `NA`; an author definition of this code has not been
-located. All 2,137 zeros and positive intensities are unchanged. The
-original values, including `-1`, remain in `metadata(x)$raw_abundance`.
-No log transform, normalization, imputation or row filtering is added.
-The 6,435-row filtered sheet is not included as another cohort.
-Attachment-license scope remains unconfirmed.
 
 # Package index
 
