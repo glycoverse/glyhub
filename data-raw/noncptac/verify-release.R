@@ -1,14 +1,6 @@
 # Real cold-cache download verification of the existing release.
 args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 1L, !dir.exists(args[1]))
-Sys.unsetenv(c(
-  "http_proxy",
-  "https_proxy",
-  "HTTP_PROXY",
-  "HTTPS_PROXY",
-  "ALL_PROXY",
-  "all_proxy"
-))
 options(timeout = 600)
 devtools::load_all(quiet = TRUE)
 decisions <- jsonlite::fromJSON("data-raw/noncptac/publication-decisions.json")
