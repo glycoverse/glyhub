@@ -1,14 +1,14 @@
 # Stage every curated dataset externally and generate the package manifest.
 stopifnot(requireNamespace("glyexp", quietly = TRUE))
 staging <- "data-raw/bundled-build"
-assets <- "data-raw/releases/glyhub-data-v1"
+assets <- "data-raw/releases/v0.1.0"
 dir.create(assets, recursive = TRUE, showWarnings = FALSE)
 records <- jsonlite::fromJSON(
   "data-raw/dataset-descriptions.json",
   simplifyVector = FALSE
 )
 entries <- list()
-base_url <- "https://github.com/glycoverse/glyhub/releases/download/glyhub-data-v1/"
+base_url <- "https://github.com/glycoverse/glyhub/releases/download/v0.1.0/"
 for (record in records) {
   name <- record$name
   file <- file.path(staging, paste0(name, ".rda"))
@@ -28,7 +28,7 @@ for (record in records) {
     filename = basename(file),
     bytes = file.info(file)$size,
     sha256 = digest::digest(file = file, algo = "sha256"),
-    version = "glyhub-data-v1",
+    version = "v0.1.0",
     url = paste0(base_url, basename(file)),
     features = nrow(e[[name]]),
     measurements = ncol(e[[name]])
@@ -54,7 +54,7 @@ for (i in seq_len(nrow(cptac))) {
     filename = x$filename,
     bytes = x$bytes,
     sha256 = x$sha256,
-    version = "glyhub-data-v1",
+    version = "v0.1.0",
     url = paste0(base_url, x$filename),
     features = x$features,
     measurements = x$measurements

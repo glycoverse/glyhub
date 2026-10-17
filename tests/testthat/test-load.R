@@ -21,7 +21,7 @@ test_that("all datasets and their convenience functions use external storage", {
   )
   expect_match(
     x$url,
-    "^https://github.com/glycoverse/glyhub/releases/download/glyhub-data-v1/"
+    "^https://github.com/glycoverse/glyhub/releases/download/v0.1.0/"
   )
 })
 

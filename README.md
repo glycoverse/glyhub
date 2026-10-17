@@ -71,8 +71,8 @@ contains the curated abundance matrix;
 ## Loading external data
 
 All 83 datasets are stored in the [Glyhub data
-release](https://github.com/glycoverse/glyhub/releases/tag/glyhub-data-v1).
-The package includes the catalog and loader code, with no bundled data
+release](https://github.com/glycoverse/glyhub/releases/tag/v0.1.0). The
+package includes the catalog and loader code, with no bundled data
 objects.
 
 ``` r
