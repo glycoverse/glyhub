@@ -10,30 +10,54 @@ package is experimental.
 
 ## Available data
 
-75 datasets from 47 public GlycoPOST projects are available, including
-released glycans, glycosaminoglycan disaccharides and
-site/charge-resolved glycopeptides. Objects combine source-defined
-quantitative tables from the same study and glycan class where
-measurement definitions are compatible. GPST000602 is explicitly an
-annotated-peak subset with spectrum-specific, unaligned feature
-identities. Inclusion does not imply recovery of every experiment in its
-paper.
+glyhub provides **97 curated datasets** as `GlycomicSE` or
+`GlycoproteomicSE` objects:
 
-Each dataset has its own help page describing the biological system,
-experimental design, units, source table and limitations. Use
+| Source | Datasets | Coverage |
+|:---|---:|:---|
+| GlycoPOST | 75 | 47 public projects covering released N- and O-glycans, glycosphingolipid-derived glycans, glycosaminoglycan disaccharides and glycopeptides. |
+| CPTAC | 8 | N-glycoproteomics from eight cancer cohorts: CCRCC, COAD, HGSC, HNSCC, LSCC, LUAD, PDAC and UCEC. |
+| PRIDE, jPOST, iProX and MassIVE | 14 | Published N- and O-glycoproteomics studies, including a human tissue atlas, mouse brain, cancer, DQGlyco and Glyco-DIA experiments. |
+
+Use
 [`glyhub_catalog()`](https://glycoverse.github.io/glyhub/reference/glyhub_catalog.md)
-for the complete catalog. N/O classes remain separate; source
-experiments, sample conditions and replicate labels remain in `colData`.
-Feature unions use documented author keys or supported structures, with
-an explicit source-coverage mask for unmeasured combinations.
+to browse dataset identifiers, experiment and glycan types, structure
+availability and quantification methods. Each dataset’s help page
+describes its biological system, experimental design, source tables,
+units and limitations. Data are downloaded on demand from a versioned
+release and cached locally; see the loading examples below.
 
-**For GlycoPOST datasets, zero-valued abundances are stored as NA in the
-distributed assays.** Original values, source-missing values and
-conflict masks remain in metadata. No imputation or renormalization is
-applied. Unknown molecular annotations remain NA without removing
-quantitative rows. Structures are encoded only from explicit source
-structural evidence. Unresolved bonds and attachment positions remain
-uncertain.
+Objects retain source feature annotations in `rowData`, measurement
+conditions and observation labels in `colData`, and original numerical
+values and processing records in metadata. Compatible GlycoPOST tables
+from the same study and glycan class are combined using supported
+feature identities, with source-coverage masks for unmeasured
+combinations. Structures are encoded only when supported by explicit
+evidence; unresolved annotations remain uncertain. Inclusion may cover
+only part of a study: GPST000602, for example, contains annotated peaks
+with spectrum-specific feature identities rather than an aligned feature
+matrix.
+
+**Abundance scales and missing-value rules depend on the source:**
+
+- **GlycoPOST:** zero-valued abundances become `NA` in the assay.
+  Original values and processing masks remain in metadata; glyhub adds
+  no imputation or renormalization.
+- **CPTAC:** assays contain `2^source_value`, while original log2 values
+  remain in `metadata(x)$raw_abundance`. A source zero becomes 1; source
+  missing values remain `NA`.
+- **Other published studies:** source numerical values and zeros are
+  retained, except for the documented `-1` to `NA` convention in
+  `glyhub_MSV000089484_N_HCC`. Some source tables already contain
+  normalization, imputation or feature selection, as documented in the
+  dataset help.
+
+Consult
+[`?glyhub_data_conventions`](https://glycoverse.github.io/glyhub/reference/glyhub_data_conventions.md)
+and the dataset help before comparing assays. `raw_abundance` preserves
+the selected source matrix and may itself contain author-processed
+values. Source-data licenses and citation requirements are recorded
+separately from the package’s code license.
 
 ## Installation
 
@@ -51,7 +75,7 @@ also resolves required Bioconductor packages for your R version.
 
 ## Example
 
-The 83 existing released datasets are stored in the [Glyhub data
+The datasets are stored in the [Glyhub data
 release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 The package includes the catalog and loader code, with no bundled data
 objects.
@@ -59,13 +83,15 @@ objects.
 ``` r
 
 head(glyhub::glyhub_catalog()[, c("dataset", "source", "bytes")])
-#>                       dataset    source  bytes
+#> # A tibble: 6 × 3
+#>   dataset                     source     bytes
+#>   <chr>                       <chr>      <int>
 #> 1 glyhub_GPST000738_N_B4GalT1 GlycoPOST  85324
 #> 2 glyhub_GPST000738_N_ST6GAL1 GlycoPOST  86980
-#> 3         glyhub_GPST000643_O GlycoPOST 136920
-#> 4         glyhub_GPST000643_N GlycoPOST  10320
-#> 5         glyhub_GPST000213_N GlycoPOST 273048
-#> 6         glyhub_GPST000213_O GlycoPOST  46920
+#> 3 glyhub_GPST000643_O         GlycoPOST 136920
+#> 4 glyhub_GPST000643_N         GlycoPOST  10320
+#> 5 glyhub_GPST000213_N         GlycoPOST 273048
+#> 6 glyhub_GPST000213_O         GlycoPOST  46920
 ```
 
 Use either the common loader or a dataset’s own function. Both share the
