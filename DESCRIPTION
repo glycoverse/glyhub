@@ -1,6 +1,6 @@
 Package: glyhub
 Title: Curated Glycomics and Glycoproteomics Data Resources
-Version: 0.1.0
+Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
 Description: Public glycomics and glycoproteomics data represented as
