@@ -42,9 +42,18 @@ Install the development version from
 
 ``` r
 
-# install.packages("pak")
+if (!requireNamespace("pak", quietly = TRUE)) {
+  install.packages("pak", repos = "https://cloud.r-project.org")
+}
+options(repos = c(
+  glycoverse = "https://glycoverse.r-universe.dev",
+  CRAN = "https://cloud.r-project.org"
+))
 pak::pkg_install("glycoverse/glyhub")
 ```
+
+The Glycoverse repository provides dependencies such as `glyexp`. `pak`
+also resolves required Bioconductor packages for your R version.
 
 ## Example
 
