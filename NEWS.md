@@ -1,3 +1,5 @@
+# glyhub (development version)
+
 # glyhub 0.1.0
 
 * Initial release with 97 curated glycomics and glycoproteomics datasets: 75 from GlycoPOST, eight from CPTAC, and 14 from other published studies.
