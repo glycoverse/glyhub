@@ -1,0 +1,43 @@
+{
+  "dataset": "glyhub_PXD011063_O_Dilution",
+  "dimensions": [
+    15890,
+    10
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD011063_O_Dilution",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD011063_O_Dilution.rds",
+      "bytes": 11414190,
+      "sha256": "b312893ec5e4044daceb32bc2b49e39dc2b4e3eaf42eb3e0e3180a1a679b8b75",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD011063_O_Dilution.rds",
+      "features": 15890,
+      "measurements": 10
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2019/11/PXD011063/",
+    "file_sha256": [
+      "3ca5c13f08284fa57033b919d1c0ccdf4d6207ae661db694a733a704e2e32363",
+      "9580239a96aec6d6e81387b945132d6886526e5c3baf83069c3c21b7a0be4793",
+      "d3cadfeddaee80f62686219fe4b5005abede75cdf4abefa6b110302385d50579",
+      "82d9530117dca9159b256d6b7db5852fd55044086e005032ab67e8acbaed01a2",
+      "c06f2bbea778eccb4333fab32f842ad6acd113c0274919e685d7224b51846441",
+      "2dc57d05e6d9415518f82793cbe92371b82404457f055bcefede46edd21a5664",
+      "1784cf48900fc1903f191e4f92f196122c23195572d1225bdd4d5763bdd576bd",
+      "51a7eb6af1679437b0ed4a28948750387dcd67d40efdaec705e0d933fa98d01e",
+      "0488837c2b87f821213a9e0649ce5c053f2cb2defa310d1f6f8e7534785486cf",
+      "3d56dcf8dfdefa999a9af71d836fd32dc43762381867a3286f2bfa2675e9278a"
+    ],
+    "retrieved": "2026-10-17"
+  },
+  "missing": 79450,
+  "zero": 0,
+  "typed_composition_missing": 15890,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

@@ -1,0 +1,242 @@
+{
+  "glyhub_PXD070547_N_HumanAtlas": {
+    "dimensions": [
+      57884,
+      219
+    ],
+    "source_cells_compared": 12676596,
+    "matrix_cells": 12676596,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "../evidence/current-source-verification.json: 12,676,596 cells compared; asset unchanged",
+    "missing": 12380699,
+    "zero": 0,
+    "typed_composition_missing": 17351,
+    "source_scale": "Source Skyline extracted-ion chromatogram quantification; raw relative signal",
+    "sha256": "ed0aa4a74db885c56adcdb4aec9db478408bcee1e9ba0d015258058c1e56162d"
+  },
+  "glyhub_PXD052447_N_Solubility": {
+    "dimensions": [
+      89115,
+      18
+    ],
+    "source_cells_compared": 1604070,
+    "matrix_cells": 1604070,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "build-raw-psm.R / build-pngase-pk.R exact source comparison completed; metadata-only provenance update did not alter values",
+    "missing": 0,
+    "zero": 768524,
+    "typed_composition_missing": 8492,
+    "source_scale": "Deposited untransformed PSM-level TMT reporter intensities",
+    "sha256": "ff1c1c39ee09422f926d66391ec58cf3ef2429263b4e2dda5fe9aaaf8a5653eb",
+    "license_metadata_update": {
+      "previous_sha256": "0574e591c84c1efb8efdf7c57d0f7f91bcccefcb69e3ba14967119a47f137827",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_PXD065283_N_QC": {
+    "dimensions": [
+      8030,
+      30
+    ],
+    "source_cells_compared": 240900,
+    "matrix_cells": 240900,
+    "source_values_exact": true,
+    "reused_completed_check": false,
+    "reused_evidence": {},
+    "missing": 23291,
+    "zero": 0,
+    "typed_composition_missing": 3078,
+    "source_scale": "Source linear MBR-derived glycosite/glycan quantities; upstream normalization not independently established",
+    "sha256": "3dffbce9fb1bf2fc45b353f7a417368174125244bb22db409a527e92af21b578"
+  },
+  "glyhub_PXD065283_N_DiscoverySelected": {
+    "dimensions": [
+      1038,
+      140
+    ],
+    "source_cells_compared": 145320,
+    "matrix_cells": 145320,
+    "source_values_exact": true,
+    "reused_completed_check": false,
+    "reused_evidence": {},
+    "missing": 0,
+    "zero": 0,
+    "typed_composition_missing": 0,
+    "source_scale": "Source median-normalized, log2-transformed, normally imputed abundance; DE-selected features",
+    "sha256": "8160ca1e68613d78c6b29cbc75aa3bf029ef03910b6227b3584c539923e3e6d2"
+  },
+  "glyhub_PXD052447_N_TwoFF": {
+    "dimensions": [
+      91409,
+      18
+    ],
+    "source_cells_compared": 1645362,
+    "matrix_cells": 1645362,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "build-raw-psm.R / build-pngase-pk.R exact source comparison completed; metadata-only provenance update did not alter values",
+    "missing": 0,
+    "zero": 15689,
+    "typed_composition_missing": 34288,
+    "source_scale": "Deposited untransformed PSM-level TMT reporter intensities",
+    "sha256": "1cdb697b7f9cfdbb9d2a0faa71bf5dea5441bac67ecf494cf8f4c62eaf09f83e",
+    "license_metadata_update": {
+      "previous_sha256": "8b198c2bef744a17a9198ef27e558606ddce28751b4caf9b08a05d0b9a524a89",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_PXD052447_N_Microbiome": {
+    "dimensions": [
+      160699,
+      18
+    ],
+    "source_cells_compared": 2892582,
+    "matrix_cells": 2892582,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "build-raw-psm.R / build-pngase-pk.R exact source comparison completed; metadata-only provenance update did not alter values",
+    "missing": 0,
+    "zero": 26073,
+    "typed_composition_missing": 30673,
+    "source_scale": "Deposited untransformed PSM-level TMT reporter intensities",
+    "sha256": "3f35f3612933be2589f40f71b935063781648c5644427af7d3d46ba5d0680258",
+    "license_metadata_update": {
+      "previous_sha256": "f554b6a4d7354257d42455e50e9faf96c8e61c4afba9694b866a1ad7097a3ac5",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_PXD011063_O_Dilution": {
+    "dimensions": [
+      15890,
+      10
+    ],
+    "source_cells_compared": 79450,
+    "matrix_cells": 158900,
+    "source_values_exact": true,
+    "reused_completed_check": false,
+    "reused_evidence": {},
+    "missing": 79450,
+    "zero": 0,
+    "typed_composition_missing": 15890,
+    "source_scale": "Source FG.MS2TotalPeakArea; untransformed summed MS2 fragment chromatographic peak area",
+    "sha256": "b312893ec5e4044daceb32bc2b49e39dc2b4e3eaf42eb3e0e3180a1a679b8b75",
+    "license_metadata_update": {
+      "previous_sha256": "bd9d15a3a06aa40d6833645464d9ea4a346bb82221b5ca20fe49ac1a40402baf",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_PXD052447_N_Tissues": {
+    "dimensions": [
+      205904,
+      18
+    ],
+    "source_cells_compared": 3706272,
+    "matrix_cells": 3706272,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "build-raw-psm.R / build-pngase-pk.R exact source comparison completed; metadata-only provenance update did not alter values",
+    "missing": 0,
+    "zero": 18483,
+    "typed_composition_missing": 45863,
+    "source_scale": "Deposited untransformed PSM-level TMT reporter intensities",
+    "sha256": "b04a942f1404a456cc4d409caddd1ab915aa91076f7dfd3f6025ac4fd482b3f1",
+    "license_metadata_update": {
+      "previous_sha256": "53d39523354e52834c61b569f152dbf3dce88588821c0e470226d2c4f49e6acf",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_PXD052447_N_PNGase": {
+    "dimensions": [
+      118216,
+      18
+    ],
+    "source_cells_compared": 2127888,
+    "matrix_cells": 2127888,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "build-raw-psm.R / build-pngase-pk.R exact source comparison completed; metadata-only provenance update did not alter values",
+    "missing": 0,
+    "zero": 919210,
+    "typed_composition_missing": 30201,
+    "source_scale": "Deposited untransformed PSM-level TMT reporter intensities",
+    "sha256": "a666f60351d2d33280f6fcb37dfd4497c39e348d226d3dd5344e1d7c83321b4c",
+    "license_metadata_update": {
+      "previous_sha256": "15577c088b805fe3334b6b1beafe7281c68d5f9dfc5862465daef9792afe59c4",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_PXD052447_N_ProteinaseK": {
+    "dimensions": [
+      125755,
+      18
+    ],
+    "source_cells_compared": 2263590,
+    "matrix_cells": 2263590,
+    "source_values_exact": true,
+    "reused_completed_check": true,
+    "reused_evidence": "build-raw-psm.R / build-pngase-pk.R exact source comparison completed; metadata-only provenance update did not alter values",
+    "missing": 0,
+    "zero": 1010184,
+    "typed_composition_missing": 44192,
+    "source_scale": "Deposited untransformed PSM-level TMT reporter intensities",
+    "sha256": "67500dcff2e09b1ebbaaba8813abee1ea1439026f0a818d6e3e4a3859f346a08",
+    "license_metadata_update": {
+      "previous_sha256": "099c4b148a6e8c6359fca49562c4790c2fa991a323e0c1f5312d778ad6f12b0b",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  },
+  "glyhub_IPX0011099000_N_Brain": {
+    "dimensions": [
+      20191,
+      60
+    ],
+    "source_cells_compared": 117502,
+    "matrix_cells": 1211460,
+    "source_values_exact": true,
+    "reused_completed_check": false,
+    "reused_evidence": {},
+    "missing": 1093958,
+    "zero": 115,
+    "typed_composition_missing": 7582,
+    "source_scale": "Source untransformed chromatographic Area",
+    "sha256": "7c86fee84580fbbf658a06186301baff4af1d0e61d10fcb473df504b1eb80c69"
+  },
+  "glyhub_PXD046637_N_Lung": {
+    "dimensions": [
+      39079,
+      165
+    ],
+    "source_cells_compared": 1589907,
+    "matrix_cells": 6448035,
+    "source_values_exact": true,
+    "reused_completed_check": false,
+    "reused_evidence": {},
+    "missing": 4858128,
+    "zero": 337054,
+    "typed_composition_missing": 28875,
+    "source_scale": "Deposited untransformed ion-level TMT reporter intensities; author software aggregated PSMs to ions",
+    "sha256": "e6df15870d664ac81673e7f50ec0e90552d32c65cc7b40083f44454f05f2099c"
+  },
+  "glyhub_PXD011063_O_SerumSA": {
+    "dimensions": [
+      93442,
+      6
+    ],
+    "source_cells_compared": 563129,
+    "matrix_cells": 560652,
+    "source_values_exact": true,
+    "reused_completed_check": false,
+    "independent_verification": "serum-source-validation.json; every source row compared for both MS2 and MS1",
+    "missing": 0,
+    "zero": 0,
+    "typed_composition_missing": 93442,
+    "source_scale": "Source FG.MS2TotalPeakArea; untransformed MS2 chromatographic peak area",
+    "sha256": "4bab19c4b3c777e329723b1ceef3a0a4df7705502336e71414825de1da500e04",
+    "license_metadata_update": {
+      "previous_sha256": "d6ad3ad76c8b56024156c41d92916004114c5bdaf99985699d3a3ed8d8262285",
+      "assay_annotations_and_other_metadata_identical": true
+    }
+  }
+}

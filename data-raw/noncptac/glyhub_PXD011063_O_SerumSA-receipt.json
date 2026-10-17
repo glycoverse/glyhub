@@ -1,0 +1,32 @@
+{
+  "dataset": "glyhub_PXD011063_O_SerumSA",
+  "dimensions": [
+    93442,
+    6
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD011063_O_SerumSA",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD011063_O_SerumSA.rds",
+      "bytes": 18902343,
+      "sha256": "4bab19c4b3c777e329723b1ceef3a0a4df7705502336e71414825de1da500e04",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD011063_O_SerumSA.rds",
+      "features": 93442,
+      "measurements": 6
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2019/11/PXD011063/",
+    "file_sha256": "827fec2dca144e947c6ae78f26f96405c79adee58b29840b94007a8f5c96446f",
+    "retrieved": "2026-10-17"
+  },
+  "missing": 0,
+  "zero": 0,
+  "typed_composition_missing": 93442,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

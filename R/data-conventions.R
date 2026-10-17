@@ -8,7 +8,12 @@
 #' These zero-handling and processing-ledger conventions apply to the curated
 #' GlycoPOST datasets. CPTAC loaders retain source log2 values in metadata and
 #' use `2^source_value` in the assay; source zeros become 1. See
-#' [glyhub_CPTAC_CCRCC] and [glyhub_catalog()].
+#' [glyhub_CPTAC_CCRCC] and [glyhub_catalog()]. Locally staged non-CPTAC
+#' datasets retain source numeric values and zeros without added normalization,
+#' imputation or inverse transformation. Prefer original intensities where
+#' available; processed-only matrices explicitly document their source scale.
+#' `raw_abundance` means the source numeric matrix, not a guarantee that authors
+#' supplied unprocessed intensities. See each dataset's help and metadata.
 #'
 #' Zero-valued abundances are represented as `NA` in the distributed abundance
 #' assay. This representation differs from the original source tables, which

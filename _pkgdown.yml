@@ -188,3 +188,19 @@ reference:
   contents:
   - glyhub_load
   - glyhub_catalog
+
+- title: Non-CPTAC local candidates
+  contents:
+  - glyhub_PXD070547_N_HumanAtlas
+  - glyhub_PXD052447_N_Solubility
+  - glyhub_PXD065283_N_QC
+  - glyhub_PXD065283_N_DiscoverySelected
+  - glyhub_PXD052447_N_TwoFF
+  - glyhub_PXD052447_N_Microbiome
+  - glyhub_PXD011063_O_Dilution
+  - glyhub_PXD052447_N_Tissues
+  - glyhub_PXD052447_N_PNGase
+  - glyhub_PXD052447_N_ProteinaseK
+  - glyhub_IPX0011099000_N_Brain
+  - glyhub_PXD046637_N_Lung
+  - glyhub_PXD011063_O_SerumSA

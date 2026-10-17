@@ -1,0 +1,31 @@
+{
+  "dataset": "glyhub_PXD065283_N_QC",
+  "dimensions": [8030, 30],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD065283_N_QC",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD065283_N_QC.rds",
+      "bytes": 635028,
+      "sha256": "3dffbce9fb1bf2fc45b353f7a417368174125244bb22db409a527e92af21b578",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 8030,
+      "measurements": 30
+    }
+  ],
+  "provenance": {
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13088319/supplementaryFiles",
+    "workbook": "ADVS-13-e16299-s002.xlsx",
+    "workbook_sha256": "decdaa15e48275157b09d3b25c1e49bee0c08f195ed7ba95d4db56b0b69e1ea2",
+    "archive_sha256": "694d44ff96802be58614f49ed8e23d35657b6135da51805cc45a7273a952bab0",
+    "retrieved": "2026-10-17",
+    "sheet": "Supplementary Data1"
+  },
+  "missing": 23291,
+  "zero": 0,
+  "typed_composition_missing": 3078
+}

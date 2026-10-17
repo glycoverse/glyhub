@@ -72,8 +72,14 @@ evidence, and `colData(x)` retains source conditions and observation locations.
 
 ## Loading external data
 
-All 83 datasets are stored in the [Glyhub data release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
+The 83 existing released datasets are stored in the [Glyhub data release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 The package includes the catalog and loader code, with no bundled data objects.
+This checkout adds eight CC0-cleared non-CPTAC datasets in the independent
+[data release](https://github.com/glycoverse/glyhub/releases/tag/data-noncptac-2026-10-17-v1).
+Five other candidates remain local: their `storage` is `"staged"` and URLs are empty
+because permission to redistribute the complete objects has not been established.
+See [the local build workflow](data-raw/noncptac/README.md) to seed its verified
+cache. Uncached local-only requests fail without attempting a download.
 
 ```{r}
 head(glyhub::glyhub_catalog()[, c("dataset", "source", "bytes")])
@@ -101,28 +107,35 @@ LazyData, variable-style access and `data()` access are no longer provided.
 source archives, currently the eight CPTAC archives. Dataset help topics retain
 scientific details and source references.
 
-Every resource is checked against its size and SHA-256 before use. The first call
+Every resource is checked against its size and SHA-256 before use. For released resources, the first call
 requires an internet connection; subsequent calls reuse the cache. Set `cache_dir`
 or option `glyhub.cache_dir` to select its location. `refresh = TRUE` retrieves
 the pinned version again; `offline = TRUE` prohibits downloads and requires a
 valid cached file. Delete cached files to clear the cache.
 
-## CPTAC measurement conventions
+## Non-CPTAC studies
 
-Eight JHU GENCODEv34 N-glycoform-peptide matrices are available: CCRCC, COAD, HGSC,
-HNSCC, LSCC, LUAD, PDAC and UCEC. The assay contains **linearized abundance
-(`2^source log2 value`)**. `metadata(x)$raw_abundance` preserves the source log2
-matrix, including zeros; `None` becomes `NA`. No features or measurement columns
-are dropped. Reference, QC and unresolved sample roles remain in `colData`.
-Protein accessions and absolute sites are unavailable and remain `NA`; source
-peptide, gene and composition labels remain in `rowData`. Measurement columns
-must not all be interpreted as independent patients.
+These datasets prefer deposited reporter intensities, chromatographic peak areas,
+or the authors' raw expression matrices. Source zeros are preserved. No additional
+normalization, imputation, logarithm, or inverse transformation is applied.
 
-Five supplied files match upstream MD5 checksums exactly. COAD and PDAC match CRC
-and PDA after reversing column-prefix renaming. HGSC remains unmatched to the
-supplied upstream checksum list, and its fractionation identity is unverified.
-These limitations are recorded in the object provenance.
+`glyhub_PXD052447_N_Tissues()` contains 205,904 deposited PSM rows across 18 TMT
+channels from three tissues of two mice, with technical replication. PSM rows are
+not unique glycopeptides. Rows without glycan annotations and unused or unmapped
+channels remain explicitly identifiable in the source annotations. Measurement
+channels and technical runs are not automatically independent people or animals.
 
-Source: [CPTAC Pan-Cancer](https://pdc.cancer.gov/pdc/cptac-pancancer).
-Follow [PDC data-use and attribution guidelines](https://pdc.cancer.gov/pdc/data-use-guidelines);
-the package's MIT code license does not license source data.
+Some studies provide only processed quantitative tables. Their help pages and
+metadata state the scale, source normalization, transformations, imputation and
+feature selection. In particular, the HCC discovery table contains selected
+features, so it is not suitable for unbiased feature discovery or classifier
+performance estimation. `metadata(x)$raw_abundance` preserves source numbers;
+it does not imply that a processed source table is raw intensity. The earliest
+unnormalized HCC clinical matrix was not available through the inspected sources;
+the linear QC table represents a different experiment and cannot replace it.
+
+See [the source-selection audit and rebuild instructions](data-raw/noncptac/README.md).
+Data licenses remain separate from the package's code license. Only the eight
+DQGlyco/Glyco-DIA objects with verified PRIDE CC0 source licenses are released.
+Human atlas, mouse brain, lung and both HCC objects remain local; see the
+[per-object publication decisions](data-raw/noncptac/publication-decisions.tsv).

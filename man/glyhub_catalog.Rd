@@ -15,8 +15,9 @@ A data frame containing dataset identifiers, source, file format,
 storage, compressed bytes, SHA-256, version, URL and dimensions.
 }
 \description{
-List externally hosted datasets without downloading any files. All data
-are stored in a versioned GitHub Release and excluded from the package.
+List released and locally staged datasets without downloading any files.
+Data assets are excluded from the package. A staged entry has no download
+URL and requires the maintainer's verified local cache.
 }
 \examples{
 glyhub_catalog()[, c("dataset", "storage", "bytes")]

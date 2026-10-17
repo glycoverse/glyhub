@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Provides access to curated public glycomics and glycoproteomics datasets from GlycoPOST and CPTAC as 'glyexp' 'GlycomicSE' and 'GlycoproteomicSE' objects. Datasets preserve source molecular annotations, measurement provenance, and explicit processing records. A catalog and shared loader retrieve data from versioned GitHub Releases, verify file integrity with SHA-256 checksums, and cache downloads for offline reuse.
+Provides access to curated public glycomics and glycoproteomics datasets from GlycoPOST, CPTAC, and published studies as 'glyexp' 'GlycomicSE' and 'GlycoproteomicSE' objects. Datasets preserve source molecular annotations, measurement provenance, and explicit processing records. A catalog and shared loader retrieve data from versioned GitHub Releases, verify file integrity with SHA-256 checksums, and cache downloads for offline reuse.
 }
 \seealso{
 Useful links:

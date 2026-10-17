@@ -1,0 +1,35 @@
+{
+  "dataset": "glyhub_PXD052447_N_PNGase",
+  "dimensions": [
+    118216,
+    18
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD052447_N_PNGase",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD052447_N_PNGase.rds",
+      "bytes": 29596300,
+      "sha256": "a666f60351d2d33280f6fcb37dfd4497c39e348d226d3dd5344e1d7c83321b4c",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_PNGase.rds",
+      "features": 118216,
+      "measurements": 18
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/PNGase_PK_glyco_psm.tsv",
+    "file_sha256": "5ff4b775eb07e68328f060e58150a3f591414e4a379f5d3ae328097062e5a3ac",
+    "retrieved": "2026-10-17",
+    "sample_annotation_source": "https://github.com/miralea/DQGlyco/blob/7330542fe6f2668993c21dcc6b9cde8a3b2bddad/analysis/data_analysis/04_surfaceacc_glycoproteomics_HEK.Rmd",
+    "acquisition_partition": "_Glyco_PNGase_",
+    "partition_exhaustive_and_exclusive": true
+  },
+  "missing": 0,
+  "zero": 919210,
+  "typed_composition_missing": 30201,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

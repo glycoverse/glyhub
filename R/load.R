@@ -1,7 +1,8 @@
 #' List available glyhub datasets
 #'
-#' List externally hosted datasets without downloading any files. All data
-#' are stored in a versioned GitHub Release and excluded from the package.
+#' List released and locally staged datasets without downloading any files.
+#' Data assets are excluded from the package. A staged entry has no download
+#' URL and requires the maintainer's verified local cache.
 #'
 #' @param kind List `"curated"` datasets (default), `"raw"` source archives,
 #'   or `"all"` resources. Raw archives are currently available for CPTAC only.
@@ -144,6 +145,13 @@ glyhub_load <- function(
   if (offline) {
     stop(
       "No verified cached glyhub file is available in offline mode.",
+      call. = FALSE
+    )
+  }
+  if (is.na(entry$url) || !nzchar(entry$url)) {
+    stop(
+      "This dataset is locally staged and has no published download URL. ",
+      "Build and seed its verified cache using data-raw/noncptac/build.R.",
       call. = FALSE
     )
   }

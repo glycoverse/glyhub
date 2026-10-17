@@ -1,0 +1,9 @@
+{
+  "dataset": "glyhub_PXD011063_O_SerumSA",
+  "sha256": "d6ad3ad76c8b56024156c41d92916004114c5bdaf99985699d3a3ed8d8262285",
+  "features": 93442,
+  "measurements": 6,
+  "compared_source_rows": 563129,
+  "ms2_and_ms1_match": true,
+  "repeated_associations": 2477
+}

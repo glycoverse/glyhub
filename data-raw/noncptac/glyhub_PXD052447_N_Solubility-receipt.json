@@ -1,0 +1,36 @@
+{
+  "dataset": "glyhub_PXD052447_N_Solubility",
+  "dimensions": [
+    89115,
+    18
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD052447_N_Solubility",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD052447_N_Solubility.rds",
+      "bytes": 21226446,
+      "sha256": "ff1c1c39ee09422f926d66391ec58cf3ef2429263b4e2dda5fe9aaaf8a5653eb",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_Solubility.rds",
+      "features": 89115,
+      "measurements": 18
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/Mouse_brain_SPP_glyco_psm.tsv",
+    "file_sha256": "addcbddaeac605566b1146994b010452eb2fb812fdbef1ae331bfc20dc419d59",
+    "file_bytes": 63730317,
+    "annotation_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/SPP_TMT_annotation.tsv",
+    "annotation_sha256": "36217d9e7581592947ab21418a65073b8bb6aadd6defceea20d04c0ab4fa58b9",
+    "retrieved": "2026-10-17",
+    "remote_checksum": "PRIDE checksum field empty; exact HTTP ranges and total file size verified; SHA256 recorded locally"
+  },
+  "missing": 0,
+  "zero": 768524,
+  "typed_composition_missing": 8492,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

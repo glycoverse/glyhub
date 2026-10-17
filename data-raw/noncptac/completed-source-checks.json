@@ -1,0 +1,47 @@
+{
+  "glyhub_PXD070547_N_HumanAtlas": {
+    "sha256": "ed0aa4a74db885c56adcdb4aec9db478408bcee1e9ba0d015258058c1e56162d",
+    "compared_cells": 12676596,
+    "evidence": "../evidence/current-source-verification.json: 12,676,596 cells compared; asset unchanged"
+  },
+  "glyhub_PXD052447_N_Solubility": {
+    "sha256": "ff1c1c39ee09422f926d66391ec58cf3ef2429263b4e2dda5fe9aaaf8a5653eb",
+    "compared_cells": 1604070,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD052447_N_TwoFF": {
+    "sha256": "1cdb697b7f9cfdbb9d2a0faa71bf5dea5441bac67ecf494cf8f4c62eaf09f83e",
+    "compared_cells": 1645362,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD052447_N_Microbiome": {
+    "sha256": "3f35f3612933be2589f40f71b935063781648c5644427af7d3d46ba5d0680258",
+    "compared_cells": 2892582,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD052447_N_Tissues": {
+    "sha256": "b04a942f1404a456cc4d409caddd1ab915aa91076f7dfd3f6025ac4fd482b3f1",
+    "compared_cells": 3706272,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD052447_N_PNGase": {
+    "sha256": "a666f60351d2d33280f6fcb37dfd4497c39e348d226d3dd5344e1d7c83321b4c",
+    "compared_cells": 2127888,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD052447_N_ProteinaseK": {
+    "sha256": "67500dcff2e09b1ebbaaba8813abee1ea1439026f0a818d6e3e4a3859f346a08",
+    "compared_cells": 2263590,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD011063_O_SerumSA": {
+    "sha256": "4bab19c4b3c777e329723b1ceef3a0a4df7705502336e71414825de1da500e04",
+    "compared_cells": 563129,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  },
+  "glyhub_PXD011063_O_Dilution": {
+    "sha256": "b312893ec5e4044daceb32bc2b49e39dc2b4e3eaf42eb3e0e3180a1a679b8b75",
+    "compared_cells": 79450,
+    "evidence": "validation-all.json plus release-preparation-checks.json: source-validated numbers and annotations unchanged by license metadata update"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "dataset": "glyhub_PXD070547_N_HumanAtlas",
+  "dimensions": [57884, 219],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD070547_N_HumanAtlas",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD070547_N_HumanAtlas.rds",
+      "bytes": 3644032,
+      "sha256": "ed0aa4a74db885c56adcdb4aec9db478408bcee1e9ba0d015258058c1e56162d",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 57884,
+      "measurements": 219
+    }
+  ],
+  "provenance": {
+    "workbook_sha256": "ee62f8387f5f4fcd39b6ae0d8533fdfbd5e56765abaa02801b746562643441d4",
+    "subject_workbook_sha256": "065f2db999b0b7dd55933da694ab0a8f90a2d64802b5c0bb6fff2dd3788b5242",
+    "retrieved": "2026-10-17",
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-74631-7/MediaObjects/41467_2026_74631_MOESM3_ESM.zip",
+    "workbook": "Supplementary Data 2.xlsx",
+    "sheet": "Raw expression matrix"
+  },
+  "missing": 12380699,
+  "zero": 0,
+  "typed_composition_missing": 17351
+}

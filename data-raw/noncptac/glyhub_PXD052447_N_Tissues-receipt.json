@@ -1,0 +1,36 @@
+{
+  "dataset": "glyhub_PXD052447_N_Tissues",
+  "dimensions": [
+    205904,
+    18
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD052447_N_Tissues",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD052447_N_Tissues.rds",
+      "bytes": 65947199,
+      "sha256": "b04a942f1404a456cc4d409caddd1ab915aa91076f7dfd3f6025ac4fd482b3f1",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_Tissues.rds",
+      "features": 205904,
+      "measurements": 18
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/Mouse_tissues_N_glyco_psm.tsv",
+    "file_sha256": "dbdebf064465d33f47adec47ad4bae8f33d411cd49593882886fd8b1255c78eb",
+    "file_bytes": 158216266,
+    "annotation_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/TMT_layout_tissue.csv",
+    "annotation_sha256": "c254d9c67a938259809c3b03e5d165b521fb8031485e04c15ed11571c136197a",
+    "retrieved": "2026-10-17",
+    "remote_checksum": "PRIDE checksum field empty; exact HTTP ranges and total file size verified; SHA256 recorded locally"
+  },
+  "missing": 0,
+  "zero": 18483,
+  "typed_composition_missing": 45863,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "glyhub_PXD052447_N_TwoFF",
+  "dimensions": [
+    91409,
+    18
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD052447_N_TwoFF",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD052447_N_TwoFF.rds",
+      "bytes": 29882235,
+      "sha256": "1cdb697b7f9cfdbb9d2a0faa71bf5dea5441bac67ecf494cf8f4c62eaf09f83e",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_TwoFF.rds",
+      "features": 91409,
+      "measurements": 18
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/2FF_timecourse_glyco_psm.tsv",
+    "file_sha256": "73eb9f4cd087f8c0e20c5f3bfa0e6dcec5fa66dce64ff0e159e6d9de0c9573a6",
+    "file_bytes": 67259668,
+    "annotation_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/2FF_TMT_annotation.tsv",
+    "annotation_sha256": "ab0b991d01228313c72bc5eba93e166f068d06e4e50f4cd528c747bcf42ac153",
+    "retrieved": "2026-10-17",
+    "remote_checksum": "PRIDE checksum field empty; exact HTTP ranges and total file size verified; SHA256 recorded locally"
+  },
+  "missing": 0,
+  "zero": 15689,
+  "typed_composition_missing": 34288,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

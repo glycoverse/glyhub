@@ -1,0 +1,33 @@
+{
+  "dataset": "glyhub_PXD046637_N_Lung",
+  "dimensions": [39079, 165],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD046637_N_Lung",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD046637_N_Lung.rds",
+      "bytes": 33574472,
+      "sha256": "e6df15870d664ac81673e7f50ec0e90552d32c65cc7b40083f44454f05f2099c",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 39079,
+      "measurements": 165
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD046637/search.zip",
+    "archive_member": "WA269TPNgB3.zip",
+    "archive_member_crc32": 2550954298,
+    "archive_member_bytes": 428799239,
+    "member_sha256": "5021afebc54c5e56573ffb389be19dcc396233f28967b30a7afd8f79ef9ec62d",
+    "ion_file_sha256": ["0b9a8ab7bce46fc731ed8b00991670b6c8783c658b5123a53f21d3b42cf992d2", "84762388004a67f3783b5740860dc085545643013e7e399d3ae1a0c0fdebdeeb", "437da1c1f0eeb68afdd1f88bbbbb8e99f6d157f65506c7d4041b39d508479184", "6dabbc794d793a5ff9b0adfb6a34d9f00f2921470d09eaf2ed7ae61ae8f3a606", "9044cc2dcb470d67e36f081ee1b166e55f9c884b0bbb1ee44b8118446b2fc3e6", "c0d439d59ba394693c088b39b380e3552abb1e7e5ab3c9eb4252304e6ac7297c", "d2d009e0e3602e1ed77c8a8a55e372eec9f17cc1d6b7d200de2635c8e0756cf1", "69e9eebf5d02cc757c12b92231b53ec95b144f0300b45407d88c636829e9864d", "85051378d8da990a56bab271f2b7376a385e2993e3cfe3cbb33a2ee9635797d3", "cdb8cf5349c6fe7e3dc1e7e4a6cea2cb47c5b8aeab7b5949227bcaf27876359f", "523518e17728b2c295bcafd736133355566a338e5e3d2ac371892d20183bbba2", "9633b7b30c4e959a73151e2fe236d9e3874c52798410c5e1617dc50ecfec73b1", "5ee7f85cbdd5c93a4dce9c8ce84afef2a6ad5ee8a3d87328b4bcc1c873ea1d5c", "d2e5e87172078ff18267fcf4e06dead436e1cfbb9168ca13de402c67474c7bef", "da1fbb55f528ec27aac94e58136fe2abf77ee70e1daee7f4407278853854fde8"],
+    "processed_alternative_sha256": "bd0d64717273f8f5ba2022dc93c88de8d833f97c63421adb0eb8e38f0f951511",
+    "retrieved": "2026-10-17"
+  },
+  "missing": 4858128,
+  "zero": 337054,
+  "typed_composition_missing": 28875
+}

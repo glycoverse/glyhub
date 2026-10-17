@@ -1,11 +1,11 @@
 test_that("all datasets and their convenience functions use external storage", {
   x <- glyhub_catalog()
-  expect_equal(nrow(x), 83L)
+  expect_equal(nrow(x), 96L)
   expect_equal(anyDuplicated(x$dataset), 0L)
   expect_equal(sum(x$storage == "bundled"), 0L)
-  expect_equal(sum(x$storage == "release"), 83L)
+  expect_equal(sum(x$storage == "release"), 91L)
   expect_equal(nrow(glyhub_catalog("raw")), 8L)
-  expect_equal(nrow(glyhub_catalog("all")), 91L)
+  expect_equal(nrow(glyhub_catalog("all")), 104L)
   expect_match(x$sha256, "^[a-f0-9]{64}$")
   expect_setequal(
     getNamespaceExports("glyhub"),
@@ -19,9 +19,15 @@ test_that("all datasets and their convenience functions use external storage", {
     list.files(system.file("extdata", package = "glyhub"), recursive = TRUE),
     "manifest.tsv"
   )
-  expect_match(
-    x$url,
-    "^https://github.com/glycoverse/glyhub/releases/download/data-v0.1.0/"
+  released <- x[x$storage == "release", ]
+  expect_identical(
+    released$url,
+    paste0(
+      "https://github.com/glycoverse/glyhub/releases/download/",
+      released$version,
+      "/",
+      released$filename
+    )
   )
 })
 

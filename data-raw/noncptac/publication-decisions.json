@@ -1,0 +1,106 @@
+[
+  {
+    "dataset": "glyhub_PXD070547_N_HumanAtlas",
+    "publish": false,
+    "source_license": "unresolved-for-complete-object",
+    "basis": "Object uses publisher Supplementary Data 1/2, not PRIDE deposited files. PRIDE CC0 cannot be transferred to these attachments; article CC BY-NC-ND is not affirmative permission for this redistributed representation.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD070547",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD052447_N_Solubility",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052447",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD065283_N_QC",
+    "publish": false,
+    "source_license": "unresolved-for-complete-object",
+    "basis": "Article CC BY 4.0 verified, but independent supporting-workbook redistribution scope not verified from accessible official policy/source; do not infer attachment permission.",
+    "evidence_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13088319/fullTextXML",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD065283_N_DiscoverySelected",
+    "publish": false,
+    "source_license": "unresolved-for-complete-object",
+    "basis": "Article CC BY 4.0 verified, but independent supporting-workbook redistribution scope not verified from accessible official policy/source; do not infer attachment permission.",
+    "evidence_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13088319/fullTextXML",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD052447_N_TwoFF",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052447",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD052447_N_Microbiome",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052447",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD011063_O_Dilution",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD011063",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD052447_N_Tissues",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052447",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD052447_N_PNGase",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052447",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD052447_N_ProteinaseK",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052447",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_IPX0011099000_N_Brain",
+    "publish": false,
+    "source_license": "unresolved-for-complete-object",
+    "basis": "No affirmative repository-file redistribution license verified in inspected iProX metadata; object also includes publisher sample annotation. Article CC BY-NC-ND is not sufficient clearance.",
+    "evidence_url": "https://www.iprox.cn/page/project.html?id=IPX0011099000",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD046637_N_Lung",
+    "publish": false,
+    "source_license": "unresolved-for-complete-object",
+    "basis": "PRIDE raw ion files are CC0, but this complete RDS also embeds the publisher processed clinical matrix; separate attachment/adaptation permission is not established. Keep the whole object local.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD046637",
+    "checked": "2026-10-17"
+  },
+  {
+    "dataset": "glyhub_PXD011063_O_SerumSA",
+    "publish": true,
+    "source_license": "CC0-1.0",
+    "basis": "PRIDE project API explicitly states Creative Commons Public Domain (CC0); source files are deposited PRIDE reports and annotations.",
+    "evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD011063",
+    "checked": "2026-10-17"
+  }
+]

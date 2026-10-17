@@ -1,0 +1,36 @@
+{
+  "dataset": "glyhub_PXD052447_N_Microbiome",
+  "dimensions": [
+    160699,
+    18
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD052447_N_Microbiome",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "release",
+      "filename": "glyhub_PXD052447_N_Microbiome.rds",
+      "bytes": 50422517,
+      "sha256": "3f35f3612933be2589f40f71b935063781648c5644427af7d3d46ba5d0680258",
+      "version": "data-noncptac-2026-10-17-v1",
+      "url": "https://github.com/glycoverse/glyhub/releases/download/data-noncptac-2026-10-17-v1/glyhub_PXD052447_N_Microbiome.rds",
+      "features": 160699,
+      "measurements": 18
+    }
+  ],
+  "provenance": {
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/Microbiome_N_glyco_psm.tsv",
+    "file_sha256": "c608034e5bc5edba136d20921adf35f6fae33304022f1e02338d861459d2be40",
+    "file_bytes": 125084522,
+    "annotation_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/02/PXD052447/TMT_brain_microbiome_annotation.tsv",
+    "annotation_sha256": "657edb6a051c0a4b2cdec9291626271f774e8d55ba52dd25dc23d3a447bf01ba",
+    "retrieved": "2026-10-17",
+    "remote_checksum": "PRIDE checksum field empty; exact HTTP ranges and total file size verified; SHA256 recorded locally"
+  },
+  "missing": 0,
+  "zero": 26073,
+  "typed_composition_missing": 30673,
+  "metadata_only_release_preparation": "release-preparation-checks.json"
+}

@@ -1,0 +1,86 @@
+{
+  "base_commit": "b28dd577a923b1faf9b8bb96823b6e8110d4ebd6",
+  "checks": [
+    {
+      "id": "N01",
+      "doi": "10.1038/s41594-025-01485-w",
+      "accession": "PXD052447",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N02",
+      "doi": "10.1038/s41467-022-35172-x",
+      "accession": "MSV000089484\uff1b\u590d\u7528\u57fa\u51c6 PXD023980 \u5fc5\u987b\u5206\u5f00",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N03",
+      "doi": "10.1038/s41467-025-57364-x",
+      "accession": "PXD046637\uff1bWES HRA005849\uff08\u53d7\u63a7\uff0c\u4e0d\u9700\u8981\u4e0b\u8f7d\uff09",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N04",
+      "doi": "10.1038/s41467-025-60437-6",
+      "accession": "IPX0011099000",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N05",
+      "doi": "10.1126/sciadv.adk6911",
+      "accession": "PXD045001",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N06",
+      "doi": "10.1002/advs.202516299",
+      "accession": "JPST003880 / PXD065283",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N07",
+      "doi": "10.1038/s41467-026-74631-7",
+      "accession": "PXD070547",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N08",
+      "doi": "10.1038/s41592-019-0504-x",
+      "accession": "PXD011063",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N09",
+      "doi": "10.1038/s41467-025-57916-1",
+      "accession": "MSV000095471 / PXD054333",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "N10",
+      "doi": "10.1038/s41467-025-68186-2",
+      "accession": "IPX0011732000",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    },
+    {
+      "id": "X01",
+      "doi": "10.1038/s41392-023-01645-8",
+      "accession": "\u672a\u627e\u5230\u516c\u5f00\u4ed3\u5e93\u7f16\u53f7\uff1b\u6570\u636e\u58f0\u660e\u4e3a\u5408\u7406\u8bf7\u6c42\u8054\u7cfb\u4f5c\u8005",
+      "exact_matches": [],
+      "cohort_assessment": "No exact DOI/accession hit in checked metadata; cross-publication sample alias overlap cannot be exhaustively excluded"
+    }
+  ],
+  "unchanged_exclusions": [
+    "GPST000216",
+    "GPST000109"
+  ]
+}
