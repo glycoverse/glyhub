@@ -67,15 +67,13 @@ All datasets use
 The 83 existing released datasets are stored in the [Glyhub data
 release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
 The package includes the catalog and loader code, with no bundled data
-objects. This checkout adds eight CC0-cleared non-CPTAC datasets in the
-existing [data
+objects. Thirteen non-CPTAC datasets are available in the existing [data
 release](https://github.com/glycoverse/glyhub/releases/tag/data-v0.1.0).
-Five other candidates remain local: their `storage` is `"staged"` and
-URLs are empty because permission to redistribute the complete objects
-has not been established. See [the local build
-workflow](https://glycoverse.github.io/glyhub/data-raw/noncptac/README.md)
-to seed its verified cache. Uncached local-only requests fail without
-attempting a download.
+Eight have explicit PRIDE CC0 source-file licenses. For the human atlas,
+mouse brain, lung and two HCC objects, source-license scope remains
+unresolved; publication does not establish or grant a new license. See
+the [per-object source and publication
+records](https://glycoverse.github.io/glyhub/data-raw/noncptac/publication-decisions.tsv).
 
 ``` r
 
@@ -152,8 +150,10 @@ cannot replace it.
 
 See [the source-selection audit and rebuild
 instructions](https://glycoverse.github.io/glyhub/data-raw/noncptac/README.md).
-Data licenses remain separate from the package’s code license. Only the
-eight DQGlyco/Glyco-DIA objects with verified PRIDE CC0 source licenses
-are released. Human atlas, mouse brain, lung and both HCC objects remain
-local; see the [per-object publication
-decisions](https://glycoverse.github.io/glyhub/data-raw/noncptac/publication-decisions.tsv).
+Data licenses remain separate from the package’s code license. PRIDE CC0
+evidence applies to the eight DQGlyco/Glyco-DIA objects, not
+automatically to publisher supplements or the five objects with
+unresolved source-license scope. Original sources, attribution,
+processing and limitations remain in each object’s metadata and the
+[publication
+records](https://glycoverse.github.io/glyhub/data-raw/noncptac/publication-decisions.tsv).

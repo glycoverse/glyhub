@@ -345,7 +345,7 @@
 - [`glyhub_catalog()`](https://glycoverse.github.io/glyhub/reference/glyhub_catalog.md)
   : List available glyhub datasets
 
-## Non-CPTAC local candidates
+## Non-CPTAC datasets
 
 - [`glyhub_PXD070547_N_HumanAtlas()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD070547_N_HumanAtlas.md)
   : Human organ atlas raw XIC matrix

@@ -111,17 +111,17 @@ glyhub_catalog()[, c("dataset", "storage", "bytes")]
 #> 81                                  glyhub_CPTAC_LUAD release 27852408
 #> 82                                  glyhub_CPTAC_PDAC release 36204104
 #> 83                                  glyhub_CPTAC_UCEC release  4556352
-#> 84                      glyhub_PXD070547_N_HumanAtlas  staged  3644032
+#> 84                      glyhub_PXD070547_N_HumanAtlas release  6197183
 #> 85                      glyhub_PXD052447_N_Solubility release 21226446
-#> 86                              glyhub_PXD065283_N_QC  staged   635028
-#> 87               glyhub_PXD065283_N_DiscoverySelected  staged   979468
+#> 86                              glyhub_PXD065283_N_QC release  1888158
+#> 87               glyhub_PXD065283_N_DiscoverySelected release  2142532
 #> 88                           glyhub_PXD052447_N_TwoFF release 29882235
 #> 89                      glyhub_PXD052447_N_Microbiome release 50422517
 #> 90                        glyhub_PXD011063_O_Dilution release 11414190
 #> 91                         glyhub_PXD052447_N_Tissues release 65947199
 #> 92                          glyhub_PXD052447_N_PNGase release 29596300
 #> 93                     glyhub_PXD052447_N_ProteinaseK release 31302092
-#> 94                       glyhub_IPX0011099000_N_Brain  staged  3181159
-#> 95                            glyhub_PXD046637_N_Lung  staged 33574472
+#> 94                       glyhub_IPX0011099000_N_Brain release  3181648
+#> 95                            glyhub_PXD046637_N_Lung release 33574842
 #> 96                         glyhub_PXD011063_O_SerumSA release 18902343
 ```
