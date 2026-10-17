@@ -9,12 +9,12 @@ Description: Public glycomics and glycoproteomics data represented as
 License: MIT + file LICENSE
 Depends: R (>= 4.1)
 Imports:
+    digest,
+    methods,
     glyexp (>= 0.17.0)
 Suggests:
-    digest,
     glyrepr,
     jsonlite,
-    methods,
     readxl,
     S4Vectors,
     SummarizedExperiment,
@@ -27,3 +27,4 @@ Roxygen: list(markdown = TRUE)
 URL: https://glycoverse.github.io/glyhub/
 Additional_repositories: https://glycoverse.r-universe.dev
 Config/roxygen2/version: 8.1.1
+RoxygenNote: 7.3.3

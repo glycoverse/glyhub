@@ -9,6 +9,11 @@ annotations and source provenance. Each dataset's help page describes its
 experimental design, units and specific limitations.
 }
 \details{
+These zero-handling and processing-ledger conventions apply to the bundled
+GlycoPOST datasets. CPTAC loaders retain source log2 values in metadata and
+use \code{2^source_value} in the assay; source zeros become 1. See
+\code{\link[=glyhub_CPTAC_CCRCC]{glyhub_CPTAC_CCRCC()}} and \code{\link[=glyhub_cptac_catalog]{glyhub_cptac_catalog()}}.
+
 Zero-valued abundances are represented as \code{NA} in the distributed abundance
 assay. This representation differs from the original source tables, which
 remain available in metadata. Missing values are not imputed, and abundances

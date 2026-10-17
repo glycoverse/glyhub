@@ -172,3 +172,16 @@ reference:
 - title: Data conventions
   contents:
   - glyhub_data_conventions
+
+- title: CPTAC glycoproteomes
+  contents:
+  - glyhub_cptac_catalog
+  - glyhub_cptac_download
+  - glyhub_CPTAC_CCRCC
+  - glyhub_CPTAC_COAD
+  - glyhub_CPTAC_HGSC
+  - glyhub_CPTAC_HNSCC
+  - glyhub_CPTAC_LSCC
+  - glyhub_CPTAC_LUAD
+  - glyhub_CPTAC_PDAC
+  - glyhub_CPTAC_UCEC
