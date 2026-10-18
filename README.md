@@ -73,13 +73,35 @@ license.
 
 ## Installation
 
-Install the development version from
-[GitHub](https://github.com/glycoverse/glyhub):
+The glyhub package is not a core glycoverse package. You need to install
+it individually even if you have installed the meta-package
+[glycoverse](https://github.com/glycoverse/glycoverse).
+
+You can install the latest release of glyhub from
+[r-universe](https://glycoverse.r-universe.dev/glyhub)
+(**recommended**):
 
 ``` r
 pak::repo_add(glycoverse = "https://glycoverse.r-universe.dev")
+pak::pkg_install("glyhub")
+```
+
+Or from [GitHub](https://github.com/glycoverse/glyhub):
+
+``` r
+pak::pkg_install("glycoverse/glyhub@*release")
+```
+
+Or install the development version (NOT recommended):
+
+``` r
 pak::pkg_install("glycoverse/glyhub")
 ```
+
+**Note:** Tips and troubleshooting for the meta-package
+[glycoverse](https://github.com/glycoverse/glycoverse) are also
+applicable here: [Installation of
+glycoverse](https://github.com/glycoverse/glycoverse#installation).
 
 The Glycoverse repository provides dependencies such as `glyexp`. `pak`
 also resolves required Bioconductor packages for your R version.
