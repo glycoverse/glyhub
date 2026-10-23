@@ -1,0 +1,58 @@
+{
+  "glyhub_PXD023980_N_FissionYeast_DDA1h": {
+    "dimensions": [666, 4],
+    "source_cells_compared": 2664,
+    "source_values_exact": true,
+    "source_sha256": "11acfb8ccf013e3516e431559765ed619817a2c6c0a7074034d16180bc90087c",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_FissionYeast_DDA6h": {
+    "dimensions": [461, 3],
+    "source_cells_compared": 1383,
+    "source_values_exact": true,
+    "source_sha256": "d1f1b258cd31519cf6ca9edee25742f11431c9637be2547377de09f08d8a0836",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_FissionYeast_DIA_SSL": {
+    "dimensions": [433, 4],
+    "source_cells_compared": 1732,
+    "source_values_exact": true,
+    "source_sha256": "c2c71538308f8413a783731e0f830d7575931f4ee132bff193c3fdb16ee749df",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_BuddingYeast_DIA": {
+    "dimensions": [516, 3],
+    "source_cells_compared": 1548,
+    "source_values_exact": true,
+    "source_sha256": "ed32833c0cf2ff0ccfa83433d4b1d17535d1f56a03d8be70c7affa3e1f91cd29",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_Serum_DDA": {
+    "dimensions": [1148, 3],
+    "source_cells_compared": 3444,
+    "source_values_exact": true,
+    "source_sha256": "dbecdb0e59b80b53d49a863760d753c91c6b3cb4293c3a5ba0bb09e53e90899c",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_Serum_DIA_SSL": {
+    "dimensions": [892, 3],
+    "source_cells_compared": 2676,
+    "source_values_exact": true,
+    "source_sha256": "38fbb3d6475399a8d113319d8ed93c16097f3622eb78eb049875e69fcec2b6a2",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_Mixture_DDA": {
+    "dimensions": [2054, 9],
+    "source_cells_compared": 18486,
+    "source_values_exact": true,
+    "source_sha256": "22dd85714493e13835a61de58bab61e5b4d8712a3092fcaf74303c3b8b1296ae",
+    "valid_object": true
+  },
+  "glyhub_PXD023980_N_Mixture_DIA_SSL": {
+    "dimensions": [1066, 9],
+    "source_cells_compared": 9594,
+    "source_values_exact": true,
+    "source_sha256": "1a7c7daebb786fb4aff82e530076ff6c5fb0ada592824596ff0c85a3fdff4c14",
+    "valid_object": true
+  }
+}

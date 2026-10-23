@@ -1,0 +1,48 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC10963274_OxoScan_SourceQuantification",
+      "source": "Zenodo",
+      "kind": "raw",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC10963274_OxoScan_SourceQuantification.rds",
+      "bytes": 1410022,
+      "sha256": "935ad8b0124551fe1a0e58de3ff8a0b5b5e4ca27b5f6753db7d4affcc811a283",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 1002,
+      "measurements": 45
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_PMC10963274_OxoScan_SourceQuantification",
+    "doi": "10.1038/s41551-023-01067-5",
+    "accession": "PMC10963274",
+    "repository": "Zenodo",
+    "source_url": "https://zenodo.org/records/8015483",
+    "original_sha256": "c17f593308980e9291304360427968df5b0e935e2e90a6729ff4065e2f3f0cda",
+    "license": "CC BY 4.0 independent Zenodo data licence; author attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Linear original author Intensity column and separate Intensity.Norm; authors median normalized samples, calculated mean intensities across technical replicates, removed5 low-intensity runs and required >3 oxonium ions; preserve upstream processing and source values, no inverse transforms.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": null,
+    "format": "rds",
+    "sha256": "935ad8b0124551fe1a0e58de3ff8a0b5b5e4ca27b5f6753db7d4affcc811a283",
+    "features": 1002,
+    "measurements": 45,
+    "privacy_derivative": true,
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "White MEH et al.",
+      "title": "Oxonium ion scanning mass spectrometry for large-scale plasma glycoproteomics.",
+      "year": "2024",
+      "doi": "10.1038/s41551-023-01067-5",
+      "url": "https://doi.org/10.1038/s41551-023-01067-5"
+    }
+  },
+  "exact_bytes_retained": false,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

@@ -1,0 +1,58 @@
+{
+  "glyhub_THNO47066_N_UrineDeglycopeptides": {
+    "dimensions": [889, 142],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  },
+  "glyhub_PXD019914_N_Intact_RelativeRatios": {
+    "dimensions": [15512, 129],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  },
+  "glyhub_PXD019914_N_SPEG_RelativeRatios": {
+    "dimensions": [5115, 129],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  },
+  "glyhub_PMC10983713_N_SerumDiseaseGroups": {
+    "dimensions": [1114, 80],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  },
+  "glyhub_PMC9185890_N_AMLSurfaceome": {
+    "dimensions": [622, 18],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  },
+  "glyhub_PMC9287322_N_PrimaryMyelomaInputs": {
+    "dimensions": [860, 10],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  },
+  "glyhub_MSV000088624_N_HeartSurfaceome": {
+    "dimensions": [490, 7],
+    "values_unchanged": true,
+    "zeros_unchanged": true,
+    "missingness_unchanged": true,
+    "privacy_redacted": true,
+    "valid": true
+  }
+}

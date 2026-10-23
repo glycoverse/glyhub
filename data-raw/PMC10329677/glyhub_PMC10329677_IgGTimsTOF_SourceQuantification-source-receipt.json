@@ -1,0 +1,54 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC10329677_IgGTimsTOF_SourceQuantification",
+      "source": "Publication",
+      "kind": "raw",
+      "format": "xlsx",
+      "storage": "staged",
+      "filename": "glyhub_PMC10329677_IgGTimsTOF_SourceQuantification.xlsx",
+      "bytes": 139161,
+      "sha256": "6f7373820beb4a10123aab3d2c059393ec2175f3563b426896efa81d2b9d94c1",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PMC10329677",
+    "dataset": "glyhub_PMC10329677_IgGTimsTOF_SourceQuantification",
+    "local_file": "41467_2023_39699_MOESM8_ESM.xlsx",
+    "doi": "10.1038/s41467-023-39699-5",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "6f7373820beb4a10123aab3d2c059393ec2175f3563b426896efa81d2b9d94c1",
+    "bytes": 139161,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10329677/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original GlycanFinder Area, comparator pGlyco3 MonoArea. Preserve blank missing area and zero; corrected -1 alternatives not selected.",
+    "experimental_design": "Original commercial human IgG IgG1-4 enriched tryptic glycopeptides, measured separately Orbitrap and timsTOF under PXD039787; Source File/RawName exact acquisition mapping in table. No assumed biological replicates.",
+    "limitations": "MOESM5 yeast/MOESM6 mouse/MOESM9 HGI are reanalysis of previously deposited datasets, exclude as duplicate original source; do not align GPSMs artificially across instruments or engines.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "GlycanFinder",
+        "source_records": 863,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Author GPSM/precursor rows in full source workbook, alternative search-engine outputs kept as alternatives not independent datasets. Preserve site/protein ambiguity.",
+    "citation": {
+      "authors": "Sun W et al.",
+      "title": "Glycopeptide database search and de novo sequencing with PEAKS GlycanFinder enable highly sensitive glycoproteomics.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-39699-5",
+      "url": "https://doi.org/10.1038/s41467-023-39699-5"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

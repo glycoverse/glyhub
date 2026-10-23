@@ -24,7 +24,7 @@ package is experimental.
 
 ## Available data
 
-glyhub provides **97 curated datasets** as `GlycomicSE` or
+glyhub provides **97 released curated datasets** as `GlycomicSE` or
 `GlycoproteomicSE` objects:
 
 | Source                          | Datasets | Coverage                                                                                                                                     |
@@ -32,6 +32,21 @@ glyhub provides **97 curated datasets** as `GlycomicSE` or
 | GlycoPOST                       |       75 | 47 public projects covering released N- and O-glycans, glycosphingolipid-derived glycans, glycosaminoglycan disaccharides and glycopeptides. |
 | CPTAC                           |        8 | N-glycoproteomics from eight cancer cohorts: CCRCC, COAD, HGSC, HNSCC, LSCC, LUAD, PDAC and UCEC.                                            |
 | PRIDE, jPOST, iProX and MassIVE |       14 | Published N- and O-glycoproteomics studies, including a human tissue atlas, mouse brain, cancer, DQGlyco and Glyco-DIA experiments.          |
+
+The development catalog also includes **additional locally staged review
+objects** from verified literature sources. They preserve complete
+selected author matrices, source scales and missing values. These
+entries have `storage = "staged"` and no download URL; they require the
+maintainer’s verified local cache and are **not a new public data
+release**. Reproduction instructions are under their accession
+directories in `data-raw/`.
+
+Some signed author-processed matrices are staged as **source-only
+files** via `glyhub_load(id, kind = "raw")`; here raw means source
+asset, not instrument-raw intensity. Their original scales are retained
+without creating a curated SE or performing an inverse transformation.
+See `?glyhub_literature_sources` for exact samples, scales and
+provenance.
 
 Use `glyhub_catalog()` to browse dataset identifiers, experiment and
 glycan types, structure availability and quantification methods. Each
@@ -53,17 +68,17 @@ matrix.
 
 **Abundance scales and missing-value rules depend on the source:**
 
--   **GlycoPOST:** zero-valued abundances become `NA` in the assay.
-    Original values and processing masks remain in metadata; glyhub adds
-    no imputation or renormalization.
--   **CPTAC:** assays contain `2^source_value`, while original log2
-    values remain in `metadata(x)$raw_abundance`. A source zero becomes
-    1; source missing values remain `NA`.
--   **Other published studies:** source numerical values and zeros are
-    retained, except for the documented `-1` to `NA` convention in
-    `glyhub_MSV000089484_N_HCC`. Some source tables already contain
-    normalization, imputation or feature selection, as documented in the
-    dataset help.
+- **GlycoPOST:** zero-valued abundances become `NA` in the assay.
+  Original values and processing masks remain in metadata; glyhub adds
+  no imputation or renormalization.
+- **CPTAC:** assays contain `2^source_value`, while original log2 values
+  remain in `metadata(x)$raw_abundance`. A source zero becomes 1; source
+  missing values remain `NA`.
+- **Other published studies:** source numerical values and zeros are
+  retained, except for the documented `-1` to `NA` convention in
+  `glyhub_MSV000089484_N_HCC`. Some source tables already contain
+  normalization, imputation or feature selection, as documented in the
+  dataset help.
 
 Consult `?glyhub_data_conventions` and the dataset help before comparing
 assays. `raw_abundance` preserves the selected source matrix and may
@@ -126,8 +141,8 @@ head(glyhub::glyhub_catalog()[, c("dataset", "source", "bytes")])
 #> 6 glyhub_GPST000213_O         GlycoPOST  46920
 ```
 
-Use either the common loader or a dataset’s own function. Both share the
-same verified cache and return the same object:
+For curated objects, use either the common loader or the dataset’s own
+function. Both share the same verified cache and return the same object:
 
 ``` r
 x <- glyhub::glyhub_load("glyhub_CPTAC_CCRCC")
@@ -140,3 +155,7 @@ x <- glyhub::glyhub_load("glyhub_GPST000738_N_B4GalT1", offline = TRUE)
 raw_file <- glyhub::glyhub_CPTAC_CCRCC(kind = "raw")
 # Equivalent: glyhub::glyhub_load("glyhub_CPTAC_CCRCC", kind = "raw")
 ```
+
+### Literature ingestion audit (2026-10-22)
+
+The [164-paper ledger](data-raw/literature-20261022/README.md) maps 47 locally staged curated objects and 36 original processed-source assets to 34 papers, separately from existing resources. These additions are not published release assets. Pending verification does not mean a study has no data, and a linked resource does not imply complete coverage of its paper.

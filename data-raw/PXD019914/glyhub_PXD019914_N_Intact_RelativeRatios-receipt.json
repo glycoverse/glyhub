@@ -1,0 +1,37 @@
+{
+  "dataset": "glyhub_PXD019914_N_Intact_RelativeRatios",
+  "dimensions": [
+    15512,
+    129
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD019914_N_Intact_RelativeRatios",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD019914_N_Intact_RelativeRatios.rds",
+      "bytes": 8908746,
+      "sha256": "139f88f02867188f60891ae24282197674b99bebe741ca61c6f286ac90a24fa6",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 15512,
+      "measurements": 129
+    }
+  ],
+  "provenance": {
+    "doi": "10.1038/s41467-020-19976-3",
+    "license": {
+      "license": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "basis": "Publisher article Rights and permissions; author supplementary material attached to same article; no contrary credit/licensing text in workbook shared strings or supplementary description. Not an independent repository license. Preserve attribution and indicate format conversion.",
+      "attachment_exception_found": false
+    },
+    "scale": "author-normalized log2 relative ratios; signed source values retained without inverse transformation",
+    "privacy": "Public derivative: study-local anonymous sample/subject labels; no original patient-ID correspondence or individual clinical covariates"
+  },
+  "missing": 1574091,
+  "zero": 0,
+  "typed_composition_missing": 15512
+}

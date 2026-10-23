@@ -26,7 +26,9 @@ glyhub_GPST000120_O_Spike_ACE2(
 }
 \arguments{
 \item{kind}{\code{"curated"} returns a data object; \code{"raw"} returns the path to
-a verified source archive. Raw archives are currently available for CPTAC.}
+a verified source file. Here \code{"raw"} means the source asset, not necessarily
+instrument-raw or unprocessed intensity. Some literature sources contain
+signed author-processed matrices and have no curated object.}
 
 \item{cache_dir}{Cache directory, defaulting to
 \code{tools::R_user_dir("glyhub", "cache")}. Set option \code{glyhub.cache_dir}

@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "glyhub_PXD057512_CSF_DGP_SourceQuantification",
+    "reason": "Original acquisition labels have unresolved person-level linkability; original file retained only as local reference, not registered for public distribution",
+    "new_resource_kind": null
+  },
+  {
+    "dataset": "glyhub_PXD057512_PE_DGP_SourceQuantification",
+    "reason": "Original acquisition labels have unresolved person-level linkability; original file retained only as local reference, not registered for public distribution",
+    "new_resource_kind": null
+  },
+  {
+    "dataset": "glyhub_PXD057512_SALIVA_DGP_SourceQuantification",
+    "reason": "Original acquisition labels have unresolved person-level linkability; original file retained only as local reference, not registered for public distribution",
+    "new_resource_kind": null
+  },
+  {
+    "dataset": "glyhub_PXD057512_URINE_DGP_SourceQuantification",
+    "reason": "Original acquisition labels have unresolved person-level linkability; original file retained only as local reference, not registered for public distribution",
+    "new_resource_kind": null
+  }
+]

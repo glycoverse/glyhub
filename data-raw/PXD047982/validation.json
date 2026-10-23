@@ -1,0 +1,162 @@
+{
+  "glyhub_PXD047982_O_24d_VVA_Run2": {
+    "dimensions": [124, 1],
+    "source_sha256": "afd53ed618a6b06d1690b5e38abc8e77ed803823ed80cfc14ef4534d90a62581",
+    "source_cells_compared": 124,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_VVA_Run3": {
+    "dimensions": [221, 1],
+    "source_sha256": "3a797a7d45a39c0b56ff722dfa3c94d11670bde1a50cd7acfdc66af2ce66c1f4",
+    "source_cells_compared": 221,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_VVA_Run4": {
+    "dimensions": [121, 1],
+    "source_sha256": "16c2046df03ccabafe580c27ff4c4c08848402d00e10754c279cc307959eeb4f",
+    "source_cells_compared": 121,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_PNA_Run1": {
+    "dimensions": [514, 1],
+    "source_sha256": "3dd2aca0016b59e1604845e201a92514a31a200b6dd5bf660307837b34f39751",
+    "source_cells_compared": 514,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_PNA_Run2": {
+    "dimensions": [549, 1],
+    "source_sha256": "a90dda6b11849cd59bd077ddba26062987b9b6e4cec3915d44fbdc30c83385a8",
+    "source_cells_compared": 549,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_PNA_Run3": {
+    "dimensions": [554, 1],
+    "source_sha256": "72d3e44636783ce2de616c403c00b75ad808c38fff4f7aba6aa0132d73b6e405",
+    "source_cells_compared": 554,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_PNA_Run4": {
+    "dimensions": [468, 1],
+    "source_sha256": "0d7ddf3ede0d7050a7a0af0e8f9785956558110bebbb7acb2b3385bf534255b7",
+    "source_cells_compared": 468,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_24d_VVA_Run1": {
+    "dimensions": [148, 1],
+    "source_sha256": "2e02d2df01988ec0f646a260b883010a445266504b8769e5883d385edf91c3a7",
+    "source_cells_compared": 148,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_VVA_Run2": {
+    "dimensions": [166, 1],
+    "source_sha256": "f9fe330507e3c11b8261f3f066ed0af9fcab1403fee9af6e43072ad8894f5c16",
+    "source_cells_compared": 166,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_VVA_Run3": {
+    "dimensions": [289, 1],
+    "source_sha256": "4fc2c6037ec36dd1a738b510bf6d9afb19e133d4425888e8a312398dc682754e",
+    "source_cells_compared": 289,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_VVA_Run4": {
+    "dimensions": [171, 1],
+    "source_sha256": "8c82b1093aba56b9a1372b099afdf0d373bf9e4a9501ed592283d88da4c253b1",
+    "source_cells_compared": 171,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_PNA_Run1": {
+    "dimensions": [589, 1],
+    "source_sha256": "ef31438e16d1c20798b2e956c23a8627c9bb3f3fae8f1731a7040daad81ef3f3",
+    "source_cells_compared": 589,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_VVA_Run1": {
+    "dimensions": [201, 1],
+    "source_sha256": "2eafb5651a655f06c2f0ae81043be09d22bbfbea04a496f1ff7882f7dd4238c3",
+    "source_cells_compared": 201,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_PNA_Run2": {
+    "dimensions": [587, 1],
+    "source_sha256": "9a826d45fe76842b854d39f6161eecd8c72d16ee0fc306a6040acf0cd83ddbbc",
+    "source_cells_compared": 587,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_PNA_Run3": {
+    "dimensions": [557, 1],
+    "source_sha256": "bd8752bd0f98b77885f2ee2d2440f58f1fee8ce8157d878046e206bffe844e91",
+    "source_cells_compared": 557,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD047982_O_12w_PNA_Run4": {
+    "dimensions": [486, 1],
+    "source_sha256": "0b782c6ee036f76991c948d9351a5c067a004a59de3074cf09b0622a1f2c16b7",
+    "source_cells_compared": 486,
+    "source_values_exact": true,
+    "isotope_area_exact": true,
+    "source_zero": 0,
+    "source_missing": 0,
+    "valid_object": true
+  }
+}

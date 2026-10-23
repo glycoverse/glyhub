@@ -1,0 +1,180 @@
+{
+  "status": "usable",
+  "matrix_validated": true,
+  "pmcid": "PMC9185890",
+  "doi": "10.1186/s40364-022-00390-4",
+  "accession_per_table": "no accession in article; use publication-source identifier, do not invent accession",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9185890/supplementaryFiles",
+  "bytes": 477168,
+  "sha256": "2abd326786886ae4043a8260f817c5ac7af823a8c12e300e7c61a498c278fe3c",
+  "sheet": "Sheet1",
+  "header_excel_row": 3,
+  "features": 622,
+  "measurements": 18,
+  "measurement_columns": [
+    "PMC9185890_sample_001",
+    "PMC9185890_sample_002",
+    "PMC9185890_sample_003",
+    "PMC9185890_sample_004",
+    "PMC9185890_sample_005",
+    "PMC9185890_sample_006",
+    "PMC9185890_sample_007",
+    "PMC9185890_sample_008",
+    "PMC9185890_sample_009",
+    "PMC9185890_sample_010",
+    "PMC9185890_sample_011",
+    "PMC9185890_sample_012",
+    "PMC9185890_sample_013",
+    "PMC9185890_sample_014",
+    "PMC9185890_sample_015",
+    "PMC9185890_sample_016",
+    "PMC9185890_sample_017",
+    "PMC9185890_sample_018"
+  ],
+  "identity_columns": [
+    "UniProt",
+    "Gene.Symbol",
+    "CD.Number",
+    "Median_No_Peptides"
+  ],
+  "range": [
+    56366.0,
+    707470000.0
+  ],
+  "zeros": 0,
+  "negative": 0,
+  "missing": 7972,
+  "new_transformations": [],
+  "license": "CC BY4.0 author supplementary data; license_evidence.json",
+  "mapping": [
+    {
+      "replicate_type": "separate technical/preparation measurements of same PDX specimen",
+      "sample_material": "patient-derived xenograft cells isolated from NSG mouse spleen/bone marrow; not direct primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_001",
+      "anonymous_sample": "PMC9185890_sample_001"
+    },
+    {
+      "replicate_type": "separate technical/preparation measurements of same PDX specimen",
+      "sample_material": "patient-derived xenograft cells isolated from NSG mouse spleen/bone marrow; not direct primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_001",
+      "anonymous_sample": "PMC9185890_sample_002"
+    },
+    {
+      "replicate_type": "PDX-derived specimen; replicate independence not reported",
+      "sample_material": "patient-derived xenograft cells isolated from NSG mouse spleen/bone marrow; not direct primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_002",
+      "anonymous_sample": "PMC9185890_sample_003"
+    },
+    {
+      "replicate_type": "primary patient",
+      "sample_material": "primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_003",
+      "anonymous_sample": "PMC9185890_sample_004"
+    },
+    {
+      "replicate_type": "primary patient",
+      "sample_material": "primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_004",
+      "anonymous_sample": "PMC9185890_sample_005"
+    },
+    {
+      "replicate_type": "primary patient",
+      "sample_material": "primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_005",
+      "anonymous_sample": "PMC9185890_sample_006"
+    },
+    {
+      "replicate_type": "primary patient",
+      "sample_material": "primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_006",
+      "anonymous_sample": "PMC9185890_sample_007"
+    },
+    {
+      "replicate_type": "primary patient",
+      "sample_material": "primary patient cells",
+      "anonymous_subject": "PMC9185890_subject_007",
+      "anonymous_sample": "PMC9185890_sample_008"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_009"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_010"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_011"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_012"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_013"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_014"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_015"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_016"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_017"
+    },
+    {
+      "replicate_type": "cell-line protocol/method replicate; not independent subjects",
+      "anonymous_sample": "PMC9185890_sample_018"
+    }
+  ],
+  "molecular_level": "glyco-CSC and Cys-glyco-CSC enriched surface protein-level; no intact glycopeptide annotation",
+  "scale": "source positive linear intensity / iBAQ-like table values; author narrative describes later log2 median normalization and figure log10 averages, but source table is NOT those logs; retain exact source values and describe scale uncertainty",
+  "design": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+  "limitations": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+  "complete_matrix_evidence": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+  "accession": "PMC9185890",
+  "local_file": "40364_2022_390_MOESM3_ESM.xlsx",
+  "dataset": "glyhub_PMC9185890_N_AMLSurfaceome",
+  "glycan_type": "N",
+  "repository": "Publication",
+  "protein_column": "UniProt",
+  "composition_column": null,
+  "title": "AMLSurfaceome",
+  "measurement_columns_1based": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "privacy_anonymous_columns": true,
+  "privacy_representation": "deidentified derivative; author values unchanged",
+  "annotation_columns_1based": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_Gp1bDigest_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM5_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "20dd15d58bb426aa74c4ec23f718ee50b0f6e57087c3a9cd4cbf07e2023518b0",
+    "bytes": 330742,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "GP1b",
+        "source_records": 329,
+        "area_columns": []
+      },
+      {
+        "sheet": "+Sia",
+        "source_records": 77,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures."
+  },
+  {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM3Digest_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM7_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "8121ab41d5f330af17a186f3baeea8d3959e5f3546da9f02f7ffa0a9b98fb7a8",
+    "bytes": 465960,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "TIM3",
+        "source_records": 145,
+        "area_columns": []
+      },
+      {
+        "sheet": "+PNGase",
+        "source_records": 8,
+        "area_columns": []
+      },
+      {
+        "sheet": "+Sia",
+        "source_records": 20,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures."
+  },
+  {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM1AUC_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM10_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "c767be518bb2aacd270ab18233b1e23234ee6fd494e4f032b10ec08bdb371054",
+    "bytes": 90892,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "Sequences",
+        "source_records": 508,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures."
+  },
+  {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM4AUC_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM11_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "1b534e812d75195e5b8c04e696ecf55839f859756f1367d498c0ec96e4c5ef9e",
+    "bytes": 53566,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "Sequences",
+        "source_records": 418,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures."
+  }
+]

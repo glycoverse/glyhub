@@ -1,0 +1,119 @@
+{
+  "dataset": "glyhub_PXD047982_O_24d_PNA_Run3",
+  "dimensions": [
+    554,
+    1
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD047982_O_24d_PNA_Run3",
+      "source": "iProX",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD047982_O_24d_PNA_Run3.rds",
+      "bytes": 164388,
+      "sha256": "ceb98f9e1bb0a55ac7392c4a0765bf4b1e792cab401ca2d2a42251ff556c9f6a",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 554,
+      "measurements": 1
+    }
+  ],
+  "provenance": {
+    "name": "24d-PNA-3-pGlycoDB-GP-FDR-Pro-Quant-Site.txt",
+    "url": "http://download.iprox.org/IPX0007783000/IPX0007783001/24d-PNA-3-pGlycoDB-GP-FDR-Pro-Quant-Site.txt",
+    "age": "24d",
+    "enrichment": "PNA",
+    "biological_replicate_label": "3",
+    "raw_run_name": "testis-24d-PNA-3.raw",
+    "sha256": "72d3e44636783ce2de616c403c00b75ad808c38fff4f7aba6aa0132d73b6e405",
+    "rows": 554,
+    "actual_raw_names": "[07]-20221219_24d_PNA",
+    "columns": [
+      "GlySpec",
+      "PepSpec",
+      "RawName",
+      "Scan",
+      "RT",
+      "PrecursorMH",
+      "PrecursorMZ",
+      "Charge",
+      "Rank",
+      "Peptide",
+      "Mod",
+      "PeptideMH",
+      "Glycan(H,N,A,F,G)",
+      "GlycanComposition",
+      "PlausibleStruct",
+      "GlyID",
+      "GlyFrag",
+      "GlyMass",
+      "GlySite",
+      "TotalScore",
+      "PepScore",
+      "GlyScore",
+      "CoreMatched",
+      "MassDeviation",
+      "PPM",
+      "GlyIonRatio",
+      "byIonRatio",
+      "czIonRatio",
+      "GlyDecoy",
+      "PepDecoy",
+      "IsSmallGlycan",
+      "GlycanPEP",
+      "GlycanFDR",
+      "PeptidePEP",
+      "PeptideFDR",
+      "TotalFDR",
+      "Proteins",
+      "Genes",
+      "ProSites",
+      "MonoArea",
+      "IsotopeArea",
+      "CorrectedGlycan(H,N,A,F,G)",
+      "CorrectedComposition",
+      "CorrectedMonoArea",
+      "CorrectedIsotopeArea",
+      "ETDScan",
+      "LocalizedSiteGroups",
+      "LocalizedScore",
+      "LocalizedIonRatio",
+      "PreLocalizedScore"
+    ],
+    "quant_stats": {
+      "MonoArea": {
+        "minimum": 272709,
+        "maximum": 734582000,
+        "negative_count": 0,
+        "zero_count": 0,
+        "empty_count": 0
+      },
+      "IsotopeArea": {
+        "minimum": 907746,
+        "maximum": 3233450000,
+        "negative_count": 0,
+        "zero_count": 0,
+        "empty_count": 0
+      },
+      "CorrectedMonoArea": {
+        "minimum": -1,
+        "maximum": -1,
+        "negative_count": 554,
+        "zero_count": 0,
+        "empty_count": 0
+      },
+      "CorrectedIsotopeArea": {
+        "minimum": -1,
+        "maximum": -1,
+        "negative_count": 554,
+        "zero_count": 0,
+        "empty_count": 0
+      }
+    }
+  },
+  "missing": 0,
+  "zero": 0,
+  "typed_composition_missing": 554
+}

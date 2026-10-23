@@ -1,0 +1,41 @@
+{
+  "dataset": "glyhub_PMC10983713_N_SerumDiseaseGroups",
+  "dimensions": [
+    1114,
+    80
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC10983713_N_SerumDiseaseGroups",
+      "source": "Publication",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC10983713_N_SerumDiseaseGroups.rds",
+      "bytes": 892070,
+      "sha256": "513793fb49705e05068a4f55d73e1b19605c9845167ba487e2b80a55049d73b9",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 1114,
+      "measurements": 80
+    }
+  ],
+  "provenance": {
+    "accession": "PMC10983713",
+    "doi": "10.1186/s12964-024-01569-y",
+    "repository": "Publication",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10983713/supplementaryFiles",
+    "sha256": "666e8e35ce02486d484648343f6e37879ba90d2d874eb54d6c9b149df3913c6f",
+    "local_file": "Table S6.CSV",
+    "header_excel_row": 1,
+    "features": 1114,
+    "measurements": 80,
+    "license": "CC BY 4.0 author supplementary quantitative data; attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Author linear per-sample glycopeptide abundances, separate #PSMs annotation excluded as assay. All source0 preserved; no normalization or imputation added. Quantification implementation not fully specified in current methods; label as author abundance, not asserted raw detector signal.",
+    "privacy": "Public derivative: study-local anonymous sample/subject labels; no original patient-ID correspondence or individual clinical covariates"
+  },
+  "missing": 0,
+  "zero": 49512,
+  "typed_composition_missing": 22
+}

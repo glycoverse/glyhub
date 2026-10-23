@@ -1,0 +1,9 @@
+# Human-subject metadata minimization
+
+The public representations omit original human subject/sample labels and individual clinical covariates (including age, Gleason score, stage and PSA). Necessary analysis groups, paired designs, QC roles and repeated-subject measurements remain represented with new study-local labels. No original-ID correspondence is included. These changes do not imply a formal guarantee against re-identification from publicly available measurements and source publications.
+
+Seven curated objects retain every assay value, zero and missing value. Their clinical metadata and embedded source representations are minimized at registration by `privacy.R`. Eight source assets are explicitly **deidentified RDS derivatives**, not exact original attachments. They preserve selected author quantitative values, alternative quantitative metrics where specified, biological feature annotations and necessary study design. Four EV originals are withheld pending clarification of subject linkage.
+
+`build-source-derivatives.R <verified-original-input-directory> <cache>` reproduces the derivative files from SHA-verified local author inputs. Original human attachments are inputs for local reference only; they are not registered as publishable assets. RDS derivatives contain `assays`, `feature_data`, `sample_data`, and provenance. The existing `kind="raw"` loader returns the verified file path; it does not imply instrument-raw data or an unmodified original file.
+
+`rebuild-curated.R` is a maintenance validator for a private pre-redaction manifest and cache. Ordinary native converters apply the same mandatory privacy transformation through `register-literature.R`. The source registration and metadata-indexing entrypoints reject the superseded original human files and held EV originals.

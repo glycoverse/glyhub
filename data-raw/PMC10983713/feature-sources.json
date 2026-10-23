@@ -1,0 +1,675 @@
+[
+  {
+    "accession": "PMC10983713",
+    "dataset": "glyhub_PMC10983713_N_SerumDiseaseGroups",
+    "title": "Serum disease groups",
+    "doi": "10.1186/s12964-024-01569-y",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "file_format": "csv",
+    "local_file": "Table S6.CSV",
+    "sha256": "666e8e35ce02486d484648343f6e37879ba90d2d874eb54d6c9b149df3913c6f",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10983713/supplementaryFiles",
+    "header_excel_row": 1,
+    "features": 1114,
+    "measurements": 80,
+    "measurement_columns_1based": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "measurement_columns": [
+      "PMC10983713_sample_001",
+      "PMC10983713_sample_002",
+      "PMC10983713_sample_003",
+      "PMC10983713_sample_004",
+      "PMC10983713_sample_005",
+      "PMC10983713_sample_006",
+      "PMC10983713_sample_007",
+      "PMC10983713_sample_008",
+      "PMC10983713_sample_009",
+      "PMC10983713_sample_010",
+      "PMC10983713_sample_011",
+      "PMC10983713_sample_012",
+      "PMC10983713_sample_013",
+      "PMC10983713_sample_014",
+      "PMC10983713_sample_015",
+      "PMC10983713_sample_016",
+      "PMC10983713_sample_017",
+      "PMC10983713_sample_018",
+      "PMC10983713_sample_019",
+      "PMC10983713_sample_020",
+      "PMC10983713_sample_021",
+      "PMC10983713_sample_022",
+      "PMC10983713_sample_023",
+      "PMC10983713_sample_024",
+      "PMC10983713_sample_025",
+      "PMC10983713_sample_026",
+      "PMC10983713_sample_027",
+      "PMC10983713_sample_028",
+      "PMC10983713_sample_029",
+      "PMC10983713_sample_030",
+      "PMC10983713_sample_031",
+      "PMC10983713_sample_032",
+      "PMC10983713_sample_033",
+      "PMC10983713_sample_034",
+      "PMC10983713_sample_035",
+      "PMC10983713_sample_036",
+      "PMC10983713_sample_037",
+      "PMC10983713_sample_038",
+      "PMC10983713_sample_039",
+      "PMC10983713_sample_040",
+      "PMC10983713_sample_041",
+      "PMC10983713_sample_042",
+      "PMC10983713_sample_043",
+      "PMC10983713_sample_044",
+      "PMC10983713_sample_045",
+      "PMC10983713_sample_046",
+      "PMC10983713_sample_047",
+      "PMC10983713_sample_048",
+      "PMC10983713_sample_049",
+      "PMC10983713_sample_050",
+      "PMC10983713_sample_051",
+      "PMC10983713_sample_052",
+      "PMC10983713_sample_053",
+      "PMC10983713_sample_054",
+      "PMC10983713_sample_055",
+      "PMC10983713_sample_056",
+      "PMC10983713_sample_057",
+      "PMC10983713_sample_058",
+      "PMC10983713_sample_059",
+      "PMC10983713_sample_060",
+      "PMC10983713_sample_061",
+      "PMC10983713_sample_062",
+      "PMC10983713_sample_063",
+      "PMC10983713_sample_064",
+      "PMC10983713_sample_065",
+      "PMC10983713_sample_066",
+      "PMC10983713_sample_067",
+      "PMC10983713_sample_068",
+      "PMC10983713_sample_069",
+      "PMC10983713_sample_070",
+      "PMC10983713_sample_071",
+      "PMC10983713_sample_072",
+      "PMC10983713_sample_073",
+      "PMC10983713_sample_074",
+      "PMC10983713_sample_075",
+      "PMC10983713_sample_076",
+      "PMC10983713_sample_077",
+      "PMC10983713_sample_078",
+      "PMC10983713_sample_079",
+      "PMC10983713_sample_080"
+    ],
+    "protein_column": "Master Protein Accessions",
+    "composition_column": "Glycan Composition",
+    "mapping": [
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_001"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_002"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_003"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_004"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_005"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_006"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_007"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_008"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_009"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_010"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_011"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_012"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_013"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_014"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_015"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_016"
+      },
+      {
+        "condition": "HCC",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_017"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_018"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_019"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_020"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_021"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_022"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_023"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_024"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_025"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_026"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_027"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_028"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_029"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_030"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_031"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_032"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_033"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_034"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_035"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_036"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_037"
+      },
+      {
+        "condition": "liver cirrhosis",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_038"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_039"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_040"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_041"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_042"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_043"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_044"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_045"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_046"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_047"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_048"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_049"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_050"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_051"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_052"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_053"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_054"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_055"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_056"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_057"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_058"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_059"
+      },
+      {
+        "condition": "chronic hepatitis B",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_060"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_061"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_062"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_063"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_064"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_065"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_066"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_067"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_068"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_069"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_070"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_071"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_072"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_073"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_074"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_075"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_076"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_077"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_078"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_079"
+      },
+      {
+        "condition": "healthy control",
+        "sample_material": "serum",
+        "replicate_type": "individual patient/control specimen; no fabricated clinical covariate joins",
+        "anonymous_sample": "PMC10983713_sample_080"
+      }
+    ],
+    "missing": 0,
+    "zeros": 49512,
+    "license": "CC BY 4.0 author supplementary quantitative data; attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Author linear per-sample glycopeptide abundances, separate #PSMs annotation excluded as assay. All source0 preserved; no normalization or imputation added. Quantification implementation not fully specified in current methods; label as author abundance, not asserted raw detector signal.",
+    "design": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+    "molecular_level": "Full1114identified intact glycopeptide rows: Sequence+Modifications+Glycan Composition+Master Protein Accessions; ambiguous groups retained.",
+    "limitations": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+    "privacy_anonymous_columns": true,
+    "privacy_representation": "deidentified derivative; author values unchanged"
+  }
+]

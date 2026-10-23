@@ -1,0 +1,20 @@
+{
+  "glyhub_PXD013627_N_HumanCellLines": {
+    "source_sha256": "ce12c436d97f6992a3ee890da4fc3b6e5a9b0618874b8039ad448bbb958a382c",
+    "dimensions": [892, 33],
+    "source_cells_compared": 29436,
+    "source_values_exact": true,
+    "source_missing": 12452,
+    "zero": 0,
+    "valid_object": true
+  },
+  "glyhub_PXD013627_N_MouseBCells": {
+    "source_sha256": "93edf455d8ada6fc065d43b45c39fc4bb1773012101acbaff22326e45dad6eed",
+    "dimensions": [147, 28],
+    "source_cells_compared": 4116,
+    "source_values_exact": true,
+    "source_missing": 2358,
+    "zero": 0,
+    "valid_object": true
+  }
+}

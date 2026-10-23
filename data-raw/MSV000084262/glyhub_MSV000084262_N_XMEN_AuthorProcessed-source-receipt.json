@@ -1,0 +1,49 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000084262_N_XMEN_AuthorProcessed",
+      "source": "MassIVE",
+      "kind": "raw",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_MSV000084262_N_XMEN_AuthorProcessed.rds",
+      "bytes": 470289,
+      "sha256": "e23b65e04c5394da8181e1697a8038b2778e7a326fb033780c76b864b1f6141e",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 2073,
+      "measurements": 6
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_MSV000084262_N_XMEN_AuthorProcessed",
+    "doi": "10.1172/JCI131116",
+    "accession": "MSV000084262",
+    "repository": "MassIVE",
+    "source_url": "https://massive.ucsd.edu/ProteoSAFe/DownloadResultFile?file=f.MSV000084262%2Fpeak%2FglycoExpt1_overlord.xlsx&forceDownload=true",
+    "original_sha256": "80bb1c8babd9f7be24e81ec6e8cb1f3153cbdd801e16248816db189462d66932",
+    "license": "CC0-1.0",
+    "license_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084262",
+    "license_evidence_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084262",
+    "scale": "Signed author-processed values preserved unchanged. Paper describes log2 intensity processing, but the six deposited columns have no units and contain negative values; exact additional centering/normalization is undocumented. Do not label raw/linear intensity or exponentiate.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "e23b65e04c5394da8181e1697a8038b2778e7a326fb033780c76b864b1f6141e",
+    "features": 2073,
+    "measurements": 6,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Ravell JC et al.",
+      "title": "Defective glycosylation and multisystem abnormalities characterize the primary immunodeficiency XMEN disease.",
+      "year": "2020",
+      "doi": "10.1172/JCI131116",
+      "url": "https://doi.org/10.1172/JCI131116"
+    }
+  },
+  "exact_bytes_retained": false,
+  "curated_status": "hold: signed author scale; no transformation authorized",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

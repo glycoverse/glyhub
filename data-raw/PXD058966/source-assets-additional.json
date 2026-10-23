@@ -1,0 +1,32 @@
+[
+  {
+    "dataset": "glyhub_PXD058966_HCC18OSites_SourceQuantification",
+    "doi": "10.1186/s12943-024-02199-1",
+    "accession": "PXD058966",
+    "repository": "iProX",
+    "source_url": "https://www.iprox.cn/page/project.html?id=IPX0009603000",
+    "original_sha256": "f07321742c83cc825b18b180425b6c3cffec2b5b63e5c296c434cf33ed693979",
+    "license": "CC0 1.0 specific repository scientific-data policy; submission date after 2023-03-23; not publisher materials",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_policy_url": "https://www.iprox.cn/page/iproxDataLisence.html",
+    "verified_submit_date": "2024-12-18",
+    "scale": "OriginalMaxQuantsiteIntensity columns36samples, 123986zeros kept; noNA/negative; multiplicity-specific___1/2/3alternativecolumns preserved, not extraindependentsamples.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "43fb4c85707692931e7796939264dd8201d63b31f7dbb886140f8b65b07c566d",
+    "features": 5086,
+    "measurements": 36,
+    "privacy_derivative": true,
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Lao Y et al.",
+      "title": "Deciphering a profiling based on multiple post-translational modifications functionally associated regulatory patterns and therapeutic opportunities in human hepatocellular carcinoma.",
+      "year": "2024",
+      "doi": "10.1186/s12943-024-02199-1",
+      "url": "https://doi.org/10.1186/s12943-024-02199-1"
+    },
+    "local_file": "glyhub_PXD058966_HCC18OSites_SourceQuantification-deidentified.rds"
+  }
+]

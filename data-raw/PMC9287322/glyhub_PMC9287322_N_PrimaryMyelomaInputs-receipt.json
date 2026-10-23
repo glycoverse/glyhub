@@ -1,0 +1,44 @@
+{
+  "dataset": "glyhub_PMC9287322_N_PrimaryMyelomaInputs",
+  "dimensions": [
+    860,
+    10
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC9287322_N_PrimaryMyelomaInputs",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC9287322_N_PrimaryMyelomaInputs.rds",
+      "bytes": 196007,
+      "sha256": "5cd4d39b0621d650d71409bc915b9604a3be65766b552c8ab052f04eb9714fda",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 860,
+      "measurements": 10
+    }
+  ],
+  "provenance": {
+    "accession": "PMC9287322",
+    "doi": "10.1038/s41467-022-31810-6",
+    "repository": "PRIDE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9287322/supplementaryFiles",
+    "sha256": "79582aeeff2c0af69f6ffa412fa7709c7159a0a600af03239068756d5a6ab519",
+    "local_file": "41467_2022_31810_MOESM9_ESM.xlsx",
+    "sheet": "Supplementary Dataset 7",
+    "header_excel_row": 1,
+    "header_row": 1,
+    "features": 860,
+    "measurements": 10,
+    "feature_count": 860,
+    "license": "CC BY 4.0 author supplement; see license_evidence.json",
+    "assay_scale": "author log2(intensity+1) protein surfaceome abundance",
+    "scale": "log2(intensity+1)",
+    "privacy": "Public derivative: study-local anonymous sample/subject labels; no original patient-ID correspondence or individual clinical covariates"
+  },
+  "missing": 0,
+  "zero": 4667,
+  "typed_composition_missing": 860
+}

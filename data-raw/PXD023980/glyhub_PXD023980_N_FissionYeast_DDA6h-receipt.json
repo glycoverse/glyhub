@@ -1,0 +1,106 @@
+{
+  "dataset": "glyhub_PXD023980_N_FissionYeast_DDA6h",
+  "dimensions": [
+    461,
+    3
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD023980_N_FissionYeast_DDA6h",
+      "source": "iProX",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD023980_N_FissionYeast_DDA6h.rds",
+      "bytes": 50224,
+      "sha256": "6841c50f58d24ea623d0850b5d82f70e7b493981a1d08d62ea765dfd7047977c",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 461,
+      "measurements": 3
+    }
+  ],
+  "provenance": {
+    "status": "usable",
+    "name": "FissionYeast_DDA6h",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 568452,
+    "sha256": "d1f1b258cd31519cf6ca9edee25742f11431c9637be2547377de09f08d8a0836",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 461,
+    "measurements": 3,
+    "measurement_columns": [
+      "fissionyeast_NGP_DDA_6h_1_201210180855.raw",
+      "fissionyeast_NGP_DDA_6h_2_201211010726.raw",
+      "fissionyeast_NGP_DDA_6h_3.raw"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author-provided linear DDA precursor abundance; normalization status not established for this table",
+    "method": "DDA",
+    "gradient_hours": 6,
+    "sample": "fission yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      54519.6988,
+      1620626633.2025
+    ],
+    "missing": 330,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "fissionyeast_NGP_DDA_6h_1_201210180855.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_6h_1_201210180855.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {}
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_6h_2_201211010726.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_6h_2_201211010726.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {}
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_6h_3.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_6h_3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {}
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM5_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_FissionYeast_DDA6h",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  "missing": 330,
+  "zero": 0,
+  "typed_composition_missing": 0
+}

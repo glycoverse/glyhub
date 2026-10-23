@@ -1,0 +1,104 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD011063_O_FakeT_LibraryBenchmarkSource",
+      "source": "PRIDE",
+      "kind": "raw",
+      "format": "tsv",
+      "storage": "staged",
+      "filename": "glyhub_PXD011063_O_FakeT_LibraryBenchmarkSource.tsv",
+      "bytes": 17848914,
+      "sha256": "237ce4fcf6e108294a37909d477af1b00ed9ebb22704346f7332e5c903e032a7",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PXD011063",
+    "dataset": "glyhub_PXD011063_O_FakeT_LibraryBenchmarkSource",
+    "local_file": "20180430_Serum_ShortJacalin_4h_Cell_FakeT_LB_Report.xls",
+    "doi": "10.1038/s41592-019-0504-x",
+    "glycan_type": "O",
+    "repository": "PRIDE",
+    "format": "tsv",
+    "sha256": "237ce4fcf6e108294a37909d477af1b00ed9ebb22704346f7332e5c903e032a7",
+    "bytes": 17848914,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2019/11/PXD011063/20180430_Serum_ShortJacalin_4h_Cell_FakeT_LB_Report.xls",
+    "license": "CC0 1.0 independent repository project licence; scientific-method benchmark, not a new cohort",
+    "scale": "native author Spectronaut intensity/quantity columns; no conversion or aggregation",
+    "experimental_design": "One common source acquisition processed against alternative TrueT and FakeT libraries; not two biological samples.",
+    "limitations": "True and deliberately FakeT library reports share ONE acquisition. Do not interpret FakeT candidates as validated biological glycofeatures, do not create two cohorts. Historical 6xR_deSA source not reopened.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 27426,
+    "source_run_counts": {
+      "171130_Fusion_(LC2)_NewObj_Serum_20ul_Trypsin_Neuraminidase_ShortJacalin_10%_4h_HCD_DIA": 27426
+    },
+    "source_library_names": {
+      "171017_Fusion_(LC2)_Zilu_Hek_SC_Trypsin_VVA_HRM_2h_HCD_DDA_High_pH_1_20(Perq)_T_Tn_Final(G)_Fake_T": 6805,
+      "170513_Fusion_(LC2)_Zilu_Hek_SC_Trypsin_VVA_HRM_2h_HCD_DDA(400-1200)_4xR_Tn_Final(G)_Fake_T": 3027,
+      "180108_HepG2_SC_Try_deSA_8xFR(G)_Fake_T": 6549,
+      "180102_Ovcar_SC_Try_deSA_8xFR(G)_Fake_T": 5654,
+      "180321_Fusion_(LC2)_Zilu_HepG2_SC_Sup_VVA_Trypsin_deSA_VVA_HRM_2h_HCD_DDA_30%(G)_Fake_T": 1121,
+      "180102_Capan1_SC_Try_deSA_8xFR(G)_Fake_T": 4270
+    },
+    "source_role": "method_validation_alternative_library_report_source_asset_only",
+    "feature_grain": "Original DIA method/negative-control library-search records; FakeT hits are not asserted biological glycoforms. Do not align, aggregate or treat library alternatives as independent cohorts.",
+    "source_quantitative_statistics": {
+      "PG.Quantity": {
+        "numeric": 8349,
+        "missing": 19077,
+        "negative": 0,
+        "zero": 0,
+        "min": 2150.3503,
+        "max": 310964896
+      },
+      "EG.TotalQuantity (Settings)": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 4974,
+        "min": 0,
+        "max": 495789632
+      },
+      "FG.MS1PeakArea": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 0,
+        "min": 0.229,
+        "max": 5645782720
+      },
+      "FG.MS2TotalPeakArea": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 0,
+        "min": 0.363,
+        "max": 495789616
+      },
+      "FG.Quantity": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 4974,
+        "min": 0,
+        "max": 495789632
+      }
+    },
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD011063",
+    "deduplication_evidence": "glyhub_ingestion/existing_coverage/glycodia_existing_rds_source_strings.json",
+    "citation": {
+      "authors": "Ye Z et al.",
+      "title": "Glyco-DIA: a method for quantitative O-glycoproteomics with in silico-boosted glycopeptide libraries.",
+      "year": "2019",
+      "doi": "10.1038/s41592-019-0504-x",
+      "url": "https://doi.org/10.1038/s41592-019-0504-x"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}
