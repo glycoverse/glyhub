@@ -30,8 +30,18 @@
 #' @export
 glyhub_PMC9287322_N_AMO1Inputs <- function(
   kind = c("curated", "raw"),
-  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
-  refresh = FALSE, offline = FALSE
+  cache_dir = getOption(
+    "glyhub.cache_dir",
+    tools::R_user_dir("glyhub", "cache")
+  ),
+  refresh = FALSE,
+  offline = FALSE
 ) {
-  glyhub_load("glyhub_PMC9287322_N_AMO1Inputs", kind, cache_dir, refresh, offline)
+  glyhub_load(
+    "glyhub_PMC9287322_N_AMO1Inputs",
+    kind,
+    cache_dir,
+    refresh,
+    offline
+  )
 }

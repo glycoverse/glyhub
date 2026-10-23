@@ -30,8 +30,18 @@
 #' @export
 glyhub_PXD016713_O_ChromatinProteins <- function(
   kind = c("curated", "raw"),
-  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
-  refresh = FALSE, offline = FALSE
+  cache_dir = getOption(
+    "glyhub.cache_dir",
+    tools::R_user_dir("glyhub", "cache")
+  ),
+  refresh = FALSE,
+  offline = FALSE
 ) {
-  glyhub_load("glyhub_PXD016713_O_ChromatinProteins", kind, cache_dir, refresh, offline)
+  glyhub_load(
+    "glyhub_PXD016713_O_ChromatinProteins",
+    kind,
+    cache_dir,
+    refresh,
+    offline
+  )
 }

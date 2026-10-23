@@ -29,8 +29,12 @@
 #' @export
 glyhub_PXD036791_O_GALNT_TCL <- function(
   kind = c("curated", "raw"),
-  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
-  refresh = FALSE, offline = FALSE
+  cache_dir = getOption(
+    "glyhub.cache_dir",
+    tools::R_user_dir("glyhub", "cache")
+  ),
+  refresh = FALSE,
+  offline = FALSE
 ) {
   glyhub_load("glyhub_PXD036791_O_GALNT_TCL", kind, cache_dir, refresh, offline)
 }

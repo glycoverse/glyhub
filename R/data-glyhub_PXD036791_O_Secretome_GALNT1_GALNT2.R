@@ -25,8 +25,18 @@
 #' @export
 glyhub_PXD036791_O_Secretome_GALNT1_GALNT2 <- function(
   kind = c("curated", "raw"),
-  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
-  refresh = FALSE, offline = FALSE
+  cache_dir = getOption(
+    "glyhub.cache_dir",
+    tools::R_user_dir("glyhub", "cache")
+  ),
+  refresh = FALSE,
+  offline = FALSE
 ) {
-  glyhub_load("glyhub_PXD036791_O_Secretome_GALNT1_GALNT2", kind, cache_dir, refresh, offline)
+  glyhub_load(
+    "glyhub_PXD036791_O_Secretome_GALNT1_GALNT2",
+    kind,
+    cache_dir,
+    refresh,
+    offline
+  )
 }
