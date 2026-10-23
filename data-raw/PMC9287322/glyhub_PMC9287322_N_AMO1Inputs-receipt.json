@@ -1,0 +1,238 @@
+{
+  "dataset": "glyhub_PMC9287322_N_AMO1Inputs",
+  "dimensions": [1248, 12],
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC9287322_N_AMO1Inputs",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC9287322_N_AMO1Inputs.rds",
+      "bytes": 211813,
+      "sha256": "ea0c366522cbd26f8e22198f4e44773806746bd2d9b361102ff27e48ff634fa2",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 1248,
+      "measurements": 12
+    }
+  ],
+  "provenance": {
+    "name": "AMO1Inputs",
+    "doi": "10.1038/s41467-022-31810-6",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9287322/supplementaryFiles",
+    "sha256": "7cb8407688c028ff9fb01ba7dd3e93662f4159f17a43815b1aa7d180929a34fd",
+    "bytes": 199145,
+    "sheet": "Supplementary Dataset 9 - Micro",
+    "header_excel_row": 1,
+    "features": 1248,
+    "measurements": 12,
+    "measurement_columns": ["iBAQ.BtzR.30e6.rep1", "iBAQ.BtzR.30e6.rep2", "iBAQ.BtzR.30e6.rep3", "iBAQ.BtzR_1e6", "iBAQ.BtzR_3e6", "iBAQ.BtzR_5e6", "iBAQ.WT.30e6.rep1", "iBAQ.WT.30e6.rep2", "iBAQ.WT.30e6.rep3", "iBAQ.WT_1e6", "iBAQ.WT_3e6", "iBAQ.WT_5e6"],
+    "identity_columns": ["Uniprot", "Protein", "Gene", "Unique.peptides"],
+    "molecular_level": "N-glycoprotein-enriched cell surface capture protein-level; no intact glycopeptide/site identity",
+    "enrichment": "oxidize cell surface glycans, covalent biotinylation, streptavidin capture and on-bead trypsinization; background intracellular proteins possible",
+    "scale": "log2(iBAQ+1)",
+    "range": [0, 29.6511],
+    "negative": 0,
+    "zeros": 6061,
+    "missing": 0,
+    "new_transformations": [],
+    "license": "CC BY 4.0 author supplement; see license_evidence.json",
+    "status": "usable",
+    "mapping": [
+      {
+        "measurement": "iBAQ.BtzR.30e6.rep1",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "30e6.rep1",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.BtzR.30e6.rep2",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "30e6.rep2",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.BtzR.30e6.rep3",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "30e6.rep3",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.BtzR_1e6",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "1e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.BtzR_3e6",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "3e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.BtzR_5e6",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "5e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.WT.30e6.rep1",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "30e6.rep1",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.WT.30e6.rep2",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "30e6.rep2",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.WT.30e6.rep3",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "30e6.rep3",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.WT_1e6",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "1e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.WT_3e6",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "3e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.WT_5e6",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "5e6",
+        "replicate_type": "micro input-method test; independence not established"
+      }
+    ],
+    "limitations": "Preserve exact author row/protein strings. No invented sites, structures, composition or complete glycoprotein specificity.",
+    "design": "AMO1 WT vs bortezomib resistant; macro 30e6 three labelled replicates each vs micro 1e6/3e6/5e6 method/input tests, not twelve independent biological conditions.",
+    "accession_per_table": "unknown among article projects",
+    "accession_mapping_evidence": "Official PX file-list names matched to author supplementary dataset names; exact run-to-channel crosswalk requests failed HTTP503, see samplemap_receipts.json. Primary inputs project family includes revision PXD032031 supplement toPXD022553.",
+    "cross_panel_overlap": "MOESM3,5,7 share cell lines/controls; source-run independence unresolved. No numerical duplicate columns among unique shared protein IDs; do not count as independent cohorts. Preserve labelled panels of same study.",
+    "local_file": "41467_2022_31810_MOESM11_ESM.xlsx",
+    "accession": "PMC9287322",
+    "dataset": "glyhub_PMC9287322_N_AMO1Inputs",
+    "repository": "PRIDE",
+    "glycan_type": "N",
+    "protein_column": "Uniprot",
+    "header_row": 1,
+    "feature_count": 1248,
+    "assay_scale": "author log2(iBAQ+1) protein surfaceome abundance",
+    "title": "Cell-surface-capture protein panel AMO1Inputs",
+    "species": "Homo sapiens",
+    "sample_mapping": [
+      {
+        "measurement": "iBAQ.BtzR.30e6.rep1",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "30e6.rep1",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.BtzR.30e6.rep2",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "30e6.rep2",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.BtzR.30e6.rep3",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "30e6.rep3",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.BtzR_1e6",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "1e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.BtzR_3e6",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "3e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.BtzR_5e6",
+        "cell_line": "AMO1",
+        "condition": "BtzR",
+        "input_label": "5e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.WT.30e6.rep1",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "30e6.rep1",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.WT.30e6.rep2",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "30e6.rep2",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.WT.30e6.rep3",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "30e6.rep3",
+        "replicate_type": "macro labelled replicate"
+      },
+      {
+        "measurement": "iBAQ.WT_1e6",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "1e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.WT_3e6",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "3e6",
+        "replicate_type": "micro input-method test; independence not established"
+      },
+      {
+        "measurement": "iBAQ.WT_5e6",
+        "cell_line": "AMO1",
+        "condition": "WT",
+        "input_label": "5e6",
+        "replicate_type": "micro input-method test; independence not established"
+      }
+    ],
+    "author_processing": "Preserve complete selected author-processed matrix on its supplied log2(iBAQ+1) scale; no new filtering, imputation or transformation.",
+    "replication_caution": "Same study/source family, not independent cohorts. CellLineSurfaceome partly reuses PXD016800 leukemia data; exact shared-control run overlap across panels unresolved because official sample-list downloads failed. Original sample labels, patient input titration and methods preserved; do not infer independence.",
+    "study_source_family": "doi:10.1038/s41467-022-31810-6",
+    "source_measurement_columns_1based": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+  },
+  "missing": 0,
+  "zero": 6061,
+  "typed_composition_missing": 1248
+}

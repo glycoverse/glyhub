@@ -7,8 +7,8 @@
 glyhub_catalog(kind = c("curated", "raw", "all"))
 }
 \arguments{
-\item{kind}{List \code{"curated"} datasets (default), \code{"raw"} source archives,
-or \code{"all"} resources. Raw archives are currently available for CPTAC only.}
+\item{kind}{List \code{"curated"} datasets (default), \code{"raw"} source files,
+or \code{"all"} resources. Source-only literature entries may lack a curated object.}
 }
 \value{
 A tibble containing dataset identifiers, source, file format,
@@ -24,9 +24,9 @@ to the assay scale or unit when no explicit method is recorded. This is
 descriptive text, not a controlled classification of instruments.
 }
 
-Raw archives inherit experiment and glycan types from their curated dataset;
+Source files record experiment and glycan types where supported;
 structure availability and quantification descriptions are \code{NA} for raw
-archives. Unavailable or outdated object metadata is also returned as \code{NA}.
+files. Unavailable or outdated object metadata is also returned as \code{NA}.
 }
 \description{
 List released and locally staged datasets without downloading any files.

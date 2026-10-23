@@ -1,0 +1,82 @@
+{
+  "glyhub_MSV000084262_N_XMEN_AuthorProcessed": {
+    "dimensions": [2073, 6],
+    "assay_names": "author_abundance",
+    "source_quantitative_values_preserved": true,
+    "missing": 0,
+    "zeros": 4,
+    "no_original_patient_mapping": true,
+    "source_sha256": "80bb1c8babd9f7be24e81ec6e8cb1f3153cbdd801e16248816db189462d66932",
+    "derived_sha256": "e23b65e04c5394da8181e1697a8038b2778e7a326fb033780c76b864b1f6141e"
+  },
+  "glyhub_MSV000086576_N_HCC_AuthorProcessed": {
+    "dimensions": [1831, 7],
+    "assay_names": "author_abundance",
+    "source_quantitative_values_preserved": true,
+    "missing": 73,
+    "zeros": 3,
+    "no_original_patient_mapping": true,
+    "source_sha256": "19835433fa21fff289f69c5ffc928794bbc9b5d481076fbb3f534d6bf0e80e83",
+    "derived_sha256": "187e2ebc184907b24be3a86cdd044b2b35b21996e96285f1535eec27381a3899"
+  },
+  "glyhub_MSV000086576_N_PDAC_AuthorProcessed": {
+    "dimensions": [2525, 12],
+    "assay_names": "author_abundance",
+    "source_quantitative_values_preserved": true,
+    "missing": 57,
+    "zeros": 2,
+    "no_original_patient_mapping": true,
+    "source_sha256": "e4f02dcdafb0568e70187e2cc27fb00bebeddc5f3c6cfa95b36790244c9aca9b",
+    "derived_sha256": "847199533d5b0e389f19896c00697558af5fddb34c617057ab36aeb362e2fb9f"
+  },
+  "glyhub_PMC10963274_OxoScan_SourceQuantification": {
+    "dimensions": [1002, 45],
+    "assay_names": ["author_abundance", "author_normalized_abundance"],
+    "source_quantitative_values_preserved": true,
+    "missing": 0,
+    "zeros": 0,
+    "no_original_patient_mapping": true,
+    "source_sha256": "c17f593308980e9291304360427968df5b0e935e2e90a6729ff4065e2f3f0cda",
+    "derived_sha256": "935ad8b0124551fe1a0e58de3ff8a0b5b5e4ca27b5f6753db7d4affcc811a283"
+  },
+  "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed": {
+    "dimensions": [262, 10],
+    "assay_names": "author_abundance",
+    "source_quantitative_values_preserved": true,
+    "missing": 0,
+    "zeros": 7,
+    "no_original_patient_mapping": true,
+    "source_sha256": "48714c1a0234d1cb6313ded25023a194e4ca22bc0e6533117546e10042ce0c9e",
+    "derived_sha256": "984781b0ed2024b160a47e73a01f2bc2884013493abdaf723d2a6a38cd312c28"
+  },
+  "glyhub_PXD019914_N_Intact_AuthorProcessed": {
+    "dimensions": [15512, 129],
+    "assay_names": "author_abundance",
+    "source_quantitative_values_preserved": true,
+    "missing": 1574091,
+    "zeros": 0,
+    "no_original_patient_mapping": true,
+    "source_sha256": "018af9303469b672925c97a2848a69f7f0e03e974f626d51d6616fff9fe71515",
+    "derived_sha256": "bc8e22da2e93210b57ca4c10a40216245aabc34ee41959e1cc2ae15d29914716"
+  },
+  "glyhub_PXD019914_N_SPEG_AuthorProcessed": {
+    "dimensions": [5115, 129],
+    "assay_names": "author_abundance",
+    "source_quantitative_values_preserved": true,
+    "missing": 424449,
+    "zeros": 0,
+    "no_original_patient_mapping": true,
+    "source_sha256": "14c5003d321337eec312b3f1f56278a519190b4260220f824b9daa59671cee4f",
+    "derived_sha256": "d3c71f0b69416fed6b38447629ceacf458c6cb67bff93c9f01dfef22a214ad69"
+  },
+  "glyhub_PXD058966_HCC18OSites_SourceQuantification": {
+    "dimensions": [5086, 36],
+    "assay_names": ["author_abundance", "multiplicity_1", "multiplicity_2", "multiplicity_3"],
+    "source_quantitative_values_preserved": true,
+    "missing": 0,
+    "zeros": 123986,
+    "no_original_patient_mapping": true,
+    "source_sha256": "f07321742c83cc825b18b180425b6c3cffec2b5b63e5c296c434cf33ed693979",
+    "derived_sha256": "43fb4c85707692931e7796939264dd8201d63b31f7dbb886140f8b65b07c566d"
+  }
+}

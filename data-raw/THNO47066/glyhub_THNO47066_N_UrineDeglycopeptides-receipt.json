@@ -1,0 +1,42 @@
+{
+  "dataset": "glyhub_THNO47066_N_UrineDeglycopeptides",
+  "dimensions": [
+    889,
+    142
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_THNO47066_N_UrineDeglycopeptides",
+      "source": "Publication",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_THNO47066_N_UrineDeglycopeptides.rds",
+      "bytes": 1385881,
+      "sha256": "ff91a8c1874d8463ebe7b548e6a80075396258d5d56402505485a6b03165ce16",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 889,
+      "measurements": 142
+    }
+  ],
+  "provenance": {
+    "accession": "THNO47066",
+    "doi": "10.7150/thno.47066",
+    "repository": "Publication",
+    "source_url": "https://www.thno.org/v10p11892s1.xlsx",
+    "sha256": "51156ab3f51e8b2ca18bed057fb330862f0b5654212afb9fa821f97d16307902",
+    "local_file": "thno47066.xlsx",
+    "sheet": "Table S5",
+    "header_excel_row": 3,
+    "features": 889,
+    "measurements": 142,
+    "license": "CC BY 4.0 author supplementary quantitative data; attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Author-reported DIA glycopeptide abundance, normalized to each urine sample total protein amount then scaled by median total protein amount across samples; not raw intensity",
+    "privacy": "Public derivative: study-local anonymous sample/subject labels; no original patient-ID correspondence or individual clinical covariates"
+  },
+  "missing": 0,
+  "zero": 77324,
+  "typed_composition_missing": 889
+}

@@ -4,8 +4,8 @@
 #' Data assets are excluded from the package. A staged entry has no download
 #' URL and requires the maintainer's verified local cache.
 #'
-#' @param kind List `"curated"` datasets (default), `"raw"` source archives,
-#'   or `"all"` resources. Raw archives are currently available for CPTAC only.
+#' @param kind List `"curated"` datasets (default), `"raw"` source files,
+#'   or `"all"` resources. Source-only literature entries may lack a curated object.
 #' @return A tibble containing dataset identifiers, source, file format,
 #'   storage, compressed bytes, SHA-256, version, URL and dimensions.
 #'   Additional metadata columns are:
@@ -17,9 +17,9 @@
 #'     to the assay scale or unit when no explicit method is recorded. This is
 #'     descriptive text, not a controlled classification of instruments.
 #'
-#'   Raw archives inherit experiment and glycan types from their curated dataset;
+#'   Source files record experiment and glycan types where supported;
 #'   structure availability and quantification descriptions are `NA` for raw
-#'   archives. Unavailable or outdated object metadata is also returned as `NA`.
+#'   files. Unavailable or outdated object metadata is also returned as `NA`.
 #' @export
 #' @examples
 #' glyhub_catalog()[, c("dataset", "storage", "bytes")]
@@ -58,13 +58,15 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
 
 #' Load any glyhub dataset
 #'
-#' Load any dataset from the shared external data release. Dataset identifiers
+#' Load any dataset from the shared external data release. Curated dataset identifiers
 #' also name convenience functions that call this loader with the same options.
 #'
 #' @param dataset Exact dataset identifier from [glyhub_catalog()], for example
 #'   `"glyhub_GPST000738_N_B4GalT1"` or `"glyhub_CPTAC_CCRCC"`.
 #' @param kind `"curated"` returns a data object; `"raw"` returns the path to
-#'   a verified source archive. Raw archives are currently available for CPTAC.
+#'   a verified source file. Here `"raw"` means the source asset, not necessarily
+#'   instrument-raw or unprocessed intensity. Some literature sources contain
+#'   signed author-processed matrices and have no curated object.
 #' @param cache_dir Cache directory, defaulting to
 #'   `tools::R_user_dir("glyhub", "cache")`. Set option `glyhub.cache_dir`
 #'   to change the default.
@@ -80,7 +82,7 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
 #' Delete downloaded files from `cache_dir` to clear the cache.
 #'
 #' Dataset objects are no longer exposed through LazyData or `data()`. Use this
-#' loader or each dataset's same-named function. Both return identical objects
+#' loader or each curated dataset's same-named function. Both return identical objects
 #' and share the verified cache. Consult dataset help for scientific details.
 #' @seealso [glyhub_catalog()], [glyhub_data_conventions]
 #' @export

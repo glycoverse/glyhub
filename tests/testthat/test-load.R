@@ -9,12 +9,12 @@ test_that("catalog returns a tibble for every resource kind", {
 
 test_that("all datasets and their convenience functions use external storage", {
   x <- glyhub_catalog()
-  expect_equal(nrow(x), 97L)
+  expect_equal(nrow(x), 144L)
   expect_equal(anyDuplicated(x$dataset), 0L)
   expect_equal(sum(x$storage == "bundled"), 0L)
   expect_equal(sum(x$storage == "release"), 97L)
-  expect_equal(nrow(glyhub_catalog("raw")), 8L)
-  expect_equal(nrow(glyhub_catalog("all")), 105L)
+  expect_equal(nrow(glyhub_catalog("raw")), 40L)
+  expect_equal(nrow(glyhub_catalog("all")), 184L)
   expect_match(x$sha256, "^[a-f0-9]{64}$")
   expect_setequal(
     getNamespaceExports("glyhub"),
@@ -26,7 +26,7 @@ test_that("all datasets and their convenience functions use external storage", {
   }
   expect_setequal(
     list.files(system.file("extdata", package = "glyhub"), recursive = TRUE),
-    c("manifest.tsv", "catalog-metadata.tsv")
+    c("manifest.tsv", "catalog-metadata.tsv", "literature-source-metadata.json")
   )
   released <- x[x$storage == "release", ]
   expect_identical(
@@ -178,7 +178,7 @@ test_that("catalog metadata describes every curated dataset without loading asse
   expect_equal(all(nzchar(x$quant_method)), TRUE)
   raw <- glyhub_catalog("raw")
   expect_equal(raw$exp_type, rep("glycoproteomics", nrow(raw)))
-  expect_equal(raw$glycan_type, rep("N", nrow(raw)))
+  expect_true(all(is.na(raw$glycan_type) | raw$glycan_type %in% c("N", "O")))
   expect_equal(all(is.na(raw$has_glycan_structures)), TRUE)
   expect_equal(all(is.na(raw$quant_method)), TRUE)
   expect_equal(
@@ -231,7 +231,9 @@ test_that("catalog metadata stays synchronized with curated asset hashes", {
     package = "glyhub"
   ))
   expect_equal(anyDuplicated(metadata$dataset), 0L)
-  expect_setequal(metadata$dataset, curated$dataset)
+  raw <- glyhub_catalog("raw")
+  expect_setequal(metadata$dataset, union(curated$dataset, raw$dataset))
+  metadata <- metadata[metadata$dataset %in% curated$dataset, , drop = FALSE]
   expect_identical(
     metadata$sha256[match(curated$dataset, metadata$dataset)],
     curated$sha256

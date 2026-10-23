@@ -1,0 +1,62 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD035438_BOCTAG_SourceProteinGroups",
+      "source": "PRIDE",
+      "kind": "raw",
+      "format": "txt",
+      "storage": "staged",
+      "filename": "glyhub_PXD035438_BOCTAG_SourceProteinGroups.txt",
+      "bytes": 13512497,
+      "sha256": "1bae3e85e6f1b2286f20dcf48f5d8d9760d3de1abeff8e50eebd6e13f9378e83",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PXD035438",
+    "dataset": "glyhub_PXD035438_BOCTAG_SourceProteinGroups",
+    "local_file": "PXD035438__proteinGroups.txt",
+    "doi": "10.1038/s41467-022-33854-0",
+    "glycan_type": null,
+    "repository": "PRIDE",
+    "format": "txt",
+    "sha256": "1bae3e85e6f1b2286f20dcf48f5d8d9760d3de1abeff8e50eebd6e13f9378e83",
+    "bytes": 13512497,
+    "features": null,
+    "measurements": null,
+    "source_url": "http://ftp.pride.ebi.ac.uk/pride/data/archive/2022/09/PXD035438/proteinGroups.txt",
+    "license": "CC0 1.0 repository project grant; not publisher materials",
+    "scale": "Original MaxQuant Intensity L/H per experiment (SILAC) or Intensity per acquisition, linear. Sourcezero preserved, no new normalization/imputation. Ratios and global aggregateIntensity not assay.",
+    "experimental_design": "PXD035430 exactheaders17H_20L_R1..3 and17L_20H_R1..3 (12isotope-channelmeasurements); sample workbookdefinesZL17engineeredBOCTAG andZL20mock; PXD0354378pairedSILACexperiments16channels exactDMSO/GalNAlk6/engineered cellcodes; PXD03543810cocultureexperimentcolumns explicitlyhumanMCF7/murine4T1mock/BOCTAG+substrate, mqparretained. Do not countlabelswaps as independent subjects.",
+    "limitations": "035430mqparHTTP403 stopped; sample workbook ordinary503 resolvedHTTPS with12272bytes expected. Fullsourceassets eligible, granularcuratedsamplemapping can beheld.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 4094,
+    "source_quantitative_columns": [
+      "Intensity 2365_P1_MCF7-mock_4T1-mock_DMSO",
+      "Intensity 2365_P2_MCF7-mock_4T1-BOCTAG_Ac4GalNAlk6-10uM",
+      "Intensity 2365_P3_MCF7-BOCTAG_4T1-mock_Ac4GalNAlk6-10uM",
+      "Intensity 2365_P4_MCF7-BOCTAG_4T1-BOCTAG_DMSO",
+      "Intensity 2365_P6_MCF7-BOCTAG_4T1-BOCTAG_Ac4GalNAlk6-10uM",
+      "Intensity 2408_P1_MCF7-mock_4T1-mock_DMSO",
+      "Intensity 2408_P2_MCF7-mock_4T1-BOCTAG_Ac4GalNAlk6-10uM",
+      "Intensity 2408_P3_MCF7-BOCTAG_4T1-mock_Ac4GalNAlk6-10uM",
+      "Intensity 2408_P4_MCF7-BOCTAG_4T1-BOCTAG_DMSO",
+      "Intensity 2408_P6_MCF7-BOCTAG_4T1-BOCTAG_Ac4GalNAlk6-10uM"
+    ],
+    "source_zero": 17672,
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD035438",
+    "feature_grain": "Protein groups as source IDs/id, contaminants/decoys retained flagged rather than silently removed; enriched glycoprotein abundance not site-specific intactglycopeptide.",
+    "citation": {
+      "authors": "Cioce A et al.",
+      "title": "Cell-specific bioorthogonal tagging of glycoproteins.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-33854-0",
+      "url": "https://doi.org/10.1038/s41467-022-33854-0"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

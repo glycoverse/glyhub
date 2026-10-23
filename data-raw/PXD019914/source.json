@@ -1,0 +1,103 @@
+{
+  "doi": "10.1038/s41467-020-19976-3",
+  "pmcid": "PMC7708455",
+  "accessions": [
+    "PXD019914",
+    "MSV000085613"
+  ],
+  "retrieved_date_utc": "2026-10-22",
+  "article_url": "https://www.nature.com/articles/s41467-020-19976-3",
+  "source_files": [
+    {
+      "file": "MOESM2.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-19976-3/MediaObjects/41467_2020_19976_MOESM2_ESM.docx",
+      "role": "Supplementary file descriptions",
+      "bytes": 13111,
+      "sha256": "009180f21b5f22795fb1c365f9acb547a8aa332c054ec6f4bef62711c7781626"
+    },
+    {
+      "file": "MOESM3.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-19976-3/MediaObjects/41467_2020_19976_MOESM3_ESM.xlsx",
+      "role": "Supplementary Data 1 aggregate clinical characteristics",
+      "bytes": 11455,
+      "sha256": "75861a99e1529a1da2956204606f61681c9a080bf907af91a87130ccc5beef69"
+    },
+    {
+      "file": "MOESM4.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-19976-3/MediaObjects/41467_2020_19976_MOESM4_ESM.xlsx",
+      "role": "Supplementary Data 2 quantitative expression matrices",
+      "bytes": 17131387,
+      "sha256": "ef12cdb7bbf0c80da420c26a73160d6d2bd9b77f7067aeb584d6e477e554b915"
+    }
+  ],
+  "license": {
+    "license": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "basis": "Publisher article Rights and permissions; author supplementary material attached to same article; no contrary credit/licensing text in workbook shared strings or supplementary description. Not an independent repository license. Preserve attribution and indicate format conversion.",
+    "attachment_exception_found": false
+  },
+  "matrices": [
+    {
+      "sheet": "Intact_Normalized",
+      "feature_rows": 15512,
+      "metadata_columns": 3,
+      "quant_columns": 129,
+      "tumor_columns": 119,
+      "qc_columns": 10,
+      "duplicate_sample_ids": [],
+      "duplicate_feature_ids": 0,
+      "exact_id_overlap_with_old": [],
+      "min_value": -5.42225388673,
+      "max_value": 5.44770687562,
+      "numeric_cells": 426957,
+      "source_missing_token": "NaN",
+      "source_feature_id_examples": [
+        "AZGP1_DIVEYYNDSNGSHVLQGR_N6H7F0S0G0",
+        "AZGP1_DIVEYYNDSNGSHVLQGR_N6H4F0S0G0",
+        "AZGP1_DIVEYYNDSNGSHVLQGR_N4H3F0S2G0"
+      ],
+      "file": "Intact_Normalized.tsv.gz"
+    },
+    {
+      "sheet": "SPEG_normalized",
+      "feature_rows": 5115,
+      "metadata_columns": 2,
+      "quant_columns": 129,
+      "tumor_columns": 119,
+      "qc_columns": 10,
+      "duplicate_sample_ids": [],
+      "duplicate_feature_ids": 0,
+      "exact_id_overlap_with_old": [],
+      "min_value": -4.70155350703,
+      "max_value": 4.41294633023,
+      "numeric_cells": 235386,
+      "source_missing_token": "NaN",
+      "source_feature_id_examples": [
+        "AZGP1_[144.102063]DIVEYYNDSN[0.984016]GSHVLQGR",
+        "AZGP1_[144.102063]DIVEYYN[0.984016]DSNGSHVLQGR",
+        "AZGP1_[144.102063]DIVEYYNDSN[0.984016]GSHVLQ[0.984016]GR"
+      ],
+      "file": "SPEG_normalized.tsv.gz"
+    }
+  ],
+  "import_status": "Author processed matrices available for import as two distinct modalities; retain source feature IDs, sample roles and normalized log2 ratio scale. Not imported by this worker.",
+  "cohort_status": "New quantitative source, not same matrix as existing CPTAC_HGSC. Evidence strongly indicates distinct retrospective TCGA vs prospective CPTAC cohorts; old exact upstream/fractionation identity unresolved, so no claim of crosswalk-proven donor disjointness.",
+  "normalization": "Author normalized log2 sample/reference relative abundance; preserve negative/zero/positive source values, no new normalization or linearization.",
+  "missing_values": "Literal NaN in source; may map to NA with explicit documented parser rule. Blank metadata preserved.",
+  "feature_mapping": {
+    "Intact_Normalized": "IGP-ID = gene_symbol + peptide + N/H/F/S/G glycan composition, split from right for glycan, preserve original ID. Gene symbols are not protein accessions. No absolute site inference.",
+    "SPEG_normalized": "SPEG-ID = gene symbol + chemically modified peptide; [144.102063] label and [0.984016] deamidation preserved. Deglycosylated site-containing peptides, NOT intact glycopeptides or total protein. No glycan composition supplied."
+  },
+  "total_protein_matrix_present": false,
+  "controls": "10 TCGA-OVARIAN-CONTROL-* columns per assay; retained with quality_control role, not 10 additional patients.",
+  "extraction": "inspect_sources.py reads xlsx XML numeric lexemes without rounding or analytical transforms; exports all source rows/columns as TSV.gz.",
+  "old_source_sha256": "13d14192b8c2322048edc7eae5236f00851a7df14d93dbfd9ac9197910e16ecb",
+  "unresolved": [
+    "Old CPTAC_HGSC upstream MD5/fractionation identity remains unresolved and unchanged.",
+    "No cross-cohort donor alias mapping supplied; zero exact ID overlap does not itself prove no shared donors.",
+    "Supplementary Data 1 is aggregate clinical characteristics, not a sample-level covariate table."
+  ],
+  "scale": "author-normalized log2 relative ratios; signed source values retained without inverse transformation",
+  "curated_status": "Separate curated SEs provide 2^x linear relative ratios; original log2 source assets remain available",
+  "glycan_type": "N"
+}

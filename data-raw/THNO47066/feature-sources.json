@@ -1,0 +1,1181 @@
+[
+  {
+    "accession": "THNO47066",
+    "dataset": "glyhub_THNO47066_N_UrineDeglycopeptides",
+    "title": "UrineDeglycopeptides",
+    "doi": "10.7150/thno.47066",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "local_file": "thno47066.xlsx",
+    "sha256": "51156ab3f51e8b2ca18bed057fb330862f0b5654212afb9fa821f97d16307902",
+    "source_url": "https://www.thno.org/v10p11892s1.xlsx",
+    "sheet": "Table S5",
+    "header_excel_row": 3,
+    "read_range": "A3:ER892",
+    "features": 889,
+    "measurements": 142,
+    "measurement_columns_1based": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+    ],
+    "measurement_columns": [
+      "THNO47066_sample_001",
+      "THNO47066_sample_002",
+      "THNO47066_sample_003",
+      "THNO47066_sample_004",
+      "THNO47066_sample_005",
+      "THNO47066_sample_006",
+      "THNO47066_sample_007",
+      "THNO47066_sample_008",
+      "THNO47066_sample_009",
+      "THNO47066_sample_010",
+      "THNO47066_sample_011",
+      "THNO47066_sample_012",
+      "THNO47066_sample_013",
+      "THNO47066_sample_014",
+      "THNO47066_sample_015",
+      "THNO47066_sample_016",
+      "THNO47066_sample_017",
+      "THNO47066_sample_018",
+      "THNO47066_sample_019",
+      "THNO47066_sample_020",
+      "THNO47066_sample_021",
+      "THNO47066_sample_022",
+      "THNO47066_sample_023",
+      "THNO47066_sample_024",
+      "THNO47066_sample_025",
+      "THNO47066_sample_026",
+      "THNO47066_sample_027",
+      "THNO47066_sample_028",
+      "THNO47066_sample_029",
+      "THNO47066_sample_030",
+      "THNO47066_sample_031",
+      "THNO47066_sample_032",
+      "THNO47066_sample_033",
+      "THNO47066_sample_034",
+      "THNO47066_sample_035",
+      "THNO47066_sample_036",
+      "THNO47066_sample_037",
+      "THNO47066_sample_038",
+      "THNO47066_sample_039",
+      "THNO47066_sample_040",
+      "THNO47066_sample_041",
+      "THNO47066_sample_042",
+      "THNO47066_sample_043",
+      "THNO47066_sample_044",
+      "THNO47066_sample_045",
+      "THNO47066_sample_046",
+      "THNO47066_sample_047",
+      "THNO47066_sample_048",
+      "THNO47066_sample_049",
+      "THNO47066_sample_050",
+      "THNO47066_sample_051",
+      "THNO47066_sample_052",
+      "THNO47066_sample_053",
+      "THNO47066_sample_054",
+      "THNO47066_sample_055",
+      "THNO47066_sample_056",
+      "THNO47066_sample_057",
+      "THNO47066_sample_058",
+      "THNO47066_sample_059",
+      "THNO47066_sample_060",
+      "THNO47066_sample_061",
+      "THNO47066_sample_062",
+      "THNO47066_sample_063",
+      "THNO47066_sample_064",
+      "THNO47066_sample_065",
+      "THNO47066_sample_066",
+      "THNO47066_sample_067",
+      "THNO47066_sample_068",
+      "THNO47066_sample_069",
+      "THNO47066_sample_070",
+      "THNO47066_sample_071",
+      "THNO47066_sample_072",
+      "THNO47066_sample_073",
+      "THNO47066_sample_074",
+      "THNO47066_sample_075",
+      "THNO47066_sample_076",
+      "THNO47066_sample_077",
+      "THNO47066_sample_078",
+      "THNO47066_sample_079",
+      "THNO47066_sample_080",
+      "THNO47066_sample_081",
+      "THNO47066_sample_082",
+      "THNO47066_sample_083",
+      "THNO47066_sample_084",
+      "THNO47066_sample_085",
+      "THNO47066_sample_086",
+      "THNO47066_sample_087",
+      "THNO47066_sample_088",
+      "THNO47066_sample_089",
+      "THNO47066_sample_090",
+      "THNO47066_sample_091",
+      "THNO47066_sample_092",
+      "THNO47066_sample_093",
+      "THNO47066_sample_094",
+      "THNO47066_sample_095",
+      "THNO47066_sample_096",
+      "THNO47066_sample_097",
+      "THNO47066_sample_098",
+      "THNO47066_sample_099",
+      "THNO47066_sample_100",
+      "THNO47066_sample_101",
+      "THNO47066_sample_102",
+      "THNO47066_sample_103",
+      "THNO47066_sample_104",
+      "THNO47066_sample_105",
+      "THNO47066_sample_106",
+      "THNO47066_sample_107",
+      "THNO47066_sample_108",
+      "THNO47066_sample_109",
+      "THNO47066_sample_110",
+      "THNO47066_sample_111",
+      "THNO47066_sample_112",
+      "THNO47066_sample_113",
+      "THNO47066_sample_114",
+      "THNO47066_sample_115",
+      "THNO47066_sample_116",
+      "THNO47066_sample_117",
+      "THNO47066_sample_118",
+      "THNO47066_sample_119",
+      "THNO47066_sample_120",
+      "THNO47066_sample_121",
+      "THNO47066_sample_122",
+      "THNO47066_sample_123",
+      "THNO47066_sample_124",
+      "THNO47066_sample_125",
+      "THNO47066_sample_126",
+      "THNO47066_sample_127",
+      "THNO47066_sample_128",
+      "THNO47066_sample_129",
+      "THNO47066_sample_130",
+      "THNO47066_sample_131",
+      "THNO47066_sample_132",
+      "THNO47066_sample_133",
+      "THNO47066_sample_134",
+      "THNO47066_sample_135",
+      "THNO47066_sample_136",
+      "THNO47066_sample_137",
+      "THNO47066_sample_138",
+      "THNO47066_sample_139",
+      "THNO47066_sample_140",
+      "THNO47066_sample_141",
+      "THNO47066_sample_142"
+    ],
+    "annotation_columns_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "protein_column": "UniProt",
+    "composition_column": null,
+    "mapping": [
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_001"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_002"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_003"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_004"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_005"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_006"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_007"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_008"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_009"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_010"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_011"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_012"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_013"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_014"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_015"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_016"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_017"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_018"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_019"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_020"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_021"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_022"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_023"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_024"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_025"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_026"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_027"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_028"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_029"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_030"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_031"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_032"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_033"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_034"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_035"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_036"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_037"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_038"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_039"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_040"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_041"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_042"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_043"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_044"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_045"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_046"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_047"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_048"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_049"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_050"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_051"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_052"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_053"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_054"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_055"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_056"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_057"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_058"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_059"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_060"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_061"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_062"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_063"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_064"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_065"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_066"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_067"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_068"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_069"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_070"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_071"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_072"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_073"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "AG",
+        "anonymous_sample": "THNO47066_sample_074"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_075"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_076"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_077"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_078"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_079"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_080"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_081"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_082"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_083"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_084"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_085"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_086"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_087"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_088"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_089"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_090"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_091"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_092"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_093"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_094"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_095"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_096"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_097"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_098"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_099"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_100"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_101"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_102"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_103"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_104"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_105"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_106"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_107"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_108"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_109"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_110"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_111"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_112"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_113"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_114"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_115"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_116"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_117"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_118"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_119"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_120"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_121"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_122"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_123"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_124"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_125"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_126"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_127"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_128"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_129"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_130"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_131"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_132"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_133"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_134"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_135"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_136"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_137"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_138"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_139"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_140"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_141"
+      },
+      {
+        "sample_material": "urine",
+        "replicate_type": "individual participant specimen",
+        "condition": "NAG",
+        "anonymous_sample": "THNO47066_sample_142"
+      }
+    ],
+    "missing": 0,
+    "zeros": 77324,
+    "license": "CC BY 4.0 author supplementary quantitative data; attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Author-reported DIA glycopeptide abundance, normalized to each urine sample total protein amount then scaled by median total protein amount across samples; not raw intensity",
+    "design": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+    "molecular_level": "Deglycosylated N-glycopeptide source sequence rows; no glycan composition or absolute protein position inferred.",
+    "limitations": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+    "source_reuse_terms_url": "https://ivyspring.com/terms",
+    "privacy_anonymous_columns": true,
+    "privacy_representation": "deidentified derivative; author values unchanged"
+  }
+]

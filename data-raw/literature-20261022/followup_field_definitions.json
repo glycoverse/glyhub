@@ -1,0 +1,8 @@
+{
+  "matrix_found": "Complete native author feature-by-run quantitative matrix verified at the declared molecular grain; technical runs are not biological subjects. Partial/PSM/single-protein-area records are separately marked author_quantitative_data_found. False means not established in the inspected sources, NOT global nonexistence.",
+  "author_quantitative_data_found": "Author quantitative tables or records verified, even when incomplete or not eligible as a full GlycoproteomicSE. Null means cannot establish for the target paper.",
+  "license_found": "Explicit licence evidence located for the matched source, not merely that reuse is permitted. Candidate-only licences are separately explained.",
+  "license_permits_intended_reuse": "True/false/null; null means licence scope/identity unresolved.",
+  "resource_authority": "glyhub_ingestion_repo/data-raw/literature-20261022/staged_resource_crosswalk.json",
+  "no_resource_fields_overwritten": true
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "glyhub_PXD017033_N_HGFTimecourse",
+  "dimensions": [2318, 12],
+  "identity_fields": ["PeptideSequence", "GlycanComposition", "structure_coding", "Glycan_type", "Bisection", "Corefucose", "Protein", "GeneName", "ProteinID", "Glycosite_Position"],
+  "source_cells_compared": 18936,
+  "structural_missing": 8880,
+  "source_values_exact": true,
+  "source_zero": 140,
+  "canonical_composition_unknown": 28,
+  "source_annotation_conflicts": 7,
+  "valid_object": true
+}

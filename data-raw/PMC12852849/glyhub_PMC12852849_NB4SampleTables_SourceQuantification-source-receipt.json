@@ -1,0 +1,129 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC12852849_NB4SampleTables_SourceQuantification",
+      "source": "Publication",
+      "kind": "raw",
+      "format": "xlsx",
+      "storage": "staged",
+      "filename": "glyhub_PMC12852849_NB4SampleTables_SourceQuantification.xlsx",
+      "bytes": 2232461,
+      "sha256": "1843f8cdd76e2b7bd7167370b2cb26b120b6f8a1bdbab223cf6488dbb999d9d0",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PMC12852849",
+    "dataset": "glyhub_PMC12852849_NB4SampleTables_SourceQuantification",
+    "local_file": "Table-S26-NB4-Glycoproteome.xlsx",
+    "doi": "10.1038/s41467-025-68270-7",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "1843f8cdd76e2b7bd7167370b2cb26b120b6f8a1bdbab223cf6488dbb999d9d0",
+    "bytes": 2232461,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12852849/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required",
+    "scale": "Byologic5.4.10 MS1-based intactN-glycopeptide intensities after author score>150; untransformed per-sheet quantities with true sourcezeros, no missing/negative.",
+    "experimental_design": "20original sample sheets:0nM,10nM,100nM,1uM,10uM arsenic trioxide eachreplicates1-4 NB4cells; do not align independent author row sets or pretend concentration levels are individual abundance.",
+    "limitations": "Do not import phosphoproteome/proteome S27/S28 as glyco; other source tables mostly selected figures/contrasts. Complete NB4S26 is eligible, no invented join.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_panel_summary": [
+      {
+        "sheet": "0 nM-1",
+        "source_records": 2984
+      },
+      {
+        "sheet": "0 nM-2",
+        "source_records": 3246
+      },
+      {
+        "sheet": "0 nM-3",
+        "source_records": 3443
+      },
+      {
+        "sheet": "0 nM-4",
+        "source_records": 3275
+      },
+      {
+        "sheet": "10 nM-1",
+        "source_records": 3581
+      },
+      {
+        "sheet": "10 nM-2",
+        "source_records": 2624
+      },
+      {
+        "sheet": "10 nM-3",
+        "source_records": 3233
+      },
+      {
+        "sheet": "10 nM-4",
+        "source_records": 3023
+      },
+      {
+        "sheet": "100 nM-1",
+        "source_records": 2412
+      },
+      {
+        "sheet": "100 nM-2",
+        "source_records": 3181
+      },
+      {
+        "sheet": "100 nM-3",
+        "source_records": 2685
+      },
+      {
+        "sheet": "100 nM-4",
+        "source_records": 3138
+      },
+      {
+        "sheet": "1 uM-1",
+        "source_records": 3193
+      },
+      {
+        "sheet": "1 uM-2",
+        "source_records": 3422
+      },
+      {
+        "sheet": "1 uM-3",
+        "source_records": 3617
+      },
+      {
+        "sheet": "1 uM-4",
+        "source_records": 2272
+      },
+      {
+        "sheet": "10 uM-1",
+        "source_records": 2234
+      },
+      {
+        "sheet": "10 uM-2",
+        "source_records": 2090
+      },
+      {
+        "sheet": "10 uM-3",
+        "source_records": 2138
+      },
+      {
+        "sheet": "10 uM-4",
+        "source_records": 1963
+      }
+    ],
+    "feature_grain": "Proteinname/Nglycan site/Sequence/Glycans source rows per sample, author original unsynchronized run tables; raw sourceasset preserves all20sheets.",
+    "citation": {
+      "authors": "Dong X et al.",
+      "title": "A versatile platform for sequential glyco-, phospho-, and proteomics with multi-PTMs integration.",
+      "year": "2026",
+      "doi": "10.1038/s41467-025-68270-7",
+      "url": "https://doi.org/10.1038/s41467-025-68270-7"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

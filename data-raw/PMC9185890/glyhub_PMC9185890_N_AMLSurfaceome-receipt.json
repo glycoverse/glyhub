@@ -1,0 +1,41 @@
+{
+  "dataset": "glyhub_PMC9185890_N_AMLSurfaceome",
+  "dimensions": [
+    622,
+    18
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC9185890_N_AMLSurfaceome",
+      "source": "Publication",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC9185890_N_AMLSurfaceome.rds",
+      "bytes": 85047,
+      "sha256": "3c233cbf9aa0ebcbeaa5acf9a7f24c87d674e2a25b3fa9dbe3b09d38c490439f",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 622,
+      "measurements": 18
+    }
+  ],
+  "provenance": {
+    "accession": "PMC9185890",
+    "doi": "10.1186/s40364-022-00390-4",
+    "repository": "Publication",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9185890/supplementaryFiles",
+    "sha256": "2abd326786886ae4043a8260f817c5ac7af823a8c12e300e7c61a498c278fe3c",
+    "local_file": "40364_2022_390_MOESM3_ESM.xlsx",
+    "sheet": "Sheet1",
+    "header_excel_row": 3,
+    "features": 622,
+    "measurements": 18,
+    "license": "CC BY4.0 author supplementary data; license_evidence.json",
+    "scale": "source positive linear intensity / iBAQ-like table values; author narrative describes later log2 median normalization and figure log10 averages, but source table is NOT those logs; retain exact source values and describe scale uncertainty",
+    "privacy": "Public derivative: study-local anonymous sample/subject labels; no original patient-ID correspondence or individual clinical covariates"
+  },
+  "missing": 7972,
+  "zero": 0,
+  "typed_composition_missing": 622
+}

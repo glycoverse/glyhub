@@ -1,0 +1,47 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed",
+      "source": "PRIDE",
+      "kind": "raw",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed.rds",
+      "bytes": 37508,
+      "sha256": "984781b0ed2024b160a47e73a01f2bc2884013493abdaf723d2a6a38cd312c28",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 262,
+      "measurements": 10
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed",
+    "doi": "10.1038/s41467-022-31810-6",
+    "accession": "PMC9287322",
+    "repository": "PRIDE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9287322/supplementaryFiles",
+    "original_sha256": "48714c1a0234d1cb6313ded25023a194e4ca22bc0e6533117546e10042ce0c9e",
+    "license": "CC BY 4.0 author supplement; see license_evidence.json",
+    "scale": "author normalized log2 values",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "984781b0ed2024b160a47e73a01f2bc2884013493abdaf723d2a6a38cd312c28",
+    "features": 262,
+    "measurements": 10,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Ferguson ID et al.",
+      "title": "The surfaceome of multiple myeloma cells suggests potential immunotherapeutic strategies and protein markers of drug resistance.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-31810-6",
+      "url": "https://doi.org/10.1038/s41467-022-31810-6"
+    }
+  },
+  "exact_bytes_retained": false,
+  "curated_status": "hold: signed author scale; no transformation authorized",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

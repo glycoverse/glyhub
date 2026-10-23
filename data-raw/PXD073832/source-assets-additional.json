@@ -1,0 +1,37 @@
+[
+  {
+    "accession": "PXD073832",
+    "dataset": "glyhub_PXD073832_ConAEnrichedPrecursors_SourceQuantification",
+    "local_file": "YAS202412100058-1.pr_matrix.tsv",
+    "doi": "10.1038/s41467-026-71524-7",
+    "glycan_type": null,
+    "repository": "iProX",
+    "format": "tsv",
+    "sha256": "8a07861fd77e3f6e24f495da6072f5f4bbc7e3b91e1fb7beec88d7b9c30b573f",
+    "bytes": 3181561,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.iprox.cn/page/project.html?id=IPX0013604000",
+    "license": "CC0 1.0 specific repository scientific-data policy; submission date after 2023-03-23; not publisher materials",
+    "scale": "Original linear author processed per-sample intensity/area, sourcezeros and blankmissing retained; no new normalization/imputation.",
+    "experimental_design": "Exactcolumnfilebasenames P32L1/P32L2/P32L3 versus WT1/WT2/WT3 gastrocnemius muscle. Source precursorID and originalpathlabels retained.",
+    "limitations": "Author supplementaryFig6h narrower16350rows is not used; independent complete deposit17655rows selected. No inferredglycosites from ordinary peptide sequences.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 17655,
+    "source_quantitative_columns": [
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-P32L3\\YAS202412100058-1-P32L3.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-P32L2\\YAS202412100058-1-P32L2.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-P32L1\\YAS202412100058-1-P32L1.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-WT3\\YAS202412100058-1-WT3.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-WT2\\YAS202412100058-1-WT2.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-WT1\\YAS202412100058-1-WT1.raw"
+    ],
+    "feature_grain": "Full17655precursor\u00d76run matrix, ordinary peptide precursors from ConA-enriched protein lysates, NOT intactN-glycopeptide/glycosite assignments. Protein-group ambiguity preserved.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_policy_url": "https://www.iprox.cn/page/iproxDataLisence.html",
+    "source_project": "IPX0013604000",
+    "verified_submit_date": "2026-01-30",
+    "source_integrity": "Independent publicly deposited processed files; officialSHA1matches verified in *.fetch.json",
+    "website_policy_scope_caveat": "Specific deposited-data grant is used; generic website-content terms are not treated as a grant over publisher articles or supplementary files."
+  }
+]

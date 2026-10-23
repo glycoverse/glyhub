@@ -1,0 +1,53 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD019914_N_Intact_AuthorProcessed",
+      "source": "PRIDE",
+      "kind": "raw",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD019914_N_Intact_AuthorProcessed.rds",
+      "bytes": 4039785,
+      "sha256": "bc8e22da2e93210b57ca4c10a40216245aabc34ee41959e1cc2ae15d29914716",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 15512,
+      "measurements": 129
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_PXD019914_N_Intact_AuthorProcessed",
+    "doi": "10.1038/s41467-020-19976-3",
+    "accession": "PXD019914",
+    "repository": "PRIDE",
+    "source_workbook_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-19976-3/MediaObjects/41467_2020_19976_MOESM4_ESM.xlsx",
+    "source_workbook_sha256": "ef12cdb7bbf0c80da420c26a73160d6d2bd9b77f7067aeb584d6e477e554b915",
+    "original_sha256": "018af9303469b672925c97a2848a69f7f0e03e974f626d51d6616fff9fe71515",
+    "license": {
+      "license": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "basis": "Publisher article Rights and permissions; author supplementary material attached to same article; no contrary credit/licensing text in workbook shared strings or supplementary description. Not an independent repository license. Preserve attribution and indicate format conversion.",
+      "attachment_exception_found": false
+    },
+    "source_scale": "author-normalized log2 relative ratios; signed source values retained without inverse transformation",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "bc8e22da2e93210b57ca4c10a40216245aabc34ee41959e1cc2ae15d29914716",
+    "features": 15512,
+    "measurements": 129,
+    "privacy_derivative": true,
+    "curated_status": "Separate curated SEs provide 2^x linear relative ratios; original log2 source assets remain available",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Pan J et al.",
+      "title": "Glycoproteomics-based signatures for tumor subtyping and clinical outcome prediction of high-grade serous ovarian cancer.",
+      "year": "2020",
+      "doi": "10.1038/s41467-020-19976-3",
+      "url": "https://doi.org/10.1038/s41467-020-19976-3"
+    }
+  },
+  "exact_bytes_retained": false,
+  "curated_status": "Separate curated SEs provide 2^x linear relative ratios; original log2 source assets remain available",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

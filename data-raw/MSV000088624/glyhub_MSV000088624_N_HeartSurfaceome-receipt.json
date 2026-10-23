@@ -1,0 +1,41 @@
+{
+  "dataset": "glyhub_MSV000088624_N_HeartSurfaceome",
+  "dimensions": [
+    490,
+    7
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000088624_N_HeartSurfaceome",
+      "source": "MassIVE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_MSV000088624_N_HeartSurfaceome.rds",
+      "bytes": 132187,
+      "sha256": "162a5486538842984dd55af40fd0bb373ca4766f29d4d1c30bbf3fea36283c8f",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 490,
+      "measurements": 7
+    }
+  ],
+  "provenance": {
+    "accession": "MSV000088624",
+    "doi": "10.1038/s44161-022-00200-y",
+    "repository": "MassIVE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10030153/supplementaryFiles",
+    "sha256": "c1c5339cbeb9ca04c3e7c7073cbb1178b291b50b615e1291d79780a01b65e525",
+    "local_file": "44161_2022_200_MOESM2_ESM.xlsx",
+    "sheet": "Supplementary Table 10",
+    "header_row": 3,
+    "feature_count": 490,
+    "license": "CC BY 4.0 original-author supplementary measurements; no separate exclusion identified",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "assay_scale": "author log2 normalized protein surfaceome abundance; upstream author imputation",
+    "privacy": "Public derivative: study-local anonymous sample/subject labels; no original patient-ID correspondence or individual clinical covariates"
+  },
+  "missing": 28,
+  "zero": 0,
+  "typed_composition_missing": 490
+}

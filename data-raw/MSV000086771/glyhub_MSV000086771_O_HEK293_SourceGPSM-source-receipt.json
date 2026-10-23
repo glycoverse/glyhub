@@ -1,0 +1,69 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000086771_O_HEK293_SourceGPSM",
+      "source": "MassIVE",
+      "kind": "raw",
+      "format": "txt",
+      "storage": "staged",
+      "filename": "glyhub_MSV000086771_O_HEK293_SourceGPSM.txt",
+      "bytes": 195040,
+      "sha256": "f9399535de24013360d2e853a92f4c41f13913ceb9273d0cf6b0a20b22a37ef5",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 484,
+      "measurements": 3
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_MSV000086771_O_HEK293_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "O",
+    "local_file": "pGlyco3-293.txt",
+    "format": "txt",
+    "sha256": "f9399535de24013360d2e853a92f4c41f13913ceb9273d0cf6b0a20b22a37ef5",
+    "features": 484,
+    "measurements": 3,
+    "quantitation_validation": {
+      "file": "pGlyco3-293.txt",
+      "sheet": "text",
+      "rows": 484,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 484
+        },
+        "IsotopeArea": {
+          "positive": 484
+        }
+      },
+      "run_counts": {
+        "CWQ-O-293-3": 152,
+        "CWQ-O-293-1": 186,
+        "CWQ-O-293-2": 146
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.3/Fig.3a-c/pGlyco3-293.txt",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "type_evidence": "Original article Fig3a-c explicitly O-glycopeptide IHMO HEK-293 searches; 484 Hex-GPSMs.",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

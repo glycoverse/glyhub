@@ -1,0 +1,109 @@
+[
+  {
+    "accession": "MSV000097695",
+    "dataset": "glyhub_MSV000097695_OEnrichment_MixedSourceSites",
+    "local_file": "O-pGlycoQuant.site.list",
+    "doi": "10.1038/s41467-026-68400-9",
+    "glycan_type": null,
+    "repository": "MassIVE",
+    "format": "tsv",
+    "sha256": "2ed4727fa050e91332bc4f27126b95440835d09e65b2f2b9e79c9f07598f68b7",
+    "bytes": 104657,
+    "features": 674,
+    "measurements": 6,
+    "source_url": "https://massive.ucsd.edu/ProteoSAFe/DownloadResultFile?file=f.MSV000097695%2Fupdates%2F2025-12-01_Xu_chen_aee47aec%2Fquant%2FpGlycoQuant_output_files_latest%2FO-pGlycoQuant.site.list&forceDownload=true",
+    "license": "CC0 1.0 independent MassIVE deposited dataset; not the NC-ND publisher supplement",
+    "scale": "Original pGlycoQuant intensity values before the later author filtering/log/Perseus processing; source zeros unchanged",
+    "experimental_design": [
+      {
+        "sample": "20240403-CX-C_1",
+        "glyco_experiment": "O",
+        "sex": "female",
+        "replicate": "1",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-C_2",
+        "glyco_experiment": "O",
+        "sex": "female",
+        "replicate": "2",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-C_3",
+        "glyco_experiment": "O",
+        "sex": "female",
+        "replicate": "3",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-X_1",
+        "glyco_experiment": "O",
+        "sex": "male",
+        "replicate": "1",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-X_2",
+        "glyco_experiment": "O",
+        "sex": "male",
+        "replicate": "2",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-X_3",
+        "glyco_experiment": "O",
+        "sex": "male",
+        "replicate": "3",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      }
+    ],
+    "limitations": "O-enrichment output includes N-glycopeptide contamination. This is the complete unfiltered 674-row deposited source, NOT the final 258-row filtered pure-O supplement. No inferred filtering, relabelling or scale conversion.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "feature_grain": "Mixed/unknown glycosylation quantitative source-site records; O-enrichment experimental channel does not establish every row as O-glyco.",
+    "source_quantitative_columns": [
+      "20240403-CX-C_1",
+      "20240403-CX-C_2",
+      "20240403-CX-C_3",
+      "20240403-CX-X_1",
+      "20240403-CX-X_2",
+      "20240403-CX-X_3"
+    ],
+    "source_zero": 50,
+    "source_missing": 0,
+    "source_negative": 0,
+    "license_evidence_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000097695",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_version": "2025-12-01 latest author update"
+  }
+]

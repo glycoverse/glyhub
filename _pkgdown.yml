@@ -205,3 +205,54 @@ reference:
   - glyhub_PXD046637_N_Lung
   - glyhub_PXD011063_O_SerumSA
   - glyhub_MSV000089484_N_HCC
+
+- title: Staged literature additions
+  contents:
+  - glyhub_MSV000097695_N_AdultWorm
+  - glyhub_PXD013627_N_HumanCellLines
+  - glyhub_PXD013627_N_MouseBCells
+  - glyhub_PXD036791_O_Secretome_GALNT1_GALNT2
+  - glyhub_PXD036791_O_GALNT_TCL
+  - glyhub_PXD013893_N_EVEnrichmentMethods
+  - glyhub_PXD017033_N_HGFTimecourse
+  - glyhub_PXD047982_O_24d_VVA_Run2
+  - glyhub_PXD047982_O_24d_VVA_Run3
+  - glyhub_PXD047982_O_24d_VVA_Run4
+  - glyhub_PXD047982_O_24d_PNA_Run1
+  - glyhub_PXD047982_O_24d_PNA_Run2
+  - glyhub_PXD047982_O_24d_PNA_Run3
+  - glyhub_PXD047982_O_24d_PNA_Run4
+  - glyhub_PXD047982_O_24d_VVA_Run1
+  - glyhub_PXD047982_O_12w_VVA_Run2
+  - glyhub_PXD047982_O_12w_VVA_Run3
+  - glyhub_PXD047982_O_12w_VVA_Run4
+  - glyhub_PXD047982_O_12w_PNA_Run1
+  - glyhub_PXD047982_O_12w_VVA_Run1
+  - glyhub_PXD047982_O_12w_PNA_Run2
+  - glyhub_PXD047982_O_12w_PNA_Run3
+  - glyhub_PXD047982_O_12w_PNA_Run4
+  - glyhub_PXD031071_N_Surfaceome
+  - glyhub_PXD016713_O_ChromatinProteins
+  - glyhub_MSV000088624_N_HeartSurfaceome
+  - glyhub_PMC9287322_N_CellLineSurfaceome
+  - glyhub_PMC9287322_N_DrugResistance
+  - glyhub_PMC9287322_N_SmallMolecule
+  - glyhub_PMC9287322_N_PrimaryMyelomaInputs
+  - glyhub_PMC9287322_N_AMO1Inputs
+  - glyhub_PXD019914_N_Intact_RelativeRatios
+  - glyhub_PXD019914_N_SPEG_RelativeRatios
+  - glyhub_PMC12945689_N_LiverMicrosomeRhythm
+  - glyhub_PMC9306173_O_C1GALT1Silencing
+  - glyhub_PMC9185890_N_AMLSurfaceome
+  - glyhub_PXD023980_N_FissionYeast_DDA1h
+  - glyhub_PXD023980_N_FissionYeast_DDA6h
+  - glyhub_PXD023980_N_FissionYeast_DIA_SSL
+  - glyhub_PXD023980_N_BuddingYeast_DIA
+  - glyhub_PXD023980_N_Serum_DDA
+  - glyhub_PXD023980_N_Serum_DIA_SSL
+  - glyhub_PXD023980_N_Mixture_DDA
+  - glyhub_PXD023980_N_Mixture_DIA_SSL
+  - glyhub_IPX0011099000_N_MouseTissueAtlas
+  - glyhub_THNO47066_N_UrineDeglycopeptides
+  - glyhub_PMC10983713_N_SerumDiseaseGroups
+  - glyhub_literature_sources

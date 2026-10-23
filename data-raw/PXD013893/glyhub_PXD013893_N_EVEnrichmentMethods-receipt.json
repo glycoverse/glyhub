@@ -1,0 +1,87 @@
+{
+  "dataset": "glyhub_PXD013893_N_EVEnrichmentMethods",
+  "dimensions": [
+    1527,
+    6
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD013893_N_EVEnrichmentMethods",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD013893_N_EVEnrichmentMethods.rds",
+      "bytes": 1039043,
+      "sha256": "2b8b950882dde5b3c18b8586876439cf7e61977795bb9cce20ca7b2e9e740a9d",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 1527,
+      "measurements": 6
+    }
+  ],
+  "provenance": {
+    "accession": "PXD013893",
+    "doi": "10.1038/s41596-019-0260-5",
+    "paper_link_evidence": "Exact project/article title and investigator match; repository references list is empty",
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2019/09/PXD013893/txtfilesMaxQuantglycoproteomicsdata.zip",
+    "archive_sha256": "b024a3ce9f35c0b1631f0cc629943980959b23741b47aa1a0b9bc45c1b523dee",
+    "archive_member": "txt files MaxQuant glycoproteomics data/Deamidation (N)Sites.txt",
+    "local_file": "PXD013893_Deamidation (N)Sites.txt",
+    "sha256": "4d6a864aa029dcb110d1ef418c5e2c51f92f64431ac1241dbef30fceb0493d89",
+    "license": "CC0 1.0",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD013893",
+    "license_evidence": "Creative Commons Public Domain (CC0)",
+    "columns": [
+      "Intensity Glyco alone-1",
+      "Intensity Glyco alone-2",
+      "Intensity Glyco alone-3",
+      "Intensity Glyco sequential-1",
+      "Intensity Glyco sequential-2",
+      "Intensity Glyco sequential-3"
+    ],
+    "mapping": [
+      {
+        "raw_file": "050419-EVs-plasma-glyco-alone-1",
+        "experiment": "Glyco alone-1",
+        "LFQ_norm_param": ""
+      },
+      {
+        "raw_file": "050419-EVs-plasma-glyco-alone-2",
+        "experiment": "Glyco alone-2",
+        "LFQ_norm_param": ""
+      },
+      {
+        "raw_file": "050419-EVs-plasma-glyco-alone-3",
+        "experiment": "Glyco alone-3",
+        "LFQ_norm_param": ""
+      },
+      {
+        "raw_file": "050419-EVs-plasma-glyco-sequential-1",
+        "experiment": "Glyco sequential-1",
+        "LFQ_norm_param": ""
+      },
+      {
+        "raw_file": "050419-EVs-plasma-glyco-sequential-2",
+        "experiment": "Glyco sequential-2",
+        "LFQ_norm_param": ""
+      },
+      {
+        "raw_file": "050419-EVs-plasma-glyco-sequential-3",
+        "experiment": "Glyco sequential-3",
+        "LFQ_norm_param": ""
+      }
+    ],
+    "feature_grain": "author MaxQuant deamidation site-group record, including reverse and potential-contaminant controls",
+    "limitations": [
+      "Hydrazide-enriched deglycopeptide site groups, not intact glycoforms",
+      "Technical method comparison, not independent patients",
+      "Preserve all reverse/contaminant flags; not all source rows establish biological sites",
+      "Multiplicity channels retained as alternatives, not extra samples",
+      "Native source intensity retained; no downstream Perseus normalization/imputation applied"
+    ]
+  },
+  "missing": 0,
+  "zero": 2485,
+  "typed_composition_missing": 1527
+}

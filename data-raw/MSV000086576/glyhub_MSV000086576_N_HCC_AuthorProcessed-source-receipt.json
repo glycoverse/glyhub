@@ -1,0 +1,48 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000086576_N_HCC_AuthorProcessed",
+      "source": "MassIVE",
+      "kind": "raw",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_MSV000086576_N_HCC_AuthorProcessed.rds",
+      "bytes": 129184,
+      "sha256": "187e2ebc184907b24be3a86cdd044b2b35b21996e96285f1535eec27381a3899",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 1831,
+      "measurements": 7
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_MSV000086576_N_HCC_AuthorProcessed",
+    "doi": "10.1038/s41467-022-31472-4",
+    "accession": "MSV000086576",
+    "repository": "MassIVE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9262967/supplementaryFiles",
+    "original_sha256": "19835433fa21fff289f69c5ffc928794bbc9b5d481076fbb3f534d6bf0e80e83",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "assay_semantics": "Author-processed TMT abundance: each channel/reference, then log transformation and median normalization across channels. Retain native transformed values; NOT raw intensity and do not exponentiate, re-normalize or re-log.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "187e2ebc184907b24be3a86cdd044b2b35b21996e96285f1535eec27381a3899",
+    "features": 1831,
+    "measurements": 7,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Cao L et al.",
+      "title": "Characterization of core fucosylation via sequential enzymatic treatments of intact glycopeptides and mass spectrometry analysis.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-31472-4",
+      "url": "https://doi.org/10.1038/s41467-022-31472-4"
+    }
+  },
+  "exact_bytes_retained": false,
+  "curated_status": "hold: signed author scale; no transformation authorized",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

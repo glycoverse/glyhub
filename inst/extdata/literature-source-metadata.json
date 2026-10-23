@@ -1,0 +1,2016 @@
+{
+  "glyhub_MSV000084262_N_XMEN_AuthorProcessed": {
+    "dataset": "glyhub_MSV000084262_N_XMEN_AuthorProcessed",
+    "doi": "10.1172/JCI131116",
+    "accession": "MSV000084262",
+    "repository": "MassIVE",
+    "source_url": "https://massive.ucsd.edu/ProteoSAFe/DownloadResultFile?file=f.MSV000084262%2Fpeak%2FglycoExpt1_overlord.xlsx&forceDownload=true",
+    "original_sha256": "80bb1c8babd9f7be24e81ec6e8cb1f3153cbdd801e16248816db189462d66932",
+    "license": "CC0-1.0",
+    "license_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084262",
+    "license_evidence_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084262",
+    "scale": "Signed author-processed values preserved unchanged. Paper describes log2 intensity processing, but the six deposited columns have no units and contain negative values; exact additional centering/normalization is undocumented. Do not label raw/linear intensity or exponentiate.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "e23b65e04c5394da8181e1697a8038b2778e7a326fb033780c76b864b1f6141e",
+    "features": 2073,
+    "measurements": 6,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Ravell JC et al.",
+      "title": "Defective glycosylation and multisystem abnormalities characterize the primary immunodeficiency XMEN disease.",
+      "year": "2020",
+      "doi": "10.1172/JCI131116",
+      "url": "https://doi.org/10.1172/JCI131116"
+    },
+    "local_file": "glyhub_MSV000084262_N_XMEN_AuthorProcessed-deidentified.rds"
+  },
+  "glyhub_MSV000086576_N_HCC_AuthorProcessed": {
+    "dataset": "glyhub_MSV000086576_N_HCC_AuthorProcessed",
+    "doi": "10.1038/s41467-022-31472-4",
+    "accession": "MSV000086576",
+    "repository": "MassIVE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9262967/supplementaryFiles",
+    "original_sha256": "19835433fa21fff289f69c5ffc928794bbc9b5d481076fbb3f534d6bf0e80e83",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "assay_semantics": "Author-processed TMT abundance: each channel/reference, then log transformation and median normalization across channels. Retain native transformed values; NOT raw intensity and do not exponentiate, re-normalize or re-log.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "187e2ebc184907b24be3a86cdd044b2b35b21996e96285f1535eec27381a3899",
+    "features": 1831,
+    "measurements": 7,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Cao L et al.",
+      "title": "Characterization of core fucosylation via sequential enzymatic treatments of intact glycopeptides and mass spectrometry analysis.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-31472-4",
+      "url": "https://doi.org/10.1038/s41467-022-31472-4"
+    },
+    "local_file": "glyhub_MSV000086576_N_HCC_AuthorProcessed-deidentified.rds"
+  },
+  "glyhub_MSV000086576_N_PDAC_AuthorProcessed": {
+    "dataset": "glyhub_MSV000086576_N_PDAC_AuthorProcessed",
+    "doi": "10.1038/s41467-022-31472-4",
+    "accession": "MSV000086576",
+    "repository": "MassIVE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9262967/supplementaryFiles",
+    "original_sha256": "e4f02dcdafb0568e70187e2cc27fb00bebeddc5f3c6cfa95b36790244c9aca9b",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "assay_semantics": "Author-processed TMT abundance: each channel/reference, then log transformation and median normalization across channels. Retain native transformed values; NOT raw intensity and do not exponentiate, re-normalize or re-log.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "847199533d5b0e389f19896c00697558af5fddb34c617057ab36aeb362e2fb9f",
+    "features": 2525,
+    "measurements": 12,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Cao L et al.",
+      "title": "Characterization of core fucosylation via sequential enzymatic treatments of intact glycopeptides and mass spectrometry analysis.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-31472-4",
+      "url": "https://doi.org/10.1038/s41467-022-31472-4"
+    },
+    "local_file": "glyhub_MSV000086576_N_PDAC_AuthorProcessed-deidentified.rds"
+  },
+  "glyhub_MSV000086771_N_BuddingYeast_SourceGPSM": {
+    "dataset": "glyhub_MSV000086771_N_BuddingYeast_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "N",
+    "local_file": "Budding-Yeast-N-GP.xlsx",
+    "format": "xlsx",
+    "sha256": "94b2b2fcb44042382db880cd23785bfb5dd71ae59b33741035173537150ba03a",
+    "features": 34467,
+    "measurements": 10,
+    "quantitation_validation": {
+      "file": "Budding-Yeast-N-GP.xlsx",
+      "sheet": "Budding-Yeast-N-GP",
+      "rows": 34467,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 34465,
+          "zero": 2
+        },
+        "IsotopeArea": {
+          "positive": 34466,
+          "zero": 1
+        }
+      },
+      "run_counts": {
+        "Model-BuddingYeast-S-1803-3": 2074,
+        "Model-BuddingYeast-S-1803-2": 2071,
+        "Model-BuddingYeast-S-1803-1": 2105,
+        "Model-BuddingYeast-S-1803-4": 2062,
+        "Model-BuddingYeast-S-1803-5": 2175,
+        "Model-BuddingYeast-H-1803-5": 4972,
+        "Model-BuddingYeast-H-1803-4": 4861,
+        "Model-BuddingYeast-H-1803-3": 4793,
+        "Model-BuddingYeast-H-1803-2": 4669,
+        "Model-BuddingYeast-H-1803-1": 4685
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.4/Fig.4c/Budding-Yeast-N-GP.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "glyhub_MSV000086771_N_FissionYeast_SourceGPSM": {
+    "dataset": "glyhub_MSV000086771_N_FissionYeast_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "N",
+    "local_file": "Fission-Yeast-N-GP.xlsx",
+    "format": "xlsx",
+    "sha256": "30a10ec0c09f337a0c370af145739a3a5d12426b4e047cb54df2b8db58eab393",
+    "features": 34841,
+    "measurements": 10,
+    "quantitation_validation": {
+      "file": "Fission-Yeast-N-GP.xlsx",
+      "sheet": "Fission-Yeast-N-GP",
+      "rows": 34841,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 34841
+        },
+        "IsotopeArea": {
+          "positive": 34841
+        }
+      },
+      "run_counts": {
+        "Model-FissionYeast-H-1708-5": 4129,
+        "Model-FissionYeast-H-1708-4": 4247,
+        "Model-FissionYeast-H-1708-3": 4352,
+        "Model-FissionYeast-H-1708-2": 4887,
+        "Model-FissionYeast-H-1708-1": 4296,
+        "Model-FissionYeast-S-1705-2": 2322,
+        "Model-FissionYeast-S-1705-1": 3278,
+        "Model-FissionYeast-S-1705-4": 2391,
+        "Model-FissionYeast-S-1705-3": 2416,
+        "Model-FissionYeast-S-1705-5": 2523
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.4/Fig.4c/Fission-Yeast-N-GP.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "glyhub_MSV000086771_O_BuddingYeast_SourceGPSM": {
+    "dataset": "glyhub_MSV000086771_O_BuddingYeast_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "O",
+    "local_file": "Budding-Yeast-O-Man.xlsx",
+    "format": "xlsx",
+    "sha256": "2578f604429ffea028f65af099255026cd687d4875897c799f421592280f8c5a",
+    "features": 7130,
+    "measurements": 10,
+    "quantitation_validation": {
+      "file": "Budding-Yeast-O-Man.xlsx",
+      "sheet": "Budding-Yeast-O-Man",
+      "rows": 7130,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 7125,
+          "zero": 5
+        },
+        "IsotopeArea": {
+          "positive": 7129,
+          "zero": 1
+        }
+      },
+      "run_counts": {
+        "Model-BuddingYeast-S-1803-3": 509,
+        "Model-BuddingYeast-S-1803-2": 518,
+        "Model-BuddingYeast-S-1803-1": 512,
+        "Model-BuddingYeast-S-1803-4": 461,
+        "Model-BuddingYeast-S-1803-5": 479,
+        "Model-BuddingYeast-H-1803-5": 931,
+        "Model-BuddingYeast-H-1803-4": 965,
+        "Model-BuddingYeast-H-1803-3": 950,
+        "Model-BuddingYeast-H-1803-2": 906,
+        "Model-BuddingYeast-H-1803-1": 899
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.4/Fig.4c/Budding-Yeast-O-Man.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "glyhub_MSV000086771_O_FissionYeast_SourceGPSM": {
+    "dataset": "glyhub_MSV000086771_O_FissionYeast_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "O",
+    "local_file": "Fission-Yeast-O-Man.xlsx",
+    "format": "xlsx",
+    "sha256": "b615b9627df06107a955e1d79be12be0972f222f55a1bd88764ab395ee7a7aec",
+    "features": 3466,
+    "measurements": 10,
+    "quantitation_validation": {
+      "file": "Fission-Yeast-O-Man.xlsx",
+      "sheet": "Fission-Yeast-O-Man",
+      "rows": 3466,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 3465,
+          "zero": 1
+        },
+        "IsotopeArea": {
+          "positive": 3466
+        }
+      },
+      "run_counts": {
+        "Model-FissionYeast-H-1708-5": 375,
+        "Model-FissionYeast-H-1708-4": 396,
+        "Model-FissionYeast-H-1708-3": 447,
+        "Model-FissionYeast-H-1708-2": 518,
+        "Model-FissionYeast-H-1708-1": 502,
+        "Model-FissionYeast-S-1705-2": 253,
+        "Model-FissionYeast-S-1705-1": 238,
+        "Model-FissionYeast-S-1705-4": 242,
+        "Model-FissionYeast-S-1705-3": 247,
+        "Model-FissionYeast-S-1705-5": 248
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.4/Fig.4c/Fission-Yeast-O-Man.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "glyhub_MSV000086771_O_HEK293_SourceGPSM": {
+    "dataset": "glyhub_MSV000086771_O_HEK293_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "O",
+    "local_file": "pGlyco3-293.txt",
+    "format": "txt",
+    "sha256": "f9399535de24013360d2e853a92f4c41f13913ceb9273d0cf6b0a20b22a37ef5",
+    "features": 484,
+    "measurements": 3,
+    "quantitation_validation": {
+      "file": "pGlyco3-293.txt",
+      "sheet": "text",
+      "rows": 484,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 484
+        },
+        "IsotopeArea": {
+          "positive": 484
+        }
+      },
+      "run_counts": {
+        "CWQ-O-293-3": 152,
+        "CWQ-O-293-1": 186,
+        "CWQ-O-293-2": 146
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.3/Fig.3a-c/pGlyco3-293.txt",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "type_evidence": "Original article Fig3a-c explicitly O-glycopeptide IHMO HEK-293 searches; 484 Hex-GPSMs.",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "glyhub_MSV000086771_O_HumanSerum_SourceGPSM": {
+    "dataset": "glyhub_MSV000086771_O_HumanSerum_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "O",
+    "local_file": "pGlyco3-O-Serum-Human.txt",
+    "format": "txt",
+    "sha256": "07d1ceb8474b2307629c27f592e923f1ea7c6955aaecb5210bd65c3fe9e19e00",
+    "features": 1824,
+    "measurements": 3,
+    "quantitation_validation": {
+      "file": "pGlyco3-O-Serum-Human.txt",
+      "sheet": "text",
+      "rows": 1824,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 1824
+        },
+        "IsotopeArea": {
+          "positive": 1824
+        },
+        "CorrectedMonoArea": {
+          "negative": 1803,
+          "zero": 11,
+          "positive": 10
+        },
+        "CorrectedIsotopeArea": {
+          "negative": 1803,
+          "zero": 11,
+          "positive": 10
+        }
+      },
+      "run_counts": {
+        "1-1": 691,
+        "1-2": 586,
+        "1-3": 547
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.3/Fig.3e/pGlyco3-O-Serum-Human.txt",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "glyhub_MSV000089484_IgG_SourceQuantitativeRecords": {
+    "accession": "MSV000089484",
+    "dataset": "glyhub_MSV000089484_IgG_SourceQuantitativeRecords",
+    "local_file": "41467_2022_35172_MOESM4_ESM.xlsx",
+    "doi": "10.1038/s41467-022-35172-x",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "5399a1c9ac0ead7a2cba1b1985a80af7f02aaabde2a17f9fef9d4d3a257c5aa6",
+    "bytes": 2733614,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35172-x/MediaObjects/41467_2022_35172_MOESM4_ESM.xlsx",
+    "license": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9729625/",
+      "scope": "original author Supplementary Data1 under article CC-BY4 absent separate third-party credit",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "scale": "Original author Intensity measurements, untransformed",
+    "experimental_design": [
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      }
+    ],
+    "limitations": "pGlycoQuant source spectrum/quant-record rows, not independent glycopeptide species",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "sha1": "0d980e73a8a63571e28e07f19601c2213809a8b5",
+    "quant_sheet": "original_spectra",
+    "quant_columns": [
+      "Intensity(20220323_IgG_Glycopeptide_1ug_Quant_test-rep1)",
+      "Intensity(20220323_IgG_Glycopeptide_1ug_Quant_test-rep2)",
+      "Intensity(20220323_IgG_Glycopeptide_1ug_Quant_test-rep3)"
+    ],
+    "quant_records": 3531,
+    "measurement_count": 3,
+    "feature_grain": "pGlycoQuant source spectrum/quant-record rows, not independent glycopeptide species",
+    "samples": [
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      }
+    ],
+    "detailed_audit": "glyhub_ingestion/existing_coverage/pglycoquant_igg_native_review.json",
+    "preservation_rules": [
+      "Register original complete author file with checksum, not synthesized intensities",
+      "Do not collapse repeated molecular assignments, use source row references",
+      "Do not describe quantification records as unique peptides or biological subjects",
+      "No invented sample ages, sexes, clinical code mappings, missingness interpretation or protein sites"
+    ],
+    "license_spdx": "CC-BY-4.0",
+    "license_evidence": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9729625/",
+      "scope": "original author Supplementary Data1 under article CC-BY4 absent separate third-party credit",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "attribution": "Original authors and paper DOI/accession retained; original file unmodified",
+    "status": "ready_for_original_source_asset_registration; not a newly synthesized SE or unique glycopeptide abundance matrix",
+    "source_records": 3531,
+    "citation": {
+      "authors": "Kong S et al.",
+      "title": "pGlycoQuant with a deep residual network for quantitative glycoproteomics at intact glycopeptide level.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-35172-x",
+      "url": "https://doi.org/10.1038/s41467-022-35172-x"
+    }
+  },
+  "glyhub_MSV000097695_OEnrichment_MixedSourceSites": {
+    "accession": "MSV000097695",
+    "dataset": "glyhub_MSV000097695_OEnrichment_MixedSourceSites",
+    "local_file": "O-pGlycoQuant.site.list",
+    "doi": "10.1038/s41467-026-68400-9",
+    "repository": "MassIVE",
+    "format": "tsv",
+    "sha256": "2ed4727fa050e91332bc4f27126b95440835d09e65b2f2b9e79c9f07598f68b7",
+    "bytes": 104657,
+    "features": 674,
+    "measurements": 6,
+    "source_url": "https://massive.ucsd.edu/ProteoSAFe/DownloadResultFile?file=f.MSV000097695%2Fupdates%2F2025-12-01_Xu_chen_aee47aec%2Fquant%2FpGlycoQuant_output_files_latest%2FO-pGlycoQuant.site.list&forceDownload=true",
+    "license": "CC0 1.0 independent MassIVE deposited dataset; not the NC-ND publisher supplement",
+    "scale": "Original pGlycoQuant intensity values before the later author filtering/log/Perseus processing; source zeros unchanged",
+    "experimental_design": [
+      {
+        "sample": "20240403-CX-C_1",
+        "glyco_experiment": "O",
+        "sex": "female",
+        "replicate": "1",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-C_2",
+        "glyco_experiment": "O",
+        "sex": "female",
+        "replicate": "2",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-C_3",
+        "glyco_experiment": "O",
+        "sex": "female",
+        "replicate": "3",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-X_1",
+        "glyco_experiment": "O",
+        "sex": "male",
+        "replicate": "1",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-X_2",
+        "glyco_experiment": "O",
+        "sex": "male",
+        "replicate": "2",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      },
+      {
+        "sample": "20240403-CX-X_3",
+        "glyco_experiment": "O",
+        "sex": "male",
+        "replicate": "3",
+        "replicate_type": "not_reported",
+        "species": "Schistosoma mansoni",
+        "ncbi_taxon": 6183,
+        "tissue": "whole adult worm",
+        "age": "42 days post-infection",
+        "mapping_source": "MassIVE dataset description; Supplementary Data 8/12 confirms Female and Male"
+      }
+    ],
+    "limitations": "O-enrichment output includes N-glycopeptide contamination. This is the complete unfiltered 674-row deposited source, NOT the final 258-row filtered pure-O supplement. No inferred filtering, relabelling or scale conversion.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "feature_grain": "Mixed/unknown glycosylation quantitative source-site records; O-enrichment experimental channel does not establish every row as O-glyco.",
+    "source_quantitative_columns": [
+      "20240403-CX-C_1",
+      "20240403-CX-C_2",
+      "20240403-CX-C_3",
+      "20240403-CX-X_1",
+      "20240403-CX-X_2",
+      "20240403-CX-X_3"
+    ],
+    "source_zero": 50,
+    "source_missing": 0,
+    "source_negative": 0,
+    "license_evidence_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000097695",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_version": "2025-12-01 latest author update",
+    "citation": {
+      "authors": "Chen X et al.",
+      "title": "Tissue-specific and sex-biased glycoproteomic landscape of Schistosoma mansoni.",
+      "year": "2026",
+      "doi": "10.1038/s41467-026-68400-9",
+      "url": "https://doi.org/10.1038/s41467-026-68400-9"
+    }
+  },
+  "glyhub_PMC10329677_IgGOrbitrap_SourceQuantification": {
+    "accession": "PMC10329677",
+    "dataset": "glyhub_PMC10329677_IgGOrbitrap_SourceQuantification",
+    "local_file": "41467_2023_39699_MOESM7_ESM.xlsx",
+    "doi": "10.1038/s41467-023-39699-5",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "8c3d2d64b124e76a8c19ba0a40311b90a1c4a88fef5461af93757527af44f83a",
+    "bytes": 1446822,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10329677/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original GlycanFinder Area, comparator pGlyco3 MonoArea. Preserve blank missing area and zero; corrected -1 alternatives not selected.",
+    "experimental_design": "Original commercial human IgG IgG1-4 enriched tryptic glycopeptides, measured separately Orbitrap and timsTOF under PXD039787; Source File/RawName exact acquisition mapping in table. No assumed biological replicates.",
+    "limitations": "MOESM5 yeast/MOESM6 mouse/MOESM9 HGI are reanalysis of previously deposited datasets, exclude as duplicate original source; do not align GPSMs artificially across instruments or engines.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "GlycanFinder",
+        "source_records": 2304,
+        "area_columns": []
+      },
+      {
+        "sheet": "pGlyco3",
+        "source_records": 3212,
+        "area_columns": []
+      },
+      {
+        "sheet": "MSFragger",
+        "source_records": 1000,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Author GPSM/precursor rows in full source workbook, alternative search-engine outputs kept as alternatives not independent datasets. Preserve site/protein ambiguity.",
+    "citation": {
+      "authors": "Sun W et al.",
+      "title": "Glycopeptide database search and de novo sequencing with PEAKS GlycanFinder enable highly sensitive glycoproteomics.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-39699-5",
+      "url": "https://doi.org/10.1038/s41467-023-39699-5"
+    }
+  },
+  "glyhub_PMC10329677_IgGTimsTOF_SourceQuantification": {
+    "accession": "PMC10329677",
+    "dataset": "glyhub_PMC10329677_IgGTimsTOF_SourceQuantification",
+    "local_file": "41467_2023_39699_MOESM8_ESM.xlsx",
+    "doi": "10.1038/s41467-023-39699-5",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "6f7373820beb4a10123aab3d2c059393ec2175f3563b426896efa81d2b9d94c1",
+    "bytes": 139161,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10329677/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original GlycanFinder Area, comparator pGlyco3 MonoArea. Preserve blank missing area and zero; corrected -1 alternatives not selected.",
+    "experimental_design": "Original commercial human IgG IgG1-4 enriched tryptic glycopeptides, measured separately Orbitrap and timsTOF under PXD039787; Source File/RawName exact acquisition mapping in table. No assumed biological replicates.",
+    "limitations": "MOESM5 yeast/MOESM6 mouse/MOESM9 HGI are reanalysis of previously deposited datasets, exclude as duplicate original source; do not align GPSMs artificially across instruments or engines.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "GlycanFinder",
+        "source_records": 863,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Author GPSM/precursor rows in full source workbook, alternative search-engine outputs kept as alternatives not independent datasets. Preserve site/protein ambiguity.",
+    "citation": {
+      "authors": "Sun W et al.",
+      "title": "Glycopeptide database search and de novo sequencing with PEAKS GlycanFinder enable highly sensitive glycoproteomics.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-39699-5",
+      "url": "https://doi.org/10.1038/s41467-023-39699-5"
+    }
+  },
+  "glyhub_PMC10550946_Gp1bDigest_SourceQuantification": {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_Gp1bDigest_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM5_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "20dd15d58bb426aa74c4ec23f718ee50b0f6e57087c3a9cd4cbf07e2023518b0",
+    "bytes": 330742,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "GP1b",
+        "source_records": 329,
+        "area_columns": []
+      },
+      {
+        "sheet": "+Sia",
+        "source_records": 77,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures.",
+    "citation": {
+      "authors": "Chongsaritsinsuk J et al.",
+      "title": "Glycoproteomic landscape and structural dynamics of TIM family immune checkpoints enabled by mucinase SmE.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-41756-y",
+      "url": "https://doi.org/10.1038/s41467-023-41756-y"
+    }
+  },
+  "glyhub_PMC10550946_TIM1AUC_SourceQuantification": {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM1AUC_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM10_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "c767be518bb2aacd270ab18233b1e23234ee6fd494e4f032b10ec08bdb371054",
+    "bytes": 90892,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "Sequences",
+        "source_records": 508,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures.",
+    "citation": {
+      "authors": "Chongsaritsinsuk J et al.",
+      "title": "Glycoproteomic landscape and structural dynamics of TIM family immune checkpoints enabled by mucinase SmE.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-41756-y",
+      "url": "https://doi.org/10.1038/s41467-023-41756-y"
+    }
+  },
+  "glyhub_PMC10550946_TIM3Digest_SourceQuantification": {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM3Digest_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM7_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "8121ab41d5f330af17a186f3baeea8d3959e5f3546da9f02f7ffa0a9b98fb7a8",
+    "bytes": 465960,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "TIM3",
+        "source_records": 145,
+        "area_columns": []
+      },
+      {
+        "sheet": "+PNGase",
+        "source_records": 8,
+        "area_columns": []
+      },
+      {
+        "sheet": "+Sia",
+        "source_records": 20,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures.",
+    "citation": {
+      "authors": "Chongsaritsinsuk J et al.",
+      "title": "Glycoproteomic landscape and structural dynamics of TIM family immune checkpoints enabled by mucinase SmE.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-41756-y",
+      "url": "https://doi.org/10.1038/s41467-023-41756-y"
+    }
+  },
+  "glyhub_PMC10550946_TIM4AUC_SourceQuantification": {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM4AUC_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM11_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "1b534e812d75195e5b8c04e696ecf55839f859756f1367d498c0ec96e4c5ef9e",
+    "bytes": 53566,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "Sequences",
+        "source_records": 418,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures.",
+    "citation": {
+      "authors": "Chongsaritsinsuk J et al.",
+      "title": "Glycoproteomic landscape and structural dynamics of TIM family immune checkpoints enabled by mucinase SmE.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-41756-y",
+      "url": "https://doi.org/10.1038/s41467-023-41756-y"
+    }
+  },
+  "glyhub_PMC10963274_OxoScan_SourceQuantification": {
+    "dataset": "glyhub_PMC10963274_OxoScan_SourceQuantification",
+    "doi": "10.1038/s41551-023-01067-5",
+    "accession": "PMC10963274",
+    "repository": "Zenodo",
+    "source_url": "https://zenodo.org/records/8015483",
+    "original_sha256": "c17f593308980e9291304360427968df5b0e935e2e90a6729ff4065e2f3f0cda",
+    "license": "CC BY 4.0 independent Zenodo data licence; author attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Linear original author Intensity column and separate Intensity.Norm; authors median normalized samples, calculated mean intensities across technical replicates, removed5 low-intensity runs and required >3 oxonium ions; preserve upstream processing and source values, no inverse transforms.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": null,
+    "format": "rds",
+    "sha256": "935ad8b0124551fe1a0e58de3ff8a0b5b5e4ca27b5f6753db7d4affcc811a283",
+    "features": 1002,
+    "measurements": 45,
+    "privacy_derivative": true,
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "White MEH et al.",
+      "title": "Oxonium ion scanning mass spectrometry for large-scale plasma glycoproteomics.",
+      "year": "2024",
+      "doi": "10.1038/s41551-023-01067-5",
+      "url": "https://doi.org/10.1038/s41551-023-01067-5"
+    },
+    "local_file": "glyhub_PMC10963274_OxoScan_SourceQuantification-deidentified.rds"
+  },
+  "glyhub_PMC11556338_HGTCs_SourceQuantification": {
+    "accession": "PMC11556338",
+    "dataset": "glyhub_PMC11556338_HGTCs_SourceQuantification",
+    "local_file": "Supplementary Information_Tables.xlsx",
+    "doi": "10.1093/nsr/nwae341",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "7ca1aa6b22768518a873bce71486f278d555967b75adf6c64b8637baaf621c26",
+    "bytes": 2093241,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11556338/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required",
+    "scale": "Original linear TMT reporter intensity, 5zero preserved, no missing/negative; no new normalization.",
+    "experimental_design": "TMT126 cytoplasm control;127 cytoplasm100uM H2O2;128 cytoplasm100mM H2O2;129 nucleus control;130 nucleus100uM;131 nucleus100mM. HeLa metabolic GalNAz48h then H2O2 1h. PEAKSOnlineXpro1.6 MS2reporters; authors sum same-peptide reporters.",
+    "limitations": "Article says2 experiments but only6 labelled channel quantities in author table with no explicit batch column. Preserve full source asset, curated SE hold pending replicate provenance. Do not invent12 biological samples. TableS14 selected differential176 proteins not complete.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_panel_summary": [
+      {
+        "sheet": "TableS12",
+        "source_records": 778
+      },
+      {
+        "sheet": "TableS13",
+        "source_records": 255
+      }
+    ],
+    "feature_grain": "Original author quantitative record grain, not independently aligned features",
+    "citation": {
+      "authors": "Xiong Y et al.",
+      "title": "Rapid and large-scale glycopeptide enrichment strategy based on chemical ligation.",
+      "year": "2024",
+      "doi": "10.1093/nsr/nwae341",
+      "url": "https://doi.org/10.1093/nsr/nwae341"
+    }
+  },
+  "glyhub_PMC12852849_NB4SampleTables_SourceQuantification": {
+    "accession": "PMC12852849",
+    "dataset": "glyhub_PMC12852849_NB4SampleTables_SourceQuantification",
+    "local_file": "Table-S26-NB4-Glycoproteome.xlsx",
+    "doi": "10.1038/s41467-025-68270-7",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "1843f8cdd76e2b7bd7167370b2cb26b120b6f8a1bdbab223cf6488dbb999d9d0",
+    "bytes": 2232461,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12852849/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required",
+    "scale": "Byologic5.4.10 MS1-based intactN-glycopeptide intensities after author score>150; untransformed per-sheet quantities with true sourcezeros, no missing/negative.",
+    "experimental_design": "20original sample sheets:0nM,10nM,100nM,1uM,10uM arsenic trioxide eachreplicates1-4 NB4cells; do not align independent author row sets or pretend concentration levels are individual abundance.",
+    "limitations": "Do not import phosphoproteome/proteome S27/S28 as glyco; other source tables mostly selected figures/contrasts. Complete NB4S26 is eligible, no invented join.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_panel_summary": [
+      {
+        "sheet": "0 nM-1",
+        "source_records": 2984
+      },
+      {
+        "sheet": "0 nM-2",
+        "source_records": 3246
+      },
+      {
+        "sheet": "0 nM-3",
+        "source_records": 3443
+      },
+      {
+        "sheet": "0 nM-4",
+        "source_records": 3275
+      },
+      {
+        "sheet": "10 nM-1",
+        "source_records": 3581
+      },
+      {
+        "sheet": "10 nM-2",
+        "source_records": 2624
+      },
+      {
+        "sheet": "10 nM-3",
+        "source_records": 3233
+      },
+      {
+        "sheet": "10 nM-4",
+        "source_records": 3023
+      },
+      {
+        "sheet": "100 nM-1",
+        "source_records": 2412
+      },
+      {
+        "sheet": "100 nM-2",
+        "source_records": 3181
+      },
+      {
+        "sheet": "100 nM-3",
+        "source_records": 2685
+      },
+      {
+        "sheet": "100 nM-4",
+        "source_records": 3138
+      },
+      {
+        "sheet": "1 uM-1",
+        "source_records": 3193
+      },
+      {
+        "sheet": "1 uM-2",
+        "source_records": 3422
+      },
+      {
+        "sheet": "1 uM-3",
+        "source_records": 3617
+      },
+      {
+        "sheet": "1 uM-4",
+        "source_records": 2272
+      },
+      {
+        "sheet": "10 uM-1",
+        "source_records": 2234
+      },
+      {
+        "sheet": "10 uM-2",
+        "source_records": 2090
+      },
+      {
+        "sheet": "10 uM-3",
+        "source_records": 2138
+      },
+      {
+        "sheet": "10 uM-4",
+        "source_records": 1963
+      }
+    ],
+    "feature_grain": "Proteinname/Nglycan site/Sequence/Glycans source rows per sample, author original unsynchronized run tables; raw sourceasset preserves all20sheets.",
+    "citation": {
+      "authors": "Dong X et al.",
+      "title": "A versatile platform for sequential glyco-, phospho-, and proteomics with multi-PTMs integration.",
+      "year": "2026",
+      "doi": "10.1038/s41467-025-68270-7",
+      "url": "https://doi.org/10.1038/s41467-025-68270-7"
+    }
+  },
+  "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed": {
+    "dataset": "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed",
+    "doi": "10.1038/s41467-022-31810-6",
+    "accession": "PMC9287322",
+    "repository": "PRIDE",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9287322/supplementaryFiles",
+    "original_sha256": "48714c1a0234d1cb6313ded25023a194e4ca22bc0e6533117546e10042ce0c9e",
+    "license": "CC BY 4.0 author supplement; see license_evidence.json",
+    "scale": "author normalized log2 values",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "984781b0ed2024b160a47e73a01f2bc2884013493abdaf723d2a6a38cd312c28",
+    "features": 262,
+    "measurements": 10,
+    "privacy_derivative": true,
+    "curated_status": "hold: signed author scale; no transformation authorized",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Ferguson ID et al.",
+      "title": "The surfaceome of multiple myeloma cells suggests potential immunotherapeutic strategies and protein markers of drug resistance.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-31810-6",
+      "url": "https://doi.org/10.1038/s41467-022-31810-6"
+    },
+    "local_file": "glyhub_PMC9287322_N_PrimaryMyelomaVsBcells_AuthorProcessed-deidentified.rds"
+  },
+  "glyhub_PXD011063_O_FakeT_LibraryBenchmarkSource": {
+    "accession": "PXD011063",
+    "dataset": "glyhub_PXD011063_O_FakeT_LibraryBenchmarkSource",
+    "local_file": "20180430_Serum_ShortJacalin_4h_Cell_FakeT_LB_Report.xls",
+    "doi": "10.1038/s41592-019-0504-x",
+    "glycan_type": "O",
+    "repository": "PRIDE",
+    "format": "tsv",
+    "sha256": "237ce4fcf6e108294a37909d477af1b00ed9ebb22704346f7332e5c903e032a7",
+    "bytes": 17848914,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2019/11/PXD011063/20180430_Serum_ShortJacalin_4h_Cell_FakeT_LB_Report.xls",
+    "license": "CC0 1.0 independent repository project licence; scientific-method benchmark, not a new cohort",
+    "scale": "native author Spectronaut intensity/quantity columns; no conversion or aggregation",
+    "experimental_design": "One common source acquisition processed against alternative TrueT and FakeT libraries; not two biological samples.",
+    "limitations": "True and deliberately FakeT library reports share ONE acquisition. Do not interpret FakeT candidates as validated biological glycofeatures, do not create two cohorts. Historical 6xR_deSA source not reopened.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 27426,
+    "source_run_counts": {
+      "171130_Fusion_(LC2)_NewObj_Serum_20ul_Trypsin_Neuraminidase_ShortJacalin_10%_4h_HCD_DIA": 27426
+    },
+    "source_library_names": {
+      "171017_Fusion_(LC2)_Zilu_Hek_SC_Trypsin_VVA_HRM_2h_HCD_DDA_High_pH_1_20(Perq)_T_Tn_Final(G)_Fake_T": 6805,
+      "170513_Fusion_(LC2)_Zilu_Hek_SC_Trypsin_VVA_HRM_2h_HCD_DDA(400-1200)_4xR_Tn_Final(G)_Fake_T": 3027,
+      "180108_HepG2_SC_Try_deSA_8xFR(G)_Fake_T": 6549,
+      "180102_Ovcar_SC_Try_deSA_8xFR(G)_Fake_T": 5654,
+      "180321_Fusion_(LC2)_Zilu_HepG2_SC_Sup_VVA_Trypsin_deSA_VVA_HRM_2h_HCD_DDA_30%(G)_Fake_T": 1121,
+      "180102_Capan1_SC_Try_deSA_8xFR(G)_Fake_T": 4270
+    },
+    "source_role": "method_validation_alternative_library_report_source_asset_only",
+    "feature_grain": "Original DIA method/negative-control library-search records; FakeT hits are not asserted biological glycoforms. Do not align, aggregate or treat library alternatives as independent cohorts.",
+    "source_quantitative_statistics": {
+      "PG.Quantity": {
+        "numeric": 8349,
+        "missing": 19077,
+        "negative": 0,
+        "zero": 0,
+        "min": 2150.3503,
+        "max": 310964896
+      },
+      "EG.TotalQuantity (Settings)": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 4974,
+        "min": 0,
+        "max": 495789632
+      },
+      "FG.MS1PeakArea": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 0,
+        "min": 0.229,
+        "max": 5645782720
+      },
+      "FG.MS2TotalPeakArea": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 0,
+        "min": 0.363,
+        "max": 495789616
+      },
+      "FG.Quantity": {
+        "numeric": 27426,
+        "missing": 0,
+        "negative": 0,
+        "zero": 4974,
+        "min": 0,
+        "max": 495789632
+      }
+    },
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD011063",
+    "deduplication_evidence": "glyhub_ingestion/existing_coverage/glycodia_existing_rds_source_strings.json",
+    "citation": {
+      "authors": "Ye Z et al.",
+      "title": "Glyco-DIA: a method for quantitative O-glycoproteomics with in silico-boosted glycopeptide libraries.",
+      "year": "2019",
+      "doi": "10.1038/s41592-019-0504-x",
+      "url": "https://doi.org/10.1038/s41592-019-0504-x"
+    }
+  },
+  "glyhub_PXD011063_O_TrueT_LibraryBenchmarkSource": {
+    "accession": "PXD011063",
+    "dataset": "glyhub_PXD011063_O_TrueT_LibraryBenchmarkSource",
+    "local_file": "20180430_Serum_ShortJacalin_4h_Cell_T_LB_Report.xls",
+    "doi": "10.1038/s41592-019-0504-x",
+    "glycan_type": "O",
+    "repository": "PRIDE",
+    "format": "tsv",
+    "sha256": "fa620ab1dbd2e77f39986391edd5272e402e0a51e87109422c2e3957f7631822",
+    "bytes": 11421318,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2019/11/PXD011063/20180430_Serum_ShortJacalin_4h_Cell_T_LB_Report.xls",
+    "license": "CC0 1.0 independent repository project licence; scientific-method benchmark, not a new cohort",
+    "scale": "native author Spectronaut intensity/quantity columns; no conversion or aggregation",
+    "experimental_design": "One common source acquisition processed against alternative TrueT and FakeT libraries; not two biological samples.",
+    "limitations": "True and deliberately FakeT library reports share ONE acquisition. Do not interpret FakeT candidates as validated biological glycofeatures, do not create two cohorts. Historical 6xR_deSA source not reopened.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 18621,
+    "source_run_counts": {
+      "171130_Fusion_(LC2)_NewObj_Serum_20ul_Trypsin_Neuraminidase_ShortJacalin_10%_4h_HCD_DIA": 18621
+    },
+    "source_library_names": {
+      "HekWT_Jacalin_True_4xLB(G)": 9132,
+      "180108_HepG2_WT_Try_deSA_8xFR(G)": 9489
+    },
+    "source_role": "method_validation_alternative_library_report_source_asset_only",
+    "feature_grain": "Original DIA method/negative-control library-search records; FakeT hits are not asserted biological glycoforms. Do not align, aggregate or treat library alternatives as independent cohorts.",
+    "source_quantitative_statistics": {
+      "PG.Quantity": {
+        "numeric": 4869,
+        "missing": 13752,
+        "negative": 0,
+        "zero": 0,
+        "min": 1532.149,
+        "max": 293956032
+      },
+      "EG.TotalQuantity (Settings)": {
+        "numeric": 18621,
+        "missing": 0,
+        "negative": 0,
+        "zero": 4974,
+        "min": 0,
+        "max": 550204672
+      },
+      "FG.MS1PeakArea": {
+        "numeric": 18621,
+        "missing": 0,
+        "negative": 0,
+        "zero": 0,
+        "min": 0.2397,
+        "max": 6398978240
+      },
+      "FG.MS2TotalPeakArea": {
+        "numeric": 18621,
+        "missing": 0,
+        "negative": 0,
+        "zero": 0,
+        "min": 0.4187,
+        "max": 550204688
+      },
+      "FG.Quantity": {
+        "numeric": 18621,
+        "missing": 0,
+        "negative": 0,
+        "zero": 4974,
+        "min": 0,
+        "max": 550204672
+      }
+    },
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD011063",
+    "deduplication_evidence": "glyhub_ingestion/existing_coverage/glycodia_existing_rds_source_strings.json",
+    "citation": {
+      "authors": "Ye Z et al.",
+      "title": "Glyco-DIA: a method for quantitative O-glycoproteomics with in silico-boosted glycopeptide libraries.",
+      "year": "2019",
+      "doi": "10.1038/s41592-019-0504-x",
+      "url": "https://doi.org/10.1038/s41592-019-0504-x"
+    }
+  },
+  "glyhub_PXD019914_N_Intact_AuthorProcessed": {
+    "dataset": "glyhub_PXD019914_N_Intact_AuthorProcessed",
+    "doi": "10.1038/s41467-020-19976-3",
+    "accession": "PXD019914",
+    "repository": "PRIDE",
+    "source_workbook_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-19976-3/MediaObjects/41467_2020_19976_MOESM4_ESM.xlsx",
+    "source_workbook_sha256": "ef12cdb7bbf0c80da420c26a73160d6d2bd9b77f7067aeb584d6e477e554b915",
+    "original_sha256": "018af9303469b672925c97a2848a69f7f0e03e974f626d51d6616fff9fe71515",
+    "license": {
+      "license": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "basis": "Publisher article Rights and permissions; author supplementary material attached to same article; no contrary credit/licensing text in workbook shared strings or supplementary description. Not an independent repository license. Preserve attribution and indicate format conversion.",
+      "attachment_exception_found": false
+    },
+    "source_scale": "author-normalized log2 relative ratios; signed source values retained without inverse transformation",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "bc8e22da2e93210b57ca4c10a40216245aabc34ee41959e1cc2ae15d29914716",
+    "features": 15512,
+    "measurements": 129,
+    "privacy_derivative": true,
+    "curated_status": "Separate curated SEs provide 2^x linear relative ratios; original log2 source assets remain available",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Pan J et al.",
+      "title": "Glycoproteomics-based signatures for tumor subtyping and clinical outcome prediction of high-grade serous ovarian cancer.",
+      "year": "2020",
+      "doi": "10.1038/s41467-020-19976-3",
+      "url": "https://doi.org/10.1038/s41467-020-19976-3"
+    },
+    "local_file": "glyhub_PXD019914_N_Intact_AuthorProcessed-deidentified.rds"
+  },
+  "glyhub_PXD019914_N_SPEG_AuthorProcessed": {
+    "dataset": "glyhub_PXD019914_N_SPEG_AuthorProcessed",
+    "doi": "10.1038/s41467-020-19976-3",
+    "accession": "PXD019914",
+    "repository": "PRIDE",
+    "source_workbook_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-19976-3/MediaObjects/41467_2020_19976_MOESM4_ESM.xlsx",
+    "source_workbook_sha256": "ef12cdb7bbf0c80da420c26a73160d6d2bd9b77f7067aeb584d6e477e554b915",
+    "original_sha256": "14c5003d321337eec312b3f1f56278a519190b4260220f824b9daa59671cee4f",
+    "license": {
+      "license": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "basis": "Publisher article Rights and permissions; author supplementary material attached to same article; no contrary credit/licensing text in workbook shared strings or supplementary description. Not an independent repository license. Preserve attribution and indicate format conversion.",
+      "attachment_exception_found": false
+    },
+    "source_scale": "author-normalized log2 relative ratios; signed source values retained without inverse transformation",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "d3c71f0b69416fed6b38447629ceacf458c6cb67bff93c9f01dfef22a214ad69",
+    "features": 5115,
+    "measurements": 129,
+    "privacy_derivative": true,
+    "curated_status": "Separate curated SEs provide 2^x linear relative ratios; original log2 source assets remain available",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Pan J et al.",
+      "title": "Glycoproteomics-based signatures for tumor subtyping and clinical outcome prediction of high-grade serous ovarian cancer.",
+      "year": "2020",
+      "doi": "10.1038/s41467-020-19976-3",
+      "url": "https://doi.org/10.1038/s41467-020-19976-3"
+    },
+    "local_file": "glyhub_PXD019914_N_SPEG_AuthorProcessed-deidentified.rds"
+  },
+  "glyhub_PXD035430_BOCTAG_SourceProteinGroups": {
+    "accession": "PXD035430",
+    "dataset": "glyhub_PXD035430_BOCTAG_SourceProteinGroups",
+    "local_file": "PXD035430__proteinGroups_BOCTAG.txt",
+    "doi": "10.1038/s41467-022-33854-0",
+    "repository": "PRIDE",
+    "format": "txt",
+    "sha256": "bfd4b2281b6c6deadfdcdae6c497c6d61f839f8b5d61a523362233ea90771f97",
+    "bytes": 9085957,
+    "features": null,
+    "measurements": null,
+    "source_url": "http://ftp.pride.ebi.ac.uk/pride/data/archive/2022/09/PXD035430/proteinGroups_BOCTAG.txt",
+    "license": "CC0 1.0 repository project grant; not publisher materials",
+    "scale": "Original MaxQuant Intensity L/H per experiment (SILAC) or Intensity per acquisition, linear. Sourcezero preserved, no new normalization/imputation. Ratios and global aggregateIntensity not assay.",
+    "experimental_design": "PXD035430 exactheaders17H_20L_R1..3 and17L_20H_R1..3 (12isotope-channelmeasurements); sample workbookdefinesZL17engineeredBOCTAG andZL20mock; PXD0354378pairedSILACexperiments16channels exactDMSO/GalNAlk6/engineered cellcodes; PXD03543810cocultureexperimentcolumns explicitlyhumanMCF7/murine4T1mock/BOCTAG+substrate, mqparretained. Do not countlabelswaps as independent subjects.",
+    "limitations": "035430mqparHTTP403 stopped; sample workbook ordinary503 resolvedHTTPS with12272bytes expected. Fullsourceassets eligible, granularcuratedsamplemapping can beheld.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 4365,
+    "source_quantitative_columns": [
+      "Intensity L 17H_20L_R1",
+      "Intensity H 17H_20L_R1",
+      "Intensity L 17H_20L_R2",
+      "Intensity H 17H_20L_R2",
+      "Intensity L 17H_20L_R3",
+      "Intensity H 17H_20L_R3",
+      "Intensity L 17L_20H_R1",
+      "Intensity H 17L_20H_R1",
+      "Intensity L 17L_20H_R2",
+      "Intensity H 17L_20H_R2",
+      "Intensity L 17L_20H_R3",
+      "Intensity H 17L_20H_R3"
+    ],
+    "source_zero": 15103,
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD035430",
+    "feature_grain": "Protein groups as source IDs/id, contaminants/decoys retained flagged rather than silently removed; enriched glycoprotein abundance not site-specific intactglycopeptide.",
+    "citation": {
+      "authors": "Cioce A et al.",
+      "title": "Cell-specific bioorthogonal tagging of glycoproteins.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-33854-0",
+      "url": "https://doi.org/10.1038/s41467-022-33854-0"
+    }
+  },
+  "glyhub_PXD035437_BOCTAG_SourceProteinGroups": {
+    "accession": "PXD035437",
+    "dataset": "glyhub_PXD035437_BOCTAG_SourceProteinGroups",
+    "local_file": "PXD035437__proteinGroups_BOCTAG-T2.txt",
+    "doi": "10.1038/s41467-022-33854-0",
+    "repository": "PRIDE",
+    "format": "txt",
+    "sha256": "1403acb483cca4897e68fd8b330a1c25461c78c26c5b23a47512f1c74c97505e",
+    "bytes": 10621681,
+    "features": null,
+    "measurements": null,
+    "source_url": "http://ftp.pride.ebi.ac.uk/pride/data/archive/2022/09/PXD035437/proteinGroups_BOCTAG-T2.txt",
+    "license": "CC0 1.0 repository project grant; not publisher materials",
+    "scale": "Original MaxQuant Intensity L/H per experiment (SILAC) or Intensity per acquisition, linear. Sourcezero preserved, no new normalization/imputation. Ratios and global aggregateIntensity not assay.",
+    "experimental_design": "PXD035430 exactheaders17H_20L_R1..3 and17L_20H_R1..3 (12isotope-channelmeasurements); sample workbookdefinesZL17engineeredBOCTAG andZL20mock; PXD0354378pairedSILACexperiments16channels exactDMSO/GalNAlk6/engineered cellcodes; PXD03543810cocultureexperimentcolumns explicitlyhumanMCF7/murine4T1mock/BOCTAG+substrate, mqparretained. Do not countlabelswaps as independent subjects.",
+    "limitations": "035430mqparHTTP403 stopped; sample workbook ordinary503 resolvedHTTPS with12272bytes expected. Fullsourceassets eligible, granularcuratedsamplemapping can beheld.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 3924,
+    "source_quantitative_columns": [
+      "Intensity L 1c.ZL6 LIGHT DMSO+ZL20 HEAVY DMSO",
+      "Intensity H 1c.ZL6 LIGHT DMSO+ZL20 HEAVY DMSO",
+      "Intensity L 2c.ZL6 LIGHT GalNAlk6+ZL20 HEAVY DMSO",
+      "Intensity H 2c.ZL6 LIGHT GalNAlk6+ZL20 HEAVY DMSO",
+      "Intensity L 3c.ZL6 LIGHT DMSO+ZL20 HEAVY GalNAlk6",
+      "Intensity H 3c.ZL6 LIGHT DMSO+ZL20 HEAVY GalNAlk6",
+      "Intensity L 4c.ZL6 LIGHT GalNAlk6+ZL20 HEAVY GalNAlk6",
+      "Intensity H 4c.ZL6 LIGHT GalNAlk6+ZL20 HEAVY GalNAlk6",
+      "Intensity L 5c.ZL6 HEAVY DMSO+ZL20 LIGHT DMSO",
+      "Intensity H 5c.ZL6 HEAVY DMSO+ZL20 LIGHT DMSO",
+      "Intensity L 6c.ZL6 HEAVY GalNAlk6+ZL20 LIGHT DMSO",
+      "Intensity H 6c.ZL6 HEAVY GalNAlk6+ZL20 LIGHT DMSO",
+      "Intensity L 7c.ZL6 HEAVY DMSO+ZL20 LIGHT GalNAlk6",
+      "Intensity H 7c.ZL6 HEAVY DMSO+ZL20 LIGHT GalNAlk6",
+      "Intensity L 8c.ZL6 HEAVY GalNAlk6+ZL20 LIGHT GalNAlk6",
+      "Intensity H 8c.ZL6 HEAVY GalNAlk6+ZL20 LIGHT GalNAlk6"
+    ],
+    "source_zero": 14062,
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD035437",
+    "feature_grain": "Protein groups as source IDs/id, contaminants/decoys retained flagged rather than silently removed; enriched glycoprotein abundance not site-specific intactglycopeptide.",
+    "citation": {
+      "authors": "Cioce A et al.",
+      "title": "Cell-specific bioorthogonal tagging of glycoproteins.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-33854-0",
+      "url": "https://doi.org/10.1038/s41467-022-33854-0"
+    }
+  },
+  "glyhub_PXD035438_BOCTAG_SourceProteinGroups": {
+    "accession": "PXD035438",
+    "dataset": "glyhub_PXD035438_BOCTAG_SourceProteinGroups",
+    "local_file": "PXD035438__proteinGroups.txt",
+    "doi": "10.1038/s41467-022-33854-0",
+    "repository": "PRIDE",
+    "format": "txt",
+    "sha256": "1bae3e85e6f1b2286f20dcf48f5d8d9760d3de1abeff8e50eebd6e13f9378e83",
+    "bytes": 13512497,
+    "features": null,
+    "measurements": null,
+    "source_url": "http://ftp.pride.ebi.ac.uk/pride/data/archive/2022/09/PXD035438/proteinGroups.txt",
+    "license": "CC0 1.0 repository project grant; not publisher materials",
+    "scale": "Original MaxQuant Intensity L/H per experiment (SILAC) or Intensity per acquisition, linear. Sourcezero preserved, no new normalization/imputation. Ratios and global aggregateIntensity not assay.",
+    "experimental_design": "PXD035430 exactheaders17H_20L_R1..3 and17L_20H_R1..3 (12isotope-channelmeasurements); sample workbookdefinesZL17engineeredBOCTAG andZL20mock; PXD0354378pairedSILACexperiments16channels exactDMSO/GalNAlk6/engineered cellcodes; PXD03543810cocultureexperimentcolumns explicitlyhumanMCF7/murine4T1mock/BOCTAG+substrate, mqparretained. Do not countlabelswaps as independent subjects.",
+    "limitations": "035430mqparHTTP403 stopped; sample workbook ordinary503 resolvedHTTPS with12272bytes expected. Fullsourceassets eligible, granularcuratedsamplemapping can beheld.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 4094,
+    "source_quantitative_columns": [
+      "Intensity 2365_P1_MCF7-mock_4T1-mock_DMSO",
+      "Intensity 2365_P2_MCF7-mock_4T1-BOCTAG_Ac4GalNAlk6-10uM",
+      "Intensity 2365_P3_MCF7-BOCTAG_4T1-mock_Ac4GalNAlk6-10uM",
+      "Intensity 2365_P4_MCF7-BOCTAG_4T1-BOCTAG_DMSO",
+      "Intensity 2365_P6_MCF7-BOCTAG_4T1-BOCTAG_Ac4GalNAlk6-10uM",
+      "Intensity 2408_P1_MCF7-mock_4T1-mock_DMSO",
+      "Intensity 2408_P2_MCF7-mock_4T1-BOCTAG_Ac4GalNAlk6-10uM",
+      "Intensity 2408_P3_MCF7-BOCTAG_4T1-mock_Ac4GalNAlk6-10uM",
+      "Intensity 2408_P4_MCF7-BOCTAG_4T1-BOCTAG_DMSO",
+      "Intensity 2408_P6_MCF7-BOCTAG_4T1-BOCTAG_Ac4GalNAlk6-10uM"
+    ],
+    "source_zero": 17672,
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD035438",
+    "feature_grain": "Protein groups as source IDs/id, contaminants/decoys retained flagged rather than silently removed; enriched glycoprotein abundance not site-specific intactglycopeptide.",
+    "citation": {
+      "authors": "Cioce A et al.",
+      "title": "Cell-specific bioorthogonal tagging of glycoproteins.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-33854-0",
+      "url": "https://doi.org/10.1038/s41467-022-33854-0"
+    }
+  },
+  "glyhub_PXD058966_HCC18OSites_SourceQuantification": {
+    "dataset": "glyhub_PXD058966_HCC18OSites_SourceQuantification",
+    "doi": "10.1186/s12943-024-02199-1",
+    "accession": "PXD058966",
+    "repository": "iProX",
+    "source_url": "https://www.iprox.cn/page/project.html?id=IPX0009603000",
+    "original_sha256": "f07321742c83cc825b18b180425b6c3cffec2b5b63e5c296c434cf33ed693979",
+    "license": "CC0 1.0 specific repository scientific-data policy; submission date after 2023-03-23; not publisher materials",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_policy_url": "https://www.iprox.cn/page/iproxDataLisence.html",
+    "verified_submit_date": "2024-12-18",
+    "scale": "OriginalMaxQuantsiteIntensity columns36samples, 123986zeros kept; noNA/negative; multiplicity-specific___1/2/3alternativecolumns preserved, not extraindependentsamples.",
+    "privacy_description": "Patient/sample source labels and individual clinical covariates omitted; necessary groups and pairing represented with new study-local labels; no reverse mapping published. This is not a guarantee against linkage to public source data.",
+    "glycan_type": "N",
+    "format": "rds",
+    "sha256": "43fb4c85707692931e7796939264dd8201d63b31f7dbb886140f8b65b07c566d",
+    "features": 5086,
+    "measurements": 36,
+    "privacy_derivative": true,
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_representation": "deidentified derived processed-source file; original human source file is local reference only",
+    "citation": {
+      "authors": "Lao Y et al.",
+      "title": "Deciphering a profiling based on multiple post-translational modifications functionally associated regulatory patterns and therapeutic opportunities in human hepatocellular carcinoma.",
+      "year": "2024",
+      "doi": "10.1186/s12943-024-02199-1",
+      "url": "https://doi.org/10.1186/s12943-024-02199-1"
+    },
+    "local_file": "glyhub_PXD058966_HCC18OSites_SourceQuantification-deidentified.rds"
+  },
+  "glyhub_PXD063749_HCC_SourceQuantitativeRecords": {
+    "accession": "PXD063749",
+    "dataset": "glyhub_PXD063749_HCC_SourceQuantitativeRecords",
+    "local_file": "PXD063749_glycopeptides.list",
+    "doi": "10.1038/s41467-026-68579-x",
+    "glycan_type": "N",
+    "repository": "iProX",
+    "format": "tsv",
+    "sha256": "0098b0dc1f0769cf1e08c3209de3967a863d8e7a1689fcd279e5d6f5bc01fc5c",
+    "bytes": 37811661,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://download.iprox.cn/IPX0011907000/IPX0011907001/glycopeptides.list",
+    "license": {
+      "url": "https://www.iprox.cn/page/iproxDataLisence.html",
+      "local_policy": "glyhub_ingestion/existing_coverage/iprox_license_policy.html",
+      "project_record": "glyhub_ingestion/existing_coverage/IPX0011907000_detail.json",
+      "submitTime": "2025-05-07 20:46:05.0",
+      "scope": "repository-submitted dataset only; publisher article is NCND and not covered",
+      "policy_context": "Specific dataset CC0 grant after2023-03-23, retain broader site-content condition alongside"
+    },
+    "scale": "Original author Intensity measurements, untransformed",
+    "experimental_design": [
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      }
+    ],
+    "limitations": "pGlycoQuant GPSM/quantification-record rows, not unique peptide/glycosite abundance",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "sha1": "60560716ca072ec6771c071b44f4a81768cdea63",
+    "quant_sheet": null,
+    "quant_columns": [
+      "Intensity(20241224-LXJ-Nglyco-C_1)",
+      "Intensity(20241224-LXJ-Nglyco-C_2)",
+      "Intensity(20241224-LXJ-Nglyco-C_3)",
+      "Intensity(20241224-LXJ-Nglyco-H_1)",
+      "Intensity(20241224-LXJ-Nglyco-H_2)",
+      "Intensity(20241224-LXJ-Nglyco-H_3)",
+      "Intensity(20241224-LXJ-Nglyco-M_1)",
+      "Intensity(20241224-LXJ-Nglyco-M_2)",
+      "Intensity(20241224-LXJ-Nglyco-M_3)",
+      "Intensity(20241224-LXJ-Nglyco-Y_1)",
+      "Intensity(20241224-LXJ-Nglyco-Y_2)",
+      "Intensity(20241224-LXJ-Nglyco-Y_3)"
+    ],
+    "quant_records": 32459,
+    "measurement_count": 12,
+    "feature_grain": "pGlycoQuant GPSM/quantification-record rows, not unique peptide/glycosite abundance",
+    "samples": [
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      }
+    ],
+    "detailed_audit": "glyhub_ingestion/existing_coverage/hcc_native_quant_review.json",
+    "preservation_rules": [
+      "Register original complete author file with checksum, not synthesized intensities",
+      "Do not collapse repeated molecular assignments, use source row references",
+      "Do not describe quantification records as unique peptides or biological subjects",
+      "No invented sample ages, sexes, clinical code mappings, missingness interpretation or protein sites"
+    ],
+    "license_spdx": "CC0-1.0",
+    "license_evidence": {
+      "url": "https://www.iprox.cn/page/iproxDataLisence.html",
+      "local_policy": "glyhub_ingestion/existing_coverage/iprox_license_policy.html",
+      "project_record": "glyhub_ingestion/existing_coverage/IPX0011907000_detail.json",
+      "submitTime": "2025-05-07 20:46:05.0",
+      "scope": "repository-submitted dataset only; publisher article is NCND and not covered",
+      "policy_context": "Specific dataset CC0 grant after2023-03-23, retain broader site-content condition alongside"
+    },
+    "attribution": "Original authors and paper DOI/accession retained; original file unmodified",
+    "status": "ready_for_original_source_asset_registration; not a newly synthesized SE or unique glycopeptide abundance matrix",
+    "official_repository_sha1": "60560716ca072ec6771c071b44f4a81768cdea63",
+    "official_sha1_matches": true,
+    "source_records": 32459,
+    "citation": {
+      "authors": "Fu B et al.",
+      "title": "Large-scale serum N-glycomics tracks N-glycosylation dynamics in hepatocellular carcinoma progression and enables early diagnosis.",
+      "year": "2026",
+      "doi": "10.1038/s41467-026-68579-x",
+      "url": "https://doi.org/10.1038/s41467-026-68579-x"
+    }
+  },
+  "glyhub_PXD072047_Retina_SourcePrecursorRecords": {
+    "accession": "PXD072047",
+    "dataset": "glyhub_PXD072047_Retina_SourcePrecursorRecords",
+    "local_file": "Original_proteomics_quantification.http.tsv",
+    "doi": "10.1172/JCI195048",
+    "repository": "PRIDE",
+    "format": "tsv",
+    "sha256": "ff7a5bf29dbdb713a19bb4106a4f8fb63baf3f69db7af67d42ca123a09b426c1",
+    "bytes": 591531923,
+    "features": null,
+    "measurements": null,
+    "source_url": "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2026/03/PXD072047/Original_proteomics_quantification.tsv",
+    "license": "CC0 1.0 repository project grant; not publisher materials",
+    "scale": "Precursor.Quantity original linear author quantity; Precursor.Normalised alternative retained. Protein-group repeated summaries not aggregated anew.",
+    "experimental_design": "Sample_information.xlsx explicitly joins12of16Run to genotype/diabetes4groups3rep. FourRuns03,05,12,15 absentmetadata remain unknown. No source rows dropped; no inferred genotype from runnumber.",
+    "limitations": "Raw sourceasset eligible; curatedSE hold incomplete4run samplemap.591MBsource needs appropriate externalasset storage, no truncatedpreview.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 765368,
+    "source_run_count": 16,
+    "source_quantitative_columns": [
+      "Precursor.Quantity",
+      "Precursor.Normalised",
+      "PG.Quantity"
+    ],
+    "known_run_mapping": [
+      {
+        "Sample number": "25NP11390001",
+        "Sample name": "R1-RG1",
+        "Biological group": "retina-group1_4",
+        "New Name submitted in PRIDE": "NCWT1",
+        "Genotype": "Wildtype",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390002",
+        "Sample name": "R2-RG1",
+        "Biological group": "retina-group1_3",
+        "New Name submitted in PRIDE": "NCWT2",
+        "Genotype": "Wildtype",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390004",
+        "Sample name": "R4-RG1",
+        "Biological group": "retina-group1_1",
+        "New Name submitted in PRIDE": "NCWT3",
+        "Genotype": "Wildtype",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390006",
+        "Sample name": "R6-RG2",
+        "Biological group": "retina-group2_3",
+        "New Name submitted in PRIDE": "DCWT1",
+        "Genotype": "Wildtype",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390007",
+        "Sample name": "R7-RG2",
+        "Biological group": "retina-group2_2",
+        "New Name submitted in PRIDE": "DCWT2",
+        "Genotype": "Wildtype",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390008",
+        "Sample name": "R8-RG2",
+        "Biological group": "retina-group2_1",
+        "New Name submitted in PRIDE": "DCWT3",
+        "Genotype": "Wildtype",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390009",
+        "Sample name": "R9-RG3",
+        "Biological group": "retina-group3_4",
+        "New Name submitted in PRIDE": "NCKI1",
+        "Genotype": "Knock-In",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390010",
+        "Sample name": "R10-RG3",
+        "Biological group": "retina-group3_3",
+        "New Name submitted in PRIDE": "NCKI2",
+        "Genotype": "Knock-In",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390011",
+        "Sample name": "R11-RG3",
+        "Biological group": "retina-group3_2",
+        "New Name submitted in PRIDE": "NCKI3",
+        "Genotype": "Knock-In",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390013",
+        "Sample name": "R13-RG4",
+        "Biological group": "retina-group4_4",
+        "New Name submitted in PRIDE": "DCKI1",
+        "Genotype": "Knock-In",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390014",
+        "Sample name": "R14-RG4",
+        "Biological group": "retina-group4_3",
+        "New Name submitted in PRIDE": "DCKI2",
+        "Genotype": "Knock-In",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390016",
+        "Sample name": "R16-RG4",
+        "Biological group": "retina-group4_1",
+        "New Name submitted in PRIDE": "DCKI3",
+        "Genotype": "Knock-In",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      }
+    ],
+    "unmapped_runs": [
+      "25NP11390003",
+      "25NP11390005",
+      "25NP11390012",
+      "25NP11390015"
+    ],
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD072047",
+    "feature_grain": "Original765368precursor×run longrows, exact Run+Precursor.Id unique; complete16acquisitions; sWGA-enriched proteins but ordinary tryptic peptides do not establish O-GlcNAc sites.",
+    "citation": {
+      "authors": "Wang Y et al.",
+      "title": "Disrupting VE-cadherin Y685 phosphorylation inhibits development of experimental diabetic and prediabetic retinopathy.",
+      "year": "2026",
+      "doi": "10.1172/JCI195048",
+      "url": "https://doi.org/10.1172/JCI195048"
+    }
+  },
+  "glyhub_PXD073832_ConAEnrichedPrecursors_SourceQuantification": {
+    "accession": "PXD073832",
+    "dataset": "glyhub_PXD073832_ConAEnrichedPrecursors_SourceQuantification",
+    "local_file": "YAS202412100058-1.pr_matrix.tsv",
+    "doi": "10.1038/s41467-026-71524-7",
+    "repository": "iProX",
+    "format": "tsv",
+    "sha256": "8a07861fd77e3f6e24f495da6072f5f4bbc7e3b91e1fb7beec88d7b9c30b573f",
+    "bytes": 3181561,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.iprox.cn/page/project.html?id=IPX0013604000",
+    "license": "CC0 1.0 specific repository scientific-data policy; submission date after 2023-03-23; not publisher materials",
+    "scale": "Original linear author processed per-sample intensity/area, sourcezeros and blankmissing retained; no new normalization/imputation.",
+    "experimental_design": "Exactcolumnfilebasenames P32L1/P32L2/P32L3 versus WT1/WT2/WT3 gastrocnemius muscle. Source precursorID and originalpathlabels retained.",
+    "limitations": "Author supplementaryFig6h narrower16350rows is not used; independent complete deposit17655rows selected. No inferredglycosites from ordinary peptide sequences.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 17655,
+    "source_quantitative_columns": [
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-P32L3\\YAS202412100058-1-P32L3.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-P32L2\\YAS202412100058-1-P32L2.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-P32L1\\YAS202412100058-1-P32L1.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-WT3\\YAS202412100058-1-WT3.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-WT2\\YAS202412100058-1-WT2.raw",
+      "E:\\LCH\\YAS202412100058-1\\YAS202412100058-1-WT1\\YAS202412100058-1-WT1.raw"
+    ],
+    "feature_grain": "Full17655precursor×6run matrix, ordinary peptide precursors from ConA-enriched protein lysates, NOT intactN-glycopeptide/glycosite assignments. Protein-group ambiguity preserved.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_policy_url": "https://www.iprox.cn/page/iproxDataLisence.html",
+    "source_project": "IPX0013604000",
+    "verified_submit_date": "2026-01-30",
+    "source_integrity": "Independent publicly deposited processed files; officialSHA1matches verified in *.fetch.json",
+    "website_policy_scope_caveat": "Specific deposited-data grant is used; generic website-content terms are not treated as a grant over publisher articles or supplementary files.",
+    "citation": {
+      "authors": "Fu Z et al.",
+      "title": "Gmppb-mutant mice exhibit dystroglycanopathy symptoms that are rescued with GSK3β inhibition or AAV-mediated GMPPB gene replacement.",
+      "year": "2026",
+      "doi": "10.1038/s41467-026-71524-7",
+      "url": "https://doi.org/10.1038/s41467-026-71524-7"
+    }
+  }
+}

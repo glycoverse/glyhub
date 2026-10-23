@@ -1,0 +1,77 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000086771_O_BuddingYeast_SourceGPSM",
+      "source": "MassIVE",
+      "kind": "raw",
+      "format": "xlsx",
+      "storage": "staged",
+      "filename": "glyhub_MSV000086771_O_BuddingYeast_SourceGPSM.xlsx",
+      "bytes": 2073549,
+      "sha256": "2578f604429ffea028f65af099255026cd687d4875897c799f421592280f8c5a",
+      "version": "literature-source-local-v1",
+      "url": "",
+      "features": 7130,
+      "measurements": 10
+    }
+  ],
+  "source_provenance": {
+    "dataset": "glyhub_MSV000086771_O_BuddingYeast_SourceGPSM",
+    "accession": "MSV000086771",
+    "doi": "10.1038/s41592-021-01306-0",
+    "repository": "MassIVE",
+    "glycan_type": "O",
+    "local_file": "Budding-Yeast-O-Man.xlsx",
+    "format": "xlsx",
+    "sha256": "2578f604429ffea028f65af099255026cd687d4875897c799f421592280f8c5a",
+    "features": 7130,
+    "measurements": 10,
+    "quantitation_validation": {
+      "file": "Budding-Yeast-O-Man.xlsx",
+      "sheet": "Budding-Yeast-O-Man",
+      "rows": 7130,
+      "quant_columns": {
+        "MonoArea": {
+          "positive": 7125,
+          "zero": 5
+        },
+        "IsotopeArea": {
+          "positive": 7129,
+          "zero": 1
+        }
+      },
+      "run_counts": {
+        "Model-BuddingYeast-S-1803-3": 509,
+        "Model-BuddingYeast-S-1803-2": 518,
+        "Model-BuddingYeast-S-1803-1": 512,
+        "Model-BuddingYeast-S-1803-4": 461,
+        "Model-BuddingYeast-S-1803-5": 479,
+        "Model-BuddingYeast-H-1803-5": 931,
+        "Model-BuddingYeast-H-1803-4": 965,
+        "Model-BuddingYeast-H-1803-3": 950,
+        "Model-BuddingYeast-H-1803-2": 906,
+        "Model-BuddingYeast-H-1803-1": 899
+      }
+    },
+    "archive": "41592_2021_1306_MOESM3_ESM.zip",
+    "archive_member": "Supplementary Data/Result Files for Figures/Fig.4/Fig.4c/Budding-Yeast-O-Man.xlsx",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648562/supplementaryFiles",
+    "license": "CC BY 4.0 original-author supplementary measurements; not an independent repository CC0 assertion",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+    "scale": "Author linear MonoArea; IsotopeArea alternative, corrected-field -1 sentinel retained unchanged",
+    "experimental_design": "Original budding/fission yeast N and O-Man; IHMO human cell O-glyco and human serum O-glyco datasets. Exclude reused CHO/milk/labelled yeast comparisons and expanded search-space alternate serum tables as duplicate analyses.",
+    "feature_grain": "source GPSM records with GlySpec/RawName/Scan; not unique aligned features or a sample matrix",
+    "changes": "none: exact original author file bytes retained",
+    "citation": {
+      "authors": "Zeng WF et al.",
+      "title": "Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3.",
+      "doi": "10.1038/s41592-021-01306-0",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41592-021-01306-0"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "source-only multi-run author GPSM table; no cross-run molecular alignment or aggregation is inferred",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}
