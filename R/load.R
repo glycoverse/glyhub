@@ -77,6 +77,9 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
 #' SHA-256 manifest before use. Files are cached by version and hash.
 #' Interrupted or invalid downloads never replace a verified cached file.
 #' `refresh = TRUE` cannot be combined with `offline = TRUE`.
+#' Legacy objects without abundance `scale` metadata are upgraded in memory
+#' only when their dataset and verified SHA-256 match a reviewed scale record.
+#' Abundance values, existing metadata, and cached file bytes are unchanged.
 #' Delete downloaded files from `cache_dir` to clear the cache.
 #'
 #' Dataset objects are no longer exposed through LazyData or `data()`. Use this
@@ -164,6 +167,7 @@ glyhub_load <- function(
   if (!methods::is(x, "GlycomicSE") && !methods::is(x, "GlycoproteomicSE")) {
     stop("Invalid glyhub resource class.", call. = FALSE)
   }
+  x <- .glyhub_upgrade_metadata(x, entry)
   methods::validObject(x)
   x
 }
@@ -220,4 +224,37 @@ glyhub_load <- function(
   on.exit(options(old))
   status <- utils::download.file(url, path, mode = "wb", method = "libcurl")
   if (status != 0L) stop("glyhub download failed.", call. = FALSE)
+}
+
+.glyhub_upgrade_metadata <- function(x, entry) {
+  metadata <- glyexp::metadata(x)
+  if (!"scale" %in% names(metadata)) {
+    metadata$scale <- .glyhub_legacy_scale(entry)
+    glyexp::metadata(x) <- metadata
+  }
+  x
+}
+
+.glyhub_legacy_scale <- function(entry) {
+  scales <- utils::read.delim(
+    system.file(
+      "extdata",
+      "legacy-scales.tsv",
+      package = "glyhub",
+      mustWork = TRUE
+    ),
+    stringsAsFactors = FALSE
+  )
+  matched <- which(
+    scales$dataset == entry$dataset & scales$sha256 == entry$sha256
+  )
+  if (length(matched) != 1L || is.na(scales$scale[matched])) {
+    stop(
+      "No verified abundance scale is recorded for this legacy glyhub resource: ",
+      entry$dataset,
+      ". Update glyhub or rebuild the resource with explicit scale metadata.",
+      call. = FALSE
+    )
+  }
+  scales$scale[matched]
 }

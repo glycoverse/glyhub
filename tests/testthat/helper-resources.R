@@ -35,6 +35,6 @@ make_test_object <- function() {
   glyexp::GlycomicSE(
     matrix(c(1, NA, 3, 4), 2, dimnames = list(c("a", "b"), c("s1", "s2"))),
     rowData = rd,
-    metadata = list(glycan_type = "N")
+    metadata = list(glycan_type = "N", scale = "raw")
   )
 }
