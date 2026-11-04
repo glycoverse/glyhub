@@ -13,6 +13,7 @@ test_that("legacy scales are tied to reviewed dataset hashes", {
   )) {
     unknown <- catalog[catalog$dataset == dataset, , drop = FALSE]
     expect_error(.glyhub_legacy_scale(unknown), "No verified abundance scale")
+    expect_null(.glyhub_legacy_scale(unknown, required = FALSE))
   }
   log2$dataset <- "unknown_dataset"
   expect_error(.glyhub_legacy_scale(log2), "No verified abundance scale")

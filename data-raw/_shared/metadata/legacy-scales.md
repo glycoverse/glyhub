@@ -53,7 +53,9 @@ log-transform or infer an abundance scale.
 
 Both are plausibly linear, but this registry deliberately does not infer that.
 Confirm source transformation history before replacing `NA`. Until then,
-loading a legacy object without its own scale fails with an explicit message.
+loading a legacy object without its own scale on glyexp 0.19 or later fails
+with an explicit message. Older supported glyexp versions retain their existing
+behavior because they do not require scale metadata.
 An object's existing scale is never overwritten, including an explicitly
 invalid value: ordinary glyexp validity checks still apply.
 

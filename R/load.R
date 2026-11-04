@@ -229,13 +229,16 @@ glyhub_load <- function(
 .glyhub_upgrade_metadata <- function(x, entry) {
   metadata <- glyexp::metadata(x)
   if (!"scale" %in% names(metadata)) {
-    metadata$scale <- .glyhub_legacy_scale(entry)
+    metadata$scale <- .glyhub_legacy_scale(
+      entry,
+      required = utils::packageVersion("glyexp") >= "0.19.0"
+    )
     glyexp::metadata(x) <- metadata
   }
   x
 }
 
-.glyhub_legacy_scale <- function(entry) {
+.glyhub_legacy_scale <- function(entry, required = TRUE) {
   scales <- utils::read.delim(
     system.file(
       "extdata",
@@ -249,6 +252,9 @@ glyhub_load <- function(
     scales$dataset == entry$dataset & scales$sha256 == entry$sha256
   )
   if (length(matched) != 1L || is.na(scales$scale[matched])) {
+    if (!required) {
+      return(NULL)
+    }
     stop(
       "No verified abundance scale is recorded for this legacy glyhub resource: ",
       entry$dataset,
