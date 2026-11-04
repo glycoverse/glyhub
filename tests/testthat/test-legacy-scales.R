@@ -7,14 +7,11 @@ test_that("legacy scales are tied to reviewed dataset hashes", {
   expect_identical(.glyhub_legacy_scale(log2), "log2")
   raw$sha256 <- paste(rep("0", 64), collapse = "")
   expect_error(.glyhub_legacy_scale(raw), "No verified abundance scale")
-  for (dataset in c(
-    "glyhub_GPST000601_N_glycopeptides",
-    "glyhub_GPST000667_N"
-  )) {
-    unknown <- catalog[catalog$dataset == dataset, , drop = FALSE]
-    expect_error(.glyhub_legacy_scale(unknown), "No verified abundance scale")
-    expect_null(.glyhub_legacy_scale(unknown, required = FALSE))
-  }
+  genius <- subset(catalog, dataset == "glyhub_GPST000667_N")
+  expect_identical(.glyhub_legacy_scale(genius), "raw")
+  unknown <- subset(catalog, dataset == "glyhub_GPST000601_N_glycopeptides")
+  expect_error(.glyhub_legacy_scale(unknown), "No verified abundance scale")
+  expect_null(.glyhub_legacy_scale(unknown, required = FALSE))
   log2$dataset <- "unknown_dataset"
   expect_error(.glyhub_legacy_scale(log2), "No verified abundance scale")
 })

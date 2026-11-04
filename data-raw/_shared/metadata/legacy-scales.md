@@ -10,8 +10,8 @@ downloaded and its SHA-256 verified as
 `073eb107e51c8d8e9b42bfbe41f9cfbd54deaedae28005a72fef217ae194bf80`.
 Its serialized metadata records glyexp 0.17.0 and contains no `scale` field.
 
-The registry assigns 94 resources `raw` from their documented linear assay
-quantities and current build paths, one resource `log2`, and leaves two
+The registry assigns 95 resources `raw` from their documented linear assay
+quantities and current build paths, one resource `log2`, and leaves one
 unresolved (`NA`). `raw` describes linear coordinates; it does not assert that
 measurements are unnormalized, absolute, unbiased, or suitable for every
 analysis. Percentages, fractions, ratios, peak areas, and linearized quantities
@@ -42,16 +42,29 @@ and corresponding `data-raw` build inputs. The shared matrix builder copies
 source cells, optionally marking source zero values missing; it does not
 log-transform or infer an abundance scale.
 
-## Unresolved resources
+## GPST000667 source verification
+
+The [original CSV](https://glycopost.glycosmos.org/data/GPST000667.0/N-glycan-identifications.csv)
+identifies GlycoGenius abundance followed only by migration-time filtering. Its
+SHA-256 is `e231c32a10354df8f5669f9489636d1f83926a8876da6e4cb9b2bf9cbba881c3`.
+Its MD5 `2d29c14f297f1fe40a4e39f6ea1f35a1` matches the source spec. The
+15,832-byte published RDA was also downloaded and matched the manifest hash
+`995809ac07b328f6b31f0e62b6f65d3ccd542f7bb483789f89e1c487e2dc326f`;
+its serialized provenance contains the same source URL and MD5.
+The [study methods](https://doi.org/10.1016/j.mcpro.2026.101524) identify
+GlycoGenius 1.3.1. The [software paper](https://www.nature.com/articles/s41467-025-65265-2)
+defines peak abundance as area under the curve. Inspection of the published
+[1.3.1 source archive](https://files.pythonhosted.org/packages/a8/ed/0abc9e316ecb1a136a2a7e8b66ae6b5bf4aa0314b95d1b1ee3cf5863d91b/glycogenius-1.3.1.tar.gz) confirms `Execution_Functions.py` writes AUC or AUC divided
+by an internal-standard AUC to the composition abundance CSV, without a log
+transform. This supports `raw` independently of the values' magnitude.
+
+## Unresolved resource
 
 - `glyhub_GPST000601_N_glycopeptides`: the source says "source grouped abundance
   (relative scale)" and preserves `Abundances (Grouped)` headings. The retained
   source description does not explicitly establish the transformation history.
-- `glyhub_GPST000667_N`: the source says "GlycoGenius abundance". The available
-  method description names the software but does not explicitly establish the
-  output scale.
 
-Both are plausibly linear, but this registry deliberately does not infer that.
+This is plausibly linear, but this registry deliberately does not infer that.
 Confirm source transformation history before replacing `NA`. Until then,
 loading a legacy object without its own scale on glyexp 0.19 or later fails
 with an explicit message. Older supported glyexp versions retain their existing
