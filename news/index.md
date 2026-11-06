@@ -2,6 +2,10 @@
 
 ## glyhub (development version)
 
+- Correct the GPST000120 rebuild specification so the shared matrix
+  builder retains Spike/ACE2 sample annotations. Published data assets
+  are unchanged.
+
 ## glyhub 0.1.0
 
 - Initial release with 97 curated glycomics and glycoproteomics
