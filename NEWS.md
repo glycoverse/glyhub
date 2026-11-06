@@ -1,6 +1,8 @@
 # glyhub (development version)
 
 * Loading legacy data resources now restores reviewed abundance scale metadata in memory, matched by dataset and SHA-256, for compatibility with glyexp 0.19. Existing scale metadata and all scientific values remain unchanged.
+* Correct the GPST000120 rebuild specification so the shared matrix builder retains Spike/ACE2 sample annotations. Published data assets are unchanged.
+
 # glyhub 0.1.0
 
 * Initial release with 97 curated glycomics and glycoproteomics datasets: 75 from GlycoPOST, eight from CPTAC, and 14 from other published studies.
