@@ -351,22 +351,28 @@
         "structure_status": "Registry structure corresponding to source accession; original source assignment retained."
       }
     ],
-    "col_data": [
-      {
-        "source_column": 9,
-        "source_sample_label": "SARS-CoV-2 Spike",
-        "group": "Spike",
-        "replicate_type": null,
-        "biological_sample_id": null
-      },
-      {
-        "source_column": 10,
-        "source_sample_label": "Human ACE2",
-        "group": "ACE2",
-        "replicate_type": null,
-        "biological_sample_id": null
-      }
-    ],
+    "col_data": {
+      "source_column": [
+        9,
+        10
+      ],
+      "source_sample_label": [
+        "SARS-CoV-2 Spike",
+        "Human ACE2"
+      ],
+      "group": [
+        "Spike",
+        "ACE2"
+      ],
+      "replicate_type": [
+        null,
+        null
+      ],
+      "biological_sample_id": [
+        null,
+        null
+      ]
+    },
     "sha256": "8bc23dac0783748e9a58449229c6eab588ef458847ab5e07a740c0cc0027e71b",
     "technical_status": "complete_matrix_with_16_source_id_supported_compositions_and_structures",
     "release_status": "repository_terms_to_be_recorded_by_integration",
