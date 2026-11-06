@@ -55,6 +55,7 @@ noncptac_hcc <- function(path, sheet, provenance) {
     colData = S4Vectors::DataFrame(cd),
     metadata = list(
       glycan_type = 'N',
+      scale = if (clinical) 'log2' else 'raw',
       doi = '10.1002/advs.202516299',
       accession = 'PXD065283',
       secondary_accession = 'JPST003880',

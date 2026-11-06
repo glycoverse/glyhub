@@ -26,7 +26,7 @@ test_that("all datasets and their convenience functions use external storage", {
   }
   expect_setequal(
     list.files(system.file("extdata", package = "glyhub"), recursive = TRUE),
-    c("manifest.tsv", "catalog-metadata.tsv")
+    c("manifest.tsv", "catalog-metadata.tsv", "legacy-scales.tsv")
   )
   released <- x[x$storage == "release", ]
   expect_identical(

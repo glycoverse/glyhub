@@ -40,6 +40,9 @@ Downloads and cached files are checked against the package's size and
 SHA-256 manifest before use. Files are cached by version and hash.
 Interrupted or invalid downloads never replace a verified cached file.
 \code{refresh = TRUE} cannot be combined with \code{offline = TRUE}.
+Legacy objects without abundance \code{scale} metadata are upgraded in memory
+only when their dataset and verified SHA-256 match a reviewed scale record.
+Abundance values, existing metadata, and cached file bytes are unchanged.
 Delete downloaded files from \code{cache_dir} to clear the cache.
 
 Dataset objects are no longer exposed through LazyData or \code{data()}. Use this
