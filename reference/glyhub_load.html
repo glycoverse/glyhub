@@ -89,6 +89,9 @@ to change the default.</p></dd>
 SHA-256 manifest before use. Files are cached by version and hash.
 Interrupted or invalid downloads never replace a verified cached file.
 <code>refresh = TRUE</code> cannot be combined with <code>offline = TRUE</code>.
+Legacy objects without abundance <code>scale</code> metadata are upgraded in memory
+only when their dataset and verified SHA-256 match a reviewed scale record.
+Abundance values, existing metadata, and cached file bytes are unchanged.
 Delete downloaded files from <code>cache_dir</code> to clear the cache.</p>
 <p>Dataset objects are no longer exposed through LazyData or <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code>. Use this
 loader or each dataset's same-named function. Both return identical objects

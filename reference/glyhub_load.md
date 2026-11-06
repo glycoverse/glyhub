@@ -56,8 +56,11 @@ For `kind = "raw"`, an absolute file path.
 Downloads and cached files are checked against the package's size and
 SHA-256 manifest before use. Files are cached by version and hash.
 Interrupted or invalid downloads never replace a verified cached file.
-`refresh = TRUE` cannot be combined with `offline = TRUE`. Delete
-downloaded files from `cache_dir` to clear the cache.
+`refresh = TRUE` cannot be combined with `offline = TRUE`. Legacy
+objects without abundance `scale` metadata are upgraded in memory only
+when their dataset and verified SHA-256 match a reviewed scale record.
+Abundance values, existing metadata, and cached file bytes are
+unchanged. Delete downloaded files from `cache_dir` to clear the cache.
 
 Dataset objects are no longer exposed through LazyData or
 [`data()`](https://rdrr.io/r/utils/data.html). Use this loader or each
