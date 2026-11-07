@@ -52,6 +52,7 @@ pxd013627_convert <- function(path, spec) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = "log2",
       glycan_type = "N",
       doi = spec$doi,
       accession = "PXD013627",

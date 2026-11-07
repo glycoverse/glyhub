@@ -1,3 +1,5 @@
+source("data-raw/_shared/scripts/noncptac/literature-scale.R")
+
 # Explicitly selected source columns; no artificial aggregation or feature matching.
 literature_feature_source <- function(path, spec) {
   if (identical(spec$file_format, "csv")) {
@@ -78,6 +80,7 @@ literature_feature_source <- function(path, spec) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = literature_scale(spec$dataset),
       accession = spec$accession,
       doi = spec$doi,
       glycan_type = spec$glycan_type,

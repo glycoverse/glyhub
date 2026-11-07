@@ -63,6 +63,7 @@ for (spec in provenance$matrices) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = "raw",
       accession = "PXD019914",
       doi = provenance$doi,
       glycan_type = "N",

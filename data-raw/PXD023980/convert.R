@@ -77,6 +77,7 @@ gprodia_source <- function(path, spec) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = "raw",
       accession = "PXD023980",
       doi = spec$doi,
       glycan_type = "N",

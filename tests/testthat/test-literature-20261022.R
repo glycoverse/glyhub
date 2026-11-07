@@ -132,8 +132,18 @@ test_that("verified literature assets retain complete source matrices", {
       "Scientific source validation requires the explicit maintainer literature cache"
     )
   }
+  reviewed <- utils::read.delim(
+    test_path("fixtures", "literature-scales.tsv"),
+    stringsAsFactors = FALSE
+  )
   for (name in literature_names) {
     x <- glyhub_load(name, cache_dir = cache, offline = TRUE)
+    expect_identical(
+      glyexp::metadata(x)$scale,
+      reviewed$scale[match(name, reviewed$dataset)],
+      info = name
+    )
+    expect_true(methods::validObject(x))
     expect_true(methods::validObject(x), info = name)
     a <- SummarizedExperiment::assay(x)
     md <- S4Vectors::metadata(x)
@@ -275,6 +285,8 @@ test_that("merged experiments roundtrip without inventing observations", {
     expect_false(any(masks$source_missing & masks$structural_missing))
     for (experiment in names(md$source_experiments)) {
       original <- md$source_experiments[[experiment]]
+      expect_identical(glyexp::metadata(original)$scale, "raw")
+      expect_true(methods::validObject(original))
       rows <- md$source_experiment_row_maps[[experiment]]$merged_row_index
       cols <- md$source_experiment_column_maps[[experiment]]$merged_column_index
       expect_identical(

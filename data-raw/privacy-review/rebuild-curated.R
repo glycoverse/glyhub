@@ -12,6 +12,12 @@ for (id in literature_private_subject_datasets) {
   path <- file.path(cache, e$version, paste0(e$sha256, '-', e$filename))
   stopifnot(digest::digest(file = path, algo = 'sha256') == e$sha256)
   x <- readRDS(path)
+  md <- S4Vectors::metadata(x)
+  if (!"scale" %in% names(md)) {
+    md$scale <- literature_scale(id)
+    S4Vectors::metadata(x) <- md
+  }
+  stopifnot(identical(S4Vectors::metadata(x)$scale, literature_scale(id)))
   y <- redact_literature_subjects(x, id)
   stopifnot(identical(
     as.numeric(SummarizedExperiment::assay(x)),

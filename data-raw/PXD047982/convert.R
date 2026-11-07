@@ -57,6 +57,7 @@ pxd047982_convert <- function(path, spec, provenance) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = "raw",
       accession = provenance$accession,
       doi = provenance$doi,
       glycan_type = "O",

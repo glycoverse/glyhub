@@ -6,6 +6,21 @@ merge_literature_experiments <- function(experiments, identities, prefix) {
     !is.null(names(experiments)),
     identical(names(experiments), names(identities))
   )
+  # An exact-key union cannot make different abundance scales comparable.
+  scales <- lapply(experiments, function(x) S4Vectors::metadata(x)$scale)
+  stopifnot(
+    all(vapply(
+      scales,
+      function(s) {
+        is.character(s) &&
+          length(s) == 1L &&
+          !is.na(s) &&
+          s %in% c("raw", "log", "log2", "log10", "logx")
+      },
+      logical(1)
+    )),
+    all(vapply(scales, identical, logical(1), scales[[1]]))
+  )
   citations <- jsonlite::fromJSON(
     "data-raw/_shared/metadata/noncptac/literature-citations.json"
   )

@@ -79,6 +79,11 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
 #' SHA-256 manifest before use. Files are cached by version and hash.
 #' Interrupted or invalid downloads never replace a verified cached file.
 #' `refresh = TRUE` cannot be combined with `offline = TRUE`.
+#' Legacy objects without abundance `scale` metadata are upgraded in memory
+#' only when their dataset and verified SHA-256 match a reviewed scale record.
+#' This also covers the staged literature resources and their embedded original
+#' experiments. Pseudocount and unresolved post-log processing use `logx`.
+#' Abundance values, existing metadata, and cached file bytes are unchanged.
 #' Delete downloaded files from `cache_dir` to clear the cache.
 #'
 #' Dataset objects are no longer exposed through LazyData or `data()`. Use this
@@ -166,6 +171,7 @@ glyhub_load <- function(
   if (!methods::is(x, "GlycomicSE") && !methods::is(x, "GlycoproteomicSE")) {
     stop("Invalid glyhub resource class.", call. = FALSE)
   }
+  x <- .glyhub_upgrade_metadata(x, entry)
   methods::validObject(x)
   x
 }
@@ -222,4 +228,97 @@ glyhub_load <- function(
   on.exit(options(old))
   status <- utils::download.file(url, path, mode = "wb", method = "libcurl")
   if (status != 0L) stop("glyhub download failed.", call. = FALSE)
+}
+
+.glyhub_upgrade_metadata <- function(x, entry) {
+  metadata <- glyexp::metadata(x)
+  if (!"scale" %in% names(metadata)) {
+    metadata$scale <- .glyhub_legacy_scale(
+      entry,
+      required = utils::packageVersion("glyexp") >= "0.19.0"
+    )
+    glyexp::metadata(x) <- metadata
+  }
+  .glyhub_upgrade_source_scales(x, entry)
+}
+
+.glyhub_literature_scales <- function() {
+  utils::read.delim(
+    system.file(
+      "extdata",
+      "literature-scales.tsv",
+      package = "glyhub",
+      mustWork = TRUE
+    ),
+    stringsAsFactors = FALSE,
+    na.strings = "NA"
+  )
+}
+
+.glyhub_upgrade_source_scales <- function(x, entry) {
+  scales <- .glyhub_literature_scales()
+  approved <- scales[
+    scales$parent_dataset == entry$dataset & scales$sha256 == entry$sha256,
+    ,
+    drop = FALSE
+  ]
+  if (!nrow(approved)) {
+    return(x)
+  }
+  metadata <- glyexp::metadata(x)
+  sources <- metadata$source_experiments
+  if (
+    !is.list(sources) || !setequal(names(sources), approved$source_experiment)
+  ) {
+    stop(
+      "Reviewed literature source experiments do not match: ",
+      entry$dataset,
+      call. = FALSE
+    )
+  }
+  for (i in seq_len(nrow(approved))) {
+    name <- approved$source_experiment[i]
+    source_metadata <- glyexp::metadata(sources[[name]])
+    if (!"scale" %in% names(source_metadata)) {
+      source_metadata$scale <- approved$scale[i]
+      glyexp::metadata(sources[[name]]) <- source_metadata
+    }
+  }
+  metadata$source_experiments <- sources
+  glyexp::metadata(x) <- metadata
+  x
+}
+
+.glyhub_legacy_scale <- function(entry, required = TRUE) {
+  scales <- utils::read.delim(
+    system.file(
+      "extdata",
+      "legacy-scales.tsv",
+      package = "glyhub",
+      mustWork = TRUE
+    ),
+    stringsAsFactors = FALSE
+  )
+  literature <- .glyhub_literature_scales()
+  literature <- literature[
+    literature$parent_dataset == "",
+    names(scales),
+    drop = FALSE
+  ]
+  scales <- rbind(scales, literature)
+  matched <- which(
+    scales$dataset == entry$dataset & scales$sha256 == entry$sha256
+  )
+  if (length(matched) != 1L || is.na(scales$scale[matched])) {
+    if (!required) {
+      return(NULL)
+    }
+    stop(
+      "No verified abundance scale is recorded for this legacy glyhub resource: ",
+      entry$dataset,
+      ". Update glyhub or rebuild the resource with explicit scale metadata.",
+      call. = FALSE
+    )
+  }
+  scales$scale[matched]
 }

@@ -27,3 +27,13 @@ These are locally staged resources, without public data-release URLs. The local 
 ## Privacy regression
 
 All 47 curated assay values, author missing/zero masks and source-scale matrices are unchanged; exactly seven objects have minimized human-subject metadata. Forty curated hashes remain unchanged. Eight human source entries are explicit deidentified derivatives; four EV originals are withheld. Individual clinical values and original subject labels are not published, including in embedded source metadata. Necessary analysis grouping and repeated/paired design are retained without an original-ID crosswalk. See `data-raw/privacy-review/` for reproducible processing and validation.
+
+## Abundance-scale compatibility update (2026-11-07)
+
+The source-reviewed mapping is 37 linear (`raw`), seven `log2`, and three `logx` assays. The three `logx` entries preserve the two documented pseudocount transformations and one unresolved post-log processing stage without promising an automatic inverse or log2 fold changes. The eleven embedded original experiments are linear. See `data-raw/_shared/metadata/literature-scales.md` for the per-source rationale.
+
+The current loader adds absent scale metadata only for exact dataset/SHA-256 matches, including the embedded experiments. It does not rewrite cached files, alter the staged manifest, change any measurement or source mask, or publish data. Future constructors set explicit scales; registration validates the reviewed decision, and experiment merging rejects missing or mixed scales.
+
+Package tests pass 667 expectations with zero failures, errors or warnings under both glyexp 0.18.0 and 0.19.0.9000. Separate builder checks pass 69 expectations. Nineteen scientific-cache tests are skipped, including the three literature-asset checks: the original staged cache is unavailable in this validation environment. The original full-data validation above used glyexp 0.18.0 and is historical evidence, not proof of current actual-artifact compatibility. Synthetic legacy-object/cache regressions do not substitute for rereading the 47 checksum-pinned RDS files; that remains a required check when the maintainer cache is restored.
+
+To perform that check, set `GLYHUB_LITERATURE_CACHE` to the cache containing the manifest-pinned `noncptac-local-v1` assets, then run the complete test suite with current glyexp. The scientific tests now assert each actual object's reviewed scale, embedded-object validity, source matrices, missingness and merge round-trips in addition to the existing checksum and source-preservation checks.

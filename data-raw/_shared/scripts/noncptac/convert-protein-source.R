@@ -1,3 +1,5 @@
+source("data-raw/_shared/scripts/noncptac/literature-scale.R")
+
 # Source-grain glyco-enriched protein tables; never infer glycosites or glycans.
 literature_protein_source <- function(path, spec) {
   d <- as.data.frame(readxl::read_excel(
@@ -45,6 +47,7 @@ literature_protein_source <- function(path, spec) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = literature_scale(spec$dataset),
       accession = spec$accession,
       doi = spec$doi,
       glycan_type = spec$glycan_type,

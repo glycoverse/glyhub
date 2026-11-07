@@ -97,6 +97,7 @@ msv000097695_site <- function(path, provenance, composition_dictionary) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = "raw",
       glycan_type = "N",
       doi = "10.1038/s41467-026-68400-9",
       accession = "MSV000097695",

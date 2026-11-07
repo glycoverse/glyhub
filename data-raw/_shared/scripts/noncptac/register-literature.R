@@ -1,8 +1,11 @@
+source("data-raw/_shared/scripts/noncptac/literature-scale.R")
+
 # Source from a study builder with `cache` set. No publication occurs here.
 register_literature <- function(x, name, title, details) {
   source("data-raw/_shared/scripts/noncptac/privacy.R", local = TRUE)
   x <- redact_literature_subjects(x, name)
   md <- S4Vectors::metadata(x)
+  stopifnot(identical(md$scale, literature_scale(name)))
   citations <- jsonlite::fromJSON(
     "data-raw/_shared/metadata/noncptac/literature-citations.json"
   )
@@ -69,6 +72,25 @@ register_literature <- function(x, name, title, details) {
   }
   manifest <- utils::read.delim("inst/extdata/manifest.tsv")
   e <- manifest[manifest$dataset == name, , drop = FALSE]
+  # New artifacts already carry explicit scales; keep the reviewed resource
+  # and embedded-experiment bindings aligned with their new serialized bytes.
+  scales_path <- "inst/extdata/literature-scales.tsv"
+  scales <- utils::read.delim(
+    scales_path,
+    stringsAsFactors = FALSE,
+    na.strings = "NA"
+  )
+  scales$sha256[
+    scales$dataset == name | scales$parent_dataset == name
+  ] <- e$sha256
+  utils::write.table(
+    scales,
+    scales_path,
+    sep = "\t",
+    quote = FALSE,
+    row.names = FALSE,
+    na = "NA"
+  )
   receipt_path <- file.path(
     "data-raw",
     strsplit(name, "_", fixed = TRUE)[[1]][2],

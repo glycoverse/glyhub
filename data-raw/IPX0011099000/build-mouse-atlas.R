@@ -83,6 +83,7 @@ x <- glyexp::GlycoproteomicSE(
   rowData = rd,
   colData = cd,
   metadata = list(
+    scale = "log2",
     accession = "IPX0011099000",
     doi = spec$doi,
     glycan_type = "N",

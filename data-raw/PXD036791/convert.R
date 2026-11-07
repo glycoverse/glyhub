@@ -105,6 +105,7 @@ pxd036791_convert <- function(path, specs, secretome = FALSE) {
     rowData = rd,
     colData = cd,
     metadata = list(
+      scale = "raw",
       glycan_type = "O",
       doi = "10.1038/s41467-022-33806-8",
       accession = "PXD036791",
