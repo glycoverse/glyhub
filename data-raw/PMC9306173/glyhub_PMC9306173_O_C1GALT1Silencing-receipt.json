@@ -1,0 +1,127 @@
+{
+  "dataset": "glyhub_PMC9306173_O_C1GALT1Silencing",
+  "dimensions": [
+    117,
+    6
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC9306173_O_C1GALT1Silencing",
+      "source": "Publication",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC9306173_O_C1GALT1Silencing.rds",
+      "bytes": 15659,
+      "sha256": "906e79cb78c9a4f38f5b9f7f8620c913a127f6b0a84c03df5c771542e5b71e2f",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 117,
+      "measurements": 6
+    }
+  ],
+  "provenance": {
+    "status": "usable",
+    "matrix_validated": true,
+    "pmcid": "PMC9306173",
+    "doi": "10.1186/s13046-022-02438-7",
+    "accession_per_table": "no accession in article; use publication-source identifier, do not invent accession",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9306173/supplementaryFiles",
+    "bytes": 21009,
+    "sha256": "34da61fe436a36c464c72b12bf25ff61a8916c500c9f4604e28cbbc2d01f9e58",
+    "sheet": "Target glycoproteins of C1GALT1",
+    "header_excel_row": 1,
+    "features": 117,
+    "measurements": 6,
+    "measurement_columns": [
+      "Intensity Cont-1",
+      "Intensity Cont-2",
+      "Intensity Cont-3",
+      "Intensity Doxy-1",
+      "Intensity Doxy-2",
+      "Intensity Doxy-3"
+    ],
+    "identity_columns": [
+      "Proteins",
+      "Sequence window",
+      "Probabilities"
+    ],
+    "range": [
+      0,
+      646160000
+    ],
+    "zeros": 455,
+    "negative": 0,
+    "missing": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplementary data; license_evidence.json",
+    "mapping": [
+      {
+        "measurement": "Intensity Cont-1",
+        "cell_line": "YTS-1",
+        "condition": "control",
+        "source_replicate_label": "1",
+        "replicate_type": "unknown (article triplicate LC-MS/MS only)"
+      },
+      {
+        "measurement": "Intensity Cont-2",
+        "cell_line": "YTS-1",
+        "condition": "control",
+        "source_replicate_label": "2",
+        "replicate_type": "unknown (article triplicate LC-MS/MS only)"
+      },
+      {
+        "measurement": "Intensity Cont-3",
+        "cell_line": "YTS-1",
+        "condition": "control",
+        "source_replicate_label": "3",
+        "replicate_type": "unknown (article triplicate LC-MS/MS only)"
+      },
+      {
+        "measurement": "Intensity Doxy-1",
+        "cell_line": "YTS-1",
+        "condition": "doxycycline-induced C1GALT1 silencing",
+        "source_replicate_label": "1",
+        "replicate_type": "unknown (article triplicate LC-MS/MS only)"
+      },
+      {
+        "measurement": "Intensity Doxy-2",
+        "cell_line": "YTS-1",
+        "condition": "doxycycline-induced C1GALT1 silencing",
+        "source_replicate_label": "2",
+        "replicate_type": "unknown (article triplicate LC-MS/MS only)"
+      },
+      {
+        "measurement": "Intensity Doxy-3",
+        "cell_line": "YTS-1",
+        "condition": "doxycycline-induced C1GALT1 silencing",
+        "source_replicate_label": "3",
+        "replicate_type": "unknown (article triplicate LC-MS/MS only)"
+      }
+    ],
+    "molecular_level": "O-glycopeptide source rows (117 reported glycopeptides,67 proteins), source ambiguous localization and sequence window preserved",
+    "scale": "author Intensity columns, positive linear; do not treat zeros as absent rows or impute",
+    "design": "YTS-1 bladder cancer cells, control vs doxycycline-induced C1GALT1 silencing, triplicate LC-MS/MS. Source does not establish biological independence vs technical injection; replicate type explicitly unknown.",
+    "identity_rule": "Keep row index+Proteins+Sequence window+Probabilities+Glycan component. 50 repeated protein IDs reflect separate glycopeptide rows. ST localized composition does not prove exact glycan structure or glycosite.",
+    "complete_matrix_evidence": "Article reports exactly117 glycopeptides across67 proteins in TableS5; table is all117, not just3 differential rows.",
+    "accession": "PMC9306173",
+    "local_file": "13046_2022_2438_MOESM5_ESM.xlsx",
+    "dataset": "glyhub_PMC9306173_O_C1GALT1Silencing",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "protein_column": "Proteins",
+    "composition_column": {},
+    "title": "C1GALT1Silencing",
+    "measurement_columns_1based": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "missing": 0,
+  "zero": 455,
+  "typed_composition_missing": 117
+}

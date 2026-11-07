@@ -1,0 +1,26 @@
+[
+  {
+    "previous_local_id": "glyhub_PXD017033_N_SMMC7721",
+    "previous_local_sha256": "3c64abb63b745882a2b32e0dd868161c2e21a69d6b9c2af26ad3f438dbae974b",
+    "canonical_id": "glyhub_PXD017033_N_HGFTimecourse",
+    "source_experiment": "SMMC7721",
+    "column_selector": {
+      "field": "cell_line",
+      "value": "SMMC-7721"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"SMMC7721\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD017033_N_HepG2",
+    "previous_local_sha256": "63686a73860d8be4ae61f6c9db7fa786833da8428e304f39613de68f5b8c2fbd",
+    "canonical_id": "glyhub_PXD017033_N_HGFTimecourse",
+    "source_experiment": "HepG2",
+    "column_selector": {
+      "field": "cell_line",
+      "value": "HepG2"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"HepG2\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  }
+]

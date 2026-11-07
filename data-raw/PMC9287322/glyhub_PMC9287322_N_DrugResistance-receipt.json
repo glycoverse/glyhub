@@ -1,0 +1,470 @@
+{
+  "dataset": "glyhub_PMC9287322_N_DrugResistance",
+  "dimensions": [1304, 25],
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC9287322_N_DrugResistance",
+      "source": "PRIDE",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PMC9287322_N_DrugResistance.rds",
+      "bytes": 821491,
+      "sha256": "230fb91661ec517a5c4ea4c855fbfc1786dcd601c892a2b38a47ed983328ce75",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 1304,
+      "measurements": 25
+    }
+  ],
+  "provenance": {
+    "name": "DrugResistance",
+    "doi": "10.1038/s41467-022-31810-6",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9287322/supplementaryFiles",
+    "sha256": "42956be14a0fd619fe194ae4f47972339709d4c193a8b5301a1608edb7b97128",
+    "bytes": 601909,
+    "sheet": "Supplementary Dataset 3",
+    "header_excel_row": 1,
+    "features": 1304,
+    "measurements": 25,
+    "measurement_columns": ["AMO1.BtzR.0512.03", "AMO1.BtzR.0512.05", "AMO1.BtzR.0512.07", "AMO1.CarfR.0512.09", "AMO1.CarfR.0512.11", "AMO1.CarfR.0512.13", "AMO1.WT.324.07", "AMO1.WT.420.03", "AMO1.WT.801.03", "ARH.BtzR.0124.05", "ARH.BtzR.1215.07", "L363.CarfR.0124.07", "L363.CarfR.1215.09", "ARH.WT.1215.03", "ARH.WT.1215.04", "ARH.WT.1215.05", "L363.BtzR.0113.07", "L363.BtzR.0124.09", "L363.CarfR.0113.09", "L363.WT.0113.04", "L363.WT.0113.05", "RPMI.BtzR.0124.11", "RPMI.WT.430.01", "RPMI.WT.811.01", "RPMI.WT.811.03"],
+    "identity_columns": ["Uniprot_ID", "Fasta.headers"],
+    "molecular_level": "N-glycoprotein-enriched cell surface capture protein-level; no intact glycopeptide/site identity",
+    "enrichment": "oxidize cell surface glycans, covalent biotinylation, streptavidin capture and on-bead trypsinization; background intracellular proteins possible",
+    "scale": "log2 LFQ",
+    "range": [17.4047, 36.4401],
+    "negative": 0,
+    "zeros": 0,
+    "missing": 0,
+    "new_transformations": [],
+    "license": "CC BY 4.0 author supplement; see license_evidence.json",
+    "status": "usable",
+    "mapping": [
+      {
+        "measurement": "AMO1.BtzR.0512.03",
+        "cell_line_label": "AMO1",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0512.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.BtzR.0512.05",
+        "cell_line_label": "AMO1",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0512.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.BtzR.0512.07",
+        "cell_line_label": "AMO1",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0512.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.CarfR.0512.09",
+        "cell_line_label": "AMO1",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0512.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.CarfR.0512.11",
+        "cell_line_label": "AMO1",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0512.11",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.CarfR.0512.13",
+        "cell_line_label": "AMO1",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0512.13",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.WT.324.07",
+        "cell_line_label": "AMO1",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.324.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.WT.420.03",
+        "cell_line_label": "AMO1",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.420.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.WT.801.03",
+        "cell_line_label": "AMO1",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.801.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.BtzR.0124.05",
+        "cell_line_label": "ARH",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0124.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.BtzR.1215.07",
+        "cell_line_label": "ARH",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.1215.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.CarfR.0124.07",
+        "cell_line_label": "L363",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0124.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.CarfR.1215.09",
+        "cell_line_label": "L363",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.1215.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.WT.1215.03",
+        "cell_line_label": "ARH",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.1215.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.WT.1215.04",
+        "cell_line_label": "ARH",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.1215.04",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.WT.1215.05",
+        "cell_line_label": "ARH",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.1215.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.BtzR.0113.07",
+        "cell_line_label": "L363",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0113.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.BtzR.0124.09",
+        "cell_line_label": "L363",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0124.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.CarfR.0113.09",
+        "cell_line_label": "L363",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0113.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.WT.0113.04",
+        "cell_line_label": "L363",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.0113.04",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.WT.0113.05",
+        "cell_line_label": "L363",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.0113.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.BtzR.0124.11",
+        "cell_line_label": "RPMI",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0124.11",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.WT.430.01",
+        "cell_line_label": "RPMI",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.430.01",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.WT.811.01",
+        "cell_line_label": "RPMI",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.811.01",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.WT.811.03",
+        "cell_line_label": "RPMI",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.811.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      }
+    ],
+    "limitations": "Preserve exact author row/protein strings. No invented sites, structures, composition or complete glycoprotein specificity.",
+    "design": "Cell-line label-free proteomics generally two or three biological replicates except RPMI-8226-BtzR; retain source labels, do not infer independent patients or pairing.",
+    "accession_per_table": "PXD022482",
+    "accession_mapping_evidence": "Official PX file-list names matched to author supplementary dataset names; exact run-to-channel crosswalk requests failed HTTP503, see samplemap_receipts.json. Primary inputs project family includes revision PXD032031 supplement toPXD022553.",
+    "cross_panel_overlap": "MOESM3,5,7 share cell lines/controls; source-run independence unresolved. No numerical duplicate columns among unique shared protein IDs; do not count as independent cohorts. Preserve labelled panels of same study.",
+    "local_file": "41467_2022_31810_MOESM5_ESM.xlsx",
+    "accession": "PMC9287322",
+    "dataset": "glyhub_PMC9287322_N_DrugResistance",
+    "repository": "PRIDE",
+    "glycan_type": "N",
+    "protein_column": "Uniprot_ID",
+    "header_row": 1,
+    "feature_count": 1304,
+    "assay_scale": "author log2 LFQ protein surfaceome abundance",
+    "title": "Cell-surface-capture protein panel DrugResistance",
+    "species": "Homo sapiens",
+    "sample_mapping": [
+      {
+        "measurement": "AMO1.BtzR.0512.03",
+        "cell_line_label": "AMO1",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0512.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.BtzR.0512.05",
+        "cell_line_label": "AMO1",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0512.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.BtzR.0512.07",
+        "cell_line_label": "AMO1",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0512.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.CarfR.0512.09",
+        "cell_line_label": "AMO1",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0512.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.CarfR.0512.11",
+        "cell_line_label": "AMO1",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0512.11",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.CarfR.0512.13",
+        "cell_line_label": "AMO1",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0512.13",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.WT.324.07",
+        "cell_line_label": "AMO1",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.324.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.WT.420.03",
+        "cell_line_label": "AMO1",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.420.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "AMO1.WT.801.03",
+        "cell_line_label": "AMO1",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.801.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.BtzR.0124.05",
+        "cell_line_label": "ARH",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0124.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.BtzR.1215.07",
+        "cell_line_label": "ARH",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.1215.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.CarfR.0124.07",
+        "cell_line_label": "L363",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0124.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.CarfR.1215.09",
+        "cell_line_label": "L363",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.1215.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.WT.1215.03",
+        "cell_line_label": "ARH",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.1215.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.WT.1215.04",
+        "cell_line_label": "ARH",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.1215.04",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "ARH.WT.1215.05",
+        "cell_line_label": "ARH",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.1215.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.BtzR.0113.07",
+        "cell_line_label": "L363",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0113.07",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.BtzR.0124.09",
+        "cell_line_label": "L363",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0124.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.CarfR.0113.09",
+        "cell_line_label": "L363",
+        "condition_label": "CarfR",
+        "source_replicate_label": "CarfR.0113.09",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.WT.0113.04",
+        "cell_line_label": "L363",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.0113.04",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "L363.WT.0113.05",
+        "cell_line_label": "L363",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.0113.05",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.BtzR.0124.11",
+        "cell_line_label": "RPMI",
+        "condition_label": "BtzR",
+        "source_replicate_label": "BtzR.0124.11",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.WT.430.01",
+        "cell_line_label": "RPMI",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.430.01",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.WT.811.01",
+        "cell_line_label": "RPMI",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.811.01",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      },
+      {
+        "measurement": "RPMI.WT.811.03",
+        "cell_line_label": "RPMI",
+        "condition_label": "WT/untreated",
+        "source_replicate_label": "WT.811.03",
+        "replication": "author biological cell-culture replicate, preserve original suffix",
+        "subject_id": {}
+      }
+    ],
+    "author_processing": "Preserve complete selected author-processed matrix on its supplied log2 LFQ scale; no new filtering, imputation or transformation.",
+    "replication_caution": "Same study/source family, not independent cohorts. CellLineSurfaceome partly reuses PXD016800 leukemia data; exact shared-control run overlap across panels unresolved because official sample-list downloads failed. Original sample labels, patient input titration and methods preserved; do not infer independence.",
+    "study_source_family": "doi:10.1038/s41467-022-31810-6",
+    "source_measurement_columns_1based": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+  },
+  "missing": 0,
+  "zero": 0,
+  "typed_composition_missing": 1304
+}

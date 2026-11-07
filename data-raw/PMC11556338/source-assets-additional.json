@@ -1,0 +1,33 @@
+[
+  {
+    "accession": "PMC11556338",
+    "dataset": "glyhub_PMC11556338_HGTCs_SourceQuantification",
+    "local_file": "Supplementary Information_Tables.xlsx",
+    "doi": "10.1093/nsr/nwae341",
+    "glycan_type": null,
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "7ca1aa6b22768518a873bce71486f278d555967b75adf6c64b8637baaf621c26",
+    "bytes": 2093241,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11556338/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required",
+    "scale": "Original linear TMT reporter intensity, 5zero preserved, no missing/negative; no new normalization.",
+    "experimental_design": "TMT126 cytoplasm control;127 cytoplasm100uM H2O2;128 cytoplasm100mM H2O2;129 nucleus control;130 nucleus100uM;131 nucleus100mM. HeLa metabolic GalNAz48h then H2O2 1h. PEAKSOnlineXpro1.6 MS2reporters; authors sum same-peptide reporters.",
+    "limitations": "Article says2 experiments but only6 labelled channel quantities in author table with no explicit batch column. Preserve full source asset, curated SE hold pending replicate provenance. Do not invent12 biological samples. TableS14 selected differential176 proteins not complete.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_panel_summary": [
+      {
+        "sheet": "TableS12",
+        "source_records": 778
+      },
+      {
+        "sheet": "TableS13",
+        "source_records": 255
+      }
+    ],
+    "feature_grain": "Original author quantitative record grain, not independently aligned features"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "glyhub_PMC9287322_N_CellLineSurfaceome": {
+    "dimensions": [1453, 35],
+    "source_cells_compared": 50855,
+    "source_values_exact": true,
+    "source_sha256": "36cc06c60f58e7abcd025c34a31a304bc2f9f93924422267b1934dcf63565b96",
+    "valid_object": true
+  },
+  "glyhub_PMC9287322_N_DrugResistance": {
+    "dimensions": [1304, 25],
+    "source_cells_compared": 32600,
+    "source_values_exact": true,
+    "source_sha256": "42956be14a0fd619fe194ae4f47972339709d4c193a8b5301a1608edb7b97128",
+    "valid_object": true
+  },
+  "glyhub_PMC9287322_N_SmallMolecule": {
+    "dimensions": [1344, 25],
+    "source_cells_compared": 33600,
+    "source_values_exact": true,
+    "source_sha256": "9112757cd9fc01dba1909baa5a5d17a6d26f1fb3658a77f85934d4f18c35645c",
+    "valid_object": true
+  },
+  "glyhub_PMC9287322_N_PrimaryMyelomaInputs": {
+    "dimensions": [860, 10],
+    "source_cells_compared": 8600,
+    "source_values_exact": true,
+    "source_sha256": "79582aeeff2c0af69f6ffa412fa7709c7159a0a600af03239068756d5a6ab519",
+    "valid_object": true
+  },
+  "glyhub_PMC9287322_N_AMO1Inputs": {
+    "dimensions": [1248, 12],
+    "source_cells_compared": 14976,
+    "source_values_exact": true,
+    "source_sha256": "7cb8407688c028ff9fb01ba7dd3e93662f4159f17a43815b1aa7d180929a34fd",
+    "valid_object": true
+  }
+}

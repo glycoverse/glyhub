@@ -1,0 +1,144 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_MSV000089484_IgG_SourceQuantitativeRecords",
+      "source": "Publication",
+      "kind": "raw",
+      "format": "xlsx",
+      "storage": "staged",
+      "filename": "glyhub_MSV000089484_IgG_SourceQuantitativeRecords.xlsx",
+      "bytes": 2733614,
+      "sha256": "5399a1c9ac0ead7a2cba1b1985a80af7f02aaabde2a17f9fef9d4d3a257c5aa6",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "MSV000089484",
+    "dataset": "glyhub_MSV000089484_IgG_SourceQuantitativeRecords",
+    "local_file": "41467_2022_35172_MOESM4_ESM.xlsx",
+    "doi": "10.1038/s41467-022-35172-x",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "5399a1c9ac0ead7a2cba1b1985a80af7f02aaabde2a17f9fef9d4d3a257c5aa6",
+    "bytes": 2733614,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35172-x/MediaObjects/41467_2022_35172_MOESM4_ESM.xlsx",
+    "license": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9729625/",
+      "scope": "original author Supplementary Data1 under article CC-BY4 absent separate third-party credit",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "scale": "Original author Intensity measurements, untransformed",
+    "experimental_design": [
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      }
+    ],
+    "limitations": "pGlycoQuant source spectrum/quant-record rows, not independent glycopeptide species",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "sha1": "0d980e73a8a63571e28e07f19601c2213809a8b5",
+    "quant_sheet": "original_spectra",
+    "quant_columns": [
+      "Intensity(20220323_IgG_Glycopeptide_1ug_Quant_test-rep1)",
+      "Intensity(20220323_IgG_Glycopeptide_1ug_Quant_test-rep2)",
+      "Intensity(20220323_IgG_Glycopeptide_1ug_Quant_test-rep3)"
+    ],
+    "quant_records": 3531,
+    "measurement_count": 3,
+    "feature_grain": "pGlycoQuant source spectrum/quant-record rows, not independent glycopeptide species",
+    "samples": [
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      },
+      {
+        "sample_id": "20220323_IgG_Glycopeptide_1ug_Quant_test-rep3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "human_IgG_1ug",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "material": "human IgG glycopeptide 1ug technical quantification validation; no donor metadata supplied"
+      }
+    ],
+    "detailed_audit": "glyhub_ingestion/existing_coverage/pglycoquant_igg_native_review.json",
+    "preservation_rules": [
+      "Register original complete author file with checksum, not synthesized intensities",
+      "Do not collapse repeated molecular assignments, use source row references",
+      "Do not describe quantification records as unique peptides or biological subjects",
+      "No invented sample ages, sexes, clinical code mappings, missingness interpretation or protein sites"
+    ],
+    "license_spdx": "CC-BY-4.0",
+    "license_evidence": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9729625/",
+      "scope": "original author Supplementary Data1 under article CC-BY4 absent separate third-party credit",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "attribution": "Original authors and paper DOI/accession retained; original file unmodified",
+    "status": "ready_for_original_source_asset_registration; not a newly synthesized SE or unique glycopeptide abundance matrix",
+    "source_records": 3531,
+    "citation": {
+      "authors": "Kong S et al.",
+      "title": "pGlycoQuant with a deep residual network for quantitative glycoproteomics at intact glycopeptide level.",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-35172-x",
+      "url": "https://doi.org/10.1038/s41467-022-35172-x"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

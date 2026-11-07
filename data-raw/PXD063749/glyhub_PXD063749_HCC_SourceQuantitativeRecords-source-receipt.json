@@ -1,0 +1,359 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD063749_HCC_SourceQuantitativeRecords",
+      "source": "iProX",
+      "kind": "raw",
+      "format": "tsv",
+      "storage": "staged",
+      "filename": "glyhub_PXD063749_HCC_SourceQuantitativeRecords.tsv",
+      "bytes": 37811661,
+      "sha256": "0098b0dc1f0769cf1e08c3209de3967a863d8e7a1689fcd279e5d6f5bc01fc5c",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PXD063749",
+    "dataset": "glyhub_PXD063749_HCC_SourceQuantitativeRecords",
+    "local_file": "PXD063749_glycopeptides.list",
+    "doi": "10.1038/s41467-026-68579-x",
+    "glycan_type": "N",
+    "repository": "iProX",
+    "format": "tsv",
+    "sha256": "0098b0dc1f0769cf1e08c3209de3967a863d8e7a1689fcd279e5d6f5bc01fc5c",
+    "bytes": 37811661,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://download.iprox.cn/IPX0011907000/IPX0011907001/glycopeptides.list",
+    "license": {
+      "url": "https://www.iprox.cn/page/iproxDataLisence.html",
+      "local_policy": "glyhub_ingestion/existing_coverage/iprox_license_policy.html",
+      "project_record": "glyhub_ingestion/existing_coverage/IPX0011907000_detail.json",
+      "submitTime": "2025-05-07 20:46:05.0",
+      "scope": "repository-submitted dataset only; publisher article is NCND and not covered",
+      "policy_context": "Specific dataset CC0 grant after2023-03-23, retain broader site-content condition alongside"
+    },
+    "scale": "Original author Intensity measurements, untransformed",
+    "experimental_design": [
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      }
+    ],
+    "limitations": "pGlycoQuant GPSM/quantification-record rows, not unique peptide/glycosite abundance",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "sha1": "60560716ca072ec6771c071b44f4a81768cdea63",
+    "quant_sheet": null,
+    "quant_columns": [
+      "Intensity(20241224-LXJ-Nglyco-C_1)",
+      "Intensity(20241224-LXJ-Nglyco-C_2)",
+      "Intensity(20241224-LXJ-Nglyco-C_3)",
+      "Intensity(20241224-LXJ-Nglyco-H_1)",
+      "Intensity(20241224-LXJ-Nglyco-H_2)",
+      "Intensity(20241224-LXJ-Nglyco-H_3)",
+      "Intensity(20241224-LXJ-Nglyco-M_1)",
+      "Intensity(20241224-LXJ-Nglyco-M_2)",
+      "Intensity(20241224-LXJ-Nglyco-M_3)",
+      "Intensity(20241224-LXJ-Nglyco-Y_1)",
+      "Intensity(20241224-LXJ-Nglyco-Y_2)",
+      "Intensity(20241224-LXJ-Nglyco-Y_3)"
+    ],
+    "quant_records": 32459,
+    "measurement_count": 12,
+    "feature_grain": "pGlycoQuant GPSM/quantification-record rows, not unique peptide/glycosite abundance",
+    "samples": [
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-C_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "C",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-H_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "H",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-M_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "M",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_1",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "1",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_2",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "2",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      },
+      {
+        "sample_id": "20241224-LXJ-Nglyco-Y_3",
+        "age": null,
+        "sex": null,
+        "individual_donor_id": null,
+        "independence": "technical acquisition, not independent clinical subject",
+        "source_group_code": "Y",
+        "source_technical_replicate": "3",
+        "clinical_group": null,
+        "clinical_mapping_note": "Do not map C/H/M/Y to HC/CHB/LC/HCC without explicit source evidence; paper reports four clinical-group pools,120donors total30/group"
+      }
+    ],
+    "detailed_audit": "glyhub_ingestion/existing_coverage/hcc_native_quant_review.json",
+    "preservation_rules": [
+      "Register original complete author file with checksum, not synthesized intensities",
+      "Do not collapse repeated molecular assignments, use source row references",
+      "Do not describe quantification records as unique peptides or biological subjects",
+      "No invented sample ages, sexes, clinical code mappings, missingness interpretation or protein sites"
+    ],
+    "license_spdx": "CC0-1.0",
+    "license_evidence": {
+      "url": "https://www.iprox.cn/page/iproxDataLisence.html",
+      "local_policy": "glyhub_ingestion/existing_coverage/iprox_license_policy.html",
+      "project_record": "glyhub_ingestion/existing_coverage/IPX0011907000_detail.json",
+      "submitTime": "2025-05-07 20:46:05.0",
+      "scope": "repository-submitted dataset only; publisher article is NCND and not covered",
+      "policy_context": "Specific dataset CC0 grant after2023-03-23, retain broader site-content condition alongside"
+    },
+    "attribution": "Original authors and paper DOI/accession retained; original file unmodified",
+    "status": "ready_for_original_source_asset_registration; not a newly synthesized SE or unique glycopeptide abundance matrix",
+    "official_repository_sha1": "60560716ca072ec6771c071b44f4a81768cdea63",
+    "official_sha1_matches": true,
+    "source_records": 32459,
+    "citation": {
+      "authors": "Fu B et al.",
+      "title": "Large-scale serum N-glycomics tracks N-glycosylation dynamics in hepatocellular carcinoma progression and enables early diagnosis.",
+      "year": "2026",
+      "doi": "10.1038/s41467-026-68579-x",
+      "url": "https://doi.org/10.1038/s41467-026-68579-x"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

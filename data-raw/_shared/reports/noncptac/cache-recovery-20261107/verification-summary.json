@@ -1,0 +1,57 @@
+{
+  "reference_commit": "18f7e58862eeac132357c2e6b950ce5de7c5c569",
+  "cache": {
+    "assets": 79,
+    "bytes": 779706550,
+    "historical_exact": 54,
+    "rebuilt_new": 25,
+    "sha256_and_size_verified": 79
+  },
+  "baseline": {
+    "unchanged_manifest_rows": 105,
+    "unchanged_curated_metadata_rows": 97
+  },
+  "runtime": {
+    "R": "4.6.1",
+    "tested_glyexp": [
+      "0.19.0.9000",
+      "0.18.0"
+    ],
+    "rebuilt_glyexp": "0.18.0"
+  },
+  "full_test_suite_each_version": {
+    "passed": 1545,
+    "failures": 0,
+    "errors": 0,
+    "warnings": 0,
+    "skipped_older_released_source_assets": 16,
+    "skipped_literature_tests": 0
+  },
+  "actual_curated_validation": {
+    "objects": 47,
+    "cells": 9833288,
+    "passed": 47
+  },
+  "builder_scale_assertions_each_version": 69,
+  "receipt_assertions": 348,
+  "privacy_audit": {
+    "selected_RDS_hashes_checked": 55,
+    "human_curated_payloads": 7,
+    "deidentified_raw_payloads": 8,
+    "confirmed_privacy_defects": 0,
+    "limitation": "Observable content review, not a guarantee of anonymity or perfect identifying-text detection."
+  },
+  "publication": "staged only; no public release URLs or assets published",
+  "R_CMD_check": {
+    "glyexp": "0.19.0.9000",
+    "arguments": [
+      "--no-manual",
+      "--as-cran"
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "notes": 0,
+    "status": "OK"
+  },
+  "air_format_check": "passed"
+}

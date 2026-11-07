@@ -1,0 +1,24 @@
+{
+  "url": "https://massive.ucsd.edu/ProteoSAFe/DownloadResultFile?file=f.MSV000097695%2Fupdates%2F2025-12-01_Xu_chen_aee47aec%2Fquant%2FpGlycoQuant_output_files_latest%2FN-pGlycoQuant.site.list&forceDownload=true",
+  "sha256": "02dd50595718d7d81ee7d56cb90463d5cd319549cc6cfdbcecf86297ef578782",
+  "local_file": "02dd50595718d7d81ee7d56cb90463d5cd319549cc6cfdbcecf86297ef578782__N-pGlycoQuant.site.list",
+  "size": 495512,
+  "relative_path": "updates/2025-12-01_Xu_chen_aee47aec/quant/pGlycoQuant_output_files_latest",
+  "retrieved": "2026-10-22",
+  "doi": "10.1038/s41467-026-68400-9",
+  "source_license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_evidence_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000097695",
+  "license_evidence_sha256": "1e8b06b76a82225cbf749239be80c3596e110a0aae46806bb73ea008870943b7",
+  "composition_dictionary": {
+    "H": "Hex",
+    "N": "HexNAc",
+    "F": "Fuc",
+    "X": "Xyl",
+    "HA": "HexA"
+  },
+  "composition_evidence": "Article figure legends including Fig. 4 HA=hexuronic acid. A/G mappings not independently established; rows containing those symbols remain typed NA.",
+  "replicate_type_evidence": "Methods state six replicates but do not establish biological versus technical independence.",
+  "sample_mapping_evidence": "MassIVE depositor description: N female 20231124-CX-Cpg; N male 20231124-CX-Xpg.",
+  "source_selection": "Use complete deposited N-site matrix before downstream ratios, log2, filtering and imputation; protein and modification tables are related aggregation levels, not additional cohorts."
+}

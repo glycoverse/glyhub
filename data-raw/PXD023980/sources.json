@@ -1,0 +1,858 @@
+[
+  {
+    "status": "usable",
+    "name": "FissionYeast_DDA1h",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 382636,
+    "sha256": "11acfb8ccf013e3516e431559765ed619817a2c6c0a7074034d16180bc90087c",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 666,
+    "measurements": 4,
+    "measurement_columns": [
+      "fissionyeast_NGP_DDA_1.raw",
+      "fissionyeast_NGP_DDA_2.raw",
+      "fissionyeast_NGP_DDA_3.raw",
+      "fissionyeast_NGP_DDA_4.raw"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author-provided linear DDA precursor abundance; normalization status not established for this table",
+    "method": "DDA",
+    "gradient_hours": 1,
+    "sample": "fission yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      0.0,
+      551541754.90242
+    ],
+    "missing": 1237,
+    "zeros": 1,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "fissionyeast_NGP_DDA_1.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_1.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_2.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_2.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_3.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_4.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_4.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM4_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_FissionYeast_DDA1h",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "FissionYeast_DDA6h",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 568452,
+    "sha256": "d1f1b258cd31519cf6ca9edee25742f11431c9637be2547377de09f08d8a0836",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 461,
+    "measurements": 3,
+    "measurement_columns": [
+      "fissionyeast_NGP_DDA_6h_1_201210180855.raw",
+      "fissionyeast_NGP_DDA_6h_2_201211010726.raw",
+      "fissionyeast_NGP_DDA_6h_3.raw"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author-provided linear DDA precursor abundance; normalization status not established for this table",
+    "method": "DDA",
+    "gradient_hours": 6,
+    "sample": "fission yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      54519.6988180094,
+      1620626633.20251
+    ],
+    "missing": 330,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "fissionyeast_NGP_DDA_6h_1_201210180855.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_6h_1_201210180855.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_6h_2_201211010726.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_6h_2_201211010726.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DDA_6h_3.raw",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DDA_6h_3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM5_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_FissionYeast_DDA6h",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "FissionYeast_DIA_SSL",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 274579,
+    "sha256": "c2c71538308f8413a783731e0f830d7575931f4ee132bff193c3fdb16ee749df",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 433,
+    "measurements": 4,
+    "measurement_columns": [
+      "fissionyeast_NGP_DIA_1.mzML",
+      "fissionyeast_NGP_DIA_2.mzML",
+      "fissionyeast_NGP_DIA_3.mzML",
+      "fissionyeast_NGP_DIA_4.mzML"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author median-normalized linear intensity; DIA uses top-three peak-group summation per glycopeptide; preserve exact source numbers",
+    "method": "DIA sample-specific library",
+    "gradient_hours": 1,
+    "sample": "fission yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      56917.0094499632,
+      74119054.4305548
+    ],
+    "missing": 59,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "fissionyeast_NGP_DIA_1.mzML",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DIA_1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DIA_2.mzML",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DIA_2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DIA_3.mzML",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DIA_3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "fissionyeast_NGP_DIA_4.mzML",
+        "sample": "fission yeast",
+        "source_run": "fissionyeast_NGP_DIA_4.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM6_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_FissionYeast_DIA_SSL",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "BuddingYeast_DIA",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 242389,
+    "sha256": "ed32833c0cf2ff0ccfa83433d4b1d17535d1f56a03d8be70c7affa3e1f91cd29",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 516,
+    "measurements": 3,
+    "measurement_columns": [
+      "20200727_Yeast_1hDIA_rep1.mzML",
+      "20200727_Yeast_1hDIA_rep2.mzML",
+      "20200727_Yeast_1hDIA_rep3.mzML"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author median-normalized linear intensity; DIA uses top-three peak-group summation per glycopeptide; preserve exact source numbers",
+    "method": "DIA",
+    "gradient_hours": 1,
+    "sample": "budding yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      20001.3726792773,
+      98602506.1952669
+    ],
+    "missing": 144,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "20200727_Yeast_1hDIA_rep1.mzML",
+        "sample": "budding yeast",
+        "source_run": "20200727_Yeast_1hDIA_rep1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "20200727_Yeast_1hDIA_rep2.mzML",
+        "sample": "budding yeast",
+        "source_run": "20200727_Yeast_1hDIA_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "20200727_Yeast_1hDIA_rep3.mzML",
+        "sample": "budding yeast",
+        "source_run": "20200727_Yeast_1hDIA_rep3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM8_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_BuddingYeast_DIA",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "Serum_DDA",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 599281,
+    "sha256": "dbecdb0e59b80b53d49a863760d753c91c6b3cb4293c3a5ba0bb09e53e90899c",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 1148,
+    "measurements": 3,
+    "measurement_columns": [
+      "serum_NGP_DDA_1h_1.raw",
+      "serum_NGP_DDA_1h_2.raw",
+      "serum_NGP_DDA_1h_3.raw"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author-provided linear DDA precursor abundance; normalization status not established for this table",
+    "method": "DDA",
+    "gradient_hours": 1,
+    "sample": "human serum",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      0.0,
+      3695745257.93816
+    ],
+    "missing": 1354,
+    "zeros": 1,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "serum_NGP_DDA_1h_1.raw",
+        "sample": "human serum",
+        "source_run": "serum_NGP_DDA_1h_1.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "serum_NGP_DDA_1h_2.raw",
+        "sample": "human serum",
+        "source_run": "serum_NGP_DDA_1h_2.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "serum_NGP_DDA_1h_3.raw",
+        "sample": "human serum",
+        "source_run": "serum_NGP_DDA_1h_3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM9_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_Serum_DDA",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "Serum_DIA_SSL",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 431156,
+    "sha256": "38fbb3d6475399a8d113319d8ed93c16097f3622eb78eb049875e69fcec2b6a2",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 892,
+    "measurements": 3,
+    "measurement_columns": [
+      "20200615_serum_NGlycP_1hDIA_rep1.mzML",
+      "20200615_serum_NGlycP_1hDIA_rep2.mzML",
+      "20200615_serum_NGlycP_1hDIA_rep3.mzML"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author median-normalized linear intensity; DIA uses top-three peak-group summation per glycopeptide; preserve exact source numbers",
+    "method": "DIA sample-specific library",
+    "gradient_hours": 1,
+    "sample": "human serum",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts.",
+    "range": [
+      111684.629764618,
+      320776877.950561
+    ],
+    "missing": 278,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "20200615_serum_NGlycP_1hDIA_rep1.mzML",
+        "sample": "human serum",
+        "source_run": "20200615_serum_NGlycP_1hDIA_rep1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "20200615_serum_NGlycP_1hDIA_rep2.mzML",
+        "sample": "human serum",
+        "source_run": "20200615_serum_NGlycP_1hDIA_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      },
+      {
+        "measurement": "20200615_serum_NGlycP_1hDIA_rep3.mzML",
+        "sample": "human serum",
+        "source_run": "20200615_serum_NGlycP_1hDIA_rep3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM13_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_Serum_DIA_SSL",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "Mixture_DDA",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 2152098,
+    "sha256": "22dd85714493e13835a61de58bab61e5b4d8712a3092fcaf74303c3b8b1296ae",
+    "sheet": "Precursors",
+    "header_excel_row": 1,
+    "features": 2054,
+    "measurements": 9,
+    "measurement_columns": [
+      "20200811_serum_yeast_DDA_1_1_rep1.raw",
+      "20200811_serum_yeast_DDA_1_1_rep2.raw",
+      "20200811_serum_yeast_DDA_1_1_rep3.raw",
+      "20200811_serum_yeast_DDA_10_12_rep1.raw",
+      "20200811_serum_yeast_DDA_10_12_rep2.raw",
+      "20200811_serum_yeast_DDA_10_12_rep3.raw",
+      "20200811_serum_yeast_DDA_10_15_rep1.raw",
+      "20200811_serum_yeast_DDA_10_15_rep2.raw",
+      "20200811_serum_yeast_DDA_10_15_rep3.raw"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author-provided linear DDA precursor abundance; normalization status not established for this table",
+    "method": "DDA",
+    "gradient_hours": 1,
+    "sample": "human serum + budding yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts. Mixtures S10/S12/S15 with three technical repeats; human fraction 1:0.9:0.8 and yeast1:1.1:1.2 as reported. MOESM18 MS1 is alternative quantification of same9 runs; main panel MS2, not18 independent measurements.",
+    "range": [
+      0.0,
+      9504931216.9916
+    ],
+    "missing": 10256,
+    "zeros": 9,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "20200811_serum_yeast_DDA_1_1_rep1.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_1_1_rep1.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200811_serum_yeast_DDA_1_1_rep1.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_1_1_rep2.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_1_1_rep2.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200811_serum_yeast_DDA_1_1_rep2.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_1_1_rep3.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_1_1_rep3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200811_serum_yeast_DDA_1_1_rep3.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_10_12_rep1.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_10_12_rep1.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200811_serum_yeast_DDA_10_12_rep1.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_10_12_rep2.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_10_12_rep2.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200811_serum_yeast_DDA_10_12_rep2.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_10_12_rep3.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_10_12_rep3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200811_serum_yeast_DDA_10_12_rep3.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_10_15_rep1.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_10_15_rep1.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200811_serum_yeast_DDA_10_15_rep1.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_10_15_rep2.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_10_15_rep2.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200811_serum_yeast_DDA_10_15_rep2.raw"
+      },
+      {
+        "measurement": "20200811_serum_yeast_DDA_10_15_rep3.raw",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200811_serum_yeast_DDA_10_15_rep3.raw",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200811_serum_yeast_DDA_10_15_rep3.raw"
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM17_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_Mixture_DDA",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  {
+    "status": "usable",
+    "name": "Mixture_DIA_SSL",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 1375365,
+    "sha256": "1a7c7daebb786fb4aff82e530076ff6c5fb0ada592824596ff0c85a3fdff4c14",
+    "sheet": "Precursors",
+    "header_excel_row": 2,
+    "features": 1066,
+    "measurements": 9,
+    "measurement_columns": [
+      "20200727_serum_yeast_1_1_rep2.mzML",
+      "20200727_serum_yeast_1_1_rep3.mzML",
+      "20200727_serum_yeast_1_1_rep4.mzML",
+      "20200727_serum_yeast_10_12_rep1.mzML",
+      "20200727_serum_yeast_10_12_rep2.mzML",
+      "20200727_serum_yeast_10_12_rep3.mzML",
+      "20200727_serum_yeast_10_15_rep1.mzML",
+      "20200727_serum_yeast_10_15_rep2.mzML",
+      "20200727_serum_yeast_10_15_rep4.mzML"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author median-normalized linear intensity; DIA uses top-three peak-group summation per glycopeptide; preserve exact source numbers",
+    "method": "DIA sample-specific library",
+    "gradient_hours": 1,
+    "sample": "human serum + budding yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts. Mixtures S10/S12/S15 with three technical repeats; human fraction 1:0.9:0.8 and yeast1:1.1:1.2 as reported. MOESM18 MS1 is alternative quantification of same9 runs; main panel MS2, not18 independent measurements.",
+    "range": [
+      82382.8320751945,
+      276847045.982447
+    ],
+    "missing": 2308,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "20200727_serum_yeast_1_1_rep2.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_1_1_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200727_serum_yeast_1_1_rep2.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_1_1_rep3.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_1_1_rep3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200727_serum_yeast_1_1_rep3.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_1_1_rep4.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_1_1_rep4.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200727_serum_yeast_1_1_rep4.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_12_rep1.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_12_rep1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200727_serum_yeast_10_12_rep1.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_12_rep2.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_12_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200727_serum_yeast_10_12_rep2.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_12_rep3.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_12_rep3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200727_serum_yeast_10_12_rep3.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_15_rep1.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_15_rep1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200727_serum_yeast_10_15_rep1.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_15_rep2.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_15_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200727_serum_yeast_10_15_rep2.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_15_rep4.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_15_rep4.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": null,
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200727_serum_yeast_10_15_rep4.mzML"
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM18_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_Mixture_DIA_SSL",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  }
+]

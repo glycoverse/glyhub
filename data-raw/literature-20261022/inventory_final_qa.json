@@ -1,0 +1,21 @@
+{
+  "papers": 164,
+  "baseline_existing_objects": 13,
+  "staged_curated_objects": 47,
+  "staged_source_assets": 32,
+  "staged_dois": 33,
+  "abstracts_redistributed": false,
+  "public_json_sha256": "e4e03b8d27dc6ae121b6002c3adb77c2a661d5293f650bcd4e33a2752479da2e",
+  "public_csv_sha256": "b812cb75dd768d5f76f97c84369a265866cb2a8d408fc8e38f8f1f326d9adb5e",
+  "followup_status_counts": {
+    "finite_search_completed_with_explicit_coverage_limits": 33,
+    "not_in_followup_subset": 86,
+    "not_fully_inspected": 38,
+    "completed_source_evidence_with_explicit_remaining_gap": 6,
+    "completed_limited_archive_review": 1
+  },
+  "complete_verification_of_all_papers": false,
+  "followup_snapshot": "completed bounded repository review; remaining gaps explicit, no claim of exhaustive absence",
+  "deidentified_source_derivatives": 8,
+  "privacy_held_source_assets": 4
+}

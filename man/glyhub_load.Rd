@@ -17,7 +17,9 @@ glyhub_load(
 \code{"glyhub_GPST000738_N_B4GalT1"} or \code{"glyhub_CPTAC_CCRCC"}.}
 
 \item{kind}{\code{"curated"} returns a data object; \code{"raw"} returns the path to
-a verified source archive. Raw archives are currently available for CPTAC.}
+a verified source file. Here \code{"raw"} means the source asset, not necessarily
+instrument-raw or unprocessed intensity. Some literature sources contain
+signed author-processed matrices and have no curated object.}
 
 \item{cache_dir}{Cache directory, defaulting to
 \code{tools::R_user_dir("glyhub", "cache")}. Set option \code{glyhub.cache_dir}
@@ -32,7 +34,7 @@ For \code{kind = "curated"}, a \link[glyexp:GlycomicSE]{glyexp::GlycomicSE} or
 \link[glyexp:GlycoproteomicSE]{glyexp::GlycoproteomicSE}. For \code{kind = "raw"}, an absolute file path.
 }
 \description{
-Load any dataset from the shared external data release. Dataset identifiers
+Load any dataset from the shared external data release. Curated dataset identifiers
 also name convenience functions that call this loader with the same options.
 }
 \details{
@@ -42,11 +44,13 @@ Interrupted or invalid downloads never replace a verified cached file.
 \code{refresh = TRUE} cannot be combined with \code{offline = TRUE}.
 Legacy objects without abundance \code{scale} metadata are upgraded in memory
 only when their dataset and verified SHA-256 match a reviewed scale record.
+This also covers the staged literature resources and their embedded original
+experiments. Pseudocount and unresolved post-log processing use \code{logx}.
 Abundance values, existing metadata, and cached file bytes are unchanged.
 Delete downloaded files from \code{cache_dir} to clear the cache.
 
 Dataset objects are no longer exposed through LazyData or \code{data()}. Use this
-loader or each dataset's same-named function. Both return identical objects
+loader or each curated dataset's same-named function. Both return identical objects
 and share the verified cache. Consult dataset help for scientific details.
 }
 \examples{

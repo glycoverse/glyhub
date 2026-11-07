@@ -1,0 +1,257 @@
+[
+  {
+    "accession": "PXD017033",
+    "dataset": "glyhub_PXD017033_N_SMMC7721",
+    "title": "SMMC7721",
+    "doi": "10.7150/thno.56882",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "local_file": "Table S3 Intact glycopeptides that were quantified among six time points of HGF-treatment in both SMCC-7721 and HepG2 cell lines based on the TMT-labeled quantific.xlsx",
+    "sha256": "b4567ee0079d34274cfb836025caeb434bbc716f4f9bd238f48f2481382c4706",
+    "source_url": "https://www.thno.org/v11p6905s2.zip",
+    "sheet": "Table S3A",
+    "header_excel_row": 2,
+    "read_range": "A2:AE1477",
+    "features": 1475,
+    "measurements": 6,
+    "measurement_columns_1based": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "measurement_columns": [
+      "126",
+      "127N",
+      "127C",
+      "128N",
+      "128C",
+      "129N"
+    ],
+    "annotation_columns_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "protein_column": "ProteinID",
+    "composition_column": "GlycanComposition",
+    "mapping": [
+      {
+        "source_column": "126",
+        "TMT_channel": "126",
+        "time_hours": 0,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "SMMC-7721",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "127N",
+        "TMT_channel": "127N",
+        "time_hours": 6,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "SMMC-7721",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "127C",
+        "TMT_channel": "127C",
+        "time_hours": 12,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "SMMC-7721",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "128N",
+        "TMT_channel": "128N",
+        "time_hours": 24,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "SMMC-7721",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "128C",
+        "TMT_channel": "128C",
+        "time_hours": 48,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "SMMC-7721",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "129N",
+        "TMT_channel": "129N",
+        "time_hours": 72,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "SMMC-7721",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      }
+    ],
+    "missing": 0,
+    "zeros": 69,
+    "license": "CC BY 4.0 author supplementary quantitative data; attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Author reporter-ion intensity columns, distinct from provided normalized abundance and baseline-ratio columns; PSM column is annotation only",
+    "design": "Three biological replicates pooled into ONE sample for each timepoint before downstream sample preparation; six measured pooled timepoints, not 18 replicate samples",
+    "molecular_level": "Intact N-glycopeptide author source rows; composition strings parsed, encoded structure_coding retained verbatim without unverified topology conversion.",
+    "limitations": [
+      "Author zeros preserved; no new normalization/imputation or scale transformation.",
+      "Publisher access/collection restrictions are distinct from existing CC BY data reuse; no additional automated publisher collection performed.",
+      "Author composition and alternative structure-code annotations disagree at the explicitly listed Excel rows. Preserve both source annotations, flag the conflict, and leave canonical composition unknown there; no topology is selected or corrected. Compact source F is conservatively represented as dHex, although the author describes fucose."
+    ],
+    "source_reuse_terms_url": "https://ivyspring.com/terms",
+    "composition_structure_conflict_excel_rows": [
+      136,
+      425,
+      635,
+      1135
+    ]
+  },
+  {
+    "accession": "PXD017033",
+    "dataset": "glyhub_PXD017033_N_HepG2",
+    "title": "HepG2",
+    "doi": "10.7150/thno.56882",
+    "glycan_type": "N",
+    "repository": "Publication",
+    "local_file": "Table S3 Intact glycopeptides that were quantified among six time points of HGF-treatment in both SMCC-7721 and HepG2 cell lines based on the TMT-labeled quantific.xlsx",
+    "sha256": "b4567ee0079d34274cfb836025caeb434bbc716f4f9bd238f48f2481382c4706",
+    "source_url": "https://www.thno.org/v11p6905s2.zip",
+    "sheet": "Table S3B",
+    "header_excel_row": 2,
+    "read_range": "A2:AE1683",
+    "features": 1681,
+    "measurements": 6,
+    "measurement_columns_1based": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "measurement_columns": [
+      "126",
+      "127N",
+      "127C",
+      "128N",
+      "128C",
+      "129N"
+    ],
+    "annotation_columns_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "protein_column": "ProteinID",
+    "composition_column": "GlycanComposition",
+    "mapping": [
+      {
+        "source_column": "126",
+        "TMT_channel": "126",
+        "time_hours": 0,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "HepG2",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "127N",
+        "TMT_channel": "127N",
+        "time_hours": 6,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "HepG2",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "127C",
+        "TMT_channel": "127C",
+        "time_hours": 12,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "HepG2",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "128N",
+        "TMT_channel": "128N",
+        "time_hours": 24,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "HepG2",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "128C",
+        "TMT_channel": "128C",
+        "time_hours": 48,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "HepG2",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      },
+      {
+        "source_column": "129N",
+        "TMT_channel": "129N",
+        "time_hours": 72,
+        "treatment": "HGF 10 ng/mL",
+        "cell_line": "HepG2",
+        "sample_material": "cultured cells",
+        "replicate_type": "one measured pool of three biological replicates per timepoint",
+        "pooled_biological_replicates": 3
+      }
+    ],
+    "missing": 0,
+    "zeros": 71,
+    "license": "CC BY 4.0 author supplementary quantitative data; attribution required",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "scale": "Author reporter-ion intensity columns, distinct from provided normalized abundance and baseline-ratio columns; PSM column is annotation only",
+    "design": "Three biological replicates pooled into ONE sample for each timepoint before downstream sample preparation; six measured pooled timepoints, not 18 replicate samples",
+    "molecular_level": "Intact N-glycopeptide author source rows; composition strings parsed, encoded structure_coding retained verbatim without unverified topology conversion.",
+    "limitations": [
+      "Author zeros preserved; no new normalization/imputation or scale transformation.",
+      "Publisher access/collection restrictions are distinct from existing CC BY data reuse; no additional automated publisher collection performed.",
+      "Author composition and alternative structure-code annotations disagree at the explicitly listed Excel rows. Preserve both source annotations, flag the conflict, and leave canonical composition unknown there; no topology is selected or corrected. Compact source F is conservatively represented as dHex, although the author describes fucose."
+    ],
+    "source_reuse_terms_url": "https://ivyspring.com/terms",
+    "composition_structure_conflict_excel_rows": [
+      145,
+      537,
+      538
+    ]
+  }
+]

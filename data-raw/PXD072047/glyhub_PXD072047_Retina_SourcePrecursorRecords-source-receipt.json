@@ -1,0 +1,171 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD072047_Retina_SourcePrecursorRecords",
+      "source": "PRIDE",
+      "kind": "raw",
+      "format": "tsv",
+      "storage": "staged",
+      "filename": "glyhub_PXD072047_Retina_SourcePrecursorRecords.tsv",
+      "bytes": 591531923,
+      "sha256": "ff7a5bf29dbdb713a19bb4106a4f8fb63baf3f69db7af67d42ca123a09b426c1",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PXD072047",
+    "dataset": "glyhub_PXD072047_Retina_SourcePrecursorRecords",
+    "local_file": "Original_proteomics_quantification.http.tsv",
+    "doi": "10.1172/JCI195048",
+    "glycan_type": null,
+    "repository": "PRIDE",
+    "format": "tsv",
+    "sha256": "ff7a5bf29dbdb713a19bb4106a4f8fb63baf3f69db7af67d42ca123a09b426c1",
+    "bytes": 591531923,
+    "features": null,
+    "measurements": null,
+    "source_url": "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2026/03/PXD072047/Original_proteomics_quantification.tsv",
+    "license": "CC0 1.0 repository project grant; not publisher materials",
+    "scale": "Precursor.Quantity original linear author quantity; Precursor.Normalised alternative retained. Protein-group repeated summaries not aggregated anew.",
+    "experimental_design": "Sample_information.xlsx explicitly joins12of16Run to genotype/diabetes4groups3rep. FourRuns03,05,12,15 absentmetadata remain unknown. No source rows dropped; no inferred genotype from runnumber.",
+    "limitations": "Raw sourceasset eligible; curatedSE hold incomplete4run samplemap.591MBsource needs appropriate externalasset storage, no truncatedpreview.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_records": 765368,
+    "source_run_count": 16,
+    "source_quantitative_columns": [
+      "Precursor.Quantity",
+      "Precursor.Normalised",
+      "PG.Quantity"
+    ],
+    "known_run_mapping": [
+      {
+        "Sample number": "25NP11390001",
+        "Sample name": "R1-RG1",
+        "Biological group": "retina-group1_4",
+        "New Name submitted in PRIDE": "NCWT1",
+        "Genotype": "Wildtype",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390002",
+        "Sample name": "R2-RG1",
+        "Biological group": "retina-group1_3",
+        "New Name submitted in PRIDE": "NCWT2",
+        "Genotype": "Wildtype",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390004",
+        "Sample name": "R4-RG1",
+        "Biological group": "retina-group1_1",
+        "New Name submitted in PRIDE": "NCWT3",
+        "Genotype": "Wildtype",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390006",
+        "Sample name": "R6-RG2",
+        "Biological group": "retina-group2_3",
+        "New Name submitted in PRIDE": "DCWT1",
+        "Genotype": "Wildtype",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390007",
+        "Sample name": "R7-RG2",
+        "Biological group": "retina-group2_2",
+        "New Name submitted in PRIDE": "DCWT2",
+        "Genotype": "Wildtype",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390008",
+        "Sample name": "R8-RG2",
+        "Biological group": "retina-group2_1",
+        "New Name submitted in PRIDE": "DCWT3",
+        "Genotype": "Wildtype",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390009",
+        "Sample name": "R9-RG3",
+        "Biological group": "retina-group3_4",
+        "New Name submitted in PRIDE": "NCKI1",
+        "Genotype": "Knock-In",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390010",
+        "Sample name": "R10-RG3",
+        "Biological group": "retina-group3_3",
+        "New Name submitted in PRIDE": "NCKI2",
+        "Genotype": "Knock-In",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390011",
+        "Sample name": "R11-RG3",
+        "Biological group": "retina-group3_2",
+        "New Name submitted in PRIDE": "NCKI3",
+        "Genotype": "Knock-In",
+        "Condition": "non-diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390013",
+        "Sample name": "R13-RG4",
+        "Biological group": "retina-group4_4",
+        "New Name submitted in PRIDE": "DCKI1",
+        "Genotype": "Knock-In",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390014",
+        "Sample name": "R14-RG4",
+        "Biological group": "retina-group4_3",
+        "New Name submitted in PRIDE": "DCKI2",
+        "Genotype": "Knock-In",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      },
+      {
+        "Sample number": "25NP11390016",
+        "Sample name": "R16-RG4",
+        "Biological group": "retina-group4_1",
+        "New Name submitted in PRIDE": "DCKI3",
+        "Genotype": "Knock-In",
+        "Condition": "diabetic",
+        "Tissue": "retina"
+      }
+    ],
+    "unmapped_runs": [
+      "25NP11390003",
+      "25NP11390005",
+      "25NP11390012",
+      "25NP11390015"
+    ],
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_evidence_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD072047",
+    "feature_grain": "Original765368precursor×run longrows, exact Run+Precursor.Id unique; complete16acquisitions; sWGA-enriched proteins but ordinary tryptic peptides do not establish O-GlcNAc sites.",
+    "citation": {
+      "authors": "Wang Y et al.",
+      "title": "Disrupting VE-cadherin Y685 phosphorylation inhibits development of experimental diabetic and prediabetic retinopathy.",
+      "year": "2026",
+      "doi": "10.1172/JCI195048",
+      "url": "https://doi.org/10.1172/JCI195048"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

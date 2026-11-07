@@ -18,6 +18,16 @@ imputation or inverse transformation. Prefer original intensities where
 available; processed-only matrices explicitly document their source scale.
 \code{raw_abundance} means the source numeric matrix, not a guarantee that authors
 supplied unprocessed intensities. See each dataset's help and metadata.
+The PXD019914 relative-ratio objects are a study-specific exception: assays
+contain 2^x of author-normalized log2 ratios, with the original log2 matrix
+retained. These are linear relative ratios, not reconstructed raw intensity.
+
+Source-only literature resources use \code{glyhub_load(id, kind = "raw")} to return
+a verified file path. Here raw means original source asset, not instrument-raw
+intensity. Signed author-processed values are retained without transformation;
+some entries have no curated SE object; source-only IDs have no same-named
+loader function. PXD019914 also provides separately named relative-ratio SEs.
+See \link{glyhub_literature_sources} for scales, sample mapping and provenance.
 
 Zero-valued abundances are represented as \code{NA} in the distributed abundance
 assay. This representation differs from the original source tables, which

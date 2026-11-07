@@ -1,0 +1,205 @@
+{
+  "dataset": "glyhub_PXD023980_N_Mixture_DIA_SSL",
+  "dimensions": [
+    1066,
+    9
+  ],
+  "manifest": [
+    {
+      "dataset": "glyhub_PXD023980_N_Mixture_DIA_SSL",
+      "source": "iProX",
+      "kind": "curated",
+      "format": "rds",
+      "storage": "staged",
+      "filename": "glyhub_PXD023980_N_Mixture_DIA_SSL.rds",
+      "bytes": 293718,
+      "sha256": "213a8aa8cdb3005be1384b6a9e83453ed93ddffda1664574790fe73353e1079b",
+      "version": "noncptac-local-v1",
+      "url": "",
+      "features": 1066,
+      "measurements": 9
+    }
+  ],
+  "provenance": {
+    "status": "usable",
+    "name": "Mixture_DIA_SSL",
+    "doi": "10.1038/s41467-021-26246-3",
+    "accession": "PXD023980",
+    "iprox_accession": "IPX0002792000",
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8523693/supplementaryFiles",
+    "bytes": 1375365,
+    "sha256": "1a7c7daebb786fb4aff82e530076ff6c5fb0ada592824596ff0c85a3fdff4c14",
+    "sheet": "Precursors",
+    "header_excel_row": 2,
+    "features": 1066,
+    "measurements": 9,
+    "measurement_columns": [
+      "20200727_serum_yeast_1_1_rep2.mzML",
+      "20200727_serum_yeast_1_1_rep3.mzML",
+      "20200727_serum_yeast_1_1_rep4.mzML",
+      "20200727_serum_yeast_10_12_rep1.mzML",
+      "20200727_serum_yeast_10_12_rep2.mzML",
+      "20200727_serum_yeast_10_12_rep3.mzML",
+      "20200727_serum_yeast_10_15_rep1.mzML",
+      "20200727_serum_yeast_10_15_rep2.mzML",
+      "20200727_serum_yeast_10_15_rep4.mzML"
+    ],
+    "identity_columns": [
+      "FullPeptideName",
+      "GlycanComposition",
+      "Charge",
+      "Sequence",
+      "ProteinName",
+      "ProteinGlycoSite"
+    ],
+    "molecular_level": "intact N-glycopeptide precursor: author modified peptide + glycan composition + charge; protein/site ambiguity preserved",
+    "scale": "author median-normalized linear intensity; DIA uses top-three peak-group summation per glycopeptide; preserve exact source numbers",
+    "method": "DIA sample-specific library",
+    "gradient_hours": 1,
+    "sample": "human serum + budding yeast",
+    "design": "Technical repeat injections, NOT biological independent subjects. Same underlying sample measured by DDA/DIA variants; objects must not be counted as independent biological cohorts. Mixtures S10/S12/S15 with three technical repeats; human fraction 1:0.9:0.8 and yeast1:1.1:1.2 as reported. MOESM18 MS1 is alternative quantification of same9 runs; main panel MS2, not18 independent measurements.",
+    "range": [
+      82382.8321,
+      276847045.9824
+    ],
+    "missing": 2308,
+    "zeros": 0,
+    "negative": 0,
+    "new_transformations": [],
+    "license": "CC BY4.0 author supplement; does not claim iProX independent deposit license",
+    "mapping": [
+      {
+        "measurement": "20200727_serum_yeast_1_1_rep2.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_1_1_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200727_serum_yeast_1_1_rep2.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_1_1_rep3.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_1_1_rep3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200727_serum_yeast_1_1_rep3.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_1_1_rep4.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_1_1_rep4.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S10",
+        "input_serum_to_yeast_volume_ratio": "1:1",
+        "relative_human_concentration": 1,
+        "relative_yeast_concentration": 1,
+        "source_technical_run": "20200727_serum_yeast_1_1_rep4.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_12_rep1.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_12_rep1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200727_serum_yeast_10_12_rep1.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_12_rep2.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_12_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200727_serum_yeast_10_12_rep2.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_12_rep3.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_12_rep3.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S12",
+        "input_serum_to_yeast_volume_ratio": "1:1.2",
+        "relative_human_concentration": 0.9,
+        "relative_yeast_concentration": 1.1,
+        "source_technical_run": "20200727_serum_yeast_10_12_rep3.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_15_rep1.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_15_rep1.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200727_serum_yeast_10_15_rep1.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_15_rep2.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_15_rep2.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200727_serum_yeast_10_15_rep2.mzML"
+      },
+      {
+        "measurement": "20200727_serum_yeast_10_15_rep4.mzML",
+        "sample": "human serum + budding yeast",
+        "source_run": "20200727_serum_yeast_10_15_rep4.mzML",
+        "replicate_type": "technical repeat injection",
+        "subject_id": {},
+        "mixture_condition": "S15",
+        "input_serum_to_yeast_volume_ratio": "1:1.5",
+        "relative_human_concentration": 0.8,
+        "relative_yeast_concentration": 1.2,
+        "source_technical_run": "20200727_serum_yeast_10_15_rep4.mzML"
+      }
+    ],
+    "variant_policy": "Main default SSL result chosen; same-run LRL/EXL reanalyses retained in original-source workbook assets not claimed independent datasets. Site-Glycans/Glycosites are same-measurement author aggregate views, not independent cohorts.",
+    "local_file": "41467_2021_26246_MOESM18_ESM.xlsx",
+    "dataset": "glyhub_PXD023980_N_Mixture_DIA_SSL",
+    "measurement_columns_1based": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "composition_dictionary": {
+      "H": "Hex",
+      "N": "HexNAc",
+      "F": "Fuc",
+      "A": "NeuAc"
+    },
+    "composition_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8523693/figure/Fig3/"
+  },
+  "missing": 2308,
+  "zero": 0,
+  "typed_composition_missing": 0
+}

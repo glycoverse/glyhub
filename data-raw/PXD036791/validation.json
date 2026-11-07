@@ -1,0 +1,23 @@
+{
+  "glyhub_PXD036791_O_Secretome_GALNT1_GALNT2": {
+    "dimensions": [987, 6],
+    "source_sha256": "993c69e48510a010956d922fd491aa413305a6544301bb4db086025b38304ff3",
+    "source_cells_compared": 5922,
+    "source_values_exact": true,
+    "missing": 2,
+    "zero": 0,
+    "valid_object": true,
+    "shared_wt_retained_once": true
+  },
+  "glyhub_PXD036791_O_GALNT_TCL": {
+    "dimensions": [6789, 54],
+    "identity_fields": ["Identifier", "Accessions", "GlycoSite", "GlyNum", "GlycanType", "Sequence", "Modi", "Theo MHplus in Da"],
+    "source_cells_compared": 121872,
+    "structural_missing": 244734,
+    "gene_annotation_conflicts": 23,
+    "source_values_exact": true,
+    "source_missing": 0,
+    "source_zero": 0,
+    "valid_object": true
+  }
+}

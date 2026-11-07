@@ -1,0 +1,88 @@
+{
+  "accession": "MSV000088624",
+  "doi": "10.1038/s44161-022-00200-y",
+  "dataset": "glyhub_MSV000088624_N_HeartSurfaceome",
+  "repository": "MassIVE",
+  "glycan_type": "N",
+  "local_file": "44161_2022_200_MOESM2_ESM.xlsx",
+  "sha256": "c1c5339cbeb9ca04c3e7c7073cbb1178b291b50b615e1291d79780a01b65e525",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10030153/supplementaryFiles",
+  "sheet": "Supplementary Table 10",
+  "header_row": 3,
+  "read_range": "A3:L493",
+  "independent_quant_range": "F4:L493",
+  "feature_count": 490,
+  "missing": 28,
+  "measurement_columns": [
+    "MSV000088624_sample_001",
+    "MSV000088624_sample_002",
+    "MSV000088624_sample_003",
+    "MSV000088624_sample_004",
+    "MSV000088624_sample_005",
+    "MSV000088624_sample_006",
+    "MSV000088624_sample_007"
+  ],
+  "protein_column": "Protein",
+  "assay_scale": "author log2 normalized protein surfaceome abundance; upstream author imputation",
+  "author_processing": "Author equalize-median normalization, Tukey median-polish and AFT imputation; selected published log2 values retained; 28 supplied NA remain missing.",
+  "title": "Human non-failing and failing heart protein surfaceome",
+  "species": "Homo sapiens",
+  "license": "CC BY 4.0 original-author supplementary measurements; no separate exclusion identified",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "replication_caution": "Public derivative retains original selected abundance, necessary group and replicate design with anonymous study-local labels; source patient identifiers and individual clinical covariates are omitted.",
+  "sample_mapping": [
+    {
+      "condition": "non-failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_001"
+    },
+    {
+      "condition": "non-failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_002"
+    },
+    {
+      "condition": "non-failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_003"
+    },
+    {
+      "condition": "failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_004"
+    },
+    {
+      "condition": "failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_005"
+    },
+    {
+      "condition": "failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_006"
+    },
+    {
+      "condition": "failing",
+      "source_replication_description": "author-reported distinct biological replicate",
+      "material": "isolated cardiomyocytes",
+      "anonymous_sample": "MSV000088624_sample_007"
+    }
+  ],
+  "privacy_anonymous_columns": true,
+  "source_measurement_columns_1based": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "privacy_representation": "deidentified derivative; author values unchanged"
+}

@@ -1,0 +1,193 @@
+{
+  "status": "usable",
+  "matrix_validated": true,
+  "doi": "10.1038/s42255-026-01453-8",
+  "pmcid": "PMC12945689",
+  "accession_per_table": "unknown between article projects PXD037116 and PXD058564 pending source mapping; do not guess",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12945689/supplementaryFiles",
+  "bytes": 107574,
+  "sha256": "7f5716c5ec57ada4fc23c78fc413503a5459c4670040f5ba54713b671e536268",
+  "sheet": "sheet1",
+  "header_excel_row": 1,
+  "features": 484,
+  "measurements": 16,
+  "measurement_columns": [
+    "WT_ZT0_rep1",
+    "WT_ZT3_rep1",
+    "WT_ZT6_rep1",
+    "WT_ZT9_rep1",
+    "WT_ZT12_rep1",
+    "WT_ZT15_rep1",
+    "WT_ZT18_rep1",
+    "WT_ZT21_rep1",
+    "WT_ZT0_rep2",
+    "WT_ZT3_rep2",
+    "WT_ZT6_rep2",
+    "WT_ZT9_rep2",
+    "WT_ZT12_rep2",
+    "WT_ZT15_rep2",
+    "WT_ZT18_rep2",
+    "WT_ZT21_rep2"
+  ],
+  "identity_columns": [
+    "Master.Protein.Accessions",
+    "Master.Protein.Descriptions",
+    "Position.in.Protein",
+    "Annotated.Sequence",
+    "Glycan_composition_code",
+    "Glycan.Composition"
+  ],
+  "molecular_level": "intact N-glycopeptides from mouse liver microsomes",
+  "identity": "Keep master protein group accessions/descriptions and ambiguous source site strings intact; monosaccharide composition is not inferred glycan structure",
+  "scale": "Author relative abundance (workbook Legend); positive values, not log-transformed. Exact normalization origin unresolved and must not be labelled raw instrument intensity.",
+  "range": [
+    0.5,
+    439984.5
+  ],
+  "zeros": 0,
+  "negative": 0,
+  "missing": 3230,
+  "new_transformations": [],
+  "license": "CC BY 4.0 author supplement; license_evidence.json",
+  "design": "Wild-type mice, 8 zeitgeber timepoints ZT0,3,6,9,12,15,18,21; workbook Legend explicitly two biological replicates rep1/rep2; no inference of longitudinal sampling from same animal",
+  "mapping": [
+    {
+      "measurement": "WT_ZT0_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 0,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT3_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 3,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT6_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 6,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT9_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 9,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT12_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 12,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT15_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 15,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT18_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 18,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT21_rep1",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 21,
+      "source_biological_replicate_label": "rep1",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT0_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 0,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT3_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 3,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT6_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 6,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT9_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 9,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT12_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 12,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT15_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 15,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT18_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 18,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    },
+    {
+      "measurement": "WT_ZT21_rep2",
+      "genotype": "WT",
+      "zeitgeber_time_hours": 21,
+      "source_biological_replicate_label": "rep2",
+      "individual_animal_id": null
+    }
+  ],
+  "accession": "PMC12945689",
+  "local_file": "42255_2026_1453_MOESM5_ESM.xlsx",
+  "dataset": "glyhub_PMC12945689_N_LiverMicrosomeRhythm",
+  "glycan_type": "N",
+  "repository": "Publication",
+  "protein_column": "Master.Protein.Accessions",
+  "composition_column": "Glycan.Composition",
+  "title": "LiverMicrosomeRhythm",
+  "measurement_columns_1based": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ]
+}

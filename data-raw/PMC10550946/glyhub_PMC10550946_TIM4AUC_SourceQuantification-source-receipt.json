@@ -1,0 +1,54 @@
+{
+  "manifest": [
+    {
+      "dataset": "glyhub_PMC10550946_TIM4AUC_SourceQuantification",
+      "source": "Publication",
+      "kind": "raw",
+      "format": "xlsx",
+      "storage": "staged",
+      "filename": "glyhub_PMC10550946_TIM4AUC_SourceQuantification.xlsx",
+      "bytes": 53566,
+      "sha256": "1b534e812d75195e5b8c04e696ecf55839f859756f1367d498c0ec96e4c5ef9e",
+      "version": "literature-source-local-v1",
+      "url": ""
+    }
+  ],
+  "source_provenance": {
+    "accession": "PMC10550946",
+    "dataset": "glyhub_PMC10550946_TIM4AUC_SourceQuantification",
+    "local_file": "41467_2023_41756_MOESM11_ESM.xlsx",
+    "doi": "10.1038/s41467-023-41756-y",
+    "glycan_type": "O",
+    "repository": "Publication",
+    "format": "xlsx",
+    "sha256": "1b534e812d75195e5b8c04e696ecf55839f859756f1367d498c0ec96e4c5ef9e",
+    "bytes": 53566,
+    "features": null,
+    "measurements": null,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10550946/supplementaryFiles",
+    "license": "CC BY 4.0 author supplementary quantitative tables; attribution required; not repository CC0",
+    "scale": "Original extracted-ion chromatogram area under curve, linear, ND = not detected (per workbook Legend). Preserve ND as missing and zeros as zero. No author transformation reported.",
+    "experimental_design": "SmE, IMPa, OgpA, Trypsin respective enzyme-digest runs, not biological replicates. +Sia is separate sialidase protocol, +PNGase PNGaseF protocol. MOESM10 TIM1 and MOESM11 TIM4 single combined glycoprotease AUC profiling source; retain source files if exact source-run allocation unresolved.",
+    "limitations": "MOESM4 C1-INH has malformed original quantity 1.43+E07: retain source only, do not silently repair. MOESM6/8/9 YES/NO detection sheets are not abundance. Use complete source-table rows listed in validation, excluding formatting-only padding.",
+    "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+    "source_panels": [
+      {
+        "sheet": "Sequences",
+        "source_records": 418,
+        "area_columns": []
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "feature_grain": "Original observed glycopeptide sequence rows with source localized and unlocalized glycan annotations, charge, RT; not inferred unique structures.",
+    "citation": {
+      "authors": "Chongsaritsinsuk J et al.",
+      "title": "Glycoproteomic landscape and structural dynamics of TIM family immune checkpoints enabled by mucinase SmE.",
+      "year": "2023",
+      "doi": "10.1038/s41467-023-41756-y",
+      "url": "https://doi.org/10.1038/s41467-023-41756-y"
+    }
+  },
+  "exact_bytes_retained": true,
+  "curated_status": "Source-only: preserve complete author quantitative records; no new alignment, aggregation, missing-value replacement or scale transformation.",
+  "kind_semantics": "raw means source asset, not instrument-raw or unprocessed intensity"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT1",
+    "previous_local_sha256": "d2ac108e2fae8e433be5708902de4377b9bf5577180583433c3a480bba3d1326",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT1",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT1"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT1\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT2",
+    "previous_local_sha256": "72de9cd30425727ecde6368213b0ce7e440c2627782ea1456c4eba5aef1b8c41",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT2",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT2"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT2\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT3",
+    "previous_local_sha256": "29b3cb98e0bf8e8b49d1c32c3507d6e564463a40b609520f552cba73f64c19e2",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT3",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT3"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT3\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT6",
+    "previous_local_sha256": "689ad8a21a6b60638e14ba08c6d92ef3bd5fe212cac3c9e1d6edcd7be65a1977",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT6",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT6"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT6\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT7",
+    "previous_local_sha256": "719f3a9a89291a52454ece8cfee1ef7b85cffe23738a5689f62171dbf02123cc",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT7",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT7"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT7\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT10",
+    "previous_local_sha256": "9af454d6268cd370d8930cb5b5da584db2d59a3e3b2ba3b4933281e977945a0b",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT10",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT10"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT10\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT11",
+    "previous_local_sha256": "ad50ce4fa012764262976b1aaf159a27e2aa6d640e1f1a8e7eab2e47765ce87f",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT11",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT11"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT11\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT14",
+    "previous_local_sha256": "fe7333a75c101430a966209a8c5e3613b7cc9b6a48e5234b3b9be852de19e2d4",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT14",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT14"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT14\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  },
+  {
+    "previous_local_id": "glyhub_PXD036791_O_GALNT18",
+    "previous_local_sha256": "2645f749f169070e9af79ce8083053778a6ff6ee389e3dfc14a5fd01dc69fc30",
+    "canonical_id": "glyhub_PXD036791_O_GALNT_TCL",
+    "source_experiment": "GALNT18",
+    "column_selector": {
+      "field": "experiment",
+      "value": "GALNT18"
+    },
+    "access_original_experiment": "S4Vectors::metadata(x)$source_experiments[[\"GALNT18\"]]",
+    "status": "unpublished local identifier superseded; no silent loader alias"
+  }
+]

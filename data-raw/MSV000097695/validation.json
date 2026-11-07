@@ -1,0 +1,9 @@
+{
+  "source_sha256": "02dd50595718d7d81ee7d56cb90463d5cd319549cc6cfdbcecf86297ef578782",
+  "dimensions": [3274, 6],
+  "source_cells_compared": 19644,
+  "source_values_exact": true,
+  "zero": 1129,
+  "missing": 0,
+  "valid_object": true
+}
