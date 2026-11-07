@@ -34,8 +34,10 @@ GlycoPOST GPST000562. . Study:
 - kind:
 
   `"curated"` returns a data object; `"raw"` returns the path to a
-  verified source archive. Raw archives are currently available for
-  CPTAC.
+  verified source file. Here `"raw"` means the source asset, not
+  necessarily instrument-raw or unprocessed intensity. Some literature
+  sources contain signed author-processed matrices and have no curated
+  object.
 
 - cache_dir:
 

@@ -375,3 +375,103 @@
   : Glyco-DIA SA serum source precursor peak areas
 - [`glyhub_MSV000089484_N_HCC()`](https://glycoverse.github.io/glyhub/reference/glyhub_MSV000089484_N_HCC.md)
   : pGlycoQuant HCC cell-line source intensities
+
+## Staged literature additions
+
+- [`glyhub_MSV000097695_N_AdultWorm()`](https://glycoverse.github.io/glyhub/reference/glyhub_MSV000097695_N_AdultWorm.md)
+  : Schistosoma mansoni adult-worm source N-glycan-site abundance
+- [`glyhub_PXD013627_N_HumanCellLines()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD013627_N_HumanCellLines.md)
+  : Human cell-line N-glyco-enriched protein abundance
+- [`glyhub_PXD013627_N_MouseBCells()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD013627_N_MouseBCells.md)
+  : Mouse B-cell N-glyco-enriched protein abundance
+- [`glyhub_PXD036791_O_Secretome_GALNT1_GALNT2()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD036791_O_Secretome_GALNT1_GALNT2.md)
+  : N/TERT-1 Secretome_GALNT1_GALNT2 O-glycopeptide reporter abundance
+- [`glyhub_PXD036791_O_GALNT_TCL()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD036791_O_GALNT_TCL.md)
+  : GALNT knockout total-cell-lysate O-glycopeptide experiments
+- [`glyhub_PXD013893_N_EVEnrichmentMethods()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD013893_N_EVEnrichmentMethods.md)
+  : Plasma extracellular-vesicle N-glyco enrichment method comparison
+- [`glyhub_PXD017033_N_HGFTimecourse()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD017033_N_HGFTimecourse.md)
+  : HGF time-course glycopeptide reporter intensities in two cell lines
+- [`glyhub_PXD047982_O_24d_VVA_Run2()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_VVA_Run2.md)
+  : Mouse testis source PSM MonoArea 24d VVA 2
+- [`glyhub_PXD047982_O_24d_VVA_Run3()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_VVA_Run3.md)
+  : Mouse testis source PSM MonoArea 24d VVA 3
+- [`glyhub_PXD047982_O_24d_VVA_Run4()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_VVA_Run4.md)
+  : Mouse testis source PSM MonoArea 24d VVA 4
+- [`glyhub_PXD047982_O_24d_PNA_Run1()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_PNA_Run1.md)
+  : Mouse testis source PSM MonoArea 24d PNA 1
+- [`glyhub_PXD047982_O_24d_PNA_Run2()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_PNA_Run2.md)
+  : Mouse testis source PSM MonoArea 24d PNA 2
+- [`glyhub_PXD047982_O_24d_PNA_Run3()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_PNA_Run3.md)
+  : Mouse testis source PSM MonoArea 24d PNA 3
+- [`glyhub_PXD047982_O_24d_PNA_Run4()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_PNA_Run4.md)
+  : Mouse testis source PSM MonoArea 24d PNA 4
+- [`glyhub_PXD047982_O_24d_VVA_Run1()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_24d_VVA_Run1.md)
+  : Mouse testis source PSM MonoArea 24d VVA 1
+- [`glyhub_PXD047982_O_12w_VVA_Run2()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_VVA_Run2.md)
+  : Mouse testis source PSM MonoArea 12w VVA 2
+- [`glyhub_PXD047982_O_12w_VVA_Run3()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_VVA_Run3.md)
+  : Mouse testis source PSM MonoArea 12w VVA 3
+- [`glyhub_PXD047982_O_12w_VVA_Run4()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_VVA_Run4.md)
+  : Mouse testis source PSM MonoArea 12w VVA 4
+- [`glyhub_PXD047982_O_12w_PNA_Run1()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_PNA_Run1.md)
+  : Mouse testis source PSM MonoArea 12w PNA 1
+- [`glyhub_PXD047982_O_12w_VVA_Run1()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_VVA_Run1.md)
+  : Mouse testis source PSM MonoArea 12w VVA 1
+- [`glyhub_PXD047982_O_12w_PNA_Run2()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_PNA_Run2.md)
+  : Mouse testis source PSM MonoArea 12w PNA 2
+- [`glyhub_PXD047982_O_12w_PNA_Run3()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_PNA_Run3.md)
+  : Mouse testis source PSM MonoArea 12w PNA 3
+- [`glyhub_PXD047982_O_12w_PNA_Run4()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD047982_O_12w_PNA_Run4.md)
+  : Mouse testis source PSM MonoArea 12w PNA 4
+- [`glyhub_PXD031071_N_Surfaceome()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD031071_N_Surfaceome.md)
+  : MCF10A EMT gene-level N-enriched surfaceome expression
+- [`glyhub_PXD016713_O_ChromatinProteins()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD016713_O_ChromatinProteins.md)
+  : GalNAz-enriched chromatin proteins in MCF-7 and resistant cells
+- [`glyhub_MSV000088624_N_HeartSurfaceome()`](https://glycoverse.github.io/glyhub/reference/glyhub_MSV000088624_N_HeartSurfaceome.md)
+  : Deidentified HeartSurfaceome
+- [`glyhub_PMC9287322_N_CellLineSurfaceome()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9287322_N_CellLineSurfaceome.md)
+  : Cell-surface-capture protein panel CellLineSurfaceome
+- [`glyhub_PMC9287322_N_DrugResistance()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9287322_N_DrugResistance.md)
+  : Cell-surface-capture protein panel DrugResistance
+- [`glyhub_PMC9287322_N_SmallMolecule()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9287322_N_SmallMolecule.md)
+  : Cell-surface-capture protein panel SmallMolecule
+- [`glyhub_PMC9287322_N_PrimaryMyelomaInputs()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9287322_N_PrimaryMyelomaInputs.md)
+  : Deidentified PrimaryMyelomaInputs
+- [`glyhub_PMC9287322_N_AMO1Inputs()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9287322_N_AMO1Inputs.md)
+  : Cell-surface-capture protein panel AMO1Inputs
+- [`glyhub_PXD019914_N_Intact_RelativeRatios()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD019914_N_Intact_RelativeRatios.md)
+  : Deidentified Intact_RelativeRatios
+- [`glyhub_PXD019914_N_SPEG_RelativeRatios()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD019914_N_SPEG_RelativeRatios.md)
+  : Deidentified SPEG_RelativeRatios
+- [`glyhub_PMC12945689_N_LiverMicrosomeRhythm()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC12945689_N_LiverMicrosomeRhythm.md)
+  : LiverMicrosomeRhythm
+- [`glyhub_PMC9306173_O_C1GALT1Silencing()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9306173_O_C1GALT1Silencing.md)
+  : C1GALT1Silencing
+- [`glyhub_PMC9185890_N_AMLSurfaceome()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC9185890_N_AMLSurfaceome.md)
+  : Deidentified AMLSurfaceome
+- [`glyhub_PXD023980_N_FissionYeast_DDA1h()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_FissionYeast_DDA1h.md)
+  : GproDIA source N-glycopeptide panel FissionYeast_DDA1h
+- [`glyhub_PXD023980_N_FissionYeast_DDA6h()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_FissionYeast_DDA6h.md)
+  : GproDIA source N-glycopeptide panel FissionYeast_DDA6h
+- [`glyhub_PXD023980_N_FissionYeast_DIA_SSL()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_FissionYeast_DIA_SSL.md)
+  : GproDIA source N-glycopeptide panel FissionYeast_DIA_SSL
+- [`glyhub_PXD023980_N_BuddingYeast_DIA()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_BuddingYeast_DIA.md)
+  : GproDIA source N-glycopeptide panel BuddingYeast_DIA
+- [`glyhub_PXD023980_N_Serum_DDA()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_Serum_DDA.md)
+  : GproDIA source N-glycopeptide panel Serum_DDA
+- [`glyhub_PXD023980_N_Serum_DIA_SSL()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_Serum_DIA_SSL.md)
+  : GproDIA source N-glycopeptide panel Serum_DIA_SSL
+- [`glyhub_PXD023980_N_Mixture_DDA()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_Mixture_DDA.md)
+  : GproDIA source N-glycopeptide panel Mixture_DDA
+- [`glyhub_PXD023980_N_Mixture_DIA_SSL()`](https://glycoverse.github.io/glyhub/reference/glyhub_PXD023980_N_Mixture_DIA_SSL.md)
+  : GproDIA source N-glycopeptide panel Mixture_DIA_SSL
+- [`glyhub_IPX0011099000_N_MouseTissueAtlas()`](https://glycoverse.github.io/glyhub/reference/glyhub_IPX0011099000_N_MouseTissueAtlas.md)
+  : Mouse tissue atlas source precursor abundance across 154 LC-MS/MS
+  runs
+- [`glyhub_THNO47066_N_UrineDeglycopeptides()`](https://glycoverse.github.io/glyhub/reference/glyhub_THNO47066_N_UrineDeglycopeptides.md)
+  : Deidentified UrineDeglycopeptides
+- [`glyhub_PMC10983713_N_SerumDiseaseGroups()`](https://glycoverse.github.io/glyhub/reference/glyhub_PMC10983713_N_SerumDiseaseGroups.md)
+  : Deidentified SerumDiseaseGroups
+- [`glyhub_literature_sources`](https://glycoverse.github.io/glyhub/reference/glyhub_literature_sources.md)
+  : Author quantitative literature source representations

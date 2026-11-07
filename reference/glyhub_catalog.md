@@ -14,9 +14,8 @@ glyhub_catalog(kind = c("curated", "raw", "all"))
 
 - kind:
 
-  List `"curated"` datasets (default), `"raw"` source archives, or
-  `"all"` resources. Raw archives are currently available for CPTAC
-  only.
+  List `"curated"` datasets (default), `"raw"` source files, or `"all"`
+  resources. Source-only literature entries may lack a curated object.
 
 ## Value
 
@@ -36,16 +35,15 @@ metadata columns are:
   This is descriptive text, not a controlled classification of
   instruments.
 
-Raw archives inherit experiment and glycan types from their curated
-dataset; structure availability and quantification descriptions are `NA`
-for raw archives. Unavailable or outdated object metadata is also
-returned as `NA`.
+Source files record experiment and glycan types where supported;
+structure availability and quantification descriptions are `NA` for raw
+files. Unavailable or outdated object metadata is also returned as `NA`.
 
 ## Examples
 
 ``` r
 glyhub_catalog()[, c("dataset", "storage", "bytes")]
-#> # A tibble: 97 × 3
+#> # A tibble: 144 × 3
 #>    dataset                           storage  bytes
 #>    <chr>                             <chr>    <int>
 #>  1 glyhub_GPST000738_N_B4GalT1       release  85324
@@ -58,5 +56,5 @@ glyhub_catalog()[, c("dataset", "storage", "bytes")]
 #>  8 glyhub_GPST000271_O_CAL51         release   5336
 #>  9 glyhub_GPST000533_N_Released      release   9584
 #> 10 glyhub_GPST000533_N_Glycopeptides release  23040
-#> # ℹ 87 more rows
+#> # ℹ 134 more rows
 ```

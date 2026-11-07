@@ -1,0 +1,77 @@
+# GproDIA source N-glycopeptide panel Mixture_DDA
+
+GproDIA source N-glycopeptide panel Mixture_DDA
+
+## Usage
+
+``` r
+glyhub_PXD023980_N_Mixture_DDA(
+  kind = c("curated", "raw"),
+  cache_dir = getOption("glyhub.cache_dir", tools::R_user_dir("glyhub", "cache")),
+  refresh = FALSE,
+  offline = FALSE
+)
+```
+
+## Format
+
+A
+[glyexp::GlycoproteomicSE](https://glycoverse.github.io/glyexp/reference/GlycoproteomicSE.html)
+with 2054 source rows and 9 measurements.
+
+## Source
+
+<https://doi.org/10.1038/s41467-021-26246-3>. CC BY4.0 author
+supplement; does not claim iProX independent deposit license
+
+## Arguments
+
+- kind:
+
+  `"curated"` returns a data object; `"raw"` returns the path to a
+  verified source file. Here `"raw"` means the source asset, not
+  necessarily instrument-raw or unprocessed intensity. Some literature
+  sources contain signed author-processed matrices and have no curated
+  object.
+
+- cache_dir:
+
+  Cache directory, defaulting to `tools::R_user_dir("glyhub", "cache")`.
+  Set option `glyhub.cache_dir` to change the default.
+
+- refresh:
+
+  Download the pinned resource again, even if cached.
+
+- offline:
+
+  Prohibit downloads; require a verified local resource.
+
+## Details
+
+Technical repeat injections, NOT biological independent subjects. Same
+underlying sample measured by DDA/DIA variants; objects must not be
+counted as independent biological cohorts. Mixtures S10/S12/S15 with
+three technical repeats; human fraction 1:0.9:0.8 and yeast1:1.1:1.2 as
+reported. MOESM18 MS1 is alternative quantification of same9 runs; main
+panel MS2, not18 independent measurements. Main default SSL result
+chosen; same-run LRL/EXL reanalyses retained in original-source workbook
+assets not claimed independent datasets. Site-Glycans/Glycosites are
+same-measurement author aggregate views, not independent cohorts.
+Complete selected author precursor matrix retained; no newly aligned or
+aggregated features. Source peptide, composition, charge and ambiguous
+protein/site annotations are preserved.
+
+Source scale: author-provided linear DDA precursor abundance;
+normalization status not established for this table.
+
+All original selected source numbers are retained in the assay and
+`metadata(x)$raw_abundance`, including zeros and missing values. No
+additional normalization, imputation or inverse transformation is
+applied. No glycan structures are inferred. Consult metadata for
+provenance, source row/column coordinates, attribution and limitations.
+
+## Availability
+
+Locally staged for review; requires the maintainer's hash-verified
+cache. No public data-release URL has been assigned.

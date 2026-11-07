@@ -58,7 +58,7 @@
 <div class="section level2">
 <h2 id="available-data">Available data<a class="anchor" aria-label="anchor" href="#available-data"></a>
 </h2>
-<p>glyhub provides <strong>97 curated datasets</strong> as <code>GlycomicSE</code> or <code>GlycoproteomicSE</code> objects:</p>
+<p>glyhub provides <strong>97 released curated datasets</strong> as <code>GlycomicSE</code> or <code>GlycoproteomicSE</code> objects:</p>
 <table class="table">
 <colgroup>
 <col width="17%">
@@ -88,6 +88,8 @@
 </tr>
 </tbody>
 </table>
+<p>The development catalog also includes <strong>additional locally staged review objects</strong> from verified literature sources. They preserve complete selected author matrices, source scales and missing values. These entries have <code>storage = "staged"</code> and no download URL; they require the maintainer’s verified local cache and are <strong>not a new public data release</strong>. Reproduction instructions are under their accession directories in <code>data-raw/</code>.</p>
+<p>Some signed author-processed matrices are staged as <strong>source-only files</strong> via <code>glyhub_load(id, kind = "raw")</code>; here raw means source asset, not instrument-raw intensity. Their original scales are retained without creating a curated SE or performing an inverse transformation. See <code><a href="reference/glyhub_literature_sources.html">?glyhub_literature_sources</a></code> for exact samples, scales and provenance.</p>
 <p>Use <code><a href="reference/glyhub_catalog.html">glyhub_catalog()</a></code> to browse dataset identifiers, experiment and glycan types, structure availability and quantification methods. Each dataset’s help page describes its biological system, experimental design, source tables, units and limitations. Data are downloaded on demand from a versioned release and cached locally; see the loading examples below.</p>
 <p>Objects retain source feature annotations in <code>rowData</code>, measurement conditions and observation labels in <code>colData</code>, and original numerical values and processing records in metadata. Compatible GlycoPOST tables from the same study and glycan class are combined using supported feature identities, with source-coverage masks for unmeasured combinations. Structures are encoded only when supported by explicit evidence; unresolved annotations remain uncertain. Inclusion may cover only part of a study: GPST000602, for example, contains annotated peaks with spectrum-specific feature identities rather than an aligned feature matrix.</p>
 <p><strong>Abundance scales and missing-value rules depend on the source:</strong></p>
@@ -133,7 +135,7 @@
 <span><span class="co">#&gt; 4 glyhub_GPST000643_N         GlycoPOST  10320</span></span>
 <span><span class="co">#&gt; 5 glyhub_GPST000213_N         GlycoPOST 273048</span></span>
 <span><span class="co">#&gt; 6 glyhub_GPST000213_O         GlycoPOST  46920</span></span></code></pre></div>
-<p>Use either the common loader or a dataset’s own function. Both share the same verified cache and return the same object:</p>
+<p>For curated objects, use either the common loader or the dataset’s own function. Both share the same verified cache and return the same object:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_load.html">glyhub_load</a></span><span class="op">(</span><span class="st">"glyhub_CPTAC_CCRCC"</span><span class="op">)</span></span>
 <span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_CPTAC_CCRCC.html">glyhub_CPTAC_CCRCC</a></span><span class="op">(</span><span class="op">)</span></span>
@@ -144,6 +146,11 @@
 <span><span class="co"># Original CPTAC source archive; returns a verified local file path.</span></span>
 <span><span class="va">raw_file</span> <span class="op">&lt;-</span> <span class="fu">glyhub</span><span class="fu">::</span><span class="fu"><a href="reference/glyhub_CPTAC_CCRCC.html">glyhub_CPTAC_CCRCC</a></span><span class="op">(</span>kind <span class="op">=</span> <span class="st">"raw"</span><span class="op">)</span></span>
 <span><span class="co"># Equivalent: glyhub::glyhub_load("glyhub_CPTAC_CCRCC", kind = "raw")</span></span></code></pre></div>
+<div class="section level3">
+<h3 id="literature-ingestion-audit-2026-10-22">Literature ingestion audit (2026-10-22)<a class="anchor" aria-label="anchor" href="#literature-ingestion-audit-2026-10-22"></a>
+</h3>
+<p>The <a href="data-raw/literature-20261022/README.html">164-paper ledger</a> maps 47 locally staged curated objects and 32 processed-source representations to 33 papers, separately from existing resources. These additions are not published release assets. Pending verification does not mean a study has no data, and a linked resource does not imply complete coverage of its paper.</p>
+</div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">

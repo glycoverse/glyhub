@@ -1,6 +1,6 @@
 # Load any glyhub dataset
 
-Load any dataset from the shared external data release. Dataset
+Load any dataset from the shared external data release. Curated dataset
 identifiers also name convenience functions that call this loader with
 the same options.
 
@@ -27,8 +27,10 @@ glyhub_load(
 - kind:
 
   `"curated"` returns a data object; `"raw"` returns the path to a
-  verified source archive. Raw archives are currently available for
-  CPTAC.
+  verified source file. Here `"raw"` means the source asset, not
+  necessarily instrument-raw or unprocessed intensity. Some literature
+  sources contain signed author-processed matrices and have no curated
+  object.
 
 - cache_dir:
 
@@ -59,13 +61,15 @@ Interrupted or invalid downloads never replace a verified cached file.
 `refresh = TRUE` cannot be combined with `offline = TRUE`. Legacy
 objects without abundance `scale` metadata are upgraded in memory only
 when their dataset and verified SHA-256 match a reviewed scale record.
-Abundance values, existing metadata, and cached file bytes are
+This also covers the staged literature resources and their embedded
+original experiments. Pseudocount and unresolved post-log processing use
+`logx`. Abundance values, existing metadata, and cached file bytes are
 unchanged. Delete downloaded files from `cache_dir` to clear the cache.
 
 Dataset objects are no longer exposed through LazyData or
 [`data()`](https://rdrr.io/r/utils/data.html). Use this loader or each
-dataset's same-named function. Both return identical objects and share
-the verified cache. Consult dataset help for scientific details.
+curated dataset's same-named function. Both return identical objects and
+share the verified cache. Consult dataset help for scientific details.
 
 ## See also
 
