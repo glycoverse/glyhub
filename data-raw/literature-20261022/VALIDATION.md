@@ -37,3 +37,32 @@ The current loader adds absent scale metadata only for exact dataset/SHA-256 mat
 Package tests pass 667 expectations with zero failures, errors or warnings under both glyexp 0.18.0 and 0.19.0.9000. Separate builder checks pass 69 expectations. Nineteen scientific-cache tests are skipped, including the three literature-asset checks: the original staged cache is unavailable in this validation environment. The original full-data validation above used glyexp 0.18.0 and is historical evidence, not proof of current actual-artifact compatibility. Synthetic legacy-object/cache regressions do not substitute for rereading the 47 checksum-pinned RDS files; that remains a required check when the maintainer cache is restored.
 
 To perform that check, set `GLYHUB_LITERATURE_CACHE` to the cache containing the manifest-pinned `noncptac-local-v1` assets, then run the complete test suite with current glyexp. The scientific tests now assert each actual object's reviewed scale, embedded-object validity, source matrices, missingness and merge round-trips in addition to the existing checksum and source-preservation checks.
+
+## Recovery verification (2026-11-07)
+
+The cache-dependent verification described above has now been completed for the
+current staged registrations. See the [cache recovery report](../_shared/reports/noncptac/cache-recovery-20261107/README.md)
+for the frozen historical manifest, explicit old-to-new asset mapping, reproduction
+limits and verification summary.
+
+All 79 actual staged files were verified by SHA-256 and size. Fifty-four match
+historical bytes exactly: 27 curated RDS, three deidentified source RDS and 24
+non-RDS source files. Twenty curated and five source RDS are newly rebuilt bytes
+with updated registrations and matching metadata bindings. The unrecovered
+historical bytes of those 20 curated objects were not tested; compatibility of
+their current rebuilt artifacts must not be described as validation of the old
+artifacts. The historical manifest remains preserved, and all resources remain
+locally staged without public release URLs.
+
+With this complete 79-file cache, the full suite passed 1,545 assertions with zero
+failures, errors or warnings under both glyexp 0.18.0 and 0.19.0.9000 on R 4.6.1.
+Sixteen tests for unavailable older released-resource source assets were skipped;
+no literature scientific-cache tests were skipped. The actual curated-object audit
+covered all 47 objects and 9,833,288 cells, including reviewed scales, source values,
+missing/zero masks and embedded-experiment round-trips. Independent deep privacy
+review covered the seven human-subject curated objects and eight deidentified
+source derivatives, without claiming guaranteed anonymity.
+
+Final clean-source `R CMD check --as-cran --no-manual` with glyexp 0.19.0.9000 passed
+with 0 errors, 0 warnings and 0 notes. The historical check results above are
+retained as records of their original validation stages.

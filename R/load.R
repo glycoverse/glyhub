@@ -191,7 +191,7 @@ glyhub_load <- function(
   if (is.na(entry$url) || !nzchar(entry$url)) {
     stop(
       "This dataset is locally staged and has no published download URL. ",
-      "Build and seed its verified cache using data-raw/_shared/scripts/noncptac/build.R.",
+      "Build and seed its verified cache using the study-specific builders and receipts under data-raw/; see data-raw/_shared/README.md.",
       call. = FALSE
     )
   }

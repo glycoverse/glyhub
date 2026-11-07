@@ -68,17 +68,17 @@ matrix.
 
 **Abundance scales and missing-value rules depend on the source:**
 
-- **GlycoPOST:** zero-valued abundances become `NA` in the assay.
-  Original values and processing masks remain in metadata; glyhub adds
-  no imputation or renormalization.
-- **CPTAC:** assays contain `2^source_value`, while original log2 values
-  remain in `metadata(x)$raw_abundance`. A source zero becomes 1; source
-  missing values remain `NA`.
-- **Other published studies:** source numerical values and zeros are
-  retained, except for the documented `-1` to `NA` convention in
-  `glyhub_MSV000089484_N_HCC`. Some source tables already contain
-  normalization, imputation or feature selection, as documented in the
-  dataset help.
+-   **GlycoPOST:** zero-valued abundances become `NA` in the assay.
+    Original values and processing masks remain in metadata; glyhub adds
+    no imputation or renormalization.
+-   **CPTAC:** assays contain `2^source_value`, while original log2
+    values remain in `metadata(x)$raw_abundance`. A source zero becomes
+    1; source missing values remain `NA`.
+-   **Other published studies:** source numerical values and zeros are
+    retained, except for the documented `-1` to `NA` convention in
+    `glyhub_MSV000089484_N_HCC`. Some source tables already contain
+    normalization, imputation or feature selection, as documented in the
+    dataset help.
 
 Consult `?glyhub_data_conventions` and the dataset help before comparing
 assays. `raw_abundance` preserves the selected source matrix and may
@@ -158,4 +158,9 @@ raw_file <- glyhub::glyhub_CPTAC_CCRCC(kind = "raw")
 
 ### Literature ingestion audit (2026-10-22)
 
-The [164-paper ledger](data-raw/literature-20261022/README.md) maps 47 locally staged curated objects and 36 original processed-source assets to 34 papers, separately from existing resources. These additions are not published release assets. Pending verification does not mean a study has no data, and a linked resource does not imply complete coverage of its paper.
+The [164-paper ledger](data-raw/literature-20261022/README.md) maps 47
+locally staged curated objects and 32 processed-source representations
+to 33 papers, separately from existing resources. These additions are
+not published release assets. Pending verification does not mean a study
+has no data, and a linked resource does not imply complete coverage of
+its paper.

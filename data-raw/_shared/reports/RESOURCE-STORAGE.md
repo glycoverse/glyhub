@@ -1,6 +1,6 @@
 # External data resources
 
-All 83 curated datasets are hosted on the single `data-v0.1.0` GitHub Release.
+All 97 released curated datasets are hosted on the single `data-v0.1.0` GitHub Release.
 No dataset objects are installed with the package. `inst/extdata/manifest.tsv`
 is the authority for resource filenames, SHA-256, sizes, versions and URLs.
 

@@ -140,4 +140,4 @@ raw_file <- glyhub::glyhub_CPTAC_CCRCC(kind = "raw")
 
 ### Literature ingestion audit (2026-10-22)
 
-The [164-paper ledger](data-raw/literature-20261022/README.md) maps 47 locally staged curated objects and 36 original processed-source assets to 34 papers, separately from existing resources. These additions are not published release assets. Pending verification does not mean a study has no data, and a linked resource does not imply complete coverage of its paper.
+The [164-paper ledger](data-raw/literature-20261022/README.md) maps 47 locally staged curated objects and 32 processed-source representations to 33 papers, separately from existing resources. These additions are not published release assets. Pending verification does not mean a study has no data, and a linked resource does not imply complete coverage of its paper.

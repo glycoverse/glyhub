@@ -346,3 +346,33 @@ test_that("public human source representations are explicit derivatives and held
     vapply(sources, `[[`, character(1), "dataset")
   )))
 })
+
+test_that("staged source-only metadata hashes agree with raw registrations", {
+  raw <- glyhub_catalog("raw")
+  raw <- raw[raw$storage == "staged", ]
+  curated <- glyhub_catalog("curated")
+  expect_false(any(raw$dataset %in% curated$dataset))
+  metadata <- utils::read.delim(
+    system.file("extdata", "catalog-metadata.tsv", package = "glyhub"),
+    stringsAsFactors = FALSE
+  )
+  sources <- jsonlite::fromJSON(
+    system.file(
+      "extdata",
+      "literature-source-metadata.json",
+      package = "glyhub"
+    ),
+    simplifyVector = FALSE
+  )
+  expect_setequal(names(sources), raw$dataset)
+  for (i in seq_len(nrow(raw))) {
+    entry <- raw[i, ]
+    expect_identical(
+      metadata$sha256[match(entry$dataset, metadata$dataset)],
+      entry$sha256,
+      info = entry$dataset
+    )
+    expect_identical(sources[[entry$dataset]]$sha256, entry$sha256)
+    expect_identical(sources[[entry$dataset]]$format, entry$format)
+  }
+})
