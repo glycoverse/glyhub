@@ -83,7 +83,8 @@ glyhub_catalog <- function(kind = c("curated", "raw", "all")) {
 #' only when their dataset and verified SHA-256 match a reviewed scale record.
 #' This also covers the staged literature resources and their embedded original
 #' experiments. Pseudocount and unresolved post-log processing use `logx`.
-#' Abundance values, existing metadata, and cached file bytes are unchanged.
+#' Component names are synchronized through public glyexp conversions after
+#' scale verification. Abundance values and cached file bytes are unchanged.
 #' Delete downloaded files from `cache_dir` to clear the cache.
 #'
 #' Dataset objects are no longer exposed through LazyData or `data()`. Use this
@@ -172,8 +173,16 @@ glyhub_load <- function(
     stop("Invalid glyhub resource class.", call. = FALSE)
   }
   x <- .glyhub_upgrade_metadata(x, entry)
+  x <- .glyhub_normalize_se(x)
   methods::validObject(x)
   x
+}
+
+.glyhub_normalize_se <- function(x) {
+  if (methods::is(x, "GlycomicSE")) {
+    return(glyexp::as_glycomic_se(x))
+  }
+  glyexp::as_glycoproteomic_se(x)
 }
 
 .glyhub_resource_file <- function(entry, cache_dir, refresh, offline) {
