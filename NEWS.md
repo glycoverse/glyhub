@@ -1,6 +1,6 @@
 # glyhub (development version)
 
-* The loader synchronizes historical assay and annotation axis names through public glyexp conversions after dataset/SHA-256 scale verification. Verified cache files and abundance values are unchanged.
+* The loader synchronizes historical assay and annotation axis names through public glyexp conversions after dataset/SHA-256 scale verification. Verified cache files and abundance values are unchanged. (#8)
 
 
 * Supply reviewed abundance scales for the 47 staged literature resources and their eleven embedded source experiments, pinning legacy migration to the exact resource hashes. Builders now set scales explicitly and reject mixed-scale experiment merges. Pseudocount and unresolved post-log processing use `logx`; assay values, provenance and cache bytes are unchanged.
