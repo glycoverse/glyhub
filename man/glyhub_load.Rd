@@ -46,7 +46,8 @@ Legacy objects without abundance \code{scale} metadata are upgraded in memory
 only when their dataset and verified SHA-256 match a reviewed scale record.
 This also covers the staged literature resources and their embedded original
 experiments. Pseudocount and unresolved post-log processing use \code{logx}.
-Abundance values, existing metadata, and cached file bytes are unchanged.
+Component names are synchronized through public glyexp conversions after
+scale verification. Abundance values and cached file bytes are unchanged.
 Delete downloaded files from \code{cache_dir} to clear the cache.
 
 Dataset objects are no longer exposed through LazyData or \code{data()}. Use this
