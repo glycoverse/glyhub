@@ -66,5 +66,6 @@ row/column coordinates, attribution and limitations.
 
 ## Availability
 
-Locally staged for review; requires the maintainer's hash-verified
-cache. No public data-release URL has been assigned.
+Available from the versioned `data-v0.2.0` GitHub data release.
+Downloads are verified by file size and SHA-256 and cached for offline
+reuse.
