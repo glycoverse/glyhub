@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/glycoverse/glyhub/blob/data-v0.2.0/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/glycoverse/glyhub/blob/v0.2.1/DESCRIPTION)
 
 Fu B (2026). *glyhub: Curated Glycomics and Glycoproteomics Data
 Resources*. R package version 0.2.1,
