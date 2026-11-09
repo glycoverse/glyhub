@@ -1,4 +1,8 @@
-# glyhub (development version)
+# glyhub 0.2.1
+
+## Minor improvements and bug fixes
+
+* `glyhub_load()` and the 47 literature dataset loaders now download the verified assets from `data-v0.2.0` without a preseeded cache. All 47 curated objects and 32 source files retain their existing SHA-256 checksums and scientific content; existing `data-v0.1.0` resources are unchanged.
 
 # glyhub 0.2.0
 

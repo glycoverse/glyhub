@@ -8,12 +8,12 @@
 #' The result is a hash-verified file path, not an SE. These source-file entries
 #' have no same-named convenience function; some have separate curated objects. Here
 #' `"raw"` denotes the source asset, not raw spectra or unprocessed intensity.
-#' Of the 32 newly staged source entries, 24 retain original source bytes and
+#' Of the 32 source entries released in `data-v0.2.0`, 24 retain original source bytes and
 #' eight are explicitly deidentified RDS derivatives. The latter contain unchanged
 #' quantitative values and necessary analysis groups, but omit original subject
 #' labels and individual clinical covariates. No original-to-new subject map is
 #' published. This is not a guarantee against re-identification from public data.
-#' Entries are locally staged with no release URL and require a seeded cache.
+#' Entries download from `data-v0.2.0` and are verified by size and SHA-256.
 #'
 #' PXD019914 provides `glyhub_PXD019914_N_Intact_AuthorProcessed` (15,512 by 129)
 #' and `glyhub_PXD019914_N_SPEG_AuthorProcessed` (5,115 by 129). Each deidentified

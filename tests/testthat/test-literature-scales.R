@@ -47,7 +47,7 @@ strip_literature_scales <- function(x) {
   x
 }
 
-test_that("all 47 staged literature scales match independent source decisions and hashes", {
+test_that("all 47 released literature scales match independent source decisions and hashes", {
   expected <- reviewed_literature_scales()
   approved <- .glyhub_literature_scales()
   root <- approved[approved$parent_dataset == "", c("dataset", "scale")]
@@ -58,7 +58,7 @@ test_that("all 47 staged literature scales match independent source decisions an
     c(37L, 7L, 3L)
   )
   catalog <- glyhub_catalog()
-  staged <- catalog[catalog$storage == "staged", ]
+  staged <- catalog[catalog$version == "data-v0.2.0", ]
   expect_setequal(staged$dataset, expected$dataset)
   root <- approved[approved$parent_dataset == "", ]
   expect_identical(

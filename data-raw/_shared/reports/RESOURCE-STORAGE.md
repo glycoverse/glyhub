@@ -1,6 +1,10 @@
 # External data resources
 
-All 97 released curated datasets are hosted on the single `data-v0.1.0` GitHub Release.
+The original 97 curated datasets and eight CPTAC source archives remain hosted on `data-v0.1.0`.
+An additional 47 curated datasets and 32 source representations are hosted on
+`data-v0.2.0`; use glyhub 0.2.1 or later to download them through the package.
+All data-v0.2.0 assets preserve their verified hashes and scientific content.
+The data release includes per-resource attribution and licensing notices.
 No dataset objects are installed with the package. `inst/extdata/manifest.tsv`
 is the authority for resource filenames, SHA-256, sizes, versions and URLs.
 

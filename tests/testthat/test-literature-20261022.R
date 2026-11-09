@@ -77,13 +77,13 @@ test_that("existing release entries and their scientific metadata are unchanged"
   }
 })
 
-test_that("literature additions are honest locally staged catalog entries", {
+test_that("literature additions have pinned public data release URLs", {
   m <- glyhub_catalog()
   i <- match(literature_names, m$dataset)
   expect_false(anyNA(i))
   e <- m[i, ]
-  expect_true(all(e$storage == "staged"))
-  expect_true(all(is.na(e$url) | e$url == ""))
+  expect_true(all(e$storage == "release"))
+  expect_true(all(grepl("/data-v0.2.0/", e$url, fixed = TRUE)))
   expect_true(all(e$exp_type == "glycoproteomics"))
   expect_true(all(!e$has_glycan_structures))
   expect_true(all(!is.na(e$quant_method)))
@@ -241,9 +241,9 @@ test_that("verified literature assets retain complete source matrices", {
 
 test_that("source representations use the existing verified file path", {
   m <- glyhub_catalog("raw")
-  e <- m[m$storage == "staged", ]
+  e <- m[m$version == "data-v0.2.0", ]
   expect_equal(nrow(e), 32L)
-  expect_true(all(is.na(e$url) | e$url == ""))
+  expect_true(all(grepl("/data-v0.2.0/", e$url, fixed = TRUE)))
   expect_true(all(is.na(e$quant_method)))
   cache <- Sys.getenv("GLYHUB_LITERATURE_CACHE")
   if (!nzchar(cache) || !dir.exists(cache)) {
@@ -347,9 +347,9 @@ test_that("public human source representations are explicit derivatives and held
   )))
 })
 
-test_that("staged source-only metadata hashes agree with raw registrations", {
+test_that("released source-only metadata hashes agree with raw registrations", {
   raw <- glyhub_catalog("raw")
-  raw <- raw[raw$storage == "staged", ]
+  raw <- raw[raw$version == "data-v0.2.0", ]
   curated <- glyhub_catalog("curated")
   expect_false(any(raw$dataset %in% curated$dataset))
   metadata <- utils::read.delim(

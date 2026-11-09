@@ -12,7 +12,7 @@ test_that("all datasets and their convenience functions use external storage", {
   expect_equal(nrow(x), 144L)
   expect_equal(anyDuplicated(x$dataset), 0L)
   expect_equal(sum(x$storage == "bundled"), 0L)
-  expect_equal(sum(x$storage == "release"), 97L)
+  expect_equal(sum(x$storage == "release"), 144L)
   expect_equal(nrow(glyhub_catalog("raw")), 40L)
   expect_equal(nrow(glyhub_catalog("all")), 184L)
   expect_match(x$sha256, "^[a-f0-9]{64}$")
