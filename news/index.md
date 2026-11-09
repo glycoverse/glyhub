@@ -1,63 +1,42 @@
 # Changelog
 
-## glyhub (development version)
+## glyhub 0.2.0
 
-- The loader synchronizes historical assay and annotation axis names
-  through public glyexp conversions after dataset/SHA-256 scale
-  verification. Verified cache files and abundance values are unchanged.
+### New features
+
+- [`glyhub_catalog()`](https://glycoverse.github.io/glyhub/reference/glyhub_catalog.md)
+  includes 47 locally staged curated datasets and 32 source
+  representations for literature review, with provenance and source-data
+  licenses; these resources require a verified local cache and are not
+  downloadable data assets in this release.
+- Locally staged GALNT lysate and HGF cell-line datasets provide
+  consolidated molecular-key and annotation-group matrices while
+  retaining original experiments, source values, and missingness;
+  explicit migration maps identify the replaced local dataset names.
+- Locally staged human datasets use study-local labels in place of
+  original subject identifiers and individual clinical covariates; four
+  EV source representations with unresolved subject linkage remain
+  withheld.
+- The staged PXD019914 dataset provides linear relative ratios obtained
+  from author-normalized log2 ratios, with the original log2 matrix,
+  missingness, zeros, and QC roles retained; these values are not raw
+  intensities.
+
+### Minor improvements and bug fixes
+
+- [`glyhub_load()`](https://glycoverse.github.io/glyhub/reference/glyhub_load.md)
+  restores reviewed abundance scales for historical resources and staged
+  literature datasets after dataset and SHA-256 verification, without
+  changing scientific values or cached files.
+- [`glyhub_load()`](https://glycoverse.github.io/glyhub/reference/glyhub_load.md)
+  synchronizes historical assay and annotation axis names through public
+  glyexp conversions for compatibility with glyexp 0.20.0.
   ([\#8](https://github.com/glycoverse/glyhub/issues/8))
-
-- Supply reviewed abundance scales for the 47 staged literature
-  resources and their eleven embedded source experiments, pinning legacy
-  migration to the exact resource hashes. Builders now set scales
-  explicitly and reject mixed-scale experiment merges. Pseudocount and
-  unresolved post-log processing use `logx`; assay values, provenance
-  and cache bytes are unchanged.
-
-- Remove original human subject/sample identifiers and individual
-  clinical covariates from seven curated objects and eight source
-  representations, preserving quantitative values and necessary study
-  design with study-local labels. Withhold four EV originals with
-  unresolved subject linkage; do not publish a reverse identity map.
-
-- Consolidate nine unpublished GALNT lysate objects into a 6,789-by-54
-  exact molecular-key union and two HGF cell-line objects into a
-  2,318-by-12 annotation-group union. Retain every original experiment,
-  batch, source value and native missingness; distinguish structural
-  missing cells. Explicit migration maps replace the eleven old local
-  identifiers without silent aliases. Secretome remains separate.
-
-- Stage 47 curated objects and 32 source representations (24 original
-  files and eight deidentified derivatives) from the literature
-  assessment, including additional source-preserving glycoproteomics
-  objects for literature review, with provenance, licenses, complete
-  selected author matrices and independent source-value checks. These
-  objects require the maintainer’s verified local cache; no data release
-  is published.
-
-- Distinguish protein-level N-glyco-enrichment, site-associated
-  O-glycopeptide reporter signals and N-site/composition measurements.
-  Retain source log2 scales, missing values and zeros; do not infer
-  absent structures, sites or replicate independence.
-
-- Support signed author-processed source files through the existing
-  `kind = "raw"` path interface, without changing the curated assay
-  contract or transforming values. Multi-run GPSM source files are not
-  aligned matrices or independent cohorts.
-
-- For PXD019914 only, curate `2^x` of explicitly author-normalized log2
-  ratios as linear relative ratios, not raw intensity. Retain the
-  original log2 matrix, missingness, source zeros and ten QC roles;
-  other signed source files remain unchanged.
-
-- Loading legacy data resources now restores reviewed abundance scale
-  metadata in memory, matched by dataset and SHA-256, for compatibility
-  with glyexp 0.19. Existing scale metadata and all scientific values
-  remain unchanged.
-
-- Correct the GPST000120 rebuild specification so the shared matrix
-  builder retains Spike/ACE2 sample annotations. Published data assets
-  are unchanged.
+- `glyhub_load(kind = "raw")` supports signed author-processed source
+  files without changing their values or treating multi-run GPSM files
+  as aligned sample matrices.
+- The GPST000120 rebuild retains Spike/ACE2 sample annotations; existing
+  published data assets are unchanged.
 
 ## glyhub 0.1.0
 
